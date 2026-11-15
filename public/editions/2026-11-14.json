@@ -1,0 +1,287 @@
+{
+  "date": "2026-11-14",
+  "sections": {
+    "india": [
+      {
+        "label": "Economy · 13 Nov",
+        "headline": "India’s October exports rose to $49.47 billion",
+        "summary": "The Federation of Indian Export Organisations said merchandise exports rose 45.06% year on year in October. Shipments grew in 43 of India’s top 50 export destinations.",
+        "context": "A broad rise across destinations matters more than growth concentrated in one buyer. Check whether volumes and export values grow together in the next release.",
+        "source": "FIEO",
+        "sourceUrl": "https://fieo.org/en/press-releases.php?dcd=14348",
+        "image": "/images/cargo.jpg"
+      },
+      {
+        "label": "Prices · October CPI",
+        "headline": "Retail inflation moved above 6%",
+        "summary": "India’s provisional consumer inflation reading reached 6.09% in October, up from 5.54% in September. The food index also recorded faster price growth.",
+        "context": "The headline is a national average. Food can account for a larger share of spending for some households, making their experience of inflation different.",
+        "source": "MoSPI via PIB",
+        "sourceUrl": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/nov/doc_10457_20261112_15543001.pdf",
+        "image": "/images/rice.jpg"
+      },
+      {
+        "label": "Assam · 13 Nov",
+        "headline": "A bus and truck collided near Kaziranga",
+        "summary": "Authorities said at least 24 people died after a bus collided with a container truck in Assam on Friday, the Associated Press reported.",
+        "context": "The fatality count reflected the reporting available on Friday. The circumstances of the collision were still being established.",
+        "source": "Associated Press",
+        "sourceUrl": "https://apnews.com/article/a7e5efd120b97b1fe2cc030dd77f08ba",
+        "image": "/images/city.jpg"
+      },
+      {
+        "label": "Air quality · 13 Nov",
+        "headline": "Some Delhi monitors recorded severe air quality",
+        "summary": "On Friday, the monitor at AIIMS recorded an AQI of 418 and Rajokri recorded 402, The Indian Express reported. Both readings were in the severe category.",
+        "context": "Pollution can vary within a city. These are station readings, which can differ from the citywide average.",
+        "source": "The Indian Express",
+        "sourceUrl": "https://indianexpress.com/article/india/today-india-breaking-news-live-updates-13-november-2026-delhi-aqi-severe-aiims-iaf-officer-espionage-adani-satara-10961128/",
+        "image": "/images/delhi.jpg"
+      },
+      {
+        "label": "Trade · 14–27 Nov",
+        "headline": "The India International Trade Fair opens in Delhi",
+        "summary": "Commerce Minister Piyush Goyal inaugurated the 45th edition at Bharat Mandapam on Friday. The fair runs from 14 to 27 November.",
+        "context": "The event puts businesses, exporters and artisans in front of buyers. Goyal used the opening to urge Indian firms to explore markets through trade agreements.",
+        "source": "Press Information Bureau",
+        "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2336069&lang=1&reg=3",
+        "image": "/images/delhi.jpg"
+      }
+    ],
+    "world": [
+      {
+        "label": "Diplomacy · 14 Nov IST",
+        "headline": "The US and Russia announced plans for a three-way summit",
+        "summary": "The White House and Kremlin said Donald Trump, Xi Jinping and Vladimir Putin planned to meet on the sidelines of the APEC summit in Shenzhen.",
+        "context": "The announcement described a planned meeting. The final guest list and agenda would determine how much room there is for substantive talks.",
+        "source": "Associated Press",
+        "sourceUrl": "https://apnews.com/article/5fe92253ef38100bae913834a9b74d72",
+        "image": "/images/world.jpg"
+      },
+      {
+        "label": "Climate · 13 Nov",
+        "headline": "COP31 heard urgent calls for climate finance",
+        "summary": "Developing countries sought faster funding for climate action at COP31 in Antalya. Reuters reported limited appetite among wealthier countries to move quickly.",
+        "context": "A funding promise is easier to evaluate when it specifies the amount, payer, recipient and delivery date. Those details matter for planning projects.",
+        "source": "Reuters",
+        "sourceUrl": "https://www.reuters.com/sustainability/cop/urgent-climate-finance-pleas-cop31-face-non-urgent-response-2026-11-13/",
+        "image": "/images/planet.jpg"
+      },
+      {
+        "label": "Ukraine · 13 Nov",
+        "headline": "Ukraine anticipates a large prisoner exchange",
+        "summary": "Volodymyr Zelenskyy said a planned exchange with Russia would be the largest of its kind so far, Anadolu reported.",
+        "context": "An exchange announcement offers families a signal of progress. Its scale is clear when the parties complete it and release details.",
+        "source": "Anadolu Agency",
+        "sourceUrl": "https://www.aa.com.tr/en/world/morning-briefing-nov-13/4123624",
+        "image": "/images/city-world.jpg"
+      },
+      {
+        "label": "Gaza · 13 Nov",
+        "headline": "Israeli strikes killed several people in Gaza",
+        "summary": "Anadolu reported that Israeli strikes killed several people in Gaza. The report was part of its Friday international briefing.",
+        "context": "Reports during conflict can change as information arrives. A subsequent verified update may provide a clearer count and timeline.",
+        "source": "Anadolu Agency",
+        "sourceUrl": "https://www.aa.com.tr/en/world/morning-briefing-nov-13/4123624",
+        "image": "/images/city-world.jpg"
+      },
+      {
+        "label": "US economy · 13 Nov",
+        "headline": "The US debate over an energy shock and interest rates",
+        "summary": "US Treasury Secretary Scott Bessent and Chicago Fed President Austan Goolsbee differed on how monetary policy should respond to higher energy prices, Reuters reported.",
+        "context": "Oil prices can raise overall inflation quickly. Policymakers also look for signs that those costs are spreading to wages, other prices and expectations.",
+        "source": "Reuters",
+        "sourceUrl": "https://www.reuters.com/business/us-treasury-chief-says-fed-should-not-hike-rates-over-energy-shock-tied-iran-war-2026-11-13/",
+        "image": "/images/ocean.jpg"
+      }
+    ],
+    "markets": [
+      {
+        "label": "Indices · 13 Nov close",
+        "headline": "Nifty ended Friday down 0.61%",
+        "summary": "Nifty 50 closed at 25,144.30 and Sensex at 81,592.45, down 0.61% and 0.39%, respectively. Regular equity trading was closed on Saturday.",
+        "context": "Reuters cited elevated oil and domestic inflation as pressures on Friday. Watch whether the next session’s moves are broad or concentrated in a few stocks.",
+        "source": "DIPAM",
+        "sourceUrl": "https://dipam.gov.in/resources/pdf/publication/Market_Monitor-13.11.2026.pdf",
+        "image": "/images/markets.jpg"
+      },
+      {
+        "label": "Sectors · 13 Nov close",
+        "headline": "Banks and autos lagged the broader market",
+        "summary": "Nifty Bank fell 0.79% and Nifty Auto fell 1.07% on Friday. Moneycontrol also reported declines of about 1% in realty and metals.",
+        "context": "Compare sector performance with each index’s largest constituents. A few heavily weighted names can explain much of an index move.",
+        "source": "Moneycontrol",
+        "sourceUrl": "https://www.moneycontrol.com/news/business/stocks/taking-stock-market-snaps-3-day-gains-nifty-below-25-150-sensex-slips-319-pts-14079376.html",
+        "image": "/images/charts.jpg"
+      },
+      {
+        "label": "IPO · 13 Nov",
+        "headline": "Crystal Crop set a ₹259–272 IPO price band",
+        "summary": "Crystal Crop Protection’s offer was scheduled to open on 18 November. It combines new equity with shares sold by an existing shareholder.",
+        "context": "The new share issue raises money for the company. The proceeds of the offer for sale go to the selling shareholder. The prospectus explains the split.",
+        "source": "The Economic Times",
+        "sourceUrl": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-sets-price-band-for-rs-455-49-crore-ipo-issue-opens-on-november-18/articleshow/135790747.cms",
+        "image": "/images/city.jpg"
+      },
+      {
+        "label": "Commodities · 13 Nov morning",
+        "headline": "Brent was near $95 and Indian gold near ₹1.36 lakh",
+        "summary": "Financial Express reported a Friday-morning Brent quote near $95 per barrel and an indicative 24-carat gold price in India of ₹1,36,330 per 10 grams.",
+        "context": "These quotes are snapshots. Look at when the quote was captured and whether the price is for spot gold, a futures contract or a retail sale.",
+        "source": "Financial Express",
+        "sourceUrl": "https://www.financialexpress.com/market/sensex-nifty-50-stock-market-today-live-updates-india-us-iran-israel-war-asia-nikkei-gold-silver-rate-crude-oil-13november2026-4383219/",
+        "image": "/images/gold.jpg"
+      },
+      {
+        "label": "Company results · 13 Nov close",
+        "headline": "Automotive Axles rose after its quarterly results",
+        "summary": "Moneycontrol reported that Automotive Axles gained about 10% after releasing its quarterly numbers, even as the benchmark and auto index fell.",
+        "context": "Check how revenue, margins and cash generation changed. A sharp one-day move can reflect how the report differed from expectations.",
+        "source": "Moneycontrol",
+        "sourceUrl": "https://www.moneycontrol.com/news/business/stocks/taking-stock-market-snaps-3-day-gains-nifty-below-25-150-sensex-slips-319-pts-14079376.html",
+        "image": "/images/work.jpg"
+      }
+    ],
+    "tech": [
+      {
+        "label": "Models · 12 Nov",
+        "headline": "Google introduced Gemini 4 Hydrogen",
+        "summary": "Google announced Gemini 4 Hydrogen for agent-style work, including coding. It described availability through the Gemini app, Search, developer tools and other Google products.",
+        "context": "The model name alone tells you little about an application. Test how many steps it can complete reliably in the workflow you actually use.",
+        "source": "Google",
+        "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-Hydrogen/",
+        "image": "/images/tech.jpg"
+      },
+      {
+        "label": "Chips · 13 Nov",
+        "headline": "Nvidia’s leadership change puts its strategy in focus",
+        "summary": "Nvidia disclosed that its board accepted Jensen Huang’s resignation as CEO. Associated Press reported that the change raised questions for the company and the wider AI industry.",
+        "context": "Nvidia sells chips plus software and networking that customers rely on. Leadership changes can prompt questions about the roadmap for all three.",
+        "source": "Associated Press",
+        "sourceUrl": "https://apnews.com/article/1b7431af84c9d78773c277672a9486f3",
+        "image": "/images/server.jpg"
+      },
+      {
+        "label": "IT services · 13 Nov",
+        "headline": "Microsoft 365 outage disrupted Teams and Outlook",
+        "summary": "A Microsoft 365 outage affected access to Outlook, Teams and other services, Reuters reported. Some connectors used by AI tools were also affected.",
+        "context": "A cloud dependency can affect many apps at once. Check which workflows still work if the shared identity or collaboration service goes down.",
+        "source": "Reuters via Euronext",
+        "sourceUrl": "https://live.euronext.com/en/financial-news/microsoft-outage-drags-hours-disrupting-outlook-teams-businesses-and-governments",
+        "image": "/images/desk.jpg"
+      },
+      {
+        "label": "Shopping · 13 Nov",
+        "headline": "Amazon is exploring a wider catalogue for AI shopping",
+        "summary": "Reuters reviewed an internal document describing a World Product Graph to collect data about products sold across the web, including items Amazon does not stock.",
+        "context": "A shopping assistant needs structured data to compare items. The company with better catalogue coverage may shape what its agents can find.",
+        "source": "Reuters",
+        "sourceUrl": "https://www.reuters.com/business/media-telecom/amazons-plan-own-worlds-product-data-fight-ai-shopping-agents-2026-11-13/",
+        "image": "/images/work.jpg"
+      },
+      {
+        "label": "AI agents · 13 Nov",
+        "headline": "ChatGPT Wallet begins a limited US rollout",
+        "summary": "OpenAI announced a wallet for approved agent purchases. The initial release was for eligible US ChatGPT Pro subscribers using dots.",
+        "context": "The ability to approve a purchase matters more than an agent’s ability to suggest one. The proposed purchase and the total price need to be clear at approval.",
+        "source": "OpenAI",
+        "sourceUrl": "https://openai.com/index/introducing-chatgpt-wallet/",
+        "image": "/images/wallet.jpg"
+      }
+    ],
+    "mind": [
+      {
+        "label": "Learning science",
+        "headline": "Space your practice if you want it to stick",
+        "summary": "A review of verbal-memory studies found that spreading practice sessions improved long-term recall, with the useful gap depending partly on when the learner would be tested.",
+        "context": "Review a new concept over several days, then try recalling it from memory. Adjust the gap to the date you want to remember it.",
+        "source": "Psychological Bulletin",
+        "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/16719566/",
+        "image": "/images/books.jpg"
+      },
+      {
+        "label": "Choice psychology",
+        "headline": "The frame can change which risk feels acceptable",
+        "summary": "Tversky and Kahneman found that people could prefer different options when equivalent outcomes were expressed as gains or losses.",
+        "context": "When a choice sounds especially appealing, rewrite both options using the same baseline and units. See whether the preference survives the change in wording.",
+        "source": "Science",
+        "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/7455683/",
+        "image": "/images/mind.jpg"
+      },
+      {
+        "label": "Habits",
+        "headline": "Give the habit a cue you can recognise",
+        "summary": "Research on implementation intentions studied plans that specify both a situation and an action. An example is opening today’s briefing after setting down breakfast.",
+        "context": "Choose a cue that already occurs each day, then attach one simple action. The cue reminds you to start without needing a new decision each time.",
+        "source": "American Psychologist",
+        "sourceUrl": "https://www.prospectivepsych.org/sites/default/files/pictures/Gollwitzer_Implementation-intentions-1999.pdf",
+        "image": "/images/people.jpg"
+      },
+      {
+        "label": "Evolutionary biology",
+        "headline": "One E. coli lineage found a new way to use citrate",
+        "summary": "In the long-term E. coli experiment, one lineage evolved the ability to use citrate in oxygenated conditions. Revisiting frozen earlier populations helped researchers trace steps that made the change possible.",
+        "context": "An earlier mutation can make a later possibility accessible. Evolution’s outcomes can depend on the order in which changes occur.",
+        "source": "PNAS",
+        "sourceUrl": "https://doi.org/10.1073/pnas.0803151105",
+        "image": "/images/tech.jpg"
+      },
+      {
+        "label": "Evolutionary genetics",
+        "headline": "Sticklebacks changed where a gene was expressed",
+        "summary": "Research traced reduced pelvic structures in some freshwater sticklebacks to changes associated with reduced expression of the Pitx1 gene in the developing pelvis.",
+        "context": "Evolution can change when or where a gene acts. That can affect a specific body part while preserving other uses of the same gene.",
+        "source": "Nature",
+        "sourceUrl": "https://www.nature.com/articles/nature02415",
+        "image": "/images/bird.jpg"
+      }
+    ],
+    "marketing": [
+      {
+        "label": "India · Partner campaign · 13 Nov",
+        "headline": "Turtlemint moved partner payouts earlier for Diwali",
+        "summary": "Turtlemint paired a social film with an operational change. It brought forward base motor-insurance payouts for eligible sales partners and used the film to show what timely earnings could mean during the festival.",
+        "context": "A campaign can make a brand promise tangible through something the business does. Identify a point where changing the timing of a service would help the audience.",
+        "source": "Passionate in Marketing",
+        "sourceUrl": "https://www.passionateinmarketing.com/turtlemint-launches-its-brand-campaign-early-diwali-turtlemint-wali-announces-early-payouts-for-its-partners/",
+        "image": "/images/gifts.jpg"
+      },
+      {
+        "label": "India · Product films · 5 Nov",
+        "headline": "Birla Opus dramatized the cost of putting off waterproofing",
+        "summary": "Birla Opus and BBDO India made three films that show people delaying waterproofing until the trouble becomes visible. Everyday moments make the consequences of waiting easier to picture.",
+        "context": "Show the effect of procrastination in a scene the audience recognises. It makes a preventive product benefit more concrete.",
+        "source": "afaqs!",
+        "sourceUrl": "https://www.afaqs.com/news/advertising/birla-opus-paints-highlights-the-value-of-waterproofing-with-new-alldry-campaign-12786490",
+        "image": "/images/marketing.jpg"
+      },
+      {
+        "label": "India · Public outreach · 13–15 Nov",
+        "headline": "Diabetes 360 brought experts to regional digital channels",
+        "summary": "Swasthya Plus Network’s Bhubaneswar-led campaign used interviews, educational videos and web stories. It distributed them through the platforms of Swasthya Plus Odia, OdishaLIVE and IFI Foundation.",
+        "context": "For a public-interest message, combine subject experts with channels people in the community already use. Adapt the format to how each channel’s audience learns.",
+        "source": "International Diabetes Federation event listing",
+        "sourceUrl": "https://worlddiabetesday.org/activities/events/diabetes-360/",
+        "image": "/images/mind.jpg"
+      },
+      {
+        "label": "Global · US brand film · 2 Nov",
+        "headline": "Nordstrom gave a holiday gathering a Bowie soundtrack",
+        "summary": "The retailer built a holiday film around “Let’s Dance,” using a living-room dance scene to showcase the shared experience of gifting. The campaign used streaming TV as well as the retailer’s own channels.",
+        "context": "A familiar piece of music can cue a mood quickly. Choose a track that supports an action viewers can imagine themselves taking.",
+        "source": "Nordstrom",
+        "sourceUrl": "https://nordstrom.gcs-web.com/news-releases/news-release-details/nordstrom-debuts-holiday-campaign-set-david-bowies-lets-dance",
+        "image": "/images/people.jpg"
+      },
+      {
+        "label": "Global · Oman outreach · 13 Nov",
+        "headline": "A diabetes outreach day took screening into the community",
+        "summary": "A World Diabetes Day event in Suhar was designed to combine screening and public education at a local outreach event. Its organiser used a global observance to give residents a specific place and date to act.",
+        "context": "A global awareness day offers a reason to pay attention. A local appointment or concrete activity gives people a next step.",
+        "source": "International Diabetes Federation event listing",
+        "sourceUrl": "https://worlddiabetesday.org/activities/events/community-diabetes-wellness-day/",
+        "image": "/images/city.jpg"
+      }
+    ]
+  }
+}

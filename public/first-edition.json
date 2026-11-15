@@ -1,0 +1,287 @@
+{
+  "date": "2026-11-15",
+  "sections": {
+    "india": [
+      {
+        "label": "Diplomacy · 14 Nov",
+        "headline": "Pakistan to send a minister to Delhi for SCO forum",
+        "summary": "Pakistan said a minister would attend the Shanghai Cooperation Organisation’s Civilisational Dialogue Forum in New Delhi. Reuters described it as the first visit by a Pakistani minister to India in three years.",
+        "context": "A multilateral event gives officials a chance to share a room even when bilateral talks are limited. The forum is scheduled for 20–22 November.",
+        "source": "Reuters",
+        "sourceUrl": "https://www.reuters.com/world/india/pakistani-minister-visit-india-first-time-three-years-sco-meets-2026-11-14/",
+        "image": "/images/delhi.jpg"
+      },
+      {
+        "label": "Air quality · 14 Nov",
+        "headline": "Delhi’s air remains very poor",
+        "summary": "Delhi’s AQI was 348 at 9 a.m. on Saturday. Seven monitoring stations reported severe air quality.",
+        "context": "The citywide reading can hide local differences. Check your nearest monitor if you need to make plans based on air quality.",
+        "source": "The Indian Express",
+        "sourceUrl": "https://indianexpress.com/article/india/breaking-news-live-updates-14-november-2026-delhi-aqi-childrens-day-kerala-weather-flights-pollution-nvidia-share-price-accidents-10962590/",
+        "image": "/images/city.jpg"
+      },
+      {
+        "label": "Food prices · 14 Nov",
+        "headline": "Tamil Nadu caps rice and pulse stocks",
+        "summary": "Tamil Nadu imposed stock limits on rice, paddy and pulses as prices rose. Traders must declare inventory and bring excess stocks within the limits by 16 November.",
+        "context": "Stock limits aim to release supplies into the market. Retail prices over the next few weeks will show whether supplies actually reach shoppers.",
+        "source": "The Indian Express",
+        "sourceUrl": "https://indianexpress.com/article/india/breaking-news-live-updates-14-november-2026-delhi-aqi-childrens-day-kerala-weather-flights-pollution-nvidia-share-price-accidents-10962590/",
+        "image": "/images/rice.jpg"
+      },
+      {
+        "label": "Mumbai · 15 Nov",
+        "headline": "Mumbai’s CNG price rises to ₹91.50 per kg",
+        "summary": "Mahanagar Gas raised the price of compressed natural gas in Mumbai and adjoining areas by ₹1.50 a kilogram, effective Sunday.",
+        "context": "Fuel costs matter for CNG-dependent operators such as taxis and autorickshaws. Fuel-price changes and fare revisions occur on separate timetables.",
+        "source": "The Indian Express",
+        "sourceUrl": "https://indianexpress.com/article/cities/mumbai/mumbai-cng-price-hike-mgl-rs-91-50-per-kg-november-15-10963167/lite/",
+        "image": "/images/city.jpg"
+      },
+      {
+        "label": "Elections · 14 Nov",
+        "headline": "A Pune voter-roll inquiry traces disputed address changes",
+        "summary": "The Indian Express reported that Pune election officials flagged irregular requests to move voters between constituencies. The Maharashtra election office ordered an inquiry.",
+        "context": "A voter’s address determines where their name appears on the roll. A disputed edit can leave someone looking for their name in the wrong constituency.",
+        "source": "The Indian Express",
+        "sourceUrl": "https://indianexpress.com/article/india/breaking-news-live-updates-14-november-2026-delhi-aqi-childrens-day-kerala-weather-flights-pollution-nvidia-share-price-accidents-10962590/",
+        "image": "/images/vote.jpg"
+      }
+    ],
+    "world": [
+      {
+        "label": "Ukraine · 14 Nov",
+        "headline": "Zelenskyy questions a US proposal on European security",
+        "summary": "Ukraine’s president said a European security framework floated by US officials could benefit Vladimir Putin. He said US officials had raised the prospect of a Donbas withdrawal in exchange for NATO membership.",
+        "context": "Territory and security guarantees are separate bargaining questions. Linking them affects what Ukraine would give up and what outside partners would commit to.",
+        "source": "Associated Press",
+        "sourceUrl": "https://apnews.com/article/f9a8629626c087424f05adc85d127780",
+        "image": "/images/world.jpg"
+      },
+      {
+        "label": "Climate · 15 Nov",
+        "headline": "A fossil-fuel transition coalition presses ahead",
+        "summary": "At COP31 in Antalya, a group of countries plans to present national transition plans after Colombia withdrew. Ireland and Tuvalu are set to take over leadership.",
+        "context": "These national plans can show who is prepared to set implementation dates and commit funding, even while negotiations continue at the broader UN summit.",
+        "source": "Associated Press",
+        "sourceUrl": "https://apnews.com/article/09c81f8bc4afd44fb6a4c5a804b74cab",
+        "image": "/images/planet.jpg"
+      },
+      {
+        "label": "Shipping · 14 Nov",
+        "headline": "Iran reports three tanker fires in the Strait of Hormuz",
+        "summary": "Iran’s navy said three tankers were on fire after striking mines in the Strait of Hormuz. Reuters attributed the account to Iran’s navy.",
+        "context": "Even disruptions to a few ships can affect this narrow route by raising freight and insurance costs and delaying deliveries.",
+        "source": "Reuters",
+        "sourceUrl": "https://www.reuters.com/world/middle-east/irans-navy-says-oil-tanker-fire-after-hitting-mine-hormuz-2026-11-14/",
+        "image": "/images/cargo.jpg"
+      },
+      {
+        "label": "Diplomacy · 14 Nov",
+        "headline": "US and Russia push for a meeting China is wary of hosting",
+        "summary": "Reuters reported that Donald Trump and Vladimir Putin were pushing for a meeting that Chinese President Xi Jinping was reluctant to host on the proposed terms.",
+        "context": "Who hosts and who sits at the table can shape what gets discussed, especially when the talks involve other countries’ security.",
+        "source": "Reuters",
+        "sourceUrl": "https://www.reuters.com/world/china/new-yalta-trump-putin-push-meeting-that-xi-is-wary-hosting-2026-11-14/",
+        "image": "/images/city-world.jpg"
+      },
+      {
+        "label": "South Sudan · 14 Nov",
+        "headline": "South Sudan pushes its first national election to February",
+        "summary": "South Sudan’s election commission moved polling day to 11 February 2027, replacing its previous December timetable.",
+        "context": "Several delays have prolonged the country’s political transition. Voter registration and logistical deadlines will help show whether the revised date is workable.",
+        "source": "Associated Press",
+        "sourceUrl": "https://apnews.com/article/c62033bb79a606ef8ce7e335cfc8478b",
+        "image": "/images/ocean.jpg"
+      }
+    ],
+    "markets": [
+      {
+        "label": "Indices · Friday close",
+        "headline": "Nifty and Sensex slipped into the weekend",
+        "summary": "At the 13 November close, Nifty 50 ended at 25,144.30 (−0.61%) and Sensex at 81,592.45 (−0.39%). Indian equity markets were closed over the weekend.",
+        "context": "Higher oil prices and inflation were among the factors Reuters cited. Compare the next opening move with market breadth to see how widely it is shared.",
+        "source": "DIPAM",
+        "sourceUrl": "https://dipam.gov.in/resources/pdf/publication/Market_Monitor-13.11.2026.pdf",
+        "image": "/images/markets.jpg"
+      },
+      {
+        "label": "Sectors and stocks · Friday close",
+        "headline": "Autos fell around 1% while Hitachi Energy India rallied",
+        "summary": "Nifty Auto slipped 1.07% on Friday, and metal and realty indices fell around 1%. Hitachi Energy India gained around 11% after quarterly results, according to Moneycontrol.",
+        "context": "Look at the earnings release for order intake and margins. A company-specific move can tell a different story from a broad sector index.",
+        "source": "Moneycontrol",
+        "sourceUrl": "https://www.moneycontrol.com/news/business/stocks/taking-stock-market-snaps-3-day-gains-nifty-below-25-150-sensex-slips-319-pts-14079376.html",
+        "image": "/images/charts.jpg"
+      },
+      {
+        "label": "IPO calendar · 15 Nov",
+        "headline": "Crystal Crop and Mahanadi Coalfields are on the IPO calendar",
+        "summary": "Crystal Crop’s offer was reported to open 18 November and close 20 November. Mahanadi Coalfields and SME issuer Watrana Rentals were reported to open 19 November.",
+        "context": "Check the exchange notice and prospectus for subscription windows, lots and listing dates. Crystal Crop’s reported 26 November listing date is tentative.",
+        "source": "The Economic Times",
+        "sourceUrl": "https://m.economictimes.com/markets/ipos/fpos/ipo-calendar-mahanadi-coalfields-among-3-companies-to-raise-over-rs-10000-cr-in-busy-week-for-primary-market/articleshow/135848817.cms",
+        "image": "/images/city.jpg"
+      },
+      {
+        "label": "Commodities · Friday quotes",
+        "headline": "Gold and crude give India two different price signals",
+        "summary": "On Friday morning, Financial Express cited Brent near $95 per barrel and an indicative India 24-carat gold rate of ₹1,36,330 per 10 grams. These were published snapshots.",
+        "context": "A weaker rupee can raise the Indian cost of both dollar-priced commodities. Check the city and purity for retail gold, and compare Brent with USD/INR.",
+        "source": "Financial Express",
+        "sourceUrl": "https://www.financialexpress.com/market/sensex-nifty-50-stock-market-today-live-updates-india-us-iran-israel-war-asia-nikkei-gold-silver-rate-crude-oil-13november2026-4383219/",
+        "image": "/images/gold.jpg"
+      },
+      {
+        "label": "Foreign flows · Through 13 Nov",
+        "headline": "Foreign investors returned to Indian equities in November",
+        "summary": "Foreign portfolio investors put ₹84,290 crore into Indian equities in the first 13 days of November, the Times of India reported, following two months of net selling.",
+        "context": "Check whether fresh daily inflows continue as oil and inflation move. The month-to-date figure shows what has happened so far.",
+        "source": "Times of India",
+        "sourceUrl": "https://timesofindia.indiatimes.com/business/india-business/fpis-pump-rs-84290-crore-into-indian-equities-in-november-after-two-months-of-outflows/articleshow/135850868.cms",
+        "image": "/images/markets.jpg"
+      }
+    ],
+    "tech": [
+      {
+        "label": "AI agents · 14 Nov IST",
+        "headline": "ChatGPT Wallet gives agents a way to make purchases",
+        "summary": "The Verge reported that OpenAI’s ChatGPT Wallet lets its Dots agents make purchases on a user’s behalf after approval.",
+        "context": "Payments make the scope of approval important. A useful interface needs to show what the agent is buying and what the user is agreeing to pay.",
+        "source": "The Verge",
+        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+        "image": "/images/wallet.jpg"
+      },
+      {
+        "label": "AI chips · Week ahead",
+        "headline": "Nvidia earnings will test expectations for AI chips",
+        "summary": "Reuters identified Nvidia’s upcoming results as a test for the AI trade after a volatile period for the chipmaker.",
+        "context": "Demand guidance can give a clearer signal about planned data-centre investment than a single day’s share-price move.",
+        "source": "Reuters",
+        "sourceUrl": "https://www.reuters.com/business/wall-st-week-ahead-nvidia-results-anthropic-ipo-pose-tests-tumultuous-ai-trade-2026-11-13/",
+        "image": "/images/tech.jpg"
+      },
+      {
+        "label": "AI labs · Week ahead",
+        "headline": "Anthropic prepares to face public-market scrutiny",
+        "summary": "Reuters reported that Anthropic’s planned IPO will be a major event for AI investors in the coming week.",
+        "context": "Public filings can give readers a closer look at how a frontier AI lab funds its computing costs and how quickly its revenue grows.",
+        "source": "Reuters",
+        "sourceUrl": "https://www.reuters.com/business/wall-st-week-ahead-nvidia-results-anthropic-ipo-pose-tests-tumultuous-ai-trade-2026-11-13/",
+        "image": "/images/server.jpg"
+      },
+      {
+        "label": "AI governance · Context",
+        "headline": "Lawsuit asks court to halt frontier AI development",
+        "summary": "Reuters reported that a lawsuit against OpenAI, Google and Anthropic sought to stop frontier AI development. The companies were named as defendants.",
+        "context": "The complaint is a request for relief. Watch whether the court grants any temporary order and how it defines the work an order would cover.",
+        "source": "Reuters",
+        "sourceUrl": "https://www.reuters.com/business/openai-google-anthropic-hit-with-lawsuit-seeking-halt-frontier-ai-development-2026-11-12/",
+        "image": "/images/desk.jpg"
+      },
+      {
+        "label": "Creative tools · This week",
+        "headline": "Adobe previews a way for agents to edit native project files",
+        "summary": "Adobe announced a preview of local integrations that would let third-party agents work in Photoshop, Illustrator, Premiere and After Effects via MCP.",
+        "context": "Editing the underlying project can let a creator inspect or revise individual layers and cuts after an agent has worked on them.",
+        "source": "Adobe",
+        "sourceUrl": "https://news.adobe.com/news/2026/11/adobe-transforms-creative-cloud-tools",
+        "image": "/images/work.jpg"
+      }
+    ],
+    "mind": [
+      {
+        "label": "Learning science",
+        "headline": "Remember more by trying to recall it first",
+        "summary": "In experiments using prose passages, Roediger and Karpicke found that recalling the material from memory improved delayed retention compared with spending the time studying it again.",
+        "context": "After a story, look away and say the main point in one sentence. Then check which detail you left out.",
+        "source": "Psychological Science",
+        "sourceUrl": "https://doi.org/10.1111/j.1467-9280.2006.01693.x",
+        "image": "/images/books.jpg"
+      },
+      {
+        "label": "Metacognition",
+        "headline": "You may understand the zipper less than you think",
+        "summary": "Rozenblit and Keil found that people lowered their ratings of how well they understood familiar mechanisms after trying to explain how those mechanisms worked.",
+        "context": "Before you say you understand a process, explain what happens at each step. The first step you cannot connect to the next is where to look closer.",
+        "source": "Cognitive Science",
+        "sourceUrl": "https://doi.org/10.1207/s15516709cog2605_1",
+        "image": "/images/mind.jpg"
+      },
+      {
+        "label": "Social behaviour",
+        "headline": "When everyone thinks everyone else is fine with it",
+        "summary": "In a classic campus study, students thought their peers were more comfortable with campus drinking practices than they themselves were.",
+        "context": "A group can look united when many members privately have doubts. Asking people individually can reveal a different picture from watching the room.",
+        "source": "Journal of Personality and Social Psychology",
+        "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/8433272/",
+        "image": "/images/people.jpg"
+      },
+      {
+        "label": "Evolutionary biology",
+        "headline": "A jumping DNA sequence helped make moths darker",
+        "summary": "Researchers traced the dark form of the British peppered moth to an inserted piece of DNA in the cortex gene. Dark moths became common during industrialisation.",
+        "context": "This is a case where researchers identified a specific mutation behind a visible trait tracked through a changing environment.",
+        "source": "Nature",
+        "sourceUrl": "https://www.nature.com/articles/nature17951",
+        "image": "/images/nature.jpg"
+      },
+      {
+        "label": "Natural selection",
+        "headline": "A drought shifted the beaks of Darwin’s finches",
+        "summary": "During drought on Daphne Major, medium ground finches with smaller beaks had a survival advantage when they competed with larger ground finches for seed.",
+        "context": "The advantage came from local conditions and a competitor. Evolution can favour different traits in a different place or year.",
+        "source": "Science",
+        "sourceUrl": "https://doi.org/10.1126/science.1128374",
+        "image": "/images/bird.jpg"
+      }
+    ],
+    "marketing": [
+      {
+        "label": "India · Brand film · 12 Nov",
+        "headline": "SBI tells Diwali from the perspective of people on duty",
+        "summary": "SBI’s Diwali film, made with Dora Digs, follows people who stay at work so others can celebrate at home. It pays tribute to essential workers whose shifts continue through the festival.",
+        "context": "Look for the people who make a familiar occasion possible. Telling the story from their perspective can make a well-worn festive theme feel specific again.",
+        "source": "Impact",
+        "sourceUrl": "https://www.impactonnet.com/more-from-impact/sbi-unveils-ghar-se-dur-ghar-wali-diwali-campaign-with-an-emotional-approach-17593.html",
+        "image": "/images/marketing.jpg"
+      },
+      {
+        "label": "India · Product storytelling · 12 Nov",
+        "headline": "HDFC SKY gives each product feature a short film",
+        "summary": "HDFC SKY announced eight shorts built around everyday money decisions. The first four use situations such as getting a raise or starting an internship to introduce investing features. TV, social cutdowns and regional-language versions extend the campaign.",
+        "context": "Start a product demo with a moment the audience recognises. One situation per film makes it easier to picture when a feature would come in handy.",
+        "source": "afaqs!",
+        "sourceUrl": "https://www.afaqs.com/news/advertising/hdfc-sky-highlights-investing-features-through-new-campaign-films-12803821",
+        "image": "/images/marketing.jpg"
+      },
+      {
+        "label": "India · Public outreach · 1–30 Nov",
+        "headline": "India pairs pension reminders with help to act on them",
+        "summary": "The pensions department is promoting digital life certificates through SMS, radio, short films and local camps. Partners include banks, post offices and pensioner associations. Doorstep support is available where required.",
+        "context": "Behavioural design can reduce the effort between hearing a message and acting on it. A reminder can tell people what to do, and nearby help can make the task easier to finish.",
+        "source": "Press Information Bureau",
+        "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2330361&lang=2&reg=48",
+        "image": "/images/city.jpg"
+      },
+      {
+        "label": "Global · Retail activation · 5 Nov",
+        "headline": "LEGO lets shoppers step inside its holiday ad",
+        "summary": "LEGO’s holiday film sends one brick through a fictional workshop set to Daft Punk. The campaign carries the workshop into physical stores with hands-on builds, minifigure activities and interactive window displays.",
+        "context": "Give viewers a way to take part in the world you show on screen. LEGO connects the film to retail with an activity people can do as soon as they arrive.",
+        "source": "The LEGO Group",
+        "sourceUrl": "https://www.lego.com/en-gb/aboutus/news/2026/november/the-lego-group-unveils-its-2026-holiday-ad",
+        "image": "/images/toys.jpg"
+      },
+      {
+        "label": "Global · UK brand film · 3 Nov",
+        "headline": "John Lewis turns gift anxiety into a Christmas story",
+        "summary": "The UK retailer’s three-minute film follows a grandmother and a toy from her childhood as she searches for a gift her grandchildren will enjoy. It debuted across social channels and prime-time television.",
+        "context": "The campaign starts with the pressure to get a gift right. A familiar worry gives the audience a reason to follow the story before the retailer enters the scene.",
+        "source": "John Lewis Partnership",
+        "sourceUrl": "https://www.johnlewispartnership.co.uk/media-centre/latest-news/2026/23969",
+        "image": "/images/gifts.jpg"
+      }
+    ]
+  }
+}
