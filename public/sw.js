@@ -1,4 +1,4 @@
-const shellCache = 'morning-edition-shell-v3';
+const shellCache = 'morning-edition-shell-v4';
 const dataCache = 'morning-edition-data-v1';
 const shell = [
   '/', '/app.js', '/edition-format.js', '/style.css', '/manifest.webmanifest',
@@ -23,7 +23,8 @@ self.addEventListener('fetch', event => {
   const {request} = event;
   const url = new URL(request.url);
   if (request.method !== 'GET' || url.origin !== self.location.origin) return;
-  const isData = seeds.includes(url.pathname) || ['/api/edition','/api/editions'].includes(url.pathname);
+  const isData = seeds.includes(url.pathname) || ['/api/edition','/api/editions'].includes(url.pathname) ||
+    /^\/editions\/\d{4}-\d{2}-\d{2}\.json$/.test(url.pathname);
   const isShell = shell.includes(url.pathname) || url.pathname.startsWith('/images/') || request.mode === 'navigate';
   if (!isData && !isShell) return;
   event.respondWith((async () => {

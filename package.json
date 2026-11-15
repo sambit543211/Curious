@@ -3,7 +3,15 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "engines": {"node": "22.x"},
-  "scripts": {"dev": "python3 -m http.server 4173 --directory public", "check": "node scripts/check.mjs"},
-  "dependencies": {"web-push": "3.6.7"}
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "dev": "python3 -m http.server 4173 --directory public",
+    "check": "node scripts/check.mjs",
+    "build": "node scripts/build-editions.mjs"
+  },
+  "dependencies": {
+    "web-push": "3.6.7"
+  }
 }

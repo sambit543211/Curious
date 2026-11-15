@@ -218,7 +218,7 @@ async function readCatalog() {
   lastLookup = Date.now();
   try {
     const [local, live] = await Promise.allSettled([
-      bundled.size ? Promise.resolve(null) : jsonAt('/editions/index.json'),
+      jsonAt('/editions/index.json'),
       jsonAt('/api/editions')
     ]);
     for (const entry of local.value?.editions ?? []) {
@@ -226,9 +226,10 @@ async function readCatalog() {
     }
     if (Array.isArray(live.value?.dates)) {
       remote = true;
-      publishing = live.value.publishing === true;
+      publishing = live.value.publishing === true || local.value?.publishing === true;
       catalog = [...new Set([...bundled.keys(), ...live.value.dates.filter(isDay)])].sort().reverse();
     } else {
+      publishing ||= local.value?.publishing === true;
       catalog = [...new Set([...bundled.keys(), ...catalog])].sort().reverse();
     }
   } finally { checkingCatalog = false; }
