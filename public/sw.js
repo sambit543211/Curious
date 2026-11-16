@@ -1,8 +1,8 @@
-const shellCache = 'morning-edition-shell-v4';
+const shellCache = 'morning-edition-shell-v5';
 const dataCache = 'morning-edition-data-v1';
 const shell = [
   '/', '/app.js', '/edition-format.js', '/style.css', '/manifest.webmanifest',
-  '/fonts/dm-sans.woff2', '/fonts/instrument-serif.woff2', '/fonts/instrument-serif-italic.woff2',
+  '/fonts/dm-sans.woff2',
   '/images/icon-192.png', '/images/icon-512.png',
   ...['india','world','markets','tech','mind','marketing'].map(id => '/images/' + id + '.jpg')
 ];

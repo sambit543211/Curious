@@ -20,4 +20,10 @@ On iPhone, open the production address in Safari, select **Share → Add to Home
 
 The app can also read editions from an Upstash archive when `UPSTASH_REDIS_REST_URL` and `UPSTASH_REDIS_REST_TOKEN` are configured. This backend is used for direct Web Push subscribers. To turn on app-native notifications through the existing research and notification endpoint, set the Redis values, `OPENAI_API_KEY`, `CRON_SECRET`, `VAPID_PUBLIC_KEY`, `VAPID_PRIVATE_KEY` and a `mailto:` `VAPID_SUBJECT` as Vercel production variables. The authorized `/api/refresh` endpoint requires the cron secret as a bearer token. The daily ChatGPT task publishes to GitHub independently of these credentials.
 
-Stock photographs are illustrative and sourced from [Unsplash](https://unsplash.com/license). News and research sources are linked on each card.
+## Photo credits
+
+Stock photos are illustrative. News and research sources are linked on each card.
+
+- Phuket Old Town, cropped and resized. [Lisa van Vliet on Unsplash](https://unsplash.com/photos/colorful-buildings-line-a-busy-street-wsh74QVKijI)
+- Car assembly, cropped and resized. [Lenny Kuhne on Unsplash](https://unsplash.com/photos/gray-vehicle-being-fixed-inside-factory-using-robot-machines-jHZ70nRk7Ns)
+- Male Trinidadian guppy by Amy E. Deacon, Hideyasu Shimadzu, Maria Dornelas, Indar W. Ramnarine and Anne E. Magurran, converted to JPEG. [Original photo](https://commons.wikimedia.org/wiki/File:Trinidadian_guppy_(Poecilia_reticulata)_male.png) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
