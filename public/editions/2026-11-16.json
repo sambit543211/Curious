@@ -3,190 +3,190 @@
   "sections": {
     "india": [
       {
-        "label": "Diplomacy · 16 Nov",
-        "headline": "Modi heads to Manila for the ASEAN and East Asia summits",
-        "summary": "Prime Minister Narendra Modi left for Manila ahead of the ASEAN–India and East Asia summits on 17 November. He put trade, connectivity and maritime security among India’s priorities.",
-        "context": "Watch for concrete commitments on trade and transport links in the summit statements.",
-        "source": "Hindustan Times",
-        "sourceUrl": "https://www.hindustantimes.com/india-news/trade-indo-pacific-in-focus-as-pm-modi-heads-to-manila-for-asean-quad-summits-101794793365384.html",
-        "image": "/images/india.jpg"
-      },
-      {
-        "label": "Weather · 16 Nov",
-        "headline": "IMD expects the Bay of Bengal depression to strengthen",
-        "summary": "In its Monday morning outlook, the IMD forecast that the deep depression could become Cyclone Akvan by evening and strengthen further on 17 November.",
-        "context": "The track and intensity can change as the system develops. For coastal travel, check the latest IMD bulletin and district advisories.",
-        "source": "Hindustan Times",
-        "sourceUrl": "https://www.hindustantimes.com/india-news/ht-morning-news-brief-november-16-us-carrier-in-west-asia-iran-imd-cyclone-akvan-odi-world-cup-2027-santosh-davakhar-101794796723729.html",
+        "label": "Cyclone watch · 16 Nov",
+        "headline": "IMD puts Andhra Pradesh and south Odisha on cyclone watch",
+        "summary": "The IMD’s 5:30 a.m. IST bulletin tracked a deep depression over the Bay of Bengal. It forecast a severe cyclone by 17 November and a very severe cyclone near Andhra Pradesh around the night of 19 November.",
+        "context": "Fishing and coastal operations could be disrupted. Follow the IMD’s track updates and warnings for your district and waters.",
+        "source": "India Meteorological Department",
+        "sourceUrl": "https://mausam.imd.gov.in/backend/assets/cyclone_pdf/6__National_Bulletin_No_6-16Nov2026_0530IST.pdf",
         "image": "/images/ocean.jpg"
-      },
-      {
-        "label": "Climate innovation · 16 Nov",
-        "headline": "The Earthshot Prize brings William and Kate to Mumbai",
-        "summary": "Prince William and Catherine arrived in Mumbai on Monday for a three-day visit centred on the Earthshot Prize, which recognises environmental solutions.",
-        "context": "The awards offer a shortlist of projects to follow. Look for evidence that the winning ideas can work at a larger scale.",
-        "source": "Reuters",
-        "sourceUrl": "https://www.reuters.com/world/uk/uks-prince-william-princess-kate-arrive-mumbai-three-day-trip-2026-11-16/",
-        "image": "/images/city.jpg"
       },
       {
         "label": "Trade · 15 Nov",
         "headline": "Goyal says India and the US agreed on preferential access",
-        "summary": "Commerce Minister Piyush Goyal said on Sunday that the US had agreed to give Indian goods preferential access relative to competing suppliers. He did not specify product-level rates or an implementation date.",
-        "context": "The commercial effect will depend on the covered products, tariff schedules and effective dates.",
+        "summary": "Commerce Minister Piyush Goyal said Sunday that the US had agreed in principle to give Indian goods lower duties than competing suppliers. Talks on the first phase of the trade deal continue.",
+        "context": "The advantage for exporters will depend on products covered, final tariff schedules and when those rates take effect.",
         "source": "Times of India",
         "sourceUrl": "https://timesofindia.indiatimes.com/business/india-business/preferential-trade-access-already-agreed-piyush-goyals-big-update-on-india-us-trade-deal/articleshow/135851339.cms",
         "image": "/images/cargo.jpg"
       },
       {
-        "label": "Delhi · 16 Nov",
-        "headline": "Chhath and the trade fair bring Delhi traffic changes",
-        "summary": "Delhi Traffic Police advised commuters to avoid affected roads around Bharat Mandapam during the trade fair and announced Chhath restrictions near five Yamuna ghats.",
-        "context": "The two events affect different parts of Delhi. Check the route-specific advisory before travelling.",
+        "label": "Prices · 16 Nov",
+        "headline": "India’s wholesale-price release puts input costs in focus",
+        "summary": "October wholesale inflation is due on Monday. September’s reading rose to 11.39%, with fuel and power prices up 25.85% year on year.",
+        "context": "Watch whether cost pressures broaden beyond fuel. Higher input costs can squeeze manufacturers’ margins and feed through to retail prices.",
         "source": "Business Standard",
-        "sourceUrl": "https://www.business-standard.com/india-news/delhi-traffic-alert-iitf-congestion-chhath-puja-curbs-to-affect-commuters-126111600063_1.html",
-        "image": "/images/delhi.jpg"
+        "sourceUrl": "https://www.business-standard.com/economy/news/modi-philippines-asean-summit-wpi-inflation-unemployment-forex-reserve-126111600783_1.html",
+        "image": "/images/charts.jpg"
+      },
+      {
+        "label": "Diplomacy · 16 Nov",
+        "headline": "Modi heads to Manila for the ASEAN and East Asia summits",
+        "summary": "The prime minister departed for Manila on Monday for the 17 November summits, highlighting trade, transport links and maritime security in India’s ties with ASEAN.",
+        "context": "Watch the summit statements for trade and transport commitments that could affect how Indian firms reach Southeast Asian markets.",
+        "source": "Prime Minister’s Office via PIB",
+        "sourceUrl": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2336707&lang=2&reg=48",
+        "image": "/images/world.jpg"
+      },
+      {
+        "label": "Aviation safety · 16 Nov",
+        "headline": "US FAA starts five-day audit of India’s aviation oversight",
+        "summary": "The FAA scheduled a 16–20 November assessment of India’s safety oversight, including airworthiness, flight operations and licensing. India currently holds the US regulator’s Category 1 rating.",
+        "context": "Watch the findings and the rating decision. The assessment can affect Indian airlines’ ability to expand US routes and codeshares.",
+        "source": "Hindustan Times",
+        "sourceUrl": "https://www.hindustantimes.com/india-news/us-faa-begins-5-day-audit-of-dgca-s-safety-oversight-system-101794768518414-amp.html",
+        "image": "/images/india.jpg"
       }
     ],
     "world": [
       {
-        "label": "Southeast Asia · 16 Nov",
-        "headline": "ASEAN opens its Manila summit",
-        "summary": "Southeast Asian leaders opened their annual summit with the economic fallout from global conflicts, Myanmar and tensions in the South China Sea on the agenda.",
-        "context": "The final communiqué will show how far members agree on maritime rules and engagement with Myanmar.",
-        "source": "Associated Press",
-        "sourceUrl": "https://apnews.com/article/asean-summit-manila-philippines-china-trump-ca9bb47cc109a1ca9e57be787b137095",
-        "image": "/images/world.jpg"
-      },
-      {
-        "label": "Red Sea · 15 Nov",
-        "headline": "Yemeni government forces pull back from a key strait",
-        "summary": "Yemeni government forces announced a withdrawal from the area around Bab el-Mandeb to focus on defending Aden, Reuters reported.",
-        "context": "The strait connects the Red Sea with the Gulf of Aden. Shipping notices and rerouting decisions will show how operators assess the change.",
-        "source": "Reuters via Investing.com",
-        "sourceUrl": "https://www.investing.com/news/world-news/yemen-government-forces-withdraw-from-area-near-bab-elmandeb-strait-houthis-in-control-5027740",
+        "label": "Middle East · 15 Nov",
+        "headline": "Yemeni forces pull back from a key Red Sea shipping route",
+        "summary": "Saudi-backed Yemeni government forces announced a redeployment from the Bab el-Mandeb area to defend Aden. Bahrain separately said it intercepted Iranian aerial attacks.",
+        "context": "Bab el-Mandeb links the Red Sea and Gulf of Aden. Watch for shipping advisories and diversions that could raise freight costs on India–Europe routes.",
+        "source": "Reuters",
+        "sourceUrl": "https://www.reuters.com/world/middle-east/anti-houthi-forces-retreat-yemen-iran-strikes-bahrain-2026-11-15/",
         "image": "/images/cargo.jpg"
       },
       {
-        "label": "Peru · 15 Nov",
-        "headline": "Pope Leo calls for protection of the Amazon and its defenders",
-        "summary": "Speaking to a largely Indigenous audience in Peru, Pope Leo condemned deforestation and pollution associated with gold and oil production and called for killings of Indigenous leaders to be investigated.",
-        "context": "The speech puts enforcement against illegal extraction and protection for local communities in the same frame.",
-        "source": "Reuters",
-        "sourceUrl": "https://www.reuters.com/world/americas/pope-leo-cross-peru-visits-inca-city-amazon-gateway-2026-11-15/",
-        "image": "/images/nature.jpg"
+        "label": "China economy · 16 Nov",
+        "headline": "China’s factory output and retail sales growth slow",
+        "summary": "October factory output grew 4.8% year on year, down from 5.5% in September. Retail sales growth eased from 1.1% to 0.4%, and the decline in fixed-asset investment widened.",
+        "context": "Slower production and demand can affect commodity exporters and companies that sell into China. Watch for stimulus and whether November spending picks up.",
+        "source": "Reuters via Investing.com",
+        "sourceUrl": "https://www.investing.com/news/economy-news/chinas-factory-output-retail-sales-growth-slow-in-october-5028313",
+        "image": "/images/charts.jpg"
       },
       {
-        "label": "Cabo Verde · 15 Nov",
-        "headline": "Jobs and emigration shape Cabo Verde’s presidential vote",
-        "summary": "Cabo Verde voted on Sunday, with incumbent José Maria Neves facing a former justice minister who became the country’s first woman to run for president, Reuters reported.",
-        "context": "Youth employment was central to the campaign. The island nation’s large diaspora makes emigration a domestic political issue as well.",
-        "source": "Reuters",
-        "sourceUrl": "https://www.reuters.com/world/africa/cape-verde-votes-president-with-emigration-focus-2026-11-15/",
-        "image": "/images/vote.jpg"
+        "label": "Humanitarian aid · 15 Nov",
+        "headline": "Four governments urge Israel to let Gaza winter aid in",
+        "summary": "Australia, Canada, Italy and the UK asked Israel to allow immediate aid access after flooding in Gaza. Their joint statement said 150,000 tents and other supplies were held at the border.",
+        "context": "Watch whether crossings open and aid agencies can deliver shelter to families before winter conditions worsen.",
+        "source": "UK Foreign Office",
+        "sourceUrl": "https://www.gov.uk/government/news/joint-foreign-ministers-statement-on-gaza--2",
+        "image": "/images/world.jpg"
       },
       {
-        "label": "Thailand · 16 Nov",
-        "headline": "Early-morning fire kills 11 in Phuket",
-        "summary": "Thai police told Reuters that a fire in a Phuket commercial shophouse killed 11 people and injured 16 early Monday.",
-        "context": "The police count is an early report. The cause and circumstances still require investigation.",
+        "label": "Japan GDP · 16 Nov",
+        "headline": "Japan’s economy unexpectedly shrinks as spending weakens",
+        "summary": "Japan’s July–September GDP fell at an annualised 0.1% pace, compared with a 0.3% growth forecast in a Reuters poll. Household consumption fell 0.3% from the previous quarter.",
+        "context": "Watch real wages and spending for signs of recovery. They will help shape the Bank of Japan’s next rate decision.",
         "source": "Reuters",
-        "sourceUrl": "https://www.reuters.com/world/asia-pacific/fire-phuket-shophouse-kills-11-injures-16-police-say-2026-11-16/",
-        "image": "/images/phuket.jpg"
+        "sourceUrl": "https://www.reuters.com/business/japans-economy-unexpectedly-shrinks-july-september-consumption-falters-2026-11-16/",
+        "image": "/images/wallet.jpg"
+      },
+      {
+        "label": "Black Sea · 15 Nov",
+        "headline": "Drones hit three ships near Romania’s Sulina canal",
+        "summary": "Romania’s prime minister said Sunday that drones struck three commercial vessels in the Black Sea. The defence minister said crews controlled the fires and reported zero casualties.",
+        "context": "Repeated attacks near the Danube outlet could affect route planning and insurance costs. Watch for maritime advisories and NATO’s response.",
+        "source": "Reuters",
+        "sourceUrl": "https://www.reuters.com/business/aerospace-defense/three-ships-struck-by-drones-black-sea-near-romanian-shipping-canal-pm-says-2026-11-15/",
+        "image": "/images/ocean.jpg"
       }
     ],
     "markets": [
       {
-        "label": "Index snapshot · 9:21 a.m. IST",
-        "headline": "Nifty and Sensex rebound after Friday’s decline",
-        "summary": "On 16 November at 9:21 a.m. IST, Nifty 50 was up 0.45% at 25,256 and Sensex was up 0.56% at 82,030.41. Friday’s cash session closed lower before the weekend break.",
-        "context": "Reuters linked the stronger open to foreign inflows and softer crude. These are intraday levels.",
+        "label": "Indices · 16 Nov, 10:00 a.m. IST",
+        "headline": "Nifty and Sensex climb as foreign buying supports the open",
+        "summary": "Nifty 50 rose 0.76% to 25,334.80 and Sensex gained 0.87% to 82,303.36 at 10 a.m. IST. After the weekend break, banks gained 1%, IT 0.8%, and 12 of 16 major sectors advanced.",
+        "context": "Reuters linked the gains to softer crude and $8.9 billion in net foreign buying so far this month. Watch whether gains spread to smaller companies.",
         "source": "Reuters",
         "sourceUrl": "https://www.reuters.com/world/india/indian-shares-expected-open-higher-record-foreign-flows-crude-price-drop-2026-11-16/",
         "image": "/images/markets.jpg"
       },
       {
-        "label": "Sector movers · 16 Nov open",
-        "headline": "IT heavyweights help lift the opening tape",
-        "summary": "At the open, The Financial Express reported TCS up 1.56%, Infosys up 1.32% and HCL Technologies up 1.24%. Asian Paints and Bharti Airtel also advanced.",
-        "context": "The gains in heavyweight names help explain the higher benchmark. Watch whether the rally broadens beyond those stocks.",
-        "source": "Financial Express",
-        "sourceUrl": "https://www.financialexpress.com/market/share-market-today-live-sensex-nifty-gift-nifty-india-stock-market-news-updates-top-gainers-losers-fii-dii-gold-silver-rates-crude-16-november-2026-4385473/lite/",
+        "label": "Rupee and debt · 16 Nov morning",
+        "headline": "Inflation and US yields put the rupee and bonds in focus",
+        "summary": "On Friday the rupee closed at ₹94.24 per US dollar, and the 10-year government bond yield ended at 7.3079%, up 12 basis points for the week. Reuters cited higher oil and US yields as pressures.",
+        "context": "Watch India’s wholesale-price release and Wednesday’s Fed minutes for shifts in rate expectations that could affect borrowing costs and the rupee.",
+        "source": "Reuters",
+        "sourceUrl": "https://www.reuters.com/world/india/us-iran-deal-uncertainty-weigh-rupee-bonds-fed-rbi-rate-paths-eyed-2026-11-16/",
         "image": "/images/charts.jpg"
       },
       {
-        "label": "Company catalyst · 16 Nov morning",
+        "label": "Commodities · 16 Nov, 9:23 a.m. IST",
+        "headline": "Brent eases near $95.50 and Indian gold is ₹1,37,610",
+        "summary": "In its morning update, Financial Express quoted Brent down 0.33% at $95.52 a barrel and indicative Indian 24-carat gold at ₹1,37,610 per 10 grams.",
+        "context": "Oil flows from the Gulf and the rupee both matter for India’s fuel import bill. Compare local gold quotes at the same purity and time.",
+        "source": "Financial Express",
+        "sourceUrl": "https://www.financialexpress.com/market/share-market-today-live-sensex-nifty-gift-nifty-india-stock-market-news-updates-top-gainers-losers-fii-dii-gold-silver-rates-crude-16-november-2026-4385473/lite/",
+        "image": "/images/gold.jpg"
+      },
+      {
+        "label": "Company catalyst · 16 Nov, 9:22 a.m. IST",
         "headline": "Tata Motors PV falls as JLR cuts its outlook",
-        "summary": "Reuters reported Tata Motors Passenger Vehicles down 7.5% at ₹265.90 in its morning update. JLR cut its fiscal-year core earnings margin outlook from 4% to 2–3%.",
-        "context": "The revised JLR cash-outflow estimate of about £1.25 billion puts cash generation alongside margin recovery on the watch list.",
+        "summary": "Reuters put Tata Motors PV down 7.5% at ₹265.90 in its 9:22 a.m. IST report. JLR cut its FY27 adjusted EBIT margin guidance from 4% to 2–3%.",
+        "context": "JLR now expects about £1.25 billion of free cash outflow this fiscal year. Watch cash generation and retail demand alongside margin recovery.",
         "source": "Reuters",
         "sourceUrl": "https://www.reuters.com/world/india/indias-tata-motors-pv-falls-after-lowering-jlr-outlook-2026-11-16/",
         "image": "/images/auto-factory.jpg"
       },
       {
-        "label": "IPO calendar · 16 Nov, 8:16 a.m. IST",
-        "headline": "Three issues are scheduled to open this week",
-        "summary": "Crystal Crop Protection bidding is scheduled for 18–20 November. Mahanadi Coalfields and SME issuer Watrana Rentals are due to open on 19 November. Upstox listed no IPO debut this week.",
-        "context": "Crystal Crop’s indicated band is ₹259–272 and Mahanadi’s is ₹129–136. Check the exchange timetable and offer documents for any changes.",
+        "label": "IPO calendar · 16 Nov, 10:54 a.m. IST",
+        "headline": "Three IPOs are scheduled to open, led by Mahanadi Coalfields",
+        "summary": "Crystal Crop Protection opens 18–20 November at ₹259–272. Mahanadi Coalfields opens 19–23 November at ₹129–136, and SME issuer Watrana Rentals opens on 19 November. Upstox showed no listings this week.",
+        "context": "Mahanadi’s offer is a sale by Coal India, worth up to ₹8,981 crore at the top of the band. Check exchange notices for changes.",
         "source": "Upstox",
         "sourceUrl": "https://upstox.com/news/market-news/ipo/upcoming-ipos-mahanadi-coalfields-crystal-crop-protection-and-watrana-rentals-issues-to-open-this-week/article-203462/",
-        "image": "/images/charts.jpg"
-      },
-      {
-        "label": "Commodities · 16 Nov morning",
-        "headline": "Brent eases and indicative Indian gold is ₹1,37,610",
-        "summary": "The Financial Express quoted Brent at $95.52 a barrel, down 0.33%, and reported an indicative Indian 24-carat gold price of ₹1,37,610 per 10 grams.",
-        "context": "Compare gold quotes by purity, city and timestamp. For oil, track whether the early move lasts through the Indian session.",
-        "source": "Financial Express",
-        "sourceUrl": "https://www.financialexpress.com/market/share-market-today-live-sensex-nifty-gift-nifty-india-stock-market-news-updates-top-gainers-losers-fii-dii-gold-silver-rates-crude-16-november-2026-4385473/lite/",
-        "image": "/images/gold.jpg"
+        "image": "/images/markets.jpg"
       }
     ],
     "tech": [
       {
-        "label": "US industrial policy · 16 Nov",
-        "headline": "US AI ‘national champions’ plan reported",
-        "summary": "Reuters relayed a Wall Street Journal report that the US administration plans to designate more than two dozen AI firms, including Nvidia, Microsoft, OpenAI and Anthropic, to help them expand overseas.",
-        "context": "Reuters had yet to independently confirm the report. An official announcement would clarify eligibility and the form of support.",
-        "source": "Reuters",
-        "sourceUrl": "https://www.reuters.com/business/retail-consumer/trump-administration-name-nvidia-other-ai-firms-us-national-champions-wsj-2026-11-16/",
+        "label": "AI hardware · 16 Nov",
+        "headline": "Asian chip shares fall ahead of Nvidia’s earnings",
+        "summary": "Asian semiconductor shares fell Monday after Jensen Huang’s resignation as Nvidia CEO last week. Nvidia’s results are due on 17 November US time, early on 18 November in India.",
+        "context": "Watch data-centre sales and guidance for clues about chip demand after the leadership transition.",
+        "source": "Associated Press",
+        "sourceUrl": "https://apnews.com/article/stocks-markets-ai-nvidia-oil-us-35786b8f539ec95f16ae0500f71cfcc7",
         "image": "/images/tech.jpg"
       },
       {
-        "label": "Semiconductors · 16 Nov",
+        "label": "AI business · 16 Nov",
+        "headline": "Anthropic’s IPO will test appetite for AI model companies",
+        "summary": "Reuters reported that Anthropic is expected to start trading later this week. Its preliminary prospectus proposes a Nasdaq listing and an offer of 825 million shares.",
+        "context": "Watch the final price and how much cash goes to Anthropic. The filing gives the founders’ vehicle 50.1% of voting power on most shareholder decisions.",
+        "source": "Anthropic prospectus",
+        "sourceUrl": "https://ipo.anthropic.com/documents/us/prospectus.pdf",
+        "image": "/images/markets.jpg"
+      },
+      {
+        "label": "Cybersecurity · 15 Nov",
+        "headline": "La Poste confirms data leak affecting 22 million people",
+        "summary": "La Poste said a September attack on its Maileva mailing subsidiary exposed the names and postal addresses of 22 million recipients of documents sent by client organisations.",
+        "context": "The breach shows how much personal data can collect at a mailing vendor. Watch for notices from affected organisations and targeted impersonation attempts.",
+        "source": "La Poste Groupe",
+        "sourceUrl": "https://www.lapostegroupe.com/fr/actualite/cyberattaque-de-maileva-ce-quil-faut-savoir",
+        "image": "/images/desk.jpg"
+      },
+      {
+        "label": "Semiconductor supply · 16 Nov",
         "headline": "SK Hynix plans five years of supplier support",
-        "summary": "SK Hynix said it plans to spend ₩1.4 trillion, about $1.05 billion, over five years to support South Korean suppliers of semiconductor materials, parts and equipment.",
-        "context": "The investment highlights the importance of upstream suppliers when memory makers scale production for AI hardware.",
+        "summary": "SK Hynix said it plans to spend ₩1.4 trillion, about $1.05 billion, over five years to help South Korean suppliers of chip materials, parts and equipment.",
+        "context": "A proposed Yongin testing facility is due to open in May 2027. Watch whether smaller suppliers can qualify products for commercial production sooner.",
         "source": "Reuters",
         "sourceUrl": "https://www.reuters.com/world/asia-pacific/sk-hynix-spend-1-billion-over-five-years-support-chip-suppliers-2026-11-16/",
         "image": "/images/server.jpg"
       },
       {
-        "label": "Assessment · 15 Nov",
-        "headline": "South Korea’s top tax-exam scorer admits using AI to cheat",
-        "summary": "The candidate said he photographed questions with a small camera, sent them to a generative AI tool and checked responses on a smartphone.",
-        "context": "The case shows how small devices can bring outside assistance into a supervised exam room.",
+        "label": "Satellite internet · 16 Nov IST",
+        "headline": "Vulcan launch failure destroys 40 Amazon Leo satellites",
+        "summary": "United Launch Alliance said its Vulcan rocket failed about ten minutes after liftoff in Florida on Sunday local time. Forty satellites for Amazon’s broadband network were lost.",
+        "context": "A launch interruption could slow the network rollout. Watch ULA’s investigation and whether Amazon can keep upcoming launches on schedule.",
         "source": "Reuters",
-        "sourceUrl": "https://www.reuters.com/world/asia-pacific/top-scorer-south-korean-tax-exam-confesses-cheating-with-ai-2026-11-15/",
-        "image": "/images/desk.jpg"
-      },
-      {
-        "label": "AI education · 16 Nov",
-        "headline": "China pushes for AI literacy in schools by 2030",
-        "summary": "Reuters reported on China’s drive toward universal AI literacy by 2030, including a Beijing school where students use AI to build apps and program robots.",
-        "context": "That private school illustrates one approach. Learning outcomes across ordinary classrooms and different age groups will be more informative.",
-        "source": "Reuters",
-        "sourceUrl": "https://www.reuters.com/world/china/inside-chinas-drive-build-an-ai-native-generation-2026-11-16/",
-        "image": "/images/tech.jpg"
-      },
-      {
-        "label": "AI business · 16 Nov",
-        "headline": "Nvidia earnings and Anthropic’s listing test AI sentiment",
-        "summary": "Reuters reported that Asian shares slipped on Monday as investors awaited Nvidia earnings on 17 November and the scheduled start of Anthropic trading on 19 November.",
-        "context": "Nvidia’s outlook offers evidence on chip demand. The listing shows how public investors value a major model developer.",
-        "source": "Reuters",
-        "sourceUrl": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-16/",
-        "image": "/images/markets.jpg"
+        "sourceUrl": "https://www.reuters.com/business/aerospace-defense/us-rocket-fails-after-launch-payload-amazon-internet-satellites-destroyed-2026-11-15/",
+        "image": "/images/planet.jpg"
       }
     ],
     "mind": [
