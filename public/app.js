@@ -1,18 +1,19 @@
-import { indianDay, isDay, isEdition, matchProgress, nextUnread, sourceLink, storyKey, topicIds } from './edition-format.js';
+import { metricLabels, researchFooter, screenLabels } from './investment-rules.js';
+import { getDeck, indianDay, isDay, isEdition, matchProgress, sectionIds, sourceLink, storyKey } from './edition-format.js';
 
 const $ = id => document.getElementById(id);
+const number = new Intl.NumberFormat('en-IN', {maximumFractionDigits:2});
+const formatNumber = value => Number.isFinite(value) ? number.format(value) : '—';
+const rupees = value => Number.isFinite(value) ? '₹' + formatNumber(value) : '—';
+const change = value => Number.isFinite(value) ? (value > 0 ? '+' : '') + formatNumber(value) + '%' : '—';
 const categories = {
   india: 'India',
   world: 'World',
   markets: 'Indian Markets',
   investing: 'Stock Investing',
   tech: 'AI & Tech',
-  mind: 'Mind & Evolution',
-  marketing: 'Marketing World'
-};
-const photoNotes = {
-  '/images/phuket.jpg': 'File photo · Phuket Old Town',
-  '/images/auto-factory.jpg': 'Illustrative photo · Car assembly'
+  mind: 'Psychology',
+  marketing: 'Marketing'
 };
 const paths = {
   india: 'M3 9h18L12 3 3 9Zm2 11h14M6 20V9m6 11V9m6 11V9',
@@ -57,11 +58,6 @@ function addIcon(slot, name) {
 const icon = name => addIcon(node('span', 'icon-slot'), name);
 for (const slot of document.querySelectorAll('[data-icon]')) addIcon(slot, slot.dataset.icon);
 
-const wideLayout = matchMedia('(min-width: 681px)');
-const adjustQuickBrief = () => { $('quick-brief').open = wideLayout.matches; };
-adjustQuickBrief();
-wideLayout.addEventListener('change', adjustQuickBrief);
-
 const releaseTime = new Intl.DateTimeFormat('en-IN', {hour:'numeric', minute:'2-digit', timeZone:'Asia/Kolkata'});
 const briefDate = new Intl.DateTimeFormat('en-GB', {weekday:'short', day:'numeric', month:'short', year:'numeric',timeZone:'UTC'});
 const monthDate = new Intl.DateTimeFormat('en-GB', {month:'long',year:'numeric',timeZone:'UTC'});
@@ -74,8 +70,9 @@ let active = 'india';
 let readingOrder = [];
 let readerIndex = 0;
 let readerOrder = [];
-let reviewMode = false;
-let readerScope;
+let readTimer;
+let chapterTimer;
+let touchStart;
 let returnFocus;
 let seen = new Set();
 let catalog = [];
@@ -89,8 +86,9 @@ let checkingCatalog = false;
 let worker;
 let pushConfig;
 const loaded = new Map();
-const getTopics = () => topicIds.filter(id => edition.sections[id]);
-const deck = () => edition.sections[active];
+const getTopics = () => sectionIds(edition);
+const topicDeck = topic => getDeck(edition, topic);
+const deck = () => topicDeck(active);
 const storyRead = story => seen.has(story.key);
 const countRead = topic => readingOrder.filter(story => story.topic === topic && storyRead(story)).length;
 const currentQuery = () => new URLSearchParams(location.search).get('edition');
@@ -106,38 +104,46 @@ const savedProgress = issue => matchProgress(issue, storedEntries(editionKey(iss
 function rememberProgress(issue, progress) {
   try { localStorage.setItem(editionKey(issue.date), JSON.stringify([...progress])); } catch { /* Reads still work in this session. */ }
 }
-const defaultCover = topic => '/images/' + (topic === 'investing' ? 'charts' : topic) + '.jpg';
-const showCover = (card, topic) => card.image && card.image !== defaultCover(topic) && topic !== 'investing';
-
-function imageInto(container, card, topic, eager = false, caption) {
+function imageInto(container, card, caption) {
+  const image = typeof card.image === 'object' ? card.image : {url:card.image, credit:card.imageCredit};
+  const url = image && sourceLink(image.url);
+  container.hidden = !url || !image.credit;
+  container.querySelector('img')?.remove();
+  if (container.hidden) return;
   const img = node('img');
-  const fallback = defaultCover(topic);
-  img.alt = '';
-  img.loading = eager ? 'eager' : 'lazy';
+  img.alt = image.alt ?? '';
   img.decoding = 'async';
-  img.src = /^\/images\/[a-z0-9-]+\.jpg$/.test(card.image || '') ? card.image : fallback;
-  if (caption) {
-    caption.hidden = false;
-    const path = img.getAttribute('src');
-    caption.textContent = photoNotes[path] ?? 'Illustrative photo';
-    if (path === '/images/guppy.jpg') {
-      const credit = node('a', '', 'Trinidadian guppy · Deacon et al.');
-      credit.href = 'https://github.com/sambit543211/Curious#photo-credits';
-      credit.target = '_blank';
-      credit.rel = 'noopener noreferrer';
-      caption.replaceChildren(credit);
-    }
-  }
-  img.addEventListener('error', () => {
-    if (img.getAttribute('src') !== fallback) {
-      img.src = fallback;
-      if (caption && img.isConnected) caption.textContent = 'Illustrative photo';
-    } else if (img.isConnected) {
-      img.remove();
-      if (caption) caption.hidden = true;
-    }
-  });
+  img.referrerPolicy = 'no-referrer';
+  img.src = url.href;
+  caption.textContent = image.credit;
+  img.addEventListener('error', () => { if (img.isConnected) container.hidden = true; });
   container.prepend(img);
+}
+
+const words = card => ['headline','summary','why','soWhat','context','take','watch'].map(key => card[key])
+  .concat(card.thesis ?? [], card.breakers ?? []).filter(Boolean).join(' ').trim().split(/\s+/).length;
+const readingMinutes = list => Math.ceil(list.reduce((sum, story) => sum + words(story.card), 0) / 215);
+
+function renderReaderProgress() {
+  const progress = $('reader-segments');
+  const remaining = readingOrder.filter(story => !storyRead(story));
+  progress.setAttribute('aria-valuemin', '0');
+  progress.setAttribute('aria-valuemax', String(readingOrder.length));
+  progress.setAttribute('aria-valuenow', String(readingOrder.length - remaining.length));
+  progress.replaceChildren(...getTopics().map(topic => {
+    const group = node('span', 'segment-group');
+    const entries = readingOrder.filter(story => story.topic === topic);
+    group.style.flexGrow = entries.length;
+    group.setAttribute('aria-hidden', 'true');
+    for (const story of entries) {
+      const segment = node('span', 'segment');
+      segment.classList.toggle('is-read', storyRead(story));
+      segment.classList.toggle('is-current', story === readerOrder[readerIndex]);
+      group.append(segment);
+    }
+    return group;
+  }));
+  $('reader-minutes').textContent = remaining.length ? '~' + readingMinutes(remaining) + ' min left' : 'All read';
 }
 function updateProgress() {
   const read = readingOrder.filter(storyRead).length;
@@ -147,7 +153,7 @@ function updateProgress() {
   $('progress').value = read;
   $('progress-text').textContent = complete ? 'Briefing complete' : read + ' of ' + total + ' read';
   const next = readingOrder.find(story => !storyRead(story));
-  $('resume-label').textContent = complete ? 'Review briefing' : read ? 'Continue · ' + categories[next.topic] : 'Start briefing';
+  $('resume-label').textContent = complete ? 'Review briefing' : read ? 'Continue · ' + categories[next.topic] : 'Start reading';
   $('resume').disabled = loading;
   $('resume-topic-label').textContent = countRead(active) === deck().length ? 'Review topic' : 'Read next unread';
   const remaining = deck().length - countRead(active);
@@ -155,13 +161,15 @@ function updateProgress() {
   for (const button of $('topics').children) {
     const id = button.dataset.category;
     const count = countRead(id);
-    const length = edition.sections[id].length;
+    const length = topicDeck(id).length;
     button.setAttribute('aria-label', categories[id] + ', ' + count + ' of ' + length + ' read');
     button.setAttribute('aria-pressed', String(id === active));
     const counter = button.querySelector('small');
-    counter.textContent = count === length ? '✓' : count + '/' + length;
+    counter.textContent = count === length ? '✓' : count;
+    counter.style.setProperty('--read-angle', (count / length * 360) + 'deg');
     counter.classList.toggle('topic-complete', count === length);
   }
+  if ($('reader').open) renderReaderProgress();
   for (const [index, button] of [...$('stories').children].entries()) {
     button.querySelector('.read-badge').hidden = !seen.has(storyKey(active, deck()[index], deck()));
   }
@@ -180,20 +188,25 @@ function createTopics() {
     return button;
   }));
 }
-function renderQuickBrief() {
-  $('quick-stories').replaceChildren(...['india', 'world', 'markets', 'tech'].map(topic => {
-    const story = readingOrder.find(item => item.topic === topic);
+function renderTopThree(list) {
+  const entries = edition.top3?.map(pick => ({
+    story:readingOrder.find(entry => entry.card.id === pick.cardId || entry.key === pick.cardId), line:pick.line
+  })).filter(item => item.story) ?? ['india','world','tech'].map(topic => ({
+    story:readingOrder.find(entry => entry.topic === topic)
+  })).filter(item => item.story);
+  list.replaceChildren(...entries.map(({story, line}) => {
     const row = node('li');
     const button = node('button', 'quick-story');
     button.type = 'button';
-    button.append(node('span', 'story-meta', categories[topic]), node('span', 'quick-headline', story.card.headline));
+    button.append(node('span', 'story-meta', categories[story.topic]),
+      node('span', 'quick-headline', line ?? story.card.headline), icon('right'));
     button.addEventListener('click', () => {
-      if (!loading) openStory(button, topic, story.key);
+      if (!loading) openStory(button, story.topic, story.key);
     });
     row.append(button);
     return row;
   }));
-  $('quick-brief').hidden = false;
+  $('quick-brief').hidden = entries.length === 0;
 }
 
 function renderSection() {
@@ -202,11 +215,6 @@ function renderSection() {
   $('stories').replaceChildren(...deck().map(card => {
     const button = node('button', 'story');
     button.type = 'button';
-    if (showCover(card, active)) {
-      const media = node('span', 'story-media');
-      imageInto(media, card, active);
-      button.append(media);
-    }
     const caption = node('span', 'story-caption');
     const meta = node('span', 'story-row-meta');
     meta.append(node('span', 'story-meta', card.label), node('span', 'read-badge', '✓ Read'));
@@ -218,11 +226,6 @@ function renderSection() {
     return button;
   }));
   updateProgress();
-}
-
-function nextStoryIndex() {
-  if (reviewMode) return readerIndex + 1 < readerOrder.length ? readerIndex + 1 : -1;
-  return nextUnread(readerOrder, readerIndex, seen);
 }
 
 function renderSources(card) {
@@ -250,74 +253,255 @@ function detail(id, value) {
   $(id).textContent = value ?? '';
 }
 
+function readerTable(label, headings, rows, changeColumns = []) {
+  const scroll = node('div', 'table-scroll');
+  scroll.tabIndex = 0;
+  scroll.setAttribute('role', 'region');
+  scroll.setAttribute('aria-label', label);
+  const table = node('table', 'data-table');
+  const caption = node('caption', 'visually-hidden', label);
+  const head = node('thead');
+  const header = node('tr');
+  for (const text of headings) {
+    const cell = node('th', '', text);
+    cell.scope = 'col';
+    header.append(cell);
+  }
+  head.append(header);
+  const body = node('tbody');
+  for (const values of rows) {
+    const row = node('tr');
+    for (const [index, value] of values.entries()) {
+      const signed = changeColumns.includes(index);
+      const cell = node(index === 0 ? 'th' : 'td',
+        signed && Number.isFinite(value) ? (value > 0 ? 'positive' : value < 0 ? 'negative' : '') : '',
+        signed ? change(value) : String(value ?? '—'));
+      if (!index) cell.scope = 'row';
+      row.append(cell);
+    }
+    body.append(row);
+  }
+  table.append(caption, head, body);
+  scroll.append(table);
+  return scroll;
+}
+
+function list(items) {
+  const result = node('ul', 'research-list');
+  result.append(...items.map(value => node('li', '', value)));
+  return result;
+}
+
+function renderReaderData(topic, card) {
+  const target = $('reader-data');
+  target.replaceChildren();
+  if (card.kind === 'dashboard') {
+    target.append(node('p', 'data-stamp', card.session === 'closed' ?
+      'Market closed · Last available close · Checked at 9:45 a.m. IST' : 'Data as of 9:45 a.m. IST'));
+    if (card.lastSession) target.append(node('p', 'data-note', 'Last session · ' + card.lastSession));
+    target.append(readerTable('Market snapshot',
+      ['Indicator','Level','Previous close','Day %','1 week %','1 month %','YTD %'],
+      card.rows.map(row => [row.name,formatNumber(row.level),formatNumber(row.previousClose),row.d1,row.w1,row.m1,row.ytd]), [3,4,5,6]));
+    const {flows, niftyPE} = card;
+    target.append(readerTable('Flows and valuation', ['Indicator','Latest','Comparison'], [
+      ['FII net flows (₹ crore)', formatNumber(flows.fii), 'MTD ' + formatNumber(flows.fiiMtd)],
+      ['DII net flows (₹ crore)', formatNumber(flows.dii), 'MTD ' + formatNumber(flows.diiMtd)],
+      ['Nifty P/E', formatNumber(niftyPE.now), '5-year median ' + formatNumber(niftyPE.median5y)]
+    ]));
+    target.append(node('p', 'data-note', 'Flows as of ' + flows.asOf + ' · Valuation as of ' + niftyPE.asOf));
+    target.append(node('h3', 'data-subhead', 'What moved the market'));
+  }
+  if (card.slot === 'pick' || card.slot === 'weekly') {
+    const lead = node('div', 'stock-verdict');
+    lead.append(node('strong', 'verdict verdict-' + card.verdict.toLowerCase(), card.verdict),
+      node('strong', '', 'Buy below ' + rupees(card.buyBelow)),
+      node('span', '', 'Fair value ' + rupees(card.fairValue) + ' · Price ' + rupees(card.price)));
+    target.append(lead, list(card.thesis));
+    target.append(readerTable('Fundamentals', ['Metric','Value'],
+      Object.entries(card.metrics).filter(([key,value]) => metricLabels[key] && Number.isFinite(value))
+        .map(([key,value]) => [metricLabels[key],formatNumber(value)])));
+    target.append(readerTable('Screen results', ['Test','Result'], Object.entries(card.screen)
+      .map(([key,pass]) => [screenLabels[key] ?? key,pass ? '✓ Pass' : '× Fail'])));
+    target.append(node('h3', 'data-subhead', 'Moat · ' + card.moat), node('p', 'data-note', card.moatWhy),
+      node('h3', 'data-subhead', 'What would break this'), list(card.breakers),
+      node('p', 'data-note', 'Fundamentals ' + card.dataDate + ' · Quote ' + card.quoteDate));
+  }
+  if (card.slot === 'watchlist') {
+    if (card.entries?.length) target.append(readerTable('Watchlist', ['Stock','Signal','NSE close','Week %'],
+      card.entries.map(entry => [entry.symbol,entry.reason,rupees(entry.price),entry.weekly]), [3]));
+    if (card.dataDate) target.append(node('p', 'data-note', 'Data as of ' + card.dataDate));
+  }
+  if (card.slot === 'learn' && card.exampleMetric) {
+    const example = card.exampleMetric;
+    target.append(readerTable('Worked example', ['Stock','Metric','Value'],
+      [[example.symbol,metricLabels[example.metric] ?? example.metric,formatNumber(example.value)]]));
+  }
+  if (topic === 'mind' && card.study) {
+    target.append(node('p', 'data-note', card.study.authors + ' (' + card.study.year + ') · ' + card.study.sample + ' participants'));
+  }
+  $('research-notice').hidden = topic !== 'investing';
+  $('research-notice').textContent = researchFooter;
+}
+
 function showStory(position) {
   readerIndex = position;
   const {topic, index, card} = readerOrder[position];
-  const next = nextStoryIndex();
   const cover = $('reader-cover');
-  cover.querySelector('img')?.remove();
-  cover.hidden = !showCover(card, topic);
-  if (!cover.hidden) imageInto(cover, card, topic, true, $('reader-photo-note'));
+  imageInto(cover, card, $('reader-photo-note'));
   $('reader-topic').textContent = categories[topic];
-  const positionText = (index + 1) + ' of ' + edition.sections[topic].length;
+  const positionText = (index + 1) + ' of ' + topicDeck(topic).length;
   $('reader-position').textContent = positionText;
   $('reader-label').textContent = card.label;
   $('reader-title').textContent = card.headline;
   $('reader-summary').textContent = card.summary;
+  renderReaderData(topic, card);
+  detail('reader-example', topic === 'mind' ? card.example : '');
+  detail('reader-use', topic === 'mind' ? card.useThisWeek : topic === 'tech' ? card.tryThis : '');
+  detail('reader-campaign', card.brand ? [card.brand, card.agency, card.objective, card.insight, card.channels, card.results].join(' · ') : '');
   detail('reader-why', card.why);
   detail('reader-valuation', card.valuation);
   detail('reader-risk', card.risk);
   $('why-label').textContent = {
     investing:'Competitive advantage', mind:'What may explain it', marketing:'Why this approach'
   }[topic] ?? 'Why it happened';
-  $('reader-context').textContent = card.context;
+  detail('reader-context', card.soWhat ?? card.context);
+  detail('reader-take', card.take);
+  detail('reader-watch', card.watch);
+  const terms = $('reader-terms');
+  terms.hidden = !card.terms?.length;
+  terms.replaceChildren(...(card.terms ?? []).flatMap(({term, meaning}) => [node('dt', '', term), node('dd', '', meaning)]));
   $('context-label').textContent = {
     investing:'Growth case and what to watch', markets:'Why it matters for markets', marketing:'Why it matters for marketers'
   }[topic] ?? 'Why it matters';
   renderSources(card);
   $('previous').disabled = position === 0;
-  const alreadyRead = storyRead(readerOrder[position]);
-  $('read-label').textContent = alreadyRead ? (next >= 0 ? 'Next story' : 'Back to briefing') :
-    (next >= 0 ? 'Mark read & next' : readerScope ? 'Finish topic' : 'Finish briefing');
-  $('read-icon').querySelector('path').setAttribute('d', paths[next >= 0 ? 'arrow' : 'check']);
+  $('read-label').textContent = position === readerOrder.length - 1 ? 'Finish' : 'Next';
+  $('read-icon').querySelector('path').setAttribute('d', paths[position === readerOrder.length - 1 ? 'check' : 'arrow']);
   $('reader-content').scrollTop = 0;
+  renderReaderProgress();
   if ($('reader').open) {
     $('reader-announcement').textContent = categories[topic] + ', ' + positionText + '. ' + card.headline;
   }
 }
 
-function openStory(trigger, topic, key) {
-  readerScope = topic;
-  readerOrder = topic ? readingOrder.filter(story => story.topic === topic) : readingOrder;
-  const unreadPosition = readerOrder.findIndex(story => !storyRead(story));
-  reviewMode = unreadPosition === -1;
-  returnFocus = trigger;
-  showStory(key ? readerOrder.findIndex(story => story.key === key) : Math.max(0, unreadPosition));
-  $('reader').showModal();
-  $('reader-title').focus({preventScroll:true});
-}
-
-$('reader-close').addEventListener('click', () => $('reader').close());
-$('previous').addEventListener('click', () => {
-  showStory(readerIndex - 1);
-  if (readerIndex === 0) $('read').focus({preventScroll:true});
-});
-$('read').addEventListener('click', () => {
+function startReadTimer() {
+  clearTimeout(readTimer);
   const story = readerOrder[readerIndex];
-  for (const key of savedProgress(edition)) seen.add(key);
-  const next = nextStoryIndex();
-  if (!storyRead(story)) {
+  if (!$('reader').open || !$('reader-transition').hidden || !$('reader-finish').hidden ||
+      document.hidden || !story || storyRead(story)) return;
+  readTimer = setTimeout(() => {
+    if (document.hidden || story !== readerOrder[readerIndex] || !$('reader').open) return;
+    for (const key of savedProgress(edition)) seen.add(key);
     seen.add(story.key);
     rememberProgress(edition, seen);
     updateProgress();
+  }, 5000);
+}
+
+function openStory(trigger, topic, key) {
+  readerOrder = readingOrder;
+  const matchesTopic = story => !topic || story.topic === topic;
+  const firstUnread = readerOrder.findIndex(story => matchesTopic(story) && !storyRead(story));
+  const initial = key ? readerOrder.findIndex(story => story.key === key) :
+    firstUnread >= 0 ? firstUnread : readerOrder.findIndex(matchesTopic);
+  if (initial < 0) return;
+  if (!$('reader').open) returnFocus = trigger;
+  $('reader-actions').hidden = false;
+  $('reader-finish').hidden = true;
+  $('reader-transition').hidden = true;
+  $('reader').setAttribute('aria-labelledby', 'reader-title');
+  $('reader-content').hidden = false;
+  showStory(initial);
+  if (!$('reader').open) $('reader').showModal();
+  $('reader-title').focus({preventScroll:true});
+  startReadTimer();
+}
+
+function finishEdition() {
+  clearTimeout(readTimer);
+  $('reader-finish').hidden = false;
+  $('reader-content').hidden = true;
+  $('reader-actions').hidden = true;
+  $('reader').setAttribute('aria-labelledby', 'reader-finish-title');
+  $('reader-finish-count').textContent = readerOrder.length + ' stories · ~' + readingMinutes(readerOrder) + ' min';
+  renderTopThree($('finish-stories'));
+  const weekly = readerOrder.find(({card}) => card.slot === 'weekly');
+  const note = $('finish-weekly');
+  note.hidden = !weekly;
+  note.textContent = weekly ? 'Buy of the week · ' + weekly.card.symbol : '';
+  $('reader-finish-title').focus({preventScroll:true});
+}
+
+function moveStory(direction) {
+  if (!$('reader').open || !$('reader-transition').hidden || !$('reader-finish').hidden) return;
+  const next = readerIndex + direction;
+  if (next < 0) return;
+  if (next >= readerOrder.length) return finishEdition();
+  clearTimeout(readTimer);
+  const from = readerOrder[readerIndex].topic;
+  const to = readerOrder[next].topic;
+  if (direction > 0 && from !== to) {
+    $('reader-transition').textContent = categories[to] + ' · ' + topicDeck(to).length + ' stories';
+    $('reader-transition').hidden = false;
+    $('reader-content').hidden = true;
+    $('reader-actions').hidden = true;
+    $('reader-transition').focus({preventScroll:true});
+    chapterTimer = setTimeout(() => {
+      $('reader-transition').hidden = true;
+      $('reader-content').hidden = false;
+      $('reader-actions').hidden = false;
+      showStory(next);
+      $('reader-title').focus({preventScroll:true});
+      startReadTimer();
+    }, 1000);
+    return;
   }
-  if (next >= 0) showStory(next);
-  else $('reader').close();
-});
+  showStory(next);
+  $('reader-title').focus({preventScroll:true});
+  startReadTimer();
+}
+
+$('reader-close').addEventListener('click', () => $('reader').close());
+$('finish-close').addEventListener('click', () => $('reader').close());
+$('previous').addEventListener('click', () => moveStory(-1));
+$('read').addEventListener('click', () => moveStory(1));
 $('reader').addEventListener('close', () => {
+  clearTimeout(readTimer);
+  clearTimeout(chapterTimer);
+  $('reader-actions').hidden = false;
   $('reader-announcement').textContent = '';
   if (returnFocus?.isConnected) returnFocus.focus({preventScroll:true});
 });
+document.addEventListener('visibilitychange', startReadTimer);
+$('reader').addEventListener('keydown', event => {
+  if (event.defaultPrevented || event.altKey || event.ctrlKey || event.metaKey ||
+      event.target.closest('a, input, summary, .table-scroll')) return;
+  const direction = {ArrowLeft:-1, ArrowRight:1}[event.key];
+  if (direction) {
+    event.preventDefault();
+    moveStory(direction);
+  }
+});
+$('reader-content').addEventListener('touchstart', event => {
+  const touch = event.touches[0];
+  touchStart = event.touches.length === 1 && !event.target.closest('a, button, summary, .table-scroll') ?
+    {x:touch.clientX, y:touch.clientY, time:performance.now()} : null;
+}, {passive:true});
+$('reader-content').addEventListener('touchend', event => {
+  if (!touchStart) return;
+  const start = touchStart;
+  touchStart = null;
+  const end = event.changedTouches[0];
+  const dx = end.clientX - start.x;
+  const dy = end.clientY - start.y;
+  if (Math.abs(dx) >= 55 && Math.abs(dx) > Math.abs(dy) * 1.5) return moveStory(dx < 0 ? 1 : -1);
+  if (Math.abs(dx) > 9 || Math.abs(dy) > 9 || performance.now() - start.time > 260 ||
+      String(window.getSelection())) return;
+  const bounds = $('reader-content').getBoundingClientRect();
+  const fraction = (end.clientX - bounds.left) / bounds.width;
+  if (fraction < 1 / 3 || fraction > 2 / 3) moveStory(fraction > 2 / 3 ? 1 : -1);
+}, {passive:true});
+$('reader-content').addEventListener('touchcancel', () => { touchStart = null; }, {passive:true});
 $('resume').addEventListener('click', () => openStory($('resume')));
 $('resume-topic').addEventListener('click', () => {
   if (!loading) openStory($('resume-topic'), active);
@@ -392,10 +576,11 @@ function setRoute(day, mode) {
 function renderEdition() {
   const latest = edition.date === catalog[0];
   const today = edition.date === indianDay();
+  $('top-title').textContent = today ? 'Today’s Top 3' : 'Top 3 for this edition';
   $('edition-kind').textContent = latest ? (today ? 'Today’s edition' : 'Latest edition') : 'From the archive';
   $('selected-date').textContent = format(briefDate, edition.date);
   readingOrder = getTopics().flatMap(topic =>
-    edition.sections[topic].map((card, index) => ({topic, index, card, key:storyKey(topic, card, edition.sections[topic])}))
+    topicDeck(topic).map((card, index) => ({topic, index, card, key:storyKey(topic, card, topicDeck(topic))}))
   );
   const timestamp = edition.publishedAt ?? edition.preparedAt;
   const time = $('release-time');
@@ -406,7 +591,7 @@ function renderEdition() {
   }
   const preparing = publishing && latest && edition.date < indianDay();
   $('edition-note').textContent = preparing ? 'Today’s edition is pending. Showing the latest available.' : '';
-  renderQuickBrief();
+  renderTopThree($('quick-stories'));
   createTopics();
   renderSection();
 }
@@ -427,7 +612,7 @@ async function selectEdition(day, mode = 'push') {
     edition = value;
     seen = savedProgress(value);
     if (seen.size) rememberProgress(value, seen);
-    if (!edition.sections[active]) active = 'india';
+    if (!topicDeck(active).length) active = 'india';
     if (mode !== 'none') setRoute(day, mode);
     renderEdition();
     return true;
@@ -461,7 +646,7 @@ function renderArchive() {
       const status = node('span', 'archive-progress', day === catalog[0] ? 'Latest' : 'Unread');
       const progressLabel = issue => {
         const count = savedProgress(issue).size;
-        const total = Object.values(issue.sections).reduce((sum, deck) => sum + deck.length, 0);
+        const total = sectionIds(issue).reduce((sum, topic) => sum + getDeck(issue, topic).length, 0);
         return count === total ? 'Complete' : count ? count + ' of ' + total + ' read' : day === catalog[0] ? 'Latest' : 'Unread';
       };
       if (loaded.has(day)) status.textContent = progressLabel(loaded.get(day));

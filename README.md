@@ -2,6 +2,36 @@
 
 A phone-first daily briefing across India, World, Indian Markets, Stock Investing, AI & Tech, Mind & Evolution, and Marketing World. Current editions have five cards per topic. Earlier issues retain their original topics, and reading progress stays on the reader's device.
 
+## V2 publication
+
+The archive accepts the original editions and v2 separately. V2 requires sourced Top 3 links,
+five cards in each active section, a market dashboard and four market cards, and three screened
+picks, a watchlist and a metric lesson. Sundays omit Indian Markets. A Saturday or holiday
+dashboard needs an exchange calendar source and shows the last session close.
+
+Run the 09:00 research preparation with `MORNING_PREPARE_STAGE=draft npm run prepare-v2 -- YYYY-MM-DD`.
+After 09:45 use `MORNING_PREPARE_STAGE=market npm run prepare-v2 -- YYYY-MM-DD` for the dashboard.
+The fundamentals source returns `{ date, stocks, facts }`. Every stock supplies a symbol, sector,
+kind, closing price and quote date, metric values, data date, sources, and a dated `metricSources`
+entry for its price and each value. The market source returns `{ date, timestamp, session, series,
+flows, niftyPE, sources, facts }`, with sourced price levels and dated historic closes for each
+indicator. Closed sessions additionally supply `lastSession` and `calendarUrl`. The source may be a
+dated local JSON file or an HTTPS endpoint configured in the task environment. Financial fact records
+use `{ value, url, asOf }`.
+
+Use the screened output as the writer's input. `npm run publish-v2 -- draft.json` pulls the data
+again, computes the financial fields, validates the editorial and numerical checklist, and writes
+a dated edition only inside the IST publication window. Optionally pass two positional JSON file
+paths after the draft for the fundamentals and market inputs. Commit only the validated dated edition.
+Keep credentials and raw provider exports outside the repository. The published cards include
+their primary links and provenance.
+
+After the session, run `npm run update-closes -- YYYY-MM-DD`. Commit only the new dated file
+under `public/market-closes/` if one was written. The build derives the pick ledger from the
+published editions and calculates returns from the official NSE closes on the same dates.
+A non-trading pick date has no invented entry price. The ledger is empty until the first screened
+edition is published. Reading progress is stored on this device.
+
 ## Daily publication
 
 The Morning Edition task in ChatGPT starts at **10:05 a.m. IST**. It researches the briefing, saves one dated edition to the `main` branch, and delivers the briefing in ChatGPT. Vercel builds the archive index and deploys `main` to production. Each edition becomes available when that build is ready.

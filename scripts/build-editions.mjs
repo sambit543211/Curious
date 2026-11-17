@@ -1,5 +1,8 @@
 import { access, readFile, readdir, writeFile } from 'node:fs/promises';
-import { baseTopics, isDay, isEdition, sourceLink, storyKey, topicIds } from '../public/edition-format.js';
+import { baseTopics, isDay, isEdition, isV2, sourceLink, storyKey, topicIds } from '../public/edition-format.js';
+
+import { publicationErrors } from '../lib/edition-v2.js';
+import { writeLedger } from '../lib/track-record.js';
 
 const publicRoot = new URL('../public/', import.meta.url);
 const editionsDir = new URL('editions/', publicRoot);
@@ -9,16 +12,21 @@ for (const name of await readdir(editionsDir)) {
 }
 
 const catalog = new Map();
+const legacy = [];
+const current = [];
 const checkedImages = new Set();
 for (const path of entries) {
   const edition = JSON.parse(await readFile(new URL(path.slice(1), publicRoot), 'utf8'));
-  if (!isEdition(edition) || !baseTopics.every(id => edition.sections[id])) {
+  if (!isEdition(edition) || (!isV2(edition) && !baseTopics.every(id => edition.sections[id]))) {
     throw new Error(path + ' must contain five cards in each available topic');
   }
   if (path.startsWith('/editions/') && path !== '/editions/' + edition.date + '.json') {
     throw new Error(path + ' must match its edition date');
   }
   if (!isDay(edition.date) || catalog.has(edition.date)) throw new Error('Duplicate or invalid date ' + edition.date);
+  catalog.set(edition.date, {date:edition.date,path});
+  if (isV2(edition)) { current.push(edition); continue; }
+  legacy.push(edition);
   for (const id of topicIds.filter(id => edition.sections[id])) {
     const cards = edition.sections[id];
     if (new Set(cards.map(card => card.headline.trim().toLowerCase())).size !== cards.length) {
@@ -45,8 +53,13 @@ for (const path of entries) {
   if (!edition.sections.marketing.every((card, i) => (i < 3 ? /^India\b/i : /^Global\b/i).test(card.label))) {
     throw new Error(path + ' must contain three India and two Global marketing stories');
   }
-  catalog.set(edition.date, {date:edition.date,path});
 }
+const history = [...legacy,...current];
+for (const issue of current) {
+  const problems = publicationErrors(issue,history);
+  if (problems.length) throw new Error(issue.date + ': ' + problems.join('\n'));
+}
+await writeLedger(history);
 const editions = [...catalog.values()].sort((a,b) => b.date.localeCompare(a.date));
 const index = {editions, publishing:process.env.VERCEL_ENV === 'production'};
 await writeFile(new URL('index.json', editionsDir), JSON.stringify(index, null, 2) + '\n');

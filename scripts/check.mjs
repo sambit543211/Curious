@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { access, readFile, readdir } from 'node:fs/promises';
 import { spawnSync } from 'node:child_process';
-import { baseTopics, isDay, isEdition, matchProgress, nextUnread, sourceLink, stockTopic, storyKey } from '../public/edition-format.js';
+import { baseTopics, isDay, isEdition, isV2, matchProgress, nextUnread, sourceLink, stockTopic, storyKey } from '../public/edition-format.js';
 import { bundledDates, categories, firstEdition, isHttps, readBundledEdition } from '../lib/edition.js';
 import { indianDay } from '../lib/store.js';
 
@@ -13,6 +13,7 @@ for (const {date,path} of catalog) {
   const edition = JSON.parse(await readFile(new URL('../public'+path, import.meta.url)));
   assert.deepEqual(edition, await readBundledEdition(date));
   assert.ok(isEdition(edition));
+  if (isV2(edition)) continue;
   const expected = edition.sections[stockTopic] ? categories : baseTopics;
   assert.deepEqual(Object.keys(edition.sections).sort(), [...expected].sort());
   assert.deepEqual(edition.sections.marketing.map(card => card.label.match(/^(India|Global)\b/i)?.[1]), ['India','India','India','Global','Global']);

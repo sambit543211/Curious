@@ -8,8 +8,11 @@
   },
   "scripts": {
     "dev": "python3 -m http.server 4173 --directory public",
-    "check": "node scripts/check.mjs",
-    "build": "node scripts/build-editions.mjs"
+    "check": "node scripts/check.mjs && node scripts/check-v2.mjs",
+    "build": "node scripts/build-editions.mjs",
+    "prepare-v2": "node scripts/prepare-v2.mjs",
+    "publish-v2": "node scripts/publish-v2.mjs",
+    "update-closes": "node scripts/update-closes.mjs"
   },
   "dependencies": {
     "web-push": "3.6.7"

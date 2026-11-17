@@ -19,10 +19,10 @@
   document.addEventListener('DOMContentLoaded', () => {
     const options = document.getElementById('appearance');
     const updateControls = () => {
-      for (const radio of options.querySelectorAll('input')) radio.checked = radio.value === choice;
+      for (const radio of options?.querySelectorAll('input') ?? []) radio.checked = radio.value === choice;
     };
     updateControls();
-    options.addEventListener('change', event => {
+    options?.addEventListener('change', event => {
       choice = resolve(event.target.value);
       apply();
       try { localStorage.setItem(key, choice); } catch { /* The setting still applies to this page. */ }

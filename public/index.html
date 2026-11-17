@@ -21,6 +21,7 @@
   <div class="wrap mast-inner">
     <a href="/" class="wordmark"><img src="/images/icon-192.png" alt="" width="38" height="38"><span>Morning Edition</span></a>
     <div class="mast-actions">
+      <a class="button text-button" href="/track-record.html">Track Record</a>
       <button id="settings" class="button quiet settings-button" type="button" aria-haspopup="dialog"><span class="icon-slot" data-icon="settings"></span>Settings</button>
     </div>
   </div>
@@ -49,12 +50,12 @@
   </section>
 
   <p id="edition-note" class="edition-note" role="status"></p>
-  <nav id="topics" class="topics" aria-label="Briefing topics"></nav>
   <div class="edition-body">
-    <details class="quick-brief" id="quick-brief" hidden>
-      <summary>Quick brief <span>4 headlines</span><span class="icon-slot disclosure-caret" data-icon="down"></span></summary>
+    <section class="quick-brief" id="quick-brief" aria-labelledby="top-title" hidden>
+      <h2 id="top-title">Today’s Top 3</h2>
       <ol id="quick-stories"></ol>
-    </details>
+    </section>
+    <nav id="topics" class="topics" aria-label="Briefing topics"></nav>
     <section id="story-section" aria-labelledby="section-title" aria-busy="true">
       <div class="section-head">
         <div class="section-label"><h2 id="section-title">India</h2><p class="section-remaining" id="section-remaining"></p></div>
@@ -70,6 +71,10 @@
     <div class="reader-location"><span id="reader-topic"></span><span id="reader-position"></span></div>
     <button id="reader-close" class="button reader-close" type="button" aria-label="Close story"><span class="icon-slot" data-icon="close"></span></button>
   </header>
+  <div class="reader-progress">
+    <div id="reader-segments" class="reader-segments" role="progressbar" aria-label="Edition reading progress"></div>
+    <span id="reader-minutes"></span>
+  </div>
   <div class="reader-content" id="reader-content">
     <figure class="reader-cover" id="reader-cover">
       <figcaption id="reader-photo-note">Illustrative photo</figcaption>
@@ -77,20 +82,36 @@
     <article class="reader-body">
       <p class="eyebrow" id="reader-label"></p>
       <h2 id="reader-title" tabindex="-1" autofocus></h2>
+      <div id="reader-data"></div>
       <p class="reader-summary" id="reader-summary"></p>
+      <div id="reader-example-box" class="story-context" hidden><h3>Real-life example</h3><p id="reader-example"></p></div>
+      <div id="reader-use-box" class="story-context" hidden><h3>Try this week</h3><p id="reader-use"></p></div>
+      <div id="reader-campaign-box" class="story-context" hidden><h3>Campaign and results</h3><p id="reader-campaign"></p></div>
       <div class="story-context" id="reader-why-box" hidden><h3 id="why-label">Why it happened</h3><p id="reader-why"></p></div>
       <div class="story-context" id="reader-valuation-box" hidden><h3>Valuation</h3><p id="reader-valuation"></p></div>
-      <div class="story-context"><h3 id="context-label">Why it matters</h3><p id="reader-context"></p></div>
+      <div class="story-context" id="reader-context-box"><h3 id="context-label">Why it matters</h3><p id="reader-context"></p></div>
+      <div class="story-context" id="reader-take-box" hidden><h3>My take</h3><p id="reader-take"></p></div>
+      <div class="story-context" id="reader-watch-box" hidden><h3>What to track</h3><p id="reader-watch"></p></div>
+      <dl id="reader-terms" class="reader-terms" hidden></dl>
       <div class="story-context" id="reader-risk-box" hidden><h3>What could go wrong</h3><p id="reader-risk"></p></div>
       <details class="source-disclosure" id="source-disclosure" hidden>
         <summary><span id="source-summary">Sources</span><span class="icon-slot disclosure-caret" data-icon="down"></span></summary>
         <div class="reader-sources" id="reader-sources" aria-label="Story sources"></div>
       </details>
+      <p id="research-notice" class="data-note" hidden></p>
     </article>
   </div>
-  <footer class="reader-actions">
+  <div id="reader-transition" class="reader-interstitial" tabindex="-1" aria-live="polite" hidden></div>
+  <div id="reader-finish" class="reader-interstitial" hidden>
+    <h2 id="reader-finish-title" tabindex="-1">Done</h2>
+    <p id="reader-finish-count"></p>
+    <ol id="finish-stories" class="finish-stories" aria-label="Today’s Top 3"></ol>
+    <p id="finish-weekly" hidden></p>
+    <button id="finish-close" class="button primary" type="button">Back to edition</button>
+  </div>
+  <footer class="reader-actions" id="reader-actions">
     <button id="previous" class="button quiet" type="button"><span class="icon-slot" data-icon="left"></span><span>Previous</span></button>
-    <button id="read" class="button primary" type="button"><span id="read-label">Mark read &amp; next</span><span class="icon-slot" id="read-icon" data-icon="arrow"></span></button>
+    <button id="read" class="button primary" type="button"><span id="read-label">Next</span><span class="icon-slot" id="read-icon" data-icon="arrow"></span></button>
   </footer>
   <p class="visually-hidden" aria-live="polite" id="reader-announcement"></p>
 </dialog>

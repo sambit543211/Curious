@@ -17,20 +17,46 @@ export function isDay(value) {
   return Number.isFinite(day.getTime()) && day.toISOString().slice(0, 10) === value;
 }
 
+export const isV2 = issue => issue?.version === 2 || Array.isArray(issue?.top3);
+export const isSunday = day => isDay(day) && new Date(day + 'T00:00:00Z').getUTCDay() === 0;
+export const sectionIds = issue => topicIds.filter(topic => getDeck(issue, topic).length);
+
+export function getDeck(issue, topic) {
+  const sections = issue?.sections;
+  const value = sections?.[topic] ?? (topic === 'mind' ? sections?.psychology : undefined);
+  if (Array.isArray(value)) return value;
+  if (topic === 'markets' && value?.dashboard && Array.isArray(value.cards)) {
+    const dashboard = value.dashboard;
+    return [{...dashboard, id:dashboard.id ?? 'markets-dashboard', label:dashboard.label ?? 'Market snapshot',
+      headline:dashboard.headline ?? 'Indian markets at a glance', kind:'dashboard'}, ...value.cards];
+  }
+  return [];
+}
+
 export function isEdition(value) {
-  if (!isDay(value?.date) || !value.sections) return false;
+  if (!isDay(value?.date) || !value.sections || typeof value.sections !== 'object') return false;
+  if (isV2(value)) return Array.isArray(value.top3) && value.top3.length === 3 &&
+    topicIds.every(topic => {
+      const deck = getDeck(value, topic);
+      if (topic === 'markets' && isSunday(value.date)) return deck.length === 0;
+      return deck.length === 5 && deck.every(card => nonEmpty(card?.id) &&
+        nonEmpty(card.headline) && nonEmpty(card.summary) && validSources(card.sources));
+    });
   return topicIds.every(id => {
     const deck = value.sections[id];
     if ((id === 'marketing' || id === stockTopic) && deck === undefined) return true;
     const required = ['label','headline','summary','context','source','sourceUrl'];
     if (id === stockTopic) required.push('id', 'why', 'valuation', 'risk');
     return Array.isArray(deck) && deck.length === 5 && deck.every(card =>
-      required.every(key => typeof card?.[key] === 'string' && card[key].trim()) &&
-      (card.sources === undefined || (Array.isArray(card.sources) && card.sources.length > 0 &&
-        card.sources.every(source => typeof source?.label === 'string' && source.label.trim() && sourceLink(source.url))))
+      required.every(key => nonEmpty(card?.[key])) &&
+      (card.sources === undefined || validSources(card.sources))
     );
   });
 }
+
+export const nonEmpty = value => typeof value === 'string' && value.trim().length > 0;
+export const validSources = sources => Array.isArray(sources) && sources.length > 0 &&
+  sources.every(source => nonEmpty(source?.label) && sourceLink(source.url));
 
 export function sourceLink(value) {
   try {
@@ -60,7 +86,8 @@ export function storyKey(topic, card, deck) {
 
 export function matchProgress(edition, current, legacy) {
   const read = new Set();
-  for (const [topic, deck] of Object.entries(edition.sections)) {
+  for (const topic of sectionIds(edition)) {
+    const deck = getDeck(edition, topic);
     for (const card of deck) {
       const key = storyKey(topic, card, deck);
       if (current.has(key) || legacy.has(`${topic}:${card.headline}`)) read.add(key);

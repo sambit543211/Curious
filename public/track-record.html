@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f8f6f1">
+<meta name="color-scheme" content="light dark">
+<script src="/theme.js"></script>
+<link rel="stylesheet" href="/style.css">
+<title>Track Record · Morning Edition</title>
+<script type="module" src="/track-record.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#track">Skip to Track Record</a>
+<header class="mast"><div class="wrap mast-inner">
+<a href="/" class="wordmark"><img src="/images/icon-192.png" width="34" height="34" alt=""><span>Morning Edition</span></a>
+<a class="button quiet" href="/">Back to edition</a>
+</div></header>
+<main class="wrap" id="track">
+  <div class="track-heading"><h1>Track Record</h1></div>
+  <div id="track-summary" class="track-summary" aria-label="Performance summary" hidden></div>
+  <p id="track-status" role="status">Loading pick history…</p>
+  <div class="table-scroll" tabindex="0" role="region" aria-label="Sortable stock returns" id="track-scroll" hidden>
+    <table class="data-table track-table">
+      <caption class="visually-hidden">Stock and benchmark returns from the same NSE close dates</caption>
+      <thead id="track-columns"></thead>
+      <tbody id="track-rows"></tbody>
+    </table>
+  </div>
+  <p id="track-method" class="data-note" hidden>Price returns use matched NSE closes and exclude dividends. A missing close is shown as a dash.</p>
+</main>
+</body>
+</html>

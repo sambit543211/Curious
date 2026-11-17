@@ -1,12 +1,12 @@
-const shellCache = 'morning-edition-shell-v7';
+const shellCache = 'morning-edition-shell-v8';
 const dataCache = 'morning-edition-data-v1';
 const shell = [
-  '/', '/app.js', '/edition-format.js', '/theme.js', '/style.css', '/manifest.webmanifest',
+  '/', '/app.js', '/edition-format.js', '/theme.js', '/investment-rules.js', '/track-record.html', '/track-record.js', '/style.css', '/manifest.webmanifest',
   '/fonts/dm-sans.woff2', '/fonts/instrument-serif.woff2',
   '/images/icon-192.png', '/images/icon-512.png',
   ...['india','world','markets','tech','mind','marketing'].map(id => '/images/' + id + '.jpg')
 ];
-const seeds = ['/editions/index.json', '/first-edition.json', '/editions/2026-11-14.json'];
+const seeds = ['/picks-ledger.json', '/editions/index.json', '/first-edition.json', '/editions/2026-11-14.json'];
 
 self.addEventListener('install', event => event.waitUntil(
   Promise.all([
@@ -32,10 +32,10 @@ self.addEventListener('fetch', event => {
     try {
       const response = await fetch(request);
       if (!response.ok) return (await cache.match(request)) || response;
-      await cache.put(request.mode === 'navigate' ? '/' : request, response.clone()).catch(() => {});
+      await cache.put(request.mode === 'navigate' ? url.pathname : request, response.clone()).catch(() => {});
       return response;
     } catch {
-      return (await cache.match(request)) || (request.mode === 'navigate' && await cache.match('/')) || Response.error();
+      return (await cache.match(request)) || (request.mode === 'navigate' && await cache.match(url.pathname)) || Response.error();
     }
   })());
 });
