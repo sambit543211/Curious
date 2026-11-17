@@ -23,7 +23,10 @@ const paths = {
   mind: 'M7 19v-2c-1.9-1.3-3-3.4-3-5.7a7 7 0 0 1 14-.7l2 3.4h-3v5h-5v2m-3-10a2 2 0 0 1 4 0',
   marketing: 'M3 10v4h4l3 6h3l-2-6 10 3V7l-10 3H3Zm4 0v4m4-4v4',
   calendar: 'M7 3v4m10-4v4M4 10h16M5 5h14a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Z',
-  bell: 'M5 17h14l-2-3V9a5 5 0 1 0-10 0v5l-2 3Zm5 3a2 2 0 0 0 4 0',
+  settings: 'M4 7h16M4 12h16M4 17h16M8 5v4m8 1v4m-6 1v4',
+  system: 'M4 5h16v11H4zM9 20h6m-3-4v4',
+  sun: 'M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0ZM12 2v2m0 16v2M2 12h2m16 0h2M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2',
+  moon: 'M20.5 15A8.8 8.8 0 0 1 9 3.5 8.8 8.8 0 1 0 20.5 15Z',
   left: 'M15 5l-7 7 7 7',
   right: 'm9 5 7 7-7 7',
   down: 'm6 9 6 6 6-6',
@@ -53,6 +56,11 @@ function addIcon(slot, name) {
 }
 const icon = name => addIcon(node('span', 'icon-slot'), name);
 for (const slot of document.querySelectorAll('[data-icon]')) addIcon(slot, slot.dataset.icon);
+
+const wideLayout = matchMedia('(min-width: 681px)');
+const adjustQuickBrief = () => { $('quick-brief').open = wideLayout.matches; };
+adjustQuickBrief();
+wideLayout.addEventListener('change', adjustQuickBrief);
 
 const releaseTime = new Intl.DateTimeFormat('en-IN', {hour:'numeric', minute:'2-digit', timeZone:'Asia/Kolkata'});
 const briefDate = new Intl.DateTimeFormat('en-GB', {weekday:'short', day:'numeric', month:'short', year:'numeric',timeZone:'UTC'});
@@ -232,6 +240,9 @@ function renderSources(card) {
     links.push(link);
   }
   $('reader-sources').replaceChildren(...links);
+  $('source-disclosure').hidden = links.length === 0;
+  $('source-disclosure').open = false;
+  $('source-summary').textContent = 'Sources (' + links.length + ')';
 }
 
 function detail(id, value) {

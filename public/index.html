@@ -4,11 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#f8f6f1">
+<meta name="color-scheme" content="light dark">
 <meta name="apple-mobile-web-app-title" content="Morning Edition">
 <meta name="description" content="Your daily briefing and Indian stock research. Browse past editions and read at your own pace.">
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="apple-touch-icon" href="/images/icon-192.png">
 <link rel="icon" href="/images/icon-192.png">
+<script src="/theme.js"></script>
 <link rel="stylesheet" href="/style.css">
 <title>Morning Edition</title>
 <script type="module" src="/app.js"></script>
@@ -19,7 +21,7 @@
   <div class="wrap mast-inner">
     <a href="/" class="wordmark"><img src="/images/icon-192.png" alt="" width="38" height="38"><span>Morning Edition</span></a>
     <div class="mast-actions">
-      <button id="settings" class="button quiet settings-button" type="button" aria-haspopup="dialog" aria-label="Install and alerts"><span class="icon-slot" data-icon="bell"></span><span class="settings-label">Install &amp; alerts</span></button>
+      <button id="settings" class="button quiet settings-button" type="button" aria-haspopup="dialog"><span class="icon-slot" data-icon="settings"></span>Settings</button>
     </div>
   </div>
 </header>
@@ -31,7 +33,7 @@
       <h1 id="heading">The Daily <span>Brief.</span></h1>
       <div class="edition-toolbar" role="group" aria-label="Browse by edition">
         <button id="older" class="button quiet date-step" type="button" aria-label="Older edition" disabled><span class="icon-slot" data-icon="left"></span></button>
-        <button id="pick-date" class="button date-pick" type="button" aria-label="Open edition archive" aria-haspopup="dialog" disabled><span class="icon-slot" data-icon="calendar"></span><span id="selected-date">Select an edition</span><span class="icon-slot date-caret" data-icon="down"></span></button>
+        <button id="pick-date" class="button date-pick" type="button" aria-labelledby="selected-date archive-button-label" aria-haspopup="dialog" disabled><span class="icon-slot" data-icon="calendar"></span><span id="selected-date">Select an edition</span><span class="visually-hidden" id="archive-button-label">Open edition archive</span><span class="icon-slot date-caret" data-icon="down"></span></button>
         <button id="newer" class="button quiet date-step" type="button" aria-label="Newer edition" disabled><span class="icon-slot" data-icon="right"></span></button>
         <button id="back-latest" class="button text-button" type="button" hidden>Back to latest</button>
       </div>
@@ -47,23 +49,21 @@
   </section>
 
   <p id="edition-note" class="edition-note" role="status"></p>
-  <details class="quick-brief" id="quick-brief" open hidden>
-    <summary>Quick brief <span>4 headlines</span></summary>
-    <ol id="quick-stories"></ol>
-  </details>
   <nav id="topics" class="topics" aria-label="Briefing topics"></nav>
-
-  <section id="story-section" aria-labelledby="section-title" aria-busy="true">
-    <div class="section-head">
-      <h2 id="section-title">India</h2>
-      <p class="section-remaining" id="section-remaining"></p>
-      <button class="button quiet" id="resume-topic" type="button" hidden><span id="resume-topic-label">Read next unread</span><span class="icon-slot" data-icon="arrow"></span></button>
-    </div>
-    <div id="stories" class="stories"><p>Loading your briefing…</p></div>
-  </section>
+  <div class="edition-body">
+    <details class="quick-brief" id="quick-brief" hidden>
+      <summary>Quick brief <span>4 headlines</span><span class="icon-slot disclosure-caret" data-icon="down"></span></summary>
+      <ol id="quick-stories"></ol>
+    </details>
+    <section id="story-section" aria-labelledby="section-title" aria-busy="true">
+      <div class="section-head">
+        <div class="section-label"><h2 id="section-title">India</h2><p class="section-remaining" id="section-remaining"></p></div>
+        <button class="button quiet" id="resume-topic" type="button" hidden><span id="resume-topic-label">Read next unread</span><span class="icon-slot" data-icon="arrow"></span></button>
+      </div>
+      <div id="stories" class="stories"><p>Loading your briefing…</p></div>
+    </section>
+  </div>
 </main>
-
-<footer class="wrap footer"><span>Morning Edition</span></footer>
 
 <dialog class="reader-dialog" id="reader" aria-labelledby="reader-title">
   <header class="reader-toolbar">
@@ -82,7 +82,10 @@
       <div class="story-context" id="reader-valuation-box" hidden><h3>Valuation</h3><p id="reader-valuation"></p></div>
       <div class="story-context"><h3 id="context-label">Why it matters</h3><p id="reader-context"></p></div>
       <div class="story-context" id="reader-risk-box" hidden><h3>What could go wrong</h3><p id="reader-risk"></p></div>
-      <div class="reader-sources" id="reader-sources" aria-label="Story sources"></div>
+      <details class="source-disclosure" id="source-disclosure" hidden>
+        <summary><span id="source-summary">Sources</span><span class="icon-slot disclosure-caret" data-icon="down"></span></summary>
+        <div class="reader-sources" id="reader-sources" aria-label="Story sources"></div>
+      </details>
     </article>
   </div>
   <footer class="reader-actions">
@@ -96,7 +99,6 @@
   <div class="dialog-body">
     <button id="archive-close" class="button close" type="button" aria-label="Close archive"><span class="icon-slot" data-icon="close"></span></button>
     <h2 id="archive-title">Edition archive</h2>
-    <p>Go back to any published edition.</p>
     <form id="find-edition" class="archive-find">
       <label for="find-date">Jump to a date</label>
       <div>
@@ -112,11 +114,22 @@
 <dialog class="settings-dialog" id="settings-dialog" aria-labelledby="settings-title">
   <div class="dialog-body">
     <button id="settings-close" class="button close" type="button" aria-label="Close settings"><span class="icon-slot" data-icon="close"></span></button>
-    <h2 id="settings-title">On your Home Screen</h2>
-    <p>On iPhone, open this page in Safari and tap <strong>Share → Add to Home Screen</strong>. Then open Morning Edition from the new icon.</p>
-    <p id="push-instructions" hidden>Allow notifications from the installed app to hear when a new edition is ready.</p>
-    <button id="enable-push" class="button primary" type="button" hidden>Enable notifications</button>
-    <p id="push-status" role="status"></p>
+    <h2 id="settings-title">Settings</h2>
+    <fieldset class="appearance" id="appearance">
+      <legend>Appearance</legend>
+      <div class="theme-options">
+        <label><input type="radio" name="appearance" value="system" checked><span><span class="icon-slot" data-icon="system"></span>System</span></label>
+        <label><input type="radio" name="appearance" value="light"><span><span class="icon-slot" data-icon="sun"></span>Light</span></label>
+        <label><input type="radio" name="appearance" value="dark"><span><span class="icon-slot" data-icon="moon"></span>Dark</span></label>
+      </div>
+    </fieldset>
+    <section class="install-settings" aria-labelledby="install-title">
+      <h3 id="install-title">Home Screen and alerts</h3>
+      <p>On iPhone in Safari, tap <strong>Share → Add to Home Screen</strong>.</p>
+      <p id="push-instructions" hidden>Open the installed app to enable morning alerts.</p>
+      <button id="enable-push" class="button primary" type="button" hidden>Enable notifications</button>
+      <p id="push-status" role="status"></p>
+    </section>
   </div>
 </dialog>
 </body>
