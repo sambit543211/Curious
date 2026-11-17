@@ -9,16 +9,32 @@
         "context": "Fishing and coastal transport could be disrupted. Check the latest IMD track and district advisories as the forecast evolves.",
         "source": "India Meteorological Department",
         "sourceUrl": "https://mausam.imd.gov.in/backend/assets/cyclone_pdf/12__National_Bulletin_No_12-17Nov2026_0230IST.pdf",
-        "image": "/images/ocean.jpg"
+        "image": "/images/ocean.jpg",
+        "id": "cyclone-akvan",
+        "why": "IMD raised the alert after the Bay of Bengal system strengthened into a cyclone.",
+        "sources": [
+          {
+            "label": "India Meteorological Department",
+            "url": "https://mausam.imd.gov.in/backend/assets/cyclone_pdf/12__National_Bulletin_No_12-17Nov2026_0230IST.pdf"
+          }
+        ]
       },
       {
         "label": "Wholesale prices · 16 Nov",
         "headline": "India’s wholesale inflation rises to 12.29%",
-        "summary": "October wholesale prices rose 12.29% year on year, up from 11.39% in September. Fuel and power inflation climbed from 25.85% to 32.84%, while manufactured-products inflation eased to 9.54%.",
-        "context": "For energy-intensive businesses, watch whether softer crude eases input costs and whether wholesale increases feed through to retail prices.",
+        "summary": "October wholesale prices rose 12.29% year on year, up from 11.39% in September. Fuel and power prices rose 32.84%, while manufactured-products inflation eased to 9.54%.",
+        "context": "Watch whether softer crude reduces costs for energy-intensive businesses and whether price increases reach consumers.",
         "source": "Ministry of Commerce and Industry",
         "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2336762&lang=1&reg=3",
-        "image": "/images/charts.jpg"
+        "image": "/images/charts.jpg",
+        "id": "wholesale-inflation-october",
+        "why": "A jump in fuel and power inflation outweighed slower price increases in manufactured products.",
+        "sources": [
+          {
+            "label": "Ministry of Commerce and Industry",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2336762&lang=1&reg=3"
+          }
+        ]
       },
       {
         "label": "Population count · 16 Nov",
@@ -27,7 +43,15 @@
         "context": "Door-to-door enumeration in those areas runs from 1 December to 4 January. Check the official census portal for the instructions for your area.",
         "source": "Akashvani",
         "sourceUrl": "https://newsonair.gov.in/self-enumeration-process-for-2nd-phase-of-census-2027-commences-in-four-states/",
-        "image": "/images/india.jpg"
+        "image": "/images/india.jpg",
+        "id": "census-self-enumeration",
+        "why": "The Census is opening online self-enumeration ahead of door-to-door visits in these areas.",
+        "sources": [
+          {
+            "label": "Akashvani",
+            "url": "https://newsonair.gov.in/self-enumeration-process-for-2nd-phase-of-census-2027-commences-in-four-states/"
+          }
+        ]
       },
       {
         "label": "Bank capital · 16 Nov",
@@ -36,7 +60,15 @@
         "context": "AT1 bonds can absorb losses when a bank is in distress. Watch whether the court takes up the review and clarifies when a write-off can be ordered.",
         "source": "Reuters",
         "sourceUrl": "https://www.reuters.com/legal/litigation/indian-central-bank-seeks-review-supreme-courts-yes-bank-at-1-bonds-order-2026-11-16/",
-        "image": "/images/markets.jpg"
+        "image": "/images/markets.jpg",
+        "id": "yes-bank-at1-review",
+        "why": "The court set aside the loss-absorbing bond write-off, prompting the RBI to seek a review.",
+        "sources": [
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/legal/litigation/indian-central-bank-seeks-review-supreme-courts-yes-bank-at-1-bonds-order-2026-11-16/"
+          }
+        ]
       },
       {
         "label": "Jobs · 16 Nov",
@@ -45,7 +77,15 @@
         "context": "The share of women aged 15 and above who were working rose from 32.8% to 33.3%. Watch whether the gain continues alongside rising participation.",
         "source": "Ministry of Statistics and Programme Implementation",
         "sourceUrl": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2336905&lang=1&reg=3",
-        "image": "/images/work.jpg"
+        "image": "/images/work.jpg",
+        "id": "plfs-october",
+        "why": "The survey recorded a drop in urban unemployment while rural unemployment held steady. The release does not establish what caused those changes.",
+        "sources": [
+          {
+            "label": "Ministry of Statistics and Programme Implementation",
+            "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2336905&lang=1&reg=3"
+          }
+        ]
       }
     ],
     "world": [
@@ -56,7 +96,15 @@
         "context": "Watch restoration updates and bridge access. Prolonged outages could disrupt transport and heating as winter approaches.",
         "source": "Reuters",
         "sourceUrl": "https://www.reuters.com/world/kyiv-mayor-klitschko-says-russian-forces-struck-two-bridges-across-dnipro-river-2026-11-16/",
-        "image": "/images/world.jpg"
+        "image": "/images/world.jpg",
+        "id": "kyiv-bridge-strikes",
+        "why": "Kyiv’s mayor linked the outages to strikes on bridges and other infrastructure. The initial damage reports were preliminary.",
+        "sources": [
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/world/kyiv-mayor-klitschko-says-russian-forces-struck-two-bridges-across-dnipro-river-2026-11-16/"
+          }
+        ]
       },
       {
         "label": "Sanctions · 16 Nov",
@@ -65,25 +113,49 @@
         "context": "Banks, insurers and shipping companies face new checks on counterparties. Watch the published list and how financial institutions apply the restrictions.",
         "source": "Council of the European Union",
         "sourceUrl": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/16/ukraine-eu-lists-113-individuals-and-entities-to-further-restrict-russia-s-ability-to-finance-its-war-of-aggression/",
-        "image": "/images/cargo.jpg"
+        "image": "/images/cargo.jpg",
+        "id": "eu-russia-sanctions",
+        "why": "The EU says it is targeting banking and oil-trade networks to limit Russia’s ability to finance the war.",
+        "sources": [
+          {
+            "label": "Council of the European Union",
+            "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/16/ukraine-eu-lists-113-individuals-and-entities-to-further-restrict-russia-s-ability-to-finance-its-war-of-aggression/"
+          }
+        ]
       },
       {
         "label": "Iran energy · 16 Nov",
         "headline": "Iran braces for deeper winter gas shortages after war damage",
-        "summary": "Iran’s national gas company blamed war damage to four processing plants for a projected worsening of winter shortages. Reuters reported that most regions could be affected.",
-        "context": "Watch plant repair schedules and any rationing notices. Prolonged shortages could strain home heating and factories that depend on gas.",
+        "summary": "Iran faces a projected worsening of winter gas shortages. Reuters reported that most regions could be affected.",
+        "context": "Prolonged shortages could strain home heating and gas-dependent factories. Watch repair schedules and rationing notices.",
         "source": "Reuters",
         "sourceUrl": "https://www.reuters.com/business/energy/iranian-leaders-fret-over-public-mood-gas-shortages-add-war-ills-2026-11-16/",
-        "image": "/images/world.jpg"
+        "image": "/images/world.jpg",
+        "id": "iran-winter-gas",
+        "why": "Iran’s gas company attributes the expected shortfall to damage at four processing plants.",
+        "sources": [
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/business/energy/iranian-leaders-fret-over-public-mood-gas-shortages-add-war-ills-2026-11-16/"
+          }
+        ]
       },
       {
         "label": "Diplomacy · 16 Nov",
         "headline": "China confirms 19 November summit with Trump and Putin",
         "summary": "Beijing confirmed that Xi Jinping will meet Donald Trump and Vladimir Putin in Shenzhen on the sidelines of APEC. Trump said he plans to discuss Russia’s war in Ukraine.",
         "context": "Watch for a joint statement or a commitment to follow-up talks. The confirmed meeting gives the three governments a channel for direct talks on security.",
-        "source": "China Foreign Ministry and AP",
+        "source": "China Ministry of Foreign Affairs · Meeting announcement",
         "sourceUrl": "https://www.fmprc.gov.cn/eng/xw/zyxw/202611/t20261116_12059663.html",
-        "image": "/images/planet.jpg"
+        "image": "/images/planet.jpg",
+        "id": "shenzhen-trilateral",
+        "why": "Beijing confirmed the meeting on the sidelines of APEC. Trump said he wants to discuss the war in Ukraine.",
+        "sources": [
+          {
+            "label": "China Ministry of Foreign Affairs · Meeting announcement",
+            "url": "https://www.fmprc.gov.cn/eng/xw/zyxw/202611/t20261116_12059663.html"
+          }
+        ]
       },
       {
         "label": "Climate finance · 17 Nov",
@@ -92,7 +164,15 @@
         "context": "The next test is how soon the pledge reaches people and whether further funding covers homes, roads and damaged hydropower facilities.",
         "source": "Associated Press",
         "sourceUrl": "https://apnews.com/article/nepal-loss-damage-fund-flood-cop31-climate-change-77a91aafbd547b5bcc881f1e16a28e9e",
-        "image": "/images/world.jpg"
+        "image": "/images/world.jpg",
+        "id": "nepal-loss-and-damage",
+        "why": "The pledged funding covers only a fraction of the estimated losses from floods.",
+        "sources": [
+          {
+            "label": "Associated Press",
+            "url": "https://apnews.com/article/nepal-loss-damage-fund-flood-cop31-climate-change-77a91aafbd547b5bcc881f1e16a28e9e"
+          }
+        ]
       }
     ],
     "markets": [
@@ -103,63 +183,284 @@
         "context": "Reuters linked cheaper crude to gains in fuel retailers (around 1%), tyre makers (up to 4%) and paint stocks (1.4–2.5%). Watch whether these gains hold as oil moves.",
         "source": "Reuters",
         "sourceUrl": "https://www.reuters.com/world/india/indian-shares-track-muted-start-global-cues-weaken-2026-11-17/",
-        "image": "/images/charts.jpg"
+        "image": "/images/charts.jpg",
+        "id": "opening-indices",
+        "why": "Reuters linked the gains to cheaper oil, which can help fuel retailers’ margins and lower costs for tyre and paint makers.",
+        "sources": [
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/world/india/indian-shares-track-muted-start-global-cues-weaken-2026-11-17/"
+          }
+        ]
       },
       {
         "label": "Commodities · 17 Nov a.m.",
         "headline": "Brent slips to $91.70 and Indian bullion gold is ₹1,34,971",
-        "summary": "Reuters put Brent at $91.70 a barrel on Tuesday morning as recovering Gulf exports raised expectations of a surplus. IBJA’s 16 November evening benchmark for 999 gold was ₹1,34,971 per 10 grams.",
-        "context": "Senco Gold reported 26% year-on-year festive retail sales growth. Its shares rose 4.7% in early trade. Watch crude import costs and whether stronger jewellery sales lift margins.",
-        "source": "IBJA, Reuters and Senco Gold’s NSE filing",
+        "summary": "Brent reached $91.70 a barrel on Tuesday morning. IBJA’s 16 November evening benchmark for 999 gold was ₹1,34,971 per 10 grams.",
+        "context": "Senco reported festive retail sales up 26% year on year. Shares rose 4.7% in early trade. Watch jewellery margins and crude import costs.",
+        "source": "IBJA · Gold benchmark",
         "sourceUrl": "https://ibjarates.com/UploadedFiles/30DaysPdf/Pdf_9968_20261116124229816_Daily%20Opening%20and%20Closing%20Market%20Rate.pdf",
-        "image": "/images/gold.jpg"
+        "image": "/images/gold.jpg",
+        "id": "brent-gold-senco",
+        "why": "Reuters attributed the fall in Brent to recovering Gulf exports and expectations of surplus supply.",
+        "sources": [
+          {
+            "label": "IBJA · Gold benchmark",
+            "url": "https://ibjarates.com/UploadedFiles/30DaysPdf/Pdf_9968_20261116124229816_Daily%20Opening%20and%20Closing%20Market%20Rate.pdf"
+          },
+          {
+            "label": "Reuters · Brent and early share moves",
+            "url": "https://www.reuters.com/world/india/indian-shares-track-muted-start-global-cues-weaken-2026-11-17/"
+          },
+          {
+            "label": "NSE · Senco Gold filing",
+            "url": "https://nsearchives.nseindia.com/corporate/Sencogold_16112026180214_SE_Intimation_Dhanteras_Update.pdf"
+          }
+        ]
       },
       {
         "label": "Foreign exchange · 17 Nov, 9:02 a.m. IST",
         "headline": "Rupee strengthens to ₹93.73 at Tuesday’s open",
-        "summary": "Moneycontrol reported an opening ₹93.73 per US dollar, citing lower oil and renewed foreign equity inflows. Reuters put Monday’s close at ₹93.9225 and November’s foreign equity inflows at $9.53 billion.",
-        "context": "Importers paying in dollars can watch whether the rupee holds its gain as crude and US yields move through the session.",
-        "source": "Moneycontrol and Reuters",
+        "summary": "Moneycontrol reported an opening ₹93.73 per US dollar. Reuters put Monday’s close at ₹93.9225 and November’s foreign equity inflows at $9.53 billion.",
+        "context": "Importers can monitor whether the rupee holds its gain as crude and US yields move.",
+        "source": "Moneycontrol · Tuesday opening quote",
         "sourceUrl": "https://www.moneycontrol.com/news/currency/currency-check-rupee-opens-20-paise-higher-at-93-73-on-lower-oil-prices-foreign-inflows-14081757.html",
-        "image": "/images/charts.jpg"
+        "image": "/images/charts.jpg",
+        "id": "rupee-opening",
+        "why": "Moneycontrol cited cheaper crude and renewed foreign equity inflows as support for the rupee.",
+        "sources": [
+          {
+            "label": "Moneycontrol · Tuesday opening quote",
+            "url": "https://www.moneycontrol.com/news/currency/currency-check-rupee-opens-20-paise-higher-at-93-73-on-lower-oil-prices-foreign-inflows-14081757.html"
+          },
+          {
+            "label": "Reuters · Monday rupee close",
+            "url": "https://www.reuters.com/world/india/indian-rupee-caught-between-external-pressures-foreign-inflows-2026-11-16/"
+          },
+          {
+            "label": "Reuters · Foreign equity flows",
+            "url": "https://www.reuters.com/world/india/indian-shares-track-muted-start-global-cues-weaken-2026-11-17/"
+          }
+        ]
       },
       {
         "label": "Exchange filing · 16 Nov evening",
         "headline": "US approval opens BSE BANKEX futures to US-based investors",
         "summary": "BSE said the US Commodity Futures Trading Commission approved offering its BANKEX index futures to US-based investors, under applicable rules. BANKEX tracks Indian banking stocks.",
         "context": "A wider pool of participants could increase liquidity. Watch trading volumes and spreads once overseas access is available.",
-        "source": "Upstox, citing BSE’s exchange filing",
+        "source": "Upstox · BSE BANKEX filing coverage",
         "sourceUrl": "https://upstox.com/news/market-news/stocks/bse-shares-in-focus-as-bankex-becomes-first-indian-sectoral-index-futures-contract-approved-by-us-cftc/article-203544/",
-        "image": "/images/charts.jpg"
+        "image": "/images/charts.jpg",
+        "id": "bse-bankex-cftc",
+        "why": "The US regulator approved access to a contract that tracks Indian banking stocks.",
+        "sources": [
+          {
+            "label": "Upstox · BSE BANKEX filing coverage",
+            "url": "https://upstox.com/news/market-news/stocks/bse-shares-in-focus-as-bankex-becomes-first-indian-sectoral-index-futures-contract-approved-by-us-cftc/article-203544/"
+          }
+        ]
       },
       {
         "label": "Primary market · 17 Nov morning",
         "headline": "Crystal Crop schedules anchor bids before its public IPO",
         "summary": "Crystal Crop Protection’s prospectus schedules anchor bidding for 17 November. Public bidding runs 18–20 November at ₹259–272. Mahanadi Coalfields and SME issuer Watrana Rentals are due to open on 19 November.",
         "context": "Anchor bidding precedes the public window. Upstox’s calendar showed no IPO listings this week. Check exchange notices for timetable changes.",
-        "source": "Crystal Crop prospectus and Upstox",
+        "source": "Crystal Crop · Prospectus",
         "sourceUrl": "https://www.crystalcropprotection.com/RHP.pdf",
-        "image": "/images/markets.jpg"
+        "image": "/images/markets.jpg",
+        "id": "crystal-crop-anchor",
+        "why": "The anchor round comes before the public window under the timetable in the prospectus.",
+        "sources": [
+          {
+            "label": "Crystal Crop · Prospectus",
+            "url": "https://www.crystalcropprotection.com/RHP.pdf"
+          },
+          {
+            "label": "Upstox · Weekly IPO and listing calendar",
+            "url": "https://upstox.com/news/market-news/ipo/upcoming-ipos-mahanadi-coalfields-crystal-crop-protection-and-watrana-rentals-issues-to-open-this-week/article-203462/"
+          }
+        ]
+      }
+    ],
+    "investing": [
+      {
+        "id": "PETRONET",
+        "label": "NSE: PETRONET · 16 Nov close",
+        "headline": "Petronet LNG’s terminal economics depend on utilisation",
+        "summary": "Dahej processed 216 trillion BTU in Q2 FY27, up from 211 a year earlier. Petronet reported ₹1,235 crore in quarterly profit after tax.",
+        "why": "Dahej and Kochi provide established import and regasification capacity. Terminal infrastructure and customer contracts are costly to replicate.",
+        "valuation": "₹326 on 16 November NSE close. About 10.6× trailing earnings, modestly below the 11.0× one-year median reported in the valuation snapshot.",
+        "context": "The value case improves if higher Dahej throughput persists and new capacity adds cash flow. Watch volumes, utilisation and capex returns.",
+        "risk": "A small valuation discount provides limited protection if LNG costs curb demand or new projects dilute returns.",
+        "source": "Petronet LNG · Q2 operating results",
+        "sourceUrl": "https://www.petronetlng.in/w/press-release-q2-2026-27-financial-results-1?p_l_back_url=%2Fsearch%3FmodifiedFrom%3D2026-11-02%26modifiedTo%3D2026-11-03",
+        "sources": [
+          {
+            "label": "Petronet LNG · Q2 operating results",
+            "url": "https://www.petronetlng.in/w/press-release-q2-2026-27-financial-results-1?p_l_back_url=%2Fsearch%3FmodifiedFrom%3D2026-11-02%26modifiedTo%3D2026-11-03"
+          },
+          {
+            "label": "HV Investing · Trailing valuation and median",
+            "url": "https://hvinvesting.com/research/file/532522"
+          },
+          {
+            "label": "HDFC Securities · Capex and margin analysis",
+            "url": "https://www.hdfcsec.com/hsl.docs/HSIE%20Results%20Daily%20-%2004%20Nov%202026%20-%20HSIE-202611040652545093589.pdf?t=051120260952195219"
+          },
+          {
+            "label": "NSE · 16 November closing prices (ZIP)",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261116_F_0000.csv.zip"
+          }
+        ],
+        "image": "/images/charts.jpg"
+      },
+      {
+        "id": "POWERGRID",
+        "label": "NSE: POWERGRID · 16 Nov close",
+        "headline": "Power Grid’s growth case rests on commissioning",
+        "summary": "Q2 consolidated profit rose 8% to ₹3,866 crore. It capitalised ₹9,300 crore of assets in the first half of FY27.",
+        "why": "Its national transmission network is hard to replicate. Regulated assets can provide predictable returns, while new projects still face bidding competition.",
+        "valuation": "₹262.20 on 16 November NSE close, about 15.1× trailing earnings. If annual EPS reaches ₹19, that same price is 13.8× earnings.",
+        "context": "An expanding grid can bring more projects into the earning asset base. Watch the gap between capex and commissioning.",
+        "risk": "Delays, weaker bidding returns and higher financing costs can erode the growth case.",
+        "source": "Power Grid · Quarterly results",
+        "sourceUrl": "https://powergrid.in/sites/default/files/press_document/Press%20release_Q2FY27%20-%20Final_01Nov2026.pdf",
+        "sources": [
+          {
+            "label": "Power Grid · Quarterly results",
+            "url": "https://powergrid.in/sites/default/files/press_document/Press%20release_Q2FY27%20-%20Final_01Nov2026.pdf"
+          },
+          {
+            "label": "Alphave · Dated trailing multiple",
+            "url": "https://www.alphave.in/chart/power-grid-of-india"
+          },
+          {
+            "label": "NSE · 16 November closing prices (ZIP)",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261116_F_0000.csv.zip"
+          }
+        ],
+        "image": "/images/charts.jpg"
+      },
+      {
+        "id": "COALINDIA",
+        "label": "NSE: COALINDIA · 16 Nov close",
+        "headline": "Coal India is cheap on earnings if those earnings hold",
+        "summary": "Q2 profit attributable to shareholders rose about 53% to ₹6,516 crore. The company declared a ₹10.25 interim dividend.",
+        "why": "Scale, mine access and established supply relationships give India’s largest coal producer an advantage.",
+        "valuation": "₹397.50 on 16 November NSE close, about 7.3× trailing EPS of ₹54.14, near its 7.4× five-year median. At ₹45 EPS it would be 8.8×.",
+        "context": "Watch dispatches and auction prices to see if earnings hold. The Mahanadi IPO is a potential unlock through a share sale, separate from operating growth.",
+        "risk": "Lower realisations, rising costs and slower coal demand could make current earnings and the dividend hard to sustain.",
+        "source": "NSE · Coal India consolidated results",
+        "sourceUrl": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_206574_29102026182347_iXBRL_WEB.html",
+        "sources": [
+          {
+            "label": "NSE · Coal India consolidated results",
+            "url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_206574_29102026182347_iXBRL_WEB.html"
+          },
+          {
+            "label": "Fin Cascade · Earnings and valuation history",
+            "url": "https://screener.fincascade.com/company/COALINDIA"
+          },
+          {
+            "label": "Reuters · Mahanadi IPO structure",
+            "url": "https://www.reuters.com/business/energy/coal-indias-mahanadi-coalfields-seeks-96-billion-valuation-ipo-2026-11-16/"
+          },
+          {
+            "label": "NSE · 16 November closing prices (ZIP)",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261116_F_0000.csv.zip"
+          }
+        ],
+        "image": "/images/charts.jpg"
+      },
+      {
+        "id": "IEX",
+        "label": "NSE: IEX · 16 Nov close",
+        "headline": "IEX’s valuation depends on what changes under market coupling",
+        "summary": "Q2 FY27 electricity trading volumes rose 12.7% to 39.7 billion units. Consolidated net profit grew 12.9% to ₹139.24 crore.",
+        "why": "A large buyer and seller network helps draw orders to its platform. Common clearing prices could weaken that advantage.",
+        "valuation": "₹115.54 on 16 November NSE close. If annual earnings settle at ₹6 per share it is 19.3× earnings. At ₹5 it is 23.1×.",
+        "context": "Growth in exchange-traded power makes the idea interesting if volumes and fees hold. Watch final CERC rules and order flow after implementation.",
+        "risk": "Market coupling could shift volumes to rivals or pressure fees. The earnings scenarios are sensitivity checks.",
+        "source": "NSE · IEX earnings call and coupling discussion",
+        "sourceUrl": "https://nsearchives.nseindia.com/corporate/IEX_05112026110840_IEX_Intimation_EarningCall_Transcript_Q2_Sep26Signed.pdf",
+        "sources": [
+          {
+            "label": "NSE · IEX earnings call and coupling discussion",
+            "url": "https://nsearchives.nseindia.com/corporate/IEX_05112026110840_IEX_Intimation_EarningCall_Transcript_Q2_Sep26Signed.pdf"
+          },
+          {
+            "label": "Upstox · Q2 financial results",
+            "url": "https://upstox.com/news/market-news/earnings/indian-energy-exchange-q2-profit-jumps-13-yo-y-to-139-crore-electricity-trading-volume-surges-to-39-7-billion-units/article-202663/"
+          },
+          {
+            "label": "NSE · 16 November closing prices (ZIP)",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261116_F_0000.csv.zip"
+          }
+        ],
+        "image": "/images/charts.jpg"
+      },
+      {
+        "id": "CAMS",
+        "label": "NSE: CAMS · 16 Nov close",
+        "headline": "CAMS has a strong moat and a demanding price",
+        "summary": "CAMS reported 67% mutual-fund assets serviced and Q2 FY27 profit growth of 14.4%. Non-mutual-fund revenue grew 21.7%.",
+        "why": "Fund houses rely on CAMS for transaction processing and recordkeeping. Scale and integration can make switching costly.",
+        "valuation": "₹723.30 on 16 November NSE close, about 34.6× annualised H1 EPS of ₹20.92. A 28× multiple at this price would require ₹25.83 annual EPS.",
+        "context": "The growth case depends on sustained mutual fund flows and profitable expansion outside fund servicing. Track non-fund contribution and margins.",
+        "risk": "The premium leaves little cushion for slower flows, fee pressure or a drop in market share.",
+        "source": "NSE · CAMS Q2 earnings and market share",
+        "sourceUrl": "https://nsearchives.nseindia.com/corporate/Nandhini_29102026195439_Press_Release_29102026.pdf",
+        "sources": [
+          {
+            "label": "NSE · CAMS Q2 earnings and market share",
+            "url": "https://nsearchives.nseindia.com/corporate/Nandhini_29102026195439_Press_Release_29102026.pdf"
+          },
+          {
+            "label": "NSE · 16 November closing prices (ZIP)",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261116_F_0000.csv.zip"
+          }
+        ],
+        "image": "/images/charts.jpg"
       }
     ],
     "tech": [
       {
         "label": "AI export controls · 16 Nov",
         "headline": "US tightens rules on remote access to advanced AI chips",
-        "summary": "The US Commerce Department issued an interim final rule covering remote access to certain advanced American AI chips and servers through third-country data centres. It extends controls beyond physical shipments.",
-        "context": "Cloud providers and customers serving restricted destinations may need to review access and licensing. Watch how providers implement the rule.",
+        "summary": "The US Commerce Department issued an interim final rule covering remote access to certain advanced American AI chips and servers.",
+        "context": "Cloud providers serving restricted destinations may need to review contracts and licensing. Watch their implementation notices.",
         "source": "US Bureau of Industry and Security",
         "sourceUrl": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
-        "image": "/images/server.jpg"
+        "image": "/images/server.jpg",
+        "id": "remote-ai-chip-access",
+        "why": "US officials say the restrictions address access routed through data centres in third countries.",
+        "sources": [
+          {
+            "label": "US Bureau of Industry and Security",
+            "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology"
+          }
+        ]
       },
       {
         "label": "AI supply chains · 16 Nov",
         "headline": "India joins US-led pact to secure AI supply chains",
         "summary": "The United States, India and eight other countries signed the San Francisco Declaration to protect sensitive technology and AI infrastructure. Working groups are planned for policy, adoption, supply chains and security.",
         "context": "Watch which groups turn cooperation into projects or standards. Semiconductor and critical-mineral suppliers could see new cross-border opportunities.",
-        "source": "Akashvani and Reuters",
+        "source": "Akashvani · Declaration",
         "sourceUrl": "https://newsonair.gov.in/india-u-s-and-eight-other-nations-sign-declaration-to-safeguard-ai-supply-chains/",
-        "image": "/images/world.jpg"
+        "image": "/images/world.jpg",
+        "id": "ai-supply-chain-declaration",
+        "why": "The signatories identified fragile technology supply chains as a shared economic and security risk.",
+        "sources": [
+          {
+            "label": "Akashvani · Declaration",
+            "url": "https://newsonair.gov.in/india-u-s-and-eight-other-nations-sign-declaration-to-safeguard-ai-supply-chains/"
+          },
+          {
+            "label": "Reuters · Signatories and working groups",
+            "url": "https://www.reuters.com/world/china/us-allies-team-up-protect-ai-tech-infrastructure-amid-china-rivalry-2026-11-16/"
+          }
+        ]
       },
       {
         "label": "AI models · 16 Nov",
@@ -168,7 +469,15 @@
         "context": "Long context can help teams work with larger document sets. Test retrieval quality, latency and cost on your own documents before moving a workflow.",
         "source": "Alibaba Cloud",
         "sourceUrl": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max?_p_lc=1",
-        "image": "/images/desk.jpg"
+        "image": "/images/desk.jpg",
+        "id": "qwen4-max-release",
+        "why": "Alibaba says the release is designed to handle visual input and much longer documents in one request.",
+        "sources": [
+          {
+            "label": "Alibaba Cloud",
+            "url": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max?_p_lc=1"
+          }
+        ]
       },
       {
         "label": "AI training · 17 Nov",
@@ -177,7 +486,15 @@
         "context": "Watch how AI providers enforce terms on training rivals, and whether smaller models prove reliable enough for factories.",
         "source": "Reuters",
         "sourceUrl": "https://www.reuters.com/world/china/china-taps-us-ai-models-train-homegrown-rivals-chip-curbs-bite-2026-11-17/",
-        "image": "/images/desk.jpg"
+        "image": "/images/desk.jpg",
+        "id": "china-model-distillation",
+        "why": "Training smaller models on answers from larger systems can preserve selected skills at lower running cost.",
+        "sources": [
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/world/china/china-taps-us-ai-models-train-homegrown-rivals-chip-curbs-bite-2026-11-17/"
+          }
+        ]
       },
       {
         "label": "Quantum computing · 16 Nov",
@@ -186,7 +503,15 @@
         "context": "Watch for results on real hardware, especially whether error correction and networking hold up as more processors are connected.",
         "source": "Nvidia Newsroom",
         "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-announces-collaboration-with-ibm-and-fermi-national-accelerator-laboratory-to-launch-quantum-classical-codesign-platform-plus-error-correction-breakthrough-to-advance-practical-quantum-computing",
-        "image": "/images/tech.jpg"
+        "image": "/images/tech.jpg",
+        "id": "quantum-testbed",
+        "why": "The partners want to test how classical accelerated computers can support modular quantum hardware and error correction.",
+        "sources": [
+          {
+            "label": "Nvidia Newsroom",
+            "url": "https://nvidianews.nvidia.com/news/nvidia-announces-collaboration-with-ibm-and-fermi-national-accelerator-laboratory-to-launch-quantum-classical-codesign-platform-plus-error-correction-breakthrough-to-advance-practical-quantum-computing"
+          }
+        ]
       }
     ],
     "mind": [
@@ -197,7 +522,15 @@
         "context": "Compare a simulation with actual decisions before using it to set policies. This result comes from a specific supply-chain game.",
         "source": "Nature Computational Science",
         "sourceUrl": "https://www.nature.com/articles/s43588-026-01080-z",
-        "image": "/images/desk.jpg"
+        "image": "/images/desk.jpg",
+        "id": "beer-game-decision-cues",
+        "why": "The cues gave models information about how people actually decide in the game.",
+        "sources": [
+          {
+            "label": "Nature Computational Science",
+            "url": "https://www.nature.com/articles/s43588-026-01080-z"
+          }
+        ]
       },
       {
         "label": "Memory · 2015",
@@ -206,7 +539,15 @@
         "context": "When a claim feels familiar, ask what evidence supports it and where you saw it first. Familiarity can make a statement easier to accept.",
         "source": "Fazio et al., JEP General",
         "sourceUrl": "https://scholars.duke.edu/publication/1090926",
-        "image": "/images/mind.jpg"
+        "image": "/images/mind.jpg",
+        "id": "illusory-truth",
+        "why": "The researchers proposed that repetition makes a claim easier to process, which can feel like evidence that it is true.",
+        "sources": [
+          {
+            "label": "Fazio et al., JEP General",
+            "url": "https://scholars.duke.edu/publication/1090926"
+          }
+        ]
       },
       {
         "label": "Judgment · 1994",
@@ -215,7 +556,15 @@
         "context": "Before estimating a deadline, look up how long comparable tasks took. Then adjust for measurable differences such as staffing or scope.",
         "source": "Buehler et al., JPSP",
         "sourceUrl": "https://web.mit.edu/curhan/www/docs/Articles/biases/67_J_Personality_and_Social_Psychology_366%2C_1994.pdf",
-        "image": "/images/work.jpg"
+        "image": "/images/work.jpg",
+        "id": "planning-fallacy",
+        "why": "People tended to focus on the plan they imagined and gave too little weight to how long past tasks had taken.",
+        "sources": [
+          {
+            "label": "Buehler et al., JPSP",
+            "url": "https://web.mit.edu/curhan/www/docs/Articles/biases/67_J_Personality_and_Social_Psychology_366%2C_1994.pdf"
+          }
+        ]
       },
       {
         "label": "Human evolution · 2022",
@@ -224,16 +573,32 @@
         "context": "A cultural practice can spread before a genetic change. The proposed roles of famine and disease came from historical proxies, so the mechanism remains a hypothesis.",
         "source": "Evershed et al., Nature",
         "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7615474/",
-        "image": "/images/mind.jpg"
+        "image": "/images/mind.jpg",
+        "id": "lactase-persistence",
+        "why": "The researchers proposed that famine and infection could have made lactose digestion more consequential for survival.",
+        "sources": [
+          {
+            "label": "Evershed et al., Nature",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7615474/"
+          }
+        ]
       },
       {
         "label": "Evolution · 2021",
         "headline": "Invasive cane toads evolved both attack and defence tactics",
-        "summary": "Australian cane toad tadpoles ate more hatchlings of their own species than tadpoles from the native range. In experiments, invasive hatchlings accelerated development in response to cannibal cues, shortening their vulnerable stage.",
-        "context": "Members of the same species can put pressure on each other to evolve. Here that pressure affected both the cannibals and their potential prey.",
+        "summary": "Australian cane toad tadpoles ate more hatchlings than tadpoles from the native range. In experiments, invasive hatchlings developed faster in response to cannibal cues.",
+        "context": "Competition within a species can shape traits on both sides of the interaction.",
         "source": "DeVore et al., PNAS",
         "sourceUrl": "https://www.pnas.org/content/pnas/118/35/e2100765118.full.pdf",
-        "image": "/images/mind.jpg"
+        "image": "/images/mind.jpg",
+        "id": "cane-toad-cannibalism",
+        "why": "Intense cannibalism can favour hatchlings that move through the vulnerable stage sooner.",
+        "sources": [
+          {
+            "label": "DeVore et al., PNAS",
+            "url": "https://www.pnas.org/content/pnas/118/35/e2100765118.full.pdf"
+          }
+        ]
       }
     ],
     "marketing": [
@@ -244,7 +609,15 @@
         "context": "Give people something personal to share. A local artist and a public installation can connect that action to a ritual the audience already values.",
         "source": "Passionate in Marketing",
         "sourceUrl": "https://www.passionateinmarketing.com/sunfeast-moms-magic-celebrates-har-ghar-ki-chhathi-maiya/",
-        "image": "/images/marketing.jpg"
+        "image": "/images/marketing.jpg",
+        "id": "sunfeast-chhath",
+        "why": "The campaign tied a family ritual to WhatsApp sharing and used local art to connect the digital keepsakes with Patna.",
+        "sources": [
+          {
+            "label": "Passionate in Marketing",
+            "url": "https://www.passionateinmarketing.com/sunfeast-moms-magic-celebrates-har-ghar-ki-chhathi-maiya/"
+          }
+        ]
       },
       {
         "label": "India · Gap · 13 Nov",
@@ -253,16 +626,32 @@
         "context": "Put product discovery close to where people can shop. Design the animation around the screen’s viewing angle and the few seconds passers-by will give it.",
         "source": "Customer Engagement Network",
         "sourceUrl": "https://customerengagement.net/gap-yash-pradhan-anamorphic-dooh-campaign-india/",
-        "image": "/images/marketing.jpg"
+        "image": "/images/marketing.jpg",
+        "id": "gap-mall-screens",
+        "why": "The mall screens put the artwork in front of shoppers near the point of purchase.",
+        "sources": [
+          {
+            "label": "Customer Engagement Network",
+            "url": "https://customerengagement.net/gap-yash-pradhan-anamorphic-dooh-campaign-india/"
+          }
+        ]
       },
       {
         "label": "India · Spinz · 12 Nov",
         "headline": "Spinz makes 15 minutes the hook for a skincare ad",
-        "summary": "CavinKare’s Spinz built its face-pack campaign around a 15-minute routine. It rolled out the commercial on TV in North and West India, with distribution on social platforms and YouTube.",
-        "context": "A specific time commitment helps viewers picture where the product fits into their day. Use a claim you can substantiate.",
+        "summary": "CavinKare promoted the Spinz face pack with a 15-minute routine, using TV in North and West India and social platforms including YouTube.",
+        "context": "A specific, substantiated time claim gives viewers a practical way to judge a routine.",
         "source": "Impact",
         "sourceUrl": "https://www.impactonnet.com/more-from-impact/spinz-launches-new-tvc-for-de-tan-face-pack-names-tan-hatega-toh-glow-dikhega-17596.html",
-        "image": "/images/marketing.jpg"
+        "image": "/images/marketing.jpg",
+        "id": "spinz-fifteen-minutes",
+        "why": "A specific time cue helps viewers picture how the product might fit into their routine.",
+        "sources": [
+          {
+            "label": "Impact",
+            "url": "https://www.impactonnet.com/more-from-impact/spinz-launches-new-tvc-for-de-tan-face-pack-names-tan-hatega-toh-glow-dikhega-17596.html"
+          }
+        ]
       },
       {
         "label": "Global · Meow Mix · 16 Nov",
@@ -271,17 +660,34 @@
         "context": "Recognisable characters give a short ad a head start. Adapt the story to the channels where people already share the joke.",
         "source": "Marketing Dive",
         "sourceUrl": "https://www.marketingdive.com/news/meow-mix-reimagines-iconic-cat-memes-for-multichannel-campaign/874724/",
-        "image": "/images/marketing.jpg"
+        "image": "/images/marketing.jpg",
+        "id": "meow-mix-viral-cats",
+        "why": "Familiar characters give people a reason to notice a short ad before they know the story.",
+        "sources": [
+          {
+            "label": "Marketing Dive",
+            "url": "https://www.marketingdive.com/news/meow-mix-reimagines-iconic-cat-memes-for-multichannel-campaign/874724/"
+          }
+        ]
       },
       {
         "label": "Global · Netflix · 10 Nov",
         "headline": "Netflix sells the surprise of finding an unexpected favourite",
         "summary": "Netflix launched three 35mm films in the US, Canada, Brazil and Spain about the surprise of becoming a fan. Its US-only Typecast social series featured creators revealing their actual Netflix favourites.",
         "context": "Give a service benefit a human reaction people recognise. A short social series can turn the same idea into an invitation to share.",
-        "source": "Netflix and Marketing Dive",
+        "source": "Netflix · Campaign launch",
         "sourceUrl": "https://about.netflix.com/en/news/your-next-favorite-is-already-on-netflix",
-        "image": "/images/marketing.jpg"
+        "image": "/images/marketing.jpg",
+        "id": "netflix-surprise-favourites",
+        "why": "The films made an abstract benefit visible through the surprise of finding a favourite.",
+        "sources": [
+          {
+            "label": "Netflix · Campaign launch",
+            "url": "https://about.netflix.com/en/news/your-next-favorite-is-already-on-netflix"
+          }
+        ]
       }
     ]
-  }
+  },
+  "publishedAt": "2026-11-17T04:58:57Z"
 }

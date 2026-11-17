@@ -1,10 +1,11 @@
-import { indianDay, isDay, isEdition, topicIds } from './edition-format.js';
+import { indianDay, isDay, isEdition, matchProgress, nextUnread, sourceLink, storyKey, topicIds } from './edition-format.js';
 
 const $ = id => document.getElementById(id);
 const categories = {
   india: 'India',
   world: 'World',
   markets: 'Indian Markets',
+  investing: 'Stock Investing',
   tech: 'AI & Tech',
   mind: 'Mind & Evolution',
   marketing: 'Marketing World'
@@ -17,6 +18,7 @@ const paths = {
   india: 'M3 9h18L12 3 3 9Zm2 11h14M6 20V9m6 11V9m6 11V9',
   world: 'M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0ZM2 12h20M12 2a16 16 0 0 1 0 20m0-20a16 16 0 0 0 0 20',
   markets: 'M4 4v16h16M7 15l4-5 4 2 5-6m-4 0h4v4',
+  investing: 'M5 20V9m5 11V4m5 16v-7m5 7V7',
   tech: 'M7 7h10v10H7zM4 9h3m-3 6h3m10-6h3m-3 6h3M9 4v3m6-3v3m-6 10v3m6-3v3',
   mind: 'M7 19v-2c-1.9-1.3-3-3.4-3-5.7a7 7 0 0 1 14-.7l2 3.4h-3v5h-5v2m-3-10a2 2 0 0 1 4 0',
   marketing: 'M3 10v4h4l3 6h3l-2-6 10 3V7l-10 3H3Zm4 0v4m4-4v4',
@@ -52,17 +54,20 @@ function addIcon(slot, name) {
 const icon = name => addIcon(node('span', 'icon-slot'), name);
 for (const slot of document.querySelectorAll('[data-icon]')) addIcon(slot, slot.dataset.icon);
 
-const fullDate = new Intl.DateTimeFormat('en-GB', {weekday:'long', day:'numeric', month:'long',year:'numeric',timeZone:'UTC'});
+const releaseTime = new Intl.DateTimeFormat('en-IN', {hour:'numeric', minute:'2-digit', timeZone:'Asia/Kolkata'});
 const briefDate = new Intl.DateTimeFormat('en-GB', {weekday:'short', day:'numeric', month:'short', year:'numeric',timeZone:'UTC'});
 const monthDate = new Intl.DateTimeFormat('en-GB', {month:'long',year:'numeric',timeZone:'UTC'});
 const format = (formatter, day) => formatter.format(new Date(day + 'T12:00:00Z'));
-const editionKey = day => 'morning-edition:read:' + day;
-const itemId = (topic, card) => topic + ':' + card.headline;
+const legacyKey = day => 'morning-edition:read:' + day;
+const editionKey = day => 'morning-edition:read:v2:' + day;
 
 let edition;
 let active = 'india';
 let readingOrder = [];
 let readerIndex = 0;
+let readerOrder = [];
+let reviewMode = false;
+let readerScope;
 let returnFocus;
 let seen = new Set();
 let catalog = [];
@@ -78,20 +83,27 @@ let pushConfig;
 const loaded = new Map();
 const getTopics = () => topicIds.filter(id => edition.sections[id]);
 const deck = () => edition.sections[active];
-const storyRead = ({topic, card}) => seen.has(itemId(topic, card));
-const countRead = topic => edition.sections[topic].filter(card => seen.has(itemId(topic, card))).length;
+const storyRead = story => seen.has(story.key);
+const countRead = topic => readingOrder.filter(story => story.topic === topic && storyRead(story)).length;
 const currentQuery = () => new URLSearchParams(location.search).get('edition');
 
-function storedProgress(day) {
+function storedEntries(key) {
   try {
-    const entries = JSON.parse(localStorage.getItem(editionKey(day)) || '[]');
+    const entries = JSON.parse(localStorage.getItem(key) || '[]');
     return new Set(Array.isArray(entries) ? entries.filter(value => typeof value === 'string') : []);
   } catch { return new Set(); }
 }
 
+const savedProgress = issue => matchProgress(issue, storedEntries(editionKey(issue.date)), storedEntries(legacyKey(issue.date)));
+function rememberProgress(issue, progress) {
+  try { localStorage.setItem(editionKey(issue.date), JSON.stringify([...progress])); } catch { /* Reads still work in this session. */ }
+}
+const defaultCover = topic => '/images/' + (topic === 'investing' ? 'charts' : topic) + '.jpg';
+const showCover = (card, topic) => card.image && card.image !== defaultCover(topic) && topic !== 'investing';
+
 function imageInto(container, card, topic, eager = false, caption) {
   const img = node('img');
-  const fallback = '/images/' + topic + '.jpg';
+  const fallback = defaultCover(topic);
   img.alt = '';
   img.loading = eager ? 'eager' : 'lazy';
   img.decoding = 'async';
@@ -126,8 +138,10 @@ function updateProgress() {
   $('progress').max = total;
   $('progress').value = read;
   $('progress-text').textContent = complete ? 'Briefing complete' : read + ' of ' + total + ' read';
-  $('resume-label').textContent = complete ? 'Review stories' : read ? 'Continue reading' : 'Start reading';
+  const next = readingOrder.find(story => !storyRead(story));
+  $('resume-label').textContent = complete ? 'Review briefing' : read ? 'Continue · ' + categories[next.topic] : 'Start briefing';
   $('resume').disabled = loading;
+  $('resume-topic-label').textContent = countRead(active) === deck().length ? 'Review topic' : 'Read next unread';
   const remaining = deck().length - countRead(active);
   $('section-remaining').textContent = remaining ? remaining + ' unread' : 'All read';
   for (const button of $('topics').children) {
@@ -141,7 +155,7 @@ function updateProgress() {
     counter.classList.toggle('topic-complete', count === length);
   }
   for (const [index, button] of [...$('stories').children].entries()) {
-    button.querySelector('.read-badge').hidden = !seen.has(itemId(active, deck()[index]));
+    button.querySelector('.read-badge').hidden = !seen.has(storyKey(active, deck()[index], deck()));
   }
 }
 function createTopics() {
@@ -158,87 +172,132 @@ function createTopics() {
     return button;
   }));
 }
+function renderQuickBrief() {
+  $('quick-stories').replaceChildren(...['india', 'world', 'markets', 'tech'].map(topic => {
+    const story = readingOrder.find(item => item.topic === topic);
+    const row = node('li');
+    const button = node('button', 'quick-story');
+    button.type = 'button';
+    button.append(node('span', 'story-meta', categories[topic]), node('span', 'quick-headline', story.card.headline));
+    button.addEventListener('click', () => {
+      if (!loading) openStory(button, topic, story.key);
+    });
+    row.append(button);
+    return row;
+  }));
+  $('quick-brief').hidden = false;
+}
+
 function renderSection() {
   $('section-title').textContent = categories[active];
-  $('stories').replaceChildren(...deck().map((card, index) => {
-    const button = node('button', index ? 'story' : 'story lead');
+  $('resume-topic').hidden = false;
+  $('stories').replaceChildren(...deck().map(card => {
+    const button = node('button', 'story');
     button.type = 'button';
-    const media = node('span', 'story-media');
-    imageInto(media, card, active, !index);
-    media.append(node('span', 'read-badge', '✓ Read'));
-    const caption = node('span', 'story-caption');
-    caption.append(node('span', 'story-meta', card.label), node('span', 'story-title', card.headline));
-    if (!index) caption.append(node('span', 'story-summary', card.summary));
-    if (index === 0) {
-      const cta = node('span', 'story-link', 'Read story');
-      cta.append(icon('arrow'));
-      caption.append(cta);
-    } else {
-      const arrow = icon('arrow');
-      arrow.classList.add('story-arrow');
-      caption.append(arrow);
+    if (showCover(card, active)) {
+      const media = node('span', 'story-media');
+      imageInto(media, card, active);
+      button.append(media);
     }
-    button.append(media, caption);
+    const caption = node('span', 'story-caption');
+    const meta = node('span', 'story-row-meta');
+    meta.append(node('span', 'story-meta', card.label), node('span', 'read-badge', '✓ Read'));
+    caption.append(meta, node('span', 'story-title', card.headline));
+    button.append(caption, icon('arrow'));
     button.addEventListener('click', () => {
-      if (!loading) openStory(readingOrder.findIndex(story => story.card === card), button);
+      if (!loading) openStory(button, active, storyKey(active, card, deck()));
     });
     return button;
   }));
   updateProgress();
 }
+
 function nextStoryIndex() {
-  const anotherUnread = readingOrder.findIndex((story, index) => index !== readerIndex && !storyRead(story));
-  if (!storyRead(readingOrder[readerIndex]) && anotherUnread === -1) return -1;
-  return readerIndex + 1 < readingOrder.length ? readerIndex + 1 : anotherUnread;
+  if (reviewMode) return readerIndex + 1 < readerOrder.length ? readerIndex + 1 : -1;
+  return nextUnread(readerOrder, readerIndex, seen);
 }
+
+function renderSources(card) {
+  const fallback = sourceLink(card.sourceUrl);
+  const sources = card.sources ?? (fallback ? [{label:fallback.hostname.replace(/^www\./, ''), url:fallback.href}] : []);
+  const links = [];
+  for (const source of sources) {
+    const url = sourceLink(source.url);
+    if (!url) continue;
+    const link = node('a', 'source-link');
+    link.append(icon('external'), node('span', '', source.label));
+    link.href = url.href;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    links.push(link);
+  }
+  $('reader-sources').replaceChildren(...links);
+}
+
+function detail(id, value) {
+  $(id + '-box').hidden = !value;
+  $(id).textContent = value ?? '';
+}
+
 function showStory(position) {
   readerIndex = position;
-  const {topic, index, card} = readingOrder[position];
+  const {topic, index, card} = readerOrder[position];
   const next = nextStoryIndex();
-  $('reader-cover').querySelector('img')?.remove();
-  imageInto($('reader-cover'), card, topic, true, $('reader-photo-note'));
+  const cover = $('reader-cover');
+  cover.querySelector('img')?.remove();
+  cover.hidden = !showCover(card, topic);
+  if (!cover.hidden) imageInto(cover, card, topic, true, $('reader-photo-note'));
   $('reader-topic').textContent = categories[topic];
   const positionText = (index + 1) + ' of ' + edition.sections[topic].length;
   $('reader-position').textContent = positionText;
   $('reader-label').textContent = card.label;
   $('reader-title').textContent = card.headline;
   $('reader-summary').textContent = card.summary;
+  detail('reader-why', card.why);
+  detail('reader-valuation', card.valuation);
+  detail('reader-risk', card.risk);
+  $('why-label').textContent = {
+    investing:'Competitive advantage', mind:'What may explain it', marketing:'Why this approach'
+  }[topic] ?? 'Why it happened';
   $('reader-context').textContent = card.context;
-  $('context-label').textContent = topic === 'markets' ? 'What to watch' :
-    topic === 'marketing' ? 'What marketers can borrow' : 'Why it matters';
-  let source;
-  try { source = new URL(card.sourceUrl); } catch {}
-  const linkAllowed = source?.protocol === 'https:' && !source.username && !source.password;
-  $('reader-source').hidden = !linkAllowed;
-  $('reader-source').href = linkAllowed ? source.href : '#';
-  $('source-name').textContent = card.source;
+  $('context-label').textContent = {
+    investing:'Growth case and what to watch', markets:'Why it matters for markets', marketing:'Why it matters for marketers'
+  }[topic] ?? 'Why it matters';
+  renderSources(card);
   $('previous').disabled = position === 0;
-  const alreadyRead = storyRead(readingOrder[position]);
+  const alreadyRead = storyRead(readerOrder[position]);
   $('read-label').textContent = alreadyRead ? (next >= 0 ? 'Next story' : 'Back to briefing') :
-    (next >= 0 ? 'Mark read & next' : 'Finish briefing');
+    (next >= 0 ? 'Mark read & next' : readerScope ? 'Finish topic' : 'Finish briefing');
   $('read-icon').querySelector('path').setAttribute('d', paths[next >= 0 ? 'arrow' : 'check']);
   $('reader-content').scrollTop = 0;
   if ($('reader').open) {
     $('reader-announcement').textContent = categories[topic] + ', ' + positionText + '. ' + card.headline;
   }
 }
-function openStory(position, trigger) {
+
+function openStory(trigger, topic, key) {
+  readerScope = topic;
+  readerOrder = topic ? readingOrder.filter(story => story.topic === topic) : readingOrder;
+  const unreadPosition = readerOrder.findIndex(story => !storyRead(story));
+  reviewMode = unreadPosition === -1;
   returnFocus = trigger;
-  showStory(position);
+  showStory(key ? readerOrder.findIndex(story => story.key === key) : Math.max(0, unreadPosition));
   $('reader').showModal();
   $('reader-title').focus({preventScroll:true});
 }
+
 $('reader-close').addEventListener('click', () => $('reader').close());
 $('previous').addEventListener('click', () => {
   showStory(readerIndex - 1);
   if (readerIndex === 0) $('read').focus({preventScroll:true});
 });
 $('read').addEventListener('click', () => {
+  const story = readerOrder[readerIndex];
+  for (const key of savedProgress(edition)) seen.add(key);
   const next = nextStoryIndex();
-  const story = readingOrder[readerIndex];
   if (!storyRead(story)) {
-    seen.add(itemId(story.topic, story.card));
-    try { localStorage.setItem(editionKey(edition.date), JSON.stringify([...seen])); } catch {}
+    seen.add(story.key);
+    rememberProgress(edition, seen);
     updateProgress();
   }
   if (next >= 0) showStory(next);
@@ -248,9 +307,15 @@ $('reader').addEventListener('close', () => {
   $('reader-announcement').textContent = '';
   if (returnFocus?.isConnected) returnFocus.focus({preventScroll:true});
 });
-$('resume').addEventListener('click', () => {
-  const position = readingOrder.findIndex(story => !storyRead(story));
-  openStory(Math.max(0, position), $('resume'));
+$('resume').addEventListener('click', () => openStory($('resume')));
+$('resume-topic').addEventListener('click', () => {
+  if (!loading) openStory($('resume-topic'), active);
+});
+window.addEventListener('storage', event => {
+  if (!edition || (event.key !== editionKey(edition.date) && event.key !== legacyKey(edition.date))) return;
+  seen = savedProgress(edition);
+  updateProgress();
+  if ($('archive').open) renderArchive();
 });
 
 async function jsonAt(path) {
@@ -301,7 +366,7 @@ function updateToolbar() {
   $('older').disabled = loading || index < 0 || index === catalog.length - 1;
   $('newer').disabled = loading || index <= 0;
   $('pick-date').disabled = loading || !edition;
-  $('open-archive').disabled = catalog.length === 0;
+  $('resume-topic').disabled = loading;
   $('back-latest').hidden = index <= 0;
   $('back-latest').disabled = loading;
 }
@@ -317,15 +382,20 @@ function renderEdition() {
   const latest = edition.date === catalog[0];
   const today = edition.date === indianDay();
   $('edition-kind').textContent = latest ? (today ? 'Today’s edition' : 'Latest edition') : 'From the archive';
-  $('date').dateTime = edition.date;
-  $('date').textContent = format(fullDate, edition.date);
   $('selected-date').textContent = format(briefDate, edition.date);
   readingOrder = getTopics().flatMap(topic =>
-    edition.sections[topic].map((card, index) => ({topic, index, card}))
+    edition.sections[topic].map((card, index) => ({topic, index, card, key:storyKey(topic, card, edition.sections[topic])}))
   );
-  $('schedule-note').textContent = publishing ? 'Daily at 10:05 a.m. IST' : 'Private preview';
-  $('edition-note').textContent = publishing && latest && !today ?
-    'Showing the latest published edition.' : '';
+  const timestamp = edition.publishedAt ?? edition.preparedAt;
+  const time = $('release-time');
+  time.hidden = !timestamp || !Number.isFinite(Date.parse(timestamp));
+  if (!time.hidden) {
+    time.dateTime = timestamp;
+    time.textContent = (edition.publishedAt ? 'Published ' : 'Prepared ') + releaseTime.format(new Date(timestamp)) + ' IST';
+  }
+  const preparing = publishing && latest && edition.date < indianDay();
+  $('edition-note').textContent = preparing ? 'Today’s edition is pending. Showing the latest available.' : '';
+  renderQuickBrief();
   createTopics();
   renderSection();
 }
@@ -344,7 +414,8 @@ async function selectEdition(day, mode = 'push') {
     const value = await fetchEdition(day);
     if (version !== loadVersion) return false;
     edition = value;
-    seen = storedProgress(day);
+    seen = savedProgress(value);
+    if (seen.size) rememberProgress(value, seen);
     if (!edition.sections[active]) active = 'india';
     if (mode !== 'none') setRoute(day, mode);
     renderEdition();
@@ -376,10 +447,19 @@ function renderArchive() {
       const button = node('button', 'archive-row');
       button.type = 'button';
       if (day === edition?.date) button.setAttribute('aria-current', 'date');
-      const read = storedProgress(day).size;
-      const status = read ? read + ' read' : day === catalog[0] ? 'Latest' : 'Unread';
-      button.append(node('span', 'archive-date', format(briefDate, day)),
-        node('span', 'archive-progress', status), icon('right'));
+      const status = node('span', 'archive-progress', day === catalog[0] ? 'Latest' : 'Unread');
+      const progressLabel = issue => {
+        const count = savedProgress(issue).size;
+        const total = Object.values(issue.sections).reduce((sum, deck) => sum + deck.length, 0);
+        return count === total ? 'Complete' : count ? count + ' of ' + total + ' read' : day === catalog[0] ? 'Latest' : 'Unread';
+      };
+      if (loaded.has(day)) status.textContent = progressLabel(loaded.get(day));
+      else if (storedEntries(editionKey(day)).size || storedEntries(legacyKey(day)).size) {
+        status.textContent = 'Checking progress…';
+        fetchEdition(day).then(issue => { status.textContent = progressLabel(issue); })
+          .catch(() => { status.textContent = 'Progress unavailable'; });
+      }
+      button.append(node('span', 'archive-date', format(briefDate, day)), status, icon('right'));
       button.addEventListener('click', () => chooseArchived(day));
       group.append(button);
     }
@@ -407,7 +487,6 @@ async function chooseArchived(day) {
     $('pick-date').focus({preventScroll:true});
   } else $('archive-message').textContent = 'Couldn’t open this edition. Try again when you’re online.';
 }
-$('open-archive').addEventListener('click', openArchive);
 $('pick-date').addEventListener('click', openArchive);
 $('archive-close').addEventListener('click', () => $('archive').close());
 $('find-edition').addEventListener('submit', event => {
@@ -458,11 +537,14 @@ $('settings').addEventListener('click', async () => {
   try {
     pushConfig = await jsonAt('/api/push');
     if (!pushConfig.publicKey) throw new Error();
+    $('push-instructions').hidden = false;
+    button.hidden = false;
     button.disabled = false;
     status.textContent = '';
   } catch {
     pushConfig = null;
-    status.textContent = 'Morning alerts are unavailable on this deployment.';
+    button.hidden = true;
+    status.textContent = 'Morning alerts are currently unavailable.';
   }
 });
 $('settings-close').addEventListener('click', () => $('settings-dialog').close());

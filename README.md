@@ -1,12 +1,12 @@
 # Morning Edition
 
-A phone-first daily briefing across India, World, Indian Markets, AI & Tech, Mind & Evolution, and Marketing World. Each edition has five illustrated cards per topic. The archive retains each issue, and reading progress stays on the reader's device.
+A phone-first daily briefing across India, World, Indian Markets, Stock Investing, AI & Tech, Mind & Evolution, and Marketing World. Current editions have five cards per topic. Earlier issues retain their original topics, and reading progress stays on the reader's device.
 
 ## Daily publication
 
 The Morning Edition task in ChatGPT starts at **10:05 a.m. IST**. It researches the briefing, saves one dated edition to the `main` branch, and delivers the briefing in ChatGPT. Vercel builds the archive index and deploys `main` to production. Each edition becomes available when that build is ready.
 
-The publication path is `public/editions/YYYY-MM-DD.json`. Set `date` to the edition's IST date and include the six keys from `public/edition-format.js` in `sections`. A card has `label`, `headline`, `summary`, `context`, `source`, `sourceUrl`, and `image`. The image is a bundled path such as `/images/india.jpg`. The 14 November edition shows the format. The archive index is generated at build time. Add a new dated file without editing the index or earlier editions.
+The publication path is `public/editions/YYYY-MM-DD.json`. Set `date` to the IST edition date and include the seven keys from `public/edition-format.js` in `sections`. Give each card a stable `id`, a `label`, a `headline`, a factual `summary`, documented causes in `why`, significance in `context`, a primary `source` and `sourceUrl`, a `sources` array of `{ label, url }` entries, and a bundled `image`. Stock cards additionally require `valuation` and `risk`. Supply `preparedAt` for the preparation time or `publishedAt` for a confirmed public release time. The 17 November edition shows the format. The archive index is generated at build time.
 
 The homepage opens the latest edition. Past editions have shareable URLs such as `/?edition=2026-11-14`. `/api/editions` lists available dates and `/api/edition?date=YYYY-MM-DD` returns a specific edition. Opened editions can be read offline.
 

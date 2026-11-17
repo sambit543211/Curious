@@ -1,4 +1,4 @@
-const shellCache = 'morning-edition-shell-v5';
+const shellCache = 'morning-edition-shell-v6';
 const dataCache = 'morning-edition-data-v1';
 const shell = [
   '/', '/app.js', '/edition-format.js', '/style.css', '/manifest.webmanifest',
@@ -43,7 +43,7 @@ self.addEventListener('push', event => {
   let date = '';
   try { date = event.data.json().date || ''; } catch {}
   event.waitUntil(self.registration.showNotification('Your morning briefing is ready', {
-    body:'30 stories across India, world news, markets, AI, human behaviour and marketing.',
+    body:'Today’s news, market briefing and investment research are available.',
     icon:'/images/icon-192.png', tag:'briefing-' + date, data:{date}
   }));
 });
