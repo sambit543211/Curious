@@ -1,0 +1,1902 @@
+{
+  "version": 2,
+  "date": "2026-11-18",
+  "publishedAt": "2026-11-18T12:38:12.027Z",
+  "publicationMode": "late",
+  "top3": [
+    {
+      "cardId": "2026-11-18-cyclone",
+      "line": "Akvan strengthens: coastal warnings and preparation take priority."
+    },
+    {
+      "cardId": "2026-11-18-yemen",
+      "line": "Yemen escalation raises civilian and shipping risks."
+    },
+    {
+      "cardId": "2026-11-18-markets-dashboard",
+      "line": "Nifty falls; commodity-linked sectors lead the retreat."
+    }
+  ],
+  "sections": {
+    "india": [
+      {
+        "id": "2026-11-18-cyclone",
+        "rank": 1,
+        "label": "India · 18 Nov 2026",
+        "headline": "Akvan strengthens; coastal preparedness becomes urgent",
+        "summary": "IMD’s 18 November bulletin classifies Akvan as a severe cyclonic storm over the Bay of Bengal. Andhra Pradesh and adjoining Odisha face a developing coastal threat, with further intensification forecast before the expected landfall window.",
+        "why": "A slowly moving storm can prolong exposure to rain and disrupt fishing, ports and farm logistics. Forecast tracks are conditional estimates, so district-level warnings matter more than a single projected crossing point.",
+        "soWhat": "Coastal residents and businesses should check official evacuation advice and confirm deliveries, travel and backup power before conditions deteriorate.",
+        "take": "I would prioritise preparation now rather than wait for a perfectly stable forecast.",
+        "watch": "The next IMD bulletin’s landfall corridor, maximum winds and district rainfall warnings are the decisive updates.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "India Meteorological Department · source",
+            "url": "https://mausam.imd.gov.in/backend/assets/cyclone_pdf/22__National_Bulletin_No_22-18Nov2026_0830IST1.pdf"
+          }
+        ],
+        "beat": "wildcard"
+      },
+      {
+        "id": "2026-11-18-fuel-tax",
+        "rank": 2,
+        "label": "India · 18 Nov 2026",
+        "headline": "Higher export levies change refiners’ fuel economics",
+        "summary": "India raised diesel export duty to ₹14 a litre from ₹11.50 and aviation turbine fuel duty to ₹12.50 from ₹11, effective 16 November and reported on 17 November. Petrol export duty stays zero; domestic duty rates were unchanged.",
+        "why": "The government is using the gap between international and domestic fuel economics to discourage exports and support availability. Export-heavy refiners face a different incentive from companies focused on local retail sales.",
+        "soWhat": "Reliance and Nayara’s export economics deserve attention, while households should not interpret this notification as an automatic pump-price revision.",
+        "take": "I read this as a supply-management measure, with a cost for export margins.",
+        "watch": "The next fortnightly notification and reported refining margins will show how persistent the burden becomes.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "PTI / New Indian Express · source",
+            "url": "https://www.newindianexpress.com/amp/story/business/2026/Nov/17/govt-hikes-windfall-gains-tax-on-diesel-atf-exports-2"
+          }
+        ],
+        "beat": "policy",
+        "economicData": true,
+        "previousValue": "Diesel ₹11.50/litre; ATF ₹11/litre.",
+        "trend": "Export levies rise; domestic duty rates unchanged."
+      },
+      {
+        "id": "2026-11-18-horticulture",
+        "rank": 3,
+        "label": "India · 18 Nov 2026",
+        "headline": "Record horticulture estimate raises the storage challenge",
+        "summary": "The Agriculture Ministry’s 17 November third advance estimate puts horticulture output at 386.915 million tonnes for 2025–26, up 4.36% from 370.738 million tonnes. Production is estimated to increase despite a decline in cultivated area.",
+        "why": "Fruits and vegetables are perishable, so a larger harvest does not automatically become higher farmer income. Grading, transport, processing and cold storage determine how much reaches consumers without distress selling.",
+        "soWhat": "Food processors and distributors gain potential supply opportunities; households need local arrival and retail-price data before expecting cheaper groceries.",
+        "take": "I would judge this success by farmer realisations and reduced waste alongside output.",
+        "watch": "Compare the final production estimate with mandi arrivals, storage utilisation and crop-level farm-gate prices.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Agriculture Ministry / PIB · source",
+            "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2337301&lang=1&reg=3"
+          }
+        ],
+        "beat": "policy",
+        "economicData": true,
+        "previousValue": "2024–25 horticulture production: 370.738 million tonnes.",
+        "trend": "Estimated output rises 4.36% year on year."
+      },
+      {
+        "id": "2026-11-18-delhi-air",
+        "rank": 4,
+        "label": "India · 18 Nov 2026",
+        "headline": "Delhi eases one pollution stage; restrictions still remain",
+        "summary": "CAQM revoked Stage III of GRAP [graded pollution response] on 17 November after Delhi’s AQI reached 204. Stage I and II measures continue. The separate order restricting dust-generating construction and limiting physical office attendance remains operative through 20 November.",
+        "why": "Pollution controls operate through several overlapping orders. Removing a response stage does not automatically cancel every existing restriction, especially site-specific closure notices and separately dated workplace directions.",
+        "soWhat": "Delhi-NCR employers, contractors and commuters need the applicable order before restarting work or changing attendance plans. Improved air still falls short of a clean-air guarantee.",
+        "take": "I would treat this as limited operational relief, with continuing health and compliance constraints.",
+        "watch": "Check CAQM’s next order and the daily AQI trend before changing workplace arrangements.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Commission for Air Quality Management · source",
+            "url": "https://caqm.nic.in/FileUploadDomain/WebsiteDocument/GRAP/GRAP%20Orders/b91570de-8cc1-4735-8879-28f2bc1550f2.pdf"
+          }
+        ],
+        "beat": "society"
+      },
+      {
+        "id": "2026-11-18-airtel-bank",
+        "rank": 5,
+        "label": "India · 18 Nov 2026",
+        "headline": "Airtel Payments Bank grows profit faster than revenue",
+        "summary": "Airtel Payments Bank reported on 17 November that quarterly net profit rose 139% to ₹28.2 crore, while revenue increased 8.9% to ₹875.5 crore. Monthly transacting savings-account users reached 31 million, up 21.1% year on year.",
+        "why": "A distribution network can support additional transactions without costs rising at the same pace. However, a small initial profit base magnifies percentage growth, and a payments-bank model differs materially from a full-service lending bank.",
+        "soWhat": "For businesses, adoption and transaction economics matter more than a headline growth percentage. Customers should compare fees, reliability and service access.",
+        "take": "I find the engagement trend more informative than the dramatic profit-growth headline alone.",
+        "watch": "The next quarterly disclosure should show sustained active users, operating costs and cash profitability.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Moneycontrol · source",
+            "url": "https://www.moneycontrol.com/banking/airtel-payments-bank-q2-net-profit-jumps-139-annualised-revenue-crosses-rs-3-500-crore-article-14082440.html/amp"
+          }
+        ],
+        "beat": "business"
+      }
+    ],
+    "world": [
+      {
+        "id": "2026-11-18-yemen",
+        "rank": 1,
+        "label": "World · 18 Nov 2026",
+        "headline": "Yemen escalation adds civilian and shipping risks",
+        "summary": "AP reported on 18 November that Saudi-backed forces struck Houthi missile and drone infrastructure, while the Houthis fired cruise missiles at Riyadh. The Houthi-run health ministry reported at least 15 deaths at a factory in Hodeida; that toll is attributed, not independently established here.",
+        "why": "The conflict connects local military objectives with regional security and maritime routes. Claims about intended targets and civilian casualties require separate verification; retaliatory exchanges can widen disruption without a formal declaration of escalation.",
+        "soWhat": "India’s exporters and seafarers face potential freight, insurance and transit-time consequences if shipping threats intensify.",
+        "take": "I would put civilian protection and safe navigation ahead of claims of tactical success.",
+        "watch": "Independent casualty verification, shipping advisories and additional missile interceptions would materially change the assessment.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Associated Press · source",
+            "url": "https://apnews.com/article/b71b1d25f3cff987b4b125196ecb4c3a"
+          }
+        ],
+        "beat": "geopolitics",
+        "indiaLink": "Gulf security affects Indian seafarers, freight routes and energy costs."
+      },
+      {
+        "id": "2026-11-18-kerch",
+        "rank": 2,
+        "label": "World · 18 Nov 2026",
+        "headline": "Crimea bridge damage raises the stakes before diplomacy",
+        "summary": "Ukraine’s 17 November attack seriously damaged the Kerch bridge’s central road section, Reuters reported. Zelenskiy described the strike as retaliation for attacks on Ukrainian infrastructure. Russia’s military increasingly uses an occupied-land corridor, limiting what bridge damage alone proves about supply disruption.",
+        "why": "A transport link also carries political symbolism, so its damage can influence public messaging and retaliation beyond immediate logistics. The operational effect depends on alternative routes, rail availability and repair capacity.",
+        "soWhat": "India’s businesses should monitor changes in Black Sea logistics and sanctions exposure rather than infer a direct commodity-price outcome.",
+        "take": "I would separate the clear symbolic blow from still-uncertain military consequences.",
+        "watch": "Verified road and rail access, repair notices and subsequent attacks are the next measurable signals.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Reuters / StreetInsider · source",
+            "url": "https://www.streetinsider.com/Reuters/Ukraine%2Bcripples%2BCrimean%2Broad%2Bbridge%2Bin%2Bblow%2Bto%2BPutin%2Bbefore%2Bmeeting%2Bwith%2BXi%2Band%2BTrump/27358506.html"
+          }
+        ],
+        "beat": "geopolitics",
+        "indiaLink": "Black Sea logistics and geopolitical retaliation can affect Indian import costs."
+      },
+      {
+        "id": "2026-11-18-apec",
+        "rank": 3,
+        "label": "World · 18 Nov 2026",
+        "headline": "APEC puts trade promises beside a high-stakes leaders’ meeting",
+        "summary": "At APEC in Shenzhen on 18 November, Xi Jinping advocated open trade and opposed protectionism. A meeting involving Xi, Donald Trump and Vladimir Putin was expected on 19 November. Public statements of intent do not establish an agreed tariff change or diplomatic settlement.",
+        "why": "Governments are balancing domestic industrial priorities with dependence on cross-border supply chains. Business delegations can advance negotiations, but implementation requires specific texts, dates and enforceable commitments.",
+        "soWhat": "Indian manufacturers could face changes in export competition and sourcing economics if the major powers alter trade restrictions. India itself is not an APEC member.",
+        "take": "I would discount broad assurances until they become specific, published policy decisions.",
+        "watch": "The leaders’ joint statements and any dated tariff or export-control notices are the concrete follow-ups.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Reuters · source",
+            "url": "https://www.reuters.com/world/chinas-xi-calls-free-open-trade-apec-summit-2026-11-18/"
+          }
+        ],
+        "beat": "us-china",
+        "indiaLink": "Trade rules among major powers influence Indian exports and imported components."
+      },
+      {
+        "id": "2026-11-18-uk-prices",
+        "rank": 4,
+        "label": "World · 18 Nov 2026",
+        "headline": "UK inflation rises, but the underlying picture is mixed",
+        "summary": "The ONS reported on 18 November that UK consumer-price inflation rose to 3.6% in October from 3.5% in September. Motor fuels drove the upward change, while restaurants and hotels partly offset it. Core CPI [inflation excluding food and energy] was little changed at 2.8%.",
+        "why": "A headline rate combines volatile essentials with slower-moving services. Policymakers therefore examine the composition and persistence of price changes, rather than mechanically respond to a single monthly increase.",
+        "soWhat": "Indian students and families with UK expenses should review sterling costs and living-cost budgets; exporters need to assess customers’ purchasing power.",
+        "take": "I would avoid treating a higher headline reading as proof of universally accelerating prices.",
+        "watch": "The next ONS inflation release is scheduled for 16 December; services inflation is particularly informative.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "UK Office for National Statistics · source",
+            "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/october2026"
+          }
+        ],
+        "beat": "economy",
+        "indiaLink": "UK living costs and demand matter for Indian students, families and exporters."
+      },
+      {
+        "id": "2026-11-18-climate-finance",
+        "rank": 5,
+        "label": "World · 18 Nov 2026",
+        "headline": "COP31 faces a harder climate-finance negotiation",
+        "summary": "Reuters’ 17 November COP31 assessment describes difficult negotiations as climate action competes with war, inflation and security spending. Reduced US international funding adds pressure. The report describes political obstacles, rather than a completed agreement or a newly guaranteed funding package.",
+        "why": "Climate commitments depend on budget allocations, donor participation and access rules. A large announced aspiration can leave vulnerable countries without usable finance if money arrives slowly or mainly through expensive borrowing.",
+        "soWhat": "For India, adaptation funding and the cost of resilient infrastructure affect public budgets, insurers and businesses exposed to floods or extreme heat.",
+        "take": "I would measure progress by accessible, disbursed finance rather than the size of a headline pledge.",
+        "watch": "The final negotiated finance text should specify contributors, instruments, timelines and reporting obligations.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Reuters · source",
+            "url": "https://www.reuters.com/sustainability/cop31-off-rocky-start-2026-11-17/"
+          }
+        ],
+        "beat": "wildcard",
+        "indiaLink": "Climate-finance access influences India’s adaptation costs and public investment."
+      }
+    ],
+    "markets": {
+      "dashboard": {
+        "id": "2026-11-18-markets-dashboard",
+        "rank": 1,
+        "label": "After-close dashboard · 18 Nov 2026",
+        "headline": "Indian equities retreat; breadth weakens after the recent rally",
+        "summary": "Nifty closed at 25,227.95, down 0.63%, while Sensex fell 0.61% to 82,031.81. Consumer durables, metals and autos led the retreat as investors reassessed commodity prices and global rate expectations. PSU banks and pharmaceuticals provided pockets of relative resilience.",
+        "why": "The preceding rally leaves room for profit-taking even while foreign buying remains supportive. Broader participation and earnings expectations help distinguish a healthy pause from deteriorating underlying demand.",
+        "soWhat": "Check sector concentration in your holdings before interpreting the benchmark decline as an equal move across businesses.",
+        "take": "I would read today’s breadth as a reason for selectivity, rather than a standalone timing signal.",
+        "watch": "The next session’s breadth, institutional flows and sector leadership will test the persistence of the selling.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "NSE official index report 18112026",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_18112026.csv"
+          },
+          {
+            "label": "NSE official index report 17112026",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_17112026.csv"
+          },
+          {
+            "label": "NSE official index report 11112026",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_11112026.csv"
+          },
+          {
+            "label": "NSE official index report 16102026",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_16102026.csv"
+          },
+          {
+            "label": "NSE official index report 31122025",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+          },
+          {
+            "label": "Sensex dated public observation",
+            "url": "https://www.sensexindia.in/indices/BSE-Sensex-30-Returns.aspx"
+          },
+          {
+            "label": "₹/US$ dated public observation",
+            "url": "https://www.reuters.com/world/india/indian-rupee-poised-extend-outperformance-swelling-inflows-break-key-level-2026-11-18/"
+          },
+          {
+            "label": "Brent dated public observation",
+            "url": "https://www.tribuneindia.com/news/business/sensex-falls-500-points-nifty-declines-0-63-as-investors-book-profits-after-november-rally/"
+          },
+          {
+            "label": "Gold (₹/10 g) dated public observation",
+            "url": "https://economictimes.indiatimes.com/markets/sebi-proposes-t0-settlement-26nov25.cms"
+          },
+          {
+            "label": "17 November commodity settlements",
+            "url": "https://pokharnaresearch.in/daily-reports/commodity-market-today-18-november-2026/"
+          },
+          {
+            "label": "RBI official government securities statistics",
+            "url": "https://www.rbi.org.in/Scripts/BS_NSDPDisplay.aspx?param=4"
+          },
+          {
+            "label": "NSE institutional flows reproduced with dated history",
+            "url": "https://downstox.com/fii-dii"
+          },
+          {
+            "label": "Five-year Nifty P/E median, as of 17 November",
+            "url": "https://indexpe.in/nifty-50"
+          },
+          {
+            "label": "Closing sector and stock report",
+            "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-18-sensex-falls-500-pts-nifty-50-ends-below-25-250-126-stocks-hits-lower-circuit-titan-company-top-loser/article-203645/"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 25227.95,
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_18112026.csv",
+            "asOf": "2026-11-18"
+          },
+          {
+            "value": 0.63,
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_18112026.csv",
+            "asOf": "2026-11-18"
+          },
+          {
+            "value": 82031.81,
+            "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-18-sensex-falls-500-pts-nifty-50-ends-below-25-250-126-stocks-hits-lower-circuit-titan-company-top-loser/article-203645/",
+            "asOf": "2026-11-18"
+          },
+          {
+            "value": 0.61,
+            "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-18-sensex-falls-500-pts-nifty-50-ends-below-25-250-126-stocks-hits-lower-circuit-titan-company-top-loser/article-203645/",
+            "asOf": "2026-11-18"
+          }
+        ],
+        "asOf": "17:56 IST",
+        "timestamp": "2026-11-18T12:26:23.657516+00:00",
+        "mode": "latest",
+        "session": "after-close",
+        "rows": [
+          {
+            "name": "Nifty 50",
+            "level": 25227.95,
+            "previousClose": 25387.4,
+            "d1": -0.63,
+            "source": {
+              "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_18112026.csv",
+              "asOf": "2026-11-18"
+            },
+            "note": "Official 18 November cash-session closing observation; retrieved after the session.",
+            "w1": -0.11,
+            "m1": 8.99,
+            "ytd": -3.45
+          },
+          {
+            "name": "Sensex",
+            "level": 82031.81,
+            "previousClose": 82532.19,
+            "d1": -0.61,
+            "source": {
+              "url": "https://www.sensexindia.in/indices/BSE-Sensex-30-Returns.aspx",
+              "asOf": "2026-11-18"
+            },
+            "note": "18 November cash-session close, cross-checked with the closing market report.",
+            "w1": 0.19,
+            "m1": 9.77,
+            "ytd": -3.74
+          },
+          {
+            "name": "Bank Nifty",
+            "level": 62038.65,
+            "previousClose": 62273.25,
+            "d1": -0.38,
+            "source": {
+              "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_18112026.csv",
+              "asOf": "2026-11-18"
+            },
+            "note": "Official 18 November cash-session closing observation; retrieved after the session.",
+            "w1": 2.05,
+            "m1": 11.09,
+            "ytd": 4.12
+          },
+          {
+            "name": "Nifty Midcap 150",
+            "level": 22389.9,
+            "previousClose": 22648.7,
+            "d1": -1.14,
+            "source": {
+              "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_18112026.csv",
+              "asOf": "2026-11-18"
+            },
+            "note": "Official 18 November cash-session closing observation; retrieved after the session.",
+            "w1": -0.92,
+            "m1": 3,
+            "ytd": 0.51
+          },
+          {
+            "name": "Nifty Smallcap 250",
+            "level": 17667.5,
+            "previousClose": 17754.85,
+            "d1": -0.49,
+            "source": {
+              "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_18112026.csv",
+              "asOf": "2026-11-18"
+            },
+            "note": "Official 18 November cash-session closing observation; retrieved after the session.",
+            "w1": -0.73,
+            "m1": 0.17,
+            "ytd": 5.89
+          },
+          {
+            "name": "₹/US$",
+            "level": 93.44,
+            "previousClose": 93.47,
+            "d1": -0.03,
+            "source": {
+              "url": "https://www.reuters.com/world/india/indian-rupee-poised-extend-outperformance-swelling-inflows-break-key-level-2026-11-18/",
+              "asOf": "2026-11-18"
+            },
+            "note": "18 November rupee close; a lower number means a stronger rupee."
+          },
+          {
+            "name": "Brent",
+            "level": 92,
+            "previousClose": 93.14,
+            "d1": -1.22,
+            "source": {
+              "url": "https://www.tribuneindia.com/news/business/sensex-falls-500-points-nifty-declines-0-63-as-investors-book-profits-after-november-rally/",
+              "asOf": "2026-11-18"
+            },
+            "note": "Indicative intraday report updated 15:57 IST, not the final global settlement; previous settlement from 17 November commodity report."
+          },
+          {
+            "name": "Gold (₹/10 g)",
+            "level": 131100,
+            "previousClose": 134223,
+            "d1": -2.33,
+            "source": {
+              "url": "https://economictimes.indiatimes.com/markets/sebi-proposes-t0-settlement-26nov25.cms",
+              "asOf": "2026-11-18"
+            },
+            "note": "MCX futures snapshot shown at 15:42 IST; previous December-contract close ₹134,223. Not a jewellery retail or final settlement quote."
+          },
+          {
+            "name": "India 10-year G-sec yield",
+            "level": null,
+            "previousClose": null,
+            "d1": null,
+            "unavailableReason": "A matching 18 November benchmark closing yield was not verified; no proxy yield is substituted.",
+            "source": {
+              "url": "https://www.rbi.org.in/Scripts/BS_NSDPDisplay.aspx?param=4",
+              "asOf": "2026-11-18"
+            }
+          },
+          {
+            "name": "India VIX",
+            "level": 15.57,
+            "previousClose": 15.52,
+            "d1": 0.32,
+            "source": {
+              "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_18112026.csv",
+              "asOf": "2026-11-18"
+            },
+            "note": "Official 18 November cash-session closing observation; retrieved after the session."
+          }
+        ],
+        "flows": {
+          "fii": 4195.38,
+          "dii": 196.93,
+          "fiiMtd": 88363,
+          "diiMtd": -52411,
+          "url": "https://downstox.com/fii-dii",
+          "asOf": "2026-11-17"
+        },
+        "niftyPE": {
+          "now": 20.68,
+          "median5y": 21.9,
+          "url": "https://indexpe.in/nifty-50",
+          "asOf": "2026-11-17"
+        },
+        "dataQualityNotes": [
+          "India 10-year G-sec yield: A matching 18 November benchmark closing yield was not verified; no proxy yield is substituted."
+        ]
+      },
+      "cards": [
+        {
+          "id": "2026-11-18-gold-lenders",
+          "rank": 2,
+          "label": "Driver · Gold and credit · 18 Nov 2026",
+          "headline": "Gold’s fall creates different risks for retailers and lenders",
+          "summary": "Titan fell 5.3% by the equity close, while gold-related businesses faced a changed operating backdrop. Earlier reporting highlighted pressure on jewellery shares and collateral values at gold lenders, including Muthoot Finance and Manappuram. The dashboard’s gold figure is a timestamped futures observation.",
+          "why": "Cheaper bullion can help affordability but also change inventory economics and loan-to-value buffers. These channels work on different timelines, so a falling commodity price is not uniformly positive for every company in the category.",
+          "soWhat": "For jewellery purchases, compare all-in charges. For company research, separate sales volume, inventory effects and credit collection quality.",
+          "take": "I would avoid making a sector-wide conclusion from gold’s direction alone.",
+          "watch": "The next company disclosures on jewellery volumes, loan collections and auctions will clarify the operating impact.",
+          "terms": [],
+          "image": null,
+          "sources": [
+            {
+              "label": "Upstox / PTI · source",
+              "url": "https://upstox.com/news/market-news/stocks/gold-prices-slide-sharply-what-does-the-correction-mean-for-titan-kalyan-jewellers-and-gold-financiers/article-203614/"
+            },
+            {
+              "label": "Closing stock performance",
+              "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-18-sensex-falls-500-pts-nifty-50-ends-below-25-250-126-stocks-hits-lower-circuit-titan-company-top-loser/article-203645/"
+            }
+          ],
+          "evidence": [
+            {
+              "value": 5.3,
+              "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-18-sensex-falls-500-pts-nifty-50-ends-below-25-250-126-stocks-hits-lower-circuit-titan-company-top-loser/article-203645/",
+              "asOf": "2026-11-18"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-18-metal-dollar",
+          "rank": 3,
+          "label": "Driver · Commodities · 18 Nov 2026",
+          "headline": "Metals weaken as dollar and rate expectations tighten conditions",
+          "summary": "Nifty Metal lost 2.46% at close. Hindalco, SAIL and Hindustan Zinc were among the names under pressure during the session. Reporting linked the decline to softer global commodity prices, a stronger dollar and rising expectations of tighter US monetary policy.",
+          "why": "Dollar-priced raw materials become more expensive for some overseas buyers when the currency strengthens. Producers also face changes in realised prices and financing costs, while downstream users may benefit from cheaper inputs with a lag.",
+          "soWhat": "For Indian businesses, distinguish an upstream commodity producer from a manufacturer buying that material; their margin sensitivities can move in opposite directions.",
+          "take": "I would examine realised-price and input-cost exposure before grouping all metal-linked companies together.",
+          "watch": "The next global metal settlements and company margin guidance will test the assumed earnings effect.",
+          "terms": [],
+          "image": null,
+          "sources": [
+            {
+              "label": "Upstox · source",
+              "url": "https://upstox.com/news/market-news/stocks/hindalco-sail-hindustan-zinc-shares-in-focus-as-nifty-metal-tumbles-2-on-nov-18-check-details/article-203621/"
+            },
+            {
+              "label": "Final sector performance",
+              "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-18-sensex-falls-500-pts-nifty-50-ends-below-25-250-126-stocks-hits-lower-circuit-titan-company-top-loser/article-203645/"
+            }
+          ],
+          "evidence": [
+            {
+              "value": 2.46,
+              "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-18-sensex-falls-500-pts-nifty-50-ends-below-25-250-126-stocks-hits-lower-circuit-titan-company-top-loser/article-203645/",
+              "asOf": "2026-11-18"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-18-ipo-calendar",
+          "rank": 4,
+          "label": "Driver · New issues · 18 Nov 2026",
+          "headline": "The IPO calendar creates separate valuation tests for new issues",
+          "summary": "Crystal Crop Protection’s offer opened today, while Mahanadi Coalfields and Watrana Rentals were scheduled to open tomorrow. The published weekly calendar listed no IPO listing for this week. Coal India’s subsidiary offer brings coal-sector valuation and government divestment into focus.",
+          "why": "An IPO [first public share offering] can transfer ownership without guaranteeing fresh operating growth. Offer-for-sale proceeds, new capital, promoter incentives and use of funds should be distinguished before comparing an issue with established listed businesses.",
+          "soWhat": "Read the prospectus, confirm the exchange calendar and understand application rules; unregulated grey-market premiums do not establish fair value.",
+          "take": "I would evaluate the underlying economics before treating subscription enthusiasm as evidence of quality.",
+          "watch": "Exchange subscription updates, final allotment notices and any revised listing dates are the measurable follow-ups.",
+          "terms": [],
+          "image": null,
+          "sources": [
+            {
+              "label": "Upstox IPO calendar · source",
+              "url": "https://upstox.com/news/market-news/ipo/upcoming-ipos-mahanadi-coalfields-crystal-crop-protection-and-watrana-rentals-issues-to-open-this-week/article-203462/"
+            }
+          ],
+          "evidence": []
+        },
+        {
+          "id": "2026-11-18-flows-currency",
+          "rank": 5,
+          "label": "Driver · Flows and currency · 18 Nov 2026",
+          "headline": "Foreign buying supports the rupee without preventing an equity decline",
+          "summary": "The latest verified prior-session institutional figures show net foreign buying of ₹4,195.38 crore and domestic buying of ₹196.93 crore. The rupee closed today at ₹93.44 per dollar versus ₹93.47 previously. These observations cover different sessions, dated separately in the dashboard.",
+          "why": "Capital flows can support currency demand even when company prices fall on profit-taking or global risk repricing. Banks such as SBI and HDFC Bank also respond to funding costs and credit conditions.",
+          "soWhat": "A stronger rupee can help importers while reducing translated export revenue; currency effects must be assessed alongside each company’s exposure.",
+          "take": "I would treat foreign inflows as supporting context, not a promise of the next market move.",
+          "watch": "The next exchange flow release and rupee close will test whether that support persists.",
+          "terms": [],
+          "image": null,
+          "sources": [
+            {
+              "label": "Dated NSE flow reproduction · source",
+              "url": "https://downstox.com/fii-dii"
+            },
+            {
+              "label": "Rupee closing report",
+              "url": "https://www.reuters.com/world/india/indian-rupee-poised-extend-outperformance-swelling-inflows-break-key-level-2026-11-18/"
+            }
+          ],
+          "evidence": [
+            {
+              "value": 4195.38,
+              "url": "https://downstox.com/fii-dii",
+              "asOf": "2026-11-17"
+            },
+            {
+              "value": 196.93,
+              "url": "https://downstox.com/fii-dii",
+              "asOf": "2026-11-17"
+            },
+            {
+              "value": 93.44,
+              "url": "https://www.reuters.com/world/india/indian-rupee-poised-extend-outperformance-swelling-inflows-break-key-level-2026-11-18/",
+              "asOf": "2026-11-18"
+            },
+            {
+              "value": 93.47,
+              "url": "https://www.reuters.com/world/india/indian-rupee-poised-extend-outperformance-swelling-inflows-break-key-level-2026-11-18/",
+              "asOf": "2026-11-18"
+            }
+          ]
+        }
+      ]
+    },
+    "investing": [
+      {
+        "id": "2026-11-18-stock-polycab",
+        "rank": 1,
+        "label": "Stock research · POLYCAB · 18 Nov 2026",
+        "headline": "Polycab passes the screen; execution remains the central test",
+        "summary": "Polycab passes the sourced profitability, growth, balance-sheet, cash-flow, valuation and liquidity checks. Its reference quote is today’s official NSE close. The model applies a historical earnings multiple and a margin of safety; its Buy verdict is a formula output, not a guaranteed return.",
+        "why": "Electrical infrastructure and construction support cable demand, while distribution and brand recognition can help an established supplier. Copper costs, competitors and the timing of working-capital payments can still weaken cash conversion.",
+        "soWhat": "Treat the valuation as a research reference and review business quality alongside your own diversification and risk constraints.",
+        "take": "I find the distribution advantage credible, but would not assume every infrastructure rupee becomes profitable growth.",
+        "watch": "The next quarterly filing’s cable margins, receivables and operating cash conversion should confirm execution.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Screener consolidated financial history",
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/"
+          },
+          {
+            "label": "Value Research five-year median P/E, 17 Nov",
+            "url": "https://www.valueresearchonline.com/stocks/249951/polycab-india-ltd/"
+          },
+          {
+            "label": "September promoter pledge disclosure",
+            "url": "https://www.plenitude.co.in/pages/polycab-share-price"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-18",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261118_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-17",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261117_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-16",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261116_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-13",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261113_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-12",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261112_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-11",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261111_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-09",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261109_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-06",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261106_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-05",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261105_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-04",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261104_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-03",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261103_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-02",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261102_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-10-30",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261030_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-10-29",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261029_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-10-28",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261028_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-10-27",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261027_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-10-26",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261026_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-10-23",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261023_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-10-22",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261022_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-10-21",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261021_F_0000.csv.zip"
+          }
+        ],
+        "symbol": "POLYCAB",
+        "moat": "Brand",
+        "moatWhy": "Established distribution and recognised products can support specification and repeat purchases; competition remains substantial.",
+        "thesis": [
+          "Cable demand is linked to electrification, buildings and infrastructure investment.",
+          "An established distribution network can support repeat business and wider availability.",
+          "The source-backed screen and historical valuation provide a starting point for deeper research."
+        ],
+        "breakers": [
+          "Margins and cash conversion deteriorate persistently despite revenue growth.",
+          "Competition or governance disclosures undermine the distribution and quality thesis."
+        ],
+        "evidence": [
+          {
+            "value": 7307.5,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261118_F_0000.csv.zip",
+            "asOf": "2026-11-18"
+          },
+          {
+            "value": 28.4,
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          {
+            "value": 0.0208,
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          {
+            "value": 26.86,
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          {
+            "value": 25.04,
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          {
+            "value": 5,
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          {
+            "value": 34.87,
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+            "asOf": "2026-11-18"
+          },
+          {
+            "value": 45.33,
+            "url": "https://www.valueresearchonline.com/stocks/249951/polycab-india-ltd/",
+            "asOf": "2026-11-17"
+          },
+          {
+            "value": 209.56,
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          {
+            "value": 0.64,
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+            "asOf": "2026-11-18"
+          },
+          {
+            "value": 61.44,
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          {
+            "value": 0,
+            "url": "https://www.plenitude.co.in/pages/polycab-share-price",
+            "asOf": "2026-09-30"
+          },
+          {
+            "value": 110017,
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+            "asOf": "2026-11-18"
+          },
+          {
+            "value": 272.17,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261118_F_0000.csv.zip",
+            "asOf": "2026-11-18"
+          }
+        ],
+        "slot": "pick",
+        "sector": "Electrical cables",
+        "kind": "non-financial",
+        "price": 7307.5,
+        "quoteDate": "2026-11-18",
+        "dataDate": "2026-09-30",
+        "metrics": {
+          "roce5y": 28.4,
+          "de": 0.0208,
+          "salesCagr5y": 26.86,
+          "profitCagr5y": 25.04,
+          "ocfPositiveYears": 5,
+          "pe": 34.87,
+          "peMedian5y": 45.33,
+          "eps": 209.56,
+          "divYield": 0.64,
+          "promoterHolding": 61.44,
+          "pledge": 0,
+          "marketCap": 110017,
+          "avgDailyValue": 272.17
+        },
+        "metricSources": {
+          "roce5y": {
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          "de": {
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          "salesCagr5y": {
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          "profitCagr5y": {
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          "ocfPositiveYears": {
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          "pe": {
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+            "asOf": "2026-11-18"
+          },
+          "peMedian5y": {
+            "url": "https://www.valueresearchonline.com/stocks/249951/polycab-india-ltd/",
+            "asOf": "2026-11-17"
+          },
+          "eps": {
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          "divYield": {
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+            "asOf": "2026-11-18"
+          },
+          "promoterHolding": {
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          "pledge": {
+            "url": "https://www.plenitude.co.in/pages/polycab-share-price",
+            "asOf": "2026-09-30"
+          },
+          "marketCap": {
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+            "asOf": "2026-11-18"
+          },
+          "avgDailyValue": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261118_F_0000.csv.zip",
+            "asOf": "2026-11-18"
+          },
+          "price": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261118_F_0000.csv.zip",
+            "asOf": "2026-11-18"
+          }
+        },
+        "screen": {
+          "roce": true,
+          "debt": true,
+          "sales": true,
+          "profit": true,
+          "cash": true,
+          "valuation": true,
+          "pledge": true,
+          "liquidity": true
+        },
+        "fairValue": 9499.35,
+        "buyBelow": 7599.48,
+        "verdict": "Buy"
+      },
+      {
+        "id": "2026-11-18-stock-cams",
+        "rank": 2,
+        "label": "Stock research · CAMS · 18 Nov 2026",
+        "headline": "CAMS offers recurring infrastructure economics at a demanding price",
+        "summary": "CAMS passes the sourced screen, but its quote sits above the model’s margin-of-safety threshold, producing a Wait verdict. Its business services mutual funds and related financial workflows. Annual operating cash flow was positive throughout the screened period; future results remain uncertain.",
+        "why": "Fund administrators become embedded in account records, transactions and service processes. Replacing those integrations can create operational work for clients, although fee negotiations, regulatory requirements and competing providers limit pricing power.",
+        "soWhat": "Understand the difference between a resilient business and a sufficiently attractive entry valuation before treating quality as an investment conclusion.",
+        "take": "I like the recurring workflow exposure, while remaining cautious about fee compression.",
+        "watch": "The next results should show assets serviced, transaction activity, fee yield and non-fund revenue conversion.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Screener consolidated financial history",
+            "url": "https://www.screener.in/company/CAMS/consolidated/"
+          },
+          {
+            "label": "Value Research five-year median P/E, 17 Nov",
+            "url": "https://www.valueresearchonline.com/stocks/273560/computer-age-management-services-ltd/"
+          },
+          {
+            "label": "September promoter pledge disclosure",
+            "url": "https://fundtrackerindia.com/stock/CAMS"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-18",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261118_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-17",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261117_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-16",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261116_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-13",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261113_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-12",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261112_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-11",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261111_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-09",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261109_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-06",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261106_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-05",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261105_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-04",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261104_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-03",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261103_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-02",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261102_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-10-30",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261030_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-10-29",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261029_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-10-28",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261028_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-10-27",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261027_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-10-26",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261026_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-10-23",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261023_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-10-22",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261022_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-10-21",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261021_F_0000.csv.zip"
+          }
+        ],
+        "symbol": "CAMS",
+        "moat": "Switching cost",
+        "moatWhy": "Migrating investor records and transaction workflows involves operational integration and controls; customers still have alternatives.",
+        "thesis": [
+          "Recurring administration workflows support an established service relationship.",
+          "Growth in investor activity can expand the volume of services required.",
+          "Non-mutual-fund activities offer diversification if they generate durable profitable revenue."
+        ],
+        "breakers": [
+          "Sustained fee compression overwhelms the benefit of higher activity.",
+          "Service failures, lost client mandates or regulatory action damage customer retention."
+        ],
+        "evidence": [
+          {
+            "value": 716,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261118_F_0000.csv.zip",
+            "asOf": "2026-11-18"
+          },
+          {
+            "value": 50.2,
+            "url": "https://www.screener.in/company/CAMS/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          {
+            "value": 0.0409,
+            "url": "https://www.screener.in/company/CAMS/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          {
+            "value": 16.51,
+            "url": "https://www.screener.in/company/CAMS/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          {
+            "value": 18.15,
+            "url": "https://www.screener.in/company/CAMS/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          {
+            "value": 5,
+            "url": "https://www.screener.in/company/CAMS/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          {
+            "value": 34.72,
+            "url": "https://www.screener.in/company/CAMS/consolidated/",
+            "asOf": "2026-11-18"
+          },
+          {
+            "value": 41.08,
+            "url": "https://www.valueresearchonline.com/stocks/273560/computer-age-management-services-ltd/",
+            "asOf": "2026-11-17"
+          },
+          {
+            "value": 20.62,
+            "url": "https://www.screener.in/company/CAMS/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          {
+            "value": 1.75,
+            "url": "https://www.screener.in/company/CAMS/consolidated/",
+            "asOf": "2026-11-18"
+          },
+          {
+            "value": 0,
+            "url": "https://www.screener.in/company/CAMS/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          {
+            "value": 0,
+            "url": "https://fundtrackerindia.com/stock/CAMS",
+            "asOf": "2026-09-30"
+          },
+          {
+            "value": 17782,
+            "url": "https://www.screener.in/company/CAMS/consolidated/",
+            "asOf": "2026-11-18"
+          },
+          {
+            "value": 146.38,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261118_F_0000.csv.zip",
+            "asOf": "2026-11-18"
+          }
+        ],
+        "slot": "pick",
+        "sector": "Capital-market infrastructure",
+        "kind": "non-financial",
+        "price": 716,
+        "quoteDate": "2026-11-18",
+        "dataDate": "2026-09-30",
+        "metrics": {
+          "roce5y": 50.2,
+          "de": 0.0409,
+          "salesCagr5y": 16.51,
+          "profitCagr5y": 18.15,
+          "ocfPositiveYears": 5,
+          "pe": 34.72,
+          "peMedian5y": 41.08,
+          "eps": 20.62,
+          "divYield": 1.75,
+          "promoterHolding": 0,
+          "pledge": 0,
+          "marketCap": 17782,
+          "avgDailyValue": 146.38
+        },
+        "metricSources": {
+          "roce5y": {
+            "url": "https://www.screener.in/company/CAMS/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          "de": {
+            "url": "https://www.screener.in/company/CAMS/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          "salesCagr5y": {
+            "url": "https://www.screener.in/company/CAMS/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          "profitCagr5y": {
+            "url": "https://www.screener.in/company/CAMS/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          "ocfPositiveYears": {
+            "url": "https://www.screener.in/company/CAMS/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          "pe": {
+            "url": "https://www.screener.in/company/CAMS/consolidated/",
+            "asOf": "2026-11-18"
+          },
+          "peMedian5y": {
+            "url": "https://www.valueresearchonline.com/stocks/273560/computer-age-management-services-ltd/",
+            "asOf": "2026-11-17"
+          },
+          "eps": {
+            "url": "https://www.screener.in/company/CAMS/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          "divYield": {
+            "url": "https://www.screener.in/company/CAMS/consolidated/",
+            "asOf": "2026-11-18"
+          },
+          "promoterHolding": {
+            "url": "https://www.screener.in/company/CAMS/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          "pledge": {
+            "url": "https://fundtrackerindia.com/stock/CAMS",
+            "asOf": "2026-09-30"
+          },
+          "marketCap": {
+            "url": "https://www.screener.in/company/CAMS/consolidated/",
+            "asOf": "2026-11-18"
+          },
+          "avgDailyValue": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261118_F_0000.csv.zip",
+            "asOf": "2026-11-18"
+          },
+          "price": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261118_F_0000.csv.zip",
+            "asOf": "2026-11-18"
+          }
+        },
+        "screen": {
+          "roce": true,
+          "debt": true,
+          "sales": true,
+          "profit": true,
+          "cash": true,
+          "valuation": true,
+          "pledge": true,
+          "liquidity": true
+        },
+        "fairValue": 847.07,
+        "buyBelow": 677.66,
+        "verdict": "Wait"
+      },
+      {
+        "id": "2026-11-18-stock-eclerx",
+        "rank": 3,
+        "label": "Stock research · ECLERX · 18 Nov 2026",
+        "headline": "eClerx needs AI efficiency to strengthen its client economics",
+        "summary": "eClerx passes the sourced screen, with a Wait verdict because the current quote exceeds the model’s margin-of-safety threshold. The company supplies business-process, analytics and automation services. Its record supports further research, but does not establish that historic growth will continue.",
+        "why": "Long-running workflows create process knowledge and integration costs for customers. AI can improve delivery efficiency while also enabling clients to demand lower prices or bring work in-house, creating both opportunity and pressure.",
+        "soWhat": "For an investor, the question is who keeps the productivity benefit: the provider, the customer or a competing software platform.",
+        "take": "I would require evidence of retained economic value rather than simply count AI announcements.",
+        "watch": "The next quarterly filing’s client concentration, revenue growth, margins and collections should be assessed together.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Screener consolidated financial history",
+            "url": "https://www.screener.in/company/ECLERX/consolidated/"
+          },
+          {
+            "label": "Value Research five-year median P/E, 17 Nov",
+            "url": "https://www.valueresearchonline.com/stocks/41885/eclerx-services-ltd/"
+          },
+          {
+            "label": "September promoter pledge disclosure",
+            "url": "https://www.plenitude.co.in/pages/eclerx-share-price"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-18",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261118_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-17",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261117_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-16",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261116_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-13",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261113_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-12",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261112_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-11",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261111_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-09",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261109_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-06",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261106_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-05",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261105_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-04",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261104_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-03",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261103_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-11-02",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261102_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-10-30",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261030_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-10-29",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261029_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-10-28",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261028_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-10-27",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261027_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-10-26",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261026_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-10-23",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261023_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-10-22",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261022_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official equity close and turnover 2026-10-21",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261021_F_0000.csv.zip"
+          }
+        ],
+        "symbol": "ECLERX",
+        "moat": "Switching cost",
+        "moatWhy": "Embedded domain knowledge and operating processes can make supplier changes costly; AI may reduce parts of that barrier.",
+        "thesis": [
+          "Embedded client workflows can support continuity and domain expertise.",
+          "Automation offers a route to better delivery productivity and additional services.",
+          "Verified growth and cash generation justify deeper investigation at a disciplined valuation."
+        ],
+        "breakers": [
+          "Clients internalise workflows faster than the company wins replacement revenue.",
+          "Pricing pressure or concentration causes sustained margin and cash deterioration."
+        ],
+        "evidence": [
+          {
+            "value": 1500.1,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261118_F_0000.csv.zip",
+            "asOf": "2026-11-18"
+          },
+          {
+            "value": 32.8,
+            "url": "https://www.screener.in/company/ECLERX/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          {
+            "value": 0.1753,
+            "url": "https://www.screener.in/company/ECLERX/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          {
+            "value": 21.36,
+            "url": "https://www.screener.in/company/ECLERX/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          {
+            "value": 20.06,
+            "url": "https://www.screener.in/company/ECLERX/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          {
+            "value": 5,
+            "url": "https://www.screener.in/company/ECLERX/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          {
+            "value": 19.44,
+            "url": "https://www.screener.in/company/ECLERX/consolidated/",
+            "asOf": "2026-11-18"
+          },
+          {
+            "value": 22.66,
+            "url": "https://www.valueresearchonline.com/stocks/41885/eclerx-services-ltd/",
+            "asOf": "2026-11-17"
+          },
+          {
+            "value": 77.18,
+            "url": "https://www.screener.in/company/ECLERX/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          {
+            "value": 0.06,
+            "url": "https://www.screener.in/company/ECLERX/consolidated/",
+            "asOf": "2026-11-18"
+          },
+          {
+            "value": 54.53,
+            "url": "https://www.screener.in/company/ECLERX/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          {
+            "value": 0,
+            "url": "https://www.plenitude.co.in/pages/eclerx-share-price",
+            "asOf": "2026-09-30"
+          },
+          {
+            "value": 14095,
+            "url": "https://www.screener.in/company/ECLERX/consolidated/",
+            "asOf": "2026-11-18"
+          },
+          {
+            "value": 46.36,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261118_F_0000.csv.zip",
+            "asOf": "2026-11-18"
+          }
+        ],
+        "slot": "pick",
+        "sector": "IT-enabled business services",
+        "kind": "non-financial",
+        "price": 1500.1,
+        "quoteDate": "2026-11-18",
+        "dataDate": "2026-09-30",
+        "metrics": {
+          "roce5y": 32.8,
+          "de": 0.1753,
+          "salesCagr5y": 21.36,
+          "profitCagr5y": 20.06,
+          "ocfPositiveYears": 5,
+          "pe": 19.44,
+          "peMedian5y": 22.66,
+          "eps": 77.18,
+          "divYield": 0.06,
+          "promoterHolding": 54.53,
+          "pledge": 0,
+          "marketCap": 14095,
+          "avgDailyValue": 46.36
+        },
+        "metricSources": {
+          "roce5y": {
+            "url": "https://www.screener.in/company/ECLERX/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          "de": {
+            "url": "https://www.screener.in/company/ECLERX/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          "salesCagr5y": {
+            "url": "https://www.screener.in/company/ECLERX/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          "profitCagr5y": {
+            "url": "https://www.screener.in/company/ECLERX/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          "ocfPositiveYears": {
+            "url": "https://www.screener.in/company/ECLERX/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          "pe": {
+            "url": "https://www.screener.in/company/ECLERX/consolidated/",
+            "asOf": "2026-11-18"
+          },
+          "peMedian5y": {
+            "url": "https://www.valueresearchonline.com/stocks/41885/eclerx-services-ltd/",
+            "asOf": "2026-11-17"
+          },
+          "eps": {
+            "url": "https://www.screener.in/company/ECLERX/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          "divYield": {
+            "url": "https://www.screener.in/company/ECLERX/consolidated/",
+            "asOf": "2026-11-18"
+          },
+          "promoterHolding": {
+            "url": "https://www.screener.in/company/ECLERX/consolidated/",
+            "asOf": "2026-09-30"
+          },
+          "pledge": {
+            "url": "https://www.plenitude.co.in/pages/eclerx-share-price",
+            "asOf": "2026-09-30"
+          },
+          "marketCap": {
+            "url": "https://www.screener.in/company/ECLERX/consolidated/",
+            "asOf": "2026-11-18"
+          },
+          "avgDailyValue": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261118_F_0000.csv.zip",
+            "asOf": "2026-11-18"
+          },
+          "price": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261118_F_0000.csv.zip",
+            "asOf": "2026-11-18"
+          }
+        },
+        "screen": {
+          "roce": true,
+          "debt": true,
+          "sales": true,
+          "profit": true,
+          "cash": true,
+          "valuation": true,
+          "pledge": true,
+          "liquidity": true
+        },
+        "fairValue": 1748.9,
+        "buyBelow": 1399.12,
+        "verdict": "Wait"
+      },
+      {
+        "id": "2026-11-18-watchlist",
+        "rank": 4,
+        "label": "Tracked research · 18 Nov 2026",
+        "headline": "The screened watchlist starts without invented historical returns",
+        "summary": "No earlier published screened positions appear in the prepared ledger. Legacy stock articles are not being retroactively converted into screened picks. Today’s candidates will become trackable only after publication, with official closing observations used for a consistent comparison against the benchmarks.",
+        "why": "A trustworthy record preserves the original thesis, publication time and measurement baseline. Starting after the market closes requires a later eligible close for performance measurement, avoiding credit for a price already known when the research appeared.",
+        "soWhat": "You will be able to distinguish a researched candidate from an executed personal investment and compare subsequent performance on matching dates.",
+        "take": "I prefer an empty honest record to an impressive backfilled one.",
+        "watch": "The next eligible official closing snapshot should establish the late edition’s measurement baseline.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "NSE official reports · source",
+            "url": "https://www.nseindia.com/all-reports"
+          }
+        ],
+        "slot": "watchlist",
+        "thesisEvents": [],
+        "evidence": [],
+        "entries": [],
+        "dataDate": null
+      },
+      {
+        "id": "2026-11-18-metric-lesson",
+        "rank": 5,
+        "label": "Metric lesson · ROCE · 18 Nov 2026",
+        "headline": "High capital returns need cash and sensible reinvestment",
+        "summary": "ROCE [operating profit relative to capital employed] measures business efficiency, not shareholder return. Polycab’s prepared five-year average is 28.4%, calculated from the displayed annual observations. This differs from the latest annual ratio and cannot tell you what price will be attractive.",
+        "why": "A company can report strong efficiency while growth consumes cash through inventory and receivables. Accounting definitions, leases and changes in business mix also affect comparability, so a consistent calculation matters.",
+        "soWhat": "When evaluating a company, pair the capital-return trend with cash generation, debt and the opportunity to reinvest profitably.",
+        "take": "I would rather understand the source of high returns than simply rank companies by a percentage.",
+        "watch": "At the next filing, compare incremental operating profit with additional capital and working-capital requirements.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Screener annual financial history · source",
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/"
+          }
+        ],
+        "slot": "learn",
+        "exampleMetric": {
+          "symbol": "POLYCAB",
+          "metric": "roce5y",
+          "value": 28.4
+        },
+        "evidence": [
+          {
+            "value": 28.4,
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+            "asOf": "2026-09-30"
+          }
+        ]
+      }
+    ],
+    "tech": [
+      {
+        "id": "2026-11-18-openai-models",
+        "rank": 1,
+        "label": "Tech · 18 Nov 2026",
+        "headline": "OpenAI adds Astra and Sol to its model lineup",
+        "summary": "OpenAI’s API changelog dated 17 November adds GPT-6.2 Astra and GPT-6.2 Sol. It positions Astra for demanding reasoning and coding, and Sol for everyday coding and agent workflows. Both support Responses and Chat Completions; tool calling requires the Responses API.",
+        "why": "A differentiated model lineup lets teams match inference cost and latency to task difficulty. A vendor’s positioning is a starting hypothesis; performance on your own inputs determines whether a migration actually helps.",
+        "soWhat": "Indian teams building research, coding or marketing assistants can compare quality and cost before changing production workloads.",
+        "take": "I would test the cheaper suitable model first and reserve heavier reasoning for demonstrated failures.",
+        "watch": "Compare task success, elapsed time and cost on a fixed internal evaluation before migration.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "OpenAI API changelog · source",
+            "url": "https://developers.openai.com/api/docs/changelog"
+          }
+        ],
+        "beat": "launch",
+        "tryThis": "Run the same anonymised brief through both models and score factual errors, output quality, latency and actual cost."
+      },
+      {
+        "id": "2026-11-18-gemini-tasks",
+        "rank": 2,
+        "label": "Tech · 18 Nov 2026",
+        "headline": "Gemini expands task execution to users in India",
+        "summary": "Google announced on 17 November that an expanded Tasks experience is rolling out without charge in India and several other markets. The assistant can carry out multi-step web tasks. Some advanced features begin in the US, and some sites still require a final user handoff.",
+        "why": "Completing work depends on website compatibility, permissions and reliable confirmation, beyond the language model’s ability to describe a plan. Regional availability also differs between the basic rollout and more advanced capabilities.",
+        "soWhat": "You can test routine research or administrative tasks, but should inspect the final result and any consequential action.",
+        "take": "I would judge this on completed tasks and correction effort, not a polished demonstration.",
+        "watch": "Check India-account availability and the success rate of a repeatable task before relying on it daily.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Google · source",
+            "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+          }
+        ],
+        "beat": "launch",
+        "tryThis": "Open Gemini’s Task toggle if available, give it a reversible research task, and inspect the evidence and completion state."
+      },
+      {
+        "id": "2026-11-18-model-safeguards",
+        "rank": 3,
+        "label": "Tech · 18 Nov 2026",
+        "headline": "New model safety disclosures sharpen enterprise access questions",
+        "summary": "OpenAI’s 17 November system card classifies both new models at its Critical cybersecurity threshold and High biological and chemical threshold. The company says it tightened default restrictions on higher-risk cybersecurity assistance and requires additional vetting for more permissive access.",
+        "why": "A capability classification describes a developer’s risk framework, not a prediction that a specific deployment will cause harm. Enterprise controls still need to address tool permissions, external network access, monitoring and human approval for consequential actions.",
+        "soWhat": "Businesses procuring agents should include safeguards and access eligibility in technical evaluation, alongside output quality and commercial terms.",
+        "take": "I would make permission boundaries a procurement requirement rather than a later configuration task.",
+        "watch": "Published access requirements and independently reported evaluation results are the next checks for buyers.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "OpenAI Deployment Safety Hub · source",
+            "url": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol/internal-deployment-of-gpt-6.2-astra-and-gpt-6.2-sol"
+          }
+        ],
+        "beat": "policy",
+        "tryThis": "Audit which connected tools can write, purchase, message or access external systems; restrict each to the task’s needs."
+      },
+      {
+        "id": "2026-11-18-karnataka-skills",
+        "rank": 4,
+        "label": "Tech · 18 Nov 2026",
+        "headline": "Karnataka’s AI training commitments shift attention to practical outcomes",
+        "summary": "Karnataka signed agreements with Google, Salesforce, Pega Systems, Sarvam AI and Gnani.ai at Bengaluru Tech Summit on 17 November, according to reporting published on 18 November. The combined training target is 63,200 students and professionals; it is a commitment, not a completion count.",
+        "why": "Employers need people who can build and evaluate working systems, while classrooms can lag changing tools. Training partnerships are useful only when participants receive access, practical feedback and credible assessment.",
+        "soWhat": "Students and working professionals should compare eligibility, language support and project requirements before spending time on another certificate.",
+        "take": "I would value a tested capstone project more highly than the partner logos.",
+        "watch": "Published enrolment dates, completion numbers and demonstrable graduate projects will reveal delivery against the target.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "ETGovernment · source",
+            "url": "https://government.economictimes.indiatimes.com/amp/news/governance/bengaluru-tech-summit-2026-karnataka-inks-mous-with-five-firms-to-strengthen-ai-skill-training-ecosystem/135952525"
+          }
+        ],
+        "beat": "india",
+        "tryThis": "Find the relevant programme’s eligibility notice and ask what assessed project and tool access it includes."
+      },
+      {
+        "id": "2026-11-18-linkedin-wadhwani",
+        "rank": 5,
+        "label": "Tech · 18 Nov 2026",
+        "headline": "LinkedIn and Wadhwani AI target small-business adoption",
+        "summary": "LinkedIn and Wadhwani AI announced an AI-for-Future-SMEs partnership reported on 18 November. It aims to reach 2,000 entrepreneurs in five northeastern states through a 12-month programme combining mobile-first materials, classroom training and mentorship. Commercial impact has not yet been established.",
+        "why": "Microbusinesses often need help applying tools to everyday workflows more than broad awareness sessions. Local languages, connectivity constraints and sector-specific examples determine whether learning survives beyond a workshop.",
+        "soWhat": "For marketers, the useful test is a better catalogue, customer response or campaign workflow that saves measurable time.",
+        "take": "I would start with a narrow business problem and track repeat use after training.",
+        "watch": "Enrolment, completion and sustained business-use results should be reported separately from the programme’s reach target.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "PTI / Rediff · source",
+            "url": "https://money.rediff.com/news/market/wadhwani-ai-linkedin-launch-ai-program-for-northeast-smes/58306820261118"
+          }
+        ],
+        "beat": "deal",
+        "tryThis": "Choose a recurring business task, measure its baseline time, then test one AI-assisted version with quality checks."
+      }
+    ],
+    "psychology": [
+      {
+        "id": "2026-11-18-bystander",
+        "rank": 1,
+        "label": "Classic psychology · 1968 · 18 Nov 2026",
+        "headline": "Give responsibility a name when everyone is watching",
+        "summary": "Darley and Latané’s 1968 experiment recruited 72 university students and simulated an emergency over an intercom. Participants who believed other listeners were present responded more slowly and less often. Two suspicious participants were excluded; this was a controlled laboratory setting.",
+        "why": "Diffusion of responsibility [shared presence weakens personal obligation] offers an explanation: someone may assume another observer has already acted. Group size does not determine every real emergency, and clear roles can change behaviour.",
+        "soWhat": "In a meeting or group chat, assigning a named owner can prevent an urgent request from becoming everybody’s uncompleted responsibility.",
+        "take": "I would design explicit ownership instead of blaming a group for lacking concern.",
+        "watch": "For the next urgent task, record who accepted it and how long acknowledgement took.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Original Journal of Personality and Social Psychology paper · source",
+            "url": "https://www.ucdenver.edu/docs/librariesprovider102/default-document-library/bystander-intervention-john-darley-and-bibb-latane.pdf"
+          }
+        ],
+        "concept": "Diffusion of responsibility",
+        "study": {
+          "authors": "John M. Darley and Bibb Latané",
+          "year": 1968,
+          "published": "1968-04-01",
+          "datePrecision": "month",
+          "sample": 72,
+          "era": "classic"
+        },
+        "example": "Ask a named colleague to confirm the supplier’s pickup time rather than asking the entire group.",
+        "useThisWeek": "Give each urgent action an owner and acknowledgement deadline."
+      },
+      {
+        "id": "2026-11-18-endowment",
+        "rank": 2,
+        "label": "Classic psychology · 1990 · 18 Nov 2026",
+        "headline": "Ownership can quietly raise your asking price",
+        "summary": "Kahneman, Knetsch and Thaler’s 1990 paper tested ownership in real exchanges. Its first experiment involved 44 Cornell students, with mugs allocated to some participants. Goods changed hands less often than standard predictions, even after participants practised the market rules.",
+        "why": "The endowment effect [ownership can increase perceived value] suggests giving something up can feel different from acquiring it. The result depends on setting and experience; it is a bias to check, not a universal pricing law.",
+        "soWhat": "When selling an item or reviewing a holding, your attachment may make an otherwise reasonable offer feel unacceptable.",
+        "take": "I would ask what I would pay today before deciding what I must receive.",
+        "watch": "Compare your minimum selling price with your independent buying price for the same item.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Original Journal of Political Economy paper · source",
+            "url": "https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Behavioral_Decision_Theory/Kahneman_et_al_1990_Experimental_tests.pdf"
+          }
+        ],
+        "concept": "Endowment effect",
+        "study": {
+          "authors": "Daniel Kahneman, Jack L. Knetsch and Richard H. Thaler",
+          "year": 1990,
+          "published": "1990-12-01",
+          "sample": 44,
+          "era": "classic"
+        },
+        "example": "Value a used gadget as if you did not already own it, then compare that answer with your asking price.",
+        "useThisWeek": "Write an ownership-free valuation before negotiating a sale."
+      },
+      {
+        "id": "2026-11-18-dissonance",
+        "rank": 3,
+        "label": "Classic psychology · 1959 · 18 Nov 2026",
+        "headline": "A weak excuse can encourage a stronger rationalisation",
+        "summary": "Festinger and Carlsmith’s 1959 study recruited 71 male Stanford students for a dull task and a misleading endorsement; the final analysis used 60. Participants paid a small reward later rated the task more favourably than those given a larger reward.",
+        "why": "Cognitive dissonance [discomfort when actions and beliefs conflict] is one proposed mechanism. A weak external justification can prompt an internal explanation that restores consistency. This narrow student experiment does not explain every change of opinion.",
+        "soWhat": "After defending a project publicly, you may feel pressure to keep believing in it even when evidence weakens.",
+        "take": "I would separate protecting my reputation from evaluating whether a decision still makes sense.",
+        "watch": "Before the next review, write the evidence that would make you revise your position.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Original forced-compliance experiment · source",
+            "url": "https://static1.squarespace.com/static/5853f730ebbd1abde9c9b087/t/60b937f1833814232becd10c/1622751218145/festinger1959.pdf"
+          }
+        ],
+        "concept": "Cognitive dissonance",
+        "study": {
+          "authors": "Leon Festinger and James M. Carlsmith",
+          "year": 1959,
+          "published": "1959-03-01",
+          "datePrecision": "month",
+          "sample": 71,
+          "era": "classic"
+        },
+        "example": "A campaign owner interprets disappointing results as proof that the audience needs more time.",
+        "useThisWeek": "Write your failure criteria before presenting a proposal."
+      },
+      {
+        "id": "2026-11-18-offline-attention",
+        "rank": 4,
+        "label": "Recent study · 2025 · 18 Nov 2026",
+        "headline": "Less mobile internet improved attention in a randomised study",
+        "summary": "Castelo and colleagues’ 2025 trial enrolled 467 people to test blocking smartphone internet for two weeks while preserving calls and texts. Attention, mental health and well-being improved. Only 119 met the preregistered compliance threshold, an important limit on practical adoption.",
+        "why": "Constant access competes with sleep, social contact and uninterrupted activity. Removing availability changes the environment instead of repeatedly demanding willpower. Participants who completed follow-ups may also differ from those who dropped out.",
+        "soWhat": "A smaller, reversible offline block may be a realistic experiment during study or focused work; the trial does not prescribe universal disconnection.",
+        "take": "I would test environmental friction before assuming poor focus is a character flaw.",
+        "watch": "Track uninterrupted work time, sleep and missed essential tasks during a short personal trial.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "PNAS Nexus randomised trial · source",
+            "url": "https://academic.oup.com/pnasnexus/article/4/2/pgaf017/8016017"
+          }
+        ],
+        "concept": "Mobile internet restriction and attention",
+        "study": {
+          "authors": "Noah Castelo, Kostadin Kushlev, Adrian F. Ward, Michael Esterman and Peter B. Reiner",
+          "year": 2025,
+          "published": "2025-02-18",
+          "sample": 467,
+          "era": "recent"
+        },
+        "example": "Keep calls available but block distracting internet access during a planned study session.",
+        "useThisWeek": "Try a limited offline work block and compare it with your normal routine."
+      },
+      {
+        "id": "2026-11-18-ai-attachment",
+        "rank": 5,
+        "label": "Recent study · 2025 · 18 Nov 2026",
+        "headline": "Chatbot-use intensity matters more than a simple voice distinction",
+        "summary": "Fang and colleagues’ 2025 controlled study followed 981 participants for four weeks. Assigned voice and conversation conditions did not produce significant differences in the reported psychosocial outcomes. Heavier voluntary use was associated with worse outcomes, including dependence; that association does not establish causation.",
+        "why": "People bring different needs, expectations and existing social circumstances to a chatbot. Those factors may affect both usage and well-being, making a simple claim that a particular interface causes loneliness difficult to defend.",
+        "soWhat": "Use AI as support for thinking and work, while checking whether it is crowding out sleep, responsibilities or real relationships.",
+        "take": "I would monitor what the interaction replaces, not just how friendly it feels.",
+        "watch": "Review weekly usage alongside human contact and any difficulty stopping at your intended time.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "MIT Media Lab controlled study · source",
+            "url": "https://www.media.mit.edu/publications/how-ai-and-human-behaviors-shape-psychosocial-effects-of-chatbot-use-a-longitudinal-controlled-study/"
+          }
+        ],
+        "concept": "Chatbot attachment and voluntary use",
+        "study": {
+          "authors": "Cathy Mengying Fang and colleagues, MIT Media Lab and OpenAI",
+          "year": 2025,
+          "published": "2025-03-21",
+          "sample": 981,
+          "era": "recent"
+        },
+        "example": "A helpful reflection becomes less helpful if it repeatedly postpones a conversation you need to have with a person.",
+        "useThisWeek": "Set an intended stopping point and notice whether AI use displaces another valued activity."
+      }
+    ],
+    "marketing": [
+      {
+        "id": "2026-11-18-libas",
+        "rank": 1,
+        "label": "India · Wedding occasions · 18 Nov 2026",
+        "headline": "Libas sells the wedding wardrobe beyond the bride",
+        "summary": "Libas’s Saj Dhaj Ke Season III, reported on 17 November, expands wedding storytelling to trousseau preparation, family and friends, and multiple functions. Occasion-led collections are available through its website, app, stores and e-commerce partners. Sales or campaign-lift results were not published.",
+        "why": "The useful insight is that a wedding generates several shopping occasions and many potential buyers. Positioning the whole social circle expands category entry points [situations that bring a brand to mind], beyond a single bridal purchase.",
+        "soWhat": "For an Indian marketer, organise content and product discovery around occasions, participants and preparation stages instead of only product categories.",
+        "take": "I would borrow the occasion map before copying the festive styling.",
+        "watch": "Measure category browsing, assisted conversions and incremental orders separately from video reach.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Indian Retailer / Licence India · source",
+            "url": "https://www.indianretailer.com/brandlicense/archives/news/libas-unveils-third-season-saj-dhaj-ke-campaign-2026-wedding-season.n6268"
+          }
+        ],
+        "region": "India",
+        "brand": "Libas",
+        "agency": "Not disclosed in the published campaign report.",
+        "objective": "Expand wedding and occasion-wear consideration beyond bridal dressing.",
+        "insight": "Families and friends shop for several functions and trousseau needs.",
+        "channels": "Campaign storytelling connected with website, app, exclusive outlets and e-commerce availability.",
+        "results": "No attributable sales lift or campaign-performance results published."
+      },
+      {
+        "id": "2026-11-18-sebamed",
+        "rank": 2,
+        "label": "India · Category education · 18 Nov 2026",
+        "headline": "Sebamed turns a category misconception into two memorable characters",
+        "summary": "Sebamed’s campaign reported on 16 November personifies oily dandruff and dry scalp flakes as different characters. The humorous TV commercial promotes distinct products for the two needs, challenging the reflex to treat every visible flake alike. Campaign performance figures were not disclosed.",
+        "why": "Contrast can make a technical distinction easier to encode and recall. The marketing mechanism is problem recognition before product selection; the advertisement’s medical explanations remain brand claims rather than an independent diagnosis for viewers.",
+        "soWhat": "For complex B2B or consumer products, teach the choice rule first and attach each offer to a clearly differentiated need.",
+        "take": "I would borrow the clarity, while avoiding fear or unsupported certainty about personal symptoms.",
+        "watch": "Test whether viewers can correctly recall the distinction and select the intended product afterwards.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "afaqs! · source",
+            "url": "https://www.afaqs.com/news/advertising/sebamed-highlights-difference-between-oily-dry-dandruff-in-new-tvc-12814270"
+          }
+        ],
+        "region": "India",
+        "brand": "Sebamed",
+        "agency": "Not disclosed in the linked report.",
+        "objective": "Educate consumers about different scalp concerns and differentiate two shampoos.",
+        "insight": "Consumers may use a generic dandruff solution for unlike concerns.",
+        "channels": "Television commercial with humorous character-led storytelling.",
+        "results": "No published brand-lift, sales-lift or conversion results in the report."
+      },
+      {
+        "id": "2026-11-18-kalyan",
+        "rank": 3,
+        "label": "India · Brand memory · 18 Nov 2026",
+        "headline": "Kalyan makes its own name part of the wedding blessing",
+        "summary": "Kalyan Jewellers’ Kalyan Bhava campaign, reported on 3 November, extends the wedding blessing to families and relationships. Its film features Amitabh Bachchan, with Sreeleela in the national version and Kalyani Priyadarshan in southern executions. Published performance results were absent.",
+        "why": "The creative links a culturally familiar phrase to the brand name and a shared family occasion. Regional casting adapts recognition while preserving the central idea. That consistency may strengthen memory, but effectiveness has not been independently demonstrated.",
+        "soWhat": "Indian marketers can build regional variants around one distinctive brand asset rather than remake the entire proposition for every market.",
+        "take": "I would borrow the brand-language connection before assuming celebrity presence guarantees persuasion.",
+        "watch": "Compare unaided brand recall and bridal enquiries across exposed and comparable unexposed audiences.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Editorial Networks · source",
+            "url": "https://editorialnetworks.com/kalyan-jewellers-unites-amitabh-bachchan-sreeleela-and-kalyani-priyadarshan-for-kalyan-bhava/"
+          }
+        ],
+        "region": "India",
+        "brand": "Kalyan Jewellers",
+        "agency": "Creative agency not disclosed; directed by Akhil Sathyan, cinematography by Rajeev Menon.",
+        "objective": "Build bridal-jewellery consideration through a wider family blessing.",
+        "insight": "Marriage creates relationships between families as well as a couple.",
+        "channels": "National and southern-language film executions within a multimedia wedding-season campaign.",
+        "results": "No attributable campaign performance figures published."
+      },
+      {
+        "id": "2026-11-18-john-lewis",
+        "rank": 4,
+        "label": "Global · United Kingdom · 18 Nov 2026",
+        "headline": "John Lewis builds a gifting story around emotional memory",
+        "summary": "John Lewis launched Gloria and Pickles on 3 November, a Christmas film created by Saatchi & Saatchi. Kristin Scott Thomas stars, with Sam Fender’s Rolling Stones cover as the soundtrack. The campaign spans television, streaming, social and digital; outcome figures were not published.",
+        "why": "Meaningful gifts can act as cues for relationships and personal history. The film makes that emotional association central to the buying occasion. This is a plausible memory mechanism, not evidence that the advertisement increased purchases.",
+        "soWhat": "For marketers in India, an emotional story should still lead clearly to a recognisable buying occasion and available products.",
+        "take": "I would preserve the link between feeling, brand and action when adapting this approach.",
+        "watch": "Measure correct brand attribution and incremental gifting consideration alongside completion rates.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "John Lewis Partnership · source",
+            "url": "https://www.johnlewispartnership.co.uk/media-centre/latest-news/2026/23969"
+          }
+        ],
+        "region": "Global",
+        "brand": "John Lewis",
+        "agency": "Saatchi & Saatchi",
+        "objective": "Encourage personal, meaningful Christmas gifting.",
+        "insight": "The value of a gift can come from the relationship it represents.",
+        "channels": "TV, streaming, social, YouTube, programmatic video and behind-the-scenes content.",
+        "results": "No published incremental sales or brand-lift results in the launch release."
+      },
+      {
+        "id": "2026-11-18-waitrose",
+        "rank": 5,
+        "label": "Global · United Kingdom · 18 Nov 2026",
+        "headline": "Waitrose uses a sequel and trailers to sell festive food",
+        "summary": "Waitrose launched The Perfect Gift 2 on 10 November, returning Keira Knightley and Joe Wilkinson in a six-minute romantic comedy. A beef Wellington drives the plot. Short trailers, posters and product films lead audiences towards the longer online film. Outcome metrics were not disclosed.",
+        "why": "Returning characters can reward existing attention, while trailers lower the initial viewing commitment. The product has a role in resolving the story, which can connect entertainment with category desire more directly than a detached sponsorship.",
+        "soWhat": "A marketer can use a short discovery asset, a deeper story and a clear product destination as complementary stages.",
+        "take": "I would borrow the distribution architecture before committing to an expensive long film.",
+        "watch": "Track trailer-to-film visits and product interest, then test incremental conversion against comparable audiences.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "John Lewis Partnership / Waitrose · source",
+            "url": "https://www.johnlewispartnership.co.uk/media-centre/latest-news/2026/23972"
+          }
+        ],
+        "region": "Global",
+        "brand": "Waitrose",
+        "agency": "Wonderhood Studios; directed by Molly Manners through Biscuit Filmworks.",
+        "objective": "Build festive-food desire through entertainment and product storytelling.",
+        "insight": "Food can express affection and become the hero of a familiar story.",
+        "channels": "Online hero film, short TV/cinema/social trailers, posters and product advertisements.",
+        "results": "Launch release gives no independently measured sales or brand-lift outcome."
+      }
+    ]
+  }
+}
