@@ -297,7 +297,10 @@ function renderReaderData(topic, card) {
   target.replaceChildren();
   if (card.kind === 'dashboard') {
     target.append(node('p', 'data-stamp', card.session === 'closed' ?
-      'Market closed · Last available close · Checked at 9:45 a.m. IST' : 'Data as of 9:45 a.m. IST'));
+      'Session closed · Last available close · Checked at ' + card.asOf :
+      (card.session === 'after-close' ? 'After-close edition · Observed at ' : 'Data as of ') + card.asOf));
+    for (const note of card.dataQualityNotes ?? []) target.append(node('p', 'data-note', note));
+    for (const row of card.rows) if (row.note) target.append(node('p', 'data-note', row.name + ': ' + row.note));
     if (card.lastSession) target.append(node('p', 'data-note', 'Last session · ' + card.lastSession));
     target.append(readerTable('Market snapshot',
       ['Indicator','Level','Previous close','Day %','1 week %','1 month %','YTD %'],
@@ -577,7 +580,7 @@ function renderEdition() {
   const latest = edition.date === catalog[0];
   const today = edition.date === indianDay();
   $('top-title').textContent = today ? 'Today’s Top 3' : 'Top 3 for this edition';
-  $('edition-kind').textContent = latest ? (today ? 'Today’s edition' : 'Latest edition') : 'From the archive';
+  $('edition-kind').textContent = edition.publicationMode === 'late' ? 'Late edition' : latest ? (today ? 'Today’s edition' : 'Latest edition') : 'From the archive';
   $('selected-date').textContent = format(briefDate, edition.date);
   readingOrder = getTopics().flatMap(topic =>
     topicDeck(topic).map((card, index) => ({topic, index, card, key:storyKey(topic, card, topicDeck(topic))}))
@@ -590,7 +593,7 @@ function renderEdition() {
     time.textContent = (edition.publishedAt ? 'Published ' : 'Prepared ') + releaseTime.format(new Date(timestamp)) + ' IST';
   }
   const preparing = publishing && latest && edition.date < indianDay();
-  $('edition-note').textContent = preparing ? 'Today’s edition is pending. Showing the latest available.' : '';
+  $('edition-note').textContent = preparing ? 'Today’s edition is pending. Showing the latest available.' : edition.publicationMode === 'late' ? 'Published after the morning target. Market observations show their actual times; unavailable figures are marked.' : '';
   renderTopThree($('quick-stories'));
   createTopics();
   renderSection();

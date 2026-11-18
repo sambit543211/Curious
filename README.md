@@ -15,26 +15,26 @@ The fundamentals source returns `{ date, stocks, facts }`. Every stock supplies 
 kind, closing price and quote date, metric values, data date, sources, and a dated `metricSources`
 entry for its price and each value. The market source returns `{ date, timestamp, session, series,
 flows, niftyPE, sources, facts }`, with sourced price levels and dated historic closes for each
-indicator. Closed sessions additionally supply `lastSession` and `calendarUrl`. The source may be a
+indicator. Closed non-trading sessions additionally supply `lastSession` and `calendarUrl`. For a delayed or catch-up observation, set `mode: "latest"` and its real same-day `timestamp`; use `session: "after-close"` after 15:30 IST. Never relabel a current quote as 09:45. Nifty and Sensex levels and previous closes remain mandatory. Other indicators and unverified historical comparisons may be absent: use a sourced series with `unavailableReason` and no level, or null flow/valuation fields with an explicit reason. The dashboard displays gaps and mixed quote conventions. Missing secondary fields do not suppress the whole briefing. The source may be a
 dated local JSON file or an HTTPS endpoint configured in the task environment. Financial fact records
 use `{ value, url, asOf }`.
 
 Use the screened output as the writer's input. `npm run publish-v2 -- draft.json` pulls the data
 again, computes the financial fields, validates the editorial and numerical checklist, and writes
-a dated edition only inside the IST publication window. Optionally pass two positional JSON file
+a dated edition with its actual publication time. The target remains 09:50–10:00 IST; a later same-day release is explicitly labelled `publicationMode: "late"` rather than blocked or backdated. Optionally pass two positional JSON file
 paths after the draft for the fundamentals and market inputs. Commit only the validated dated edition.
-Keep credentials and raw provider exports outside the repository. The published cards include
+If fewer than three eligible stocks can be verified, the fundamentals input must document `unavailableReason`. Fill remaining editorial stock slots with `slot: "unavailable"` and the precise reason, sources and useful non-numerical context; never attach a symbol, price, metrics or verdict to an unavailable slot. If none pass, the metric lesson uses `exampleMetric: null`. All other editorial checks still apply. Keep credentials and raw provider exports outside the repository. The published cards include
 their primary links and provenance.
 
 After the session, run `npm run update-closes -- YYYY-MM-DD`. Commit only the new dated file
 under `public/market-closes/` if one was written. The build derives the pick ledger from the
 published editions and calculates returns from the official NSE closes on the same dates.
-A non-trading pick date has no invented entry price. The ledger is empty until the first screened
+A non-trading pick date has no invented entry price. For research published after the close, the ledger explicitly uses the next verified session close as its baseline and displays that baseline date; returns stay unavailable until it exists. The ledger is empty until the first screened
 edition is published. Reading progress is stored on this device.
 
 ## Daily publication
 
-The Morning Edition task in ChatGPT starts at **10:05 a.m. IST**. It researches the briefing, saves one dated edition to the `main` branch, and delivers the briefing in ChatGPT. Vercel builds the archive index and deploys `main` to production. Each edition becomes available when that build is ready.
+The Morning Edition task in ChatGPT starts at **09:00 a.m. IST**, targeting publication by **10:00 a.m. IST** with a labelled late release when needed. It researches the briefing, saves one dated edition to the `main` branch, and delivers the briefing in ChatGPT. Vercel builds the archive index and deploys `main` to production. Each edition becomes available when that build is ready.
 
 The publication path is `public/editions/YYYY-MM-DD.json`. Set `date` to the IST edition date and include the seven keys from `public/edition-format.js` in `sections`. Give each card a stable `id`, a `label`, a `headline`, a factual `summary`, documented causes in `why`, significance in `context`, a primary `source` and `sourceUrl`, a `sources` array of `{ label, url }` entries, and a bundled `image`. Stock cards additionally require `valuation` and `risk`. Supply `preparedAt` for the preparation time or `publishedAt` for a confirmed public release time. The 17 November edition shows the format. The archive index is generated at build time.
 

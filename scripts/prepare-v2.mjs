@@ -38,7 +38,7 @@ export async function prepareInputs(date, options, history) {
   ]);
   if ((useFundamentals && fundamentals?.date !== date) || (useMarket && market?.date !== date)) throw new Error('Input must identify the requested IST edition date');
   const picks = fundamentals ? eligibleStocks(fundamentals.stocks,date) : [];
-  if (useFundamentals && picks.length < 3) throw new Error('Fewer than three screened stocks from different sectors');
+  if (useFundamentals && picks.length < 3 && !fundamentals.unavailableReason?.trim()) throw new Error('Fewer than three screened stocks: document unavailableReason rather than invent a candidate');
   const facts = [...(market?.facts ?? []),...(fundamentals?.facts ?? []), ...picks.flatMap(stock => [
     {value:stock.price,...stock.metricSources?.price},
     ...Object.entries(stock.metrics).filter(([,value]) => Number.isFinite(value))
@@ -70,7 +70,7 @@ export async function prepareInputs(date, options, history) {
     for (const value of [price,weekly].filter(Number.isFinite)) facts.push({value,url:latest.equitiesSource,asOf:latest.date});
     return [{symbol:item.symbol,pickDate:item.date,status:item.status,price,weekly,reason}];
   });
-  return {date, dashboard, picks, facts, watchlist:{dataDate:latest?.date ?? null,entries,picks:tracked.rows.map(({date,symbol,status}) => ({date,symbol,status}))},
+  return {date, dashboard, picks, facts, ...(fundamentals?.unavailableReason ? {fundamentalsUnavailable:fundamentals.unavailableReason} : {}), watchlist:{dataDate:latest?.date ?? null,entries,picks:tracked.rows.map(({date,symbol,status}) => ({date,symbol,status}))},
     recentConcepts:history.filter(issue => issue.date < date &&
       Date.parse(date)-Date.parse(issue.date) <= 60*86400000).flatMap(issue => getDeck(issue,'mind').map(card => card.concept ?? card.label))};
 }

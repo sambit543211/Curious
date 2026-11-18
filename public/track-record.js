@@ -3,7 +3,7 @@ import { researchFooter } from './investment-rules.js';
 const $ = id => document.getElementById(id);
 const headings = [
   ['date','Date picked'],['symbol','NSE symbol'],['verdict','Verdict'],['buyBelow','Buy below'],
-  ['priceAtPick','Price at pick'],['currentPrice','Latest close'],['performance','Return'],
+  ['baselineDate','Baseline date'],['priceAtPick','Baseline close'],['currentPrice','Latest close'],['performance','Return'],
   ['nifty','Nifty 50'],['smallcap','Smallcap 250'],['status','Status']
 ];
 const number = new Intl.NumberFormat('en-IN',{maximumFractionDigits:2});
