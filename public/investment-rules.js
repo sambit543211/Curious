@@ -8,7 +8,34 @@ export const metricLabels = {
   pb:'P/B', pbMedian5y:'5-year median P/B', bvps:'Book value per share (₹)',
   roa:'ROA (%)', grossNpa:'Gross NPA (%)', car:'Capital adequacy (%)', divYield:'Dividend yield (%)',
   promoterHolding:'Promoter holding (%)', pledge:'Promoter pledge (%)',
-  marketCap:'Market cap (₹ crore)', avgDailyValue:'Average daily traded value (₹ crore)'
+  marketCap:'Market cap (₹ crore)', avgDailyValue:'Average daily traded value (₹ crore)',
+  high52:'52-week high (₹, adjusted)', low52:'52-week low (₹, adjusted)',
+  profitYoY:'Latest quarter profit vs a year ago (%)', promoterChange:'Promoter holding change, last quarter (pts)'
+};
+
+// Stock cards that carry a symbol, price and verdict. 'weekly' remains for editions published before 20 Nov 2026.
+export const positionSlots = ['dip','pick','weekly'];
+export const isPosition = card => !!card && positionSlots.includes(card.slot) && !!card.verdict;
+
+// Cards 1-2: quality stocks trading near their 52-week low.
+export const dipRules = {nearLow:1.10, belowHigh:0.75, minProfitYoY:-20, minPromoterChange:-2, sectorWide:15};
+export function dipCheck(stock) {
+  const m = stock?.metrics ?? {};
+  const price = stock?.price;
+  const ok = [price, m.high52, m.low52].every(n => Number.isFinite(n) && n > 0) && m.low52 <= m.high52;
+  const fromHigh = ok ? Math.round((price / m.high52 - 1) * 1000) / 10 : null;
+  const fromLow = ok ? Math.round((price / m.low52 - 1) * 1000) / 10 : null;
+  const tests = {
+    nearLow: ok && price <= m.low52 * dipRules.nearLow,
+    belowHigh: ok && price <= m.high52 * dipRules.belowHigh,
+    profit: Number.isFinite(m.profitYoY) && m.profitYoY >= dipRules.minProfitYoY,
+    promoter: Number.isFinite(m.promoterChange) && m.promoterChange >= dipRules.minPromoterChange
+  };
+  return {tests, pass:Object.values(tests).every(Boolean), fromHigh, fromLow};
+}
+export const dipLabels = {
+  nearLow:'Within 10% of its 52-week low', belowHigh:'At least 25% below its 52-week high',
+  profit:'Latest quarter profit not down more than 20% a year on', promoter:'Promoters did not cut holding by more than 2 points last quarter'
 };
 
 export const screenLabels = {
@@ -30,7 +57,8 @@ export function evaluatePick(stock) {
   const m = stock.metrics ?? {};
   const finance = stock.kind === 'bank' || stock.kind === 'nbfc';
   const common = {
-    pledge:finite(m.pledge) && m.pledge >= 0 && m.pledge < 5,
+    // Pledge data is not always published in free sources: a missing value is 'not checked' (null), never a pass or a fail.
+    pledge:finite(m.pledge) ? m.pledge >= 0 && m.pledge < 5 : null,
     liquidity:floor(m.marketCap, 1000) && floor(m.avgDailyValue, 5)
   };
   const screen = finance ? {
@@ -45,7 +73,7 @@ export function evaluatePick(stock) {
   const inputs = finance ? [m.pbMedian5y, m.bvps] : [m.peMedian5y, m.eps];
   const fairValue = inputs.every(positive) ? cents(inputs[0] * inputs[1]) : null;
   const buyBelow = fairValue === null ? null : cents(fairValue * 0.8);
-  const pass = Object.values(screen).every(Boolean) && positive(stock.price) && positive(buyBelow);
+  const pass = Object.entries(screen).every(([key, ok]) => ok === true || (key === 'pledge' && ok === null)) && positive(stock.price) && positive(buyBelow);
   const verdict = !pass || stock.price > cents(buyBelow * 1.2) ? 'Avoid' : stock.price <= buyBelow ? 'Buy' : 'Wait';
   return {screen, pass, fairValue, buyBelow, verdict};
 }

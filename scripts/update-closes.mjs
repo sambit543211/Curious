@@ -9,7 +9,7 @@ const root = new URL('../public/editions/', import.meta.url);
 const files = (await readdir(root)).filter(name => /^\d{4}-\d{2}-\d{2}\.json$/.test(name));
 const editions = await Promise.all(files.map(async name => JSON.parse(await readFile(new URL(name,root),'utf8'))));
 const symbols = new Set(editions.filter(isV2).flatMap(issue => getDeck(issue,'investing')
-  .filter(card => ['pick','weekly'].includes(card.slot)).map(card => card.symbol)));
+  .filter(card => ['dip','pick','weekly'].includes(card.slot)).map(card => card.symbol)));
 if (!symbols.size) { console.log('No verified v2 picks to update'); process.exit(0); }
 const snapshot = await fetchNseClose(date,symbols);
 if (!snapshot) { console.log('NSE closing files unavailable for ' + date); process.exit(0); }

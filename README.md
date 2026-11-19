@@ -5,8 +5,8 @@ A phone-first daily briefing across India, World, Indian Markets, Stock Investin
 ## V2 publication
 
 The archive accepts the original editions and v2 separately. V2 requires sourced Top 3 links,
-five cards in each active section, a market dashboard and four market cards, and three screened
-picks, a watchlist and a metric lesson. Sundays omit Indian Markets. A Saturday or holiday
+five cards in each active section, a market dashboard and four market cards, and five code-selected
+stocks (two near their 52-week low, three quality picks; see below). Sundays omit Indian Markets. A Saturday or holiday
 dashboard needs an exchange calendar source and shows the last session close.
 
 Run the 09:00 research preparation with `MORNING_PREPARE_STAGE=draft npm run prepare-v2 -- YYYY-MM-DD`.
@@ -19,12 +19,37 @@ indicator. Closed non-trading sessions additionally supply `lastSession` and `ca
 dated local JSON file or an HTTPS endpoint configured in the task environment. Financial fact records
 use `{ value, url, asOf }`.
 
-Use the screened output as the writer's input. `npm run publish-v2 -- draft.json` pulls the data
-again, computes the financial fields, validates the editorial and numerical checklist, and writes
-a dated edition with its actual publication time. The target remains 09:50–10:00 IST; a later same-day release is explicitly labelled `publicationMode: "late"` rather than blocked or backdated. Optionally pass two positional JSON file
-paths after the draft for the fundamentals and market inputs. Commit only the validated dated edition.
-If fewer than three eligible stocks can be verified, the fundamentals input must document `unavailableReason`. Fill remaining editorial stock slots with `slot: "unavailable"` and the precise reason, sources and useful non-numerical context; never attach a symbol, price, metrics or verdict to an unavailable slot. If none pass, the metric lesson uses `exampleMetric: null`. All other editorial checks still apply. Keep credentials and raw provider exports outside the repository. The published cards include
-their primary links and provenance.
+## Stock Investing: how the five stocks are chosen
+
+Code chooses the stocks; the writer only explains them. The rules live in `lib/stock-selection.js` and
+`public/investment-rules.js`; the writer must not pick, add, drop or reorder stocks.
+
+**Inputs.** (1) A weekly fundamentals file in `data/fundamentals/` (format in `data/fundamentals/README.md`),
+refreshed every Saturday for the Nifty 500 and checked with `npm run check-fundamentals -- <file>`. (2) NSE's daily
+bhavcopy and adjusted 52-week high/low files for the previous session, downloaded automatically. P/E and P/B are
+recomputed from that close. Run `npm run stock-input` at any time to see the day's selection without publishing.
+
+**Every chosen stock** passes the quality screen (ROCE, debt, growth, cash flow, pledge, valuation, liquidity), has a
+Buy or Wait verdict (never Avoid), comes from a different sector than the other four, and was not shown in the last
+14 days, unless its verdict changed or it fell below its buy-below price (then it is labelled as a repeat).
+
+- **Cards 1–2 · near the 52-week low (`slot: "dip"`):** within 10% of the 52-week low, at least 25% below the
+  52-week high, latest-quarter profit not down more than 20% a year on, and promoters did not cut their holding by
+  more than 2 points. Ranked by discount to fair value. The code labels the fall `sector-wide` (sector peers'
+  median is 15%+ below their highs), `stock-specific` or `no-peers`. The writer must add `whyFell`: the actual
+  reason, from news or filings.
+- **Cards 3–5 · quality picks (`slot: "pick"`):** ranked by an equal-weight score of return on capital, 5-year
+  profit growth and discount to fair value.
+- **Mondays:** the cheapest Buy (against fair value) with a moat is flagged `weekly: true` (Buy of the week).
+- **Too few qualify:** the code reports a `shortfall` reason; fill only those slots with `slot: "unavailable"` and
+  that reason. Never loosen a rule or substitute a stock.
+
+**Draft format.** `sections.investing` has exactly five cards in order: two `dip` cards then three `pick` cards,
+each `{symbol, headline, summary, why, soWhat, take, watch, thesis[3], breakers[2], moat, moatWhy, sources, ...}`
+plus `whyFell` on dip cards. `npm run publish-v2 -- draft.json` fills in every number from the data, re-checks the
+selection and rejects a stock the code did not choose. A thesis change for an earlier pick goes in the draft's
+top-level `stockEvents: [{pickDate, symbol, status: "Thesis broken" | "Exited", reason, sourceUrl}]`. The watchlist
+and metric-lesson cards are retired; the Track Record page shows every position.
 
 After the session, run `npm run update-closes -- YYYY-MM-DD`. Commit only the new dated file
 under `public/market-closes/` if one was written. The build derives the pick ledger from the
@@ -34,7 +59,7 @@ edition is published. Reading progress is stored on this device.
 
 ## Daily publication
 
-The Morning Edition task in ChatGPT starts at **09:00 a.m. IST**, targeting publication by **10:00 a.m. IST** with a labelled late release when needed. It researches the briefing, saves one dated edition to the `main` branch, and delivers the briefing in ChatGPT. Vercel builds the archive index and deploys `main` to production. Each edition becomes available when that build is ready.
+Claude's scheduled Morning Edition task (steps in `docs/daily-run.md`) starts at **09:25 a.m. IST**, targeting publication by **10:00 a.m. IST** with a labelled late release when needed. It researches the briefing, saves one dated edition to the `main` branch, and pushes it. Vercel builds the archive index and deploys `main` to production. Each edition becomes available when that build is ready.
 
 The publication path is `public/editions/YYYY-MM-DD.json`. Set `date` to the IST edition date and include the seven keys from `public/edition-format.js` in `sections`. Give each card a stable `id`, a `label`, a `headline`, a factual `summary`, documented causes in `why`, significance in `context`, a primary `source` and `sourceUrl`, a `sources` array of `{ label, url }` entries, and a bundled `image`. Stock cards additionally require `valuation` and `risk`. Supply `preparedAt` for the preparation time or `publishedAt` for a confirmed public release time. The 17 November edition shows the format. The archive index is generated at build time.
 
@@ -54,7 +79,7 @@ The app is dark by default (light and automatic are in Settings) and is built to
 
 ## Optional morning alerts
 
-Web Push alerts use Upstash Redis to store subscriptions. To turn them on, set `UPSTASH_REDIS_REST_URL`, `UPSTASH_REDIS_REST_TOKEN`, `CRON_SECRET`, `VAPID_PUBLIC_KEY`, `VAPID_PRIVATE_KEY` and a `mailto:` `VAPID_SUBJECT` as Vercel production variables. The authorized `/api/refresh` endpoint sends the day's alert and requires the cron secret as a bearer token. Without these, Settings simply doesn't show the alerts option. The daily ChatGPT task publishes to GitHub independently of these credentials.
+Web Push alerts use Upstash Redis to store subscriptions. To turn them on, set `UPSTASH_REDIS_REST_URL`, `UPSTASH_REDIS_REST_TOKEN`, `CRON_SECRET`, `VAPID_PUBLIC_KEY`, `VAPID_PRIVATE_KEY` and a `mailto:` `VAPID_SUBJECT` as Vercel production variables. The authorized `/api/refresh` endpoint sends the day's alert and requires the cron secret as a bearer token. Without these, Settings simply doesn't show the alerts option. The daily task publishes to GitHub independently of these credentials.
 
 ## Photo credits
 

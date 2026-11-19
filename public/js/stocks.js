@@ -1,5 +1,5 @@
 // The Stocks tab: this edition's research and the track record of earlier picks.
-import { researchFooter } from '../investment-rules.js';
+import { isPosition, researchFooter } from '../investment-rules.js';
 import { $, node } from './dom.js';
 import { dayAndMonth, percent, rupees, trend } from './format.js';
 import { state } from './state.js';
@@ -25,8 +25,8 @@ export function renderPicks() {
     const row = node('button', 'pick-row' + (state.read.has(story.key) ? ' is-read' : ''));
     row.type = 'button';
     const text = node('span', 'story-text');
-    const pick = card.verdict && (card.slot === 'pick' || card.slot === 'weekly');
-    text.append(node('span', 'story-meta', pick ? [card.symbol, card.sector].filter(Boolean).join(' · ') : storyMeta(card)),
+    const pick = isPosition(card);
+    text.append(node('span', 'story-meta', pick ? [card.symbol, card.sector, card.slot === 'dip' ? '52-week low' : null, card.weekly ? 'Buy of the week' : null].filter(Boolean).join(' · ') : storyMeta(card)),
       node('span', 'story-headline', card.headline));
     row.append(text);
     if (pick) {
