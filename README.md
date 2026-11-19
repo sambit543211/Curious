@@ -59,6 +59,8 @@ edition is published. Reading progress is stored on this device.
 
 ## Writing style
 
+Each card has 80–170 words of prose (summary, why, soWhat, take, watch). Figures may be rounded ("about 27%") or written in lakh/crore, but must sit within 5% of a dated, cited figure.
+
 Every card follows `docs/writing-guide.md`: plain words, start from the ground, explain every hard term,
 and tell each story in order (what happened, why, why it matters, what next). Stock cards read as a simple
 company profile: what it does, its growth, good signs, red flags, and whether it is cheap or expensive.

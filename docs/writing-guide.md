@@ -1,7 +1,7 @@
 # Morning Edition writing guide
 
 Read this before writing any card. It sets how every story sounds. The checks in `lib/edition-v2.js`
-still apply (sources, 12-word headlines, 90–130 words of prose per card, dated numbers).
+still apply (sources, 12-word headlines, 80–170 words of prose per card, numbers that match a dated source).
 
 ## The voice in one paragraph
 
@@ -18,12 +18,12 @@ someone else.
 2. **Start from the ground.** Before the news, give the one piece of background that makes it make
    sense. What is this thing? Where does it come from? Who is involved?
 3. **Explain every hard word the moment it appears**, in brackets or the next sentence:
-   "ROCE (how much the business earns on every ₹100 put into it)". If a simpler word exists, use it:
+   "ROCE (how much the business earns on every hundred rupees put into it)". If a simpler word exists, use it:
    "rules" not "regulatory framework", "fell" not "witnessed a decline".
 4. **Turn numbers into something you can picture.** "Nearly double Australia's." "It earns about
-   twenty-eight rupees a year on every hundred it invests." Use lakh and crore. In Indian Markets and
-   Stock Investing, the publishing check only accepts figures written exactly as they appear in the
-   card's data (26.86%, not "about 27%"). So quote the exact figure, then picture it in words.
+   twenty-eight rupees a year on every hundred it invests." Use lakh and crore. Round freely ("about 27%",
+   "₹1.1 lakh crore"): the check accepts any figure within 5% of a dated, cited number. Write
+   framing amounts in words ("on every hundred rupees", "for each rupee of profit").
 5. **Use a small story or everyday example** when a concept is abstract: a scene, an office meeting,
    a shop, a household budget. Keep it real and Indian where it fits.
 6. **Ask the reader's question, then answer it.** "So why does this matter?" "Is it expensive?"
@@ -44,8 +44,8 @@ and `take` sit under "Background and my take".
 | Field | Job | Length |
 |---|---|---|
 | `headline` | The news in everyday words. A full thought, not a label. Max 12 words. | ≤ 12 words |
-| `summary` | **What happened**, starting from the ground. Plain fact first, then the one detail that makes it real. | 45–65 words |
-| `why` | **The backstory.** The cause, or the background a newcomer needs. Must add something the summary didn't. | 25–40 words |
+| `summary` | **What happened**, starting from the ground. Plain fact first, then the one detail that makes it real. | 50–75 words |
+| `why` | **The backstory.** The cause, or the background a newcomer needs. Must add something the summary didn't. | 30–50 words |
 | `soWhat` | **Why you should care.** Concrete effect on the reader. | 15–25 words |
 | `take` | **Our view** in one arguable sentence. | 8–15 words |
 | `watch` | **What happens next**: the specific event, date or number to look out for. | 8–15 words |
@@ -66,11 +66,11 @@ has never heard of the company:
 
 - `summary`: **what the company does** in everyday terms ("makes the wires inside the walls of your
   home"), then its **growth in plain numbers** (sales and profit growth a year, return on capital as
-  "₹X on every ₹100", debt in words).
+  "about ₹28 on every hundred rupees invested", debt in words).
 - `thesis` (3): **good signs**, one plain sentence each.
 - `breakers` (2): **red flags**: what could go wrong, one plain sentence each.
 - `soWhat`: **cheap or expensive?** Compare today's price with the company's own normal ("you pay
-  ₹35 for every ₹1 of profit; buyers usually paid ₹45"). The verdict and buy-below price are shown
+  ₹35 for each rupee of profit; buyers usually paid ₹45"). The verdict and buy-below price are shown
   above it automatically; don't repeat them.
 - `take`: **why it could be a good investment**, in one line.
 - `why`: the business backstory: what drives its sales, its moat in plain words, or (for a
@@ -140,15 +140,14 @@ the current headline ratio."
 **After.**
 - *Headline:* Polycab wires India's buildings, and it's cheaper than usual
 - *Summary:* Polycab makes the wires and cables hidden inside the walls of homes, offices and
-  factories. Over five years, sales grew 26.86% a year and profit
-  25.04% a year. Its return on capital is 28.4%: about twenty-eight rupees earned each year on every
-  hundred invested. Debt is almost zero.
+  factories. Over five years, sales grew about 27% a year and profit
+  about 25% a year. It earns about ₹28 a year on every hundred rupees it puts in. Debt is almost zero.
 - *Good signs:* More of India is being wired up every year. Its dealers are everywhere, which is hard
   for a rival to copy. Its everyday business brought in cash in each of the last five years.
 - *Red flags:* If customers start paying late, cash gets stuck. New factories must earn their keep
   once they're running.
-- *Cheap or expensive?* Today the share costs 34.87 times its yearly profit per share (its P/E).
-  Over five years, buyers usually paid 45.33 times. So it's cheaper than its own normal.
+- *Cheap or expensive?* Today you pay about ₹35 for each rupee of
+  yearly profit (its P/E). Over five years, buyers usually paid about ₹45. So it's cheaper than its own normal.
 - *Why:* Copper is its main raw material. When copper costs rise, Polycab raises prices, which can
   make sales look bigger than the number of cables sold.
 - *Take:* A strong, debt-free leader at a below-normal price.

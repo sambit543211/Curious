@@ -135,7 +135,7 @@ function dashboard(card) {
 }
 
 const keyMetrics = {financial:['roa', 'grossNpa', 'car', 'pb'], other:['roce5y', 'de', 'salesCagr5y', 'profitCagr5y']};
-const shortMetric = {roa:'ROA', grossNpa:'Gross NPA', car:'Capital adequacy', pb:'P/B', roce5y:'ROCE 5y', de:'Debt/equity', salesCagr5y:'Sales CAGR', profitCagr5y:'Profit CAGR'};
+const shortMetric = {roa:'Return on assets', grossNpa:'Bad loans', car:'Capital buffer', pb:'Price to book', roce5y:'Return on capital', de:'Debt to equity', salesCagr5y:'Sales growth a year', profitCagr5y:'Profit growth a year'};
 const percentMetric = new Set(['roa', 'grossNpa', 'car', 'roce5y', 'salesCagr5y', 'profitCagr5y']);
 
 function priceScale(card) {
@@ -233,7 +233,8 @@ function stockPick(card) {
 
 function dataFor(topic, card) {
   if (card.kind === 'dashboard') return {...dashboard(card), first:true};
-  if (isPosition(card)) return {...stockPick(card), first:true};
+  // Stock cards open with what the company does (the summary), then the verdict and numbers.
+  if (isPosition(card)) return stockPick(card);
   const lead = [];
   if (card.slot === 'watchlist' && card.entries?.length) {
     lead.push(table('Watchlist', ['Stock', 'Signal', 'Close', 'Week'],

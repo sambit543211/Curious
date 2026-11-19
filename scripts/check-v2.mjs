@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { assembleEdition, eligibleStocks, marketDashboard, publicationErrors, snapshotNames } from '../lib/edition-v2.js';
+import { roughly, assembleEdition, eligibleStocks, marketDashboard, publicationErrors, snapshotNames } from '../lib/edition-v2.js';
 import { getDeck, isEdition } from '../public/edition-format.js';
 import { makeLedger } from '../lib/track-record.js';
 import { selectStocks } from '../lib/stock-selection.js';
@@ -247,3 +247,6 @@ assert.equal(parsed.dataDate,'2026-09-30');
 const noPromoters = parseCompany(page.replace(/Promoters/,'Public'),null);
 assert.deepEqual([noPromoters.metrics.promoterHolding,noPromoters.metrics.pledge],[0,0]);
 console.log('Validated pledge handling and Screener page parsing.');
+
+assert.ok(roughly(27, 26.86) && roughly(35, 34.87) && roughly(7600, 7599.48) && roughly(1.1, 110131), 'rounded figures pass');
+assert.ok(!roughly(222, 25.04) && !roughly(40, 34.87), 'unsourced or wrong figures fail');

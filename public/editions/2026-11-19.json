@@ -6,15 +6,15 @@
   "top3": [
     {
       "cardId": "2026-11-19-akvan",
-      "line": "Cyclone warnings shift into local protective action."
+      "line": "A cyclone is heading for Odisha, and schools in six districts are shut."
     },
     {
       "cardId": "2026-11-19-fed",
-      "line": "Fed minutes reinforce inflation vigilance and financing risk."
+      "line": "America's central bank signals more rate hikes may be needed."
     },
     {
       "cardId": "2026-11-19-anthropic",
-      "line": "Anthropic prices its IPO before the expected US debut."
+      "line": "Anthropic, maker of the Claude AI, prices its stock market debut."
     }
   ],
   "sections": {
@@ -23,12 +23,12 @@
         "id": "2026-11-19-akvan",
         "rank": 1,
         "label": "India · 19 Nov 2026",
-        "headline": "Akvan warnings trigger school closures and coastal preparations",
-        "summary": "Odisha ordered schools and Anganwadi centres closed in six districts for 19–21 November. IMD’s 02:35 IST bulletin forecasts Akvan crossing between Narsapur and Puri around noon on 20 November, with sustained winds of 90–100 km/h. These are forecasts, not observed landfall conditions.",
-        "why": "The important change from yesterday is operational preparedness. Rainfall, coastal exposure and landslide risk require different local responses; a state-wide headline cannot tell a particular household which route or shelter is safe.",
-        "soWhat": "People with coastal travel, fishing activity or scheduled deliveries should verify district instructions and operator notices before departure.",
-        "take": "I would act on official local warnings now rather than interpret uncertainty as safety.",
-        "watch": "The next IMD track update, district evacuation orders and railway notices will determine the immediate response.",
+        "headline": "Cyclone Akvan nears the coast, so Odisha shuts schools in six districts",
+        "summary": "A cyclone called Akvan is heading for India's east coast. The weather office (IMD) expects it to cross land between Narsapur in Andhra Pradesh and Puri in Odisha around noon on Friday, 20 November, with winds of 90–100 km/h. That's strong enough to bring down trees and power lines. So Odisha has shut schools and Anganwadi centres in six districts until Saturday.",
+        "why": "Cyclones feed on warm sea water, and the Bay of Bengal often breeds them at this time of year. Remember, this is still a forecast. A storm can change course or weaken, and heavy rain and landslides can hurt places far from the beach too.",
+        "soWhat": "Live near the coast, or travelling there by train, flight or road? Check your district's instructions and your operator's notices before you set out.",
+        "take": "Act on the official warning now. An uncertain forecast is not a safe one.",
+        "watch": "The next IMD track update, district evacuation orders and railway notices.",
         "terms": [],
         "image": null,
         "sources": [
@@ -49,12 +49,12 @@
         "id": "2026-11-19-growth",
         "rank": 2,
         "label": "India · 19 Nov 2026",
-        "headline": "Growth poll points to resilience before the official GDP release",
-        "summary": "A Reuters poll of 43 economists, completed on 18 November, forecasts July–September GDP [total economic output] growth of 7.6%, compared with 7.8% in the preceding quarter. The official release is due on 30 November; the poll is not observed growth.",
-        "why": "Consumption and government investment can support activity while expensive energy and borrowing squeeze household budgets. A strong aggregate result can therefore coexist with stress among agriculture-dependent families and interest-sensitive businesses.",
-        "soWhat": "For planning, test demand assumptions against sector orders, employment and collections rather than treating the headline forecast as uniform prosperity.",
-        "take": "I would use the poll as a baseline scenario, with room for substantial revision.",
-        "watch": "The official GDP release and its consumption, investment and sector breakdowns are the next decisive evidence.",
+        "headline": "Economists expect India's economy grew 7.6% last quarter",
+        "summary": "How fast did India's economy grow between July and September? The official answer comes on 30 November. Until then, a Reuters poll of 43 economists gives a best guess: 7.6% growth in GDP (the total value of everything the country produces). That would be a touch slower than the 7.8% of the previous quarter, but still strong.",
+        "why": "Two engines are doing the pulling: people spending and the government building. But costly fuel and loans squeeze many families and small firms. So a healthy national number can hide real stress on farms and in businesses that run on borrowed money.",
+        "soWhat": "If you run a business, don't plan on the headline alone. Look at your own orders, hiring and payments coming in.",
+        "take": "Treat 7.6% as a sensible starting guess, not a promise.",
+        "watch": "The official GDP data on 30 November, especially spending and investment.",
         "terms": [],
         "image": null,
         "sources": [
@@ -73,12 +73,12 @@
         "id": "2026-11-19-indigo",
         "rank": 3,
         "label": "India · 19 Nov 2026",
-        "headline": "IndiGo extends Saudi flight suspensions through November",
-        "summary": "IndiGo extended cancellations to and from Jeddah, Madinah, Riyadh and Dammam through 30 November inclusive, citing the security situation. Its 18 November announcement lengthens the interruption for Jeddah and Madinah, where the previous suspension ran through 21 November.",
-        "why": "Airlines must continuously reassess airspace, airport and crew exposure when regional attacks threaten predictable operations. A suspended route affects connecting itineraries and travel plans beyond the flights directly named.",
-        "soWhat": "Passengers, employers moving staff and pilgrimage organisers should confirm rebooking or refund arrangements directly with the carrier before purchasing alternatives.",
-        "take": "I would prioritise a workable confirmed itinerary over an apparently cheap connection through uncertain operations.",
-        "watch": "The airline’s next dated travel advisory and confirmed resumption notices will determine when affected journeys become viable.",
+        "headline": "IndiGo cancels its Saudi Arabia flights until the end of November",
+        "summary": "Flying IndiGo to Saudi Arabia this month? Check your booking. The airline has cancelled flights to and from Jeddah, Madinah, Riyadh and Dammam until 30 November, citing the security situation in the region. For Jeddah and Madinah, this stretches an earlier pause that was meant to end on 21 November.",
+        "why": "Airlines must keep judging whether airspace, airports and crews are safe when attacks happen nearby. And one cancelled route ripples outward: connecting flights, work trips and pilgrimages planned around it get disrupted too.",
+        "soWhat": "Travellers, companies sending staff and pilgrimage groups should get a rebooking or refund from IndiGo before buying a new ticket elsewhere.",
+        "take": "A confirmed itinerary beats a cheap connection that may never fly.",
+        "watch": "IndiGo's next travel advisory and the date flights restart.",
         "terms": [],
         "image": null,
         "sources": [
@@ -94,13 +94,18 @@
         "id": "2026-11-19-sebi",
         "rank": 4,
         "label": "India · 19 Nov 2026",
-        "headline": "SEBI considers margin-trading safeguards; no new rule yet",
-        "summary": "SEBI chairman Tuhin Kanta Pandey said on 18 November that proposals to strengthen margin trading remain under consideration, with no decision taken. Reporting describes possible safeguards linked to free float [shares available for public trading], rather than an enacted restriction.",
-        "why": "Borrowed-money purchases can concentrate risk in relatively scarce tradable shares. If collateral values fall, forced selling can amplify the decline, creating a reason to assess safeguards alongside wider broker funding options.",
-        "soWhat": "Leveraged investors and brokerage businesses should distinguish a review from a binding circular before changing compliance assumptions or revenue forecasts.",
-        "take": "I support examining concentration risk, but would not trade a rumoured threshold as settled policy.",
-        "watch": "A published consultation or final SEBI circular, with scope and effective date, would change the assessment.",
-        "terms": [],
+        "headline": "SEBI weighs tighter rules for buying shares with borrowed money",
+        "summary": "SEBI, India's stock market regulator, is considering new safeguards for margin trading, where investors buy shares partly with money borrowed from their broker. Its chairman, Tuhin Kanta Pandey, said on 18 November that the proposals are still being discussed and nothing has been decided. Reports suggest any limits could depend on a company's free float (the shares available for the public to trade).",
+        "why": "Borrowing to buy magnifies both gains and losses. If many borrowed bets crowd into a stock with few shares in circulation, a price fall can force lenders to sell, which drags the price down further, and so on.",
+        "soWhat": "If you trade with borrowed money, or own brokerage stocks, don't change anything until there's an actual rule.",
+        "take": "Studying this risk makes sense. Trading on rumours of the rule doesn't.",
+        "watch": "A published SEBI consultation paper or final circular with dates.",
+        "terms": [
+          {
+            "term": "Margin trading",
+            "meaning": "Buying shares partly with money borrowed from your broker"
+          }
+        ],
         "image": null,
         "sources": [
           {
@@ -115,12 +120,12 @@
         "id": "2026-11-19-mp-family",
         "rank": 5,
         "label": "India · 19 Nov 2026",
-        "headline": "Madhya Pradesh approves ending its two-child employment restriction",
-        "summary": "Madhya Pradesh’s cabinet approved removal of the two-child restriction for government employees and applicants on 18 November. Pending disciplinary cases based solely on that condition will be discontinued. Reporting says final penalty orders already passed by competent authorities will not be reopened.",
-        "why": "Employment eligibility rules can shape family choices as well as access to public-sector careers. Removing a condition requires administrators to distinguish current recruitment and pending proceedings from cases finally decided.",
-        "soWhat": "Affected applicants and employees should obtain the actual amended rules and case-specific instructions before assuming an old rejection or penalty automatically disappears.",
-        "take": "I see a wider eligibility, with the treatment of past cases requiring careful attention.",
-        "watch": "The gazetted amendments and departmental recruitment instructions will establish the precise implementation and effective-date details.",
+        "headline": "Madhya Pradesh drops its two-child rule for government jobs",
+        "summary": "Until now, people in Madhya Pradesh with more than two children faced a block on government jobs. On 18 November, the state cabinet approved scrapping that two-child rule for both employees and job applicants. Disciplinary cases based only on this rule will be dropped. But penalties that were already final will not be reopened, according to reports.",
+        "why": "Rules like this were meant to nudge family size, but they also decided who could get a public-sector career. Undoing one means officials must now sort pending matters from old ones that are closed.",
+        "soWhat": "If you were rejected or penalised under this rule, get the amended rules and advice on your own case before assuming the decision is reversed.",
+        "take": "More people can now apply. Past cases need careful handling.",
+        "watch": "The official gazette notification and new recruitment instructions.",
         "terms": [],
         "image": null,
         "sources": [
@@ -138,12 +143,12 @@
         "id": "2026-11-19-fed",
         "rank": 1,
         "label": "World · 19 Nov 2026",
-        "headline": "Fed minutes reinforce inflation vigilance and highlight AI debt",
-        "summary": "The Fed [US central bank] minutes released on 18 November show almost all participants considered further rate increases likely appropriate under their baseline outlook. The October meeting record also discusses growing AI-related debt and opaque financing. These are past deliberations, not a new rate decision.",
-        "why": "Persistent inflation can keep discount rates elevated, while leveraged investment makes some asset prices sensitive to disappointing returns. A discussion of vulnerabilities identifies a risk channel rather than predicting an imminent financial crisis.",
-        "soWhat": "Indian borrowers, exporters and investors should consider dollar funding costs and valuation sensitivity alongside the benefit of softer imported energy.",
-        "take": "I would stress-test financing assumptions instead of treating an AI spending announcement as guaranteed future revenue.",
-        "watch": "The next inflation releases and December policy decision will test whether the baseline holds.",
+        "headline": "America's central bank hints more rate hikes may be needed",
+        "summary": "The US Federal Reserve sets interest rates for the world's biggest economy. Notes from its October meeting, released on 18 November, show almost all members felt further rate increases would likely be needed to tame inflation. They also flagged a newer worry: a growing pile of debt raised to fund AI projects, often in ways that are hard to see. These are notes from a past meeting, not a new decision.",
+        "why": "When US rates stay high, borrowing gets costlier worldwide, including for Indian companies with dollar loans. And when big investments run on debt, a disappointing payoff can hit prices fast. Flagging it is a warning, not a crash prediction.",
+        "soWhat": "Indian borrowers, exporters and investors should check their exposure to dollar loans and richly priced stocks.",
+        "take": "An AI spending announcement is not guaranteed revenue.",
+        "watch": "Upcoming US inflation data and the Fed's December decision.",
         "terms": [],
         "image": null,
         "sources": [
@@ -160,12 +165,12 @@
         "id": "2026-11-19-horn",
         "rank": 2,
         "label": "World · 19 Nov 2026",
-        "headline": "Ethiopia–Eritrea troop buildup raises renewed war fears",
-        "summary": "Reuters reported on 18 November that conflict monitors and people linked to Tigrayan groups described Ethiopian and Eritrean forces massing near their shared border. Reports of direct clashes were disputed and could not be independently confirmed; the buildup is not proof that full-scale war has begun.",
-        "why": "Border tensions interact with fighting inside Tigray and a region already facing fragile humanitarian access. Miscalculation between nearby forces can expand a local confrontation before civilian protection catches up.",
-        "soWhat": "For India, additional Red Sea-region instability matters for shipping exposure, overseas operations and the wider cost of regional security.",
-        "take": "I would give humanitarian preparation priority without presenting unverified battlefield claims as established events.",
-        "watch": "Independent monitoring, confirmed border incidents and humanitarian-access reports will clarify whether escalation is actually occurring.",
+        "headline": "Ethiopia and Eritrea mass troops at their border, raising war fears",
+        "summary": "Ethiopia and Eritrea, neighbours in the Horn of Africa, are gathering soldiers near their shared border, Reuters reported on 18 November, citing conflict monitors and people linked to Tigrayan groups. Some reports of actual fighting are disputed and could not be independently confirmed. Troops gathering is a warning sign, not proof that a full war has started.",
+        "why": "The region is already fragile. There is fighting inside Ethiopia's Tigray region, and aid struggles to reach people there. When two armies sit this close, one mistake can turn a standoff into a wider conflict before civilians can be protected.",
+        "soWhat": "For India, more trouble near the Red Sea matters for shipping routes, Indian businesses in the region and security costs.",
+        "take": "Prepare for the humanitarian risk, but don't treat unverified battle claims as fact.",
+        "watch": "Independent monitoring, confirmed border clashes and aid-access reports.",
         "terms": [],
         "image": null,
         "sources": [
@@ -182,12 +187,12 @@
         "id": "2026-11-19-crimea",
         "rank": 3,
         "label": "World · 19 Nov 2026",
-        "headline": "Another Crimea bridge attack interrupts traffic again",
-        "summary": "Traffic over the Crimean Bridge was temporarily suspended after a third attack this week, Russia-installed governor Sergei Aksyonov said on 19 November. Damage assessment was continuing. This follows major road-span damage earlier in the week.",
-        "why": "Repeated attacks can compound repair and routing problems even when alternative supply corridors remain available. Statements about a closure do not by themselves establish the condition of every road, rail or maritime connection.",
-        "soWhat": "Indian businesses exposed to Black Sea routes should check actual logistics and insurance notices rather than translate a headline directly into commodity-price forecasts.",
-        "take": "I would separate verified access restrictions from broader claims that military supply has been cut off.",
-        "watch": "Confirmed reopening notices, independent imagery and repair assessments will show how long the interruption lasts.",
+        "headline": "Crimea bridge hit a third time this week, and traffic stops again",
+        "summary": "The Crimean Bridge connects mainland Russia with Crimea, the peninsula Russia annexed from Ukraine in 2014. On 19 November, traffic on it was stopped after a third attack this week, said Sergei Aksyonov, the Russia-installed governor. Damage was still being assessed. Earlier this week, a major road section of the bridge was damaged.",
+        "why": "Each new strike makes repairs harder and slows traffic, even if other supply routes still work. But a closure announcement doesn't tell us the condition of every road, rail and sea link.",
+        "soWhat": "Indian firms trading through Black Sea routes should check real shipping and insurance notices before assuming commodity prices will jump.",
+        "take": "A paused bridge is not the same as Russia's supplies being cut off.",
+        "watch": "Official reopening notices, satellite images and repair estimates.",
         "terms": [],
         "image": null,
         "sources": [
@@ -204,12 +209,12 @@
         "id": "2026-11-19-tps",
         "rank": 4,
         "label": "World · 19 Nov 2026",
-        "headline": "US seeks another Supreme Court intervention on Venezuelan protections",
-        "summary": "The US administration asked the Supreme Court on 18 November to halt an order restoring deportation protections for Venezuelan migrants. The emergency application follows a lower-court finding against ending temporary protected status. Filing an appeal does not itself establish that the requested stay has been granted.",
-        "why": "TPS [temporary protection from removal] links immigration status to employment and family stability. Fast-moving litigation can leave employers and households navigating different court orders while the underlying merits remain contested.",
-        "soWhat": "The India link is institutional: anyone with overseas work or residency exposure should distinguish an application, an interim order and a final ruling.",
-        "take": "I would verify the operative order before relying on political announcements about legal status.",
-        "watch": "The Supreme Court’s docket and any stay order will determine the immediate legal position.",
+        "headline": "US asks its top court to end protection for Venezuelan migrants",
+        "summary": "Many Venezuelans in the US live under TPS (temporary protected status), which shields them from deportation. The US government wants to end it. A lower court blocked that move, so on 18 November the administration asked the Supreme Court to pause that order. Asking isn't winning: the court hasn't decided yet.",
+        "why": "For families, this decides whether they can keep their jobs and stay together. Fast-moving court battles can leave employers and households juggling different orders while the core legal question is still being fought.",
+        "soWhat": "For Indians working or living abroad, the lesson is general: know the difference between an appeal, a temporary order and a final ruling.",
+        "take": "Check the actual court order, not political announcements.",
+        "watch": "The Supreme Court's docket and any order pausing the ruling.",
         "terms": [],
         "image": null,
         "sources": [
@@ -226,12 +231,12 @@
         "id": "2026-11-19-garments",
         "rank": 5,
         "label": "World · 19 Nov 2026",
-        "headline": "Bangladesh wage protests disrupt a major export industry",
-        "summary": "Garment workers clashed with police near Dhaka on 18 November while demanding higher minimum pay, AP reported. Police described factory closures and highway disruption; injury numbers were unclear. Workers argue that inflation has eroded purchasing power, while owners seek protection for production sites.",
-        "why": "An export model can face tension between internationally competitive prices and workers’ living costs. Prolonged shutdowns can reduce incomes and delay deliveries without resolving the wage dispute.",
-        "soWhat": "Indian apparel businesses should assess regional supply reliability and labour conditions rather than assume every disruption automatically transfers orders to India.",
-        "take": "I would judge recovery by a durable wage settlement and safe operations, not a short-lived reopening.",
-        "watch": "The wage board’s published proposal, union response and confirmed factory reopening numbers are the next practical signals.",
+        "headline": "Bangladesh garment workers clash with police over low pay",
+        "summary": "Bangladesh's garment factories make clothes for brands around the world, and the industry is central to its exports. On 18 November, workers near Dhaka clashed with police while demanding a higher minimum wage, AP reported. Police said factories closed and highways were blocked; it was unclear how many were hurt. Workers say rising prices have eaten into their pay.",
+        "why": "Bangladesh competes by making clothes cheaply, which keeps wages low. When living costs climb, that gap becomes hard to bear. Long shutdowns hurt everyone: families lose income and buyers wait longer for orders.",
+        "soWhat": "Indian clothing makers shouldn't assume the trouble will automatically send orders their way. Buyers weigh reliability and working conditions too.",
+        "take": "Recovery means a lasting wage deal and safe factories, not a quick reopening.",
+        "watch": "The wage board's proposal, the union response and factory reopenings.",
         "terms": [],
         "image": null,
         "sources": [
@@ -250,12 +255,12 @@
         "id": "2026-11-19-markets-dashboard",
         "rank": 1,
         "label": "Opening dashboard · 19 Nov 2026",
-        "headline": "Indian equities split as opening sector leadership diverges",
-        "summary": "Nifty stood at 25,223.35, down 0.02%, while Sensex was up 0.02% at 82,044.14. Auto led the captured sector set, while IT lagged. Fed inflation concerns and energy-price moves form the reported backdrop; the snapshot alone cannot prove their individual contribution.",
-        "why": "Opening prices combine overnight information with local orders and liquidity. A short observation window can show a repricing without establishing that a lasting economic trend has changed.",
-        "soWhat": "Compare concentration and sector exposure in your holdings before treating a benchmark move as an equal change across businesses.",
-        "take": "The useful question is how broadly the move is shared, rather than whether the opening colour looks reassuring.",
-        "watch": "The closing advance-decline balance and sector returns will test whether early leadership persisted.",
+        "headline": "Markets open flat as carmakers rise and IT companies slip",
+        "summary": "Indian shares barely moved at the open. The Nifty 50 was at 25,223.35, down 0.02%, and the Sensex was up 0.02% at 82,044.14. Under that calm surface, carmakers led the gainers while IT companies lagged. In the background: worries about US interest rates and shifting energy prices, though one snapshot can't show how much each mattered.",
+        "why": "The first minutes of trading mix overnight news from abroad with local buy and sell orders. A quick morning move can reflect that reshuffle rather than a lasting change in the economy.",
+        "soWhat": "Check what you actually own. A flat index can hide big moves in specific sectors.",
+        "take": "Look at breadth, not just the colour of the index.",
+        "watch": "The closing count of rising versus falling stocks.",
         "terms": [
           {
             "term": "Breadth",
@@ -524,12 +529,12 @@
           "id": "2026-11-19-rates-flows",
           "rank": 2,
           "label": "Indian Markets · 19 Nov 2026",
-          "headline": "Foreign buying meets a less comfortable global rate outlook",
-          "summary": "Official NSE data show foreign institutions were net buyers in the preceding session while domestic institutions were net sellers. The Fed minutes reinforce inflation vigilance, creating a competing influence on valuations. TCS and Infosys are exposed to overseas client budgets; banks face a different mix of funding and lending sensitivities.",
-          "why": "Capital flows can support prices while discount-rate expectations pull valuations in the opposite direction. Their coexistence explains why a strong buying total does not guarantee a rising benchmark.",
-          "soWhat": "Separate a company’s demand outlook from a currency translation benefit when reviewing export-oriented holdings.",
-          "take": "Flow persistence matters more than projecting one strong session indefinitely.",
-          "watch": "The next official institutional-flow release and the US inflation data will test those competing forces.",
+          "headline": "Foreign funds buy Indian shares, but US rates pull the other way",
+          "summary": "On the previous trading day, foreign institutions (big overseas funds) were net buyers of Indian shares, while domestic institutions like mutual funds were net sellers, NSE data shows. At the same time, the Fed's meeting notes hint that US interest rates may stay high, which tends to make shares look less attractive.",
+          "why": "Think of it as a tug of war. Fresh money flowing in pushes prices up, while higher rates push valuations down. That's why heavy foreign buying doesn't guarantee a rising market. TCS and Infosys depend on foreign clients' budgets; banks feel interest rates differently.",
+          "soWhat": "If you hold exporters, check whether profits grow from real demand or just a weaker rupee.",
+          "take": "One strong day of buying means little. Steady buying over weeks matters more.",
+          "watch": "The next official fund-flow data and US inflation figures.",
           "terms": [],
           "image": null,
           "sources": [
@@ -547,12 +552,12 @@
           "id": "2026-11-19-commodities",
           "rank": 3,
           "label": "Indian Markets · 19 Nov 2026",
-          "headline": "Oil and bullion need different clocks and business interpretations",
-          "summary": "Brent’s early Asian quote remains above the preceding settlement, while the latest verified Indian bullion benchmark belongs to yesterday’s evening fixing. Currency and bond observations carry their own time labels in the dashboard. IndiGo’s fuel bill and BPCL or HPCL’s refining and marketing economics respond differently to energy-price changes.",
-          "why": "A crude decline can reduce import costs without immediately lowering retail fuel prices. Inventory valuation, taxes, exchange rates and product spreads determine how the effect reaches individual businesses and household budgets.",
-          "soWhat": "For jewellery purchases, separate the bullion benchmark from tax, purity adjustments and making charges.",
-          "take": "Mixed timestamps are useful when disclosed; they should never masquerade as simultaneous quotes.",
-          "watch": "The next IBJA fixing, verified oil settlement and company margin disclosures will update the picture.",
+          "headline": "Oil and gold prices run on different clocks",
+          "summary": "Brent crude, the global oil benchmark, was trading above its previous settlement in early Asian hours. For gold, the latest verified Indian price is yesterday evening's rate from IBJA, the jewellers' association. That's why the dashboard shows each price with its own time. Oil moves also hit companies differently: IndiGo's fuel bill and BPCL's or HPCL's refining margins react in their own ways.",
+          "why": "Cheaper crude lowers India's import bill, but petrol prices don't fall right away. Taxes, stored inventory, the rupee and refining margins decide how much of the change reaches companies and your wallet.",
+          "soWhat": "Buying jewellery? The benchmark gold rate is only part of the bill. Tax, purity and making charges add the rest.",
+          "take": "Prices taken at different times are fine, as long as they're labelled.",
+          "watch": "The next IBJA rate, the oil settlement and company margins.",
           "terms": [],
           "image": null,
           "sources": [
@@ -582,13 +587,18 @@
           "id": "2026-11-19-ipo",
           "rank": 4,
           "label": "Indian Markets · 19 Nov 2026",
-          "headline": "Mahanadi’s public offer opens a new Coal India comparison",
-          "summary": "Mahanadi Coalfields’ IPO [initial public share offering] opens for subscription today and closes on Monday, according to its filed prospectus. The offer consists of existing shares sold by Coal India; Mahanadi receives no proceeds. This is a bidding event, not a completed listing or established public-market valuation.",
-          "why": "A subsidiary flotation can reveal a separate market valuation without funding new operating investment. Coal demand, allocation rules and production costs still determine the underlying business economics.",
-          "soWhat": "Read the offer structure, risk factors and financial statements before comparing the subsidiary with its parent.",
-          "take": "A prospectus-based valuation comparison is more useful than unverified grey-market premiums.",
-          "watch": "The exchange subscription tables, allotment notice and official listing circular provide the next verifiable milestones.",
-          "terms": [],
+          "headline": "Coal India sells part of Mahanadi Coalfields to the public",
+          "summary": "Mahanadi Coalfields is one of Coal India's mining companies. From today until Monday, the public can bid for its shares in an IPO (initial public offering, when shares are first sold to the public), as per its filed prospectus. All the shares on sale come from Coal India, so Mahanadi itself gets none of the money. Bidding is open; no market price exists yet.",
+          "why": "Listing a subsidiary gives it its own market value, but it doesn't raise fresh money for new mines. Coal demand, supply rules and mining costs still decide how good the business is.",
+          "soWhat": "Before bidding, read the prospectus: what's on offer, the risks and the accounts. Then compare it with Coal India.",
+          "take": "Compare it using the prospectus, not grey-market chatter.",
+          "watch": "Subscription figures on the exchange, allotment and the listing date.",
+          "terms": [
+            {
+              "term": "Grey market",
+              "meaning": "Unofficial trading in IPO shares before listing"
+            }
+          ],
           "image": null,
           "sources": [
             {
@@ -601,12 +611,12 @@
           "id": "2026-11-19-spicejet",
           "rank": 5,
           "label": "Indian Markets · 19 Nov 2026",
-          "headline": "SpiceJet approves a capital raise; execution and dilution matter",
-          "summary": "SpiceJet’s board approved raising up to ₹5,500 crore through permitted financing routes in the preceding session. It also proposes a higher authorised share-capital ceiling, subject to approvals. This is permission to seek funding, not confirmation that investors have subscribed or cash has arrived.",
-          "why": "A financially constrained airline needs resources to restore capacity, settle obligations and support day-to-day operations. New financing can stabilise liquidity while leaving the harder challenge of achieving a viable operating model unresolved.",
-          "soWhat": "For shareholders, financing price, interest obligations and possible dilution matter more than the headline ceiling. Travellers should check actual schedules.",
-          "take": "Fresh capital helps only if it restores reliable operations and durable cash generation.",
-          "watch": "Final funding terms, shareholder approval and verified cash receipt will show whether this approval becomes financing.",
+          "headline": "SpiceJet plans to raise up to ₹5,500 crore to stay airborne",
+          "summary": "SpiceJet is a budget airline that has been short of money. Its board approved raising up to ₹5,500 crore through permitted routes, for example by issuing new shares. It also wants to raise its limit on how many shares it can issue, which needs approval. But this is only permission to look for money. No investor has put cash in yet.",
+          "why": "An airline short of cash struggles to fly enough planes, pay what it owes and run smoothly every day. New money can steady things, but the bigger question remains: can SpiceJet run a business that earns money on its own?",
+          "soWhat": "Shareholders should watch the price and terms, because new shares can shrink their slice (dilution). Travellers should check actual flight schedules.",
+          "take": "Fresh money only helps if it brings reliable flights and steady cash.",
+          "watch": "Final funding terms, shareholder approval and proof the cash arrived.",
           "terms": [
             {
               "term": "Dilution",
@@ -640,12 +650,12 @@
         "id": "2026-11-19-polycab",
         "rank": 1,
         "label": "Investing · 19 Nov 2026",
-        "headline": "Polycab’s distribution strength needs disciplined cash conversion",
-        "summary": "Polycab remains eligible in today’s rules-based review using the previous verified NSE [National Stock Exchange] close and consolidated histories. The screen uses an annual-period average for return on capital, not the current headline ratio. Its valuation reference is the separately dated historical median rather than an assumed future earnings estimate.",
-        "why": "Electrification and construction create demand, but dealer reach and execution determine which manufacturer converts that demand into cash. Commodity pass-through can make reported revenue growth look stronger than volume growth.",
-        "soWhat": "Read receivables, inventory and capital spending alongside the automatically calculated valuation panel before forming a view.",
-        "take": "I find the distribution moat credible, with working-capital discipline central to the thesis.",
-        "watch": "The next filing’s volume growth, cash conversion and project returns will test that thesis.",
+        "headline": "Polycab wires India's buildings, and it's cheaper than usual",
+        "summary": "Polycab makes the wires and cables hidden inside the walls of homes, offices and factories. It has grown fast: over five years, sales rose about 27% a year and profit about 25% a year. It earns about 28% a year on the money invested in the business, and it has almost no debt.",
+        "why": "Copper is its main raw material. When copper costs rise, Polycab passes them on in prices, which can make sales look bigger than the number of cables actually sold. Its moat (protection from rivals) is its brand and a huge dealer network.",
+        "soWhat": "Today you pay about 35 times its yearly profit per share. Over the past five years, buyers usually paid about 45 times. So it's cheaper than its own normal.",
+        "take": "A strong, nearly debt-free leader at a below-normal price.",
+        "watch": "Whether customers keep paying on time in the next results.",
         "terms": [],
         "image": null,
         "sources": [
@@ -747,13 +757,13 @@
         "moat": "Brand",
         "moatWhy": "Established dealer relationships and an extensive branded distribution network make replacement slower than matching a commodity price.",
         "thesis": [
-          "Electrification supports a broad addressable market.",
-          "Distribution and product availability can defend customer relationships.",
-          "Published historical inputs meet the mechanical quality and valuation screen."
+          "More of India gets wired up every year, from homes to power grids.",
+          "Dealers everywhere make Polycab hard for rivals to replace.",
+          "Its everyday business brought in cash in each of the last five years."
         ],
         "breakers": [
-          "Sustained receivables deterioration undermines cash generation.",
-          "New capacity fails to earn an adequate return after ramp-up."
+          "If customers pay late, cash gets stuck in unpaid bills.",
+          "New factories may not earn enough once they're running."
         ],
         "slot": "pick",
         "sector": "Electrical cables",
@@ -864,18 +874,45 @@
         },
         "fairValue": 9499.35,
         "buyBelow": 7599.48,
-        "verdict": "Buy"
+        "verdict": "Buy",
+        "evidence": [
+          {
+            "value": 26.86,
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+            "asOf": "2026-03-31"
+          },
+          {
+            "value": 25.04,
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+            "asOf": "2026-03-31"
+          },
+          {
+            "value": 28.4,
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+            "asOf": "2026-03-31"
+          },
+          {
+            "value": 34.87,
+            "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+            "asOf": "2026-11-18"
+          },
+          {
+            "value": 45.33,
+            "url": "https://www.valueresearchonline.com/stocks/249951/polycab-india-ltd/",
+            "asOf": "2026-11-17"
+          }
+        ]
       },
       {
         "id": "2026-11-19-cams",
         "rank": 2,
         "label": "Investing · 19 Nov 2026",
-        "headline": "CAMS offers switching costs without a monopoly guarantee",
-        "summary": "CAMS passes the sourced quality screen using consolidated financial histories, the previous verified NSE close and a separately dated valuation median. Promoter ownership is reported as absent; that is different from missing ownership data. The panel computes its valuation classification mechanically and does not establish a guaranteed investment outcome.",
-        "why": "Fund administration embeds records, workflows and compliance responsibilities inside customer operations. That creates switching costs, while bargaining power, fee pressure and operational reliability still determine the economics.",
-        "soWhat": "Assess whether revenue growth comes from durable client activity and new services rather than assuming market appreciation alone will sustain it.",
-        "take": "Embedded infrastructure earns confidence through demonstrated resilience.",
-        "watch": "The next results should clarify client retention, revenue mix, operating margins and cash generation.",
+        "headline": "CAMS keeps mutual funds' records: a good business, but wait",
+        "summary": "Every time you buy or sell a mutual fund unit, someone has to record it, process it and keep the paperwork legal. For many fund houses, that someone is CAMS. Over five years, sales grew about 17% a year and profit about 18% a year. It earns about 50% a year on the money in the business, with almost no debt.",
+        "why": "Its moat is switching costs. Moving years of investor records and processes to a rival is costly and risky, so clients tend to stay. But fund houses still push for lower fees, and one serious glitch could damage trust.",
+        "soWhat": "You pay about 35 times its yearly profit per share, below its usual 41 times. Still, the price sits just above the buy-below level, hence Wait.",
+        "take": "A sticky, high-return business. Patience on price pays.",
+        "watch": "Client retention, fee levels and margins in the next results.",
         "terms": [],
         "image": null,
         "sources": [
@@ -977,13 +1014,13 @@
         "moat": "Switching cost",
         "moatWhy": "Migrating regulated investor records and operational workflows creates cost and execution risk for fund clients.",
         "thesis": [
-          "Embedded administration supports recurring customer relationships.",
-          "Growing investor activity can increase processing demand.",
-          "Historical cash generation and returns satisfy the verified screen."
+          "Fund houses rarely switch, so revenue keeps coming back.",
+          "More Indians investing means more transactions to process.",
+          "It has earned strong returns and cash for years."
         ],
         "breakers": [
-          "Persistent fee compression outweighs operating efficiencies.",
-          "A material control failure damages client retention and regulatory trust."
+          "Fee cuts by fund houses outpace its cost savings.",
+          "A major error or outage dents trust with clients and regulators."
         ],
         "slot": "pick",
         "sector": "Capital-market infrastructure",
@@ -1095,18 +1132,45 @@
         },
         "fairValue": 847.07,
         "buyBelow": 677.66,
-        "verdict": "Wait"
+        "verdict": "Wait",
+        "evidence": [
+          {
+            "value": 16.51,
+            "url": "https://www.screener.in/company/CAMS/consolidated/",
+            "asOf": "2026-03-31"
+          },
+          {
+            "value": 18.15,
+            "url": "https://www.screener.in/company/CAMS/consolidated/",
+            "asOf": "2026-03-31"
+          },
+          {
+            "value": 50.2,
+            "url": "https://www.screener.in/company/CAMS/consolidated/",
+            "asOf": "2026-03-31"
+          },
+          {
+            "value": 34.72,
+            "url": "https://www.screener.in/company/CAMS/consolidated/",
+            "asOf": "2026-11-18"
+          },
+          {
+            "value": 41.08,
+            "url": "https://www.valueresearchonline.com/stocks/273560/computer-age-management-services-ltd/",
+            "asOf": "2026-11-17"
+          }
+        ]
       },
       {
         "id": "2026-11-19-eclerx",
         "rank": 3,
         "label": "Investing · 19 Nov 2026",
-        "headline": "eClerx must convert automation into client value",
-        "summary": "eClerx remains eligible after recalculating growth, debt and annual cash-flow tests from published consolidated tables. Its quoted price belongs to the previous verified NSE close, while earnings and balance-sheet inputs retain their own reporting dates. The historical valuation median is not a forecast of future trading multiples.",
-        "why": "Complex client processes can support sticky relationships, but automation changes both delivery costs and the services customers will purchase. Better productivity does not automatically protect revenue if clients demand the savings.",
-        "soWhat": "Check client concentration, receivable collection and contract economics before interpreting a lower historical multiple as a sufficient thesis.",
-        "take": "I see switching costs, with technological substitution the central risk to investigate.",
-        "watch": "The next results and management commentary should demonstrate demand, collections and margins in automated services.",
+        "headline": "eClerx runs complex back-office work, but AI is its big test",
+        "summary": "Big global companies hand eClerx complicated back-office work, like managing data and running processes that need care and control. Over five years, sales grew about 21% a year and profit about 20% a year. It earns about 33% a year on the money in the business, and its debt is low.",
+        "why": "Once eClerx learns a client's processes, switching is hard, so clients stay. But automation and AI cut both ways: they make eClerx faster, yet clients may demand those savings back as lower prices.",
+        "soWhat": "You pay about 19 times its yearly profit per share, below its usual 23 times. But the price is above the buy-below level, so: Wait.",
+        "take": "Sticky clients, but AI decides whether this price proves cheap.",
+        "watch": "Demand, payment collections and margins in its next results.",
         "terms": [],
         "image": null,
         "sources": [
@@ -1208,13 +1272,13 @@
         "moat": "Switching cost",
         "moatWhy": "Client-specific processes, controls and accumulated operating knowledge increase the effort needed to migrate complex outsourced work.",
         "thesis": [
-          "Specialised processes support durable client relationships.",
-          "Automation can improve delivery productivity when client value is retained.",
-          "The published histories pass the mechanical financial screen."
+          "Clients rarely move complex, custom processes elsewhere.",
+          "Automation can make its work faster and more profitable.",
+          "Its finances have stayed strong for years."
         ],
         "breakers": [
-          "Automation causes sustained revenue losses or price compression.",
-          "Receivables deterioration or client concentration undermines cash conversion."
+          "AI lets clients do the work themselves, or pay less for it.",
+          "Late payments or reliance on a few big clients squeeze cash."
         ],
         "slot": "pick",
         "sector": "IT-enabled business services",
@@ -1325,18 +1389,45 @@
         },
         "fairValue": 1748.9,
         "buyBelow": 1399.12,
-        "verdict": "Wait"
+        "verdict": "Wait",
+        "evidence": [
+          {
+            "value": 21.36,
+            "url": "https://www.screener.in/company/ECLERX/consolidated/",
+            "asOf": "2026-03-31"
+          },
+          {
+            "value": 20.06,
+            "url": "https://www.screener.in/company/ECLERX/consolidated/",
+            "asOf": "2026-03-31"
+          },
+          {
+            "value": 32.8,
+            "url": "https://www.screener.in/company/ECLERX/consolidated/",
+            "asOf": "2026-03-31"
+          },
+          {
+            "value": 19.44,
+            "url": "https://www.screener.in/company/ECLERX/consolidated/",
+            "asOf": "2026-11-18"
+          },
+          {
+            "value": 22.66,
+            "url": "https://www.valueresearchonline.com/stocks/41885/eclerx-services-ltd/",
+            "asOf": "2026-11-17"
+          }
+        ]
       },
       {
         "id": "2026-11-19-watchlist",
         "rank": 4,
         "label": "Investing · 19 Nov 2026",
-        "headline": "The watchlist needs a verified starting close first",
-        "summary": "The existing screened positions remain under research review, with no documented thesis-broken or exited event added today. Yesterday’s issue was published after the exchange close, so track-record measurement starts from the next verified session close. This morning’s review cannot claim a return before that baseline exists.",
-        "why": "Consistent starting points prevent a publication from claiming price movements that happened before readers encountered it. A watchlist records a research process, not an executed brokerage account.",
-        "soWhat": "Use the app’s recorded dates and official closing-price updates to distinguish measured performance from an attractive narrative.",
-        "take": "I would prefer a temporarily blank return to a misleading performance number.",
-        "watch": "The official closing file and the validated track-record snapshot will establish the first measurable baseline.",
+        "headline": "Our track record starts once a fair starting price exists",
+        "summary": "We track how every stock pick performs. To be fair, each pick needs a starting price from after you could actually read it. Yesterday's edition went out after the market closed, so its picks will be measured from the next official closing price. Nothing changed today: no pick was dropped or flagged.",
+        "why": "Starting the clock early would let us take credit for price moves that happened before anyone read the idea. Think of this list as a research diary, not a real trading account.",
+        "soWhat": "See the Stocks tab's track record, which uses official NSE closing prices, for real results.",
+        "take": "A blank return beats a misleading one.",
+        "watch": "The first official closing price for yesterday's picks.",
         "terms": [],
         "image": null,
         "sources": [
@@ -1359,13 +1450,22 @@
         "id": "2026-11-19-lesson",
         "rank": 5,
         "label": "Investing · 19 Nov 2026",
-        "headline": "Debt-to-equity needs the balance-sheet denominator explained",
-        "summary": "Today’s metric lesson uses Polycab’s verified debt-to-equity input from its published consolidated balance sheet. The calculation divides reported borrowings by equity capital plus reserves. The displayed example comes directly from the prepared stock data, while the screen’s threshold is a rule rather than a prediction of financial distress.",
-        "why": "A low ratio reduces one source of financing pressure but says little by itself about cash trapped in inventory, contingent obligations or the return on new investment. Accounting definitions also affect comparisons between businesses.",
-        "soWhat": "Inspect the components and reporting period before comparing the ratio with a peer.",
-        "take": "I would pair leverage with cash conversion and investment quality.",
-        "watch": "The next balance sheet should show whether borrowing and working-capital requirements move together.",
-        "terms": [],
+        "headline": "What debt-to-equity tells you, explained with Polycab",
+        "summary": "Debt-to-equity compares what a company owes lenders with what belongs to its owners. You divide its borrowings by its equity (the owners' money plus profits kept in the business). A low result, like Polycab's, means the company runs mostly on its own money. Today's example uses Polycab's latest published balance sheet.",
+        "why": "Think of a home: a big loan on a small down payment is riskier than the reverse. But low debt isn't the whole story. Cash can still get stuck in unsold goods or unpaid bills.",
+        "soWhat": "When comparing two companies, use the same date and the same definition of debt.",
+        "take": "Read debt-to-equity alongside how well a company turns sales into cash.",
+        "watch": "Whether Polycab's borrowing and working capital move together next quarter.",
+        "terms": [
+          {
+            "term": "Equity",
+            "meaning": "Owners' money plus profits kept in the business"
+          },
+          {
+            "term": "Working capital",
+            "meaning": "Cash tied up in stock and unpaid bills"
+          }
+        ],
         "image": null,
         "sources": [
           {
@@ -1387,12 +1487,12 @@
         "id": "2026-11-19-anthropic",
         "rank": 1,
         "label": "Tech · 19 Nov 2026",
-        "headline": "Anthropic prices its IPO ahead of an expected US debut",
-        "summary": "Anthropic priced an IPO [initial public share offering] at $83 per share, offering 980 million shares. Most are issued by the company, with a smaller secondary sale. Nasdaq trading under ANT is expected on 19 November; selling-shareholder proceeds do not go to Anthropic.",
-        "why": "Public capital can fund substantial computing commitments, but an offering price is not evidence of sustainable returns. Investors must distinguish new corporate funding, shareholder liquidity and the cost of supporting expanding usage.",
-        "soWhat": "For AI customers, business-model durability and infrastructure commitments matter alongside model quality and subscription prices.",
-        "take": "I would read the cash obligations and risk disclosures before interpreting fundraising scale as competitive certainty.",
-        "watch": "The final prospectus and first public financial disclosures will provide the next substantive operating evidence.",
+        "headline": "Anthropic, maker of the Claude AI, prices its stock market debut",
+        "summary": "Anthropic, the company behind the Claude AI assistant, is going public. It priced its IPO (initial public offering, its first sale of shares to the public) at $83 a share, offering 980 million shares. Most are new shares, so that money goes to Anthropic; a smaller batch is sold by existing shareholders, and that money doesn't. Trading on Nasdaq under ANT is expected on 19 November.",
+        "why": "Training and running AI models needs enormous computing power, which costs a fortune. Listing opens access to public money. But a high share price isn't proof the business will stay profitable over time.",
+        "soWhat": "If you rely on AI tools, how long a company can fund itself matters as much as how good its model is.",
+        "take": "Read the risks and cash commitments before treating a big raise as a sure win.",
+        "watch": "The final prospectus and Anthropic's first results as a listed company.",
         "terms": [],
         "image": null,
         "sources": [
@@ -1403,18 +1503,18 @@
           }
         ],
         "beat": "deal",
-        "tryThis": "Read the prospectus risk factors and separate revenue, cash consumption and contracted future computing obligations."
+        "tryThis": "Open the prospectus's risk factors and note revenue, cash burn and computing commitments."
       },
       {
         "id": "2026-11-19-neon",
         "rank": 2,
         "label": "Tech · 19 Nov 2026",
-        "headline": "Gemini Neon makes cost-per-completed-task the useful comparison",
-        "summary": "Google introduced Gemini 4 Neon on 18 November, positioning it for coding, analysis and extended tool-driven work. Published API [software connection interface] prices are $3 per million input tokens [text processing units] and $15 per million output tokens. Availability spans specified products and subscriptions; benchmark claims require checking.",
-        "why": "A faster or cheaper model can change how much work a team delegates, but token price alone ignores retries and corrections. Tool orchestration and reliable source handling influence the total cost of a usable result.",
-        "soWhat": "For an Indian business, compare finished-output quality and review effort before migrating a live process.",
-        "take": "I would buy demonstrated workflow improvement rather than a leaderboard position.",
-        "watch": "Run a fixed evaluation and record completion rate, correction time, latency and actual invoiced cost.",
+        "headline": "Google's new Gemini Neon: judge AI by finished work, not price",
+        "summary": "Google launched Gemini 4 Neon on 18 November, aimed at coding, analysis and long tasks where the AI uses other tools. Developers pay $3 per million input tokens and $15 per million output tokens. Tokens are the small chunks of text an AI reads and writes. It's available in some Google products and plans, and its benchmark claims still need checking.",
+        "why": "A cheap model that needs three attempts can cost more than a pricier one that gets it right first time. What counts is the total cost of a correct, finished result, including your team's time fixing mistakes.",
+        "soWhat": "For Indian businesses, test output quality and review time before switching a live process.",
+        "take": "Pay for proven work, not a leaderboard rank.",
+        "watch": "Completion rate, fixing time, speed and the real bill in your own test.",
         "terms": [],
         "image": null,
         "sources": [
@@ -1425,18 +1525,18 @@
           }
         ],
         "beat": "launch",
-        "tryThis": "Test an anonymised spreadsheet or coding task against your current model using the same acceptance criteria."
+        "tryThis": "Give it and your current AI the same anonymised spreadsheet or coding task, and compare."
       },
       {
         "id": "2026-11-19-disclosure",
         "rank": 3,
         "label": "Tech · 19 Nov 2026",
-        "headline": "US considers disclosure requirements for Chinese AI use",
-        "summary": "Reuters reported on 18 November that US officials were considering requiring companies to disclose use of Chinese AI models. The proposal was under discussion, with no confirmed final rule. Airbnb said its AI runs overwhelmingly on US-origin models and described limited use through approved US-based providers.",
-        "why": "Model origin, hosting location and access to customer data are separate questions. A disclosure policy could affect procurement and reputation even without banning a model, but implementation depends on the actual legal text.",
-        "soWhat": "Indian suppliers serving US clients should maintain an accurate inventory of model providers and deployment locations.",
-        "take": "I would document the technology stack now, while avoiding compliance claims about an unenacted proposal.",
-        "watch": "A formal agency notice or published rulemaking would establish the scope, deadlines and obligations.",
+        "headline": "US may make companies reveal whether they use Chinese AI",
+        "summary": "US officials are considering a rule that would make companies disclose whether they use AI models built in China, Reuters reported on 18 November. It's only under discussion; no final rule exists. Airbnb, for one, said its AI runs overwhelmingly on American models, with limited use through approved US-based providers.",
+        "why": "Where a model was made, where it runs and who can see customer data are three different questions. Even without a ban, having to disclose could change which tools companies buy and how customers see them.",
+        "soWhat": "Indian firms serving US clients should keep a clear list of which AI models they use and where those run.",
+        "take": "Write down your AI setup now; don't claim compliance with a rule that doesn't exist yet.",
+        "watch": "A formal government notice with scope and deadlines.",
         "terms": [],
         "image": null,
         "sources": [
@@ -1447,18 +1547,18 @@
           }
         ],
         "beat": "policy",
-        "tryThis": "List every model, host, data processor and cross-border transfer in one customer-facing workflow."
+        "tryThis": "Map every AI model, host and data transfer in one customer-facing process."
       },
       {
         "id": "2026-11-19-memory",
         "rank": 4,
         "label": "Tech · 19 Nov 2026",
-        "headline": "AWS adds managed long-term memory for AI agents",
-        "summary": "AWS announced general availability of Amazon OpenSearch Memory on 18 November. The serverless service stores interaction events, derives structured memories and retrieves context across sessions. Access controls and expiration settings are part of the offering; its published launch-region list does not include an Indian region.",
-        "why": "Agent memory reduces repeated context-building but creates another store of potentially sensitive information. Persistent preferences, extracted facts and original conversation records need different retention and correction policies.",
-        "soWhat": "An Indian team should examine residency requirements and deletion behaviour before storing customer histories, especially when a managed service operates overseas.",
-        "take": "Memory quality and governance deserve the same scrutiny as retrieval speed.",
-        "watch": "Check supported regions, retention controls, deletion tests and measured retrieval accuracy before production use.",
+        "headline": "Amazon's cloud now gives AI assistants a long-term memory",
+        "summary": "AI assistants usually forget everything once a chat ends. On 18 November, AWS (Amazon's cloud business) launched Amazon OpenSearch Memory, a service that saves what happens in conversations, turns it into organised memories and recalls them in later sessions. It includes access controls and auto-delete settings. Its launch list doesn't include an Indian region yet.",
+        "why": "Memory saves users from repeating themselves, but it also creates a new store of possibly sensitive information. Preferences, facts and full conversations each need their own rules for how long they're kept and how they're corrected.",
+        "soWhat": "Indian teams should check data-residency rules and deletion before storing customer histories on an overseas service.",
+        "take": "How well it forgets matters as much as how fast it remembers.",
+        "watch": "Supported regions, retention controls and real-world accuracy tests.",
         "terms": [],
         "image": null,
         "sources": [
@@ -1469,18 +1569,18 @@
           }
         ],
         "beat": "launch",
-        "tryThis": "Build a synthetic-data demo, change an old preference, and test whether retrieval returns the corrected fact."
+        "tryThis": "Build a demo with fake data, change an old preference, and check it recalls the new one."
       },
       {
         "id": "2026-11-19-kavach",
         "rank": 5,
         "label": "Tech · 19 Nov 2026",
-        "headline": "AI Kavach targets security testing for financial AI systems",
-        "summary": "IIT Kanpur and Bharat1.ai announced AI Kavach on 18 November through a syndicated company release. The lab plans adversarial testing, containment research and workforce training for financial-sector AI. Its description as India’s first such lab is the promoters’ claim; independent operating results were not supplied.",
-        "why": "Financial agents can combine sensitive data with permissions to take consequential actions. Assurance therefore needs to test tool boundaries, failure recovery and traceability, alongside the model’s ability to answer questions correctly.",
-        "soWhat": "Banks, insurers and fintech teams can use this agenda to structure procurement questions and request reproducible test evidence.",
-        "take": "I would welcome a shared testing capability while waiting for published methods and results.",
-        "watch": "Named institutional participation, released evaluation protocols and independently reproducible findings will demonstrate progress.",
+        "headline": "IIT Kanpur launches a lab to stress-test AI used in finance",
+        "summary": "Financial firms are exploring AI agents that can take actions, not just answer questions. On 18 November, IIT Kanpur and Bharat1.ai announced AI Kavach, a lab to attack-test such systems, research ways to contain them and train people. They call it India's first such lab; that's their own claim, and no independent results have been published yet.",
+        "why": "An AI that can move money or open accounts is riskier than a chatbot. Testing must check what it's allowed to do, how it recovers from mistakes and whether every action leaves a trail.",
+        "soWhat": "Banks, insurers and fintechs can use this agenda when buying AI tools: ask for test evidence others can repeat.",
+        "take": "A shared testing lab is welcome; published methods will earn trust.",
+        "watch": "Which institutions join, and whether results get published.",
         "terms": [],
         "image": null,
         "sources": [
@@ -1491,7 +1591,7 @@
           }
         ],
         "beat": "india",
-        "tryThis": "Test a sandbox agent with synthetic accounts and confirm that prohibited actions fail and are logged."
+        "tryThis": "In a sandbox with fake accounts, check that forbidden actions fail and get logged."
       }
     ],
     "psychology": [
@@ -1499,12 +1599,12 @@
         "id": "2026-11-19-asch",
         "rank": 1,
         "label": "Psychology · 19 Nov 2026",
-        "headline": "A unanimous room can make an obvious answer feel wrong",
-        "summary": "Solomon Asch’s 1956 report studied 123 male college students judging line lengths while confederates deliberately gave wrong answers. Participants sometimes followed the unanimous majority despite an objectively clear task. This classic laboratory result concerns social pressure; it does not establish that every group or culture behaves identically.",
-        "why": "Public disagreement can carry a social cost even when private evidence looks clear. Independent judgments become harder once everyone hears the same confident answer.",
-        "soWhat": "Collect initial estimates privately before a workplace review, particularly when senior colleagues speak first.",
-        "take": "Independent estimates are worth protecting before a confident majority forms.",
-        "watch": "Compare the spread of anonymous initial estimates with the final group judgment at your next review.",
+        "headline": "Why we give the wrong answer when everyone else does",
+        "summary": "Picture eight students shown a line and asked which of three others matches it. The answer is obvious. But seven of them are actors, and they all confidently pick the wrong one. In Solomon Asch's experiments with 123 male college students, many real participants went along with the group at least some of the time, even though their own eyes disagreed.",
+        "why": "This is conformity: changing what we say to fit in, because disagreeing out loud feels risky. It's one classic lab study, so it doesn't prove every group or culture behaves the same way.",
+        "soWhat": "It happens in meetings. Once the boss says a number, everyone's estimate drifts towards it.",
+        "take": "Protect independent opinions before a confident majority forms.",
+        "watch": "At your next review, compare people's private first guesses with the final group answer.",
         "terms": [],
         "image": null,
         "sources": [
@@ -1523,19 +1623,19 @@
           "sample": 123,
           "era": "classic"
         },
-        "example": "A team revises a forecast after hearing the boss’s estimate, despite unchanged evidence.",
-        "useThisWeek": "Ask everyone to submit an estimate before the meeting."
+        "example": "A team changes its forecast after hearing the boss's number, though nothing new was learned.",
+        "useThisWeek": "Ask everyone to write down their estimate before the meeting starts."
       },
       {
         "id": "2026-11-19-milgram",
         "rank": 2,
         "label": "Psychology · 19 Nov 2026",
-        "headline": "Authority needs explicit limits before pressure arrives",
-        "summary": "Stanley Milgram’s 1963 obedience experiment recruited 40 men aged 20–50. Participants believed they were delivering escalating electric shocks under an experimenter’s direction; the learner actually received none. Many continued despite visible distress. Deception and participant stress make the study ethically contested, and its narrow sample limits generalisation.",
-        "why": "Legitimate roles and incremental instructions can make responsibility feel transferred upward. Situational pressure is therefore worth addressing through procedures rather than assuming good intentions will always suffice.",
-        "soWhat": "Before a high-stakes project, agree which requests require independent approval and how anyone can stop the process.",
-        "take": "I would make refusal a supported organisational action, not a test of personal bravery.",
-        "watch": "Check whether a real escalation receives a documented response without retaliation.",
+        "headline": "Why ordinary people follow harmful orders",
+        "summary": "In 1963, psychologist Stanley Milgram asked 40 men, aged 20 to 50, to give a 'learner' electric shocks of rising strength, as instructed by an experimenter. The shocks were fake, but the volunteers didn't know that. Many kept going even as the learner seemed to be in distress.",
+        "why": "When someone in charge gives small, step-by-step instructions, we feel the responsibility shifts to them. The study is also controversial: it deceived and stressed people, and its small, all-male group limits how far it applies.",
+        "soWhat": "Before a big, risky project, agree which requests need a second approval and how anyone can say 'stop'.",
+        "take": "Saying no should be a normal step in the process, not an act of courage.",
+        "watch": "Whether the next real concern raised at work gets a recorded response, without punishment.",
         "terms": [],
         "image": null,
         "sources": [
@@ -1558,19 +1658,19 @@
           "sample": 40,
           "era": "classic"
         },
-        "example": "An employee follows an unsafe instruction because a supervisor accepts responsibility.",
-        "useThisWeek": "Write a stop-work rule and name an independent escalation contact."
+        "example": "An employee follows an unsafe instruction because the manager says 'I'll take responsibility'.",
+        "useThisWeek": "Write a simple 'stop work' rule and name someone outside the chain to escalate to."
       },
       {
         "id": "2026-11-19-loftus",
         "rank": 3,
         "label": "Psychology · 19 Nov 2026",
-        "headline": "The wording of a question changes the answer remembered",
-        "summary": "Elizabeth Loftus and John Palmer’s 1974 first experiment showed accident films to 45 students. Changing the collision verb altered reported speed: the smashed wording produced higher estimates than contacted. The authors considered both response bias and altered memory representation, so this experiment alone should not be treated as proof of one mechanism.",
-        "why": "Recall is reconstructed using cues supplied during questioning. An interviewer can therefore contaminate evidence while believing they are merely clarifying it.",
-        "soWhat": "In customer research or an incident review, obtain an uninterrupted account before introducing your preferred explanation.",
-        "take": "Preserving the interviewer’s exact question is part of preserving the evidence.",
-        "watch": "Compare responses to a neutral prompt with answers obtained after a leading follow-up.",
+        "headline": "How one word in a question can change what you remember",
+        "summary": "In 1974, Elizabeth Loftus and John Palmer showed 45 students films of car accidents, then asked how fast the cars were going. The only difference was one word. Students asked how fast the cars 'smashed' into each other guessed higher speeds than those asked about cars that 'contacted' each other.",
+        "why": "Our memory isn't a video recording. We rebuild it each time we recall, using clues around us, including the questions we're asked. The researchers noted it might be the answers that shift rather than the memory itself, so one study can't settle which.",
+        "soWhat": "In customer research or a work investigation, let people tell their story fully before you suggest any explanation.",
+        "take": "The exact question asked is part of the evidence.",
+        "watch": "Compare answers to a neutral question with answers after a leading one.",
         "terms": [],
         "image": null,
         "sources": [
@@ -1589,19 +1689,19 @@
           "sample": 45,
           "era": "classic"
         },
-        "example": "How frustrating was checkout? presupposes frustration that a customer may not have reported.",
-        "useThisWeek": "Replace evaluative prompts with Tell me what happened next."
+        "example": "'How frustrating was checkout?' assumes frustration the customer never mentioned.",
+        "useThisWeek": "Swap leading questions for 'Tell me what happened next.'"
       },
       {
         "id": "2026-11-19-persuasion",
         "rank": 4,
         "label": "Psychology · 19 Nov 2026",
-        "headline": "AI persuasion evidence needs its correction attached",
-        "summary": "Francesco Salvi and colleagues’ 2025 study analysed 750 participants in structured online debates comparing human and GPT-4 opponents. Personalised AI was more persuasive than the human baseline. A September 2026 correction clarified that its advantage over non-personalised AI was not statistically significant; personalisation itself was therefore not conclusively isolated.",
-        "why": "An experiment can support a practical concern while leaving the proposed mechanism uncertain. Model fluency, conversational responsiveness and demographic targeting should not be treated as interchangeable explanations.",
-        "soWhat": "When assessing persuasive marketing tools, test incremental effects against a credible untargeted alternative.",
-        "take": "Conversational influence deserves attention; stronger claims about targeting need stronger comparisons.",
-        "watch": "Look for independent replications reporting preregistered comparisons and effects beyond the immediate debate.",
+        "headline": "Can AI argue better than people? A correction changes the story",
+        "summary": "In a 2025 study, Francesco Salvi and colleagues had 750 people debate online with either a human or GPT-4. When the AI was given a few personal details about its opponent, it was more persuasive than humans. But a correction in September 2026 added a twist: it wasn't clearly better than the same AI without those personal details.",
+        "why": "So the AI was persuasive, but we can't say the personal targeting is the reason. It might be how fluent or responsive the chatbot is instead.",
+        "soWhat": "If a marketing tool promises persuasion through personalisation, test it against a plain, untargeted version.",
+        "take": "AI persuasion is real enough to watch; claims about targeting need better proof.",
+        "watch": "Independent repeat studies with comparisons planned in advance.",
         "terms": [],
         "image": null,
         "sources": [
@@ -1624,25 +1724,20 @@
           "sample": 750,
           "era": "recent"
         },
-        "example": "A campaign attributes improved persuasion to targeting without testing an untargeted chatbot.",
-        "useThisWeek": "Read corrections and the actual comparison group before repeating an AI-effect claim."
+        "example": "A campaign credits targeting for better results without testing an untargeted chatbot.",
+        "useThisWeek": "Before sharing an AI claim, check for corrections and what it was compared against."
       },
       {
         "id": "2026-11-19-unity",
         "rank": 5,
         "label": "Psychology · 19 Nov 2026",
-        "headline": "A shared human identity can widen cooperation across groups",
-        "summary": "May Farid and colleagues’ 2026 randomised trial involved 8,648 young people in India. An intensive education programme emphasising identification with all humanity reduced discriminatory attitudes and behaviours and improved cross-group prosocial behaviour. The findings concern this specific programme and population, not a generic motivational slogan.",
-        "why": "People can retain particular identities while broadening whom they include in a shared moral community. Training may change how differences are interpreted rather than requiring everyone to become the same.",
-        "soWhat": "For team learning, pair shared goals with structured cooperation, and test workplace adaptations on their own evidence.",
-        "take": "Shared identity needs practice behind it; branding alone does not demonstrate changed behaviour.",
-        "watch": "Measure cooperation and fair allocation after training, then check whether improvements persist beyond the session.",
-        "terms": [
-          {
-            "term": "Prosocial behaviour",
-            "meaning": "Actions intended to benefit other people"
-          }
-        ],
+        "headline": "Teaching a shared human identity reduced prejudice among Indian youth",
+        "summary": "Can a classroom programme make people less biased? May Farid and colleagues ran a 2026 randomised trial (a fair test with a comparison group) with 8,648 young people in India. An intensive course built around identifying with all of humanity reduced discriminatory attitudes and behaviour, and made people more helpful across group lines. The results apply to this programme, not to any feel-good slogan.",
+        "why": "People don't have to drop their own identities. They can widen the circle of who they feel responsible for, so differences remain but divide less.",
+        "soWhat": "For team training, pair shared goals with real cooperative tasks, and test what works in your own workplace.",
+        "take": "Shared identity needs practice; a slogan alone won't change behaviour.",
+        "watch": "Whether cooperation and fair sharing still improve weeks after training.",
+        "terms": [],
         "image": null,
         "sources": [
           {
@@ -1662,8 +1757,8 @@
           "sample": 8648,
           "era": "recent"
         },
-        "example": "A mixed team practises fair resource allocation around a shared task rather than only hearing a unity slogan.",
-        "useThisWeek": "Arrange a cooperative task across existing groups and assess whose contributions receive attention."
+        "example": "A mixed team practises sharing resources fairly on a joint task, not just hearing a unity slogan.",
+        "useThisWeek": "Set up a task that needs two different groups to work together, and note whose ideas get heard."
       }
     ],
     "marketing": [
@@ -1671,12 +1766,12 @@
         "id": "2026-11-19-cult",
         "rank": 1,
         "label": "India · 19 Nov 2026",
-        "headline": "Cult turns its celebrity into your fitness cheerleader",
-        "summary": "Cult’s November campaign, Proud Sponsor of Small Wins, casts Hrithik Roshan as a supporter of ordinary people’s fitness progress. Agency Manja developed the work, directed by Devika Chaturvedi through Crazy Few Films. The film connects everyday milestones with the brand’s app ecosystem, including Streaks, Squads and Cult Ninja. Published conversion results were not supplied.",
-        "why": "An intimidating ideal physique can widen the psychological distance between a beginner and a gym. Celebrating attainable progress makes the reward feel closer.",
-        "soWhat": "For an Indian participation campaign, connect encouragement with a product feature that helps people repeat the behaviour.",
-        "take": "I would borrow the achievable milestone, not simply the celebrity casting.",
-        "watch": "Completion, repeat attendance and retention would show whether the message changes behaviour.",
+        "headline": "Cult and Hrithik Roshan cheer for your small fitness wins",
+        "summary": "Fitness ads often sell an impossible dream body. Cult's November campaign, 'Proud Sponsor of Small Wins', does the opposite: Hrithik Roshan cheers on ordinary people's small milestones. Agency Manja made it, directed by Devika Chaturvedi through Crazy Few Films. The film links those wins to features in Cult's app, like Streaks, Squads and Cult Ninja. No sales results have been published.",
+        "why": "A perfect body can feel so far away that beginners never start. Celebrating small progress makes the reward feel reachable.",
+        "soWhat": "Indian brands that want people to start a habit should pair encouragement with a feature that helps them repeat it.",
+        "take": "Borrow the reachable milestone, not just the celebrity.",
+        "watch": "Whether people keep coming back, and stay members.",
         "terms": [],
         "image": null,
         "sources": [
@@ -1698,12 +1793,12 @@
         "id": "2026-11-19-kfc",
         "rank": 2,
         "label": "India · 19 Nov 2026",
-        "headline": "KFC makes a messy product moment the entertainment",
-        "summary": "KFC India’s Drip Happens campaign promotes its Korean Dunked range through a playful family-and-relationship film featuring Aoora. Mad About Digital developed the campaign, with Bruno Bossi directing. The saucy product becomes the source of the social drama, connecting the film with the range available through restaurants and delivery. Published sales-lift results were not supplied.",
-        "why": "A familiar social situation gives viewers a narrative to remember, while an exaggerated sensory cue ties that memory to the product itself.",
-        "soWhat": "A useful food campaign should make its distinctive consumption experience recognisable even before the logo appears.",
-        "take": "I would test whether viewers remember the product benefit as clearly as the joke.",
-        "watch": "Brand-linked recall, menu searches and incremental orders would distinguish entertainment from effective demand generation.",
+        "headline": "KFC turns messy, saucy chicken into the joke of its ad",
+        "summary": "KFC India's 'Drip Happens' campaign promotes its Korean Dunked range, chicken coated in a dripping sauce. The film, featuring Aoora, plays out a funny family-and-relationship drama in which the messy sauce causes the trouble. Mad About Digital made the campaign, directed by Bruno Bossi. No sales results have been published.",
+        "why": "A familiar social moment gives viewers a story to remember, and the exaggerated, sticky mess ties that memory to the actual food.",
+        "soWhat": "A good food ad makes the eating experience recognisable even before the logo appears.",
+        "take": "Check people remember the chicken, not just the joke.",
+        "watch": "Brand recall, menu searches and extra orders.",
         "terms": [],
         "image": null,
         "sources": [
@@ -1725,12 +1820,12 @@
         "id": "2026-11-19-frido",
         "rank": 3,
         "label": "India · 19 Nov 2026",
-        "headline": "Frido connects men’s everyday pain with practical product relief",
-        "summary": "Frido’s Mard Ko Bhi Dard Hota Hai campaign, reported on 18 November for International Men’s Day, features working men in Pune discussing physical discomfort. The brand pairs those conversations with heel-protector gifts. The report does not identify an external creative agency or provide measured sales, reach or health outcomes.",
-        "why": "The work challenges a familiar masculine norm that discourages acknowledging pain. A specific product demonstration makes the emotional theme commercially relevant rather than leaving it as a generic awareness message.",
-        "soWhat": "Indian brands can pair a culturally recognisable tension with a modest, observable act of usefulness.",
-        "take": "The strongest version preserves participants’ dignity and keeps testimonials separate from clinical evidence.",
-        "watch": "Track qualified product trials, subsequent purchases and permission-based participant feedback.",
+        "headline": "Frido's Men's Day ad: men feel pain too",
+        "summary": "'Mard ko dard nahi hota' (a man feels no pain) is a familiar Indian saying. Frido's campaign flips it: 'Mard Ko Bhi Dard Hota Hai' (men feel pain too). Released for International Men's Day, it shows working men in Pune talking about everyday physical aches, and gives them heel protectors. No agency or sales figures were reported.",
+        "why": "The ad challenges the idea that men should hide pain, and the gift makes that message useful rather than leaving it as a vague awareness slogan.",
+        "soWhat": "Indian brands can pick a familiar cultural tension and answer it with a small, practical act.",
+        "take": "Keep it respectful, and don't pass testimonials off as medical proof.",
+        "watch": "Product trials, repeat purchases and feedback from participants.",
         "terms": [],
         "image": null,
         "sources": [
@@ -1752,12 +1847,12 @@
         "id": "2026-11-19-lego",
         "rank": 4,
         "label": "Global · 19 Nov 2026",
-        "headline": "LEGO makes holiday gifting feel like shared imaginative play",
-        "summary": "LEGO’s Holiday Workshop campaign launched on 5 November, making this an earlier seasonal case study. Our LEGO Agency created the work with director Michael Gracey. The main film follows a brick through a fantastical workshop, supported by shorter films and retail activity. The brand announcement supplies no measured campaign sales or conversion results.",
-        "why": "A toy purchase competes with many practical gifts. Showing the experience that follows the purchase lets parents imagine a family activity rather than compare only the object’s features.",
-        "soWhat": "For a gifting campaign, demonstrate the recipient’s anticipated experience and connect it to an accessible retail action.",
-        "take": "I would borrow the coherent imaginative world across formats while measuring incremental demand separately.",
-        "watch": "Compare product consideration and attributed sales against an appropriate unexposed audience.",
+        "headline": "LEGO sells the play that happens after you unwrap the gift",
+        "summary": "LEGO's 'Holiday Workshop' campaign, launched on 5 November, follows a single brick through a magical workshop. Our LEGO Agency made it with director Michael Gracey, backed by shorter films and in-store activity. It's an earlier campaign, included here as a case study. No sales results were published.",
+        "why": "Toys compete with practical gifts. Showing the fun that comes after the purchase lets parents imagine a family moment instead of comparing product features.",
+        "soWhat": "For a gifting campaign, show the experience the person receiving it will have, and make buying easy.",
+        "take": "Build one imaginative world across every format, and measure sales separately.",
+        "watch": "Sales among people who saw the ads versus those who didn't.",
         "terms": [],
         "image": null,
         "sources": [
@@ -1779,12 +1874,12 @@
         "id": "2026-11-19-amazonads",
         "rank": 5,
         "label": "Global · 19 Nov 2026",
-        "headline": "Amazon sells holiday sponsorship across entertainment and shopping",
-        "summary": "Amazon Ads announced its returning holiday sponsorship programme on 18 November. Brand Innovation Lab combines category sponsorships, creator events and celebrity-hosted content across Amazon properties. Announced partners include Google, SharkNinja and LEGO, with Dove participating in Amazon Live activity. The launch release describes planned executions but does not report completed campaign performance.",
-        "why": "Attention gathered in entertainment can connect with purchase intent inside the same ecosystem. That proximity is useful, although platform-attributed conversions can overstate incrementality without a control group.",
-        "soWhat": "A marketer should decide which channel builds demand and which captures it before combining their reported results.",
-        "take": "Exposure, engagement and additional purchases deserve separate measurement.",
-        "watch": "Request deduplicated reach and a controlled incremental-sales study once the programme finishes.",
+        "headline": "Amazon lets brands sponsor its entertainment and its shop together",
+        "summary": "Amazon is both a place to watch and a place to shop. On 18 November, Amazon Ads announced its holiday sponsorship programme, Brand Innovation Lab: brands can sponsor categories, creator events and celebrity-hosted content across Amazon. Partners include Google, SharkNinja and LEGO, with Dove on Amazon Live. These are plans, so there are no results yet.",
+        "why": "Catching someone's attention while they're being entertained, then selling to them in the same place, is powerful. But Amazon's own sales figures can overstate how many purchases the ads really caused.",
+        "soWhat": "Marketers should separate which channel creates interest and which one closes the sale before adding up results.",
+        "take": "Measure views, engagement and extra sales separately.",
+        "watch": "Independent reach numbers and a controlled sales study after the season.",
         "terms": [],
         "image": null,
         "sources": [
