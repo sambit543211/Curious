@@ -14,7 +14,8 @@
     "publish-v2": "node scripts/publish-v2.mjs",
     "update-closes": "node scripts/update-closes.mjs",
     "stock-input": "node scripts/stock-input.mjs",
-    "check-fundamentals": "node scripts/check-fundamentals.mjs"
+    "check-fundamentals": "node scripts/check-fundamentals.mjs",
+    "build-fundamentals": "node scripts/build-fundamentals.mjs"
   },
   "dependencies": {
     "web-push": "3.6.7"

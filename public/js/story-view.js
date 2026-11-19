@@ -226,7 +226,7 @@ function stockPick(card) {
   const dipTests = card.slot === 'dip' ? Object.entries(dipCheck(card).tests).map(([key, pass]) => [dipLabels[key] ?? key, pass]) : [];
   later.push(block('Screen', table('Screen results', ['Test', 'Result'], [...Object.entries(card.screen ?? {})
     .map(([key, pass]) => [screenLabels[key] ?? key, pass]), ...dipTests]
-    .map(([label, pass]) => [label, node('span', pass ? 'up' : 'down', pass ? 'Pass' : 'Fail')]))));
+    .map(([label, pass]) => [label, pass === null ? node('span', 'fine', 'Not checked: verify before buying') : node('span', pass ? 'up' : 'down', pass ? 'Pass' : 'Fail')]))));
   later.push(node('p', 'fine', 'Fundamentals as of ' + card.dataDate + ' · quote from ' + card.quoteDate));
   return {lead, after, later};
 }

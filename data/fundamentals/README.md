@@ -21,4 +21,5 @@ taken from this file: they come from NSE's daily files.
 - `kind`: `non-financial`, `bank` or `nbfc`. Banks and NBFCs need `roa, grossNpa, car, bvps, pbMedian5y` instead of `roce5y, de, salesCagr5y, ocfPositiveYears, eps, peMedian5y`.
 - `profitYoY`: latest quarter's net profit vs the same quarter a year earlier, in %. `promoterChange`: change in promoter holding over the last quarter, in percentage points.
 - `dataDate`: the quarter-end the figures belong to. A metric can carry its own `metricSources[key] = {url, asOf}`; otherwise the file's `source` is used.
-- Check a file before committing: `npm run check-fundamentals -- data/fundamentals/2026-11-21.json`.
+- `pledge` is optional: free sources don't publish it, so a missing value shows as "not checked" on the card. A company with no promoter category gets holding, change and pledge of 0.
+- Build it with `npm run build-fundamentals`; check a file before committing: `npm run check-fundamentals -- data/fundamentals/2026-11-21.json`.

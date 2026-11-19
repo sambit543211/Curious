@@ -37,8 +37,10 @@ Clone, `npm install`, `npm run update-closes -- <date>`. If it wrote a file unde
 
 Build `data/fundamentals/<date>.json` for the Nifty 500 (constituents:
 https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv) in the format of
-`data/fundamentals/README.md`, using `npm run build-fundamentals` when it exists, otherwise published
-company data. Copy numbers as published, never estimate. Run `npm run check-fundamentals -- <file>`;
+`data/fundamentals/README.md` with `npm run build-fundamentals` (Screener.in company pages + NSE files,
+one request at a time; takes ~35 minutes, so run it in chunks of under 10 minutes with the same `--cache`
+directory, e.g. `timeout 570 npm run build-fundamentals -- --cache /tmp/sc`, repeating until it prints
+"Wrote"). Never estimate a number; pledge is not on Screener's public pages and shows as "not checked". Run `npm run check-fundamentals -- <file>`;
 commit only that file and push. Report how many stocks are complete.
 
 Never commit secrets, never force-push, never rewrite earlier editions.

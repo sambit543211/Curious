@@ -57,7 +57,8 @@ export function evaluatePick(stock) {
   const m = stock.metrics ?? {};
   const finance = stock.kind === 'bank' || stock.kind === 'nbfc';
   const common = {
-    pledge:finite(m.pledge) && m.pledge >= 0 && m.pledge < 5,
+    // Pledge data is not always published in free sources: a missing value is 'not checked' (null), never a pass or a fail.
+    pledge:finite(m.pledge) ? m.pledge >= 0 && m.pledge < 5 : null,
     liquidity:floor(m.marketCap, 1000) && floor(m.avgDailyValue, 5)
   };
   const screen = finance ? {
@@ -72,7 +73,7 @@ export function evaluatePick(stock) {
   const inputs = finance ? [m.pbMedian5y, m.bvps] : [m.peMedian5y, m.eps];
   const fairValue = inputs.every(positive) ? cents(inputs[0] * inputs[1]) : null;
   const buyBelow = fairValue === null ? null : cents(fairValue * 0.8);
-  const pass = Object.values(screen).every(Boolean) && positive(stock.price) && positive(buyBelow);
+  const pass = Object.entries(screen).every(([key, ok]) => ok === true || (key === 'pledge' && ok === null)) && positive(stock.price) && positive(buyBelow);
   const verdict = !pass || stock.price > cents(buyBelow * 1.2) ? 'Avoid' : stock.price <= buyBelow ? 'Buy' : 'Wait';
   return {screen, pass, fairValue, buyBelow, verdict};
 }

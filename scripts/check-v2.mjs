@@ -1,11 +1,12 @@
 import assert from 'node:assert/strict';
 import { assembleEdition, eligibleStocks, marketDashboard, publicationErrors, snapshotNames } from '../lib/edition-v2.js';
 import { getDeck, isEdition } from '../public/edition-format.js';
-import { evaluatePick } from '../public/investment-rules.js';
 import { makeLedger } from '../lib/track-record.js';
 import { selectStocks } from '../lib/stock-selection.js';
 import { dipCheck } from '../public/investment-rules.js';
 import { mergeStockInput, parseBhavcopy, parseRange } from '../lib/stock-input.js';
+import { parseCompany } from '../lib/screener.js';
+import { evaluatePick } from '../public/investment-rules.js';
 
 const source = {label:'Sandbox source fixture',url:'https://example.org/fixture'};
 const date = '2026-11-18';
@@ -214,3 +215,35 @@ assert.deepEqual(merged.missingFromNse,['GONE']);
 assert.equal(merged.stocks[0].metrics.pe,34.87); // recomputed from the NSE close, not the stale weekly 99
 assert.equal(merged.stocks[0].metricSources.pe.url,'https://example.org/bhav');
 console.log('Validated stock selection: 52-week-low rules, value-trap guards, quality ranking, sector and repeat limits, writer guards and NSE parsing.');
+
+// Pledge missing from free sources: shown as not checked (null), never blocks or passes silently
+const noPledge = stockRow('NOPLEDGE','Paper',100,{high52:160,low52:95});
+delete noPledge.metrics.pledge;
+assert.equal(evaluatePick(noPledge).screen.pledge,null);
+assert.equal(evaluatePick(noPledge).pass,true);
+assert.equal(evaluatePick({...noPledge,metrics:{...noPledge.metrics,pledge:12}}).pass,false);
+// Screener page parsing (synthetic page in Screener's structure)
+const row = (label,cells) => '<tr><td class="text">' + label + '</td>' + cells.map(c => '<td>' + c + '</td>').join('') + '</tr>';
+const tbl = (id,heads,rows,extra='') => '<section id="' + id + '"><table class="data-table"><thead><tr><th></th>' + heads.map(h => '<th>' + h + '</th>').join('') +
+  '</tr></thead><tbody>' + rows.join('') + '</tbody></table>' + extra + '</section>';
+const years = ['Mar 2022','Mar 2023','Mar 2024','Mar 2025','Mar 2026'];
+const qtrs = ['Sep 2025','Dec 2025','Mar 2026','Jun 2026','Sep 2026'];
+const page = '<div data-company-id="42"></div><ul id="top-ratios"><li><span class="name">Market Cap</span><span class="nowrap value">₹ <span class="number">1,234</span> Cr.</span></li>' +
+  '<li><span class="name">Dividend Yield</span><span class="nowrap value"><span class="number">1.50</span> %</span></li></ul>' +
+  tbl('quarters',qtrs,[row('Sales&nbsp;+',[1,2,3,4,5]),row('Net Profit&nbsp;+',[100,110,120,130,150])]) +
+  tbl('profit-loss',years,[row('Sales',[1,2,3,4,5])],'<table class="ranges-table"><tr><th>Compounded Sales Growth</th></tr><tr><td>10 Years:</td><td>9%</td></tr><tr><td>5 Years:</td><td>12%</td></tr></table>' +
+    '<table class="ranges-table"><tr><th>Compounded Profit Growth</th></tr><tr><td>5 Years:</td><td>-4%</td></tr></table>') +
+  tbl('balance-sheet',years,[row('Equity Capital',[10,10,10,10,10]),row('Reserves',[80,85,88,89,90]),row('Borrowings&nbsp;+',[30,20,10,5,25])]) +
+  tbl('cash-flow',years,[row('Cash from Operating Activity&nbsp;+',[5,-2,7,8,9])]) +
+  tbl('ratios',years,[row('ROCE %',['10%','15%','20%','25%','30%'])]) +
+  tbl('shareholding',qtrs,[row('Promoters&nbsp;+',['50.00%','50.00%','50.00%','51.00%','50.50%'])]);
+const peHistory = from => ({metric:'Price to Earning',values:[[from,20],['2026-11-19',22]]});
+const parsed = parseCompany(page,{datasets:[{metric:'EPS',values:[['2026-10-01',12.5]]},peHistory('2021-11-26'),{metric:'Median PE',values:[['2026-11-19','30.4']]}]});
+const young = parseCompany(page,{datasets:[{metric:'EPS',values:[['2026-10-01',12.5]]},peHistory('2024-11-01'),{metric:'Median PE',values:[['2026-11-19','80']]}]});
+assert.equal(young.metrics.peMedian5y,undefined); // under 4.5 years of P/E history: no 5-year median
+assert.deepEqual(parsed.metrics,{marketCap:1234,divYield:1.5,roce5y:20,de:0.25,salesCagr5y:12,profitCagr5y:-4,ocfPositiveYears:4,
+  profitYoY:50,promoterHolding:50.5,promoterChange:-0.5,eps:12.5,peMedian5y:30.4});
+assert.equal(parsed.dataDate,'2026-09-30');
+const noPromoters = parseCompany(page.replace(/Promoters/,'Public'),null);
+assert.deepEqual([noPromoters.metrics.promoterHolding,noPromoters.metrics.pledge],[0,0]);
+console.log('Validated pledge handling and Screener page parsing.');
