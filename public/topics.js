@@ -6,7 +6,7 @@ export const topics = [
   {id:'markets', name:'Indian Markets', aliases:['indian markets', 'markets'],
     context:'Why it matters for markets'},
   {id:'investing', name:'Stock Investing', aliases:['stock investing', 'investing'],
-    why:'Competitive advantage', context:'Growth case and what to watch'},
+    why:'The backstory', context:'Cheap or expensive?'},
   {id:'tech', name:'AI & Tech', aliases:['ai & tech', 'tech']},
   {id:'mind', name:'Psychology', aliases:['psychology', 'mind']},
   {id:'marketing', name:'Marketing', aliases:['marketing'],

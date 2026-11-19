@@ -57,6 +57,12 @@ published editions and calculates returns from the official NSE closes on the sa
 A non-trading pick date has no invented entry price. For research published after the close, the ledger explicitly uses the next verified session close as its baseline and displays that baseline date; returns stay unavailable until it exists. The ledger is empty until the first screened
 edition is published. Reading progress is stored on this device.
 
+## Writing style
+
+Every card follows `docs/writing-guide.md`: plain words, start from the ground, explain every hard term,
+and tell each story in order (what happened, why, why it matters, what next). Stock cards read as a simple
+company profile: what it does, its growth, good signs, red flags, and whether it is cheap or expensive.
+
 ## Daily publication
 
 Claude's scheduled Morning Edition task (steps in `docs/daily-run.md`) starts at **09:25 a.m. IST**, targeting publication by **10:00 a.m. IST** with a labelled late release when needed. It researches the briefing, saves one dated edition to the `main` branch, and pushes it. Vercel builds the archive index and deploys `main` to production. Each edition becomes available when that build is ready.

@@ -13,7 +13,8 @@ README.md are the whole brief. The owner (GitHub sambit543211) asked Claude to r
    for empty slots.
 3. Research and write the draft (`/tmp/draft.json`) in the shape of `scripts/check-v2.mjs`'s draft and
    the latest edition in `public/editions/`: Top 3, then India, World, Indian Markets (4 cards), Stock
-   Investing (5), AI & Tech, Psychology, Marketing, 5 cards each. Follow the writing rules in
+   Investing (5), AI & Tech, Psychology, Marketing, 5 cards each. Write every card in the voice of docs/writing-guide.md (plain words, start from the ground, explain
+   every hard term, stock cards as a simple company profile) and follow the rules in
    README.md: primary sources first, 90–130 words of prose per card, a `why` that adds background, a
    concrete `soWhat`, one arguable `take`, a specific `watch`, banned phrases avoided, technical terms
    explained. Use web search and fetch; open every page you cite. Dip cards need `whyFell` from news or

@@ -209,7 +209,7 @@ function stockPick(card) {
     if (card.whyFell) lead.push(block('Why it fell', card.whyFell));
   }
   if (card.repeat) lead.push(node('p', 'fine', 'Repeat from ' + dayAndMonth(card.repeat.lastDate) + ': ' + card.repeat.reason + '.'));
-  if (card.thesis?.length) lead.push(block('The case', checklist(card.thesis)));
+  if (card.thesis?.length) lead.push(block('Good signs', checklist(card.thesis)));
   const kind = card.kind === 'bank' || card.kind === 'nbfc' ? 'financial' : 'other';
   const metrics = keyMetrics[kind].filter(key => Number.isFinite(card.metrics?.[key]));
   if (metrics.length) {
@@ -218,7 +218,7 @@ function stockPick(card) {
     lead.push(grid);
   }
   const after = [];
-  if (card.breakers?.length) after.push(block('What would break this', checklist(card.breakers, true)));
+  if (card.breakers?.length) after.push(block('Red flags', checklist(card.breakers, true)));
   const later = [];
   if (card.moat) later.push(block('Moat · ' + card.moat, card.moatWhy ?? ''));
   later.push(block('All fundamentals', table('Fundamentals', ['Metric', 'Value'], Object.entries(card.metrics ?? {})
