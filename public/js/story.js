@@ -24,6 +24,12 @@ export function readingOrder(issue) {
 const words = card => ['headline','summary','why','soWhat','context','take','watch','risk','valuation']
   .map(key => card[key]).concat(card.thesis ?? [], card.breakers ?? [])
   .filter(Boolean).join(' ').split(/\s+/).length;
+export const storyMinutes = card => Math.max(1, Math.round(words(card) / 215));
+export const sourceCount = card => (card.sources ?? (card.sourceUrl ? [card.sourceUrl] : [])).length;
+export const storyMeta = card => {
+  const count = sourceCount(card);
+  return storyMinutes(card) + ' min' + (count ? ' · ' + count + (count === 1 ? ' source' : ' sources') : '');
+};
 export const minutes = stories => Math.max(1, Math.round(stories.reduce((sum, story) => sum + words(story.card), 0) / 215));
 
 export function storyBlocks(topic, card) {

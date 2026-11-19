@@ -24,3 +24,9 @@ export const istMinutes = (date = new Date()) => {
   const [hours, minutes] = istParts.format(date).split(':').map(Number);
   return hours * 60 + minutes;
 };
+
+const weekdayFmt = fmt({weekday:'long'});
+const longDayMonth = fmt({day:'numeric', month:'long'});
+export const weekday = day => weekdayFmt.format(at(day));
+export const dayMonthLong = day => longDayMonth.format(at(day));
+export const fullDate = day => weekday(day) + ' ' + dayMonthLong(day);

@@ -48,7 +48,9 @@ On iPhone, open the production address in Safari, select **Share → Add to Home
 
 ## Frontend layout
 
-`public/app.js` is the entry point. It wires the modules in `public/js/`: `catalog.js` (loading editions), `state.js` (what is on screen), `progress.js` (reading progress on this device), `home.js` (the edition page), `reader.js` and `story-view.js` (the story reader), `story.js` (what a story shows up front and under "More"), `archive.js` and `settings.js`. Older (pre-v2) editions are handled in `public/edition-format.js` and `story.js`; their files are left unchanged so saved reading progress keeps matching. All styles are in `public/style.css`.
+The app is dark by default (light and automatic are in Settings) and is built to run from the iPhone Home Screen: full screen, safe-area aware, with a bottom tab bar (Today, Editions, Stocks, Settings), a floating Continue button and a full-screen story reader. Fonts are Newsreader (news text) and Inter (interface and figures), self-hosted under `public/fonts` with their OFL licences.
+
+`public/app.js` is the entry point. It wires the modules in `public/js/`: `catalog.js` (loading editions), `state.js` (what is on screen), `progress.js` (reading progress on this device), `streak.js` (the daily reading streak), `views.js` (tabs and the condensing top bar), `home.js` (Today), `editions.js` (the calendar), `stocks.js` (picks and track record), `settings.js` (alerts), `reader.js` and `story-view.js` (the story reader) and `story.js` (what a story shows up front and under "More"). Older (pre-v2) editions are handled in `public/edition-format.js` and `story.js`; their files are left unchanged so saved reading progress keeps matching. All styles are in `public/style.css`. `/track-record.html` redirects to the Stocks tab.
 
 ## Optional morning alerts
 

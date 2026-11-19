@@ -2,46 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#f7f5f0">
-<meta name="color-scheme" content="light dark">
-<link rel="icon" href="/images/icon-192.png">
-<script src="/theme.js"></script>
-<link rel="stylesheet" href="/style.css">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="refresh" content="0; url=/#stocks">
 <title>Track record · Morning Edition</title>
-<script type="module" src="/track-record.js"></script>
+<script>location.replace('/#stocks');</script>
 </head>
-<body>
-<a class="skip-link" href="#track">Skip to track record</a>
-<header class="mast"><div class="mast-inner">
-  <a href="/" class="wordmark"><img src="/images/icon-192.png" width="28" height="28" alt=""><span>Morning Edition</span></a>
-  <a class="icon-button" href="/" aria-label="Back to the edition"><span data-icon="close"></span></a>
-</div></header>
-<div class="layout">
-  <main class="page track-page" id="track">
-    <div class="track-head">
-      <h1>Track record</h1>
-      <p>How screened stock picks have done since they were published, measured with official NSE closing prices.</p>
-    </div>
-    <p id="track-status" class="track-empty" role="status">Loading pick history…</p>
-    <div id="stats" class="stats" hidden></div>
-    <div class="track-bar" id="track-bar" hidden>
-      <h2 id="positions-title">Picks</h2>
-      <label>Sort
-        <select id="sort">
-          <option value="date">Newest</option>
-          <option value="best">Best return</option>
-          <option value="worst">Worst return</option>
-          <option value="symbol">A–Z</option>
-        </select>
-      </label>
-    </div>
-    <ul id="positions" class="positions"></ul>
-    <footer class="track-foot">
-      <p>Returns compare NSE closing prices on matched dates and exclude dividends. A stock picked again in later editions is counted once, from its first pick.</p>
-      <p id="disclaimer"></p>
-    </footer>
-  </main>
-</div>
+<body style="background:#0b0b0e;color:#f5f4f0;font-family:system-ui,sans-serif">
+<p>The track record now lives in the <a href="/#stocks" style="color:#8fa6ff">Stocks tab</a>.</p>
 </body>
 </html>

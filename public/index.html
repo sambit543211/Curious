@@ -1,123 +1,205 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-appearance="dark">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#f7f5f0">
-<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#0b0b0e">
+<meta name="color-scheme" content="dark light">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Morning Edition">
-<meta name="description" content="Your daily briefing and Indian stock research. Browse past editions and read at your own pace.">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="Your daily briefing and Indian stock research. Read at your own pace, even offline.">
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="apple-touch-icon" href="/images/icon-192.png">
 <link rel="icon" href="/images/icon-192.png">
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin>
 <script src="/theme.js"></script>
 <link rel="stylesheet" href="/style.css">
 <title>Morning Edition</title>
 <script type="module" src="/app.js"></script>
 </head>
 <body>
-<a class="skip-link" href="#briefing">Skip to briefing</a>
-<header class="mast">
-  <div class="mast-inner">
-    <a href="/" class="wordmark"><img src="/images/icon-192.png" alt="" width="28" height="28"><span>Morning Edition</span></a>
-    <div class="mast-actions">
-      <button id="open-archive" class="icon-button" type="button" aria-haspopup="dialog" aria-label="Past editions" disabled><span data-icon="calendar"></span></button>
-      <button id="open-settings" class="icon-button" type="button" aria-haspopup="dialog" aria-label="Settings"><span data-icon="settings"></span></button>
-    </div>
+<a class="skip-link" href="#app">Skip to content</a>
+
+<header class="topbar" id="topbar">
+  <div class="topbar-row">
+    <a href="/" class="wordmark"><span class="app-mark"><span data-icon="sunrise"></span></span>Morning Edition</a>
+    <nav class="topnav" aria-label="Main">
+      <a class="tab" href="#today" data-tab="today"><span data-icon="sunrise"></span>Today</a>
+      <a class="tab" href="#editions" data-tab="editions"><span data-icon="calendar"></span>Editions</a>
+      <a class="tab" href="#stocks" data-tab="stocks"><span data-icon="chart"></span>Stocks</a>
+      <a class="tab" href="#settings" data-tab="settings"><span data-icon="sliders"></span>Settings</a>
+    </nav>
+    <p class="topbar-title" id="topbar-title" aria-hidden="true"></p>
+    <span class="topbar-meta" id="topbar-meta" aria-hidden="true"></span>
   </div>
+  <nav class="chips" id="chips" aria-label="Jump to a section"></nav>
 </header>
 
-<div class="layout">
-  <nav class="toc" aria-label="Sections">
-    <ol id="toc"></ol>
-    <a class="toc-link" href="/track-record.html">Track record</a>
-  </nav>
+<main id="app">
+  <section class="view" id="view-today" aria-labelledby="today-title" aria-busy="true">
+    <div class="today">
+      <div class="hero">
+        <p class="hero-meta"><span id="edition-meta">Loading…</span><span class="app-mark" aria-hidden="true"><span data-icon="sunrise"></span></span></p>
+        <h1 class="large-title" id="today-title">Morning Edition</h1>
+        <p class="note" id="edition-note" role="status"></p>
+      </div>
 
-  <main id="briefing" class="page" aria-busy="true">
-    <section class="edition-head" aria-labelledby="edition-date">
-      <div class="edition-meta">
-        <p id="edition-kicker" class="kicker">Loading</p>
-        <div class="edition-steps">
-          <button id="older" class="icon-button" type="button" aria-label="Previous edition" disabled><span data-icon="left"></span></button>
-          <button id="newer" class="icon-button" type="button" aria-label="Next edition" disabled><span data-icon="right"></span></button>
+      <aside class="rail" aria-label="Your progress and markets">
+        <section class="card progress-card" aria-labelledby="progress-title">
+          <div class="progress-top">
+            <svg class="ring" viewBox="0 0 52 52" aria-hidden="true"><circle class="ring-track" cx="26" cy="26" r="22"></circle><circle class="ring-fill" id="ring-fill" cx="26" cy="26" r="22" stroke-dasharray="0 139"></circle></svg>
+            <span class="progress-text"><strong id="progress-title">Loading</strong><span id="progress-sub"></span></span>
+          </div>
+          <div class="topic-bars" id="topic-bars" aria-hidden="true"></div>
+          <button class="button primary" id="resume-inline" type="button"><span id="resume-inline-label">Start reading</span><span data-icon="arrow"></span></button>
+        </section>
+
+        <section id="markets" aria-labelledby="markets-title" hidden>
+          <div class="markets-head"><h2 class="section-title" id="markets-title">Markets</h2><span id="markets-stamp"></span></div>
+          <div class="tiles" id="market-tiles"></div>
+        </section>
+      </aside>
+
+      <section class="top-stories" id="top-stories" aria-labelledby="top-title" hidden>
+        <h2 class="section-title" id="top-title">Today’s top stories</h2>
+        <ol class="top-list" id="top-list"></ol>
+      </section>
+
+      <div class="sections" id="sections"></div>
+      <p class="today-foot" id="today-foot">Reading progress and your streak are saved on this device.</p>
+    </div>
+  </section>
+
+  <section class="view" id="view-editions" aria-labelledby="editions-title" hidden>
+    <div class="editions view-narrow">
+      <h1 class="large-title" id="editions-title">Editions</h1>
+      <div class="month">
+        <strong id="month-name"></strong>
+        <div>
+          <button class="icon-button" id="month-prev" type="button" aria-label="Previous month"><span data-icon="left"></span></button>
+          <button class="icon-button" id="month-next" type="button" aria-label="Next month"><span data-icon="right"></span></button>
         </div>
       </div>
-      <h1 id="edition-date">Morning Edition</h1>
-      <p id="edition-note" class="edition-note" role="status"></p>
-      <button id="resume" class="continue" type="button" disabled>
-        <span class="continue-text"><strong id="resume-label">Start reading</strong><span id="resume-meta"></span></span>
-        <span data-icon="arrow"></span>
-        <span class="continue-track" aria-hidden="true"><span id="resume-fill"></span></span>
-      </button>
-    </section>
+      <div class="weekdays" aria-hidden="true"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div>
+      <div class="calendar" id="calendar"></div>
+      <div class="legend" aria-hidden="true"><span><i></i>Read</span><span><i class="started"></i>Started</span><span><i class="unopened"></i>Not opened</span></div>
+      <section class="card day-card" id="day-card" aria-live="polite" hidden>
+        <small id="day-date"></small>
+        <strong id="day-headline"></strong>
+        <span id="day-progress"></span>
+        <button class="button primary" id="day-open" type="button"><span id="day-open-label">Open this edition</span><span data-icon="arrow"></span></button>
+      </section>
+    </div>
+  </section>
 
-    <section id="top-stories" class="top-stories" aria-labelledby="top-title" hidden>
-      <h2 id="top-title" class="section-kicker">Top stories</h2>
-      <ol id="top-list"></ol>
-    </section>
+  <section class="view" id="view-stocks" aria-labelledby="stocks-title" hidden>
+    <div class="stocks view-narrow">
+      <div class="view-head">
+        <h1 class="large-title" id="stocks-title">Stocks</h1>
+        <p>Screened research on Indian listed companies, and how earlier picks have done since.</p>
+      </div>
+      <section aria-labelledby="picks-title">
+        <h2 class="section-title" id="picks-title">In this edition</h2>
+        <ul class="pick-list" id="stock-picks"></ul>
+        <p class="empty" id="picks-empty" hidden>This edition has no stock research.</p>
+      </section>
+      <section aria-labelledby="track-title">
+        <div class="track-bar">
+          <h2 class="section-title" id="track-title">Track record</h2>
+          <label>Sort <select id="sort"><option value="date">Newest</option><option value="best">Best return</option><option value="worst">Worst return</option><option value="symbol">A–Z</option></select></label>
+        </div>
+        <div class="stats" id="stats" hidden></div>
+        <p class="empty" id="track-status" role="status">Loading pick history…</p>
+        <ul class="positions" id="positions"></ul>
+        <p class="fine" id="track-method">Returns compare official NSE closing prices on matched dates and exclude dividends. A stock picked again later counts once, from its first pick.</p>
+        <p class="fine" id="stock-disclaimer"></p>
+      </section>
+    </div>
+  </section>
 
-    <div id="sections"></div>
+  <section class="view" id="view-settings" aria-labelledby="settings-title" hidden>
+    <div class="settings view-narrow">
+      <h1 class="large-title" id="settings-title">Settings</h1>
+      <fieldset class="setting" id="appearance">
+        <legend>Appearance</legend>
+        <div class="segmented">
+          <label><input type="radio" name="appearance" value="dark" checked><span><span data-icon="moon"></span>Dark</span></label>
+          <label><input type="radio" name="appearance" value="light"><span><span data-icon="sun"></span>Light</span></label>
+          <label><input type="radio" name="appearance" value="system"><span><span data-icon="system"></span>Automatic</span></label>
+        </div>
+      </fieldset>
+      <section class="setting" id="alerts" aria-labelledby="alerts-title" hidden>
+        <h2 id="alerts-title">Morning alert</h2>
+        <p>Get a notification when the day’s edition is published. On iPhone this works once the app is on your Home Screen.</p>
+        <button class="button primary" id="enable-push" type="button">Turn on alerts</button>
+        <p id="push-status" role="status"></p>
+      </section>
+      <section class="setting" aria-labelledby="install-title">
+        <h2 id="install-title">Add to Home Screen</h2>
+        <p>In Safari, tap <strong>Share</strong>, then <strong>Add to Home Screen</strong>. Morning Edition then opens full screen like an app and keeps today’s edition for offline reading.</p>
+      </section>
+      <section class="setting" aria-labelledby="privacy-title">
+        <h2 id="privacy-title">Your reading</h2>
+        <p>Progress and your streak stay on this device. Nothing about your reading is sent anywhere.</p>
+      </section>
+    </div>
+  </section>
+</main>
 
-    <footer class="page-foot">
-      <a href="/track-record.html">Track record</a>
-      <span aria-hidden="true">·</span>
-      <span>Reading progress is saved on this device.</span>
-    </footer>
-  </main>
-</div>
+<button class="fab" id="resume" type="button" disabled>
+  <span class="fab-text"><strong id="resume-label">Start reading</strong><span id="resume-meta"></span></span>
+  <span class="fab-go"><span data-icon="arrow"></span></span>
+</button>
+
+<nav class="tabbar" aria-label="Main">
+  <a class="tab" href="#today" data-tab="today"><span data-icon="sunrise"></span>Today</a>
+  <a class="tab" href="#editions" data-tab="editions"><span data-icon="calendar"></span>Editions</a>
+  <a class="tab" href="#stocks" data-tab="stocks"><span data-icon="chart"></span>Stocks</a>
+  <a class="tab" href="#settings" data-tab="settings"><span data-icon="sliders"></span>Settings</a>
+</nav>
 
 <dialog class="reader" id="reader" aria-labelledby="reader-title">
-  <header class="reader-bar">
-    <p class="reader-where"><strong id="reader-topic"></strong> <span id="reader-position"></span></p>
-    <button id="reader-close" class="icon-button" type="button" aria-label="Close story"><span data-icon="close"></span></button>
-    <span class="reader-track" aria-hidden="true"><span id="reader-fill"></span></span>
+  <header class="reader-bar" id="reader-bar">
+    <div class="reader-row">
+      <button class="icon-button" id="reader-close" type="button" aria-label="Close story"><span data-icon="down"></span></button>
+      <p class="reader-where"><strong id="reader-topic"></strong> <span id="reader-position"></span></p>
+      <button class="icon-button" id="reader-share" type="button" aria-label="Share story"><span data-icon="share"></span></button>
+    </div>
+    <div class="segments" id="reader-segments" aria-hidden="true"></div>
   </header>
   <div class="reader-scroll" id="reader-scroll"></div>
-  <div class="reader-finish" id="reader-finish" hidden>
-    <p class="kicker">Edition complete</p>
-    <h2 id="finish-title" tabindex="-1">You’re all caught up</h2>
-    <p id="finish-meta"></p>
-    <button id="finish-close" class="button primary" type="button">Back to the edition</button>
-  </div>
   <footer class="reader-nav" id="reader-nav">
-    <button id="previous" class="button quiet" type="button"><span data-icon="left"></span><span>Previous</span></button>
-    <button id="next" class="button primary" type="button"><span id="next-label">Next</span><span id="next-icon" data-icon="arrow"></span></button>
+    <button class="nav-prev" id="previous" type="button" aria-label="Previous story"><span data-icon="left"></span></button>
+    <button class="nav-next" id="next" type="button">
+      <span class="nav-next-text"><span id="next-kicker">Up next</span><strong id="next-title"></strong></span>
+      <span class="fab-go"><span id="next-icon" data-icon="arrow"></span></span>
+    </button>
   </footer>
-  <p class="visually-hidden" aria-live="polite" id="reader-announcement"></p>
-</dialog>
-
-<dialog class="sheet" id="archive" aria-labelledby="archive-title">
-  <div class="sheet-head">
-    <h2 id="archive-title">Past editions</h2>
-    <button id="archive-close" class="icon-button" type="button" aria-label="Close"><span data-icon="close"></span></button>
-  </div>
-  <p id="archive-message" class="sheet-message" role="status"></p>
-  <div id="archive-list" class="archive-list"></div>
-</dialog>
-
-<dialog class="sheet" id="settings" aria-labelledby="settings-title">
-  <div class="sheet-head">
-    <h2 id="settings-title">Settings</h2>
-    <button id="settings-close" class="icon-button" type="button" aria-label="Close"><span data-icon="close"></span></button>
-  </div>
-  <fieldset class="setting" id="appearance">
-    <legend>Appearance</legend>
-    <div class="segmented">
-      <label><input type="radio" name="appearance" value="system" checked><span><span data-icon="system"></span>System</span></label>
-      <label><input type="radio" name="appearance" value="light"><span><span data-icon="sun"></span>Light</span></label>
-      <label><input type="radio" name="appearance" value="dark"><span><span data-icon="moon"></span>Dark</span></label>
+  <div class="finish" id="reader-finish" hidden>
+    <button class="icon-button finish-close" id="finish-x" type="button" aria-label="Close"><span data-icon="close"></span></button>
+    <div class="finish-body">
+      <svg width="112" height="80" viewBox="0 0 112 80" aria-hidden="true"><path d="M22 62a34 34 0 0 1 68 0Z" fill="var(--sun)"></path><path d="M56 6v10M24 20l7 7M88 20l-7 7M8 46h10M94 46h10" stroke="var(--sun)" stroke-width="4" stroke-linecap="round"></path><path d="M8 70h96M28 78h56" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"></path></svg>
+      <h2 id="finish-title" tabindex="-1">You’re caught up.</h2>
+      <p id="finish-meta"></p>
+      <section class="card streak-card" id="streak-card" aria-labelledby="streak-title">
+        <div class="streak-head"><strong id="streak-title"></strong><span id="streak-best"></span></div>
+        <div class="week" id="streak-week"></div>
+      </section>
+      <section class="catchup" id="catchup" hidden>
+        <span><strong id="catchup-title"></strong><small id="catchup-meta"></small></span>
+        <button class="button" id="catchup-open" type="button">Open</button>
+      </section>
     </div>
-  </fieldset>
-  <section class="setting" id="alerts" aria-labelledby="alerts-title" hidden>
-    <h3 id="alerts-title">Morning alerts</h3>
-    <p>Get a notification when the day’s edition is published.</p>
-    <button id="enable-push" class="button primary" type="button">Turn on alerts</button>
-    <p id="push-status" class="sheet-message" role="status"></p>
-  </section>
-  <section class="setting">
-    <h3>Add to Home Screen</h3>
-    <p>On iPhone, open this page in Safari and tap <strong>Share → Add to Home Screen</strong>.</p>
-  </section>
+    <div class="finish-actions">
+      <button class="button" id="finish-remind" type="button" hidden>Remind me at 10 AM</button>
+      <button class="button primary" id="finish-close" type="button">Back to today</button>
+    </div>
+  </div>
+  <p class="visually-hidden" aria-live="polite" id="reader-announcement"></p>
 </dialog>
 </body>
 </html>

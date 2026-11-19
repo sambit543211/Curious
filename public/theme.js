@@ -3,9 +3,10 @@
   const system = matchMedia('(prefers-color-scheme: dark)');
   const root = document.documentElement;
   const themeColor = document.querySelector('meta[name="theme-color"]');
-  const paper = {light:'#f7f5f0', dark:'#17141c'};
-  const resolve = value => value === 'light' || value === 'dark' ? value : 'system';
-  let choice = 'system';
+  const paper = {light:'#fafaf7', dark:'#0b0b0e'};
+  // Dark is the default; "system" follows the device.
+  const resolve = value => value === 'light' || value === 'system' ? value : 'dark';
+  let choice = 'dark';
   try { choice = resolve(localStorage.getItem(key)); } catch { /* Use the system appearance. */ }
 
   function apply() {
