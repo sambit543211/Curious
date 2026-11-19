@@ -383,7 +383,7 @@ p { margin: 0; }
 .pick-row .story-meta { color: var(--ink-2); font-weight: 600; }
 .pick-row .story-headline { font-size: 16px; line-height: 22px; }
 .pick-side { display: grid; justify-items: end; gap: 6px; color: var(--ink-2); font-size: 12px; font-variant-numeric: tabular-nums; }
-.pick-row.is-read { opacity: .6; }
+.pick-row.is-read .story-headline { color: var(--ink-3); font-weight: 500; }
 .today-foot { padding: 8px 0 0; color: var(--ink-3); font-size: 13px; }
 
 /* ---------- Reader ---------- */
