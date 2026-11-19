@@ -1,5 +1,7 @@
 import { readFile, readdir } from 'node:fs/promises';
-import { eligibleStocks, marketDashboard } from '../lib/edition-v2.js';
+import { marketDashboard } from '../lib/edition-v2.js';
+import { selectStocks } from '../lib/stock-selection.js';
+import { buildStockInput } from '../lib/stock-input.js';
 import { getDeck, indianDay, isDay, isSunday, sourceLink } from '../public/edition-format.js';
 import { makeLedger, readCloses } from '../lib/track-record.js';
 
@@ -32,13 +34,15 @@ export async function prepareInputs(date, options, history) {
   const useFundamentals = stage !== 'market';
   const useMarket = stage !== 'draft' && !isSunday(date);
   const [fundamentals, market, closes] = await Promise.all([
-    useFundamentals ? fetchInput(options.fundamentals ?? process.env.MORNING_FUNDAMENTALS_URL,date,'MORNING_FUNDAMENTALS') : null,
+    useFundamentals ? (options.fundamentals || process.env.MORNING_FUNDAMENTALS_URL ?
+      fetchInput(options.fundamentals ?? process.env.MORNING_FUNDAMENTALS_URL,date,'MORNING_FUNDAMENTALS') :
+      buildStockInput(date)) : null,
     useMarket ? fetchInput(options.market ?? process.env.MORNING_MARKET_URL,date,'MORNING_MARKET') : null,
     useFundamentals ? readCloses() : []
   ]);
   if ((useFundamentals && fundamentals?.date !== date) || (useMarket && market?.date !== date)) throw new Error('Input must identify the requested IST edition date');
-  const picks = fundamentals ? eligibleStocks(fundamentals.stocks,date) : [];
-  if (useFundamentals && picks.length < 3 && !fundamentals.unavailableReason?.trim()) throw new Error('Fewer than three screened stocks: document unavailableReason rather than invent a candidate');
+  const selection = fundamentals ? selectStocks(fundamentals.stocks,date,history) : null;
+  const picks = selection ? [...selection.dips,...selection.picks] : [];
   const facts = [...(market?.facts ?? []),...(fundamentals?.facts ?? []), ...picks.flatMap(stock => [
     {value:stock.price,...stock.metricSources?.price},
     ...Object.entries(stock.metrics).filter(([,value]) => Number.isFinite(value))
@@ -70,7 +74,10 @@ export async function prepareInputs(date, options, history) {
     for (const value of [price,weekly].filter(Number.isFinite)) facts.push({value,url:latest.equitiesSource,asOf:latest.date});
     return [{symbol:item.symbol,pickDate:item.date,status:item.status,price,weekly,reason}];
   });
-  return {date, dashboard, picks, facts, ...(fundamentals?.unavailableReason ? {fundamentalsUnavailable:fundamentals.unavailableReason} : {}), watchlist:{dataDate:latest?.date ?? null,entries,picks:tracked.rows.map(({date,symbol,status}) => ({date,symbol,status}))},
+  return {date, dashboard, picks, facts,
+    ...(selection ? {selection:{dips:selection.dips.map(s => s.symbol),picks:selection.picks.map(s => s.symbol),counts:selection.counts,shortfall:selection.shortfall,
+      session:fundamentals.session ?? null,fundamentalsDate:fundamentals.fundamentalsDate ?? null,missingFromNse:fundamentals.missingFromNse ?? []}} : {}),
+    ...(fundamentals?.unavailableReason ? {fundamentalsUnavailable:fundamentals.unavailableReason} : {}), watchlist:{dataDate:latest?.date ?? null,entries,picks:tracked.rows.map(({date,symbol,status}) => ({date,symbol,status}))},
     recentConcepts:history.filter(issue => issue.date < date &&
       Date.parse(date)-Date.parse(issue.date) <= 60*86400000).flatMap(issue => getDeck(issue,'mind').map(card => card.concept ?? card.label))};
 }

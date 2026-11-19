@@ -12,7 +12,9 @@
     "build": "node scripts/build-editions.mjs",
     "prepare-v2": "node scripts/prepare-v2.mjs",
     "publish-v2": "node scripts/publish-v2.mjs",
-    "update-closes": "node scripts/update-closes.mjs"
+    "update-closes": "node scripts/update-closes.mjs",
+    "stock-input": "node scripts/stock-input.mjs",
+    "check-fundamentals": "node scripts/check-fundamentals.mjs"
   },
   "dependencies": {
     "web-push": "3.6.7"

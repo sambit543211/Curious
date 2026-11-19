@@ -1,5 +1,5 @@
 // Builds the article for one story in the reader.
-import { metricLabels, researchFooter, screenLabels } from '../investment-rules.js';
+import { dipCheck, dipLabels, isPosition, metricLabels, researchFooter, screenLabels } from '../investment-rules.js';
 import { sourceLink } from '../edition-format.js';
 import { icon, node } from './dom.js';
 import { dayAndMonth, formatNumber, percent, rupees, trend } from './format.js';
@@ -200,6 +200,15 @@ function stockPick(card) {
     verdict.append(node('p', 'verdict-note', part(gap, 'the buy price') + (fairGap === null ? '.' : ', ' + part(fairGap, 'fair value') + '.')));
   }
   const lead = [verdict];
+  if (card.slot === 'dip' && card.dip) {
+    const signed = value => Number.isFinite(value) ? (value > 0 ? '+' : '') + formatNumber(value) + '%' : '—';
+    const range = node('div', 'grid-4');
+    range.append(stat('From 52w high', signed(card.dip.fromHigh)), stat('From 52w low', signed(card.dip.fromLow)),
+      stat('Sector from high', signed(card.dip.sectorFromHigh)), stat('Fall', card.dip.fall === 'sector-wide' ? 'Sector-wide' : card.dip.fall === 'stock-specific' ? 'This stock' : 'No peers'));
+    lead.push(range);
+    if (card.whyFell) lead.push(block('Why it fell', card.whyFell));
+  }
+  if (card.repeat) lead.push(node('p', 'fine', 'Repeat from ' + dayAndMonth(card.repeat.lastDate) + ': ' + card.repeat.reason + '.'));
   if (card.thesis?.length) lead.push(block('The case', checklist(card.thesis)));
   const kind = card.kind === 'bank' || card.kind === 'nbfc' ? 'financial' : 'other';
   const metrics = keyMetrics[kind].filter(key => Number.isFinite(card.metrics?.[key]));
@@ -214,15 +223,17 @@ function stockPick(card) {
   if (card.moat) later.push(block('Moat · ' + card.moat, card.moatWhy ?? ''));
   later.push(block('All fundamentals', table('Fundamentals', ['Metric', 'Value'], Object.entries(card.metrics ?? {})
     .filter(([key, value]) => metricLabels[key] && Number.isFinite(value)).map(([key, value]) => [metricLabels[key], formatNumber(value)]))));
-  later.push(block('Screen', table('Screen results', ['Test', 'Result'], Object.entries(card.screen ?? {})
-    .map(([key, pass]) => [screenLabels[key] ?? key, node('span', pass ? 'up' : 'down', pass ? 'Pass' : 'Fail')]))));
+  const dipTests = card.slot === 'dip' ? Object.entries(dipCheck(card).tests).map(([key, pass]) => [dipLabels[key] ?? key, pass]) : [];
+  later.push(block('Screen', table('Screen results', ['Test', 'Result'], [...Object.entries(card.screen ?? {})
+    .map(([key, pass]) => [screenLabels[key] ?? key, pass]), ...dipTests]
+    .map(([label, pass]) => [label, node('span', pass ? 'up' : 'down', pass ? 'Pass' : 'Fail')]))));
   later.push(node('p', 'fine', 'Fundamentals as of ' + card.dataDate + ' · quote from ' + card.quoteDate));
   return {lead, after, later};
 }
 
 function dataFor(topic, card) {
   if (card.kind === 'dashboard') return {...dashboard(card), first:true};
-  if (card.slot === 'pick' || card.slot === 'weekly') return {...stockPick(card), first:true};
+  if (isPosition(card)) return {...stockPick(card), first:true};
   const lead = [];
   if (card.slot === 'watchlist' && card.entries?.length) {
     lead.push(table('Watchlist', ['Stock', 'Signal', 'Close', 'Week'],

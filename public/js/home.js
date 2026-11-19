@@ -1,5 +1,6 @@
 // The Today tab: progress, markets, top stories and every topic.
 import { getDeck, indianDay, sectionIds } from '../edition-format.js';
+import { isPosition } from '../investment-rules.js';
 import { topicName } from '../topics.js';
 import { dates } from './catalog.js';
 import { $, icon, node } from './dom.js';
@@ -76,13 +77,13 @@ function topList(issue) {
 function storyRow(story) {
   const item = node('li');
   const {card} = story;
-  const pick = card.verdict && (card.slot === 'pick' || card.slot === 'weekly');
+  const pick = isPosition(card);
   const row = node('button', pick ? 'pick-row' : 'story-row');
   row.type = 'button';
   row.dataset.key = story.key;
   const text = node('span', 'story-text');
   if (pick) {
-    text.append(node('span', 'story-meta', [card.symbol, card.sector].filter(Boolean).join(' · ')), node('span', 'story-headline', card.headline));
+    text.append(node('span', 'story-meta', [card.symbol, card.sector, card.slot === 'dip' ? '52-week low' : null, card.weekly ? 'Buy of the week' : null].filter(Boolean).join(' · ')), node('span', 'story-headline', card.headline));
     const side = node('span', 'pick-side');
     side.append(node('span', 'tag tag-' + card.verdict.toLowerCase(), card.verdict), node('span', '', 'below ' + rupees(Math.round(card.buyBelow))));
     row.append(text, side);
@@ -108,7 +109,7 @@ function topicSection(topic) {
   bar.setAttribute('aria-hidden', 'true');
   head.append(title, bar, node('span', 'topic-count'));
   const stories = state.order.filter(story => story.topic === topic);
-  const picks = stories.filter(story => story.card.verdict && (story.card.slot === 'pick' || story.card.slot === 'weekly'));
+  const picks = stories.filter(story => isPosition(story.card));
   const rest = stories.filter(story => !picks.includes(story));
   section.append(head);
   if (picks.length) {

@@ -3,12 +3,16 @@ import { assembleEdition, eligibleStocks, marketDashboard, publicationErrors, sn
 import { getDeck, isEdition } from '../public/edition-format.js';
 import { evaluatePick } from '../public/investment-rules.js';
 import { makeLedger } from '../lib/track-record.js';
+import { selectStocks } from '../lib/stock-selection.js';
+import { dipCheck } from '../public/investment-rules.js';
+import { mergeStockInput, parseBhavcopy, parseRange } from '../lib/stock-input.js';
 
 const source = {label:'Sandbox source fixture',url:'https://example.org/fixture'};
 const date = '2026-11-18';
 const evidence = {url:source.url,asOf:'2026-11-17'};
 const metrics = {roce5y:18,de:0.2,salesCagr5y:15,profitCagr5y:12,ocfPositiveYears:5,
-  pe:12,peMedian5y:18,peg:1,eps:10,divYield:2,promoterHolding:40,pledge:0,marketCap:2300,avgDailyValue:12};
+  pe:12,peMedian5y:18,peg:1,eps:10,divYield:2,promoterHolding:40,pledge:0,marketCap:2300,avgDailyValue:12,
+  high52:125,low52:90,profitYoY:8,promoterChange:0};
 const bases = [
   {date:'2025-12-31',level:90},{date:'2026-10-18',level:95},
   {date:'2026-11-11',level:98},{date:'2026-11-17',level:100}
@@ -19,11 +23,16 @@ const market = {
   flows:{...evidence,fii:11,dii:-12,fiiMtd:25,diiMtd:-5},
   niftyPE:{...evidence,now:20,median5y:19}
 };
-const examples = ['ALPHA','BETA','GAMMA'].map((symbol,index) => ({
-  symbol,sector:['Industrials','Software','Consumer'][index],kind:'non-financial',price:120+index,
-  dataDate:evidence.asOf,quoteDate:evidence.asOf,metrics,sources:[source],
-  metricSources:Object.fromEntries(['price',...Object.keys(metrics)].map(key => [key,evidence]))
-}));
+const stockRow = (symbol,sector,price,extra={}) => {
+  const values = {...metrics,...extra};
+  return {symbol,sector,kind:'non-financial',price,dataDate:evidence.asOf,quoteDate:evidence.asOf,metrics:values,sources:[source],
+    metricSources:Object.fromEntries(['price',...Object.keys(values)].map(key => [key,evidence]))};
+};
+const examples = ['ALPHA','BETA','GAMMA'].map((symbol,index) => stockRow(symbol,['Industrials','Software','Consumer'][index],120,{roce5y:18+index}));
+const dipStocks = [stockRow('DIPA','Chemicals',100,{high52:160,low52:95}),stockRow('DIPB','Textiles',101,{high52:150,low52:96})];
+const selected = selectStocks([...dipStocks,...examples],date,[]);
+assert.deepEqual(selected.dips.map(s => s.symbol),['DIPA','DIPB']);
+assert.deepEqual(selected.picks.map(s => s.symbol),['GAMMA','BETA','ALPHA']);
 const narratives = {
   summary:'The committee opened a public consultation on new rules for wholesale providers. Companies must submit operational evidence before the public hearing, and the proposal applies to new contracts.',
   why:'An earlier procurement dispute exposed inconsistent bidding criteria. Local officials want clearer requirements because recent audits found large differences between competitive tenders and awards made under emergency procedures.',
@@ -36,11 +45,13 @@ const card = (id,rank,other={}) => ({
   ...narratives,image:null,terms:[],sources:[source],...other
 });
 const deck = (topic,beats) => beats.map((beat,i) => card(topic + '-' + ['first','second','third','fourth','fifth'][i],i+1,{beat}));
-const stockPicks = examples.map(({symbol},i) => card(symbol,i+1,{
+const stockCard = (symbol,i,extra={}) => card(symbol,i+1,{
   symbol,moat:'Switching cost',moatWhy:'Moving contracts requires a separate migration.',
   thesis:['Renewals support recurring revenue.','New distribution channels widen the addressable market.','The price is below the screened buy-below level.'],
-  breakers:['Renewals decline across major cohorts.','A competing standard makes migration cheaper.']
-}));
+  breakers:['Renewals decline across major cohorts.','A competing standard makes migration cheaper.'],...extra
+});
+const whyFell = 'Weak demand in export markets hit the whole sector after a large customer cut orders.';
+const stockPicks = [stockCard('DIPA',0,{whyFell}),stockCard('DIPB',1,{whyFell}),stockCard('GAMMA',2),stockCard('BETA',3),stockCard('ALPHA',4)];
 const draft = {
   date,top3:[{cardId:'india-first',line:'Policy consultation opens'},{cardId:'world-first',line:'Bilateral negotiations begin'},
     {cardId:'markets-dashboard',line:'Markets snapshot'}],
@@ -48,7 +59,7 @@ const draft = {
     india:deck('india',['policy','policy','business','society','wildcard']),
     world:deck('world',['geopolitics','geopolitics','economy','us-china','wildcard']).map(item => ({...item,indiaLink:'Monitor shipping demand in India.'})),
     markets:{dashboard:card('markets-dashboard',1),cards:deck('markets',['sector','result','ipo','flows']).map((item,i) => ({...item,rank:i+2}))},
-    investing:[...stockPicks,card('stock-watchlist',4),card('stock-lesson',5,{exampleMetric:{symbol:'ALPHA',metric:'roce5y'}})],
+    investing:stockPicks,
     tech:deck('tech',['launch','launch','policy','india','deal']).map(item => ({...item,tryThis:'Try the published demonstration.'})),
     psychology:deck('psychology',['first','second','third','fourth','fifth']).map((item,i) => ({...item,concept:'Unique concept ' + i,
       study:{authors:'Sandbox authors',year:i<3?2012:2025,published:i<3?'2012-05-01':'2025-04-12',sample:50,era:i<3?'classic':'recent'},
@@ -59,7 +70,8 @@ const draft = {
   }
 };
 const dashboard = marketDashboard(market,date);
-const prepared = {picks:eligibleStocks(examples,date),dashboard,facts:[],watchlist:{entries:[],dataDate:evidence.asOf}};
+const prepared = {picks:[...selected.dips,...selected.picks],selection:{dips:selected.dips.map(s => s.symbol),picks:selected.picks.map(s => s.symbol),shortfall:selected.shortfall},
+  dashboard,facts:[],watchlist:{entries:[],picks:[],dataDate:evidence.asOf}};
 const issue = assembleEdition(draft,prepared,[],new Date(date+'T09:57:00+05:30'));
 assert.ok(isEdition(issue));
 assert.equal(getDeck(issue,'markets').length,5);
@@ -128,13 +140,77 @@ assert.equal(eveningLedger.rows.find(row => row.symbol === 'ALPHA').priceAtPick,
 assert.equal(eveningLedger.rows.find(row => row.symbol === 'ALPHA').baselineDate,'2026-11-19');
 assert.equal(makeLedger([evening],[close(date,100,100)]).rows[0].performance,null);
 const sparse = structuredClone(draft);
-for (let i=0;i<3;i++) sparse.sections.investing[i] = card('unavailable-'+['first','second','third'][i],i+1,{slot:'unavailable',unavailableReason:'Historical valuation and cash-flow evidence were not verified.'});
+for (let i=0;i<5;i++) sparse.sections.investing[i] = card('unavailable-'+['first','second','third','fourth','fifth'][i],i+1,{slot:'unavailable',unavailableReason:'Historical valuation and cash-flow evidence were not verified.'});
 sparse.top3 = draft.top3;
-sparse.sections.investing[4].exampleMetric = null;
-const sparsePrepared = {...prepared,picks:[],fundamentalsUnavailable:'No verified passing candidates; financial fields remain absent.'};
+const gap = 'No verified passing candidates; financial fields remain absent.';
+const sparsePrepared = {...prepared,picks:[],selection:{dips:[],picks:[],shortfall:{dip:gap,pick:gap}}};
 const sparseIssue = assembleEdition(sparse,sparsePrepared,[],new Date(date+'T10:05:00+05:30'));
 assert.equal(sparseIssue.sections.investing[0].slot,'unavailable');
-assert.equal(sparseIssue.sections.investing[4].exampleMetric,null);
 const dishonest = structuredClone(sparse);
 dishonest.sections.investing[0].verdict = 'Buy';
-assert.throws(() => assembleEdition(dishonest,sparsePrepared,[],new Date(date+'T10:05:00+05:30')),/documented input gap/);
+assert.throws(() => assembleEdition(dishonest,sparsePrepared,[],new Date(date+'T10:05:00+05:30')),/Stock card 1/);
+
+// New selection rules
+const at = time => new Date(date+'T'+time+'+05:30');
+assert.equal(issue.stockLayout,'dip-quality');
+assert.deepEqual(getDeck(issue,'investing').map(c => c.slot),['dip','dip','pick','pick','pick']);
+assert.equal(getDeck(issue,'investing')[0].dip.fall,'no-peers');
+assert.equal(dipCheck(dipStocks[0]).fromHigh,-37.5);
+// A value trap (profit down 30% a year on) is not a 52-week-low pick
+assert.equal(selectStocks([stockRow('TRAP','Chemicals',100,{high52:160,low52:95,profitYoY:-30})],date).dips.length,0);
+// Promoters cutting their stake by more than 2 points disqualifies it too
+assert.equal(selectStocks([stockRow('SELL','Chemicals',100,{high52:160,low52:95,promoterChange:-3})],date).dips.length,0);
+// A whole sector falling is labelled sector-wide
+const peer = (symbol,price) => stockRow(symbol,'Metals',price,{high52:100,low52:40,pe:30});
+const sectorFall = selectStocks([stockRow('S1','Metals',100,{high52:160,low52:95}),peer('S2',70),peer('S3',75)],date);
+assert.equal(sectorFall.dips[0].dip.fall,'sector-wide');
+const aloneFall = selectStocks([stockRow('S1','Metals',100,{high52:160,low52:95}),peer('S2',98),peer('S3',97)],date);
+assert.equal(aloneFall.dips[0].dip.fall,'stock-specific');
+// Repeats: same verdict within 14 days is held back; a changed verdict comes back labelled
+const shown = {...issue,date:'2026-11-12'};
+assert.equal(selectStocks([...dipStocks,...examples],date,[shown]).counts.heldBack,5);
+const changed = structuredClone(shown);
+changed.sections.investing[2].verdict = 'Wait';
+const again = selectStocks([...dipStocks,...examples],date,[changed]);
+assert.deepEqual(again.picks.map(s => s.symbol),['GAMMA']);
+assert.match(again.picks[0].repeat.reason,/Verdict changed/);
+assert.equal(selectStocks([...dipStocks,...examples],date,[{...issue,date:'2026-11-01'}]).picks.length,3);
+// One stock per sector across all five cards
+assert.equal(selectStocks([stockRow('A1','Same',120),stockRow('A2','Same',121)],date).picks.length,1);
+// Avoid verdicts are never shown
+assert.equal(selectStocks([stockRow('PRICEY','Retail',200)],date).picks.length,0);
+// The writer cannot swap in a stock the code did not choose, skip one, or leave out why a dip fell
+const swapped = structuredClone(draft);
+swapped.sections.investing[4] = stockCard('OTHER',4);
+assert.throws(() => assembleEdition(swapped,prepared,[],at('09:57:00')),/not chosen by the selection code/);
+const skipped = structuredClone(draft);
+skipped.sections.investing[4] = card('unavailable-x',5,{slot:'unavailable',unavailableReason:'Skipped.'});
+assert.throws(() => assembleEdition(skipped,prepared,[],at('09:57:00')),/selection code found enough/);
+const noReason = structuredClone(draft);
+delete noReason.sections.investing[0].whyFell;
+assert.throws(() => assembleEdition(noReason,prepared,[],at('09:57:00')),/whyFell/);
+// Monday: exactly one Buy of the week
+const monday = '2026-11-23';
+const mondayDraft = {...structuredClone(draft),date:monday};
+const mondayIssue = assembleEdition(mondayDraft,{...prepared,dashboard:marketDashboard({...market,timestamp:monday+'T09:45:00+05:30',
+  series:Object.fromEntries(snapshotNames.map(name => [name,{history:bases,level:103,url:source.url}]))},monday)},[],new Date(monday+'T09:57:00+05:30'));
+assert.equal(getDeck(mondayIssue,'investing').filter(c => c.weekly).length,1);
+// The track record logs 52-week-low picks
+assert.ok(makeLedger([issue],[]).rows.some(row => row.symbol === 'DIPA' && row.group === '52-week low'));
+// NSE file parsing (real header formats)
+const rangeCsv = '"Disclaimer - adjusted"\n"Effective for 18-Nov-2026"\n"SYMBOL","SERIES","Adjusted_52_Week_High","52_Week_High_Date","Adjusted_52_Week_Low","52_Week_Low_DT"\n"POLYCAB","EQ","  10126.00","22-JUN-2026","   6663.00","27-JAN-2026"\n"XYZ","BE","10","-","5","-"\n';
+assert.deepEqual(parseRange(rangeCsv,'2026-11-18').get('POLYCAB'),{high52:10126,low52:6663});
+assert.equal(parseRange(rangeCsv,'2026-11-18').has('XYZ'),false);
+assert.throws(() => parseRange(rangeCsv,'2026-11-17'),/not for/);
+const bhavCsv = 'TradDt,TckrSymb,SctySrs,ClsPric,TtlTrfVal\n2026-11-18,POLYCAB,EQ,7307.50,6416129290.50\n2026-11-18,OLD,BE,5,1\n';
+assert.equal(parseBhavcopy(bhavCsv,'2026-11-18').get('POLYCAB').close,7307.5);
+const merged = mergeStockInput(date,{date:'2026-11-14',source:{label:'Weekly export',url:'https://example.org/weekly'},sources:[{label:'Weekly export',url:'https://example.org/weekly'}],
+  stocks:[{symbol:'POLYCAB',sector:'Cables',kind:'non-financial',dataDate:'2026-09-30',metrics:{roce5y:28.4,eps:209.56,pe:99}},{symbol:'GONE',sector:'X',kind:'non-financial',dataDate:'2026-09-30',metrics:{}}]},
+  {session:'2026-11-18',urls:{bhavcopy:'https://example.org/bhav',range:'https://example.org/range'},prices:parseBhavcopy(bhavCsv,'2026-11-18'),ranges:parseRange(rangeCsv,'2026-11-18')});
+assert.equal(merged.stocks[0].price,7307.5);
+assert.equal(merged.stocks[0].metrics.low52,6663);
+assert.equal(merged.stocks[0].metricSources.roce5y.url,'https://example.org/weekly');
+assert.deepEqual(merged.missingFromNse,['GONE']);
+assert.equal(merged.stocks[0].metrics.pe,34.87); // recomputed from the NSE close, not the stale weekly 99
+assert.equal(merged.stocks[0].metricSources.pe.url,'https://example.org/bhav');
+console.log('Validated stock selection: 52-week-low rules, value-trap guards, quality ranking, sector and repeat limits, writer guards and NSE parsing.');
