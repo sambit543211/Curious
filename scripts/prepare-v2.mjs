@@ -36,7 +36,7 @@ export async function prepareInputs(date, options, history) {
   const [fundamentals, market, closes] = await Promise.all([
     useFundamentals ? (options.fundamentals || process.env.MORNING_FUNDAMENTALS_URL ?
       fetchInput(options.fundamentals ?? process.env.MORNING_FUNDAMENTALS_URL,date,'MORNING_FUNDAMENTALS') :
-      buildStockInput(date)) : null,
+      buildStockInput(date).catch(error => ({date, stocks:[], facts:[], unavailableReason:'Stock data unavailable: ' + error.message}))) : null,
     useMarket ? fetchInput(options.market ?? process.env.MORNING_MARKET_URL,date,'MORNING_MARKET') : null,
     useFundamentals ? readCloses() : []
   ]);
@@ -75,7 +75,7 @@ export async function prepareInputs(date, options, history) {
     return [{symbol:item.symbol,pickDate:item.date,status:item.status,price,weekly,reason}];
   });
   return {date, dashboard, picks, facts,
-    ...(selection ? {selection:{dips:selection.dips.map(s => s.symbol),picks:selection.picks.map(s => s.symbol),counts:selection.counts,shortfall:selection.shortfall,
+    ...(selection ? {selection:{dips:selection.dips.map(s => s.symbol),picks:selection.picks.map(s => s.symbol),counts:selection.counts,shortfall:fundamentals.unavailableReason ? {dip:fundamentals.unavailableReason,pick:fundamentals.unavailableReason} : selection.shortfall,
       session:fundamentals.session ?? null,fundamentalsDate:fundamentals.fundamentalsDate ?? null,missingFromNse:fundamentals.missingFromNse ?? []}} : {}),
     ...(fundamentals?.unavailableReason ? {fundamentalsUnavailable:fundamentals.unavailableReason} : {}), watchlist:{dataDate:latest?.date ?? null,entries,picks:tracked.rows.map(({date,symbol,status}) => ({date,symbol,status}))},
     recentConcepts:history.filter(issue => issue.date < date &&

@@ -22,7 +22,7 @@ use `{ value, url, asOf }`.
 ## Stock Investing: how the five stocks are chosen
 
 Code chooses the stocks; the writer only explains them. The rules live in `lib/stock-selection.js` and
-`public/investment-rules.js`; ChatGPT must not pick, add, drop or reorder stocks.
+`public/investment-rules.js`; the writer must not pick, add, drop or reorder stocks.
 
 **Inputs.** (1) A weekly fundamentals file in `data/fundamentals/` (format in `data/fundamentals/README.md`),
 refreshed every Saturday for the Nifty 500 and checked with `npm run check-fundamentals -- <file>`. (2) NSE's daily
@@ -59,7 +59,7 @@ edition is published. Reading progress is stored on this device.
 
 ## Daily publication
 
-The Morning Edition task in ChatGPT starts at **09:00 a.m. IST**, targeting publication by **10:00 a.m. IST** with a labelled late release when needed. It researches the briefing, saves one dated edition to the `main` branch, and delivers the briefing in ChatGPT. Vercel builds the archive index and deploys `main` to production. Each edition becomes available when that build is ready.
+Claude's scheduled Morning Edition task (steps in `docs/daily-run.md`) starts at **09:25 a.m. IST**, targeting publication by **10:00 a.m. IST** with a labelled late release when needed. It researches the briefing, saves one dated edition to the `main` branch, and pushes it. Vercel builds the archive index and deploys `main` to production. Each edition becomes available when that build is ready.
 
 The publication path is `public/editions/YYYY-MM-DD.json`. Set `date` to the IST edition date and include the seven keys from `public/edition-format.js` in `sections`. Give each card a stable `id`, a `label`, a `headline`, a factual `summary`, documented causes in `why`, significance in `context`, a primary `source` and `sourceUrl`, a `sources` array of `{ label, url }` entries, and a bundled `image`. Stock cards additionally require `valuation` and `risk`. Supply `preparedAt` for the preparation time or `publishedAt` for a confirmed public release time. The 17 November edition shows the format. The archive index is generated at build time.
 
@@ -79,7 +79,7 @@ The app is dark by default (light and automatic are in Settings) and is built to
 
 ## Optional morning alerts
 
-Web Push alerts use Upstash Redis to store subscriptions. To turn them on, set `UPSTASH_REDIS_REST_URL`, `UPSTASH_REDIS_REST_TOKEN`, `CRON_SECRET`, `VAPID_PUBLIC_KEY`, `VAPID_PRIVATE_KEY` and a `mailto:` `VAPID_SUBJECT` as Vercel production variables. The authorized `/api/refresh` endpoint sends the day's alert and requires the cron secret as a bearer token. Without these, Settings simply doesn't show the alerts option. The daily ChatGPT task publishes to GitHub independently of these credentials.
+Web Push alerts use Upstash Redis to store subscriptions. To turn them on, set `UPSTASH_REDIS_REST_URL`, `UPSTASH_REDIS_REST_TOKEN`, `CRON_SECRET`, `VAPID_PUBLIC_KEY`, `VAPID_PRIVATE_KEY` and a `mailto:` `VAPID_SUBJECT` as Vercel production variables. The authorized `/api/refresh` endpoint sends the day's alert and requires the cron secret as a bearer token. Without these, Settings simply doesn't show the alerts option. The daily task publishes to GitHub independently of these credentials.
 
 ## Photo credits
 
