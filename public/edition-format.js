@@ -1,6 +1,9 @@
-export const baseTopics = ['india', 'world', 'markets', 'tech', 'mind', 'marketing'];
+import { topicIds } from './topics.js';
+
+export { topicIds };
 export const stockTopic = 'investing';
-export const topicIds = ['india', 'world', 'markets', stockTopic, 'tech', 'mind', 'marketing'];
+// Topics every original (pre-v2) edition carries.
+export const baseTopics = topicIds.filter(id => id !== stockTopic);
 
 const ist = new Intl.DateTimeFormat('en-IN', {
   timeZone: 'Asia/Kolkata', year: 'numeric', month: '2-digit', day: '2-digit'

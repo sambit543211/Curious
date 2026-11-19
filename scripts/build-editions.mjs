@@ -61,6 +61,6 @@ for (const issue of current) {
 }
 await writeLedger(history);
 const editions = [...catalog.values()].sort((a,b) => b.date.localeCompare(a.date));
-const index = {editions, publishing:process.env.VERCEL_ENV === 'production'};
+const index = {editions};
 await writeFile(new URL('index.json', editionsDir), JSON.stringify(index, null, 2) + '\n');
 console.log('Built archive index for ' + editions.length + ' editions.');

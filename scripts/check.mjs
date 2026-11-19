@@ -42,7 +42,7 @@ assert.equal(indianDay(new Date('2026-11-15T18:30:00Z')), '2026-11-16');
 assert.equal(isDay('2026-02-30'), false);
 assert.equal(isDay('2026-11-14'), true);
 
-for (const folder of ['api','lib','public']) {
+for (const folder of ['api','lib','public','public/js']) {
   for (const file of (await readdir(folder)).filter(filename => filename.endsWith('.js'))) {
     const result = spawnSync(process.execPath, ['--check',folder+'/'+file], {encoding:'utf8'});
     assert.equal(result.status, 0, result.stderr);

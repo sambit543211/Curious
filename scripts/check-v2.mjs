@@ -111,6 +111,13 @@ assert.equal(first.performance,10);
 assert.equal(first.nifty,3);
 assert.equal(record.summary.beating,100);
 assert.equal(record.rows.find(row => row.symbol === 'BETA').nifty,null);
+const repeatPick = structuredClone(issue);
+repeatPick.date = '2026-11-19';
+const twoDays = makeLedger([issue,repeatPick],[close(date,100,100),close('2026-11-19',110,103)]);
+assert.equal(twoDays.rows.length, 2 * record.rows.length);
+assert.equal(twoDays.positions.length, record.positions.length);
+assert.deepEqual(twoDays.positions.find(row => row.symbol === 'ALPHA').pickDates, [date,'2026-11-19']);
+assert.equal(twoDays.positions.find(row => row.symbol === 'ALPHA').performance, 10);
 if (process.argv.includes('--fixture')) console.log(JSON.stringify(issue));
 else console.log('Validated v2 edition gates, dashboard calculations, evidence, stock screen, and matched closing returns.');
 

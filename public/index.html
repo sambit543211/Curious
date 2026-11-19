@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#f8f6f1">
+<meta name="theme-color" content="#f7f5f0">
 <meta name="color-scheme" content="light dark">
 <meta name="apple-mobile-web-app-title" content="Morning Edition">
 <meta name="description" content="Your daily briefing and Indian stock research. Browse past editions and read at your own pace.">
@@ -18,140 +18,106 @@
 <body>
 <a class="skip-link" href="#briefing">Skip to briefing</a>
 <header class="mast">
-  <div class="wrap mast-inner">
-    <a href="/" class="wordmark"><img src="/images/icon-192.png" alt="" width="38" height="38"><span>Morning Edition</span></a>
+  <div class="mast-inner">
+    <a href="/" class="wordmark"><img src="/images/icon-192.png" alt="" width="28" height="28"><span>Morning Edition</span></a>
     <div class="mast-actions">
-      <a class="button text-button" href="/track-record.html">Track Record</a>
-      <button id="settings" class="button quiet settings-button" type="button" aria-haspopup="dialog"><span class="icon-slot" data-icon="settings"></span>Settings</button>
+      <button id="open-archive" class="icon-button" type="button" aria-haspopup="dialog" aria-label="Past editions" disabled><span data-icon="calendar"></span></button>
+      <button id="open-settings" class="icon-button" type="button" aria-haspopup="dialog" aria-label="Settings"><span data-icon="settings"></span></button>
     </div>
   </div>
 </header>
 
-<main class="wrap" id="briefing">
-  <section class="edition-intro" aria-labelledby="heading">
-    <div class="intro-text">
-      <p class="edition-kicker"><span aria-hidden="true" class="edition-dot"></span><span id="edition-kind">Latest edition</span><span class="edition-divider" aria-hidden="true"></span><time id="release-time" hidden></time></p>
-      <h1 id="heading">The Daily <span>Brief.</span></h1>
-      <div class="edition-toolbar" role="group" aria-label="Browse by edition">
-        <button id="older" class="button quiet date-step" type="button" aria-label="Older edition" disabled><span class="icon-slot" data-icon="left"></span></button>
-        <button id="pick-date" class="button date-pick" type="button" aria-labelledby="selected-date archive-button-label" aria-haspopup="dialog" disabled><span class="icon-slot" data-icon="calendar"></span><span id="selected-date">Select an edition</span><span class="visually-hidden" id="archive-button-label">Open edition archive</span><span class="icon-slot date-caret" data-icon="down"></span></button>
-        <button id="newer" class="button quiet date-step" type="button" aria-label="Newer edition" disabled><span class="icon-slot" data-icon="right"></span></button>
-        <button id="back-latest" class="button text-button" type="button" hidden>Back to latest</button>
-      </div>
-    </div>
-    <aside class="reading" aria-labelledby="progress-label">
-      <div class="reading-info">
-        <span id="progress-label">Reading progress</span>
-        <strong id="progress-text" aria-live="polite">Loading</strong>
-      </div>
-      <progress id="progress" value="0" max="30" aria-labelledby="progress-label"></progress>
-      <button id="resume" class="button primary" type="button" disabled><span id="resume-label">Start reading</span><span class="icon-slot" data-icon="arrow"></span></button>
-    </aside>
-  </section>
+<div class="layout">
+  <nav class="toc" aria-label="Sections">
+    <ol id="toc"></ol>
+    <a class="toc-link" href="/track-record.html">Track record</a>
+  </nav>
 
-  <p id="edition-note" class="edition-note" role="status"></p>
-  <div class="edition-body">
-    <section class="quick-brief" id="quick-brief" aria-labelledby="top-title" hidden>
-      <h2 id="top-title">Today’s Top 3</h2>
-      <ol id="quick-stories"></ol>
-    </section>
-    <nav id="topics" class="topics" aria-label="Briefing topics"></nav>
-    <section id="story-section" aria-labelledby="section-title" aria-busy="true">
-      <div class="section-head">
-        <div class="section-label"><h2 id="section-title">India</h2><p class="section-remaining" id="section-remaining"></p></div>
-        <button class="button quiet" id="resume-topic" type="button" hidden><span id="resume-topic-label">Read next unread</span><span class="icon-slot" data-icon="arrow"></span></button>
+  <main id="briefing" class="page" aria-busy="true">
+    <section class="edition-head" aria-labelledby="edition-date">
+      <div class="edition-meta">
+        <p id="edition-kicker" class="kicker">Loading</p>
+        <div class="edition-steps">
+          <button id="older" class="icon-button" type="button" aria-label="Previous edition" disabled><span data-icon="left"></span></button>
+          <button id="newer" class="icon-button" type="button" aria-label="Next edition" disabled><span data-icon="right"></span></button>
+        </div>
       </div>
-      <div id="stories" class="stories"><p>Loading your briefing…</p></div>
+      <h1 id="edition-date">Morning Edition</h1>
+      <p id="edition-note" class="edition-note" role="status"></p>
+      <button id="resume" class="continue" type="button" disabled>
+        <span class="continue-text"><strong id="resume-label">Start reading</strong><span id="resume-meta"></span></span>
+        <span data-icon="arrow"></span>
+        <span class="continue-track" aria-hidden="true"><span id="resume-fill"></span></span>
+      </button>
     </section>
-  </div>
-</main>
 
-<dialog class="reader-dialog" id="reader" aria-labelledby="reader-title">
-  <header class="reader-toolbar">
-    <div class="reader-location"><span id="reader-topic"></span><span id="reader-position"></span></div>
-    <button id="reader-close" class="button reader-close" type="button" aria-label="Close story"><span class="icon-slot" data-icon="close"></span></button>
+    <section id="top-stories" class="top-stories" aria-labelledby="top-title" hidden>
+      <h2 id="top-title" class="section-kicker">Top stories</h2>
+      <ol id="top-list"></ol>
+    </section>
+
+    <div id="sections"></div>
+
+    <footer class="page-foot">
+      <a href="/track-record.html">Track record</a>
+      <span aria-hidden="true">·</span>
+      <span>Reading progress is saved on this device.</span>
+    </footer>
+  </main>
+</div>
+
+<dialog class="reader" id="reader" aria-labelledby="reader-title">
+  <header class="reader-bar">
+    <p class="reader-where"><strong id="reader-topic"></strong> <span id="reader-position"></span></p>
+    <button id="reader-close" class="icon-button" type="button" aria-label="Close story"><span data-icon="close"></span></button>
+    <span class="reader-track" aria-hidden="true"><span id="reader-fill"></span></span>
   </header>
-  <div class="reader-progress">
-    <div id="reader-segments" class="reader-segments" role="progressbar" aria-label="Edition reading progress"></div>
-    <span id="reader-minutes"></span>
+  <div class="reader-scroll" id="reader-scroll"></div>
+  <div class="reader-finish" id="reader-finish" hidden>
+    <p class="kicker">Edition complete</p>
+    <h2 id="finish-title" tabindex="-1">You’re all caught up</h2>
+    <p id="finish-meta"></p>
+    <button id="finish-close" class="button primary" type="button">Back to the edition</button>
   </div>
-  <div class="reader-content" id="reader-content">
-    <figure class="reader-cover" id="reader-cover">
-      <figcaption id="reader-photo-note">Illustrative photo</figcaption>
-    </figure>
-    <article class="reader-body">
-      <p class="eyebrow" id="reader-label"></p>
-      <h2 id="reader-title" tabindex="-1" autofocus></h2>
-      <div id="reader-data"></div>
-      <p class="reader-summary" id="reader-summary"></p>
-      <div id="reader-example-box" class="story-context" hidden><h3>Real-life example</h3><p id="reader-example"></p></div>
-      <div id="reader-use-box" class="story-context" hidden><h3>Try this week</h3><p id="reader-use"></p></div>
-      <div id="reader-campaign-box" class="story-context" hidden><h3>Campaign and results</h3><p id="reader-campaign"></p></div>
-      <div class="story-context" id="reader-why-box" hidden><h3 id="why-label">Why it happened</h3><p id="reader-why"></p></div>
-      <div class="story-context" id="reader-valuation-box" hidden><h3>Valuation</h3><p id="reader-valuation"></p></div>
-      <div class="story-context" id="reader-context-box"><h3 id="context-label">Why it matters</h3><p id="reader-context"></p></div>
-      <div class="story-context" id="reader-take-box" hidden><h3>My take</h3><p id="reader-take"></p></div>
-      <div class="story-context" id="reader-watch-box" hidden><h3>What to track</h3><p id="reader-watch"></p></div>
-      <dl id="reader-terms" class="reader-terms" hidden></dl>
-      <div class="story-context" id="reader-risk-box" hidden><h3>What could go wrong</h3><p id="reader-risk"></p></div>
-      <details class="source-disclosure" id="source-disclosure" hidden>
-        <summary><span id="source-summary">Sources</span><span class="icon-slot disclosure-caret" data-icon="down"></span></summary>
-        <div class="reader-sources" id="reader-sources" aria-label="Story sources"></div>
-      </details>
-      <p id="research-notice" class="data-note" hidden></p>
-    </article>
-  </div>
-  <div id="reader-transition" class="reader-interstitial" tabindex="-1" aria-live="polite" hidden></div>
-  <div id="reader-finish" class="reader-interstitial" hidden>
-    <h2 id="reader-finish-title" tabindex="-1">Done</h2>
-    <p id="reader-finish-count"></p>
-    <ol id="finish-stories" class="finish-stories" aria-label="Today’s Top 3"></ol>
-    <p id="finish-weekly" hidden></p>
-    <button id="finish-close" class="button primary" type="button">Back to edition</button>
-  </div>
-  <footer class="reader-actions" id="reader-actions">
-    <button id="previous" class="button quiet" type="button"><span class="icon-slot" data-icon="left"></span><span>Previous</span></button>
-    <button id="read" class="button primary" type="button"><span id="read-label">Next</span><span class="icon-slot" id="read-icon" data-icon="arrow"></span></button>
+  <footer class="reader-nav" id="reader-nav">
+    <button id="previous" class="button quiet" type="button"><span data-icon="left"></span><span>Previous</span></button>
+    <button id="next" class="button primary" type="button"><span id="next-label">Next</span><span id="next-icon" data-icon="arrow"></span></button>
   </footer>
   <p class="visually-hidden" aria-live="polite" id="reader-announcement"></p>
 </dialog>
 
-<dialog class="archive-dialog" id="archive" aria-labelledby="archive-title">
-  <div class="dialog-body">
-    <button id="archive-close" class="button close" type="button" aria-label="Close archive"><span class="icon-slot" data-icon="close"></span></button>
-    <h2 id="archive-title">Edition archive</h2>
-    <form id="find-edition" class="archive-find">
-      <label for="find-date">Jump to a date</label>
-      <div>
-        <input id="find-date" name="date" type="date" required>
-        <button class="button primary" type="submit">Find edition</button>
-      </div>
-      <p id="archive-message" role="status"></p>
-    </form>
-    <div id="archive-dates"></div>
+<dialog class="sheet" id="archive" aria-labelledby="archive-title">
+  <div class="sheet-head">
+    <h2 id="archive-title">Past editions</h2>
+    <button id="archive-close" class="icon-button" type="button" aria-label="Close"><span data-icon="close"></span></button>
   </div>
+  <p id="archive-message" class="sheet-message" role="status"></p>
+  <div id="archive-list" class="archive-list"></div>
 </dialog>
 
-<dialog class="settings-dialog" id="settings-dialog" aria-labelledby="settings-title">
-  <div class="dialog-body">
-    <button id="settings-close" class="button close" type="button" aria-label="Close settings"><span class="icon-slot" data-icon="close"></span></button>
+<dialog class="sheet" id="settings" aria-labelledby="settings-title">
+  <div class="sheet-head">
     <h2 id="settings-title">Settings</h2>
-    <fieldset class="appearance" id="appearance">
-      <legend>Appearance</legend>
-      <div class="theme-options">
-        <label><input type="radio" name="appearance" value="system" checked><span><span class="icon-slot" data-icon="system"></span>System</span></label>
-        <label><input type="radio" name="appearance" value="light"><span><span class="icon-slot" data-icon="sun"></span>Light</span></label>
-        <label><input type="radio" name="appearance" value="dark"><span><span class="icon-slot" data-icon="moon"></span>Dark</span></label>
-      </div>
-    </fieldset>
-    <section class="install-settings" aria-labelledby="install-title">
-      <h3 id="install-title">Home Screen and alerts</h3>
-      <p>On iPhone in Safari, tap <strong>Share → Add to Home Screen</strong>.</p>
-      <p id="push-instructions" hidden>Open the installed app to enable morning alerts.</p>
-      <button id="enable-push" class="button primary" type="button" hidden>Enable notifications</button>
-      <p id="push-status" role="status"></p>
-    </section>
+    <button id="settings-close" class="icon-button" type="button" aria-label="Close"><span data-icon="close"></span></button>
   </div>
+  <fieldset class="setting" id="appearance">
+    <legend>Appearance</legend>
+    <div class="segmented">
+      <label><input type="radio" name="appearance" value="system" checked><span><span data-icon="system"></span>System</span></label>
+      <label><input type="radio" name="appearance" value="light"><span><span data-icon="sun"></span>Light</span></label>
+      <label><input type="radio" name="appearance" value="dark"><span><span data-icon="moon"></span>Dark</span></label>
+    </div>
+  </fieldset>
+  <section class="setting" id="alerts" aria-labelledby="alerts-title" hidden>
+    <h3 id="alerts-title">Morning alerts</h3>
+    <p>Get a notification when the day’s edition is published.</p>
+    <button id="enable-push" class="button primary" type="button">Turn on alerts</button>
+    <p id="push-status" class="sheet-message" role="status"></p>
+  </section>
+  <section class="setting">
+    <h3>Add to Home Screen</h3>
+    <p>On iPhone, open this page in Safari and tap <strong>Share → Add to Home Screen</strong>.</p>
+  </section>
 </dialog>
 </body>
 </html>

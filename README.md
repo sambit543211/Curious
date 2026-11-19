@@ -1,6 +1,6 @@
 # Morning Edition
 
-A phone-first daily briefing across India, World, Indian Markets, Stock Investing, AI & Tech, Mind & Evolution, and Marketing World. Current editions have five cards per topic. Earlier issues retain their original topics, and reading progress stays on the reader's device.
+A phone-first daily briefing across India, World, Indian Markets, Stock Investing, AI & Tech, Psychology and Marketing (topic names and order live in `public/topics.js`). Current editions have five cards per topic. Earlier issues retain their original topics, and reading progress stays on the reader's device.
 
 ## V2 publication
 
@@ -38,21 +38,25 @@ The Morning Edition task in ChatGPT starts at **09:00 a.m. IST**, targeting publ
 
 The publication path is `public/editions/YYYY-MM-DD.json`. Set `date` to the IST edition date and include the seven keys from `public/edition-format.js` in `sections`. Give each card a stable `id`, a `label`, a `headline`, a factual `summary`, documented causes in `why`, significance in `context`, a primary `source` and `sourceUrl`, a `sources` array of `{ label, url }` entries, and a bundled `image`. Stock cards additionally require `valuation` and `risk`. Supply `preparedAt` for the preparation time or `publishedAt` for a confirmed public release time. The 17 November edition shows the format. The archive index is generated at build time.
 
-The homepage opens the latest edition. Past editions have shareable URLs such as `/?edition=2026-11-14`. `/api/editions` lists available dates and `/api/edition?date=YYYY-MM-DD` returns a specific edition. Opened editions can be read offline.
+The homepage opens the latest edition. Past editions have shareable URLs such as `/?edition=2026-11-14`. The app reads the static files directly; `/api/editions` and `/api/edition?date=YYYY-MM-DD` return the same data for other clients. Opened editions can be read offline.
 
 ## Local development
 
-Run `npm install`, `npm run build`, and `npm run check`. Run `npm run dev` and open http://localhost:4173 for a static preview. On Vercel, the Other framework preset runs `npm run build` and serves `public`.
+Run `npm install`, `npm run build`, and `npm run check`. The build generates `public/editions/index.json` and `public/picks-ledger.json`; both are ignored by git, so run the build before `npm run dev`, then open http://localhost:4173 for a static preview. On Vercel, the Other framework preset runs `npm run build` and serves `public`.
 
 On iPhone, open the production address in Safari, select **Share → Add to Home Screen**, then open the Home Screen icon.
 
-## Optional server-side integration
+## Frontend layout
 
-The app can also read editions from an Upstash archive when `UPSTASH_REDIS_REST_URL` and `UPSTASH_REDIS_REST_TOKEN` are configured. This backend is used for direct Web Push subscribers. To turn on app-native notifications through the existing research and notification endpoint, set the Redis values, `OPENAI_API_KEY`, `CRON_SECRET`, `VAPID_PUBLIC_KEY`, `VAPID_PRIVATE_KEY` and a `mailto:` `VAPID_SUBJECT` as Vercel production variables. The authorized `/api/refresh` endpoint requires the cron secret as a bearer token. The daily ChatGPT task publishes to GitHub independently of these credentials.
+`public/app.js` is the entry point. It wires the modules in `public/js/`: `catalog.js` (loading editions), `state.js` (what is on screen), `progress.js` (reading progress on this device), `home.js` (the edition page), `reader.js` and `story-view.js` (the story reader), `story.js` (what a story shows up front and under "More"), `archive.js` and `settings.js`. Older (pre-v2) editions are handled in `public/edition-format.js` and `story.js`; their files are left unchanged so saved reading progress keeps matching. All styles are in `public/style.css`.
+
+## Optional morning alerts
+
+Web Push alerts use Upstash Redis to store subscriptions. To turn them on, set `UPSTASH_REDIS_REST_URL`, `UPSTASH_REDIS_REST_TOKEN`, `CRON_SECRET`, `VAPID_PUBLIC_KEY`, `VAPID_PRIVATE_KEY` and a `mailto:` `VAPID_SUBJECT` as Vercel production variables. The authorized `/api/refresh` endpoint sends the day's alert and requires the cron secret as a bearer token. Without these, Settings simply doesn't show the alerts option. The daily ChatGPT task publishes to GitHub independently of these credentials.
 
 ## Photo credits
 
-Stock photos are illustrative. News and research sources are linked on each card.
+The reader no longer shows photos; older editions still reference these illustrative images, which the build validates. News and research sources are linked on each card.
 
 - Phuket Old Town, cropped and resized. [Lisa van Vliet on Unsplash](https://unsplash.com/photos/colorful-buildings-line-a-busy-street-wsh74QVKijI)
 - Car assembly, cropped and resized. [Lenny Kuhne on Unsplash](https://unsplash.com/photos/gray-vehicle-being-fixed-inside-factory-using-robot-machines-jHZ70nRk7Ns)

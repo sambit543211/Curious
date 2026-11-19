@@ -1,87 +1,84 @@
 import { researchFooter } from './investment-rules.js';
+import { $, hydrateIcons, node } from './js/dom.js';
+import { dayAndMonth, percent, rupees, trend } from './js/format.js';
 
-const $ = id => document.getElementById(id);
-const headings = [
-  ['date','Date picked'],['symbol','NSE symbol'],['verdict','Verdict'],['buyBelow','Buy below'],
-  ['baselineDate','Baseline date'],['priceAtPick','Baseline close'],['currentPrice','Latest close'],['performance','Return'],
-  ['nifty','Nifty 50'],['smallcap','Smallcap 250'],['status','Status']
-];
-const number = new Intl.NumberFormat('en-IN',{maximumFractionDigits:2});
-const percentage = value => Number.isFinite(value) ? number.format(value) + '%' : '—';
-const price = value => Number.isFinite(value) ? '₹' + number.format(value) : '—';
-const view = (tag,label) => { const node = document.createElement(tag); node.textContent = label; return node; };
-const caps = new Set(['buyBelow','priceAtPick','currentPrice']);
-const returns = new Set(['performance','nifty','smallcap']);
-let sort = 'date';
-let direction = -1;
+hydrateIcons();
+$('disclaimer').textContent = researchFooter;
+let positions = [];
 
-function draw(ledger) {
-  const comparison = (a,b) => a[sort] == null ? (b[sort] == null ? 0 : 1) : b[sort] == null ? -1 : direction *
-    (typeof a[sort] === 'number' ? a[sort] - b[sort] : String(a[sort]).localeCompare(String(b[sort])));
-  const header = view('tr','');
-  for (const [key,label] of headings) {
-    const column = view('th','');
-    column.scope = 'col';
-    if (key === sort) column.setAttribute('aria-sort',direction === 1 ? 'ascending' : 'descending');
-    const button = view('button',label);
-    button.type = 'button';
-    button.addEventListener('click',() => {
-      direction = sort === key ? -direction : 1;
-      sort = key;
-      draw(ledger);
-      $('track-columns').querySelector('[aria-sort] button')?.focus();
-    });
-    column.append(button);
-    header.append(column);
+const sorters = {
+  date:(a, b) => b.date.localeCompare(a.date),
+  best:(a, b) => (b.performance ?? -Infinity) - (a.performance ?? -Infinity),
+  worst:(a, b) => (a.performance ?? Infinity) - (b.performance ?? Infinity),
+  symbol:(a, b) => a.symbol.localeCompare(b.symbol)
+};
+
+function card(pick) {
+  const item = node('li', 'position');
+  const head = node('div', 'position-head');
+  const verdict = pick.latestVerdict ?? pick.verdict;
+  head.append(node('h3', '', pick.symbol), node('span', 'tag tag-' + String(verdict).toLowerCase(), verdict));
+  const measured = Number.isFinite(pick.performance);
+  head.append(node('span', 'position-return ' + (measured ? trend(pick.performance) : 'pending'),
+    measured ? percent(pick.performance) : 'Awaiting close'));
+  const dates = pick.pickDates ?? [pick.date];
+  const picked = 'Picked ' + dayAndMonth(dates[0]) + (dates.length > 1 ? ' · picked again ' + dates.slice(1).map(dayAndMonth).join(', ') : '');
+  const facts = node('dl', 'facts');
+  for (const [term, value] of [
+    ['Buy below', rupees(pick.latestBuyBelow ?? pick.buyBelow)],
+    ['Starting close', pick.baselineDate ? rupees(pick.priceAtPick) + ' (' + dayAndMonth(pick.baselineDate) + ')' : 'Next verified close'],
+    ['Latest close', pick.asOf ? rupees(pick.currentPrice) + ' (' + dayAndMonth(pick.asOf) + ')' : '—'],
+    ['Nifty 50, same period', percent(pick.nifty)]
+  ]) facts.append(node('dt', '', term), node('dd', '', value));
+  item.append(head, node('p', 'position-dates', picked), facts);
+  if (pick.status && pick.status !== 'Active') item.append(node('p', 'position-note', pick.status + (pick.statusReason ? ' · ' + pick.statusReason : '')));
+  const report = pick.sources?.findLast(url => url.endsWith('.zip'));
+  if (report) {
+    const note = node('p', 'position-note');
+    const link = node('a', '', 'NSE closing-price file');
+    link.href = report;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    note.append(link);
+    item.append(note);
   }
-  $('track-columns').replaceChildren(header);
-  const rows = [...ledger.rows].sort(comparison).map(pick => {
-    const row = view('tr','');
-    for (const [key] of headings) {
-      const value = pick[key];
-      const cell = view(key === 'symbol' ? 'th' : 'td', caps.has(key) ? price(value) :
-        returns.has(key) ? percentage(value) : String(value ?? '—'));
-      if (key === 'symbol') cell.scope = 'row';
-      if (returns.has(key) && value) cell.className = value > 0 ? 'positive' : 'negative';
-      if (key === 'currentPrice' && pick.asOf) {
-        cell.append(view('div',pick.asOf));
-        const report = pick.sources.findLast(url => url.endsWith('.zip'));
-        if (report) {
-          const link = view('a','NSE close file');
-          link.href = report;
-          link.target = '_blank';
-          link.rel = 'noopener noreferrer';
-          cell.append(link);
-        }
-      }
-      if (key === 'status' && pick.statusReason) cell.append(view('div',pick.statusReason));
-      row.append(cell);
-    }
-    return row;
-  });
-  $('track-rows').replaceChildren(...rows);
+  return item;
 }
-fetch('/picks-ledger.json',{cache:'no-cache'}).then(res => {
-  if (!res.ok) throw new Error('Ledger unavailable');
-  return res.json();
+
+function draw() {
+  $('positions').replaceChildren(...[...positions].sort(sorters[$('sort').value]).map(card));
+}
+
+function stats(summary) {
+  if (!summary.measured) return false;
+  $('stats').append(...[
+    ['Average return', percent(summary.average), trend(summary.average)],
+    ['Nifty 50', percent(summary.nifty), trend(summary.nifty)],
+    ['Beat the Nifty', Number.isFinite(summary.beating) ? summary.beating + '%' : '—', '']
+  ].map(([label, value, tone]) => {
+    const box = node('div', 'stat');
+    box.append(node('span', '', label), node('strong', tone, value));
+    return box;
+  }));
+  return true;
+}
+
+fetch('/picks-ledger.json', {cache:'no-cache'}).then(response => {
+  if (!response.ok) throw new Error('Ledger unavailable');
+  return response.json();
 }).then(ledger => {
-  const {summary,rows} = ledger;
-  if (!rows.length) {
+  positions = ledger.positions ?? ledger.rows;
+  if (!positions.length) {
     $('track-status').textContent = 'No screened picks have been published yet.';
     return;
   }
-  $('track-summary').hidden = false;
-  $('track-summary').append(
-    view('span','Average return ' + percentage(summary.average)),
-    view('span','Nifty 50 ' + percentage(summary.nifty)),
-    view('span','Beat Nifty ' + percentage(summary.beating)),
-    view('span','Best ' + (summary.best ?? '—')),
-    view('span','Worst ' + (summary.worst ?? '—'))
-  );
-  if (summary.review) $('track-summary').append(view('p','The six-month cohort has not outperformed the Nifty 50. Review the screen.'));
-  $('track-status').textContent = rows.length + ' picks · ' + summary.measured + ' with matched closes';
-  $('track-scroll').hidden = false;
-  $('track-method').hidden = false;
-  $('track-method').append(view('p',researchFooter));
-  draw(ledger);
-}).catch(() => { $('track-status').textContent = 'Track Record is temporarily unavailable.'; });
+  const {summary} = ledger;
+  $('stats').hidden = !stats(summary);
+  $('track-status').hidden = !$('stats').hidden;
+  $('track-status').textContent = 'Returns appear once each pick has a verified NSE closing price to measure from.';
+  if (summary.review) $('track-status').hidden = false, $('track-status').textContent = 'Picks older than six months have not beaten the Nifty 50. The screen needs review.';
+  $('positions-title').textContent = positions.length + (positions.length === 1 ? ' pick' : ' picks');
+  $('track-bar').hidden = false;
+  $('sort').addEventListener('change', draw);
+  draw();
+}).catch(() => { $('track-status').textContent = 'The track record is unavailable right now. Try again later.'; });

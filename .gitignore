@@ -2,3 +2,5 @@ node_modules/
 .vercel/
 .env*
 !.env.example
+public/picks-ledger.json
+public/editions/index.json
