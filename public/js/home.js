@@ -67,11 +67,20 @@ function topList(issue) {
     button.type = 'button';
     button.dataset.key = story.key;
     const meta = node('span', 'top-meta', topicName(story.topic) + ' · ' + storyMeta(story.card).split(' · ')[0]);
-    button.append(node('span', 'top-headline', line ?? story.card.headline), meta);
+    button.append(node('span', 'top-headline', line ?? story.card.headline));
+    if (story.card.keyNumber?.value) button.append(keyBadge(story.card.keyNumber, 'top-key'));
+    button.append(meta);
     button.addEventListener('click', () => handlers.onOpen(button, story.key));
     item.append(button);
     return item;
   }));
+}
+
+// A story's headline figure, shown only when the writer marked one.
+function keyBadge({value, label}, className = 'row-key') {
+  const badge = node('span', className);
+  badge.append(node('strong', '', value), node('small', '', label));
+  return badge;
 }
 
 function storyRow(story) {
@@ -89,7 +98,9 @@ function storyRow(story) {
     row.append(text, side);
   } else {
     text.append(node('span', 'story-headline', card.headline), node('span', 'story-meta', storyMeta(card)));
-    row.append(text, icon('done', 'check'));
+    row.append(text);
+    if (card.keyNumber?.value) row.append(keyBadge(card.keyNumber));
+    row.append(icon('done', 'check'));
   }
   row.addEventListener('click', () => handlers.onOpen(row, story.key));
   item.append(row);

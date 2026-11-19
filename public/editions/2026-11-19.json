@@ -43,7 +43,11 @@
             "accessedOn": "2026-11-19"
           }
         ],
-        "beat": "wildcard"
+        "beat": "wildcard",
+        "keyNumber": {
+          "value": "90–100 km/h",
+          "label": "expected wind speed"
+        }
       },
       {
         "id": "2026-11-19-growth",
@@ -55,7 +59,12 @@
         "soWhat": "If you run a business, don't plan on the headline alone. Look at your own orders, hiring and payments coming in.",
         "take": "Treat 7.6% as a sensible starting guess, not a promise.",
         "watch": "The official GDP data on 30 November, especially spending and investment.",
-        "terms": [],
+        "terms": [
+          {
+            "term": "GDP",
+            "meaning": "Total value of everything a country produces"
+          }
+        ],
         "image": null,
         "sources": [
           {
@@ -67,7 +76,25 @@
         "beat": "policy",
         "economicData": true,
         "previousValue": "April–June GDP growth: 7.8%.",
-        "trend": "Poll forecasts 7.6%, a modest slowdown; official data pending."
+        "trend": "Poll forecasts 7.6%, a modest slowdown; official data pending.",
+        "keyNumber": {
+          "value": "7.6%",
+          "label": "expected GDP growth"
+        },
+        "chart": {
+          "title": "GDP growth, quarter by quarter",
+          "unit": "%",
+          "items": [
+            {
+              "label": "Apr–Jun",
+              "value": 7.8
+            },
+            {
+              "label": "Jul–Sep poll",
+              "value": 7.6
+            }
+          ]
+        }
       },
       {
         "id": "2026-11-19-indigo",
@@ -104,6 +131,10 @@
           {
             "term": "Margin trading",
             "meaning": "Buying shares partly with money borrowed from your broker"
+          },
+          {
+            "term": "free float",
+            "meaning": "Shares available for the public to trade"
           }
         ],
         "image": null,
@@ -149,7 +180,16 @@
         "soWhat": "Indian borrowers, exporters and investors should check their exposure to dollar loans and richly priced stocks.",
         "take": "An AI spending announcement is not guaranteed revenue.",
         "watch": "Upcoming US inflation data and the Fed's December decision.",
-        "terms": [],
+        "terms": [
+          {
+            "term": "Federal Reserve",
+            "meaning": "America's central bank, which sets its interest rates"
+          },
+          {
+            "term": "inflation",
+            "meaning": "Prices rising across the economy"
+          }
+        ],
         "image": null,
         "sources": [
           {
@@ -215,7 +255,12 @@
         "soWhat": "For Indians working or living abroad, the lesson is general: know the difference between an appeal, a temporary order and a final ruling.",
         "take": "Check the actual court order, not political announcements.",
         "watch": "The Supreme Court's docket and any order pausing the ruling.",
-        "terms": [],
+        "terms": [
+          {
+            "term": "TPS",
+            "meaning": "US status that shields some migrants from deportation"
+          }
+        ],
         "image": null,
         "sources": [
           {
@@ -265,6 +310,14 @@
           {
             "term": "Breadth",
             "meaning": "How widely stocks participate in a market move"
+          },
+          {
+            "term": "Nifty 50",
+            "meaning": "Index of India's 50 biggest listed companies"
+          },
+          {
+            "term": "Sensex",
+            "meaning": "BSE index of 30 large Indian companies"
           }
         ],
         "image": null,
@@ -535,7 +588,16 @@
           "soWhat": "If you hold exporters, check whether profits grow from real demand or just a weaker rupee.",
           "take": "One strong day of buying means little. Steady buying over weeks matters more.",
           "watch": "The next official fund-flow data and US inflation figures.",
-          "terms": [],
+          "terms": [
+            {
+              "term": "net buyers",
+              "meaning": "They bought more shares than they sold"
+            },
+            {
+              "term": "valuations",
+              "meaning": "How expensive shares are compared with profits"
+            }
+          ],
           "image": null,
           "sources": [
             {
@@ -558,7 +620,16 @@
           "soWhat": "Buying jewellery? The benchmark gold rate is only part of the bill. Tax, purity and making charges add the rest.",
           "take": "Prices taken at different times are fine, as long as they're labelled.",
           "watch": "The next IBJA rate, the oil settlement and company margins.",
-          "terms": [],
+          "terms": [
+            {
+              "term": "Brent crude",
+              "meaning": "The main global benchmark price for oil"
+            },
+            {
+              "term": "refining margins",
+              "meaning": "What refiners earn turning crude into fuel"
+            }
+          ],
           "image": null,
           "sources": [
             {
@@ -596,6 +667,18 @@
           "terms": [
             {
               "term": "Grey market",
+              "meaning": "Unofficial trading in IPO shares before listing"
+            },
+            {
+              "term": "IPO",
+              "meaning": "When a company first sells shares publicly"
+            },
+            {
+              "term": "prospectus",
+              "meaning": "The official document describing a share offer"
+            },
+            {
+              "term": "grey-market",
               "meaning": "Unofficial trading in IPO shares before listing"
             }
           ],
@@ -641,7 +724,11 @@
               "url": "https://corporate.spicejet.com/Content/pdf/OutcomeofBoardMeeting_18112026.pdf",
               "asOf": "2026-11-18"
             }
-          ]
+          ],
+          "keyNumber": {
+            "value": "₹5,500 crore",
+            "label": "maximum fundraise approved"
+          }
         }
       ]
     },
@@ -656,7 +743,12 @@
         "soWhat": "Today you pay about 35 times its yearly profit per share. Over the past five years, buyers usually paid about 45 times. So it's cheaper than its own normal.",
         "take": "A strong, nearly debt-free leader at a below-normal price.",
         "watch": "Whether customers keep paying on time in the next results.",
-        "terms": [],
+        "terms": [
+          {
+            "term": "moat",
+            "meaning": "What protects a business from its rivals"
+          }
+        ],
         "image": null,
         "sources": [
           {
@@ -913,7 +1005,12 @@
         "soWhat": "You pay about 35 times its yearly profit per share, below its usual 41 times. Still, the price sits just above the buy-below level, hence Wait.",
         "take": "A sticky, high-return business. Patience on price pays.",
         "watch": "Client retention, fee levels and margins in the next results.",
-        "terms": [],
+        "terms": [
+          {
+            "term": "switching costs",
+            "meaning": "The pain and cost of moving to a rival"
+          }
+        ],
         "image": null,
         "sources": [
           {
@@ -1171,7 +1268,12 @@
         "soWhat": "You pay about 19 times its yearly profit per share, below its usual 23 times. But the price is above the buy-below level, so: Wait.",
         "take": "Sticky clients, but AI decides whether this price proves cheap.",
         "watch": "Demand, payment collections and margins in its next results.",
-        "terms": [],
+        "terms": [
+          {
+            "term": "back-office",
+            "meaning": "Behind-the-scenes work customers never see"
+          }
+        ],
         "image": null,
         "sources": [
           {
@@ -1493,7 +1595,12 @@
         "soWhat": "If you rely on AI tools, how long a company can fund itself matters as much as how good its model is.",
         "take": "Read the risks and cash commitments before treating a big raise as a sure win.",
         "watch": "The final prospectus and Anthropic's first results as a listed company.",
-        "terms": [],
+        "terms": [
+          {
+            "term": "Nasdaq",
+            "meaning": "A major US stock exchange"
+          }
+        ],
         "image": null,
         "sources": [
           {
@@ -1503,7 +1610,11 @@
           }
         ],
         "beat": "deal",
-        "tryThis": "Open the prospectus's risk factors and note revenue, cash burn and computing commitments."
+        "tryThis": "Open the prospectus's risk factors and note revenue, cash burn and computing commitments.",
+        "keyNumber": {
+          "value": "$83",
+          "label": "IPO price per share"
+        }
       },
       {
         "id": "2026-11-19-neon",
@@ -1515,7 +1626,12 @@
         "soWhat": "For Indian businesses, test output quality and review time before switching a live process.",
         "take": "Pay for proven work, not a leaderboard rank.",
         "watch": "Completion rate, fixing time, speed and the real bill in your own test.",
-        "terms": [],
+        "terms": [
+          {
+            "term": "tokens",
+            "meaning": "Small chunks of text an AI reads or writes"
+          }
+        ],
         "image": null,
         "sources": [
           {
@@ -1525,7 +1641,21 @@
           }
         ],
         "beat": "launch",
-        "tryThis": "Give it and your current AI the same anonymised spreadsheet or coding task, and compare."
+        "tryThis": "Give it and your current AI the same anonymised spreadsheet or coding task, and compare.",
+        "chart": {
+          "title": "Price per million tokens",
+          "unit": "$",
+          "items": [
+            {
+              "label": "Text in",
+              "value": 3
+            },
+            {
+              "label": "Text out",
+              "value": 15
+            }
+          ]
+        }
       },
       {
         "id": "2026-11-19-disclosure",
@@ -1559,7 +1689,12 @@
         "soWhat": "Indian teams should check data-residency rules and deletion before storing customer histories on an overseas service.",
         "take": "How well it forgets matters as much as how fast it remembers.",
         "watch": "Supported regions, retention controls and real-world accuracy tests.",
-        "terms": [],
+        "terms": [
+          {
+            "term": "data-residency",
+            "meaning": "Rules on which country stores your data"
+          }
+        ],
         "image": null,
         "sources": [
           {
@@ -1605,7 +1740,12 @@
         "soWhat": "It happens in meetings. Once the boss says a number, everyone's estimate drifts towards it.",
         "take": "Protect independent opinions before a confident majority forms.",
         "watch": "At your next review, compare people's private first guesses with the final group answer.",
-        "terms": [],
+        "terms": [
+          {
+            "term": "conformity",
+            "meaning": "Changing what we say or do to fit in"
+          }
+        ],
         "image": null,
         "sources": [
           {
@@ -1758,7 +1898,11 @@
           "era": "recent"
         },
         "example": "A mixed team practises sharing resources fairly on a joint task, not just hearing a unity slogan.",
-        "useThisWeek": "Set up a task that needs two different groups to work together, and note whose ideas get heard."
+        "useThisWeek": "Set up a task that needs two different groups to work together, and note whose ideas get heard.",
+        "keyNumber": {
+          "value": "8,648",
+          "label": "young people in the trial"
+        }
       }
     ],
     "marketing": [

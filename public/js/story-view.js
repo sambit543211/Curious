@@ -8,17 +8,82 @@ import { cleanLabel, sourceCount, storyBlocks, storyMinutes } from './story.js';
 const arrow = value => Number.isFinite(value) && value !== 0 ? (value > 0 ? '▲ ' : '▼ ') + formatNumber(Math.abs(value)) + '%' : percent(value);
 const changeSpan = (value, tag = 'span', className = '') => node(tag, [className, trend(value)].filter(Boolean).join(' '), arrow(value));
 
+// Tap-to-explain: the first use of each glossary term in a story becomes a button showing its meaning.
+let glossary = null;
+const escapeRe = text => text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+function setGlossary(terms) {
+  glossary = {used:new Set(), terms:(terms ?? []).filter(item => item?.term && item?.meaning)
+    .sort((a, b) => b.term.length - a.term.length)
+    .map(item => ({...item, pattern:new RegExp('(?<![\\p{L}\\p{N}])' + escapeRe(item.term) + '(?![\\p{L}\\p{N}])', 'iu')}))};
+}
+function richText(text) {
+  const fragment = document.createDocumentFragment();
+  let rest = String(text ?? '');
+  while (rest) {
+    let best = null;
+    for (const entry of glossary?.terms ?? []) {
+      if (glossary.used.has(entry.term)) continue;
+      const match = entry.pattern.exec(rest);
+      if (match && (!best || match.index < best.match.index)) best = {entry, match};
+    }
+    if (!best) { fragment.append(rest); break; }
+    fragment.append(rest.slice(0, best.match.index));
+    const word = node('button', 'term', best.match[0]);
+    word.type = 'button';
+    word.dataset.term = best.entry.term;
+    word.dataset.meaning = best.entry.meaning;
+    word.setAttribute('aria-haspopup', 'dialog');
+    fragment.append(word);
+    glossary.used.add(best.entry.term);
+    rest = rest.slice(best.match.index + best.match[0].length);
+  }
+  return fragment;
+}
+const paragraph = (text, className = '') => {
+  const element = node('p', className);
+  element.append(richText(text));
+  return element;
+};
+
+// Horizontal bars. `signed` draws gains right of centre and falls left of it.
+const prefixUnits = new Set(['₹', '$']);
+const withUnit = (value, unit = '') => prefixUnits.has(unit) ? unit + formatNumber(value) : formatNumber(value) + unit;
+function barChart({title, unit = '', items, note}, {signed = false} = {}) {
+  const max = Math.max(...items.map(item => Math.abs(item.value))) || 1;
+  const figure = node('figure', 'chart');
+  if (title) figure.append(node('figcaption', '', title));
+  const bars = node('div', 'bars' + (signed ? ' is-signed' : ''));
+  for (const item of items) {
+    const row = node('div', 'bar-row');
+    const track = node('span', 'bar-track');
+    const fill = node('span', 'bar-fill' + (signed ? ' ' + (trend(item.value) || 'flat') : ''));
+    fill.style.width = Math.max(1.5, Math.abs(item.value) / max * (signed ? 50 : 100)) + '%';
+    if (signed) fill.style[item.value < 0 ? 'right' : 'left'] = '50%';
+    track.append(fill);
+    const value = signed ? changeSpan(item.value, 'span', 'bar-value') : node('span', 'bar-value', withUnit(item.value, unit));
+    row.append(node('span', 'bar-label', item.label), track, value);
+    bars.append(row);
+  }
+  figure.append(bars);
+  if (note) figure.append(node('p', 'fine', note));
+  figure.setAttribute('role', 'img');
+  figure.setAttribute('aria-label', (title ? title + ': ' : '') + items.map(item => item.label + ' ' + (signed ? arrow(item.value) : withUnit(item.value, unit))).join(', '));
+  return figure;
+}
+
 function block(title, content, className = 'block') {
   const box = node('section', className);
   box.append(node('h3', '', title));
-  box.append(...[].concat(content).map(item => typeof item === 'string' ? node('p', '', item) : item));
+  box.append(...[].concat(content).map(item => typeof item === 'string' ? paragraph(item) : item));
   return box;
 }
 function checklist(items, risky = false) {
   const list = node('ul', 'checks' + (risky ? ' risks' : ''));
   list.append(...items.map(text => {
     const item = node('li');
-    item.append(icon(risky ? 'cross' : 'check'), node('span', '', text));
+    const words = node('span');
+    words.append(richText(text));
+    item.append(icon(risky ? 'cross' : 'check'), words);
     return item;
   }));
   return list;
@@ -83,6 +148,9 @@ function dashboard(card) {
   const tiles = node('div', 'grid-2');
   tiles.append(...first.map(row => stat(marketName(row.name), formatNumber(row.level), row.d1)));
   lead.push(tiles);
+  const moves = card.rows.filter(row => Number.isFinite(row.d1));
+  if (moves.length > 1) lead.push(barChart({title:'How each one moved today', items:moves.map(row => ({label:marketName(row.name), value:row.d1}))}, {signed:true}));
+  const levels = [];
   if (rest[0].length) {
     const rows = node('div', 'rows');
     rows.append(...rest[0].map(row => {
@@ -92,7 +160,7 @@ function dashboard(card) {
       line.append(node('span', '', marketName(row.name)), value);
       return line;
     }));
-    lead.push(rows);
+    levels.push(block('Other levels', rows));
   }
   const {flows, niftyPE} = card;
   if (Number.isFinite(flows?.fii) || Number.isFinite(flows?.dii)) {
@@ -120,7 +188,7 @@ function dashboard(card) {
     gauge.append(labels, track);
     lead.push(gauge);
   }
-  const later = [block('Longer periods', table('Index changes over time', ['', 'Prev. close', 'Week', 'Month', 'YTD'],
+  const later = [...levels, block('Longer periods', table('Index changes over time', ['', 'Prev. close', 'Week', 'Month', 'YTD'],
     card.rows.map(row => [marketName(row.name), formatNumber(row.previousClose), changeSpan(row.w1), changeSpan(row.m1), changeSpan(row.ytd)])))];
   const notes = [...(card.dataQualityNotes ?? []), ...card.rows.filter(row => row.note).map(row => row.name + ': ' + row.note)];
   if (card.lastSession) notes.push('Last session: ' + card.lastSession);
@@ -135,7 +203,7 @@ function dashboard(card) {
 }
 
 const keyMetrics = {financial:['roa', 'grossNpa', 'car', 'pb'], other:['roce5y', 'de', 'salesCagr5y', 'profitCagr5y']};
-const shortMetric = {roa:'Return on assets', grossNpa:'Bad loans', car:'Capital buffer', pb:'Price to book', roce5y:'Return on capital', de:'Debt to equity', salesCagr5y:'Sales growth a year', profitCagr5y:'Profit growth a year'};
+const shortMetric = {roa:'Return on assets', grossNpa:'Bad loans', car:'Capital buffer', pb:'Price to book', roce5y:'Return on capital', de:'Debt to equity', salesCagr5y:'Sales growth/yr', profitCagr5y:'Profit growth/yr'};
 const percentMetric = new Set(['roa', 'grossNpa', 'car', 'roce5y', 'salesCagr5y', 'profitCagr5y']);
 
 function priceScale(card) {
@@ -217,6 +285,11 @@ function stockPick(card) {
     grid.append(...metrics.map(key => stat(shortMetric[key], formatNumber(card.metrics[key]) + (percentMetric.has(key) ? '%' : ''))));
     lead.push(grid);
   }
+  const [today, usual, name] = kind === 'financial' ? [card.metrics?.pb, card.metrics?.pbMedian5y, 'book value'] : [card.metrics?.pe, card.metrics?.peMedian5y, 'yearly profit'];
+  if ([today, usual].every(Number.isFinite)) {
+    lead.push(barChart({title:'Price tag: today vs its usual', unit:'×', items:[{label:'Today', value:today}, {label:'5-year usual', value:usual}],
+      note:'How many rupees you pay for each rupee of ' + name + '. ' + (today < usual ? 'Below its usual: cheaper than normal.' : 'Above its usual: dearer than normal.')}));
+  }
   const after = [];
   if (card.breakers?.length) after.push(block('Red flags', checklist(card.breakers, true)));
   const later = [];
@@ -270,6 +343,7 @@ function sources(card) {
 
 export function renderArticle(story) {
   const {topic, card} = story;
+  setGlossary(card.terms);
   const article = node('article', 'article');
   const head = node('div', 'article-head');
   const metaParts = [];
@@ -288,10 +362,16 @@ export function renderArticle(story) {
   title.tabIndex = -1;
   head.append(title);
   article.append(head);
+  if (card.keyNumber?.value) {
+    const key = node('div', 'key-number');
+    key.append(node('strong', '', card.keyNumber.value), node('span', '', card.keyNumber.label));
+    article.append(key);
+  }
 
   const data = dataFor(topic, card);
   if (data.first) article.append(...data.lead);
-  if (card.summary) article.append(node('p', 'lede', card.summary));
+  if (card.summary) article.append(paragraph(card.summary, 'lede'));
+  if (Array.isArray(card.chart?.items) && card.chart.items.length > 1) article.append(barChart(card.chart));
   if (!data.first) article.append(...data.lead);
   const {primary, more} = storyBlocks(topic, card);
   primary.forEach((item, index) => article.append(block(item.title, item.text, index ? 'block' : 'block callout')));

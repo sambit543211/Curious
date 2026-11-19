@@ -51,6 +51,22 @@ and `take` sit under "Background and my take".
 | `watch` | **What happens next**: the specific event, date or number to look out for. | 8–15 words |
 | `terms` | Hard words used in the card, each explained in under 10 words. | 0–3 |
 
+## Key numbers, charts and tap-to-explain words
+
+These make a story visual. Use them only when they help; most cards need none of the first two.
+
+- **`keyNumber`** `{value, label}`, optional. Only when one figure *is* the story: "7.6%" / "expected GDP growth",
+  "₹5,500 crore" / "maximum fundraise approved". Value under 18 characters, label up to 6 words. The figure must
+  appear in the card's own text. It shows large at the top of the story and beside the headline on Today. Skip it
+  for stories where no single number matters (most politics, psychology, marketing).
+- **`chart`** `{title, unit, items: [{label, value}]}`, optional. A simple bar comparison when two to eight numbers
+  are easier to see than read: GDP this quarter vs last, input vs output price, before vs after. `unit` is `%`, `₹`,
+  `$` or `×`. Every value must also appear in the card's text. The app already draws the markets day-move chart and
+  the stock "price tag: today vs its usual" chart, so don't repeat those.
+- **`terms`** `[{term, meaning}]`, 0–4 per card. Every hard word you use (GDP, IPO, moat, free float, conformity):
+  the term exactly as it appears in the text, and a meaning under 10 words. The app underlines its first use and
+  shows the meaning when tapped, so explain lightly in the text and let the tap do the rest.
+
 ## Section recipes
 
 **India and World.** Lead with what changed today. In `why`, give the background: who, why now,

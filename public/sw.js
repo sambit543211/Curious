@@ -1,6 +1,6 @@
 // Network first, so a new deploy is always picked up; the cache is the offline fallback.
 // Anything the app fetches from this site is kept for offline reading.
-const cacheName = 'morning-edition-v10';
+const cacheName = 'morning-edition-v11';
 const shell = ['/', '/style.css', '/app.js', '/theme.js', '/manifest.webmanifest', '/editions/index.json'];
 
 self.addEventListener('install', event => event.waitUntil(

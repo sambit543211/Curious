@@ -31,7 +31,18 @@ function segments(current) {
   }));
 }
 
+function hideTerm() {
+  $('term-tip').hidden = true;
+}
+function showTerm(word) {
+  $('term-tip-word').textContent = word.dataset.term;
+  $('term-tip-meaning').textContent = word.dataset.meaning;
+  $('term-tip').hidden = false;
+  $('term-tip-close').focus({preventScroll:true});
+}
+
 function show(index, direction = 0) {
+  hideTerm();
   position = index;
   openedAt = performance.now();
   const current = story();
@@ -109,7 +120,16 @@ export function initReader(settings) {
   $('previous').addEventListener('click', () => move(-1));
   $('next').addEventListener('click', () => move(1));
   $('reader-share').addEventListener('click', share);
+  // Tap an underlined word to see what it means; tap anywhere else or scroll to dismiss.
+  $('reader-scroll').addEventListener('click', event => {
+    const word = event.target.closest('.term');
+    if (word) showTerm(word);
+    else hideTerm();
+  });
+  $('reader-scroll').addEventListener('scroll', hideTerm, {passive:true});
+  $('term-tip-close').addEventListener('click', hideTerm);
   reader.addEventListener('close', () => {
+    hideTerm();
     if ($('reader-finish').hidden) settle(false);
     $('reader-announcement').textContent = '';
     if (returnFocus?.isConnected) returnFocus.focus({preventScroll:true});
