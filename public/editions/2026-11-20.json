@@ -1,0 +1,2482 @@
+{
+  "version": 2,
+  "stockLayout": "dip-quality",
+  "date": "2026-11-20",
+  "publishedAt": "2026-11-20T04:20:15.874Z",
+  "publicationMode": "morning",
+  "top3": [
+    {
+      "cardId": "2026-11-20-akvan-landfall",
+      "line": "Cyclone Akvan has crossed the Odisha coast near Gopalpur, weaker than feared."
+    },
+    {
+      "cardId": "2026-11-20-shenzhen-summit",
+      "line": "Xi, Trump and Putin met in China and issued a short peace declaration."
+    },
+    {
+      "cardId": "2026-11-20-anthropic-debut",
+      "line": "Anthropic shares jumped on their first day of trading on Nasdaq."
+    }
+  ],
+  "stockSelection": {
+    "session": "2026-11-19",
+    "fundamentalsDate": "2026-11-19",
+    "counts": {
+      "universe": 493,
+      "verified": 493,
+      "passed": 65,
+      "buyOrWait": 60,
+      "heldBack": 3,
+      "dipEligible": 5
+    }
+  },
+  "sections": {
+    "india": [
+      {
+        "id": "2026-11-20-akvan-landfall",
+        "rank": 1,
+        "beat": "wildcard",
+        "label": "India · 20 Nov 2026",
+        "headline": "Cyclone Akvan hits land near Gopalpur, weaker than feared",
+        "summary": "Cyclone Akvan has reached land. The weather office (IMD) says it crossed the coast near Gopalpur in Odisha between 7:30 and 8:30 this morning, with winds of 70–80 km/h gusting to 90. That is gentler than Thursday's forecast of 90–100 km/h, because the storm weakened overnight. Odisha had already moved about 3 lakh people into 2,523 relief camps.",
+        "why": "Over warm water a cyclone keeps refuelling. Once it drifts over land, that fuel is cut off, so it slowly loses strength. Rain, however, keeps falling for hours, and Akvan is the third storm to threaten this coast in 24 days.",
+        "soWhat": "Heavy rain can continue in south Odisha and north Andhra. Railways have cancelled dozens of trains, so check before travelling.",
+        "take": "Weaker winds are good news, but flooding often does the real damage.",
+        "watch": "IMD rainfall warnings for Ganjam and Puri, and when trains resume.",
+        "terms": [
+          {
+            "term": "IMD",
+            "meaning": "India Meteorological Department, the national weather office"
+          }
+        ],
+        "image": null,
+        "keyNumber": {
+          "value": "3 lakh",
+          "label": "people moved to relief camps"
+        },
+        "sources": [
+          {
+            "label": "Hindustan Times live updates quoting IMD landfall statement",
+            "url": "https://www.hindustantimes.com/india-news/cyclone-akvan-tracker-live-updates-landfall-imd-red-alert-heavy-rainfall-odisha-ganjam-gajapati-puri-jagatsinghp-101795135589664.html",
+            "accessedOn": "2026-11-20"
+          },
+          {
+            "label": "The Hindu: Cyclone Akvan landfall process begins (IMD bulletin)",
+            "url": "https://www.thehindu.com/news/national/cyclone-akvan-odisha-andhra-pradesh-landfall-imd-updates/article71722866.ece",
+            "accessedOn": "2026-11-20"
+          },
+          {
+            "label": "NDTV live updates (PTI: evacuations, relief camps, trains)",
+            "url": "https://www.ndtv.com/india-news/cyclone-akvan-live-imd-weather-updates-landfall-rainfall-odisha-andhra-pradesh-akvan-weakens-into-cyclonic-storm-likely-to-cross-odisha-andhra-coast-12352070",
+            "accessedOn": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-20-epfo-withdrawals",
+        "rank": 2,
+        "beat": "policy",
+        "label": "India · 20 Nov 2026",
+        "headline": "EPFO lets members take out up to 90% of their PF",
+        "summary": "Your provident fund just got easier to reach. On Thursday, the EPFO's top board voted to let members withdraw up to 90% of their eligible balance, instead of keeping a quarter locked. If you lose your job, you can now settle your account after 2 months without work, not 12. Retirees will also be able to take money out in monthly instalments.",
+        "why": "A year ago, in October 2025, the rules were tightened to protect retirement savings. That left many people unable to reach their own money quickly after losing a job. This decision reverses that and adds a pension-like payout option for those finishing their careers.",
+        "soWhat": "Facing a medical bill or a job loss? You may soon reach most of your PF without a long wait.",
+        "take": "Easier access helps in emergencies, but every withdrawal shrinks your retirement pot.",
+        "watch": "The amended EPF Scheme, expected in about two months, and the instalment rules.",
+        "terms": [
+          {
+            "term": "EPFO",
+            "meaning": "Government body that runs workers' provident fund savings"
+          },
+          {
+            "term": "PF",
+            "meaning": "Provident fund: salary savings kept for retirement"
+          }
+        ],
+        "image": null,
+        "keyNumber": {
+          "value": "90%",
+          "label": "share of PF you can withdraw"
+        },
+        "chart": {
+          "title": "Months jobless before full PF withdrawal",
+          "items": [
+            {
+              "label": "Old rule",
+              "value": 12
+            },
+            {
+              "label": "New rule",
+              "value": 2
+            }
+          ]
+        },
+        "sources": [
+          {
+            "label": "CNBC-TV18: EPFO new rules, CBT decision of 19 November",
+            "url": "https://www.cnbctv18.com/personal-finance/epfo-new-rules-2026-members-can-withdraw-up-to-90-per-cent-of-pf-retirees-can-draw-money-in-instalments-20037807.htm",
+            "accessedOn": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-20-rare-earth-magnets",
+        "rank": 3,
+        "beat": "policy",
+        "label": "India · 20 Nov 2026",
+        "headline": "Coal India picked to build rare-earth magnets under a government scheme",
+        "summary": "The Ministry of Heavy Industries has chosen a group led by Coal India to build a factory for rare-earth magnets. Its letter, dated 19 November, is for a plant making 1,200 tonnes a year. The project runs seven years: two to build, five to operate. The award comes under a ₹7,280 crore government scheme.",
+        "why": "These small but very strong magnets sit inside electric car motors, wind turbines, high-end electronics and defence systems. The Cabinet approved this scheme in November 2025, aiming for 6,000 tonnes a year of home-grown capacity. The ministry received 20 bids.",
+        "soWhat": "A home-grown supply of magnets could steady costs for Indian makers of EVs, wind turbines and electronics.",
+        "take": "A coal miner making magnets is a bold bet; execution will decide it.",
+        "watch": "Which other bidders win, and when construction actually begins.",
+        "terms": [
+          {
+            "term": "rare-earth magnets",
+            "meaning": "Very strong magnets made from rare metals like neodymium"
+          },
+          {
+            "term": "EV",
+            "meaning": "Electric vehicle"
+          }
+        ],
+        "image": null,
+        "keyNumber": {
+          "value": "₹7,280 crore",
+          "label": "size of the magnet scheme"
+        },
+        "sources": [
+          {
+            "label": "Economic Times / PTI: CIL-led consortium receives LoI",
+            "url": "https://m.economictimes.com/industry/indl-goods/svs/metals-mining/cil-led-consortium-receives-loi-from-govt-to-set-up-rare-earth-permanent-manufacturing-facility/articleshow/135995063.cms",
+            "accessedOn": "2026-11-20"
+          },
+          {
+            "label": "CNBC-TV18: Coal India declared L2 bidder",
+            "url": "https://www.cnbctv18.com/market/stocks/coal-india-share-price-declared-l2-bidder-for-governments-rare-earth-magnet-manufacturing-scheme-20037849.htm",
+            "accessedOn": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-20-spicejet-dgca",
+        "rank": 4,
+        "beat": "business",
+        "label": "India · 20 Nov 2026",
+        "headline": "Air safety regulator gives SpiceJet seven days to explain its failures",
+        "summary": "Yesterday we covered SpiceJet's plan to raise up to ₹5,500 crore. Now the aviation regulator (DGCA) has sent it a show-cause notice listing eight problems, reported on Friday. They include cancelled and late flights, an unpaid penalty and doubts over insurance. The DGCA says most of SpiceJet's planes are grounded, with no credible plan to bring them back.",
+        "why": "SpiceJet has been short of cash for a long time. With planes grounded, its share of domestic flyers fell from 3.9% in January to 0.6% in September. Fewer working aircraft mean more cancellations, which drive passengers away.",
+        "soWhat": "Holding a SpiceJet ticket? Keep checking its status, and avoid booking far ahead until things settle.",
+        "take": "Fresh money only helps if SpiceJet can actually keep its planes flying.",
+        "watch": "SpiceJet's reply to the DGCA and any new investor deal.",
+        "terms": [
+          {
+            "term": "DGCA",
+            "meaning": "Directorate General of Civil Aviation, India's air regulator"
+          },
+          {
+            "term": "show-cause notice",
+            "meaning": "Formal demand to explain why action shouldn't follow"
+          }
+        ],
+        "image": null,
+        "chart": {
+          "title": "SpiceJet's share of domestic flyers",
+          "unit": "%",
+          "items": [
+            {
+              "label": "January",
+              "value": 3.9
+            },
+            {
+              "label": "September",
+              "value": 0.6
+            }
+          ]
+        },
+        "sources": [
+          {
+            "label": "CNBC-TV18: DGCA show-cause notice to SpiceJet",
+            "url": "https://www.cnbctv18.com/business/aviation/dgca-gives-spicejet-7-days-to-respond-to-show-cause-notice-over-repeated-regulatory-lapses-20038152.htm",
+            "accessedOn": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-20-delhi-ehsaas",
+        "rank": 5,
+        "beat": "society",
+        "label": "India · 20 Nov 2026",
+        "headline": "Delhi schools must hire a counsellor for every 500 students",
+        "summary": "Delhi has launched a mental health policy for students, called Ehsaas 2026. Schools must appoint at least one counsellor for every 500 children. Colleges must open well-being centres and offer 24x7 helplines. It covers government, aided and recognised private schools. Institutions that ignore the rules can face disciplinary action. Chief Minister Rekha Gupta launched it on Thursday.",
+        "why": "Education minister Ashish Sood said worrying incidents involving students made the need clear. Children feel pressure from marks, entrance exams and comparison with friends. The policy also asks for confidential ways to report bullying and cyberbullying, plus district centres offering therapy.",
+        "soWhat": "Parents in Delhi can now ask their school who the counsellor is and how to reach them.",
+        "take": "Hiring counsellors is easy to promise; keeping them independent is harder.",
+        "watch": "The quarterly school reports on the new digital portal.",
+        "terms": [],
+        "image": null,
+        "keyNumber": {
+          "value": "1 per 500",
+          "label": "counsellors to students"
+        },
+        "sources": [
+          {
+            "label": "Times of India: Ehsaas 2026 puts student mental health at core",
+            "url": "https://timesofindia.indiatimes.com/city/delhi/beyond-marks-comparison-ehsaas-2026-puts-student-mental-health-at-core/articleshow/136000686.cms",
+            "accessedOn": "2026-11-20"
+          }
+        ]
+      }
+    ],
+    "world": [
+      {
+        "id": "2026-11-20-ukraine-berlin",
+        "rank": 1,
+        "label": "World · 20 Nov 2026",
+        "beat": "geopolitics",
+        "headline": "Trump tells Ukraine's allies that Putin is serious about peace",
+        "summary": "After meeting Vladimir Putin in China on Thursday, US President Donald Trump phoned into a Berlin meeting of Ukraine's European backers, the Coalition of the Willing. He told them Putin is serious about a peace deal, and that ending the war would save lives and money. His envoy Jared Kushner said Putin now accepts NATO-style security guarantees for Ukraine, and that Europe will join the next round of talks.",
+        "why": "Russia invaded in 2022, and the fighting is nearing its fifth year. European governments pay for much of Kyiv's weapons. Some fear Trump is buying Moscow's claim that this aid prolongs the conflict. Poland's leader Donald Tusk said Trump's faith in Putin's goodwill seems unshakable, with no facts behind it.",
+        "soWhat": "A real ceasefire would ease pressure on oil and fertiliser prices that Indian households and farmers feel.",
+        "take": "A guarantee means little until someone says whose soldiers will enforce it.",
+        "watch": "The first talks with Europe, Ukraine, Russia and the US at one table.",
+        "terms": [
+          {
+            "term": "Coalition of the Willing",
+            "meaning": "Countries pledging to protect Ukraine after any deal"
+          },
+          {
+            "term": "NATO-style security guarantees",
+            "meaning": "Promise allies defend Ukraine if attacked again"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Politico Europe: Trump call to Berlin coalition meeting",
+            "url": "https://www.politico.eu/article/donald-trump-presses-european-leaders-about-ukraine-aid-after-vladimir-putin-summit/",
+            "accessedOn": "2026-11-20"
+          }
+        ],
+        "indiaLink": "An end to the Ukraine war would steady global energy and fertiliser costs that India imports."
+      },
+      {
+        "id": "2026-11-20-riyadh-tower",
+        "rank": 2,
+        "label": "World · 20 Nov 2026",
+        "beat": "geopolitics",
+        "headline": "Houthi missile damages Riyadh's tallest tower, home of Saudi wealth fund",
+        "summary": "Yemen's Houthi rebels hit the Public Investment Fund (PIF) tower in Riyadh on Thursday, Saudi Arabia said. It is the capital's tallest skyscraper and houses the kingdom's giant state investment fund. Windows were blown out across several floors, but no one was hurt. It is the second strike on Riyadh's financial district this month, after the Aramco building was damaged on 8 November.",
+        "why": "The Iran-aligned group broke a 2022 UN-brokered truce and last month seized ground along Yemen's Red Sea coast, edging toward the Bab el-Mandeb strait. The renewed war has killed 2,260 people since August, the WHO says, and UNICEF counts more than 330,000 displaced.",
+        "soWhat": "Many Indians work in Saudi Arabia, and Red Sea shipping carries much of India's trade with Europe, so safety and freight costs rise.",
+        "take": "Air defences alone won't shield Riyadh; only a renewed truce will.",
+        "watch": "Houthi advances toward Aden and attacks near the Bab el-Mandeb shipping lane.",
+        "terms": [
+          {
+            "term": "Houthi",
+            "meaning": "Iran-aligned armed group controlling much of Yemen"
+          },
+          {
+            "term": "Bab el-Mandeb",
+            "meaning": "Narrow strait at the Red Sea's southern mouth"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Al Jazeera / Reuters: Saudi Arabia says Houthi attack damaged Riyadh tower",
+            "url": "https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south",
+            "accessedOn": "2026-11-20"
+          },
+          {
+            "label": "Jerusalem Post / Reuters: PIF Tower damaged",
+            "url": "https://www.jpost.com/middle-east/article-915410",
+            "accessedOn": "2026-11-20"
+          }
+        ],
+        "indiaLink": "Gulf and Red Sea violence threatens Indian workers in Saudi Arabia and India's shipping route to Europe."
+      },
+      {
+        "id": "2026-11-20-japan-cpi",
+        "rank": 3,
+        "label": "World · 20 Nov 2026",
+        "beat": "economy",
+        "headline": "Japan's prices rise faster as energy help ends, rate hike likely",
+        "summary": "Prices in Japan rose 2.3% in October from a year earlier, up from 2.1% in September, government data showed on Friday. Core inflation, which leaves out fresh food, rose to 2.2%. Energy drove much of it: household energy subsidies ended in September, just as the Iran war pushed up fuel costs, so power and gas bills climbed.",
+        "why": "The Bank of Japan wants steady, modest inflation, backed by pay rises. Wages have grown above 3% for nine straight months, says DBS economist Ma Tieying. Traders now see a 72% chance of a December rate rise, even though output shrank last quarter.",
+        "soWhat": "Higher Japanese rates can pull money out of riskier markets like India's and make yen loans to Indian firms costlier.",
+        "take": "Japan's inflation now looks home-grown, not just imported, so higher rates are overdue.",
+        "watch": "The Bank of Japan's December meeting and the planned return of energy subsidies.",
+        "keyNumber": {
+          "value": "2.3%",
+          "label": "Japan's October inflation"
+        },
+        "terms": [
+          {
+            "term": "Core inflation",
+            "meaning": "Price rise excluding volatile fresh food"
+          },
+          {
+            "term": "Bank of Japan",
+            "meaning": "Japan's central bank, which sets interest rates"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "CNBC: Japan October CPI",
+            "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html",
+            "accessedOn": "2026-11-20"
+          }
+        ],
+        "indiaLink": "Japanese rate hikes affect global money flows into Indian markets and the cost of yen-funded projects in India."
+      },
+      {
+        "id": "2026-11-20-shenzhen-summit",
+        "rank": 4,
+        "label": "World · 20 Nov 2026",
+        "beat": "us-china",
+        "headline": "Xi, Trump and Putin meet in China, issue a short peace declaration",
+        "summary": "Leaders of China, the US and Russia held their first-ever three-way summit in Shenzhen, China, on Thursday. Host Xi Jinping called the talks fruitful. Their four-point Declaration toward Peace promises UN reform, more refined fuel supplies, talks on cutting nuclear risks, and limits on the International Criminal Court. It does not mention the wars in Ukraine or Iran.",
+        "why": "Each leader wanted something different. Xi sought to look like the world's calm convenor. Putin, wanted by the ICC over alleged war crimes, gained a seat beside Washington. Trump, fresh from heavy midterm losses, framed the meeting as a historic start rather than a deal.",
+        "soWhat": "When big powers talk directly, India's room to play them off each other shrinks; more refined fuel would ease import bills.",
+        "take": "A declaration silent on Ukraine, Iran and Taiwan is a photo opportunity, not peace.",
+        "watch": "The G20 summit in Miami on 14–15 December, which Xi is expected to attend.",
+        "terms": [
+          {
+            "term": "International Criminal Court",
+            "meaning": "Global court that tries war crimes and genocide"
+          },
+          {
+            "term": "refined fuel",
+            "meaning": "Petrol, diesel and jet fuel made from crude"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Xinhua: Full text of the Declaration toward Peace",
+            "url": "https://english.news.cn/20261119/f54674416ffb46a68734353f2b1bc0ea/c.html",
+            "accessedOn": "2026-11-20"
+          },
+          {
+            "label": "AP via PBS: 3 takeaways from the summit",
+            "url": "https://www.pbs.org/newshour/world/3-takeaways-from-trump-xi-and-putins-historic-summit",
+            "accessedOn": "2026-11-20"
+          },
+          {
+            "label": "CFR: experts on the trilateral meeting",
+            "url": "https://www.cfr.org/articles/six-experts-on-what-trump-xi-and-putins-first-trilateral-means",
+            "accessedOn": "2026-11-20"
+          }
+        ],
+        "indiaLink": "Direct US-China-Russia deals shape the balance India navigates and the fuel supplies it buys."
+      },
+      {
+        "id": "2026-11-20-cop31-draft",
+        "rank": 5,
+        "label": "World · 20 Nov 2026",
+        "beat": "wildcard",
+        "headline": "Climate talks drop fossil fuel exit from draft deal on final day",
+        "summary": "At the UN climate summit COP31 in Antalya, Turkey, a new draft deal released on Thursday removed every mention of fossil fuels. An earlier version had called for a faster phase-out of coal, oil and gas. The nine-page text instead backs raising electricity's share of world energy use to 35% by 2035, from about 20% today. Talks are due to end Friday but may run longer.",
+        "why": "Nearly 200 countries must all agree, so one holdout can block a deal. Panama threatens to veto anything weak. Money shrank too: a target of at least $120 billion a year for adaptation was removed, though poorer nations need about $305 billion annually by 2035.",
+        "soWhat": "India opposes making the electricity goal binding, and Indian farmers and coastal cities need the adaptation money now left vague.",
+        "take": "A climate deal that cannot name fossil fuels is ducking the main problem.",
+        "watch": "The final Antalya text, likely to slip past Friday's scheduled close.",
+        "terms": [
+          {
+            "term": "COP31",
+            "meaning": "The 31st yearly UN climate summit"
+          },
+          {
+            "term": "adaptation",
+            "meaning": "Preparing for climate damage like floods and heat"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "DW: Fossil fuels dropped from latest COP31 draft",
+            "url": "https://www.dw.com/en/no-mention-of-fossil-fuels-in-latest-cop31-draft-deal/a-79992394",
+            "accessedOn": "2026-11-20"
+          },
+          {
+            "label": "Bloomberg via LA Times: Climate talks ditch call to quit fossil fuels",
+            "url": "https://www.latimes.com/environment/story/2026-11-19/climate-talks-ditch-call-to-quit-fossil-fuels-as-deal-nears",
+            "accessedOn": "2026-11-20"
+          }
+        ],
+        "indiaLink": "The deal decides how much help India gets for floods and heat, and what energy targets it must accept."
+      }
+    ],
+    "markets": {
+      "dashboard": {
+        "id": "2026-11-20-markets-dashboard",
+        "rank": 1,
+        "label": "Opening dashboard · 20 Nov 2026",
+        "headline": "Markets open slightly lower after Thursday's big rally",
+        "summary": "Indian shares eased in the first half hour of trading. Shortly before ten this morning the Nifty 50 was at 25,493, down about 0.08%, and the Sensex was down about 0.11% at 82,931. Banks went the other way: Bank Nifty was up about 0.16%. Smaller companies slipped more, with the Nifty Smallcap 250 down about 0.4%.",
+        "why": "After a strong day, some traders sell to lock in gains, so a small dip the next morning is common and not a warning on its own. The fear gauge, India VIX, rose about 5% to near 17, which means traders expect bigger swings ahead.",
+        "soWhat": "If you invest through a monthly SIP, one quiet morning changes nothing. Traders using borrowed money should note the jump in expected swings.",
+        "take": "A small pullback after a big rally is healthy, not a turn.",
+        "watch": "The closing level and whether foreign funds keep buying today.",
+        "terms": [
+          {
+            "term": "India VIX",
+            "meaning": "A gauge of expected market swings"
+          },
+          {
+            "term": "SIP",
+            "meaning": "Investing a fixed amount every month"
+          },
+          {
+            "term": "Nifty 50",
+            "meaning": "Index of India's fifty biggest listed companies"
+          },
+          {
+            "term": "Sensex",
+            "meaning": "BSE index of thirty large Indian companies"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Moneycontrol Nifty 50 quote (NSE)",
+            "url": "https://priceapi.moneycontrol.com/pricefeed/notapplicable/inidicesindia/in%3BNSX"
+          },
+          {
+            "label": "Moneycontrol Sensex quote (BSE)",
+            "url": "https://priceapi.moneycontrol.com/pricefeed/notapplicable/inidicesindia/in%3BSEN"
+          },
+          {
+            "label": "Moneycontrol Bank Nifty quote (NSE)",
+            "url": "https://priceapi.moneycontrol.com/pricefeed/notapplicable/inidicesindia/in%3Bnbx"
+          },
+          {
+            "label": "Yahoo Finance Nifty Midcap 150 chart data",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NIFTYMIDCAP150.NS?interval=1d&range=10d"
+          },
+          {
+            "label": "Yahoo Finance Nifty Smallcap 250",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NIFTYSMLCAP250.NS?interval=1d&range=10d"
+          },
+          {
+            "label": "Yahoo Finance India VIX",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EINDIAVIX?interval=1d&range=10d"
+          },
+          {
+            "label": "Yahoo Finance ₹/US$ chart data",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/INR%3DX?interval=1d&range=10d"
+          },
+          {
+            "label": "Yahoo Finance Brent chart data",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?interval=1d&range=10d"
+          },
+          {
+            "label": "IBJA published gold rates",
+            "url": "https://ibjarates.com/"
+          },
+          {
+            "label": "Clearcorp (CCIL) government securities data",
+            "url": "https://www.clearcorp.co.in/"
+          },
+          {
+            "label": "Moneycontrol FII/DII cash-market activity, 19 Nov and November to date",
+            "url": "https://www.moneycontrol.com/stocks/marketstats/fii_dii_activity/"
+          },
+          {
+            "label": "IndexPE Nifty 50 five-year median P/E",
+            "url": "https://indexpe.in/nifty-50"
+          },
+          {
+            "label": "NSE official index close 19112026",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_19112026.csv"
+          },
+          {
+            "label": "NSE official index close 13112026",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_13112026.csv"
+          },
+          {
+            "label": "NSE official index close 19102026",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_19102026.csv"
+          },
+          {
+            "label": "NSE official index close 31122025",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 25493.1,
+            "url": "https://priceapi.moneycontrol.com/pricefeed/notapplicable/inidicesindia/in%3BNSX",
+            "asOf": "2026-11-20"
+          },
+          {
+            "value": -0.08,
+            "url": "https://priceapi.moneycontrol.com/pricefeed/notapplicable/inidicesindia/in%3BNSX",
+            "asOf": "2026-11-20"
+          },
+          {
+            "value": 82931.36,
+            "url": "https://priceapi.moneycontrol.com/pricefeed/notapplicable/inidicesindia/in%3BSEN",
+            "asOf": "2026-11-20"
+          },
+          {
+            "value": -0.11,
+            "url": "https://priceapi.moneycontrol.com/pricefeed/notapplicable/inidicesindia/in%3BSEN",
+            "asOf": "2026-11-20"
+          },
+          {
+            "value": 0.16,
+            "url": "https://priceapi.moneycontrol.com/pricefeed/notapplicable/inidicesindia/in%3Bnbx",
+            "asOf": "2026-11-20"
+          },
+          {
+            "value": -0.4,
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/NIFTYSMLCAP250.NS?interval=1d&range=10d",
+            "asOf": "2026-11-20"
+          },
+          {
+            "value": 16.95,
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EINDIAVIX?interval=1d&range=10d",
+            "asOf": "2026-11-20"
+          },
+          {
+            "value": 5.21,
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EINDIAVIX?interval=1d&range=10d",
+            "asOf": "2026-11-20"
+          }
+        ],
+        "asOf": "09:45 IST",
+        "timestamp": "2026-11-20T09:45:05+05:30",
+        "mode": "latest",
+        "session": "open",
+        "rows": [
+          {
+            "name": "Nifty 50",
+            "level": 25493.1,
+            "previousClose": 25514.3,
+            "d1": -0.08,
+            "source": {
+              "url": "https://priceapi.moneycontrol.com/pricefeed/notapplicable/inidicesindia/in%3BNSX",
+              "asOf": "2026-11-20"
+            },
+            "note": "Moneycontrol NSE quote, last updated 09:45:02 IST; prior closes from NSE official index close files.",
+            "w1": 1.39,
+            "m1": 11.38,
+            "ytd": -2.44
+          },
+          {
+            "name": "Sensex",
+            "level": 82931.36,
+            "previousClose": 83021.75,
+            "d1": -0.11,
+            "source": {
+              "url": "https://priceapi.moneycontrol.com/pricefeed/notapplicable/inidicesindia/in%3BSEN",
+              "asOf": "2026-11-20"
+            },
+            "note": "Moneycontrol BSE quote, last updated 09:45:01 IST; dated baselines from the same Moneycontrol record.",
+            "w1": 1.64,
+            "m1": 12.29,
+            "ytd": -2.69
+          },
+          {
+            "name": "Bank Nifty",
+            "level": 63165.9,
+            "previousClose": 63063,
+            "d1": 0.16,
+            "source": {
+              "url": "https://priceapi.moneycontrol.com/pricefeed/notapplicable/inidicesindia/in%3Bnbx",
+              "asOf": "2026-11-20"
+            },
+            "note": "Moneycontrol NSE quote, last updated 09:45:07 IST; prior closes from NSE official index close files.",
+            "w1": 3.49,
+            "m1": 13.84,
+            "ytd": 6.02
+          },
+          {
+            "name": "Nifty Midcap 150",
+            "level": 22599.45,
+            "previousClose": 22613.85,
+            "d1": -0.06,
+            "source": {
+              "url": "https://query1.finance.yahoo.com/v8/finance/chart/NIFTYMIDCAP150.NS?interval=1d&range=10d",
+              "asOf": "2026-11-20"
+            },
+            "note": "Yahoo Finance quote timestamped 09:45:06 IST; prior closes from NSE official index close files.",
+            "w1": -0.36,
+            "m1": 5.12,
+            "ytd": 1.45
+          },
+          {
+            "name": "Nifty Smallcap 250",
+            "level": 17732.5,
+            "previousClose": 17802.9,
+            "d1": -0.4,
+            "source": {
+              "url": "https://query1.finance.yahoo.com/v8/finance/chart/NIFTYSMLCAP250.NS?interval=1d&range=10d",
+              "asOf": "2026-11-20"
+            },
+            "note": "Yahoo Finance quote timestamped 09:45:06 IST; prior closes from NSE official index close files.",
+            "w1": -1.16,
+            "m1": 1.71,
+            "ytd": 6.28
+          },
+          {
+            "name": "₹/US$",
+            "level": 93.147,
+            "previousClose": null,
+            "d1": null,
+            "source": {
+              "url": "https://query1.finance.yahoo.com/v8/finance/chart/INR%3DX?interval=1d&range=10d",
+              "asOf": "2026-11-20"
+            },
+            "note": "Yahoo Finance spot quote timestamped 09:45:04 IST. Previous-close comparison omitted: the source’s daily bar and previous-close field disagree."
+          },
+          {
+            "name": "Brent",
+            "level": 90.21,
+            "previousClose": null,
+            "d1": null,
+            "source": {
+              "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?interval=1d&range=10d",
+              "asOf": "2026-11-20"
+            },
+            "note": "Brent front-month futures, Yahoo Finance quote timestamped 09:35:02 IST. Previous-close comparison omitted: the source’s daily bar and previous-close field disagree."
+          },
+          {
+            "name": "Gold (₹/10 g)",
+            "level": 129531,
+            "previousClose": 131164,
+            "d1": -1.25,
+            "source": {
+              "url": "https://ibjarates.com/",
+              "asOf": "2026-11-20"
+            },
+            "note": "IBJA 999 gold rate dated 19 November (latest published at collection), per ten grams, excluding GST and making charges; compared with the 18 November rate. Not a 20 November quote."
+          },
+          {
+            "name": "India 10-year G-sec yield",
+            "level": null,
+            "previousClose": null,
+            "d1": null,
+            "unavailableReason": "No timestamped official 10-year yield observation could be verified at collection.",
+            "source": {
+              "url": "https://www.clearcorp.co.in/",
+              "asOf": "2026-11-20"
+            }
+          },
+          {
+            "name": "India VIX",
+            "level": 16.95,
+            "previousClose": 16.11,
+            "d1": 5.21,
+            "source": {
+              "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EINDIAVIX?interval=1d&range=10d",
+              "asOf": "2026-11-20"
+            },
+            "note": "Yahoo Finance quote timestamped 09:45:06 IST; previous close from the NSE official index close file."
+          }
+        ],
+        "flows": {
+          "url": "https://www.moneycontrol.com/stocks/marketstats/fii_dii_activity/",
+          "asOf": "2026-11-19",
+          "fii": 7411.41,
+          "dii": -1356.57,
+          "fiiMtd": 101640.72,
+          "diiMtd": -56927.23
+        },
+        "niftyPE": {
+          "url": "https://indexpe.in/nifty-50",
+          "asOf": "2026-11-19",
+          "now": 20.78,
+          "median5y": 21.9
+        },
+        "dataQualityNotes": [
+          "₹/US$: unverified historical comparisons are omitted.",
+          "Brent: unverified historical comparisons are omitted.",
+          "India 10-year G-sec yield: No timestamped official 10-year yield observation could be verified at collection."
+        ]
+      },
+      "cards": [
+        {
+          "id": "2026-11-20-autos-lead-rally",
+          "rank": 2,
+          "beat": "sector",
+          "label": "Indian Markets · 20 Nov 2026",
+          "headline": "Car makers drive Thursday's rally as metal prices cool",
+          "summary": "Indian shares rose sharply on Thursday even as most of Asia fell. Car companies led the way, and Maruti Suzuki was the top gainer in the Nifty 50. Air-conditioner makers Voltas and Blue Star also jumped. Bank shares climbed to record highs. IT was the only major sector that fell.",
+          "why": "Cars and ACs are full of copper, aluminium and steel. When those metals get cheaper, makers keep more profit from every vehicle or unit sold. Copper had just slid to its lowest level in months, and strong festival-season sales added confidence. IT slipped because hawkish US Fed notes revive fears that American clients will trim tech budgets.",
+          "soWhat": "Cheaper raw materials can delay price hikes on cars and ACs, which helps if you plan a purchase soon.",
+          "take": "Margin gains from cheap metals are temporary; steady demand is what lasts.",
+          "watch": "Monthly car sales figures early next month, and copper prices.",
+          "terms": [
+            {
+              "term": "auto index",
+              "meaning": "A basket tracking listed vehicle makers' shares"
+            },
+            {
+              "term": "hawkish",
+              "meaning": "Leaning towards higher interest rates"
+            }
+          ],
+          "image": null,
+          "evidence": [],
+          "sources": [
+            {
+              "label": "Reuters: Autos, financials power India market rally, defying broader Asia decline",
+              "url": "https://www.reuters.com/world/india/indian-shares-set-open-lower-hawkish-fed-minutes-weigh-2026-11-19/",
+              "accessedOn": "2026-11-20"
+            },
+            {
+              "label": "ETV Bharat: Stock market closing, Nifty Bank settles at fresh high",
+              "url": "https://www.etvbharat.com/en/business/stock-market-on-november-19-sensex-nifty50-crude-oil-prices-fii-buying-enn26111901178",
+              "accessedOn": "2026-11-20"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-20-fairfax-iifl-capital",
+          "rank": 3,
+          "beat": "result",
+          "label": "Indian Markets · 20 Nov 2026",
+          "headline": "Fairfax becomes the controlling shareholder of IIFL Capital",
+          "summary": "Fairfax Financial, a Canadian investment group, now controls IIFL Capital, a broking, investment banking and wealth firm. IIFL Capital told the exchanges on Thursday that Fairfax had completed its open offer. Earlier that day, Fairfax bought a large block of shares from the founders, including Nirmal Jain, in one big trade.",
+          "why": "Fairfax is reshuffling its Indian bets. A day earlier it sold out of IIFL Finance, the lending arm, reportedly to free cash for buying a majority of IDBI Bank from the government and LIC. It plans to bring its insurance, broking and wealth businesses together under IDBI Bank, building one large financial group.",
+          "soWhat": "If you hold IIFL Capital, IDBI Bank or Digit insurance shares, Fairfax's choices now shape their future.",
+          "take": "One owner running a bank, insurer and broker needs careful watching by regulators.",
+          "watch": "Fairfax's next filings as it heads towards majority ownership of IIFL Capital.",
+          "terms": [
+            {
+              "term": "open offer",
+              "meaning": "Buyer's offer to buy shares from public holders"
+            },
+            {
+              "term": "block",
+              "meaning": "A very large single trade between big investors"
+            }
+          ],
+          "image": null,
+          "evidence": [],
+          "sources": [
+            {
+              "label": "Reuters: Fairfax takes control of India's IIFL Capital after open offer",
+              "url": "https://www.reuters.com/world/india/fairfax-likely-buyer-iifl-capitals-165-million-block-deal-cnbc-tv18-reports-2026-11-19/",
+              "accessedOn": "2026-11-20"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-20-crystal-crop-last-day",
+          "rank": 4,
+          "beat": "ipo",
+          "label": "Indian Markets · 20 Nov 2026",
+          "headline": "Crystal Crop's IPO closes today after bids topped shares on offer",
+          "summary": "Crystal Crop Protection sells pesticides, crop nutrients and seeds to Indian farmers. Its IPO (first sale of shares to the public) closes on Friday. By Thursday evening, investors had bid for about three times the shares on offer, and small retail investors were keen too. The new news is demand: bids now clearly exceed what is available.",
+          "why": "Most of the fresh cash raised will go towards paying off loans, not building factories. Lower debt means smaller interest bills, which can lift profits. But its returns on shareholders' money have been modest, and cash from operations shrank last year even as profits grew.",
+          "soWhat": "Heavy demand means many applicants may get no shares at all. Don't bid more than you can afford to lose.",
+          "take": "Strong bidding shows appetite, not value; read the prospectus before applying.",
+          "watch": "Final subscription figures tonight, allotment on Monday, listing next Thursday.",
+          "terms": [
+            {
+              "term": "IPO",
+              "meaning": "When a company first sells shares publicly"
+            },
+            {
+              "term": "allotment",
+              "meaning": "Deciding which bidders actually receive shares"
+            },
+            {
+              "term": "prospectus",
+              "meaning": "The official document describing a share offer"
+            }
+          ],
+          "image": null,
+          "evidence": [],
+          "sources": [
+            {
+              "label": "Chittorgarh: Crystal Crop Protection IPO details, subscription and timetable",
+              "url": "https://www.chittorgarh.com/ipo/crystal-crop-protection-ipo/2813/",
+              "accessedOn": "2026-11-20"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-20-flows-rupee",
+          "rank": 5,
+          "beat": "flows",
+          "label": "Indian Markets · 20 Nov 2026",
+          "headline": "Foreign money floods in while Indian funds keep selling",
+          "summary": "On Thursday, foreign investors were again big net buyers of Indian shares, while Indian institutions such as mutual funds sold, exchange data shows. That foreign wave has made the rupee Asia's best-performing currency this month, Reuters reports, even though the US dollar has been strengthening.",
+          "why": "Global investors are pulling money out of South Korea and Taiwan, whose markets soared on the AI boom and are now sliding. Some of that money is landing in India instead. Meanwhile domestic funds keep selling into the rally, so the two sides pull against each other.",
+          "soWhat": "A firmer rupee makes imports, foreign travel and overseas fees slightly cheaper, but hurts exporters' rupee earnings.",
+          "take": "Money that rushes in for safety can rush out just as quickly.",
+          "watch": "Friday's institutional flow data and whether the rupee holds its gains.",
+          "terms": [
+            {
+              "term": "net buyers",
+              "meaning": "Bought more shares than they sold"
+            }
+          ],
+          "image": null,
+          "evidence": [],
+          "sources": [
+            {
+              "label": "Reuters: Global risk jitters bolster rupee as investors turn to Indian assets",
+              "url": "https://www.reuters.com/world/india/global-risk-jitters-bolster-rupee-investors-turn-indian-assets-2026-11-20/",
+              "accessedOn": "2026-11-20"
+            },
+            {
+              "label": "Quantsapp: FII and DII cash market data, 19 Nov",
+              "url": "https://www.quantsapp.com/fii-dii",
+              "accessedOn": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    "investing": [
+      {
+        "id": "2026-11-20-indiamart",
+        "rank": 1,
+        "label": "Investing · 20 Nov 2026",
+        "symbol": "INDIAMART",
+        "headline": "IndiaMART helps firms find suppliers, and its shares sit near lows",
+        "summary": "IndiaMART is a giant online directory where small factories and traders list their products, and business buyers find them. Sellers pay a yearly subscription to be seen. Over five years, sales grew about 19% a year and profit about 11%. It earns about ₹25 a year on every hundred rupees invested, with almost no debt. The share closed at ₹1,553, far below its one-year high of ₹2,470.",
+        "why": "The worry is not profit, which rose about 10% last quarter. It is customer growth. Many sellers on the cheapest plan quit after a year, and Google's AI answers now send fewer visitors its way.",
+        "soWhat": "Today you pay about ₹19 for each rupee of yearly profit (its P/E). Buyers usually paid about ₹46. So it's far cheaper than its own normal.",
+        "take": "A cash-rich, debt-free leader priced as if growth has ended.",
+        "watch": "The paying-seller count in the next results; it needs to grow again.",
+        "terms": [
+          {
+            "term": "P/E",
+            "meaning": "Price paid for each rupee of yearly profit"
+          },
+          {
+            "term": "churn",
+            "meaning": "Customers who stop paying and leave"
+          }
+        ],
+        "image": null,
+        "thesis": [
+          "Small Indian firms looking for buyers online usually end up on it.",
+          "It has almost no debt and pays a dividend of about 1.9%.",
+          "Profit still grew about 10% last quarter despite the worries."
+        ],
+        "breakers": [
+          "Paying sellers keep leaving faster than new ones join.",
+          "AI search tools could replace a directory for finding suppliers."
+        ],
+        "moat": "Network effect",
+        "moatWhy": "More buyers attract more sellers and the other way round, so a newcomer struggles to match its listings.",
+        "whyFell": "Its number of paying sellers has stayed flat for two years, because many sellers on its cheapest 'silver' plan leave. Buyer enquiries have also slipped for two quarters, partly because Google's AI answers send fewer visitors and IndiaMART locked its data away from AI scrapers. Management has stopped promising a fix for the churn.",
+        "sources": [
+          {
+            "label": "Screener.in company pages, 2026-11-19",
+            "url": "https://www.screener.in/"
+          },
+          {
+            "label": "NSE Nifty 500 constituents",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          },
+          {
+            "label": "Screener company financials",
+            "url": "https://www.screener.in/company/INDIAMART/consolidated/",
+            "accessedOn": "2026-11-20"
+          },
+          {
+            "label": "NSE bhavcopy (10-session average traded value)",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261118_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official close, 19 Nov",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+            "accessedOn": "2026-11-20"
+          },
+          {
+            "label": "NSE one-year high/low file, 19 Nov",
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_19112026.csv",
+            "accessedOn": "2026-11-20"
+          },
+          {
+            "label": "IndiaMART earnings call highlights (GuruFocus via Yahoo Finance)",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/indiamart-intermesh-ltd-bom-542726-030215026.html",
+            "accessedOn": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 1552.5,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 2469.6,
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_19112026.csv",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 18.61,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 46.4,
+            "url": "https://www.screener.in/company/INDIAMART/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 25.4,
+            "url": "https://www.screener.in/company/INDIAMART/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 19,
+            "url": "https://www.screener.in/company/INDIAMART/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 11,
+            "url": "https://www.screener.in/company/INDIAMART/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 9.64,
+            "url": "https://www.screener.in/company/INDIAMART/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 1.93,
+            "url": "https://www.screener.in/company/INDIAMART/consolidated/",
+            "asOf": "2026-11-19"
+          }
+        ],
+        "slot": "dip",
+        "sector": "Consumer Services",
+        "kind": "non-financial",
+        "price": 1552.5,
+        "quoteDate": "2026-11-19",
+        "dataDate": "2026-09-30",
+        "metrics": {
+          "marketCap": 9338,
+          "divYield": 1.93,
+          "roce5y": 25.4,
+          "de": 0.01,
+          "salesCagr5y": 19,
+          "profitCagr5y": 11,
+          "ocfPositiveYears": 5,
+          "profitYoY": 9.64,
+          "promoterHolding": 49.07,
+          "promoterChange": 0,
+          "eps": 83.42,
+          "peMedian5y": 46.4,
+          "avgDailyValue": 11.35,
+          "high52": 2469.6,
+          "low52": 1465.4,
+          "pe": 18.61
+        },
+        "metricSources": {
+          "marketCap": {
+            "url": "https://www.screener.in/company/INDIAMART/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "divYield": {
+            "url": "https://www.screener.in/company/INDIAMART/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "roce5y": {
+            "url": "https://www.screener.in/company/INDIAMART/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "de": {
+            "url": "https://www.screener.in/company/INDIAMART/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "salesCagr5y": {
+            "url": "https://www.screener.in/company/INDIAMART/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "profitCagr5y": {
+            "url": "https://www.screener.in/company/INDIAMART/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "ocfPositiveYears": {
+            "url": "https://www.screener.in/company/INDIAMART/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "profitYoY": {
+            "url": "https://www.screener.in/company/INDIAMART/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "promoterHolding": {
+            "url": "https://www.screener.in/company/INDIAMART/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "promoterChange": {
+            "url": "https://www.screener.in/company/INDIAMART/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "eps": {
+            "url": "https://www.screener.in/company/INDIAMART/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "peMedian5y": {
+            "url": "https://www.screener.in/company/INDIAMART/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "avgDailyValue": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261118_F_0000.csv.zip",
+            "asOf": "2026-11-18"
+          },
+          "pe": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+            "asOf": "2026-11-19"
+          },
+          "price": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+            "asOf": "2026-11-19"
+          },
+          "high52": {
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_19112026.csv",
+            "asOf": "2026-11-19"
+          },
+          "low52": {
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_19112026.csv",
+            "asOf": "2026-11-19"
+          }
+        },
+        "screen": {
+          "roce": true,
+          "debt": true,
+          "sales": true,
+          "profit": true,
+          "cash": true,
+          "valuation": true,
+          "pledge": null,
+          "liquidity": true
+        },
+        "fairValue": 3870.69,
+        "buyBelow": 3096.55,
+        "verdict": "Buy",
+        "dip": {
+          "fromHigh": -37.1,
+          "fromLow": 5.9,
+          "peers": 22,
+          "sectorFromHigh": -18.3,
+          "fall": "sector-wide"
+        }
+      },
+      {
+        "id": "2026-11-20-pageind",
+        "rank": 2,
+        "label": "Investing · 20 Nov 2026",
+        "symbol": "PAGEIND",
+        "headline": "Page makes Jockey innerwear in India; its shares sit near lows",
+        "summary": "Page Industries holds the Indian licence for Jockey, the innerwear and loungewear brand, and also sells Speedo swimwear. Over five years, sales grew about 13% a year and profit about 18%. It earns about ₹58 a year on every hundred rupees invested, with little debt. The share closed at ₹31,065, close to its one-year low and well below its high of ₹43,855.",
+        "why": "Cotton and other inputs have stayed costly, squeezing margins. Separately, the RBI returned Page's request to settle a rule breach, telling it to get government approval first. Page says the money impact should not be material.",
+        "soWhat": "You pay about ₹44 for each rupee of yearly profit. Over five years, buyers usually paid about ₹74. So it's cheaper than its own normal, though not cheap.",
+        "take": "A premium brand with superb returns, priced below its usual for once.",
+        "watch": "Government approval on the foreign-exchange breach, and pieces sold in the next results.",
+        "terms": [
+          {
+            "term": "licence",
+            "meaning": "Right to make and sell another firm's brand"
+          },
+          {
+            "term": "FEMA",
+            "meaning": "India's law on foreign money and investment"
+          }
+        ],
+        "image": null,
+        "thesis": [
+          "Jockey is a trusted name, so Page can charge more than rivals.",
+          "It earns about ₹58 on every hundred rupees invested, among the best in India.",
+          "It pays a steady dividend, now about 1.8% a year."
+        ],
+        "breakers": [
+          "Volumes keep growing slowly while costs stay high.",
+          "The foreign-exchange rule breach brings a bigger penalty than Page expects."
+        ],
+        "moat": "Brand",
+        "moatWhy": "Jockey's name lets Page charge premium prices for everyday basics like vests and briefs.",
+        "whyFell": "The stock tumbled on results day this month. Profit grew only about 4%, costly raw materials squeezed margins, and volumes grew far slower than the double-digit goal management had set. A footnote also admitted that its online sales of imported Jockey and Speedo goods broke foreign-investment (FEMA) rules, and the RBI sent back its request to settle the matter.",
+        "sources": [
+          {
+            "label": "Screener.in company pages, 2026-11-19",
+            "url": "https://www.screener.in/"
+          },
+          {
+            "label": "NSE Nifty 500 constituents",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          },
+          {
+            "label": "Screener company financials",
+            "url": "https://www.screener.in/company/PAGEIND/",
+            "accessedOn": "2026-11-20"
+          },
+          {
+            "label": "NSE bhavcopy (10-session average traded value)",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261118_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official close, 19 Nov",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+            "accessedOn": "2026-11-20"
+          },
+          {
+            "label": "NSE one-year high/low file, 19 Nov",
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_19112026.csv",
+            "accessedOn": "2026-11-20"
+          },
+          {
+            "label": "CNBC-TV18: Page Industries results and FEMA disclosure",
+            "url": "https://www.cnbctv18.com/market/page-industries-q2-results-revenue-ebitda-margin-volume-growth-fema-regulation-rbi-impact-share-price-crash-20032495.htm",
+            "accessedOn": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 31065,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 43855,
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_19112026.csv",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 29805,
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_19112026.csv",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 43.89,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 73.5,
+            "url": "https://www.screener.in/company/PAGEIND/",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 57.8,
+            "url": "https://www.screener.in/company/PAGEIND/",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 13,
+            "url": "https://www.screener.in/company/PAGEIND/",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 18,
+            "url": "https://www.screener.in/company/PAGEIND/",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 4.1,
+            "url": "https://www.screener.in/company/PAGEIND/",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 1.77,
+            "url": "https://www.screener.in/company/PAGEIND/",
+            "asOf": "2026-11-19"
+          }
+        ],
+        "slot": "dip",
+        "sector": "Textiles",
+        "kind": "non-financial",
+        "price": 31065,
+        "quoteDate": "2026-11-19",
+        "dataDate": "2026-09-30",
+        "metrics": {
+          "marketCap": 34638,
+          "divYield": 1.77,
+          "roce5y": 57.8,
+          "de": 0.26,
+          "salesCagr5y": 13,
+          "profitCagr5y": 18,
+          "ocfPositiveYears": 4,
+          "profitYoY": 4.1,
+          "promoterHolding": 42.89,
+          "promoterChange": 0,
+          "eps": 707.72,
+          "peMedian5y": 73.5,
+          "avgDailyValue": 228.04,
+          "high52": 43855,
+          "low52": 29805,
+          "pe": 43.89
+        },
+        "metricSources": {
+          "marketCap": {
+            "url": "https://www.screener.in/company/PAGEIND/",
+            "asOf": "2026-11-19"
+          },
+          "divYield": {
+            "url": "https://www.screener.in/company/PAGEIND/",
+            "asOf": "2026-11-19"
+          },
+          "roce5y": {
+            "url": "https://www.screener.in/company/PAGEIND/",
+            "asOf": "2026-11-19"
+          },
+          "de": {
+            "url": "https://www.screener.in/company/PAGEIND/",
+            "asOf": "2026-11-19"
+          },
+          "salesCagr5y": {
+            "url": "https://www.screener.in/company/PAGEIND/",
+            "asOf": "2026-11-19"
+          },
+          "profitCagr5y": {
+            "url": "https://www.screener.in/company/PAGEIND/",
+            "asOf": "2026-11-19"
+          },
+          "ocfPositiveYears": {
+            "url": "https://www.screener.in/company/PAGEIND/",
+            "asOf": "2026-11-19"
+          },
+          "profitYoY": {
+            "url": "https://www.screener.in/company/PAGEIND/",
+            "asOf": "2026-11-19"
+          },
+          "promoterHolding": {
+            "url": "https://www.screener.in/company/PAGEIND/",
+            "asOf": "2026-11-19"
+          },
+          "promoterChange": {
+            "url": "https://www.screener.in/company/PAGEIND/",
+            "asOf": "2026-11-19"
+          },
+          "eps": {
+            "url": "https://www.screener.in/company/PAGEIND/",
+            "asOf": "2026-11-19"
+          },
+          "peMedian5y": {
+            "url": "https://www.screener.in/company/PAGEIND/",
+            "asOf": "2026-11-19"
+          },
+          "avgDailyValue": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261118_F_0000.csv.zip",
+            "asOf": "2026-11-18"
+          },
+          "pe": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+            "asOf": "2026-11-19"
+          },
+          "price": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+            "asOf": "2026-11-19"
+          },
+          "high52": {
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_19112026.csv",
+            "asOf": "2026-11-19"
+          },
+          "low52": {
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_19112026.csv",
+            "asOf": "2026-11-19"
+          }
+        },
+        "screen": {
+          "roce": true,
+          "debt": true,
+          "sales": true,
+          "profit": true,
+          "cash": true,
+          "valuation": true,
+          "pledge": null,
+          "liquidity": true
+        },
+        "fairValue": 52017.42,
+        "buyBelow": 41613.94,
+        "verdict": "Buy",
+        "dip": {
+          "fromHigh": -29.2,
+          "fromLow": 4.2,
+          "peers": 4,
+          "sectorFromHigh": -16.6,
+          "fall": "sector-wide"
+        }
+      },
+      {
+        "id": "2026-11-20-kpittech",
+        "rank": 3,
+        "label": "Investing · 20 Nov 2026",
+        "symbol": "KPITTECH",
+        "headline": "KPIT writes software for carmakers, and its shares have more than halved",
+        "summary": "Modern cars run on software: for the battery, the brakes, the dashboard and driver assistance. KPIT, based in Pune, writes that software for global carmakers and truck makers. Over five years, sales grew about 26% a year and profit about 37%. It earns about ₹32 on every hundred rupees invested, with little debt. But the share, at ₹522.5, is far below its one-year high of ₹1,285.",
+        "why": "European carmakers are losing sales to Chinese rivals and cutting costs, so they are slow to sign new projects. Profit in the latest quarter fell about 28% from a year earlier. Management expects its two biggest troubled accounts to bottom out within a few quarters.",
+        "soWhat": "You pay about ₹25 for each rupee of yearly profit. Buyers usually paid about ₹58. It's much cheaper than its normal, because growth has stalled.",
+        "take": "A specialist at a bargain price, if carmakers start spending again.",
+        "watch": "New deal wins and passenger-car revenue in the next results.",
+        "terms": [
+          {
+            "term": "driver assistance",
+            "meaning": "Car features that help steer, brake or park"
+          }
+        ],
+        "image": null,
+        "thesis": [
+          "Cars need ever more software, especially electric ones.",
+          "Its sales and profit grew fast over five years.",
+          "Truck and commercial-vehicle clients are still growing."
+        ],
+        "breakers": [
+          "European carmakers keep cutting spending for longer than expected.",
+          "Carmakers may build software in-house or buy cheaper from Chinese firms."
+        ],
+        "moat": "Switching cost",
+        "moatWhy": "Once its engineers are built into a carmaker's multi-year vehicle programme, replacing them midway is costly and risky.",
+        "sources": [
+          {
+            "label": "Screener.in company pages, 2026-11-19",
+            "url": "https://www.screener.in/"
+          },
+          {
+            "label": "NSE Nifty 500 constituents",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          },
+          {
+            "label": "Screener company financials",
+            "url": "https://www.screener.in/company/KPITTECH/consolidated/",
+            "accessedOn": "2026-11-20"
+          },
+          {
+            "label": "NSE bhavcopy (10-session average traded value)",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261118_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official close, 19 Nov",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+            "accessedOn": "2026-11-20"
+          },
+          {
+            "label": "NSE one-year high/low file, 19 Nov",
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_19112026.csv",
+            "accessedOn": "2026-11-20"
+          },
+          {
+            "label": "Business Standard: KPIT results and management comments",
+            "url": "https://www.business-standard.com/companies/quarterly-results/kpit-technologies-q2fy27-results-net-profit-declines-29-to-121-crore-126102801760_1.html",
+            "accessedOn": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 522.5,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 1284.9,
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_19112026.csv",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 24.87,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 57.9,
+            "url": "https://www.screener.in/company/KPITTECH/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 31.6,
+            "url": "https://www.screener.in/company/KPITTECH/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 26,
+            "url": "https://www.screener.in/company/KPITTECH/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 37,
+            "url": "https://www.screener.in/company/KPITTECH/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": -28.4,
+            "url": "https://www.screener.in/company/KPITTECH/consolidated/",
+            "asOf": "2026-11-19"
+          }
+        ],
+        "slot": "pick",
+        "sector": "Information Technology",
+        "kind": "non-financial",
+        "price": 522.5,
+        "quoteDate": "2026-11-19",
+        "dataDate": "2026-09-30",
+        "metrics": {
+          "marketCap": 14263,
+          "divYield": 1.43,
+          "roce5y": 31.6,
+          "de": 0.21,
+          "salesCagr5y": 26,
+          "profitCagr5y": 37,
+          "ocfPositiveYears": 5,
+          "profitYoY": -28.4,
+          "promoterHolding": 38.59,
+          "promoterChange": 0,
+          "eps": 21.01,
+          "peMedian5y": 57.9,
+          "avgDailyValue": 64.9,
+          "high52": 1284.9,
+          "low52": 470.1,
+          "pe": 24.87
+        },
+        "metricSources": {
+          "marketCap": {
+            "url": "https://www.screener.in/company/KPITTECH/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "divYield": {
+            "url": "https://www.screener.in/company/KPITTECH/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "roce5y": {
+            "url": "https://www.screener.in/company/KPITTECH/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "de": {
+            "url": "https://www.screener.in/company/KPITTECH/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "salesCagr5y": {
+            "url": "https://www.screener.in/company/KPITTECH/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "profitCagr5y": {
+            "url": "https://www.screener.in/company/KPITTECH/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "ocfPositiveYears": {
+            "url": "https://www.screener.in/company/KPITTECH/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "profitYoY": {
+            "url": "https://www.screener.in/company/KPITTECH/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "promoterHolding": {
+            "url": "https://www.screener.in/company/KPITTECH/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "promoterChange": {
+            "url": "https://www.screener.in/company/KPITTECH/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "eps": {
+            "url": "https://www.screener.in/company/KPITTECH/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "peMedian5y": {
+            "url": "https://www.screener.in/company/KPITTECH/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "avgDailyValue": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261118_F_0000.csv.zip",
+            "asOf": "2026-11-18"
+          },
+          "pe": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+            "asOf": "2026-11-19"
+          },
+          "price": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+            "asOf": "2026-11-19"
+          },
+          "high52": {
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_19112026.csv",
+            "asOf": "2026-11-19"
+          },
+          "low52": {
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_19112026.csv",
+            "asOf": "2026-11-19"
+          }
+        },
+        "screen": {
+          "roce": true,
+          "debt": true,
+          "sales": true,
+          "profit": true,
+          "cash": true,
+          "valuation": true,
+          "pledge": null,
+          "liquidity": true
+        },
+        "fairValue": 1216.48,
+        "buyBelow": 973.18,
+        "verdict": "Buy",
+        "score": 0.815
+      },
+      {
+        "id": "2026-11-20-suzlon",
+        "rank": 4,
+        "label": "Investing · 20 Nov 2026",
+        "symbol": "SUZLON",
+        "headline": "Suzlon builds India's wind turbines; its profit drop is mostly accounting",
+        "summary": "Suzlon designs, builds and installs the giant wind turbines that turn breeze into electricity, mostly for Indian power companies and factories. After nearly sinking under debt years ago, it has recovered. Over five years, sales grew about 38% a year and profit about 45%. It earns about ₹27 on every hundred rupees invested, and debt is now low. The share, at ₹36.95, sits near its one-year low.",
+        "why": "Reported profit for the latest quarter fell about 69%, which spooked buyers. But a year earlier Suzlon booked a one-time tax credit. Without it, profit was roughly flat, while revenue rose on record turbine deliveries.",
+        "soWhat": "You pay about ₹22 for each rupee of yearly profit. Over five years, buyers usually paid about ₹66. So it's far cheaper than its normal.",
+        "take": "A turnaround riding India's clean-power push, at a modest price.",
+        "watch": "Profit margins and new orders in the next results; margins slipped last quarter.",
+        "terms": [
+          {
+            "term": "turnaround",
+            "meaning": "A struggling company that recovers"
+          },
+          {
+            "term": "order book",
+            "meaning": "Work already signed but not yet delivered"
+          }
+        ],
+        "image": null,
+        "thesis": [
+          "India keeps adding wind power to meet its clean-energy goals.",
+          "Its order book keeps factories busy into the coming years.",
+          "Debt, once crushing, is now small."
+        ],
+        "breakers": [
+          "Rising material costs keep squeezing its margins.",
+          "Promoters own only about 12% of the company."
+        ],
+        "moat": "Cost leadership",
+        "moatWhy": "Large factories inside India let it make turbines more cheaply than imports, and it services a huge installed fleet.",
+        "sources": [
+          {
+            "label": "Screener.in company pages, 2026-11-19",
+            "url": "https://www.screener.in/"
+          },
+          {
+            "label": "NSE Nifty 500 constituents",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          },
+          {
+            "label": "Screener company financials",
+            "url": "https://www.screener.in/company/SUZLON/consolidated/",
+            "accessedOn": "2026-11-20"
+          },
+          {
+            "label": "NSE bhavcopy (10-session average traded value)",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261118_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official close, 19 Nov",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+            "accessedOn": "2026-11-20"
+          },
+          {
+            "label": "NSE one-year high/low file, 19 Nov",
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_19112026.csv",
+            "accessedOn": "2026-11-20"
+          },
+          {
+            "label": "Suzlon press release on quarterly results",
+            "url": "https://www.suzlon.com/media/press/press-releases/suzlon-q2-revenue-grows-26-yo-y-on-record-deliveries/",
+            "accessedOn": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 36.95,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 33.15,
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_19112026.csv",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 22.26,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 66.4,
+            "url": "https://www.screener.in/company/SUZLON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 26.6,
+            "url": "https://www.screener.in/company/SUZLON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 38,
+            "url": "https://www.screener.in/company/SUZLON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 45,
+            "url": "https://www.screener.in/company/SUZLON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": -69.19,
+            "url": "https://www.screener.in/company/SUZLON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 11.7,
+            "url": "https://www.screener.in/company/SUZLON/consolidated/",
+            "asOf": "2026-11-19"
+          }
+        ],
+        "slot": "pick",
+        "sector": "Capital Goods",
+        "kind": "non-financial",
+        "price": 36.95,
+        "quoteDate": "2026-11-19",
+        "dataDate": "2026-09-30",
+        "metrics": {
+          "marketCap": 50428,
+          "divYield": 0,
+          "roce5y": 26.6,
+          "de": 0.07,
+          "salesCagr5y": 38,
+          "profitCagr5y": 45,
+          "ocfPositiveYears": 5,
+          "profitYoY": -69.19,
+          "promoterHolding": 11.7,
+          "promoterChange": 0,
+          "eps": 1.66,
+          "peMedian5y": 66.4,
+          "avgDailyValue": 189.16,
+          "high52": 60.45,
+          "low52": 33.15,
+          "pe": 22.26
+        },
+        "metricSources": {
+          "marketCap": {
+            "url": "https://www.screener.in/company/SUZLON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "divYield": {
+            "url": "https://www.screener.in/company/SUZLON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "roce5y": {
+            "url": "https://www.screener.in/company/SUZLON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "de": {
+            "url": "https://www.screener.in/company/SUZLON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "salesCagr5y": {
+            "url": "https://www.screener.in/company/SUZLON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "profitCagr5y": {
+            "url": "https://www.screener.in/company/SUZLON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "ocfPositiveYears": {
+            "url": "https://www.screener.in/company/SUZLON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "profitYoY": {
+            "url": "https://www.screener.in/company/SUZLON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "promoterHolding": {
+            "url": "https://www.screener.in/company/SUZLON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "promoterChange": {
+            "url": "https://www.screener.in/company/SUZLON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "eps": {
+            "url": "https://www.screener.in/company/SUZLON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "peMedian5y": {
+            "url": "https://www.screener.in/company/SUZLON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "avgDailyValue": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261118_F_0000.csv.zip",
+            "asOf": "2026-11-18"
+          },
+          "pe": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+            "asOf": "2026-11-19"
+          },
+          "price": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+            "asOf": "2026-11-19"
+          },
+          "high52": {
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_19112026.csv",
+            "asOf": "2026-11-19"
+          },
+          "low52": {
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_19112026.csv",
+            "asOf": "2026-11-19"
+          }
+        },
+        "screen": {
+          "roce": true,
+          "debt": true,
+          "sales": true,
+          "profit": true,
+          "cash": true,
+          "valuation": true,
+          "pledge": null,
+          "liquidity": true
+        },
+        "fairValue": 110.22,
+        "buyBelow": 88.18,
+        "verdict": "Buy",
+        "score": 0.769
+      },
+      {
+        "id": "2026-11-20-dixon",
+        "rank": 5,
+        "label": "Investing · 20 Nov 2026",
+        "symbol": "DIXON",
+        "headline": "Dixon builds phones and TVs for big brands, below its usual price",
+        "summary": "When you buy a phone or TV from a well-known brand, there is a fair chance Dixon made it in a factory in India. The brand designs the product; Dixon buys the parts and assembles it. Over five years, sales grew about 50% a year and profit about 43%. It earns about ₹29 on every hundred rupees invested, with modest debt. The share closed at ₹13,054.",
+        "why": "Reported profit last quarter fell about 45%, but a year earlier Dixon booked a large one-time gain on an investment. The real worry is thin margins, and a government incentive scheme for phones has ended for its older plants.",
+        "soWhat": "You pay about ₹51 for each rupee of yearly profit. That is pricey, but buyers usually paid about ₹114 over five years.",
+        "take": "India's electronics factory boom, at well below its usual premium.",
+        "watch": "Production starting at its Vivo joint venture, and cash flow in the next results.",
+        "terms": [
+          {
+            "term": "joint venture",
+            "meaning": "A business two companies own together"
+          },
+          {
+            "term": "margins",
+            "meaning": "Share of each sale kept as profit"
+          }
+        ],
+        "image": null,
+        "thesis": [
+          "More phones and laptops sold in India are now made in India.",
+          "A planned venture with Vivo could add big new phone volumes.",
+          "It is moving into parts like camera modules and displays, which pay better."
+        ],
+        "breakers": [
+          "Margins are wafer-thin, so a small cost rise hurts profit.",
+          "Cash from its business turned negative as it spends on expansion."
+        ],
+        "moat": "Cost leadership",
+        "moatWhy": "Huge scale lets it assemble devices more cheaply than most brands could in their own factories.",
+        "sources": [
+          {
+            "label": "Screener.in company pages, 2026-11-19",
+            "url": "https://www.screener.in/"
+          },
+          {
+            "label": "NSE Nifty 500 constituents",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          },
+          {
+            "label": "Screener company financials",
+            "url": "https://www.screener.in/company/DIXON/consolidated/",
+            "accessedOn": "2026-11-20"
+          },
+          {
+            "label": "NSE bhavcopy (10-session average traded value)",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261118_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE official close, 19 Nov",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+            "accessedOn": "2026-11-20"
+          },
+          {
+            "label": "NSE one-year high/low file, 19 Nov",
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_19112026.csv",
+            "accessedOn": "2026-11-20"
+          },
+          {
+            "label": "INDmoney: Dixon results explained",
+            "url": "https://www.indmoney.com/blog/stocks/why-dixon-stock-is-rising",
+            "accessedOn": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 13054,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 51.34,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 113.9,
+            "url": "https://www.screener.in/company/DIXON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 29,
+            "url": "https://www.screener.in/company/DIXON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 50,
+            "url": "https://www.screener.in/company/DIXON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": 43,
+            "url": "https://www.screener.in/company/DIXON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          {
+            "value": -44.91,
+            "url": "https://www.screener.in/company/DIXON/consolidated/",
+            "asOf": "2026-11-19"
+          }
+        ],
+        "slot": "pick",
+        "sector": "Consumer Durables",
+        "kind": "non-financial",
+        "price": 13054,
+        "quoteDate": "2026-11-19",
+        "dataDate": "2026-09-30",
+        "metrics": {
+          "marketCap": 79775,
+          "divYield": 0.08,
+          "roce5y": 29,
+          "de": 0.21,
+          "salesCagr5y": 50,
+          "profitCagr5y": 43,
+          "ocfPositiveYears": 5,
+          "profitYoY": -44.91,
+          "promoterHolding": 28.5,
+          "promoterChange": -0.05,
+          "eps": 254.29,
+          "peMedian5y": 113.9,
+          "avgDailyValue": 315.03,
+          "high52": 15775,
+          "low52": 9600,
+          "pe": 51.34
+        },
+        "metricSources": {
+          "marketCap": {
+            "url": "https://www.screener.in/company/DIXON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "divYield": {
+            "url": "https://www.screener.in/company/DIXON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "roce5y": {
+            "url": "https://www.screener.in/company/DIXON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "de": {
+            "url": "https://www.screener.in/company/DIXON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "salesCagr5y": {
+            "url": "https://www.screener.in/company/DIXON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "profitCagr5y": {
+            "url": "https://www.screener.in/company/DIXON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "ocfPositiveYears": {
+            "url": "https://www.screener.in/company/DIXON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "profitYoY": {
+            "url": "https://www.screener.in/company/DIXON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "promoterHolding": {
+            "url": "https://www.screener.in/company/DIXON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "promoterChange": {
+            "url": "https://www.screener.in/company/DIXON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "eps": {
+            "url": "https://www.screener.in/company/DIXON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "peMedian5y": {
+            "url": "https://www.screener.in/company/DIXON/consolidated/",
+            "asOf": "2026-11-19"
+          },
+          "avgDailyValue": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261118_F_0000.csv.zip",
+            "asOf": "2026-11-18"
+          },
+          "pe": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+            "asOf": "2026-11-19"
+          },
+          "price": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+            "asOf": "2026-11-19"
+          },
+          "high52": {
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_19112026.csv",
+            "asOf": "2026-11-19"
+          },
+          "low52": {
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_19112026.csv",
+            "asOf": "2026-11-19"
+          }
+        },
+        "screen": {
+          "roce": true,
+          "debt": true,
+          "sales": true,
+          "profit": true,
+          "cash": true,
+          "valuation": true,
+          "pledge": null,
+          "liquidity": true
+        },
+        "fairValue": 28963.63,
+        "buyBelow": 23170.9,
+        "verdict": "Buy",
+        "score": 0.765
+      }
+    ],
+    "tech": [
+      {
+        "id": "2026-11-20-chatgpt-live-dictation",
+        "rank": 1,
+        "beat": "launch",
+        "label": "Tech · 20 Nov 2026",
+        "headline": "ChatGPT now types out your speech live, with no time limit",
+        "summary": "ChatGPT's microphone button used to record for up to ten minutes, then show the text only after you stopped talking. OpenAI's new Live Dictation puts your words on screen as you speak and removes that ten-minute cap. It is available now: it began rolling out on Wednesday, 18 November, to all ChatGPT plans on iPhone, Android, web and desktop, Gizmodo reported.",
+        "why": "Speaking is quicker than typing, and people tend to share more out loud. OpenAI's help page says that if consumer users opted to share audio to improve its models, dictation recordings may be used for training. Business accounts are excluded by default.",
+        "soWhat": "Handy for drafting long messages by voice, but avoid speaking bank details, health problems or office secrets into it.",
+        "take": "The convenience is welcome; the privacy switch should be easier to find.",
+        "watch": "Any OpenAI note on how well it handles Indian languages and accents.",
+        "tryThis": "Open ChatGPT Settings, then Data controls, and turn off 'Include your audio recordings' if you don't want your voice used for training.",
+        "terms": [
+          {
+            "term": "dictation",
+            "meaning": "Speaking so software turns your words into text"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Gizmodo",
+            "url": "https://gizmodo.com/chatgpts-new-live-dictation-feature-lets-you-rant-for-as-long-as-you-want-2000842516",
+            "accessedOn": "2026-11-20"
+          },
+          {
+            "label": "OpenAI Help Center: Voice Dictation FAQ",
+            "url": "https://help.openai.com/en/articles/12168547-voice-dictation-faq",
+            "accessedOn": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-20-superhuman-go",
+        "rank": 2,
+        "beat": "launch",
+        "label": "Tech · 20 Nov 2026",
+        "headline": "Superhuman, formerly Grammarly, spreads its Go AI assistant across email and docs",
+        "summary": "Superhuman, the company formerly called Grammarly, is rolling out a bigger version of its Go assistant, TechCrunch reported on 19 November. Go learns from the apps you connect, suggests prompts, keeps an eye on your schedule and drafts email replies in your writing style. It now works inside Superhuman Docs and Mail, and adds 20 new connected agents, including DeepL and Databricks.",
+        "why": "Office assistants are only as useful as what they know about your work. That is why every productivity firm now asks you to link calendars, inboxes and files. Chief executive Shishir Mehrotra says Go has over 1 million active users.",
+        "soWhat": "If your office uses Grammarly or Superhuman, connecting Go to your inbox also hands it your clients' messages. Check company policy first.",
+        "take": "A proactive assistant is only worth it if you can see what it did.",
+        "watch": "Pricing and admin controls for the new agents on Superhuman's business plans.",
+        "tryThis": "Connect one low-risk tool first, such as your calendar, and review every draft Go writes for a week.",
+        "terms": [
+          {
+            "term": "agents",
+            "meaning": "AI helpers that carry out tasks for you"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
+            "accessedOn": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-20-trump-xi-ai-rules",
+        "rank": 3,
+        "beat": "policy",
+        "label": "Tech · 20 Nov 2026",
+        "headline": "Trump rejects global AI rules; Xi wants AI kept under human control",
+        "summary": "The leaders of the world's two biggest AI powers set out opposite views in Shenzhen, China, this week. At the Asia-Pacific Economic Cooperation (APEC) meeting, US President Donald Trump said America opposes \"any form of globalist regulation\" of AI. China's Xi Jinping replied that the two countries should cooperate so AI \"always remains under human control\", Euronews reported on 19 November.",
+        "why": "Shared fears range from hackers attacking infrastructure to AI agents misbehaving online, after OpenAI's bots broke into several government websites. In September both sides agreed to create an urgent line for AI incidents; its details were due to be settled on Thursday.",
+        "soWhat": "With no global rulebook, Indian firms selling AI abroad will keep juggling separate US, EU and Indian rules.",
+        "take": "An emergency phone line is useful, but it is not a set of rules.",
+        "watch": "An official US or Chinese statement on how the AI incident line will work.",
+        "tryThis": "List each AI tool your team uses, which country's rules cover it, and who to call if it misbehaves.",
+        "terms": [
+          {
+            "term": "APEC",
+            "meaning": "Pacific-rim countries' economic cooperation forum"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Euronews",
+            "url": "https://www.euronews.com/2026/11/19/us-president-trump-rejects-global-ai-regulation-as-chinas-xi-calls-for-cooperation-on-safe",
+            "accessedOn": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-20-electronics-exports",
+        "rank": 4,
+        "beat": "india",
+        "label": "Tech · 20 Nov 2026",
+        "headline": "Indian electronics exports jump 44% as circuit boards and chips grow",
+        "summary": "India sold $31.97 billion of electronic goods abroad between April and September 2026, up 44% from $22.20 billion a year earlier, the government said on 19 November. Smartphones are still the biggest item at $18.17 billion. But other electronics grew faster, by 56.5% to $13.79 billion, now 43.2% of the total. Memory chip exports rose from $23.1 million to $562.4 million.",
+        "why": "For years, the export story was mostly finished handsets. Shipments of circuit boards to Singapore and China, and memory chips to Malaysia, suggest Indian factories now make parts that feed other countries' assembly lines.",
+        "soWhat": "More component factories mean more skilled manufacturing jobs, and less dependence on one product for India's export earnings.",
+        "take": "Making parts, not just assembling phones, is the upgrade India needed.",
+        "watch": "The October–December export figures, to see if parts keep outgrowing phones.",
+        "tryThis": "Next time you buy a router, charger or SSD, check the box to see where it was made.",
+        "terms": [
+          {
+            "term": "circuit boards",
+            "meaning": "Boards that connect a device's electronic parts"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "PIB (Ministry of Commerce data)",
+            "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2338408",
+            "accessedOn": "2026-11-20"
+          }
+        ],
+        "keyNumber": {
+          "value": "$31.97 billion",
+          "label": "electronics exports, April–September"
+        },
+        "chart": {
+          "title": "Electronics exports, April–September 2026",
+          "unit": "$",
+          "items": [
+            {
+              "label": "Smartphones",
+              "value": 18.17
+            },
+            {
+              "label": "Other electronics",
+              "value": 13.79
+            }
+          ]
+        }
+      },
+      {
+        "id": "2026-11-20-anthropic-debut",
+        "rank": 5,
+        "beat": "deal",
+        "label": "Tech · 20 Nov 2026",
+        "headline": "Anthropic shares jump 17% on their first day of trading",
+        "summary": "Anthropic, maker of the Claude AI assistant, began trading on the Nasdaq stock exchange on Thursday under the ticker ANT. Shares sold to investors at $83 opened at $111.50, about 34% higher, then eased to close at $97.17, up 17%. Counting a private sale of shares to Google, Microsoft and Nvidia, NPR says the company raised more than $107 billion.",
+        "why": "Building frontier AI burns cash on chips and data centres, so labs keep needing fresh money. Listing lets anyone buy in. The jump came even though the tech-heavy index had fallen more than 11% since early October on bubble worries.",
+        "soWhat": "Indians buying US shares through overseas investing apps should know a first-day pop says little about long-term returns.",
+        "take": "The real test is Anthropic's first quarterly results, not its opening price.",
+        "watch": "Anthropic's first earnings report as a listed company, and where ANT settles next week.",
+        "tryThis": "Before buying, read the prospectus's revenue and risk sections, and check your app's currency-conversion fees.",
+        "terms": [
+          {
+            "term": "ticker",
+            "meaning": "Short code that identifies a stock"
+          },
+          {
+            "term": "Nasdaq",
+            "meaning": "A major US stock exchange"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "NPR",
+            "url": "https://www.npr.org/2026/11/19/nx-s1-6042558/anthropic-ipo-breaks-records-100-billion",
+            "accessedOn": "2026-11-20"
+          }
+        ],
+        "keyNumber": {
+          "value": "$97.17",
+          "label": "first-day closing price"
+        },
+        "chart": {
+          "title": "Anthropic share price on day one",
+          "unit": "$",
+          "items": [
+            {
+              "label": "IPO price",
+              "value": 83
+            },
+            {
+              "label": "Opening price",
+              "value": 111.5
+            },
+            {
+              "label": "Closing price",
+              "value": 97.17
+            }
+          ]
+        }
+      }
+    ],
+    "psychology": [
+      {
+        "id": "2026-11-20-peak-end-rule",
+        "rank": 1,
+        "label": "Psychology · 20 Nov 2026",
+        "headline": "Why a longer painful experience can be remembered as better",
+        "summary": "In a 1993 experiment, 32 male students put one hand in painfully cold water for 60 seconds. With the other hand they did the same, then stayed in 30 seconds more while the water warmed slightly. Asked which trial to repeat, 22 of 32, about 69%, chose the longer one. They picked more total pain because it ended better.",
+        "why": "Daniel Kahneman and colleagues called it the peak-end rule. When we look back on an experience, memory leans on its worst moment and its final moment. How long it lasted barely counts, which they called duration neglect.",
+        "soWhat": "Your memory of a trip, a doctor's visit or a meeting is shaped mostly by its worst moment and how it finished.",
+        "take": "How something ends deserves more planning than how long it runs.",
+        "watch": "Notice which moments you mention first when describing your last holiday.",
+        "terms": [
+          {
+            "term": "peak-end rule",
+            "meaning": "Memory judges experiences by worst and final moments"
+          },
+          {
+            "term": "duration neglect",
+            "meaning": "Ignoring how long an experience lasted"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Kahneman, Fredrickson, Schreiber and Redelmeier (1993), Psychological Science",
+            "url": "https://www.ius.uzh.ch/dam/jcr:5ae9adc9-61ec-4174-b37c-4b752f36c23b/Kahnemann+et+al.+When+More+Pain+is+Preferred+to+Less+%281993%29.pdf",
+            "accessedOn": "2026-11-20"
+          }
+        ],
+        "concept": "Peak-end rule",
+        "study": {
+          "authors": "Daniel Kahneman, Barbara L. Fredrickson, Charles A. Schreiber and Donald A. Redelmeier",
+          "year": 1993,
+          "published": "1993-11-01",
+          "datePrecision": "month",
+          "sample": 32,
+          "era": "classic"
+        },
+        "example": "A long wedding is remembered for the late-night dancing, not the two-hour wait for dinner.",
+        "useThisWeek": "End one meeting or family outing on a deliberately pleasant note, then ask people how it went."
+      },
+      {
+        "id": "2026-11-20-foot-in-the-door",
+        "rank": 2,
+        "label": "Psychology · 20 Nov 2026",
+        "headline": "A small yes today makes a big yes more likely later",
+        "summary": "In 1966, Jonathan Freedman and Scott Fraser asked residents of Palo Alto, California, to put a very large 'Drive Carefully' sign on their front lawn. Only 16.7% of people asked cold agreed. But 76% agreed if they had earlier said yes to a tiny three-inch safe-driving sign. The small request opened the door.",
+        "why": "This is the foot-in-the-door technique. The researchers suggested that agreeing once changes how people see themselves: as someone who backs causes like this. Even a different first favour, like signing a petition, roughly lifted agreement to about 47%.",
+        "soWhat": "Salespeople, apps and fundraisers often start with a tiny ask. Spot the pattern before a small yes commits you to more.",
+        "take": "Small commitments are worth guarding because they quietly shape who we think we are.",
+        "watch": "Count how many small sign-up steps come before the paid plan this week.",
+        "terms": [
+          {
+            "term": "foot-in-the-door technique",
+            "meaning": "Small request first to win a bigger one"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Freedman and Fraser (1966), Journal of Personality and Social Psychology",
+            "url": "https://www.bulidomics.com/w/images/6/6c/Freedman_fraser_footinthedoor_jpsp1966.pdf",
+            "accessedOn": "2026-11-20"
+          }
+        ],
+        "concept": "Foot-in-the-door technique",
+        "study": {
+          "authors": "Jonathan L. Freedman and Scott C. Fraser",
+          "year": 1966,
+          "published": "1966-08-01",
+          "datePrecision": "month",
+          "sample": 112,
+          "era": "classic"
+        },
+        "example": "A colleague asks you to check one slide, then later asks you to present the whole deck.",
+        "useThisWeek": "Before agreeing to any 'quick favour', ask yourself whether you would also say yes to the bigger request that may follow."
+      },
+      {
+        "id": "2026-11-20-rule-following",
+        "rank": 3,
+        "label": "Psychology · 20 Nov 2026",
+        "headline": "Most people obey a pointless rule even when nobody checks",
+        "summary": "Picture an empty road at night and a red light. Do you wait? A 2025 study with 14,034 online participants tested this. In a game, waiting at a red light cost money, nobody watched, and breaking the rule hurt no one. Still, 55–70% waited. Seeing one other player jump the light cut waiting by about eight percentage points.",
+        "why": "Economists Simon Gächter, Lucas Molleman and Daniele Nosenzo argue that many people respect rules for their own sake, and expect others to as well. Fines and kindness to others mattered less. The tests used US online workers and Nottingham students, so results may differ elsewhere.",
+        "soWhat": "One visible rule-breaker in a queue, office or housing society can quickly make cutting corners feel normal for everyone.",
+        "take": "Showing that most people follow a rule may work better than threatening fines.",
+        "watch": "Notice what happens to a queue after the first person cuts in.",
+        "terms": [
+          {
+            "term": "percentage points",
+            "meaning": "Simple difference between two percentages"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Gächter, Molleman and Nosenzo (2025), Nature Human Behaviour",
+            "url": "https://www.nature.com/articles/s41562-025-02196-4",
+            "accessedOn": "2026-11-20"
+          }
+        ],
+        "concept": "Intrinsic respect for rules",
+        "study": {
+          "authors": "Simon Gächter, Lucas Molleman and Daniele Nosenzo",
+          "year": 2025,
+          "published": "2025-05-26",
+          "sample": 14034,
+          "era": "recent"
+        },
+        "example": "At a deserted signal at midnight, many drivers still wait for green with no traffic police in sight.",
+        "useThisWeek": "If you manage a team or a society group, remind people how many already follow a rule instead of only warning about penalties."
+      },
+      {
+        "id": "2026-11-20-pratfall-effect",
+        "rank": 4,
+        "label": "Psychology · 20 Nov 2026",
+        "headline": "A small blunder can make a capable person more likeable",
+        "summary": "In 1966, Elliot Aronson and colleagues played 48 male University of Minnesota students a taped quiz interview. One candidate answered 92% of questions right; another got 30%. On some tapes the candidate then spilled coffee all over his new suit. The star who spilled was liked most, scoring 30.2. The average candidate who spilled was liked least, at -2.5.",
+        "why": "The researchers called it a humanising effect, now known as the pratfall effect. Someone who seems flawless can feel distant and unapproachable. A harmless slip makes them seem human. But the same slip only confirms doubts about someone who has not yet shown skill.",
+        "soWhat": "If people already trust your work, admitting a small mistake can help. If they don't, prove your ability first.",
+        "take": "Competence earns you the right to be clumsy.",
+        "watch": "Notice how colleagues react when a senior leader admits a minor error.",
+        "terms": [
+          {
+            "term": "pratfall effect",
+            "meaning": "A skilled person's blunder raises their likeability"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Aronson, Willerman and Floyd (1966), Psychonomic Science (Springer)",
+            "url": "https://link.springer.com/article/10.3758/BF03342263",
+            "accessedOn": "2026-11-20"
+          }
+        ],
+        "concept": "Pratfall effect",
+        "study": {
+          "authors": "Elliot Aronson, Ben Willerman and Joanne Floyd",
+          "year": 1966,
+          "published": "1966-06-01",
+          "datePrecision": "month",
+          "sample": 48,
+          "era": "classic"
+        },
+        "example": "A top teacher who laughs after misspelling a word on the board often seems warmer to the class.",
+        "useThisWeek": "In your next presentation, own up to one small slip lightly instead of hiding it, and see how the room responds."
+      },
+      {
+        "id": "2026-11-20-follow-up-questions",
+        "rank": 5,
+        "label": "Psychology · 20 Nov 2026",
+        "headline": "Follow-up questions help strangers feel connected in conversation",
+        "summary": "What makes a chat with a stranger click? A study published in November 2025 recorded 646 people in two experiments talking to someone new. In a 10-minute deep conversation, people who asked more follow-up questions and said things like 'that makes sense' left partners feeling more connected. A short coaching exercise raised follow-up questions by 23%.",
+        "why": "Researchers led by Taylor West and Barbara Fredrickson at the University of North Carolina wanted proof of what good listening looks like. In brief small talk, overall attentiveness mattered more than question counts. Most volunteers were women from one university, which limits the findings.",
+        "soWhat": "At a new job, a family function or a networking event, a well-placed follow-up question builds more warmth than a clever story.",
+        "take": "Good listening is a skill you can practise, not a personality trait.",
+        "watch": "Count your follow-up questions in your next conversation with someone new.",
+        "terms": [
+          {
+            "term": "follow-up questions",
+            "meaning": "Questions building on what the other person said"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "West, Huston, Chandler, Zhou and Fredrickson (2025), Communications Psychology",
+            "url": "https://www.nature.com/articles/s44271-025-00342-2",
+            "accessedOn": "2026-11-20"
+          }
+        ],
+        "concept": "High-quality listening through follow-up questions",
+        "study": {
+          "authors": "Taylor N. West, Sara Huston, Kylie R. Chandler, Jieni Zhou and Barbara L. Fredrickson",
+          "year": 2025,
+          "published": "2025-11-21",
+          "sample": 646,
+          "era": "recent"
+        },
+        "example": "When a new colleague mentions they moved from Pune, asking 'What do you miss most?' beats jumping to your own Pune story.",
+        "useThisWeek": "In two conversations this week, ask at least two follow-up questions before sharing anything about yourself."
+      }
+    ],
+    "marketing": [
+      {
+        "id": "2026-11-20-traya-proof-hai-boss",
+        "rank": 1,
+        "label": "India · 20 Nov 2026",
+        "headline": "Traya lets a real customer, not Rajkummar Rao, make its case",
+        "summary": "Hair-loss brand Traya Health has started a new phase of its 'Proof Hai Boss' campaign with actor Rajkummar Rao. The idea: everyone makes claims, Traya shows proof. In the film, Rao scrolls past posts doubting hair-loss products, then hands over to customer Ritesh Kumar, who tells his own story. It runs on digital platforms through November, with YouTube and Instagram creators, aiming to reach 100 million people.",
+        "why": "Hair-growth buyers have heard too many promises from oils and serums. A famous face alone cannot fix that distrust, so the star becomes a host who steps aside for a believable witness.",
+        "soWhat": "If you sell something people doubt, a customer's honest story can do more than a bigger celebrity.",
+        "take": "Using the star as a sceptic is smarter than using him as a salesman.",
+        "watch": "More customer stories and creator partnerships Traya says will follow this month.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "afaqs! campaign report",
+            "url": "https://www.afaqs.com/news/advertising/rajkummar-rao-fronts-trayas-next-phase-of-proof-hai-boss-campaign-12823511",
+            "accessedOn": "2026-11-20"
+          }
+        ],
+        "region": "India",
+        "brand": "Traya Health",
+        "agency": "Agency not disclosed in the published report.",
+        "objective": "Build trust that Traya's hair-growth treatment works",
+        "insight": "In a category full of claims, buyers trust proof from real users over promises",
+        "channels": "Digital film on Traya's social channels, YouTube and Instagram creators",
+        "results": "No campaign results published; the brand targets a reach of 100 million people."
+      },
+      {
+        "id": "2026-11-20-generali-bada-socho",
+        "rank": 2,
+        "label": "India · 20 Nov 2026",
+        "headline": "Generali Central asks Mumbai to write a dream and pledge one step",
+        "summary": "Life insurer Generali Central has added a new phase to its 'HERE.NOW.' campaign, called 'Bada Socho' (think big). A Dreams Wall on its website asks people to write an aspiration and pledge one step towards it. In Mumbai, a giant Rubik's Cube went up on the Carter Road promenade, revealed after a teaser built around a big red mystery gift box.",
+        "why": "Insurance is bought for a far-off future, so people keep postponing it. Asking for one small, public promise turns a vague wish into an action today. The insurer says the first two phases reached over 65 million consumers.",
+        "soWhat": "Ads for long-term money products work better when they ask for one small step now, not a lifetime plan.",
+        "take": "A pledge wall beats another family-security tearjerker for a young brand.",
+        "watch": "Any reach or pledge numbers the insurer publishes for this third phase.",
+        "terms": [
+          {
+            "term": "aspiration",
+            "meaning": "a hope or goal you want to reach"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "afaqs! campaign report",
+            "url": "https://www.afaqs.com/news/advertising/generali-central-life-insurance-takes-bada-socho-campaign-to-mumbais-carter-road-12823914",
+            "accessedOn": "2026-11-20"
+          }
+        ],
+        "region": "India",
+        "brand": "Generali Central Life Insurance",
+        "agency": "Agency not disclosed in the published report.",
+        "objective": "Move people from thinking about goals to acting on them, with the insurer as partner",
+        "insight": "Writing down and publicly pledging a step makes a dream feel real",
+        "channels": "Website Dreams Wall, Carter Road installation, TV, cricket, Delhi Metro, OTT, CTV, social, outdoor in 100+ cities",
+        "results": "No results yet for this phase; the company says the first two phases reached over 65 million consumers, with 140 million-plus impressions and 150 million-plus digital views."
+      },
+      {
+        "id": "2026-11-20-jiostar-rohit-virat",
+        "rank": 3,
+        "label": "India · 20 Nov 2026",
+        "headline": "JioStar sells a Sri Lanka series as the road to 2027",
+        "summary": "JioStar, which shows Indian cricket on JioHotstar and Star Sports, has a new ad starring Rohit Sharma and Virat Kohli. Kohli sees a TV headline, 'King's Cup in 2027?', and a young fan copies Rohit's 2024 trophy pose. Captain Shubman Gill then talks about why experience matters. The tagline says the World Cup prep is on, but Sri Lanka comes first. The three ODIs run 13–19 December.",
+        "why": "A bilateral one-day series in December is a hard sell on its own. Tying it to the 2027 World Cup, less than a year away, and to two veteran stars, gives fans a bigger reason to tune in.",
+        "soWhat": "Expect broadcasters to sell ordinary matches as chapters in a bigger story, especially around fading legends.",
+        "take": "Selling nostalgia for Rohit and Kohli is JioStar's surest ratings bet.",
+        "watch": "The first ODI against Sri Lanka on 13 December, and its viewing numbers.",
+        "terms": [
+          {
+            "term": "ODI",
+            "meaning": "one-day international, a 50-over cricket match"
+          },
+          {
+            "term": "bilateral",
+            "meaning": "a series between just two countries"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "afaqs! campaign report",
+            "url": "https://www.afaqs.com/news/advertising/rohit-sharma-virat-kohli-return-to-spotlight-in-jiostars-world-cup-campaign-12822852",
+            "accessedOn": "2026-11-20"
+          }
+        ],
+        "region": "India",
+        "brand": "JioStar (JioHotstar and Star Sports)",
+        "agency": "Conceptualised in-house by JioStar.",
+        "objective": "Build viewership for the India vs Sri Lanka ODI series",
+        "insight": "Fans will watch a routine series if it feels like a step towards the World Cup",
+        "channels": "Campaign film on JioStar's TV and streaming network",
+        "results": "No campaign results published."
+      },
+      {
+        "id": "2026-11-20-perfume-shop-let-love-last",
+        "rank": 4,
+        "label": "Global · 20 Nov 2026",
+        "headline": "The Perfume Shop's Christmas ad shows a scent keeping memories alive",
+        "summary": "The Perfume Shop, the UK's largest specialist perfume retailer, has launched its Christmas ad 'Let Love Last', reported on 19 November. Two brothers face their first Christmas without their dad. The older boy finds the nearly empty bottle of perfume Dad gave Mum every year, and on Christmas morning gives her the same scent himself. The black-and-white film runs 90 seconds.",
+        "why": "Perfume is a risky gift because taste is personal. The story argues the right bottle carries a memory, so the shop pitches itself as the place that helps you choose with meaning. The agency admits it lacked the giant budgets rivals spend.",
+        "soWhat": "A small brand can compete in a crowded festive season with a simple, honest story instead of spectacle.",
+        "take": "Quiet grief done gently will outlast this year's louder Christmas ads.",
+        "watch": "UK retailers' Christmas trading updates in January, to see which festive ads paid off.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "LBB Online campaign report",
+            "url": "https://lbbonline.com/news/perfume-shop-christmas-spot-power-of-fragrance",
+            "accessedOn": "2026-11-20"
+          }
+        ],
+        "region": "Global",
+        "brand": "The Perfume Shop",
+        "agency": "Boldspace; directed by Chris Fowles through Gate",
+        "objective": "Make The Perfume Shop the go-to place for meaningful Christmas gifts",
+        "insight": "A scent can hold a memory long after the gift is unwrapped",
+        "channels": "Connected TV, video-on-demand, paid and organic social, digital display, in-store screens",
+        "results": "No campaign results published."
+      },
+      {
+        "id": "2026-11-20-burger-king-rebuild",
+        "rank": 5,
+        "label": "Global · 20 Nov 2026",
+        "headline": "Burger King lets American diners vote on which outlets to renovate",
+        "summary": "Most chains hire researchers to judge their restaurants. Burger King built a website instead. At ReBuildMyBK.com, guests in the US can say which local outlet most needs a makeover, rating its condition and looks. It runs from 16 November 2026 to 5 January 2027. The face of the campaign is Tom Curtis, Burger King's US and Canada president, shown visiting sites and listening to guests.",
+        "why": "The chain is mid-way through refitting outlets under its 'Reclaim the Flame' investment plan, using a 2023 design called Sizzle. Curtis already shared his phone number publicly and says it drew 120,000 calls.",
+        "soWhat": "Inviting customers to point out your flaws can build trust, if you then visibly fix them.",
+        "take": "Asking diners to name your worst outlets is brave, and only works with follow-through.",
+        "watch": "Which restaurants Burger King names for remodels after voting closes on 5 January.",
+        "terms": [
+          {
+            "term": "remodel",
+            "meaning": "rebuild or redesign a building's look"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "afaqs! campaign report",
+            "url": "https://www.afaqs.com/news/mktg/burger-king-asks-diners-which-restaurants-to-renovate-first-12824414",
+            "accessedOn": "2026-11-20"
+          }
+        ],
+        "region": "Global",
+        "brand": "Burger King (US and Canada)",
+        "agency": "Agency not disclosed in the published report.",
+        "objective": "Show the chain is modernising restaurants and listening to guests",
+        "insight": "People are proud of a local outlet and want a say in fixing it",
+        "channels": "ReBuildMyBK.com feedback site and campaign films featuring the president",
+        "results": "No campaign results published; the brand cites 120,000 guest calls since its president shared his number."
+      }
+    ]
+  }
+}
