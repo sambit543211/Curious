@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-20",
+  "equitiesSource": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+  "indicesSource": "https://nsearchives.nseindia.com/content/indices/ind_close_all_20112026.csv",
+  "nifty50": 25800.6,
+  "smallcap250": 17785.5,
+  "prices": {
+    "BLS": 222.78,
+    "CAMS": 724.65,
+    "DIXON": 13120,
+    "ECLERX": 1454.1,
+    "GILLETTE": 7090.5,
+    "HINDCOPPER": 419.05,
+    "INDIAMART": 1538.1,
+    "IEX": 113.15,
+    "KEI": 3828.1,
+    "KPITTECH": 519,
+    "PAGEIND": 31020,
+    "POLYCAB": 7570,
+    "SUZLON": 36.96
+  }
+}
