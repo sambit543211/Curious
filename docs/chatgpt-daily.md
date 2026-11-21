@@ -4,7 +4,7 @@ You write the stories. GitHub runs all the code. Everything you need is in this 
 (`sambit543211/curious`, branch `main`). Read this file, `docs/writing-guide.md` and the latest edition in
 `public/editions/` before you start.
 
-## Who does what each morning (Monday to Saturday)
+## Who does what each morning (every day)
 
 | Time (IST) | Who | What |
 |---|---|---|
@@ -15,7 +15,7 @@ You write the stories. GitHub runs all the code. Everything you need is in this 
 | 18:30 weekdays, Saturday | GitHub Actions | Records closing prices; rebuilds the weekly stock data. Nothing for you to do |
 
 `<date>` is today's date in India, as `YYYY-MM-DD`. If `public/editions/<date>.json` already exists, stop: it is published.
-Sundays have no edition.
+On Sundays publish the other six sections (30 cards), omit Indian Markets entirely, and do not create market.json. GitHub still prepares five stocks from the last verified trading session.
 
 ## Step 1 · Read what the code prepared
 
@@ -73,7 +73,7 @@ Section extras, as in the latest edition:
 Images (optional): `{"url", "credit", "alt", "sourceUrl"}`, only for a photo you may reuse (an official handout or
 Wikimedia Commons with its licence). `sourceUrl` must also be in the card's `sources`. Otherwise `"image": null`.
 
-## Step 3 · Write `market.json` (after 09:45 IST)
+## Step 3 · Write `market.json` (after 09:45 IST; skip on Sundays)
 
 ```json
 {
@@ -103,7 +103,7 @@ Wikimedia Commons with its licence). `sourceUrl` must also be in the card's `sou
 
 ## Step 4 · Save, then check
 
-Save both files to `main` in `drafts/<date>/` with the commit message `Draft Morning Edition <date>`. Save
+On Sundays save only `draft.json`. Otherwise save both files to `main` in `drafts/<date>/` with the commit message `Draft Morning Edition <date>`. Save
 `market.json` first or in the same commit. GitHub publishes within about 3 minutes.
 
 Then look for `drafts/<date>/errors.txt`. If it appears, read it, fix exactly what it names in `draft.json` (or
@@ -112,3 +112,16 @@ Then look for `drafts/<date>/errors.txt`. If it appears, read it, fix exactly wh
 late automatically; still publish.
 
 Finish with a two-line summary: published or not (and why), the Top 3 headlines, and the five stocks.
+
+## Explicit current-day refresh
+
+Normal runs reuse an already published edition. For a user-requested comparison or correction today only, write
+`drafts/<date>/request.json` with `{date, replacePublished:true, revisionId, requestedAt}`. This triggers fresh
+preparation even if today is published. Put the same unique `revisionId` and `replacePublished:true` in the new
+draft. Save market.json first (except Sunday), then draft.json. The publisher validates before replacing the
+current-day file and preserves the previous edition if checks fail. Git history retains the original. Never
+use this to change an earlier date or refresh an issue without the user's explicit request.
+
+Financial prose needs `evidence:[{value,url,asOf}]` matching prepared facts or computed market facts. Put any
+additional sourced market figures in `market.json.facts` with matching fields. A source link alone does not
+satisfy numerical validation.

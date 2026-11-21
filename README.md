@@ -6,7 +6,7 @@ A phone-first daily briefing across India, World, Indian Markets, Stock Investin
 
 The archive accepts the original editions and v2 separately. V2 requires sourced Top 3 links,
 five cards in each active section, a market dashboard and four market cards, and five code-selected
-stocks (two near their 52-week low, three quality picks; see below). Sundays omit Indian Markets. A Saturday or holiday
+stocks (two near their 52-week low, three quality picks; see below). Sundays publish all six other sections and omit Indian Markets. A Saturday or holiday
 dashboard needs an exchange calendar source and shows the last session close.
 
 Run the 09:00 research preparation with `MORNING_PREPARE_STAGE=draft npm run prepare-v2 -- YYYY-MM-DD`.
@@ -69,7 +69,7 @@ company profile: what it does, its growth, good signs, red flags, and whether it
 
 GitHub Actions runs every code step for free; ChatGPT only researches and writes.
 
-- **09:00 IST, Mon–Sat** (`morning-prepare.yml`): the code chooses the stocks and saves `drafts/<date>/prepared.json`.
+- **09:00 IST, every day** (`morning-prepare.yml`): the code chooses the stocks and saves `drafts/<date>/prepared.json`.
 - **~09:45 IST**: a ChatGPT scheduled task follows `docs/chatgpt-daily.md` and saves `drafts/<date>/draft.json` and
   `market.json`.
 - **On that save** (`morning-publish.yml`): fills in the numbers, runs every check and commits

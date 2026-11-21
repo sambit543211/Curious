@@ -27,16 +27,21 @@ jobs:
           DATE="${DATE_INPUT:-$(TZ=Asia/Kolkata date +%F)}"
           echo "DATE=$DATE" >> "$GITHUB_ENV"
           DIR="drafts/$DATE"
-          if [ -f "public/editions/$DATE.json" ]; then echo "Edition $DATE already published"; echo "RESULT=skip" >> "$GITHUB_ENV"; exit 0; fi
           if [ ! -f "$DIR/draft.json" ]; then echo "No draft yet"; echo "RESULT=skip" >> "$GITHUB_ENV"; exit 0; fi
+          REPLACE=""
+          if [ -f "public/editions/$DATE.json" ]; then
+            ALLOWED=$(node -e "const fs=require('fs');const d=JSON.parse(fs.readFileSync(process.argv[1]));const e=JSON.parse(fs.readFileSync(process.argv[2]));console.log(d.replacePublished===true&&typeof d.revisionId==='string'&&d.revisionId.trim()&&e.revisionId!==d.revisionId?'1':'0')" "$DIR/draft.json" "public/editions/$DATE.json")
+            if [ "$ALLOWED" != 1 ]; then echo "Edition $DATE already published"; echo "RESULT=skip" >> "$GITHUB_ENV"; exit 0; fi
+            REPLACE="--replace"
+          fi
           MARKET="$DIR/market.json"
           if [ "$(TZ=Asia/Kolkata date -d "$DATE" +%u)" = 7 ]; then MARKET=""; elif [ ! -f "$MARKET" ]; then echo "Waiting for market.json"; echo "RESULT=skip" >> "$GITHUB_ENV"; exit 0; fi
-          if node scripts/publish-v2.mjs "$DIR/draft.json" "" "$MARKET" > "$DIR/publish.log" 2>&1 && npm run -s build && npm run -s check; then
+          if { node scripts/publish-v2.mjs "$DIR/draft.json" "" "$MARKET" $REPLACE && npm run -s build && npm run -s check; } > "$DIR/publish.log" 2>&1; then
             rm -f "$DIR/errors.txt" "$DIR/publish.log"
             echo "RESULT=published" >> "$GITHUB_ENV"
           else
             git checkout -q -- public 2>/dev/null || true
-            rm -f "public/editions/$DATE.json"
+            if ! git ls-files --error-unmatch "public/editions/$DATE.json" >/dev/null 2>&1; then rm -f "public/editions/$DATE.json"; fi
             { echo "Publishing $DATE failed at $(TZ=Asia/Kolkata date '+%H:%M IST'). Fix the draft and save it again."; echo; grep -v '^\s*at ' "$DIR/publish.log" | head -60; } > "$DIR/errors.txt"
             rm -f "$DIR/publish.log"
             cat "$DIR/errors.txt"

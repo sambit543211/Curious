@@ -1,8 +1,11 @@
-# 09:00 IST, Monday to Saturday: the code chooses today's stocks and saves the data the writer needs.
+# 09:00 IST, every day: the code chooses today's stocks and saves the data the writer needs.
 name: Morning · prepare data
 on:
   schedule:
-    - cron: '30 3 * * 1-6'
+    - cron: '30 3 * * *'
+  push:
+    branches: [main]
+    paths: ['drafts/**/request.json']
   workflow_dispatch:
     inputs:
       date: {description: 'Edition date (YYYY-MM-DD, IST). Blank = today.', required: false}
@@ -24,7 +27,8 @@ jobs:
         run: |
           DATE="${DATE_INPUT:-$(TZ=Asia/Kolkata date +%F)}"
           echo "DATE=$DATE" >> "$GITHUB_ENV"
-          if [ -f "public/editions/$DATE.json" ]; then echo "Edition $DATE already published"; echo "SKIP=1" >> "$GITHUB_ENV"; exit 0; fi
+          REFRESH=$(node -e "const fs=require('fs');const p='drafts/'+process.argv[1]+'/request.json';const r=fs.existsSync(p)?JSON.parse(fs.readFileSync(p)):{};console.log(r.date===process.argv[1]&&r.replacePublished===true?'1':'0')" "$DATE")
+          if [ -f "public/editions/$DATE.json" ] && [ "$REFRESH" != 1 ]; then echo "Edition $DATE already published"; echo "SKIP=1" >> "$GITHUB_ENV"; exit 0; fi
           mkdir -p "drafts/$DATE"
           MORNING_PREPARE_STAGE=draft node scripts/prepare-v2.mjs "$DATE" > "drafts/$DATE/prepared.json"
           node -e "const p=require('./drafts/$DATE/prepared.json'); console.log('Stocks:', JSON.stringify(p.selection ?? p.fundamentalsUnavailable))"
