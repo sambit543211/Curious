@@ -4,6 +4,7 @@ import { sourceLink } from '../edition-format.js';
 import { icon, node } from './dom.js';
 import { dayAndMonth, formatNumber, percent, rupees, trend } from './format.js';
 import { cleanLabel, sourceCount, storyBlocks, storyMinutes } from './story.js';
+import { topicById, topicName } from '../topics.js';
 
 const arrow = value => Number.isFinite(value) && value !== 0 ? (value > 0 ? '▲ ' : '▼ ') + formatNumber(Math.abs(value)) + '%' : percent(value);
 const changeSpan = (value, tag = 'span', className = '') => node(tag, [className, trend(value)].filter(Boolean).join(' '), arrow(value));
@@ -345,6 +346,20 @@ export function renderArticle(story) {
   const {topic, card} = story;
   setGlossary(card.terms);
   const article = node('article', 'article');
+  article.style.setProperty('--topic', topicById[topic]?.color ?? 'var(--accent)');
+  const photo = card.image?.url && sourceLink(card.image.url);
+  if (photo) {
+    const figure = node('figure', 'article-photo');
+    const img = node('img');
+    img.src = photo.href;
+    img.alt = card.image.alt ?? '';
+    img.decoding = 'async';
+    img.referrerPolicy = 'no-referrer';
+    img.addEventListener('error', () => figure.remove());
+    figure.append(img);
+    if (card.image.credit) figure.append(node('figcaption', '', card.image.credit));
+    article.append(figure);
+  }
   const head = node('div', 'article-head');
   const metaParts = [];
   const label = cleanLabel(topic, card.label);
@@ -356,7 +371,9 @@ export function renderArticle(story) {
     if (count) metaParts.push(count + (count === 1 ? ' source' : ' sources'));
   }
   if (topic === 'mind' && card.study) metaParts.push([card.study.authors, card.study.year && '(' + card.study.year + ')'].filter(Boolean).join(' '));
-  head.append(node('p', 'article-meta', metaParts.filter(Boolean).join(' · ')));
+  const pill = node('span', 'topic-pill');
+  pill.append(icon(topic), node('span', '', topicName(topic).replace('Stock Investing', 'Stocks')));
+  head.append(pill, node('p', 'article-meta', metaParts.filter(Boolean).join(' · ')));
   const title = node('h2', 'article-title', card.headline);
   title.id = 'reader-title';
   title.tabIndex = -1;

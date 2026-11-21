@@ -1,7 +1,8 @@
 // The Today tab: progress, markets, top stories and every topic.
 import { getDeck, indianDay, sectionIds } from '../edition-format.js';
 import { isPosition } from '../investment-rules.js';
-import { topicName } from '../topics.js';
+import { topicById, topicName } from '../topics.js';
+import { sourceLink } from '../edition-format.js';
 import { dates } from './catalog.js';
 import { $, icon, node } from './dom.js';
 import { dayMonthLong, formatNumber, istMinutes, istTime, percent, rupees, trend, weekday } from './format.js';
@@ -57,19 +58,45 @@ function markets(issue) {
   }));
 }
 
+// A story's cover: its licensed photo when the writer supplied one, otherwise artwork in the section's colour.
+export function cover(story, className = 'cover') {
+  const art = node('span', className);
+  art.style.setProperty('--topic', topicById[story.topic]?.color ?? 'var(--accent)');
+  const url = story.card.image?.url && sourceLink(story.card.image.url);
+  if (url) {
+    const img = node('img');
+    img.src = url.href;
+    img.alt = story.card.image.alt ?? '';
+    img.loading = 'lazy';
+    img.decoding = 'async';
+    img.referrerPolicy = 'no-referrer';
+    img.addEventListener('error', () => img.remove());
+    art.append(img);
+    if (story.card.image.credit) art.append(node('small', 'cover-credit', story.card.image.credit));
+  } else art.append(icon(story.topic, 'cover-mark'));
+  return art;
+}
+const topicPill = topic => {
+  const pill = node('span', 'topic-pill');
+  pill.style.setProperty('--topic', topicById[topic]?.color ?? 'var(--accent)');
+  pill.append(icon(topic), node('span', '', topicName(topic).replace('Stock Investing', 'Stocks')));
+  return pill;
+};
+
 function topList(issue) {
   const picks = topStories(issue, state.order);
   $('top-stories').hidden = !picks.length;
   $('top-title').textContent = issue.date === indianDay() ? 'Today’s top stories' : 'Top stories';
   $('top-list').replaceChildren(...picks.map(({story, line}) => {
     const item = node('li');
-    const button = node('button', 'top-story');
+    const button = node('button', 'top-story cover-card');
     button.type = 'button';
     button.dataset.key = story.key;
+    const art = cover(story);
+    art.append(topicPill(story.topic));
+    if (story.card.keyNumber?.value) art.append(keyBadge(story.card.keyNumber, 'cover-key'));
     const meta = node('span', 'top-meta', topicName(story.topic) + ' · ' + storyMeta(story.card).split(' · ')[0]);
-    button.append(node('span', 'top-headline', line ?? story.card.headline));
-    if (story.card.keyNumber?.value) button.append(keyBadge(story.card.keyNumber, 'top-key'));
-    button.append(meta);
+    button.append(art, node('span', 'top-headline', line ?? story.card.headline), meta);
     button.addEventListener('click', () => handlers.onOpen(button, story.key));
     item.append(button);
     return item;
@@ -83,11 +110,11 @@ function keyBadge({value, label}, className = 'row-key') {
   return badge;
 }
 
-function storyRow(story) {
+function storyRow(story, featured = false) {
   const item = node('li');
   const {card} = story;
   const pick = isPosition(card);
-  const row = node('button', pick ? 'pick-row' : 'story-row');
+  const row = node('button', pick ? 'pick-row' : 'story-row' + (featured ? ' is-featured' : ''));
   row.type = 'button';
   row.dataset.key = story.key;
   const text = node('span', 'story-text');
@@ -98,8 +125,13 @@ function storyRow(story) {
     row.append(text, side);
   } else {
     text.append(node('span', 'story-headline', card.headline), node('span', 'story-meta', storyMeta(card)));
+    if (featured) {
+      const art = cover(story, 'cover cover-band');
+      if (card.keyNumber?.value) art.append(keyBadge(card.keyNumber, 'cover-key'));
+      row.append(art);
+    }
     row.append(text);
-    if (card.keyNumber?.value) row.append(keyBadge(card.keyNumber));
+    if (card.keyNumber?.value && !featured) row.append(keyBadge(card.keyNumber));
     row.append(icon('done', 'check'));
   }
   row.addEventListener('click', () => handlers.onOpen(row, story.key));
@@ -112,7 +144,9 @@ function topicSection(topic) {
   section.id = 'topic-' + topic;
   section.dataset.topic = topic;
   section.setAttribute('aria-labelledby', 'heading-' + topic);
+  section.style.setProperty('--topic', topicById[topic]?.color ?? 'var(--accent)');
   const head = node('div', 'topic-head');
+  head.append(icon(topic, 'topic-icon'));
   const title = node('h2', '', topicName(topic));
   title.id = 'heading-' + topic;
   const bar = node('span', 'bar');
@@ -129,7 +163,7 @@ function topicSection(topic) {
     section.append(list);
   }
   const list = node('ol', 'story-list');
-  list.append(...rest.map(storyRow));
+  list.append(...rest.map((story, index) => storyRow(story, index === 0 && !picks.length)));
   section.append(list);
   return section;
 }
