@@ -67,11 +67,16 @@ company profile: what it does, its growth, good signs, red flags, and whether it
 
 ## Daily publication
 
-Claude's scheduled Morning Edition task (steps in `docs/daily-run.md`) starts at **09:25 a.m. IST**, targeting publication by **10:00 a.m. IST** with a labelled late release when needed. It researches the briefing, saves one dated edition to the `main` branch, and pushes it. Vercel builds the archive index and deploys `main` to production. Each edition becomes available when that build is ready.
+GitHub Actions runs every code step for free; ChatGPT only researches and writes.
 
-The publication path is `public/editions/YYYY-MM-DD.json`. Set `date` to the IST edition date and include the seven keys from `public/edition-format.js` in `sections`. Give each card a stable `id`, a `label`, a `headline`, a factual `summary`, documented causes in `why`, significance in `context`, a primary `source` and `sourceUrl`, a `sources` array of `{ label, url }` entries, and a bundled `image`. Stock cards additionally require `valuation` and `risk`. Supply `preparedAt` for the preparation time or `publishedAt` for a confirmed public release time. The 17 November edition shows the format. The archive index is generated at build time.
+- **09:00 IST, Mon–Sat** (`morning-prepare.yml`): the code chooses the stocks and saves `drafts/<date>/prepared.json`.
+- **~09:45 IST**: a ChatGPT scheduled task follows `docs/chatgpt-daily.md` and saves `drafts/<date>/draft.json` and
+  `market.json`.
+- **On that save** (`morning-publish.yml`): fills in the numbers, runs every check and commits
+  `public/editions/<date>.json`, or writes `drafts/<date>/errors.txt` for the writer to fix.
+- **18:30 IST, Mon–Fri** (`closes.yml`): records NSE closes. **Saturday 11:10 IST** (`fundamentals.yml`): weekly stock data.
 
-The homepage opens the latest edition. Past editions have shareable URLs such as `/?edition=2026-11-14`. The app reads the static files directly; `/api/editions` and `/api/edition?date=YYYY-MM-DD` return the same data for other clients. Opened editions can be read offline.
+Vercel deploys `main` after each commit. Any workflow can also be run by hand from the repository's Actions tab.
 
 ## Local development
 

@@ -1,0 +1,30 @@
+# 18:30 IST, Monday to Friday (NSE publishes its closing files in the evening): record closes for tracked picks.
+name: Record NSE closes
+on:
+  schedule:
+    - cron: '0 13 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      date: {description: 'Session date (YYYY-MM-DD). Blank = today (IST).', required: false}
+permissions:
+  contents: write
+concurrency: {group: morning-edition, cancel-in-progress: false}
+jobs:
+  closes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: 22, cache: npm}
+      - run: npm ci
+      - name: Record
+        env: {DATE_INPUT: '${{ inputs.date }}'}
+        run: |
+          DATE="${DATE_INPUT:-$(TZ=Asia/Kolkata date +%F)}"
+          echo "DATE=$DATE" >> "$GITHUB_ENV"
+          npm run -s update-closes -- "$DATE"
+      - name: Commit
+        env: {MESSAGE: 'Record NSE closes ${{ env.DATE }}'}
+        run: |
+          if [ -f "public/market-closes/$DATE.json" ]; then scripts/ci-commit.sh "public/market-closes/$DATE.json"; else echo "No close file written"; fi

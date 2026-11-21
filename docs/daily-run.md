@@ -1,3 +1,7 @@
+> **Moved to GitHub Actions + ChatGPT (21 Nov 2026).** GitHub runs the code steps (`.github/workflows/`) and
+> ChatGPT writes the stories following `docs/chatgpt-daily.md`. This runbook is kept as the reference for each step and
+> for running by hand.
+
 # Daily run (Claude scheduled tasks)
 
 Claude publishes Morning Edition on a schedule. Each run starts in a fresh session, so this file and

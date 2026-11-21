@@ -1,0 +1,27 @@
+# Saturday 11:10 IST: rebuild the weekly Nifty 500 fundamentals file (about 35 minutes, one request at a time).
+name: Weekly fundamentals
+on:
+  schedule:
+    - cron: '40 5 * * 6'
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency: {group: weekly-fundamentals, cancel-in-progress: false}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: 22, cache: npm}
+      - run: npm ci
+      - name: Build and check
+        run: |
+          DATE="$(TZ=Asia/Kolkata date +%F)"
+          echo "DATE=$DATE" >> "$GITHUB_ENV"
+          npm run -s build-fundamentals -- --date "$DATE" --cache "$RUNNER_TEMP/screener"
+          npm run -s check-fundamentals -- "data/fundamentals/$DATE.json"
+      - name: Commit
+        env: {MESSAGE: 'Add weekly fundamentals ${{ env.DATE }}'}
+        run: scripts/ci-commit.sh "data/fundamentals/$DATE.json"

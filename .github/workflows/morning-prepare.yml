@@ -1,0 +1,34 @@
+# 09:00 IST, Monday to Saturday: the code chooses today's stocks and saves the data the writer needs.
+name: Morning · prepare data
+on:
+  schedule:
+    - cron: '30 3 * * 1-6'
+  workflow_dispatch:
+    inputs:
+      date: {description: 'Edition date (YYYY-MM-DD, IST). Blank = today.', required: false}
+      dry_run: {description: 'Only print the result, commit nothing', type: boolean, default: false}
+permissions:
+  contents: write
+concurrency: {group: morning-edition, cancel-in-progress: false}
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: 22, cache: npm}
+      - run: npm ci
+      - name: Prepare
+        env: {DATE_INPUT: '${{ inputs.date }}'}
+        run: |
+          DATE="${DATE_INPUT:-$(TZ=Asia/Kolkata date +%F)}"
+          echo "DATE=$DATE" >> "$GITHUB_ENV"
+          if [ -f "public/editions/$DATE.json" ]; then echo "Edition $DATE already published"; echo "SKIP=1" >> "$GITHUB_ENV"; exit 0; fi
+          mkdir -p "drafts/$DATE"
+          MORNING_PREPARE_STAGE=draft node scripts/prepare-v2.mjs "$DATE" > "drafts/$DATE/prepared.json"
+          node -e "const p=require('./drafts/$DATE/prepared.json'); console.log('Stocks:', JSON.stringify(p.selection ?? p.fundamentalsUnavailable))"
+      - name: Commit
+        if: env.SKIP != '1' && inputs.dry_run != true
+        env: {MESSAGE: 'Prepare Morning Edition data ${{ env.DATE }}'}
+        run: scripts/ci-commit.sh "drafts/$DATE/prepared.json"

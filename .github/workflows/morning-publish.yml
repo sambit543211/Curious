@@ -1,0 +1,55 @@
+# Runs when ChatGPT saves drafts/<date>/draft.json (and market.json): fills in every number from the data,
+# runs all checks and publishes. If a check fails, it saves the reasons to drafts/<date>/errors.txt instead.
+name: Morning · publish
+on:
+  push:
+    branches: [main]
+    paths: ['drafts/**/draft.json', 'drafts/**/market.json']
+  workflow_dispatch:
+    inputs:
+      date: {description: 'Edition date (YYYY-MM-DD, IST). Blank = today.', required: false}
+permissions:
+  contents: write
+concurrency: {group: morning-edition, cancel-in-progress: false}
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: 22, cache: npm}
+      - run: npm ci
+      - name: Publish
+        env: {DATE_INPUT: '${{ inputs.date }}'}
+        run: |
+          git pull -q origin main
+          DATE="${DATE_INPUT:-$(TZ=Asia/Kolkata date +%F)}"
+          echo "DATE=$DATE" >> "$GITHUB_ENV"
+          DIR="drafts/$DATE"
+          if [ -f "public/editions/$DATE.json" ]; then echo "Edition $DATE already published"; echo "RESULT=skip" >> "$GITHUB_ENV"; exit 0; fi
+          if [ ! -f "$DIR/draft.json" ]; then echo "No draft yet"; echo "RESULT=skip" >> "$GITHUB_ENV"; exit 0; fi
+          MARKET="$DIR/market.json"
+          if [ "$(TZ=Asia/Kolkata date -d "$DATE" +%u)" = 7 ]; then MARKET=""; elif [ ! -f "$MARKET" ]; then echo "Waiting for market.json"; echo "RESULT=skip" >> "$GITHUB_ENV"; exit 0; fi
+          if node scripts/publish-v2.mjs "$DIR/draft.json" "" "$MARKET" > "$DIR/publish.log" 2>&1 && npm run -s build && npm run -s check; then
+            rm -f "$DIR/errors.txt" "$DIR/publish.log"
+            echo "RESULT=published" >> "$GITHUB_ENV"
+          else
+            git checkout -q -- public 2>/dev/null || true
+            rm -f "public/editions/$DATE.json"
+            { echo "Publishing $DATE failed at $(TZ=Asia/Kolkata date '+%H:%M IST'). Fix the draft and save it again."; echo; grep -v '^\s*at ' "$DIR/publish.log" | head -60; } > "$DIR/errors.txt"
+            rm -f "$DIR/publish.log"
+            cat "$DIR/errors.txt"
+            echo "RESULT=failed" >> "$GITHUB_ENV"
+          fi
+      - name: Commit edition
+        if: env.RESULT == 'published'
+        env: {MESSAGE: 'Publish Morning Edition ${{ env.DATE }}'}
+        run: scripts/ci-commit.sh "public/editions/$DATE.json" "drafts/$DATE"
+      - name: Commit errors for the writer
+        if: env.RESULT == 'failed'
+        env: {MESSAGE: 'Publish check failed for ${{ env.DATE }}'}
+        run: scripts/ci-commit.sh "drafts/$DATE/errors.txt"
+      - name: Fail the run so the owner sees it
+        if: env.RESULT == 'failed'
+        run: exit 1
