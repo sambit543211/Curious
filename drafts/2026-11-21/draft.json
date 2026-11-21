@@ -1,0 +1,1331 @@
+{
+  "date": "2026-11-21",
+  "replacePublished": true,
+  "revisionId": "chatgpt-20261121-1795253777485",
+  "top3": [
+    {
+      "cardId": "2026-11-21-core-output",
+      "line": "Core industries accelerated, but the comparison base needs care."
+    },
+    {
+      "cardId": "2026-11-21-poland-incursion",
+      "line": "Russian weapons crossed into Poland, raising escalation concerns."
+    },
+    {
+      "cardId": "2026-11-21-signal-screen",
+      "line": "Signal restricts screen capture to keep AI assistants out of chats."
+    }
+  ],
+  "sections": {
+    "india": [
+      {
+        "id": "2026-11-21-core-output",
+        "rank": 1,
+        "label": "India · 21 Nov 2026",
+        "headline": "Industrial output accelerates, but the base matters",
+        "summary": "India’s core-industry output grew 10.9% in October against a year earlier, up from September’s revised 8.2%. Electricity, coal, iron ore and cement led the improvement. The Commerce Ministry’s Friday release also put April–October growth at 6.0%, compared with 2.3% in the same period last year. These are provisional figures, not a forecast of the whole economy.",
+        "why": "An annual percentage compares today with last year’s starting point. A weak comparison period can exaggerate acceleration. Mining and power demand therefore deserve checking alongside factory orders before calling this a broad consumption boom.",
+        "soWhat": "For businesses planning inventory or hiring, stronger industrial activity is encouraging; orders and collections still matter more than the headline.",
+        "take": "The breadth of production matters more than a spectacular monthly percentage.",
+        "watch": "The next core-industry release is scheduled for 21 December.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Commerce Ministry · 20 Nov",
+            "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2339126&lang=1&reg=1",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "beat": "policy",
+        "economicData": true,
+        "previousValue": "September 2026: 8.2% year-on-year, revised from 7.9%.",
+        "trend": "October accelerated to 10.9%; April–October grew 6.0% versus 2.3% a year earlier.",
+        "keyNumber": {
+          "value": "10.9%",
+          "label": "October core output growth"
+        }
+      },
+      {
+        "id": "2026-11-21-reserve-buffer",
+        "rank": 2,
+        "label": "India · 21 Nov 2026",
+        "headline": "India’s foreign-exchange buffer shrinks sharply",
+        "summary": "India’s foreign-exchange reserves fell $14.205 billion to $705.342 billion in the week ended 13 November, the RBI reported Friday. The previous week’s stock was $719.547 billion, calculated from that reported change. Foreign-currency assets fell $7.897 billion and the dollar value of gold holdings fell $6.183 billion. The release measures reserve values, not a clean count of dollars sold.",
+        "why": "Currencies and gold are revalued in dollars, so market prices can move the total without matching cash leaving India. Reserve changes alone cannot prove how heavily the central bank intervened in the rupee.",
+        "soWhat": "Importers, overseas students and travellers remain exposed to exchange-rate swings even when the country has a substantial reserve buffer.",
+        "take": "A large reserve fall deserves explanation before it deserves alarm.",
+        "watch": "Compare next Friday’s reserve components with the rupee’s weekly change.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "RBI weekly reserves · released 20 Nov; week ended 13 Nov",
+            "url": "https://www.rbi.org.in/scripts/WSSView.aspx?Id=28849",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "beat": "policy",
+        "economicData": true,
+        "previousValue": "$719.547 billion one week earlier, calculated as $705.342 billion plus the reported $14.205 billion decline.",
+        "trend": "Weekly fall reversed the preceding increase; the latest observation is 13 November, released 20 November."
+      },
+      {
+        "id": "2026-11-21-diamond-tax",
+        "rank": 3,
+        "label": "India · 21 Nov 2026",
+        "headline": "Diamond importers regain a tax exemption",
+        "summary": "Eligible natural cut-and-polished diamond imports under the Diamond Imprest Authorisation scheme regained an integrated goods and services tax exemption from Friday. The Economic Times reports that a Finance Ministry notification reversed the earlier tax change and restored the specified relief. Eligibility is tied to the scheme; this is not a blanket tax cut on every diamond or jewellery purchase.",
+        "why": "Import taxes can tie up exporters’ working capital before finished goods are sold. Relieving that cash requirement can help processing businesses without creating new overseas orders or removing the industry’s demand problems.",
+        "soWhat": "For diamond businesses and their suppliers, check authorisation eligibility before building the exemption into cash-flow estimates or customer prices.",
+        "take": "Cash-flow relief helps exporters; it does not repair weak demand.",
+        "watch": "Check the customs notification’s eligibility conditions and subsequent clearance instructions.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Economic Times reporting Finance Ministry notification · 20 Nov",
+            "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/centre-restores-igst-exemption-on-diamond-imports-under-dia-scheme/articleshow/136035769.cms",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "beat": "business"
+      },
+      {
+        "id": "2026-11-21-housing-approvals",
+        "rank": 4,
+        "label": "India · 21 Nov 2026",
+        "headline": "More urban homes approved; delivery is the real test",
+        "summary": "The housing ministry reported approval of 1.75 lakh urban homes under PMAY-U 2.0, plus in-principle clearance for roughly 1.5 lakh more. The announcement followed Thursday’s sanctioning meeting and takes approved homes under the newer programme above 24.15 lakh. An approval is permission to proceed, not proof that a family has received a completed house.",
+        "why": "States must verify applicants, release money and monitor construction. Land, contractor capacity and delayed payments can slow projects after a central announcement. The ministry specifically called for faster expenditure and timely transfers.",
+        "soWhat": "Eligible families should follow their state’s application and beneficiary-verification process; construction suppliers should distinguish sanctioned demand from paid orders.",
+        "take": "Count homes occupied, alongside homes announced, when judging this programme.",
+        "watch": "Track state fund releases and completed houses in the next progress update.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Housing Ministry · 20 Nov",
+            "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2339014&lang=1&reg=1",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "beat": "society"
+      },
+      {
+        "id": "2026-11-21-akvan-remnant",
+        "rank": 5,
+        "label": "India · 21 Nov 2026",
+        "headline": "Akvan weakens; eastern India still needs rain vigilance",
+        "summary": "Cyclone Akvan’s remnant weakened into a low-pressure area over north interior Odisha by early Saturday, the weather office said. Its final cyclone press release, issued at 11:30 IST, describes the system weakening through Friday evening and overnight. Dedicated cyclone releases end, but ordinary weather bulletins continue. The change reduces the storm threat; it does not certify every flooded road or river safe.",
+        "why": "Rainwater already in catchments takes time to drain. River levels, damaged electricity lines and local access can remain dangerous after the circulation loses its cyclone classification.",
+        "soWhat": "For travel or deliveries in affected eastern districts, use district instructions and route updates before departure rather than an old landfall forecast.",
+        "take": "The cyclone’s name disappearing is not the same as risk disappearing.",
+        "watch": "Check the next district rainfall warnings and river-level advisories.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "IMD final cyclone press release · 21 Nov, 11:30 IST",
+            "url": "https://internal.imd.gov.in/press_release/20261121_pr_5513.pdf",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "beat": "wildcard"
+      }
+    ],
+    "world": [
+      {
+        "id": "2026-11-21-poland-incursion",
+        "rank": 1,
+        "label": "World · 21 Nov 2026",
+        "headline": "Russian weapons enter Poland during European military exercises",
+        "summary": "Poland’s defence minister reported three incursions involving cruise missiles and jet-powered drones during Russia’s attack on Ukraine on Friday. The incident coincided with exercises by European countries preparing a possible support force for Ukraine. The minister called it a coordinated provocation. That account establishes Poland’s assessment; it does not independently establish Russia’s intent or mean NATO has decided to enter the war.",
+        "why": "Weapons crossing an alliance border compress the time available for verification and response. Air-defence coordination and communication become crucial precisely because an accidental escalation can follow an ambiguous incident.",
+        "soWhat": "For India, a wider conflict would threaten shipping, energy costs and trade even without Indian military involvement.",
+        "take": "Airspace incidents deserve attention before speculation about an inevitable wider war.",
+        "watch": "Look for NATO’s formal response and Poland’s technical investigation findings.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Polish Defence Ministry · 20 Nov",
+            "url": "https://www.gov.pl/web/obrona-narodowa/koalicja-262-szef-mon-obserwowal-pierwsze-cwiczenie-sil-koalicji-chetnych",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "beat": "geopolitics",
+        "indiaLink": "European escalation can affect India through energy prices, shipping insurance and export demand."
+      },
+      {
+        "id": "2026-11-21-rohingya-accountability",
+        "rank": 2,
+        "label": "World · 21 Nov 2026",
+        "headline": "Myanmar faces pressure after the Rohingya genocide ruling",
+        "summary": "Australia on Friday urged Myanmar to comply with the International Court of Justice’s genocide judgment. Its statement cites the court’s findings that about 10,000 Rohingya were killed and roughly 700,000 forced to flee to Bangladesh. The judgment was delivered Thursday; Friday’s response adds diplomatic pressure. A legal finding does not itself deliver compensation, safe return or an end to Myanmar’s continuing violence.",
+        "why": "The court decides state responsibility under international law. Enforcing obligations depends on governments and institutions, while displaced families still need protection, citizenship safeguards and access to basic services.",
+        "soWhat": "India shares borders with Myanmar and Bangladesh, so displacement and regional instability have direct humanitarian and security implications.",
+        "take": "Accountability matters most when it changes survivors’ safety and rights.",
+        "watch": "Look for compliance measures, humanitarian access and specific partner-government responses.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Australian Foreign Minister · 20 Nov response to ICJ ruling",
+            "url": "https://www.foreignminister.gov.au/minister/penny-wong/media-release/international-court-justice-ruling-myanmar",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "beat": "geopolitics",
+        "indiaLink": "India’s border communities and regional diplomacy are directly affected by instability in Myanmar and Bangladesh."
+      },
+      {
+        "id": "2026-11-21-german-industry-capital",
+        "rank": 3,
+        "label": "World · 21 Nov 2026",
+        "headline": "Qatar and Brookfield target Germany’s strategic industries",
+        "summary": "Qatar Investment Authority and Brookfield signed an agreement Friday to explore investments in Germany’s critical industries and defence sector. Their joint announcement sets a combined investment aim of €15 billion. This is a memorandum of understanding, meaning an agreement to explore cooperation. It is not a list of completed investments or a guarantee that the whole amount has been deployed.",
+        "why": "Europe is trying to expand production capacity and reduce dependence on external suppliers. Large factories need patient capital, while defence contracts introduce political approvals, procurement rules and unusually long delivery schedules.",
+        "soWhat": "Indian component exporters may find opportunities, but only awarded projects create dependable orders and payment schedules.",
+        "take": "The useful signal will be actual factories funded and contracts signed.",
+        "watch": "Track the first named investments, approvals and committed capital amounts.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "QIA and Brookfield joint announcement · 20 Nov",
+            "url": "https://qia.qa/en/Newsroom/Pages/QIA-and-Brookfield-Announce-Initiative-to-Invest-in-Germany%E2%80%99s-Critical-Industries.aspx",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "beat": "economy",
+        "indiaLink": "German industrial spending can change demand for Indian engineering, electronics and component suppliers."
+      },
+      {
+        "id": "2026-11-21-chip-access",
+        "rank": 4,
+        "label": "World · 21 Nov 2026",
+        "headline": "Trump signals China will get only older American chips",
+        "summary": "President Trump said Friday that Washington wants only older chips sold to China, while saying a broader agreement was being discussed. Reuters reported no details of a completed deal. The comments follow tighter American restrictions on Chinese access to advanced AI chips earlier in the week. A political statement about talks does not itself change export licences or make restricted hardware available.",
+        "why": "Advanced computing equipment has become both a commercial product and a national-security concern. Suppliers must obey written rules even when summit language sounds warmer, so diplomatic optimism and business access can diverge.",
+        "soWhat": "Indian technology buyers and data-centre operators should base procurement assumptions on actual licence rules, delivery commitments and availability.",
+        "take": "A deal mentioned at a microphone is not a shipping permission.",
+        "watch": "Look for a published agreement or revised US export-licensing rules.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Reuters on AOL · 20 Nov, 18:39 UTC",
+            "url": "https://www.aol.com/articles/trump-says-only-older-chips-183949000.html",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "beat": "us-china",
+        "indiaLink": "Chip supply restrictions can redirect investment and affect Indian computing costs and data-centre procurement."
+      },
+      {
+        "id": "2026-11-21-climate-overtime",
+        "rank": 5,
+        "label": "World · 21 Nov 2026",
+        "headline": "Climate negotiations overrun with fossil-fuel language unresolved",
+        "summary": "The UN climate conference in Antalya continued into Saturday beyond its planned Friday finish. AP reported that negotiators were still seeking agreement after criticism of draft language that omitted fossil fuels. The official UNFCCC page lists the negotiating documents. No draft should be treated as the adopted outcome until the conference formally agrees its final decisions.",
+        "why": "Countries differ over who pays for the transition and how quickly producers should change. Negotiated wording matters because it guides later finance discussions, even though implementation still requires domestic budgets and policy.",
+        "soWhat": "India’s industries face both climate damage and transition costs; financing terms matter alongside emissions promises.",
+        "take": "Judge the final text and funding commitments, not the closing ceremony.",
+        "watch": "Read the adopted cover decision and any quantified finance commitments.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "UNFCCC conference and official documents",
+            "url": "https://unfccc.int/cop31",
+            "accessedOn": "2026-11-21"
+          },
+          {
+            "label": "AP reporting · 21 Nov, 02:09 UTC",
+            "url": "https://apnews.com/article/b54eebcade92e5ee4c513b9a5b2192a7",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "beat": "wildcard",
+        "indiaLink": "India’s adaptation needs, industrial costs and access to climate finance are directly implicated."
+      }
+    ],
+    "markets": {
+      "dashboard": {
+        "id": "2026-11-21-weekend-dashboard",
+        "rank": 1,
+        "label": "Indian Markets · 21 Nov 2026",
+        "headline": "Banks drove Friday’s rally; small companies lagged",
+        "summary": "Indian shares finished Friday higher: Nifty closed at 25,800.60 and Sensex at 83,919.71. Banks led the rebound, with Bank Nifty gaining 2.49%, while foreign cash-market buying provided support. Small-cap shares failed to follow the larger-company rally, so Saturday’s closed-session dashboard shows Friday’s close, not fresh weekend trading.",
+        "why": "Index weights matter: gains in large lenders such as HDFC Bank and Axis Bank can lift the benchmark without improving the typical smaller stock. A rising volatility gauge also warns against reading an index gain as universal confidence.",
+        "soWhat": "Check how your own holdings behaved rather than assuming a green benchmark means the whole portfolio should rise.",
+        "take": "The rally looks concentrated enough to deserve a breadth check.",
+        "watch": "Compare bank leadership with small-cap participation at the next trading close.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "NSE official index closes · 20 Nov",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_20112026.csv",
+            "accessedOn": "2026-11-21"
+          },
+          {
+            "label": "Business Standard · Friday final close and company developments",
+            "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html",
+            "accessedOn": "2026-11-21"
+          },
+          {
+            "label": "Moneycontrol · cash-market flows to 20 Nov",
+            "url": "https://www.moneycontrol.com/stocks/marketstats/fii_dii_activity/",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "beat": "dashboard",
+        "evidence": [
+          {
+            "value": 25800.6,
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_20112026.csv",
+            "asOf": "2026-11-20"
+          },
+          {
+            "value": 2.49,
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_20112026.csv",
+            "asOf": "2026-11-20"
+          },
+          {
+            "value": 83919.71,
+            "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html",
+            "asOf": "2026-11-20"
+          },
+          {
+            "value": 10308.42,
+            "url": "https://www.moneycontrol.com/stocks/marketstats/fii_dii_activity/",
+            "asOf": "2026-11-20"
+          },
+          {
+            "value": 4859.8,
+            "url": "https://www.moneycontrol.com/stocks/marketstats/fii_dii_activity/",
+            "asOf": "2026-11-20"
+          },
+          {
+            "value": 111949.14,
+            "url": "https://www.moneycontrol.com/stocks/marketstats/fii_dii_activity/",
+            "asOf": "2026-11-20"
+          }
+        ]
+      },
+      "cards": [
+        {
+          "id": "2026-11-21-foreign-flows",
+          "rank": 2,
+          "label": "Indian Markets · 21 Nov 2026",
+          "headline": "Foreign buying supports banks while local funds sell",
+          "summary": "Foreign institutions bought a net ₹10,308.42 crore of Indian cash-market shares Friday, while domestic institutions sold ₹4,859.80 crore, Moneycontrol reports. November-to-date foreign buying reached ₹1,11,949.14 crore. These are reported cash-market flows, not all cross-border investment. Financial shares such as HDFC Bank and Axis Bank benefited during the broader bank-led advance.",
+          "why": "Large liquid companies are easier places to deploy substantial inflows. Domestic selling can reflect redemptions, portfolio adjustments or profit-taking; the aggregate number cannot tell us which motive dominated.",
+          "soWhat": "For an investor in large-cap funds, changes in foreign demand can alter short-term returns without changing the businesses’ earnings.",
+          "take": "Flows explain buying pressure better than they explain fair value.",
+          "watch": "Compare the next daily flow release with bank-index performance.",
+          "terms": [],
+          "image": null,
+          "sources": [
+            {
+              "label": "Moneycontrol · cash-market flows to 20 Nov",
+              "url": "https://www.moneycontrol.com/stocks/marketstats/fii_dii_activity/",
+              "accessedOn": "2026-11-21"
+            },
+            {
+              "label": "Business Standard · Friday final close and company developments",
+              "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html",
+              "accessedOn": "2026-11-21"
+            }
+          ],
+          "beat": "flows",
+          "evidence": [
+            {
+              "value": 83919.71,
+              "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html",
+              "asOf": "2026-11-20"
+            },
+            {
+              "value": 10308.42,
+              "url": "https://www.moneycontrol.com/stocks/marketstats/fii_dii_activity/",
+              "asOf": "2026-11-20"
+            },
+            {
+              "value": 4859.8,
+              "url": "https://www.moneycontrol.com/stocks/marketstats/fii_dii_activity/",
+              "asOf": "2026-11-20"
+            },
+            {
+              "value": 111949.14,
+              "url": "https://www.moneycontrol.com/stocks/marketstats/fii_dii_activity/",
+              "asOf": "2026-11-20"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-21-hospital-repricing",
+          "rank": 3,
+          "label": "Indian Markets · 21 Nov 2026",
+          "headline": "Hospital shares rise on an improving earnings argument",
+          "summary": "Apollo Hospitals and Max Healthcare gained during Friday trading after Macquarie upgraded its view of the businesses, Upstox reported during the morning session. KIMS and Fortis also participated. The report links the buying to expectations that pressure from new capacity is easing. Those are intraday observations and an attributed brokerage assessment, not proof that future hospital margins have already improved.",
+          "why": "New facilities incur staffing and operating costs before beds fill. As patient volumes build, the same installed capacity can earn more, but occupancy, treatment mix and pricing determine the outcome.",
+          "soWhat": "Healthcare shareholders should test the broker’s argument against subsequent company filings rather than treat an upgrade as confirmed earnings.",
+          "take": "Occupied beds and cash generation will settle the argument better than ratings.",
+          "watch": "Check Apollo’s and Max’s next occupancy and operating-margin disclosures.",
+          "terms": [],
+          "image": null,
+          "sources": [
+            {
+              "label": "Upstox · hospital broker upgrades · 20 Nov, 11:17 IST",
+              "url": "https://upstox.com/news/market-news/stocks/max-healthcare-apollo-hospitals-other-healthcare-stocks-surge-over-5-despite-volatile-market-what-s-behind-the-surge/article-203755/",
+              "accessedOn": "2026-11-21"
+            }
+          ],
+          "beat": "sector",
+          "evidence": []
+        },
+        {
+          "id": "2026-11-21-commodity-divergence",
+          "rank": 4,
+          "label": "Indian Markets · 21 Nov 2026",
+          "headline": "Gold falls, but the final oil settlement rises",
+          "summary": "IBJA’s Friday afternoon pure-gold rate fell to ₹1,23,893 per ten grams from ₹1,29,531 Thursday, before tax and making charges. Separately, Brent settled Friday at $92.57 a barrel versus $91.98 previously, Reuters reports. That global settlement arrived after India’s equity close. Titan and Kalyan Jewellers face inventory effects; Indian Oil and other fuel businesses remain exposed to crude costs.",
+          "why": "Gold responds to currencies and interest-rate expectations; oil also reacts to physical supply and shipping danger. Opposite moves underline why a single general claim about commodities can mislead.",
+          "soWhat": "Jewellery buyers need the final invoice price; businesses budgeting fuel need the relevant oil contract and observation time.",
+          "take": "Commodity prices need units and timestamps before they become useful comparisons.",
+          "watch": "Compare the next IBJA rate and Brent settlement with the rupee.",
+          "terms": [],
+          "image": null,
+          "sources": [
+            {
+              "label": "IBJA · 999-purity PM rates, excluding GST and making charges",
+              "url": "https://ibjarates.com/",
+              "accessedOn": "2026-11-21"
+            },
+            {
+              "label": "Reuters · Friday Brent settlement; updated after Indian equity close",
+              "url": "https://www.reuters.com/business/energy/oil-prices-edge-higher-houthi-attacks-riyadh-raise-supply-concerns-2026-11-20/",
+              "accessedOn": "2026-11-21"
+            }
+          ],
+          "beat": "commodity",
+          "evidence": [
+            {
+              "value": 123893,
+              "url": "https://ibjarates.com/",
+              "asOf": "2026-11-20"
+            },
+            {
+              "value": 129531,
+              "url": "https://ibjarates.com/",
+              "asOf": "2026-11-20"
+            },
+            {
+              "value": 92.57,
+              "url": "https://www.reuters.com/business/energy/oil-prices-edge-higher-houthi-attacks-riyadh-raise-supply-concerns-2026-11-20/",
+              "asOf": "2026-11-20"
+            },
+            {
+              "value": 91.98,
+              "url": "https://www.reuters.com/business/energy/oil-prices-edge-higher-houthi-attacks-riyadh-raise-supply-concerns-2026-11-20/",
+              "asOf": "2026-11-20"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-21-ipo-calendar",
+          "rank": 5,
+          "label": "Indian Markets · 21 Nov 2026",
+          "headline": "Mahanadi’s offer stays open as new listings approach",
+          "summary": "Mahanadi Coalfields’ share offer is scheduled to close Monday, with listing expected Friday, according to Upstox’s published calendar. Crystal Crop Protection is scheduled to list Thursday. Integris Medtech and Foodlink F&B are due to open offers next week. Mahanadi’s sale transfers existing shares from Coal India; the proceeds therefore go to the selling parent rather than funding the subsidiary’s new projects.",
+          "why": "A primary share sale can either finance growth or let an existing owner sell. These are different cash-flow stories even when both are called an IPO, or initial public offering.",
+          "soWhat": "Applicants should confirm dates, allotment and use of proceeds in the offer documents and registrar’s announcements.",
+          "take": "A busy calendar is a reason to compare offers carefully.",
+          "watch": "Check Mahanadi’s final subscription and the exchanges’ formal listing notices.",
+          "terms": [],
+          "image": null,
+          "sources": [
+            {
+              "label": "Upstox · IPO calendar · 20 Nov, 15:14 IST",
+              "url": "https://upstox.com/news/market-news/ipo/ipo-watch-two-mainboard-ip-os-to-open-next-week-mahanadi-coalfields-crystal-crop-listing-ahead/article-203777/",
+              "accessedOn": "2026-11-21"
+            }
+          ],
+          "beat": "ipo",
+          "evidence": []
+        }
+      ]
+    },
+    "investing": [
+      {
+        "id": "2026-11-21-bls-research",
+        "rank": 1,
+        "label": "Stock Investing · 21 Nov 2026",
+        "headline": "BLS looks inexpensive, but contract trust is the key risk",
+        "summary": "BLS International handles visa paperwork and government-service processes. Prepared financial histories show five-year annual sales growth of 44% and profit growth of 68%, with average return on capital of 29.6%. Its trailing earnings multiple is 12.8, against a five-year median of 36.2. The figures explain why the screen flags it; they do not establish that the regulatory and reputation risks have disappeared.",
+        "why": "Consulates choose outsourced service providers and decide visa outcomes themselves. Reports about an Algiers visa investigation damaged confidence earlier this year; BLS denied involvement. Renewals, compliance and client trust matter more than an apparently low valuation.",
+        "soWhat": "A discount offers protection only if the earnings and contracts used in the calculation survive scrutiny.",
+        "take": "The low multiple is interesting; the confidence question needs equal attention.",
+        "watch": "Check the next contract-renewal disclosures and any formal investigation updates.",
+        "terms": [
+          {
+            "term": "return on capital",
+            "meaning": "Operating profit relative to capital employed in the business"
+          },
+          {
+            "term": "trailing earnings multiple",
+            "meaning": "Share price per rupee of recent annual profit"
+          },
+          {
+            "term": "five-year median",
+            "meaning": "Middle historical value, rather than an average or forecast"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Screener.in company pages, 2026-11-21",
+            "url": "https://www.screener.in/"
+          },
+          {
+            "label": "NSE Nifty 500 constituents",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          },
+          {
+            "label": "Screener.in: BLS International Services Ltd.",
+            "url": "https://www.screener.in/company/BLS/consolidated/"
+          },
+          {
+            "label": "NSE bhavcopy, 2026-11-20",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE adjusted 52-week high/low, 2026-11-20",
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv"
+          },
+          {
+            "label": "NDTV Profit · 24 Aug 2026, allegations and company denial",
+            "url": "https://www.ndtvprofit.com/markets/bls-international-share-price-slumps-12-even-as-company-rejects-role-in-allegations-of-visa-irregularities-11950884",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "symbol": "BLS",
+        "slot": "dip",
+        "thesis": [
+          "Outsourced application processing benefits from travel and administrative demand.",
+          "The prepared history shows sustained operating cash generation.",
+          "An installed service network is harder to rebuild than an individual application desk."
+        ],
+        "breakers": [
+          "Loss of major government mandates would weaken the business case.",
+          "Adverse compliance findings could undermine renewals and reputation."
+        ],
+        "moat": "Switching cost",
+        "moatWhy": "Replacing a deployed processing network and trained operations takes time; government tenders can still change providers.",
+        "whyFell": "August reporting linked the fall to a Spanish visa-irregularity investigation involving processing platforms. BLS rejected involvement and said consulates make visa decisions. Treat the allegation and the denial separately, not as a finding of guilt.",
+        "evidence": [
+          {
+            "value": 29.6,
+            "url": "https://www.screener.in/company/BLS/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 44,
+            "url": "https://www.screener.in/company/BLS/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 68,
+            "url": "https://www.screener.in/company/BLS/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 36.2,
+            "url": "https://www.screener.in/company/BLS/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 12.8,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+            "asOf": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-21-kei-research",
+        "rank": 2,
+        "label": "Stock Investing · 21 Nov 2026",
+        "headline": "KEI’s cheaper valuation needs a better margin story",
+        "summary": "KEI makes wires and power cables used in buildings, factories and infrastructure. The prepared data show five-year annual sales growth of 23% and profit growth of 27%, with average return on capital of 23.6%. The trailing earnings multiple is 34.67 against its five-year median of 48.2. That is a historical discount, not evidence that today’s profit can grow indefinitely.",
+        "why": "Copper and aluminium costs can inflate sales without improving the amount earned on each cable. October’s results disappointed expectations as material costs squeezed margins. Distribution strength must translate into cash after expansion spending, not just bigger invoices.",
+        "soWhat": "For this near-low candidate, the question is whether operating performance recovers before the historical valuation comparison becomes irrelevant.",
+        "take": "Cable demand is attractive; profitability determines whether growth creates value.",
+        "watch": "Check the next quarterly cable margin and cash tied in receivables.",
+        "terms": [
+          {
+            "term": "return on capital",
+            "meaning": "Operating profit relative to capital employed in the business"
+          },
+          {
+            "term": "trailing earnings multiple",
+            "meaning": "Share price per rupee of recent annual profit"
+          },
+          {
+            "term": "five-year median",
+            "meaning": "Middle historical value, rather than an average or forecast"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Screener.in company pages, 2026-11-21",
+            "url": "https://www.screener.in/"
+          },
+          {
+            "label": "NSE Nifty 500 constituents",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          },
+          {
+            "label": "Screener.in: KEI Industries Ltd.",
+            "url": "https://www.screener.in/company/KEI/consolidated/"
+          },
+          {
+            "label": "NSE bhavcopy, 2026-11-20",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE adjusted 52-week high/low, 2026-11-20",
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv"
+          },
+          {
+            "label": "Informist · 22 Oct 2026 results reaction",
+            "url": "https://www.informistmedia.com/EquityWire/62607/Equity-Alert-KEI-Ind-falls-11-37-as-Q2-PAT-misses-view-EBITDA-margin-narrows",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "symbol": "KEI",
+        "slot": "dip",
+        "thesis": [
+          "Infrastructure and building activity support demand for electrical cables.",
+          "Its brand and distributor relationships support retail reach.",
+          "Prepared histories show growth with modest balance-sheet debt."
+        ],
+        "breakers": [
+          "Persistent margin compression would weaken the earnings case.",
+          "Expansion and slower collections could absorb more cash than expected."
+        ],
+        "moat": "Brand",
+        "moatWhy": "Product reliability and established distribution help in cable purchasing, although competing manufacturers can pressure pricing.",
+        "whyFell": "The October results reaction followed a profit miss and narrower operating margins, according to Informist. Higher materials costs weighed on profitability despite growing cable sales. This is an earnings-execution concern, not simply a cheaper price.",
+        "evidence": [
+          {
+            "value": 23.6,
+            "url": "https://www.screener.in/company/KEI/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 23,
+            "url": "https://www.screener.in/company/KEI/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 27,
+            "url": "https://www.screener.in/company/KEI/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 48.2,
+            "url": "https://www.screener.in/company/KEI/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 34.67,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+            "asOf": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-21-gillette-research",
+        "rank": 3,
+        "label": "Stock Investing · 21 Nov 2026",
+        "headline": "Gillette’s familiar brands come at a lower historical multiple",
+        "summary": "Gillette India sells shaving and oral-care products bought repeatedly by households. Prepared histories show five-year annual sales growth of 13% and profit growth of 23%, with average return on capital of 61.8%. Its trailing earnings multiple is 33.8 compared with a five-year median of 56.2. These past figures support the screen’s comparison; they are not a forecast of future consumer spending.",
+        "why": "Repeat purchases and distribution can protect a consumer franchise. But customers still trade down when budgets tighten, and a trusted name must defend shelf space against alternative products and changing habits.",
+        "soWhat": "A familiar product can be a worthwhile research starting point; brand recognition alone does not justify every share price.",
+        "take": "The appeal is repeat demand, provided pricing power survives real competition.",
+        "watch": "Check the next reported sales mix and operating-margin trend.",
+        "terms": [
+          {
+            "term": "return on capital",
+            "meaning": "Operating profit relative to capital employed in the business"
+          },
+          {
+            "term": "trailing earnings multiple",
+            "meaning": "Share price per rupee of recent annual profit"
+          },
+          {
+            "term": "five-year median",
+            "meaning": "Middle historical value, rather than an average or forecast"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Screener.in company pages, 2026-11-21",
+            "url": "https://www.screener.in/"
+          },
+          {
+            "label": "NSE Nifty 500 constituents",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          },
+          {
+            "label": "Screener.in: Gillette India Ltd.",
+            "url": "https://www.screener.in/company/GILLETTE/"
+          },
+          {
+            "label": "NSE bhavcopy, 2026-11-20",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE adjusted 52-week high/low, 2026-11-20",
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv"
+          }
+        ],
+        "symbol": "GILLETTE",
+        "slot": "pick",
+        "thesis": [
+          "Everyday products support recurring consumer demand.",
+          "Recognised shaving and oral-care brands help distribution.",
+          "The prepared financial history shows strong returns on deployed capital."
+        ],
+        "breakers": [
+          "Trading down or competing products could erode premium pricing.",
+          "Weak volume growth could leave historical valuation comparisons misleading."
+        ],
+        "moat": "Brand",
+        "moatWhy": "Gillette and Oral-B have consumer recognition and retail distribution; that advantage requires continued spending and product relevance.",
+        "evidence": [
+          {
+            "value": 61.8,
+            "url": "https://www.screener.in/company/GILLETTE/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 13,
+            "url": "https://www.screener.in/company/GILLETTE/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 23,
+            "url": "https://www.screener.in/company/GILLETTE/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 56.2,
+            "url": "https://www.screener.in/company/GILLETTE/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 33.8,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+            "asOf": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-21-iex-research",
+        "rank": 4,
+        "label": "Stock Investing · 21 Nov 2026",
+        "headline": "IEX’s valuation discount carries a market-design question",
+        "summary": "Indian Energy Exchange runs a marketplace where buyers and sellers trade electricity. Prepared histories show five-year annual sales growth of 14% and profit growth of 20%, with average return on capital of 53%. Its trailing earnings multiple is 19.31 versus a five-year median of 39.4. The discount must be weighed against the possibility that regulatory changes alter how trading platforms compete.",
+        "why": "A marketplace attracts users when counterparties are already present. Common price discovery across exchanges, called market coupling, can weaken that advantage even if electricity demand keeps growing. Regulation can change the economics faster than the physical power system changes.",
+        "soWhat": "This is partly a policy-risk assessment: rising traded power volumes do not automatically preserve one exchange’s share of earnings.",
+        "take": "The network is valuable only as long as the rules preserve it.",
+        "watch": "Read the next regulator order on power-exchange market design.",
+        "terms": [
+          {
+            "term": "return on capital",
+            "meaning": "Operating profit relative to capital employed in the business"
+          },
+          {
+            "term": "trailing earnings multiple",
+            "meaning": "Share price per rupee of recent annual profit"
+          },
+          {
+            "term": "five-year median",
+            "meaning": "Middle historical value, rather than an average or forecast"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "CERC draft Power Market amendment · April 2026; proposal, not final implementation",
+            "url": "https://cercind.gov.in/2026/draft_reg/DN-PM-2ndAmd.pdf"
+          },
+          {
+            "label": "Screener.in company pages, 2026-11-21",
+            "url": "https://www.screener.in/"
+          },
+          {
+            "label": "NSE Nifty 500 constituents",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          },
+          {
+            "label": "Screener.in: Indian Energy Exchange Ltd.",
+            "url": "https://www.screener.in/company/IEX/consolidated/"
+          },
+          {
+            "label": "NSE bhavcopy, 2026-11-20",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE adjusted 52-week high/low, 2026-11-20",
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv"
+          }
+        ],
+        "symbol": "IEX",
+        "slot": "pick",
+        "thesis": [
+          "Electricity trading demand supports the underlying market.",
+          "Existing buyers and sellers make participation convenient.",
+          "The prepared history shows a highly capital-efficient operation."
+        ],
+        "breakers": [
+          "Market-design changes could weaken the platform’s network advantage.",
+          "Competitive fee pressure could reduce earnings despite volume growth."
+        ],
+        "moat": "Network effect",
+        "moatWhy": "Buyers value access to sellers and vice versa; common market pricing or trading rules may reduce that advantage.",
+        "evidence": [
+          {
+            "value": 53,
+            "url": "https://www.screener.in/company/IEX/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 14,
+            "url": "https://www.screener.in/company/IEX/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 20,
+            "url": "https://www.screener.in/company/IEX/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 39.4,
+            "url": "https://www.screener.in/company/IEX/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 19.31,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+            "asOf": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-21-hindcopper-research",
+        "rank": 5,
+        "label": "Stock Investing · 21 Nov 2026",
+        "headline": "Hindustan Copper combines scarce assets with cyclical earnings",
+        "summary": "Hindustan Copper mines copper ore, giving investors exposure to a metal used in power systems and industry. Prepared histories show five-year annual sales growth of 11% and profit growth of 55%, with average return on capital of 24%. Its trailing earnings multiple is 26.29 against a five-year median of 52.7. Commodity profits fluctuate, so a low multiple can reflect unusually strong earnings.",
+        "why": "Mine output, ore quality and realised copper prices jointly drive cash generation. Scarce mineral assets help, but expanding production takes capital and operational execution. Government ownership does not remove commodity-price risk or guarantee minority-shareholder returns.",
+        "soWhat": "Evaluate mining volumes and costs alongside copper prices before interpreting the historical discount as straightforward undervaluation.",
+        "take": "Scarce copper assets help; paying for peak earnings remains the trap.",
+        "watch": "Check the next ore-output disclosure and realised selling-price trend.",
+        "terms": [
+          {
+            "term": "return on capital",
+            "meaning": "Operating profit relative to capital employed in the business"
+          },
+          {
+            "term": "trailing earnings multiple",
+            "meaning": "Share price per rupee of recent annual profit"
+          },
+          {
+            "term": "five-year median",
+            "meaning": "Middle historical value, rather than an average or forecast"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Screener.in company pages, 2026-11-21",
+            "url": "https://www.screener.in/"
+          },
+          {
+            "label": "NSE Nifty 500 constituents",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          },
+          {
+            "label": "Screener.in: Hindustan Copper Ltd.",
+            "url": "https://www.screener.in/company/HINDCOPPER/consolidated/"
+          },
+          {
+            "label": "NSE bhavcopy, 2026-11-20",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE adjusted 52-week high/low, 2026-11-20",
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv"
+          }
+        ],
+        "symbol": "HINDCOPPER",
+        "slot": "pick",
+        "thesis": [
+          "Copper is needed across electrification and industrial equipment.",
+          "Mining leases and existing infrastructure are difficult to recreate.",
+          "Prepared histories show positive operating cash generation."
+        ],
+        "breakers": [
+          "Falling copper realisations could sharply reduce earnings.",
+          "Production delays or rising mining costs could undermine returns."
+        ],
+        "moat": "Regulated asset",
+        "moatWhy": "Mineral rights and established mine infrastructure create entry barriers, but ore quality, cost and execution remain decisive.",
+        "evidence": [
+          {
+            "value": 24,
+            "url": "https://www.screener.in/company/HINDCOPPER/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 11,
+            "url": "https://www.screener.in/company/HINDCOPPER/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 55,
+            "url": "https://www.screener.in/company/HINDCOPPER/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 52.7,
+            "url": "https://www.screener.in/company/HINDCOPPER/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 26.29,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+            "asOf": "2026-11-20"
+          }
+        ]
+      }
+    ],
+    "tech": [
+      {
+        "id": "2026-11-21-signal-screen",
+        "rank": 1,
+        "label": "AI & Tech · 21 Nov 2026",
+        "headline": "Signal blocks screen capture to limit AI snooping",
+        "summary": "Signal is rolling out restrictions intended to stop phone-level AI assistants capturing private chats. Its Friday announcement covers screenshots on iOS and detected assistant screen capture on supported Android versions. Users can disable the protection, but Signal warns that doing so can expose conversations. The company explicitly says the remedy is incomplete because an assistant might obtain data through other routes.",
+        "why": "Encryption protects messages in transit. Once a device displays readable text, software with sufficient access may capture it outside the messaging app’s control. Operating-system permissions therefore become part of the privacy boundary.",
+        "soWhat": "People sharing sensitive personal or workplace information should review screen-access permissions as carefully as the messaging app itself.",
+        "take": "Private transport is insufficient if another program can read the destination.",
+        "watch": "Check rollout availability and the operating-system vendors’ documented privacy controls.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Signal · Meredith Whittaker · 20 Nov",
+            "url": "https://signal.org/blog/protecting-your-privacy/",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "beat": "launch",
+        "tryThis": "Update Signal and inspect its screen-security setting; review which assistants can read your screen."
+      },
+      {
+        "id": "2026-11-21-duplex-tasks",
+        "rank": 2,
+        "label": "AI & Tech · 21 Nov 2026",
+        "headline": "Google’s phone-calling technology joins Gemini’s errand tools",
+        "summary": "Google Research described how Duplex now powers business calls through Tasks in Gemini. The system is meant to handle chores that need a conversation, such as checking availability or coordinating an appointment. Friday’s technical account explains a move from narrow, pre-scripted calling systems to a shared Gemini-based approach. It does not establish that every country or account has every calling capability.",
+        "why": "Local businesses often lack a booking interface that software can directly use. A voice agent bridges that gap, but misunderstandings can create real commitments. Confirmation, clear permissions and a way to recover from errors remain essential.",
+        "soWhat": "Useful automation is measured by correctly completed errands, not the fluency of a demonstration call.",
+        "take": "The hard part is reliable follow-through after the pleasant conversation.",
+        "watch": "Check supported regions and the confirmation shown after a completed task.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Google Research announcement · 20 Nov",
+            "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "beat": "launch",
+        "tryThis": "If Tasks is available on your account, try a low-stakes availability enquiry and verify the result yourself."
+      },
+      {
+        "id": "2026-11-21-cyber-policy",
+        "rank": 3,
+        "label": "AI & Tech · 21 Nov 2026",
+        "headline": "US auditors warn AI speeds attacks and complicates defence",
+        "summary": "America’s Government Accountability Office released an assessment Friday saying AI can expand both cyberattacks and cyber defence. It highlights convincing fraudulent content, faster attacks and agents performing several attack stages with little human input. It also identifies policy options around testing, governance and workforce skills. This is an assessment for policymakers, not a newly enacted cybersecurity law.",
+        "why": "Security buyers need proof that a tool works under realistic conditions. The report says widely accepted evaluation criteria are lacking, while poor data and integration problems can weaken otherwise impressive products.",
+        "soWhat": "For Indian businesses buying AI security products, ask for test conditions, failure rates, access limits and an incident-response owner.",
+        "take": "Basic access control remains useful even when the attacker uses fashionable tools.",
+        "watch": "Look for independent evaluation standards and adoption of the report’s policy options.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "US Government Accountability Office · 20 Nov",
+            "url": "https://www.gao.gov/products/gao-27-108458",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "beat": "policy",
+        "tryThis": "Ask your IT team which sensitive accounts use strong authentication and which agents have permission to act."
+      },
+      {
+        "id": "2026-11-21-goa-skills",
+        "rank": 4,
+        "label": "AI & Tech · 21 Nov 2026",
+        "headline": "Goa directs most AI-policy funding towards practical skills",
+        "summary": "Goa’s technology department announced cabinet approval of its AI policy and associated schemes Friday. The stated allocation puts 60% of the outlay towards skilling, with 20% each for startups and infrastructure. The programme also proposes school labs and Konkani-language AI work. These are announced allocations and ambitions, not independently measured training outcomes or proof of jobs created.",
+        "why": "Small firms and schools need people who can apply tools safely, not only computing equipment. Local-language resources can improve access, but collecting training material also raises questions about consent, quality and useful coverage.",
+        "soWhat": "For students and small-business owners, the useful next step is checking actual courses, eligibility and whether completion leads to demonstrable skills.",
+        "take": "Practical capability is a better target than counting certificates alone.",
+        "watch": "Track the first scheme guidelines, enrolments and published completion outcomes.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Goa DITE&C announcement via PRNewswire · 20 Nov",
+            "url": "https://www.prnewswire.com/in/news-releases/goa-cabinet-approves-goa-ai-policy-2026-and-five-flagship-schemes-302946827.html",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "beat": "india",
+        "tryThis": "Find the official eligibility notice and test a relevant workflow before enrolling in a general AI certificate."
+      },
+      {
+        "id": "2026-11-21-zscaler-partnerships",
+        "rank": 5,
+        "label": "AI & Tech · 21 Nov 2026",
+        "headline": "Zscaler partners with model developers on AI security",
+        "summary": "Zscaler announced collaborations with Anthropic and Mistral on Friday to strengthen security research and enterprise AI controls. Its release describes an Anthropic-powered capability for identifying connected attack paths, with a limited preview planned. The Mistral work is linked to European deployment and data-protection requirements. The announcement describes partnerships and planned capabilities, not independently verified prevention results.",
+        "why": "An agent that can operate software needs narrowly scoped access. Connecting a powerful model to a corporate network can create new exposure, even when the same model helps defenders find vulnerabilities.",
+        "soWhat": "For organisations trying agents, permissions, audit trails and a clear stop mechanism should be part of deployment approval.",
+        "take": "An intelligent agent still needs a small, clearly bounded set of keys.",
+        "watch": "Check the announced December launch for availability and independent testing details.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Zscaler investor release · 20 Nov",
+            "url": "https://ir.zscaler.com/node/16796/pdf",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "beat": "deal",
+        "tryThis": "List an internal agent’s permitted tools and remove any permission unrelated to its specific task."
+      }
+    ],
+    "psychology": [
+      {
+        "id": "2026-11-21-if-then",
+        "rank": 1,
+        "label": "Psychology · 21 Nov 2026",
+        "headline": "A specific cue can make a good intention happen",
+        "summary": "You intend to read every morning, but the day gets away. Gollwitzer and Brandstätter’s 1997 study asked 86 Munich students to write a holiday report; some also specified when and where they would start. Among 36 analysable returned reports, 71% in the planning group met the holiday timing, versus 32% of controls. Those percentages do not describe all enrolled students.",
+        "why": "A cue can reduce the need to decide again at the critical moment. This is an implementation intention: linking a situation to an action. The small student task is evidence for a technique, not a guaranteed success rate for every habit.",
+        "soWhat": "Attach your reading to an existing event, such as finishing breakfast, rather than an ambitious but floating promise.",
+        "take": "A usable starting cue usually beats another declaration of motivation.",
+        "watch": "Count how many days your chosen cue actually triggered reading this week.",
+        "terms": [
+          {
+            "term": "implementation intention",
+            "meaning": "A plan linking a specific situation to action"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Gollwitzer and Brandstätter · original 1997 paper",
+            "url": "https://d-nb.info/1103138510/34",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "concept": "Implementation intentions",
+        "study": {
+          "authors": "Peter M. Gollwitzer and Veronika Brandstätter",
+          "year": 1997,
+          "published": "1997-07-01",
+          "sample": 86,
+          "era": "classic"
+        },
+        "example": "After I put my breakfast plate away, I open Morning Edition and read the first story.",
+        "useThisWeek": "Choose one reliable daily cue and record completion for a week."
+      },
+      {
+        "id": "2026-11-21-sunk-cost",
+        "rank": 2,
+        "label": "Psychology · 21 Nov 2026",
+        "headline": "Yesterday’s spending should not choose tomorrow’s commitment",
+        "summary": "Imagine paying for two trips that clash, then choosing the less enjoyable one because it cost more. Arkes and Blumer presented that problem to 61 students in their 1985 research. More chose the dearer, less enjoyable trip. The money could not be recovered either way. This questionnaire result illustrates the sunk-cost effect, rather than proving how every person behaves with real money.",
+        "why": "Admitting that an earlier decision was poor feels wasteful. Continuing can protect our self-image even when it destroys more time or cash. Relevant future benefits and unavoidable new costs deserve separate consideration.",
+        "soWhat": "Use this when reviewing an unhelpful subscription, a weak project or an investment thesis that has changed.",
+        "take": "Past expenditure is information about history, not a reason to continue.",
+        "watch": "At your next renewal, compare future benefit with the remaining cost.",
+        "terms": [
+          {
+            "term": "sunk-cost effect",
+            "meaning": "Continuing because of irrecoverable past spending or effort"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Arkes and Blumer · original 1985 paper",
+            "url": "https://psyfitec.com/files/uploads/1/0/8/8/10887248/the_psychology_of_sunk_cost.pdf",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "concept": "Sunk-cost effect",
+        "study": {
+          "authors": "Hal R. Arkes and Catherine Blumer",
+          "year": 1985,
+          "published": "1985-02-01",
+          "sample": 61,
+          "era": "classic"
+        },
+        "example": "Keeping an unused course subscription because you already spent months paying for it.",
+        "useThisWeek": "Ask of one ongoing commitment: would I start this today on the same future terms?"
+      },
+      {
+        "id": "2026-11-21-false-consensus",
+        "rank": 3,
+        "label": "Psychology · 21 Nov 2026",
+        "headline": "Your preference is a poor survey of everyone else",
+        "summary": "You love an advertisement and assume customers will love it too. Ross, Greene and House’s 1977 research examined how people estimate others’ choices. In a questionnaire study involving 320 Stanford students, people tended to judge their own response as more common. The paper also used other scenarios. This is a tendency in social judgment, not proof that every personal prediction is wrong.",
+        "why": "Our own reasons are easy to retrieve, and friends often share our tastes. That convenient evidence can feel representative even when the wider customer group has different budgets, constraints and habits.",
+        "soWhat": "Before pitching a campaign or product, separate what your team likes from what the intended audience actually chooses.",
+        "take": "Agreement inside the meeting room is not market validation.",
+        "watch": "Compare your predicted customer preference with a small independent audience test.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Ross, Greene and House · original 1977 paper",
+            "url": "https://web.mit.edu/curhan/www/docs/Articles/biases/13_J_Experimental_Social_Psychology_279_%28Ross%29.pdf",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "concept": "False-consensus effect",
+        "study": {
+          "authors": "Lee Ross, David Greene and Pamela House",
+          "year": 1977,
+          "published": "1977-05-01",
+          "sample": 320,
+          "era": "classic"
+        },
+        "example": "A marketing team mistakes its enthusiasm for a clever reference for nationwide customer familiarity.",
+        "useThisWeek": "Write down a prediction before interviewing people outside your normal social circle."
+      },
+      {
+        "id": "2026-11-21-virtual-nature",
+        "rank": 4,
+        "label": "Psychology · 21 Nov 2026",
+        "headline": "Virtual nature helped stress; sleep results were more complicated",
+        "summary": "A 2025 trial by Ahn and colleagues compared virtual-reality nature relaxation, muscle relaxation and a waiting-list group among Korean undergraduates. Forty-one participants completed the study. The virtual-nature group reported reduced stress and better subjective sleep, while measured sleep efficiency improved in the muscle-relaxation group. The distinction matters: feeling that sleep improved and recording better sleep are different outcomes.",
+        "why": "An immersive environment may make it easier to disengage from stressors. But the small, selected student sample cannot establish which method suits everyone, and people receiving treatment for certain conditions were excluded.",
+        "soWhat": "Try a simple relaxation practice before assuming that buying a headset is necessary for better rest.",
+        "take": "An appealing tool still needs the right outcome measure.",
+        "watch": "Look for larger trials that report both self-reports and objective sleep measures.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Ahn and colleagues · DIGITAL HEALTH · 10 Aug 2025",
+            "url": "https://journals.sagepub.com/doi/10.1177/20552076251365140",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "concept": "Immersive nature relaxation and subjective versus objective sleep",
+        "study": {
+          "authors": "Junggeun Ahn, Jiu Kim, Youngeun Park, Riah Kim and Heeseung Choi",
+          "year": 2025,
+          "published": "2025-08-10",
+          "sample": 41,
+          "era": "recent"
+        },
+        "example": "A calming session may lower evening stress without increasing the sleep recorded by a wearable.",
+        "useThisWeek": "Try a brief relaxation routine and track perceived stress separately from sleep duration."
+      },
+      {
+        "id": "2026-11-21-relationship-gratitude",
+        "rank": 5,
+        "label": "Psychology · 21 Nov 2026",
+        "headline": "Gratitude may work better when it names a person",
+        "summary": "Gold, Dobson and Sen’s 2025 workplace study enrolled 223 people from an academic primary-care department. Participants listed good things in response to texts during a gratitude intervention. Entries about close relationships and valuable people were associated with the strongest improvements in well-being. The programme was randomised; the specific content people chose was not, so that association is not a clean test of relationship-focused gratitude.",
+        "why": "A list can become mechanical. Recalling a particular person and what they did supplies richer social meaning. That is a plausible explanation, while the study’s occupational setting limits how broadly the finding can be applied.",
+        "soWhat": "When reflecting on a good day, identify the action someone took rather than writing a generic positive slogan.",
+        "take": "A specific thank-you feels more useful than forced cheerfulness.",
+        "watch": "After a week, check whether the practice feels meaningful or merely repetitive.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Gold, Dobson and Sen · 2025 trial paper abstract",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40561230/",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "concept": "Relationship-focused gratitude content",
+        "study": {
+          "authors": "Katherine J. Gold, Margaret L. Dobson and Ananda Sen",
+          "year": 2025,
+          "published": "2025-11-01",
+          "sample": 223,
+          "era": "recent"
+        },
+        "example": "A colleague covered a difficult call, giving you time to finish a deadline.",
+        "useThisWeek": "Write one concrete helpful action by another person and, if appropriate, thank them directly."
+      }
+    ],
+    "marketing": [
+      {
+        "id": "2026-11-21-axis-pause",
+        "rank": 1,
+        "label": "India · Axis Bank · 21 Nov 2026",
+        "headline": "Axis Bank makes pausing part of its fraud campaign",
+        "summary": "Axis Bank’s nationwide fraud-awareness initiative uses a memorable sequence: pause, think, verify, stay safe. Reported Friday, the campaign combines branch activity, community sessions, ATM screens, social content and customer messages. It addresses scams including impersonation and false investment offers. The campaign report names the bank but does not disclose an external creative agency or measured reductions in fraud.",
+        "why": "Scammers exploit urgency and authority. A short behavioural instruction gives people an alternative action at the moment pressure rises. Repeating it where banking decisions happen may be more useful than a distant awareness slogan.",
+        "soWhat": "Marketers can borrow the combination of one actionable cue and distribution near the risky decision.",
+        "take": "A remembered action is a stronger objective than awareness alone.",
+        "watch": "Look for measured recall, verification behaviour or fraud-loss outcomes after rollout.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "MediaNews4U · campaign announcement, 20 Nov",
+            "url": "https://www.medianews4u.com/axis-bank-takes-safe-banking-message-across-india-to-raise-awareness-about-digital-frauds/",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "region": "India",
+        "brand": "Axis Bank",
+        "agency": "Not disclosed in the published campaign report.",
+        "objective": "Improve recognition of digital fraud and encourage verification before acting.",
+        "insight": "Urgency and apparent authority can push people into unsafe decisions.",
+        "channels": "Branches, residential communities, schools and colleges, offices, ATM screens, social media and customer communications.",
+        "results": "No measured campaign recall, behaviour-change or fraud-loss result was published in the cited report."
+      },
+      {
+        "id": "2026-11-21-wella-identity",
+        "rank": 2,
+        "label": "India · Wella Professionals · 21 Nov 2026",
+        "headline": "Wella sells personal identity alongside professional hair expertise",
+        "summary": "Wella Professionals brought its Make It You campaign to India with actor Manushi Chhillar and hairstylist Avan Contractor, according to Friday’s launch report. The film frames hair as an expression of personality and highlights the stylist’s role in creating a look. The report does not name a creative agency or disclose campaign performance. A film featuring expertise is not evidence that the product performs better.",
+        "why": "People often buy an anticipated version of themselves, not only a functional benefit. Showing both a recognisable face and a working professional connects aspiration with a believable service setting.",
+        "soWhat": "Borrow the bridge between identity and demonstration: show who the customer wants to be and who helps them get there.",
+        "take": "The expert should explain the promise, not merely decorate the frame.",
+        "watch": "Check salon enquiries and attributable bookings if the brand publishes them.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "MediaNews4U · India campaign, 20 Nov",
+            "url": "https://www.medianews4u.com/wella-professionals-brings-make-it-you-campaign-to-india-featuring-manushi-chhillar/",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "region": "India",
+        "brand": "Wella Professionals",
+        "agency": "Not disclosed in the cited India launch report.",
+        "objective": "Build an association between personal expression and professional salon expertise.",
+        "insight": "Hair choices can express changing identity; stylists influence what consumers consider possible.",
+        "channels": "India campaign film and brand video distribution, with Manushi Chhillar and Avan Contractor.",
+        "results": "No measured reach, salon-booking uplift or sales result was disclosed in the cited announcement."
+      },
+      {
+        "id": "2026-11-21-levista-coorg",
+        "rank": 3,
+        "label": "India · Levista Coffee, SLN Group · 21 Nov 2026",
+        "headline": "Levista turns its coffee’s origin into a memorable destination",
+        "summary": "Levista’s Taste the Joy of Coorg campaign pairs refreshed packaging with a film that transports a coffee drinker into Coorg’s landscape. Friday’s report describes Hindi and Kannada versions, supported by television, streaming, digital and outdoor media, initially focused on Karnataka and Tamil Nadu. The agency and measured results were not disclosed. The regional origin is the creative device, rather than an independently proven superiority claim.",
+        "why": "Coffee advertising often competes on strength or taste. A place, landscape and recurring elephant motif create cues that buyers can recognise again on a crowded shelf. That connection can make a less familiar brand easier to remember.",
+        "soWhat": "Marketers can connect the film’s visual world directly to packaging, so recognition survives the move into a shop.",
+        "take": "A distinctive origin works best when buyers can recognise it instantly.",
+        "watch": "Look for distribution expansion and published recognition or repeat-purchase results.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "MediaNews4U · campaign announcement, 20 Nov",
+            "url": "https://www.medianews4u.com/levista-coffee-spotlights-coorg-heritage-with-refreshed-brand-identity-and-new-campaign/",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "region": "India",
+        "brand": "Levista Coffee, SLN Group",
+        "agency": "Not disclosed in the published announcement.",
+        "objective": "Refresh brand recognition and connect premium coffee with its Coorg origin.",
+        "insight": "A familiar destination can carry emotional associations beyond generic strength-and-taste claims.",
+        "channels": "Hindi and Kannada video, television, OTT, digital, outdoor, packaging and planned consumer events.",
+        "results": "No measured awareness, sales or repeat-purchase result was published in the cited report."
+      },
+      {
+        "id": "2026-11-21-ms-christmas",
+        "rank": 4,
+        "label": "Global · Marks & Spencer · 21 Nov 2026",
+        "headline": "M&S brings its separate Christmas categories into one story",
+        "summary": "Marks & Spencer’s UK Christmas campaign launched on 6 November with James Norton playing an undercover Santa. Created by Mother, it brings food, fashion, beauty and home into a single festive narrative. Television, cinema, outdoor and social activity link to product lists and recipes. The release describes customer research, but that research is an input to the campaign, not a measured campaign result.",
+        "why": "Customers plan a celebration across categories, while retailers often advertise each department separately. A shared occasion supplies a reason to connect them and gives useful shopping content a place after the emotional film.",
+        "soWhat": "Borrow the occasion-based brief: organise communication around the customer’s task rather than your internal product divisions.",
+        "take": "The clever part is joining the story to useful shopping tools.",
+        "watch": "Look for cross-category basket and conversion results after the festive season.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Marks & Spencer · Christmas campaign press release",
+            "url": "https://corporate.marksandspencer.com/newsroom/press-releases/ms-launches-home-christmas-uniting-food-fashion-home-and-beauty-one",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "region": "Global",
+        "brand": "Marks & Spencer",
+        "agency": "Mother",
+        "objective": "Unite food, fashion, home and beauty under one Christmas shopping proposition.",
+        "insight": "Customers experience Christmas as connected meals, gifts, clothing and time together.",
+        "channels": "TV, video on demand, cinema, outdoor, social, radio, digital, print, influencers, recipes and digital catalogues.",
+        "results": "No measured campaign sales or conversion result was published in the cited launch release; customer survey findings informed the creative."
+      },
+      {
+        "id": "2026-11-21-boots-product-love",
+        "rank": 5,
+        "label": "Global · Boots UK · 21 Nov 2026",
+        "headline": "Boots makes gift excitement visible through comic obsession",
+        "summary": "Boots launched its UK Christmas campaign on 4 November, showing presents becoming objects their recipients cannot put down. For Gifts They’ll Really Love uses humour and recognisable product habits rather than a generic festive reunion. The release describes a film, shorter television versions and product-offer edits. Its launch reach claim is a media-plan statement, not evidence that viewers bought more or preferred the brand.",
+        "why": "Gift buyers want to imagine a delighted recipient. Exaggerated everyday use makes that imagined reward concrete and gives short edits a clear product role. The mechanism is anticipated enjoyment, rather than proof of behavioural change.",
+        "soWhat": "Borrow the product-use scene: make the desired response visible before asking viewers to compare a catalogue.",
+        "take": "A funny demonstration is strongest when the product remains the reason.",
+        "watch": "Look for independently measured brand lift or attributable sales after Christmas.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Boots UK · Christmas campaign press release",
+            "url": "https://www.boots-uk.com/newsroom/news-item/boots-celebrates-christmas-gifting-with-bold-new-festive-campaign-for-gifts-they-ll-really-love/",
+            "accessedOn": "2026-11-21"
+          }
+        ],
+        "region": "Global",
+        "brand": "Boots UK",
+        "agency": "Integrated WPP team, credited in Boots’ own release.",
+        "objective": "Make Boots salient for desirable Christmas gifts and connect emotion with specific offers.",
+        "insight": "People enjoy choosing presents they expect recipients to use repeatedly and enthusiastically.",
+        "channels": "Digital launch, television film, short television edits and dedicated product-offer advertising.",
+        "results": "No measured sales uplift or conversion result was disclosed in the cited launch release; planned launch reach is not treated as an achieved outcome."
+      }
+    ]
+  }
+}
