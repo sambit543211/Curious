@@ -1,0 +1,1426 @@
+{
+  "date": "2026-11-22",
+  "dashboard": null,
+  "picks": [
+    {
+      "symbol": "JUBLINGREA",
+      "sector": "Chemicals",
+      "kind": "non-financial",
+      "price": 568.25,
+      "quoteDate": "2026-11-20",
+      "dataDate": "2026-09-30",
+      "metrics": {
+        "marketCap": 9051,
+        "divYield": 0.88,
+        "roce5y": 15.4,
+        "de": 0.27,
+        "salesCagr5y": 45,
+        "profitCagr5y": 35,
+        "ocfPositiveYears": 5,
+        "profitYoY": 60.87,
+        "promoterHolding": 45.22,
+        "promoterChange": 0,
+        "eps": 22.6,
+        "peMedian5y": 34.9,
+        "avgDailyValue": 11.16,
+        "high52": 795,
+        "low52": 537.3,
+        "pe": 25.14
+      },
+      "metricSources": {
+        "marketCap": {
+          "url": "https://www.screener.in/company/JUBLINGREA/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "divYield": {
+          "url": "https://www.screener.in/company/JUBLINGREA/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "roce5y": {
+          "url": "https://www.screener.in/company/JUBLINGREA/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "de": {
+          "url": "https://www.screener.in/company/JUBLINGREA/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "salesCagr5y": {
+          "url": "https://www.screener.in/company/JUBLINGREA/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "profitCagr5y": {
+          "url": "https://www.screener.in/company/JUBLINGREA/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "ocfPositiveYears": {
+          "url": "https://www.screener.in/company/JUBLINGREA/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "profitYoY": {
+          "url": "https://www.screener.in/company/JUBLINGREA/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "promoterHolding": {
+          "url": "https://www.screener.in/company/JUBLINGREA/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "promoterChange": {
+          "url": "https://www.screener.in/company/JUBLINGREA/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "eps": {
+          "url": "https://www.screener.in/company/JUBLINGREA/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "peMedian5y": {
+          "url": "https://www.screener.in/company/JUBLINGREA/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "avgDailyValue": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+          "asOf": "2026-11-20"
+        },
+        "pe": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+          "asOf": "2026-11-20"
+        },
+        "price": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+          "asOf": "2026-11-20"
+        },
+        "high52": {
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv",
+          "asOf": "2026-11-20"
+        },
+        "low52": {
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv",
+          "asOf": "2026-11-20"
+        }
+      },
+      "sources": [
+        {
+          "label": "Screener.in company pages, 2026-11-21",
+          "url": "https://www.screener.in/"
+        },
+        {
+          "label": "NSE Nifty 500 constituents",
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+        },
+        {
+          "label": "Screener.in: Jubilant Ingrevia Ltd.",
+          "url": "https://www.screener.in/company/JUBLINGREA/consolidated/"
+        },
+        {
+          "label": "NSE bhavcopy, 2026-11-20",
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+        },
+        {
+          "label": "NSE adjusted 52-week high/low, 2026-11-20",
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv"
+        }
+      ],
+      "screen": {
+        "roce": true,
+        "debt": true,
+        "sales": true,
+        "profit": true,
+        "cash": true,
+        "valuation": true,
+        "pledge": null,
+        "liquidity": true
+      },
+      "pass": true,
+      "fairValue": 788.74,
+      "buyBelow": 630.99,
+      "verdict": "Buy",
+      "dip": {
+        "fromHigh": -28.5,
+        "fromLow": 5.8,
+        "peers": 25,
+        "sectorFromHigh": -20,
+        "fall": "sector-wide"
+      },
+      "group": "dip"
+    },
+    {
+      "symbol": "KSB",
+      "sector": "Capital Goods",
+      "kind": "non-financial",
+      "price": 661.15,
+      "quoteDate": "2026-11-20",
+      "dataDate": "2026-09-30",
+      "metrics": {
+        "marketCap": 11507,
+        "divYield": 0.67,
+        "roce5y": 23.2,
+        "de": 0,
+        "salesCagr5y": 17,
+        "profitCagr5y": 25,
+        "ocfPositiveYears": 5,
+        "profitYoY": -10.29,
+        "promoterHolding": 69.8,
+        "promoterChange": 0,
+        "eps": 14.66,
+        "peMedian5y": 50.8,
+        "avgDailyValue": 10.7,
+        "high52": 1028.3,
+        "low52": 626,
+        "pe": 45.1
+      },
+      "metricSources": {
+        "marketCap": {
+          "url": "https://www.screener.in/company/KSB/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "divYield": {
+          "url": "https://www.screener.in/company/KSB/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "roce5y": {
+          "url": "https://www.screener.in/company/KSB/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "de": {
+          "url": "https://www.screener.in/company/KSB/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "salesCagr5y": {
+          "url": "https://www.screener.in/company/KSB/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "profitCagr5y": {
+          "url": "https://www.screener.in/company/KSB/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "ocfPositiveYears": {
+          "url": "https://www.screener.in/company/KSB/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "profitYoY": {
+          "url": "https://www.screener.in/company/KSB/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "promoterHolding": {
+          "url": "https://www.screener.in/company/KSB/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "promoterChange": {
+          "url": "https://www.screener.in/company/KSB/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "eps": {
+          "url": "https://www.screener.in/company/KSB/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "peMedian5y": {
+          "url": "https://www.screener.in/company/KSB/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "avgDailyValue": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+          "asOf": "2026-11-20"
+        },
+        "pe": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+          "asOf": "2026-11-20"
+        },
+        "price": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+          "asOf": "2026-11-20"
+        },
+        "high52": {
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv",
+          "asOf": "2026-11-20"
+        },
+        "low52": {
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv",
+          "asOf": "2026-11-20"
+        }
+      },
+      "sources": [
+        {
+          "label": "Screener.in company pages, 2026-11-21",
+          "url": "https://www.screener.in/"
+        },
+        {
+          "label": "NSE Nifty 500 constituents",
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+        },
+        {
+          "label": "Screener.in: KSB Ltd.",
+          "url": "https://www.screener.in/company/KSB/consolidated/"
+        },
+        {
+          "label": "NSE bhavcopy, 2026-11-20",
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+        },
+        {
+          "label": "NSE adjusted 52-week high/low, 2026-11-20",
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv"
+        }
+      ],
+      "screen": {
+        "roce": true,
+        "debt": true,
+        "sales": true,
+        "profit": true,
+        "cash": true,
+        "valuation": true,
+        "pledge": null,
+        "liquidity": true
+      },
+      "pass": true,
+      "fairValue": 744.73,
+      "buyBelow": 595.78,
+      "verdict": "Wait",
+      "dip": {
+        "fromHigh": -35.7,
+        "fromLow": 5.6,
+        "peers": 68,
+        "sectorFromHigh": -25.2,
+        "fall": "sector-wide"
+      },
+      "group": "dip"
+    },
+    {
+      "symbol": "LTM",
+      "sector": "Information Technology",
+      "kind": "non-financial",
+      "price": 4166.4,
+      "quoteDate": "2026-11-20",
+      "dataDate": "2026-09-30",
+      "metrics": {
+        "marketCap": 123593,
+        "divYield": 1.8,
+        "roce5y": 35.2,
+        "de": 0.09,
+        "salesCagr5y": 28,
+        "profitCagr5y": 23,
+        "ocfPositiveYears": 5,
+        "profitYoY": -0.07,
+        "promoterHolding": 69.01,
+        "promoterChange": 0.52,
+        "eps": 189.06,
+        "peMedian5y": 33.9,
+        "avgDailyValue": 113.47,
+        "high52": 6429.5,
+        "low52": 3528,
+        "pe": 22.04
+      },
+      "metricSources": {
+        "marketCap": {
+          "url": "https://www.screener.in/company/LTM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "divYield": {
+          "url": "https://www.screener.in/company/LTM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "roce5y": {
+          "url": "https://www.screener.in/company/LTM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "de": {
+          "url": "https://www.screener.in/company/LTM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "salesCagr5y": {
+          "url": "https://www.screener.in/company/LTM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "profitCagr5y": {
+          "url": "https://www.screener.in/company/LTM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "ocfPositiveYears": {
+          "url": "https://www.screener.in/company/LTM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "profitYoY": {
+          "url": "https://www.screener.in/company/LTM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "promoterHolding": {
+          "url": "https://www.screener.in/company/LTM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "promoterChange": {
+          "url": "https://www.screener.in/company/LTM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "eps": {
+          "url": "https://www.screener.in/company/LTM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "peMedian5y": {
+          "url": "https://www.screener.in/company/LTM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "avgDailyValue": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+          "asOf": "2026-11-20"
+        },
+        "pe": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+          "asOf": "2026-11-20"
+        },
+        "price": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+          "asOf": "2026-11-20"
+        },
+        "high52": {
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv",
+          "asOf": "2026-11-20"
+        },
+        "low52": {
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv",
+          "asOf": "2026-11-20"
+        }
+      },
+      "sources": [
+        {
+          "label": "Screener.in company pages, 2026-11-21",
+          "url": "https://www.screener.in/"
+        },
+        {
+          "label": "NSE Nifty 500 constituents",
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+        },
+        {
+          "label": "Screener.in: LTM Ltd.",
+          "url": "https://www.screener.in/company/LTM/consolidated/"
+        },
+        {
+          "label": "NSE bhavcopy, 2026-11-20",
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+        },
+        {
+          "label": "NSE adjusted 52-week high/low, 2026-11-20",
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv"
+        }
+      ],
+      "screen": {
+        "roce": true,
+        "debt": true,
+        "sales": true,
+        "profit": true,
+        "cash": true,
+        "valuation": true,
+        "pledge": null,
+        "liquidity": true
+      },
+      "pass": true,
+      "fairValue": 6409.13,
+      "buyBelow": 5127.3,
+      "verdict": "Buy",
+      "score": 0.756,
+      "group": "pick"
+    },
+    {
+      "symbol": "TRENT",
+      "sector": "Consumer Services",
+      "kind": "non-financial",
+      "price": 3256.1,
+      "quoteDate": "2026-11-20",
+      "dataDate": "2026-09-30",
+      "metrics": {
+        "marketCap": 173626,
+        "divYield": 0.12,
+        "roce5y": 20.4,
+        "de": 0.3,
+        "salesCagr5y": 51,
+        "profitCagr5y": 69,
+        "ocfPositiveYears": 5,
+        "profitYoY": 25.47,
+        "promoterHolding": 37.01,
+        "promoterChange": 0,
+        "eps": 35.92,
+        "peMedian5y": 139.6,
+        "avgDailyValue": 264.84,
+        "high52": 3399.7,
+        "low52": 2183.67,
+        "pe": 90.65
+      },
+      "metricSources": {
+        "marketCap": {
+          "url": "https://www.screener.in/company/TRENT/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "divYield": {
+          "url": "https://www.screener.in/company/TRENT/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "roce5y": {
+          "url": "https://www.screener.in/company/TRENT/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "de": {
+          "url": "https://www.screener.in/company/TRENT/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "salesCagr5y": {
+          "url": "https://www.screener.in/company/TRENT/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "profitCagr5y": {
+          "url": "https://www.screener.in/company/TRENT/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "ocfPositiveYears": {
+          "url": "https://www.screener.in/company/TRENT/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "profitYoY": {
+          "url": "https://www.screener.in/company/TRENT/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "promoterHolding": {
+          "url": "https://www.screener.in/company/TRENT/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "promoterChange": {
+          "url": "https://www.screener.in/company/TRENT/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "eps": {
+          "url": "https://www.screener.in/company/TRENT/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "peMedian5y": {
+          "url": "https://www.screener.in/company/TRENT/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "avgDailyValue": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+          "asOf": "2026-11-20"
+        },
+        "pe": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+          "asOf": "2026-11-20"
+        },
+        "price": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+          "asOf": "2026-11-20"
+        },
+        "high52": {
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv",
+          "asOf": "2026-11-20"
+        },
+        "low52": {
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv",
+          "asOf": "2026-11-20"
+        }
+      },
+      "sources": [
+        {
+          "label": "Screener.in company pages, 2026-11-21",
+          "url": "https://www.screener.in/"
+        },
+        {
+          "label": "NSE Nifty 500 constituents",
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+        },
+        {
+          "label": "Screener.in: Trent Ltd.",
+          "url": "https://www.screener.in/company/TRENT/consolidated/"
+        },
+        {
+          "label": "NSE bhavcopy, 2026-11-20",
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+        },
+        {
+          "label": "NSE adjusted 52-week high/low, 2026-11-20",
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv"
+        }
+      ],
+      "screen": {
+        "roce": true,
+        "debt": true,
+        "sales": true,
+        "profit": true,
+        "cash": true,
+        "valuation": true,
+        "pledge": null,
+        "liquidity": true
+      },
+      "pass": true,
+      "fairValue": 5014.43,
+      "buyBelow": 4011.54,
+      "verdict": "Buy",
+      "score": 0.73,
+      "group": "pick"
+    },
+    {
+      "symbol": "HINDZINC",
+      "sector": "Metals & Mining",
+      "kind": "non-financial",
+      "price": 521.6,
+      "quoteDate": "2026-11-20",
+      "dataDate": "2026-09-30",
+      "metrics": {
+        "marketCap": 220393,
+        "divYield": 2.11,
+        "roce5y": 52.8,
+        "de": 0.22,
+        "salesCagr5y": 13,
+        "profitCagr5y": 12,
+        "ocfPositiveYears": 5,
+        "profitYoY": 142.05,
+        "promoterHolding": 60.71,
+        "promoterChange": 0,
+        "eps": 49.25,
+        "peMedian5y": 16.5,
+        "avgDailyValue": 206.44,
+        "high52": 733,
+        "low52": 453.5,
+        "pe": 10.59
+      },
+      "metricSources": {
+        "marketCap": {
+          "url": "https://www.screener.in/company/HINDZINC/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "divYield": {
+          "url": "https://www.screener.in/company/HINDZINC/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "roce5y": {
+          "url": "https://www.screener.in/company/HINDZINC/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "de": {
+          "url": "https://www.screener.in/company/HINDZINC/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "salesCagr5y": {
+          "url": "https://www.screener.in/company/HINDZINC/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "profitCagr5y": {
+          "url": "https://www.screener.in/company/HINDZINC/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "ocfPositiveYears": {
+          "url": "https://www.screener.in/company/HINDZINC/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "profitYoY": {
+          "url": "https://www.screener.in/company/HINDZINC/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "promoterHolding": {
+          "url": "https://www.screener.in/company/HINDZINC/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "promoterChange": {
+          "url": "https://www.screener.in/company/HINDZINC/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "eps": {
+          "url": "https://www.screener.in/company/HINDZINC/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "peMedian5y": {
+          "url": "https://www.screener.in/company/HINDZINC/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "avgDailyValue": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+          "asOf": "2026-11-20"
+        },
+        "pe": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+          "asOf": "2026-11-20"
+        },
+        "price": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+          "asOf": "2026-11-20"
+        },
+        "high52": {
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv",
+          "asOf": "2026-11-20"
+        },
+        "low52": {
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv",
+          "asOf": "2026-11-20"
+        }
+      },
+      "sources": [
+        {
+          "label": "Screener.in company pages, 2026-11-21",
+          "url": "https://www.screener.in/"
+        },
+        {
+          "label": "NSE Nifty 500 constituents",
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+        },
+        {
+          "label": "Screener.in: Hindustan Zinc Ltd.",
+          "url": "https://www.screener.in/company/HINDZINC/consolidated/"
+        },
+        {
+          "label": "NSE bhavcopy, 2026-11-20",
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+        },
+        {
+          "label": "NSE adjusted 52-week high/low, 2026-11-20",
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv"
+        }
+      ],
+      "screen": {
+        "roce": true,
+        "debt": true,
+        "sales": true,
+        "profit": true,
+        "cash": true,
+        "valuation": true,
+        "pledge": null,
+        "liquidity": true
+      },
+      "pass": true,
+      "fairValue": 812.63,
+      "buyBelow": 650.1,
+      "verdict": "Buy",
+      "score": 0.707,
+      "group": "pick"
+    }
+  ],
+  "facts": [
+    {
+      "value": 568.25,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 9051,
+      "url": "https://www.screener.in/company/JUBLINGREA/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0.88,
+      "url": "https://www.screener.in/company/JUBLINGREA/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 15.4,
+      "url": "https://www.screener.in/company/JUBLINGREA/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0.27,
+      "url": "https://www.screener.in/company/JUBLINGREA/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 45,
+      "url": "https://www.screener.in/company/JUBLINGREA/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 35,
+      "url": "https://www.screener.in/company/JUBLINGREA/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 5,
+      "url": "https://www.screener.in/company/JUBLINGREA/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 60.87,
+      "url": "https://www.screener.in/company/JUBLINGREA/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 45.22,
+      "url": "https://www.screener.in/company/JUBLINGREA/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0,
+      "url": "https://www.screener.in/company/JUBLINGREA/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 22.6,
+      "url": "https://www.screener.in/company/JUBLINGREA/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 34.9,
+      "url": "https://www.screener.in/company/JUBLINGREA/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 11.16,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 795,
+      "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 537.3,
+      "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 25.14,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 661.15,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 11507,
+      "url": "https://www.screener.in/company/KSB/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0.67,
+      "url": "https://www.screener.in/company/KSB/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 23.2,
+      "url": "https://www.screener.in/company/KSB/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0,
+      "url": "https://www.screener.in/company/KSB/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 17,
+      "url": "https://www.screener.in/company/KSB/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 25,
+      "url": "https://www.screener.in/company/KSB/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 5,
+      "url": "https://www.screener.in/company/KSB/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": -10.29,
+      "url": "https://www.screener.in/company/KSB/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 69.8,
+      "url": "https://www.screener.in/company/KSB/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0,
+      "url": "https://www.screener.in/company/KSB/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 14.66,
+      "url": "https://www.screener.in/company/KSB/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 50.8,
+      "url": "https://www.screener.in/company/KSB/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 10.7,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 1028.3,
+      "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 626,
+      "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 45.1,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 4166.4,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 123593,
+      "url": "https://www.screener.in/company/LTM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 1.8,
+      "url": "https://www.screener.in/company/LTM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 35.2,
+      "url": "https://www.screener.in/company/LTM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0.09,
+      "url": "https://www.screener.in/company/LTM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 28,
+      "url": "https://www.screener.in/company/LTM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 23,
+      "url": "https://www.screener.in/company/LTM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 5,
+      "url": "https://www.screener.in/company/LTM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": -0.07,
+      "url": "https://www.screener.in/company/LTM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 69.01,
+      "url": "https://www.screener.in/company/LTM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0.52,
+      "url": "https://www.screener.in/company/LTM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 189.06,
+      "url": "https://www.screener.in/company/LTM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 33.9,
+      "url": "https://www.screener.in/company/LTM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 113.47,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 6429.5,
+      "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 3528,
+      "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 22.04,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 3256.1,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 173626,
+      "url": "https://www.screener.in/company/TRENT/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0.12,
+      "url": "https://www.screener.in/company/TRENT/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 20.4,
+      "url": "https://www.screener.in/company/TRENT/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0.3,
+      "url": "https://www.screener.in/company/TRENT/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 51,
+      "url": "https://www.screener.in/company/TRENT/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 69,
+      "url": "https://www.screener.in/company/TRENT/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 5,
+      "url": "https://www.screener.in/company/TRENT/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 25.47,
+      "url": "https://www.screener.in/company/TRENT/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 37.01,
+      "url": "https://www.screener.in/company/TRENT/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0,
+      "url": "https://www.screener.in/company/TRENT/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 35.92,
+      "url": "https://www.screener.in/company/TRENT/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 139.6,
+      "url": "https://www.screener.in/company/TRENT/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 264.84,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 3399.7,
+      "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 2183.67,
+      "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 90.65,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 521.6,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 220393,
+      "url": "https://www.screener.in/company/HINDZINC/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 2.11,
+      "url": "https://www.screener.in/company/HINDZINC/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 52.8,
+      "url": "https://www.screener.in/company/HINDZINC/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0.22,
+      "url": "https://www.screener.in/company/HINDZINC/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 13,
+      "url": "https://www.screener.in/company/HINDZINC/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 12,
+      "url": "https://www.screener.in/company/HINDZINC/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 5,
+      "url": "https://www.screener.in/company/HINDZINC/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 142.05,
+      "url": "https://www.screener.in/company/HINDZINC/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 60.71,
+      "url": "https://www.screener.in/company/HINDZINC/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0,
+      "url": "https://www.screener.in/company/HINDZINC/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 49.25,
+      "url": "https://www.screener.in/company/HINDZINC/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 16.5,
+      "url": "https://www.screener.in/company/HINDZINC/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 206.44,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 733,
+      "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 453.5,
+      "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_20112026.csv",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 10.59,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 7570,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 7570,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 1538.1,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 31020,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 519,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 36.96,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 13120,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 222.78,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 3828.1,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 7090.5,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 113.15,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 419.05,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    }
+  ],
+  "selection": {
+    "dips": [
+      "JUBLINGREA",
+      "KSB"
+    ],
+    "picks": [
+      "LTM",
+      "TRENT",
+      "HINDZINC"
+    ],
+    "counts": {
+      "universe": 493,
+      "verified": 493,
+      "passed": 67,
+      "buyOrWait": 61,
+      "heldBack": 13,
+      "dipEligible": 2
+    },
+    "shortfall": {
+      "dip": null,
+      "pick": null
+    },
+    "session": "2026-11-20",
+    "fundamentalsDate": "2026-11-21",
+    "missingFromNse": []
+  },
+  "watchlist": {
+    "dataDate": "2026-11-20",
+    "entries": [
+      {
+        "symbol": "POLYCAB",
+        "pickDate": "2026-11-18",
+        "status": "Active",
+        "price": 7570,
+        "weekly": null,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "POLYCAB",
+        "pickDate": "2026-11-19",
+        "status": "Active",
+        "price": 7570,
+        "weekly": null,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "INDIAMART",
+        "pickDate": "2026-11-20",
+        "status": "Active",
+        "price": 1538.1,
+        "weekly": null,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "PAGEIND",
+        "pickDate": "2026-11-20",
+        "status": "Active",
+        "price": 31020,
+        "weekly": null,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "KPITTECH",
+        "pickDate": "2026-11-20",
+        "status": "Active",
+        "price": 519,
+        "weekly": null,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "SUZLON",
+        "pickDate": "2026-11-20",
+        "status": "Active",
+        "price": 36.96,
+        "weekly": null,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "DIXON",
+        "pickDate": "2026-11-20",
+        "status": "Active",
+        "price": 13120,
+        "weekly": null,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "BLS",
+        "pickDate": "2026-11-21",
+        "status": "Active",
+        "price": 222.78,
+        "weekly": null,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "KEI",
+        "pickDate": "2026-11-21",
+        "status": "Active",
+        "price": 3828.1,
+        "weekly": null,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "GILLETTE",
+        "pickDate": "2026-11-21",
+        "status": "Active",
+        "price": 7090.5,
+        "weekly": null,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "IEX",
+        "pickDate": "2026-11-21",
+        "status": "Active",
+        "price": 113.15,
+        "weekly": null,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "HINDCOPPER",
+        "pickDate": "2026-11-21",
+        "status": "Active",
+        "price": 419.05,
+        "weekly": null,
+        "reason": "NSE close at or below buy-below price"
+      }
+    ],
+    "picks": [
+      {
+        "date": "2026-11-18",
+        "symbol": "POLYCAB",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-18",
+        "symbol": "CAMS",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-18",
+        "symbol": "ECLERX",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-19",
+        "symbol": "POLYCAB",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-19",
+        "symbol": "CAMS",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-19",
+        "symbol": "ECLERX",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-20",
+        "symbol": "INDIAMART",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-20",
+        "symbol": "PAGEIND",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-20",
+        "symbol": "KPITTECH",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-20",
+        "symbol": "SUZLON",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-20",
+        "symbol": "DIXON",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-21",
+        "symbol": "BLS",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-21",
+        "symbol": "KEI",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-21",
+        "symbol": "GILLETTE",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-21",
+        "symbol": "IEX",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-21",
+        "symbol": "HINDCOPPER",
+        "status": "Active"
+      }
+    ]
+  },
+  "recentConcepts": [
+    "Learning science",
+    "Choice psychology",
+    "Habits",
+    "Evolutionary biology",
+    "Evolutionary genetics",
+    "Decision psychology · 2015",
+    "Group behaviour · 2010",
+    "Work psychology · 2026",
+    "Evolution · 2022",
+    "Evolution · 2018",
+    "Human behaviour · 2026",
+    "Memory · 2015",
+    "Judgment · 1994",
+    "Human evolution · 2022",
+    "Evolution · 2021",
+    "Diffusion of responsibility",
+    "Endowment effect",
+    "Cognitive dissonance",
+    "Mobile internet restriction and attention",
+    "Chatbot attachment and voluntary use",
+    "Conformity under unanimous pressure",
+    "Obedience and delegated responsibility",
+    "Leading questions and reconstructive memory",
+    "Conversational persuasion and personalisation evidence",
+    "Universal human identity and cross-group cooperation",
+    "Peak-end rule",
+    "Foot-in-the-door technique",
+    "Intrinsic respect for rules",
+    "Pratfall effect",
+    "High-quality listening through follow-up questions",
+    "Overjustification effect",
+    "Misattribution of arousal",
+    "Liking gap",
+    "Overestimating others' dishonesty",
+    "Micro-acts of well-being",
+    "Learning science",
+    "Metacognition",
+    "Social behaviour",
+    "Evolutionary biology",
+    "Natural selection"
+  ]
+}
