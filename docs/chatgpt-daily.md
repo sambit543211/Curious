@@ -8,7 +8,7 @@ You write the stories. GitHub runs all the code. Everything you need is in this 
 
 | Time (IST) | Who | What |
 |---|---|---|
-| 09:00 | GitHub Actions | Chooses today's 5 stocks and saves `drafts/<date>/prepared.json` |
+| 07:37 (backup 08:47) | GitHub Actions | Chooses today's 5 stocks and saves `drafts/<date>/prepared.json`. GitHub's timer can run late, so if the file is missing you start it yourself (Step 1) |
 | 09:45 | **You** | Research, write, and save `drafts/<date>/draft.json` and `drafts/<date>/market.json` |
 | on save | GitHub Actions | Fills in every stock number, runs all checks, publishes `public/editions/<date>.json` |
 | if a check fails | GitHub Actions | Saves the reasons in `drafts/<date>/errors.txt`. You fix the draft and save it again |
@@ -19,7 +19,15 @@ On Sundays publish the other six sections (30 cards), omit Indian Markets entire
 
 ## Step 1 · Read what the code prepared
 
-Open `drafts/<date>/prepared.json`. If it is missing (GitHub is late), wait a few minutes and look again.
+Open `drafts/<date>/prepared.json`. **If it is missing, start the preparation yourself; do not wait for GitHub's
+timer** (it can run hours late):
+
+1. Save `drafts/<date>/request.json` containing exactly `{"date": "<date>"}` to `main`, with the commit message
+   `Request Morning Edition data <date>`.
+2. GitHub prepares the file within 1–2 minutes. Check for `drafts/<date>/prepared.json` every 2 minutes, for up to
+   12 minutes.
+3. If it still hasn't appeared, check the latest run of "Morning · prepare data" in the repository's Actions tab and
+   report what it says. Do not write stock cards without `prepared.json`.
 
 - `selection.dips`: two symbols near their 52-week low, for stock cards 1 and 2 (`slot: "dip"`).
 - `selection.picks`: three quality picks, for stock cards 3 to 5 (`slot: "pick"`).

@@ -1,8 +1,11 @@
-# 09:00 IST, every day: the code chooses today's stocks and saves the data the writer needs.
+# Every day the code chooses today's stocks and saves the data the writer needs.
+# GitHub's timer is best-effort and can run hours late, so it fires twice early (07:37 and 08:47 IST) as a backup;
+# the writer can also start this at once by saving drafts/<date>/request.json (see docs/chatgpt-daily.md).
 name: Morning · prepare data
 on:
   schedule:
-    - cron: '30 3 * * *'
+    - cron: '7 2 * * *'
+    - cron: '17 3 * * *'
   push:
     branches: [main]
     paths: ['drafts/**/request.json']
