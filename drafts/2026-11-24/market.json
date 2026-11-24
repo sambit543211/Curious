@@ -1,0 +1,444 @@
+{
+  "date": "2026-11-24",
+  "timestamp": "2026-11-24T04:32:57.575Z",
+  "mode": "latest",
+  "session": "closed",
+  "sources": [
+    {
+      "label": "S&P Global survey reported by Business Standard · 23 November",
+      "url": "https://www.business-standard.com/economy/news/india-private-sector-activity-five-month-high-november-2026-flash-pmi-126112300435_1.html"
+    },
+    {
+      "label": "Moneycontrol · closing report, 23 November",
+      "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-snap-2-day-gains-sensex-sheds-1-484-pts-nifty-below-25-350-14087155.html"
+    },
+    {
+      "label": "Moneycontrol · closing report, 20 November",
+      "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-bulls-tighten-grip-on-d-street-sensex-nifty-gain-for-fourth-straight-week-14085623.html"
+    },
+    {
+      "label": "Reuters · Indian close, 23 November",
+      "url": "https://www.reuters.com/world/india/indian-shares-set-open-higher-foreign-inflows-ai-selloff-persists-2026-11-23/"
+    },
+    {
+      "label": "Moneycontrol · IPO allotment timetable, 23 November",
+      "url": "https://www.moneycontrol.com/news/business/ipo/crystal-crop-protection-ipo-allotment-today-check-status-on-bse-nse-and-registrar-14086865.html"
+    },
+    {
+      "label": "NSE official index close · 23112026",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv"
+    },
+    {
+      "label": "NSE official index close · 20112026",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_20112026.csv"
+    },
+    {
+      "label": "NSE official index close · 16112026",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_16112026.csv"
+    },
+    {
+      "label": "NSE official index close · 23102026",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23102026.csv"
+    },
+    {
+      "label": "NSE official index close · 31122025",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+    },
+    {
+      "label": "Reuters · Brent observation at 19:34 IST, 23 November",
+      "url": "https://new.streetinsider.com/Commodities/Oil%2Bprices%2Bfall%2Bon%2Bincreased%2Bflows%2Bfrom%2BMiddle%2BEast,%2BLibyan%2Boil%2Bpipeline%2Brestart/27383120.html"
+    },
+    {
+      "label": "IBJA · bullion benchmark page checked",
+      "url": "https://ibjarates.com"
+    },
+    {
+      "label": "RBI national summary · dated weekly interest rates",
+      "url": "https://www.rbi.org.in/scripts/BS_NSDPDisplay.aspx?param=4"
+    },
+    {
+      "label": "NSE · institutional net cash flows, 23 November",
+      "url": "https://www.nseindia.com/api/fiidiiTradeReact"
+    },
+    {
+      "label": "IBJA · dated Gold 999 AM/PM report, 23 November",
+      "url": "https://ibjarates.com/UploadedFiles/30DaysPdf/Pdf_3463_20261123130226146_Daily%20Opening%20and%20Closing%20Market%20Rate.pdf"
+    },
+    {
+      "label": "NSE · official 2026 capital-market holiday calendar",
+      "url": "https://archives.nseindia.com/content/circulars/CMTR71775.pdf"
+    },
+    {
+      "label": "SEBI · pre-listing premium advisory, 23 November",
+      "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/advisory-regarding-unregulated-pre-listing-premium-often-called-as-grey-market-premium-gmp-for-upcoming-initial-public-offers-ipos-_105942.html"
+    }
+  ],
+  "series": {
+    "Nifty 50": {
+      "level": 25349.65,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv",
+      "history": [
+        {
+          "date": "2026-11-20",
+          "level": 25800.6,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_20112026.csv"
+        },
+        {
+          "date": "2026-11-16",
+          "level": 25291.1,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_16112026.csv"
+        },
+        {
+          "date": "2026-10-23",
+          "level": 22600,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23102026.csv"
+        },
+        {
+          "date": "2025-12-31",
+          "level": 26129.6,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+        }
+      ],
+      "note": "Official session close; historical baselines are the separately dated NSE closing files."
+    },
+    "Bank Nifty": {
+      "level": 62585.35,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv",
+      "history": [
+        {
+          "date": "2026-11-20",
+          "level": 64635.2,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_20112026.csv"
+        },
+        {
+          "date": "2026-11-16",
+          "level": 61575.9,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_16112026.csv"
+        },
+        {
+          "date": "2026-10-23",
+          "level": 54287.35,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23102026.csv"
+        },
+        {
+          "date": "2025-12-31",
+          "level": 59581.85,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+        }
+      ],
+      "note": "Official session close; historical baselines are the separately dated NSE closing files."
+    },
+    "Nifty Midcap 150": {
+      "level": 22542.45,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv",
+      "history": [
+        {
+          "date": "2026-11-20",
+          "level": 22750.8,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_20112026.csv"
+        },
+        {
+          "date": "2026-11-16",
+          "level": 22588.35,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_16112026.csv"
+        },
+        {
+          "date": "2026-10-23",
+          "level": 20592.75,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23102026.csv"
+        },
+        {
+          "date": "2025-12-31",
+          "level": 22276.9,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+        }
+      ],
+      "note": "Official session close; historical baselines are the separately dated NSE closing files."
+    },
+    "Nifty Smallcap 250": {
+      "level": 17662.6,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv",
+      "history": [
+        {
+          "date": "2026-11-20",
+          "level": 17785.5,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_20112026.csv"
+        },
+        {
+          "date": "2026-11-16",
+          "level": 17771.25,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_16112026.csv"
+        },
+        {
+          "date": "2026-10-23",
+          "level": 16385.15,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23102026.csv"
+        },
+        {
+          "date": "2025-12-31",
+          "level": 16684.75,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+        }
+      ],
+      "note": "Official session close; historical baselines are the separately dated NSE closing files."
+    },
+    "Sensex": {
+      "level": 82435.99,
+      "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-snap-2-day-gains-sensex-sheds-1-484-pts-nifty-below-25-350-14087155.html",
+      "history": [
+        {
+          "date": "2026-11-20",
+          "level": 83919.71,
+          "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-bulls-tighten-grip-on-d-street-sensex-nifty-gain-for-fourth-straight-week-14085623.html"
+        }
+      ],
+      "note": "Closing level cross-checked against Reuters; only previous-session history verified. Weekly, monthly and year-to-date comparisons omitted."
+    },
+    "₹/US$": {
+      "level": 92.91,
+      "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-snap-2-day-gains-sensex-sheds-1-484-pts-nifty-below-25-350-14087155.html",
+      "history": [
+        {
+          "date": "2026-11-20",
+          "level": 92.67,
+          "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-bulls-tighten-grip-on-d-street-sensex-nifty-gain-for-fourth-straight-week-14085623.html"
+        }
+      ],
+      "note": "Moneycontrol's interbank closing account, not an FBIL reference fixing."
+    },
+    "India VIX": {
+      "level": 17.7,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv",
+      "history": [
+        {
+          "date": "2026-11-20",
+          "level": 17.32,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_20112026.csv"
+        }
+      ],
+      "note": "Official NSE session close."
+    },
+    "Brent": {
+      "level": 90.78,
+      "url": "https://new.streetinsider.com/Commodities/Oil%2Bprices%2Bfall%2Bon%2Bincreased%2Bflows%2Bfrom%2BMiddle%2BEast,%2BLibyan%2Boil%2Bpipeline%2Brestart/27383120.html",
+      "history": [],
+      "note": "USD per barrel, Reuters observation at 14:04 GMT / 19:34 IST on 23 November. Intraday futures quote, not settlement; previous settlement not independently verified."
+    },
+    "Gold (₹/10 g)": {
+      "level": 124945,
+      "url": "https://ibjarates.com/UploadedFiles/30DaysPdf/Pdf_3463_20261123130226146_Daily%20Opening%20and%20Closing%20Market%20Rate.pdf",
+      "history": [
+        {
+          "date": "2026-11-20",
+          "level": 123893,
+          "url": "https://ibjarates.com/UploadedFiles/30DaysPdf/Pdf_3463_20261123130226146_Daily%20Opening%20and%20Closing%20Market%20Rate.pdf"
+        }
+      ],
+      "note": "IBJA Gold 999 PM benchmark, INR per ten grams, excluding GST and making charges. Both session dates verified in the official dated daily report."
+    },
+    "India 10-year G-sec yield": {
+      "url": "https://www.rbi.org.in/scripts/BS_NSDPDisplay.aspx?param=4",
+      "unavailableReason": "The RBI page retrieved was published 20 November and its latest weekly 10-year observation was 13 November; no 23 November closing yield verified."
+    }
+  },
+  "flows": {
+    "fii": 5672.99,
+    "dii": -2760.12,
+    "fiiMtd": null,
+    "diiMtd": null,
+    "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+    "asOf": "2026-11-23",
+    "unavailableReason": "Session flows are verified; month-to-date cumulative totals were not verified from a dated series."
+  },
+  "niftyPE": {
+    "now": 20.65,
+    "median5y": null,
+    "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv",
+    "asOf": "2026-11-23",
+    "unavailableReason": "Official current index P/E is verified; a comparable five-year median was not verified."
+  },
+  "facts": [
+    {
+      "value": 25349.65,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 62585.35,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 22542.45,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 17662.6,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 17.7,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 20.65,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 25800.6,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_20112026.csv",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 64635.2,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_20112026.csv",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 22750.8,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_20112026.csv",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 17785.5,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_20112026.csv",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 17.32,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_20112026.csv",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 82435.99,
+      "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-snap-2-day-gains-sensex-sheds-1-484-pts-nifty-below-25-350-14087155.html",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 1483.72,
+      "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-snap-2-day-gains-sensex-sheds-1-484-pts-nifty-below-25-350-14087155.html",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 1.77,
+      "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-snap-2-day-gains-sensex-sheds-1-484-pts-nifty-below-25-350-14087155.html",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 450.95,
+      "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-snap-2-day-gains-sensex-sheds-1-484-pts-nifty-below-25-350-14087155.html",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 1.75,
+      "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-snap-2-day-gains-sensex-sheds-1-484-pts-nifty-below-25-350-14087155.html",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 3.17,
+      "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-snap-2-day-gains-sensex-sheds-1-484-pts-nifty-below-25-350-14087155.html",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 1.69,
+      "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-snap-2-day-gains-sensex-sheds-1-484-pts-nifty-below-25-350-14087155.html",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 3.68,
+      "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-snap-2-day-gains-sensex-sheds-1-484-pts-nifty-below-25-350-14087155.html",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 92.91,
+      "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-snap-2-day-gains-sensex-sheds-1-484-pts-nifty-below-25-350-14087155.html",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 83919.71,
+      "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-bulls-tighten-grip-on-d-street-sensex-nifty-gain-for-fourth-straight-week-14085623.html",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 92.67,
+      "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-bulls-tighten-grip-on-d-street-sensex-nifty-gain-for-fourth-straight-week-14085623.html",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 5672.99,
+      "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": -2760.12,
+      "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 56.3,
+      "url": "https://www.business-standard.com/economy/news/india-private-sector-activity-five-month-high-november-2026-flash-pmi-126112300435_1.html",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 56.2,
+      "url": "https://www.business-standard.com/economy/news/india-private-sector-activity-five-month-high-november-2026-flash-pmi-126112300435_1.html",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 56,
+      "url": "https://www.business-standard.com/economy/news/india-private-sector-activity-five-month-high-november-2026-flash-pmi-126112300435_1.html",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 54.7,
+      "url": "https://www.business-standard.com/economy/news/india-private-sector-activity-five-month-high-november-2026-flash-pmi-126112300435_1.html",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 55.3,
+      "url": "https://www.business-standard.com/economy/news/india-private-sector-activity-five-month-high-november-2026-flash-pmi-126112300435_1.html",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 55.8,
+      "url": "https://www.business-standard.com/economy/news/india-private-sector-activity-five-month-high-november-2026-flash-pmi-126112300435_1.html",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 17.06,
+      "url": "https://www.moneycontrol.com/news/business/ipo/crystal-crop-protection-ipo-allotment-today-check-status-on-bse-nse-and-registrar-14086865.html",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 455.49,
+      "url": "https://www.moneycontrol.com/news/business/ipo/crystal-crop-protection-ipo-allotment-today-check-status-on-bse-nse-and-registrar-14086865.html",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 90.78,
+      "url": "https://new.streetinsider.com/Commodities/Oil%2Bprices%2Bfall%2Bon%2Bincreased%2Bflows%2Bfrom%2BMiddle%2BEast,%2BLibyan%2Boil%2Bpipeline%2Brestart/27383120.html",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 124945,
+      "url": "https://ibjarates.com/UploadedFiles/30DaysPdf/Pdf_3463_20261123130226146_Daily%20Opening%20and%20Closing%20Market%20Rate.pdf",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 123893,
+      "url": "https://ibjarates.com/UploadedFiles/30DaysPdf/Pdf_3463_20261123130226146_Daily%20Opening%20and%20Closing%20Market%20Rate.pdf",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 25349.65,
+      "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-snap-2-day-gains-sensex-sheds-1-484-pts-nifty-below-25-350-14087155.html",
+      "asOf": "2026-11-23"
+    }
+  ],
+  "lastSession": "2026-11-23",
+  "calendarUrl": "https://archives.nseindia.com/content/circulars/CMTR71775.pdf"
+}
