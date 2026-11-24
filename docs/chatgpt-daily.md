@@ -79,7 +79,7 @@ in `public/editions/`. The draft has:
 ```
 
 Every card: `id` (unique, e.g. `"<date>-akvan"`), `rank` (1–5 within its section), `label`, `headline` (12 words or
-fewer), `summary`, `why`, `soWhat`, `take`, `watch` (together 80–170 words), `terms` (array, may be empty), `image`
+fewer), `summary`, `why`, `soWhat`, `take`, `watch` (together 80–170 words; psychology cards use the lesson fields below instead), `terms` (array, may be empty), `image`
 (`null`; GitHub adds the photo, see below), `photo`, and `sources` (`[{label, url}]`, pages you actually opened).
 Optional: `keyNumber` and `chart` (see the writing guide).
 
@@ -93,8 +93,20 @@ Section extras, as in the latest edition:
   Regulated asset, Brand, Cost leadership, None) and `moatWhy`. Do not write the price, fair value, buy-below price or
   verdict: GitHub fills those in from the data.
 - **tech**: `tryThis` (one practical thing to try).
-- **psychology**: `concept`, `study` `{authors, year, published (YYYY-MM-DD), sample, era: "classic" | "recent"}`,
-  `example`, `useThisWeek`. Mix of classic and recent studies, as in the latest edition.
+- **psychology**: each card is a **short lesson built from first principles**, so a reader learns one idea properly.
+  Fields: `concept` (the idea's plain name, e.g. "The planning fallacy"), `study` `{authors, year, published (YYYY-MM-DD),
+  sample, era: "classic" | "recent"}` (three classic, two recent), and these, in this order of reading:
+  - `summary` (20–70 words): **the everyday puzzle**: a scene or question the reader knows from their own life.
+  - `belief` (10–50): **what we usually assume**, the common-sense view the study tests.
+  - `experiment` (25–90): **what the researchers did**, told as a scene: who, how many people, what they had to do.
+  - `finding` (15–70): **the surprise**, with the actual numbers from the paper in plain words.
+  - `why` (25–90): **why our minds do this**, from first principles: the basic reason the brain works this way.
+  - `examples` (2–3, up to 35 words each): **where you'll see it** in daily Indian life: home, work, money, family.
+  - `soWhat` (10–50): **what it means for you**.
+  - `useThisWeek` (8–40): **one small thing to try**.
+  - `limits` (8–45): **how sure are we?** who was studied, and what we don't know yet.
+  - `take` (5–18): **the one line to remember**.
+  The whole lesson is 190–380 words. No `watch` or `example` field. Open the paper and use its real numbers.
 - **marketing**: three India campaigns then two Global; `region`, `brand`, `agency`, `objective`, `insight`,
   `channels`, `results` (only published results; otherwise say none were published).
 

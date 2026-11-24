@@ -1992,13 +1992,12 @@
         "id": "2026-11-24-ikea-effort-value",
         "rank": 1,
         "label": "Psychology · 24 Nov · classic",
-        "headline": "Building something can make us overrate what we made",
-        "summary": "Think of a shelf you assembled yourself. Norton, Mochon and Ariely found that people valued their own completed creations more highly than comparable items made by someone else. Their 2012 paper tested boxes, folded paper and construction toys. The box experiment involved 52 university participants. The effect weakened when people failed to finish or had to dismantle what they made.",
-        "why": "Successful effort can make an object feel like evidence of competence. That personal meaning is real, but it does not establish what an outside customer would pay. Small laboratory tasks also differ from months spent building a business.",
-        "soWhat": "When assessing your own campaign or product, ask outsiders to compare it anonymously with alternatives before discussing the effort involved.",
-        "take": "Effort can create attachment without creating equivalent value for a customer.",
-        "watch": "Compare your predicted customer preference with an anonymous test this week.",
-        "concept": "IKEA effect after successful completion",
+        "headline": "Why the shelf you built yourself feels worth more",
+        "summary": "You spend a Sunday putting together a flat-pack shelf. One leg wobbles a little, but you love it anyway. Ask a friend what it is worth and they shrug. Why does something feel more valuable just because you made it?",
+        "why": "Effort leaves a mark on us. When we finish something, it becomes a small proof that we are capable, so we start valuing the proof, not just the object. That is why the effect faded when people took their work apart again, or did not get to finish it.",
+        "soWhat": "Your own work will always look a little better to you than to others. That is fine for enjoyment, but risky when you set prices or judge a project.",
+        "take": "Effort makes us love what we made. It doesn’t make others love it.",
+        "concept": "The IKEA effect",
         "study": {
           "authors": "Michael I. Norton, Daniel Mochon and Dan Ariely",
           "year": 2012,
@@ -2006,9 +2005,13 @@
           "sample": 52,
           "era": "classic"
         },
-        "example": "A founder values a feature highly because the team struggled to build it.",
-        "useThisWeek": "Run a blind preference test before mentioning which version your team made.",
-        "terms": [],
+        "useThisWeek": "Before you judge something you made, show it to someone next to an alternative, without saying which one is yours.",
+        "terms": [
+          {
+            "term": "IKEA effect",
+            "meaning": "Valuing things more because you built them"
+          }
+        ],
         "image": {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Assembling_an_Ikea_po%C3%A4ng_chair_%289055631329%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
           "credit": "Photo: Wikimedia Commons",
@@ -2027,19 +2030,27 @@
             "url": "https://en.wikipedia.org/wiki/IKEA_effect"
           }
         ],
-        "photo": "IKEA effect"
+        "photo": "IKEA effect",
+        "belief": "We usually think value comes from the thing itself: how well it is made, how it looks, what it does. Who built it should not change the price.",
+        "experiment": "In 2012, Michael Norton, Daniel Mochon and Dan Ariely asked 52 students to assemble a plain IKEA storage box. Another group got the same box already built. Then everyone said how much they would pay for it. In a later test, people folded paper origami and bid on their own creations and on other people’s.",
+        "finding": "The builders offered about 78 cents for their box. Those who just looked at a finished one offered about 48 cents. With origami, makers bid about 23 cents for their own wobbly frogs and cranes, while strangers bid about 5 cents. Makers even expected strangers to value it like they did.",
+        "examples": [
+          "A home cook rates their own biryani higher than guests do, because they know the two hours it took.",
+          "A team defends a feature it struggled to build, even when customers barely use it.",
+          "You find it hard to sell a bike you restored, because no buyer will pay what it means to you."
+        ],
+        "limits": "These were small lab tasks with US students and cheap items. Months spent on a business may work differently, but the pattern has been seen many times since."
       },
       {
         "id": "2026-11-24-planning-outside-view",
         "rank": 2,
         "label": "Psychology · 24 Nov · classic",
-        "headline": "Your best-case project plan probably needs an outside view",
-        "summary": "You promise a report by Friday because the steps look straightforward. Buehler, Griffin and Ross studied that optimism in 1994. In one study, 37 psychology students predicted when they would finish their theses; their best estimates were earlier than actual completion. Across experiments, people concentrated on how the current task should unfold rather than the delays in comparable past work.",
-        "why": "A coherent plan omits interruptions, coordination and rework. We also explain away previous delays as exceptions, making the next project feel different. Student projects are not every workplace, but the proposed error is recognisable and testable.",
-        "soWhat": "Before agreeing to a deadline, compare several similar completed assignments and count the coordination time as well as writing time.",
-        "take": "A credible estimate begins with past completion times, then adjusts carefully.",
-        "watch": "Record the actual finishing date beside the original estimate this week.",
-        "concept": "Planning fallacy and reference-class completion times",
+        "headline": "Why everything takes longer than you planned, every single time",
+        "summary": "You tell your boss the report will be ready by Friday. It looks simple: gather data, write, send. Friday comes and you are still on page three. It happened last month too. So why do we keep making the same promise?",
+        "why": "When we plan, we picture the job going smoothly, step by step. Interruptions, illness and rework are not part of that picture. We also explain our past delays away as one-offs, so we never learn from them. The plan is a story of the best case.",
+        "soWhat": "Your gut estimate is usually the best case, not the likely case. Deadlines you set for yourself and promise to others will slip unless you plan for it.",
+        "take": "Plan from what happened last time, not from how this time feels.",
+        "concept": "The planning fallacy",
         "study": {
           "authors": "Roger Buehler, Dale Griffin and Michael Ross",
           "year": 1994,
@@ -2047,9 +2058,13 @@
           "sample": 37,
           "era": "classic"
         },
-        "example": "A presentation takes longer because review rounds were absent from the original plan.",
-        "useThisWeek": "Use recent comparable projects as the starting estimate, then list concrete differences.",
-        "terms": [],
+        "useThisWeek": "For your next task, look at how long a similar past job really took, and start your estimate from that.",
+        "terms": [
+          {
+            "term": "planning fallacy",
+            "meaning": "Underestimating how long our own tasks will take"
+          }
+        ],
         "image": null,
         "sources": [
           {
@@ -2058,19 +2073,27 @@
             "accessedOn": "2026-11-24"
           }
         ],
-        "photo": "Planning fallacy"
+        "photo": "Planning fallacy",
+        "belief": "We assume that if we think carefully through the steps of a job, our estimate will be good. A detailed plan feels like an accurate plan.",
+        "experiment": "In 1994, Roger Buehler, Dale Griffin and Michael Ross asked 37 final-year psychology students when they expected to finish their thesis. They asked for a realistic guess, and also a worst-case guess if everything went wrong. Then they waited to see when the theses were actually handed in.",
+        "finding": "On average, students expected to finish in about 34 days. They actually took about 55 days. Even their worst-case guess, about 49 days, was too hopeful. Only about three in ten students finished by the date they predicted.",
+        "examples": [
+          "A house renovation planned for six weeks runs into a third month.",
+          "A wedding budget fixed in January has doubled by the wedding day.",
+          "A government bridge opens years after its first announced date."
+        ],
+        "limits": "This study used students writing theses, but many later studies with other people and other jobs have found the same pattern."
       },
       {
         "id": "2026-11-24-emotion-readability",
         "rank": 3,
         "label": "Psychology · 24 Nov · classic",
-        "headline": "Other people may notice less of your nerves than you think",
-        "summary": "You give a presentation and feel sure everyone can hear your anxiety. Gilovich, Savitsky and Medvec’s 1998 research explored a related mistake: people overestimated how easily others could read their internal states. In one experiment, 40 Cornell students played truth-and-lie games in small groups. People expected their hidden information to be more detectable than observers actually demonstrated.",
-        "why": "We experience our own feelings directly, while other people see only outward clues. Adjusting from that vivid private experience can be difficult. A student deception task does not prove that every nervous speaker appears calm or that important feelings should remain unspoken.",
-        "soWhat": "In a difficult conversation, name the concern plainly instead of expecting your expression to communicate the whole message.",
-        "take": "What feels obvious inside your head may be missing outside it.",
-        "watch": "Ask a trusted listener what message they actually took away.",
-        "concept": "Illusion of transparency in communicating internal states",
+        "headline": "Your nerves show far less than you think they do",
+        "summary": "You stand up to speak in a meeting. Your heart is racing and your hands feel shaky. You are sure everyone can see how nervous you are. Afterwards, a colleague says you seemed calm. Who was right?",
+        "why": "We feel our own emotions directly, all at once. Other people only see small outside clues, like a pause or a blink. It is very hard to step out of our own experience and imagine how little of it reaches someone else.",
+        "soWhat": "Good news for stage fright: you look calmer than you feel. Bad news for hints: if you want people to know something, you have to say it.",
+        "take": "What is obvious inside your head is often invisible outside it.",
+        "concept": "The illusion of transparency",
         "study": {
           "authors": "Thomas Gilovich, Kenneth Savitsky and Victoria Husted Medvec",
           "year": 1998,
@@ -2078,9 +2101,13 @@
           "sample": 40,
           "era": "classic"
         },
-        "example": "A colleague mistakes your quiet concentration for disapproval.",
-        "useThisWeek": "State your intention at the start of one difficult conversation and check understanding.",
-        "terms": [],
+        "useThisWeek": "Before a difficult conversation, say your feeling or request out loud in one plain sentence, instead of hoping it shows.",
+        "terms": [
+          {
+            "term": "illusion of transparency",
+            "meaning": "Thinking others read our feelings better than they do"
+          }
+        ],
         "image": {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Reijiro_Wakatsuki_giving_a_speech_at_the_London_Naval_Conference.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
           "credit": "Photo: Wikimedia Commons",
@@ -2099,19 +2126,27 @@
             "url": "https://en.wikipedia.org/wiki/Public_speaking"
           }
         ],
-        "photo": "Public speaking"
+        "photo": "Public speaking",
+        "belief": "Our feelings feel so loud from the inside that we assume they leak out. If I am anxious, surely my face, voice and hands are giving it away.",
+        "experiment": "In 1998, Thomas Gilovich, Kenneth Savitsky and Victoria Medvec ran a game with 40 Cornell students in small groups. Each person read out answers to questions, some true and some lies. Liars guessed how many people in the room would catch them. The others then guessed who was lying.",
+        "finding": "The liars expected far more people to see through them than actually did. Their inner discomfort felt obvious to them, but it was mostly invisible to everyone else. Later tests found the same thing with nervous speakers.",
+        "examples": [
+          "A student at a viva thinks the panel can see their panic, while the panel notes a confident answer.",
+          "You stay quiet in a meeting because you are upset, and nobody even notices.",
+          "You think your hint about wanting a raise was clear; your manager never picked it up."
+        ],
+        "limits": "These were lab games with US students, so the size of the effect may differ in real life. Similar results have appeared in several studies."
       },
       {
         "id": "2026-11-24-self-compassion-format",
         "rank": 4,
         "label": "Psychology · 24 Nov · recent",
-        "headline": "A stress workbook matched a digital programme in this trial",
-        "summary": "After a difficult day, speaking to yourself harshly can become another burden. Kalon and colleagues compared a digital self-compassion programme with a printed workbook in a trial published in February 2026. They randomised 200 adults; one later requested data deletion. Both groups reported improvements, but the digital programme was not significantly better after eight weeks or at the six-month follow-up.",
-        "why": "Self-compassion means responding to difficulty with kindness and realistic perspective, rather than abandoning standards. Because both groups received an active programme, improvements within each group cannot establish how much either treatment beat receiving no intervention.",
-        "soWhat": "If you try structured self-help, choose a format you can sustain; an app is not automatically more effective than paper.",
-        "take": "The delivery format matters less than claims of superiority suggest here.",
-        "watch": "Track your own stress and completion, rather than counting app sessions.",
-        "concept": "Self-compassion delivery format and active-comparator evidence",
+        "headline": "A paper workbook helped stressed adults as much as an app",
+        "summary": "You make a mistake at work and spend the evening calling yourself useless. That inner voice can make a bad day worse. Learning to talk to yourself more kindly can help, and apps now promise to teach it. But do you need the app?",
+        "why": "Self-compassion means treating yourself the way you would treat a friend who made a mistake: honest, but kind. What helps is practising that habit. Whether you practise it on a screen or on paper seems to matter less than actually doing it.",
+        "soWhat": "If you want to build a kinder inner voice, pick whatever format you will actually stick with. A free notebook can be enough.",
+        "take": "The habit matters more than the app you practise it on.",
+        "concept": "Self-compassion",
         "study": {
           "authors": "Lina S. Kalon, Leif Boß, Carmen Wiencke, Anna-Carlotta Zarski and Dirk Lehr",
           "year": 2026,
@@ -2119,9 +2154,17 @@
           "sample": 200,
           "era": "recent"
         },
-        "example": "After an error, replace a global self-insult with a specific lesson and repair step.",
-        "useThisWeek": "Write a kind but honest response to one setback; seek support if distress persists.",
-        "terms": [],
+        "useThisWeek": "After your next setback, write two lines to yourself as you would to a friend. If distress lasts, talk to a professional.",
+        "terms": [
+          {
+            "term": "self-compassion",
+            "meaning": "Treating yourself kindly, like a friend, after a mistake"
+          },
+          {
+            "term": "randomly split",
+            "meaning": "Groups chosen by chance so they are fair"
+          }
+        ],
         "image": null,
         "sources": [
           {
@@ -2130,19 +2173,26 @@
             "accessedOn": "2026-11-24"
           }
         ],
-        "photo": "Self-compassion"
+        "photo": "Self-compassion",
+        "belief": "Most of us assume a digital programme, with videos, reminders and tracking, must work better than an old-fashioned printed workbook.",
+        "experiment": "In a trial published in February 2026, Lina Kalon and colleagues in Germany randomly split 200 stressed adults into two groups. One group used a digital self-compassion course. The other worked through a printed self-compassion workbook. Their stress and wellbeing were measured after eight weeks and again after six months.",
+        "finding": "Both groups felt better. But the digital course was not clearly better than the paper workbook, either after eight weeks or six months later. The expensive, modern version did not beat the simple one.",
+        "examples": [
+          "After missing a deadline, “I am useless” becomes “I misjudged the time; next week I will start earlier.”",
+          "A student who fails a test writes a note to themselves as they would to a younger sibling."
+        ],
+        "limits": "Both groups got a programme, so we can’t say how much either beat doing nothing. It was one trial in Germany, so other countries may differ."
       },
       {
         "id": "2026-11-24-wellness-subgroup-results",
         "rank": 5,
         "label": "Psychology · 24 Nov · recent",
-        "headline": "A promising subgroup result is not a universal wellness benefit",
-        "summary": "A wellness app advertises a study, but who actually benefited? Fuller and colleagues’ 2025 gratitude-app trial enrolled 120 university students. The full sample did not show a significant benefit on depression, anxiety and stress symptoms. A subgroup starting with at least moderate symptoms did. Twenty-seven participants were lost to follow-up, adding uncertainty to a result that should not become a promise for everyone.",
-        "why": "A study’s overall comparison and its subgroup comparisons answer different questions. Smaller groups can produce less stable estimates, especially when several outcomes are examined. This Canadian student sample also cannot establish results for every age or clinical setting.",
-        "soWhat": "When evaluating a wellness claim, ask which participants improved, against what comparison, and how many remained at the end.",
-        "take": "A narrower, qualified finding is more useful than an inflated headline.",
-        "watch": "Check the primary outcome and follow-up losses in the next study you read.",
-        "concept": "Interpreting subgroup effects in psychological interventions",
+        "headline": "When a wellness app says “proven”, ask: proven for whom?",
+        "summary": "A gratitude app’s advert says “clinically shown to reduce anxiety”. It sounds like it works for everyone. But often a study helps only some of the people in it, and the advert picks out that part. How do you tell?",
+        "why": "A study answers its main question for the whole group. When researchers then slice it into smaller groups, chance plays a bigger role, because each slice has fewer people. A result in one slice is a clue worth testing again, not proof.",
+        "soWhat": "Before you pay for something “scientifically proven”, check who it helped. It may not be someone like you.",
+        "take": "“It worked for some people” is not the same as “it will work for you”.",
+        "concept": "Reading subgroup results",
         "study": {
           "authors": "Chloë Fuller, Silvia Marin-Dragu, Ravishankar Subramani Iyer and Sandra Melanie Meier",
           "year": 2025,
@@ -2150,9 +2200,17 @@
           "sample": 120,
           "era": "recent"
         },
-        "example": "An app advert uses its most favourable subgroup while omitting the overall result.",
-        "useThisWeek": "Before sharing a study-based wellness claim, read its full-sample result and attrition.",
-        "terms": [],
+        "useThisWeek": "Next time you see “studies show”, ask three things: who was studied, compared with what, and how many dropped out.",
+        "terms": [
+          {
+            "term": "subgroup",
+            "meaning": "A smaller slice of the people in a study"
+          },
+          {
+            "term": "drop out",
+            "meaning": "People who leave a study before it ends"
+          }
+        ],
         "image": null,
         "sources": [
           {
@@ -2161,7 +2219,15 @@
             "accessedOn": "2026-11-24"
           }
         ],
-        "photo": "Meditation"
+        "photo": "Meditation",
+        "belief": "We tend to think that if a study shows something works, it works for anyone who tries it, including us.",
+        "experiment": "In a 2025 trial, Chloë Fuller and colleagues in Canada gave 120 university students either a gratitude app or a comparison. They measured depression, anxiety and stress. Then they looked at everyone together, and separately at students who started with at least moderate symptoms.",
+        "finding": "Across all students, the app made no clear difference. Only the smaller group who started out more distressed seemed to benefit. Also, 27 of the 120 students dropped out before the end, which makes the results less certain.",
+        "examples": [
+          "A supplement “improves memory”, but only in older adults who already had a deficiency.",
+          "A course claims “90% got jobs”, counting only those who finished, not those who dropped out."
+        ],
+        "limits": "This was one study of Canadian students, so we don’t know how the app works for working adults or people with diagnosed anxiety."
       }
     ],
     "marketing": [

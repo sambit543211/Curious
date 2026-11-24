@@ -21,8 +21,8 @@ export function readingOrder(issue) {
   });
 }
 
-const words = card => ['headline','summary','why','soWhat','context','take','watch','risk','valuation']
-  .map(key => card[key]).concat(card.thesis ?? [], card.breakers ?? [])
+const words = card => ['headline','summary','why','soWhat','context','take','watch','risk','valuation','belief','experiment','finding','limits','useThisWeek']
+  .map(key => card[key]).concat(card.thesis ?? [], card.breakers ?? [], card.examples ?? [])
   .filter(Boolean).join(' ').split(/\s+/).length;
 export const storyMinutes = card => Math.max(1, Math.round(words(card) / 215));
 export const sourceCount = card => (card.sources ?? (card.sourceUrl ? [card.sourceUrl] : [])).length;
@@ -72,6 +72,9 @@ export function shareMessage(topic, card) {
     const below = Number.isFinite(card.buyBelow) ? 'buy below ₹' + Math.round(card.buyBelow).toLocaleString('en-IN') : null;
     lines.push('', card.symbol + ': ' + [card.verdict, price, below].filter(Boolean).join(' · '));
     lines.push('Research, not advice.');
+  } else if (card.experiment) {
+    lines.push(firstSentences(card.summary, 2), '', 'The surprise: ' + firstSentences(card.finding, 2));
+    if (card.take) lines.push('', 'Remember: ' + card.take);
   } else {
     lines.push(firstSentences(card.summary, 2));
     if (card.soWhat) lines.push('', 'Why it matters: ' + firstSentences(card.soWhat, 1));

@@ -102,11 +102,23 @@ advice: the verdict is the screen's, and the footer says it isn't SEBI-registere
 **AI & Tech.** Explain what the product or change actually does for a normal person before the
 business angle. Say clearly whether something is announced, available now, or planned.
 
-**Psychology.** Start with a scene or a question the reader recognises, not the study citation.
-Then: what the researchers did, in one or two plain sentences; what they found; what it means in
-daily life; one small thing to try (`useThisWeek`). Mention the study's limits plainly ("one 1950s
-lab test with US college students"). No academic words: "people went along with the group", not
-"participants exhibited conformity".
+**Psychology: a short lesson, from first principles.** The goal is that the reader learns one idea about the
+mind so well they could explain it to a friend. Never start with the citation. Build it up like a good teacher:
+
+1. *The everyday puzzle* (`summary`): a scene the reader has lived. "You tell your boss the report will be ready by
+   Friday…"
+2. *What we usually assume* (`belief`): the common-sense view.
+3. *What the researchers did* (`experiment`): a short scene: who, how many, what they were asked to do.
+4. *The surprise* (`finding`): the result, with the paper's real numbers made easy ("34 days expected, 55 taken").
+5. *Why our minds do this* (`why`): the first-principles reason: what the brain is doing and why it evolved or
+   learned to do it.
+6. *Where you'll see it* (`examples`): two or three quick, everyday Indian examples.
+7. *What it means for you* (`soWhat`) and *one thing to try* (`useThisWeek`).
+8. *How sure are we?* (`limits`): who was studied and what's still unknown, in plain words.
+9. *Remember* (`take`): one line.
+
+No academic words: "people went along with the group", not "participants exhibited conformity". Explain every
+term in `terms`. See the 24 November edition for five complete examples.
 
 **Marketing.** Tell it as a mini case study: the brand's problem, the idea, where it ran, and what's
 clever about it. Only quote results that were actually published.
@@ -134,21 +146,8 @@ November, with sustained winds of 90–100 km/h. These are forecasts, not observ
 
 ### Psychology
 
-**Before.** "Solomon Asch's 1956 report studied 123 male college students judging line lengths while
-confederates deliberately gave wrong answers. Participants sometimes followed the unanimous majority
-despite an objectively clear task."
-
-**After.**
-- *Headline:* Why we give the wrong answer when everyone else does
-- *Summary:* Picture eight students shown a line and asked which of three others matches it. The
-  answer is obvious. But seven of them are actors, and they all confidently pick the wrong one. In
-  Solomon Asch's 1950s experiments, many real participants went along with the group at least once,
-  even though their own eyes disagreed.
-- *Why:* This is conformity: changing what we say to fit in, because disagreeing out loud feels
-  risky. The hopeful part: when even one person broke ranks, people trusted their own eyes far more.
-- *So what:* It happens in meetings. Once the boss says a number, everyone's estimate drifts towards it.
-- *Take:* One honest voice matters more than we think.
-- *Try this week:* Ask everyone to write their view down before anyone speaks.
+See the five psychology lessons in `public/editions/2026-11-24.json` (the IKEA effect, the planning fallacy, the
+illusion of transparency, self-compassion and reading subgroup results). Each follows the nine steps above.
 
 ### Stock
 

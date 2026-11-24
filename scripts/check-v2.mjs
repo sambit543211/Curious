@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { figuresStated, stiffWords, roughly, assembleEdition, eligibleStocks, marketDashboard, publicationErrors, snapshotNames } from '../lib/edition-v2.js';
+import { figuresStated, stiffWords, lessonProblems, roughly, assembleEdition, eligibleStocks, marketDashboard, publicationErrors, snapshotNames } from '../lib/edition-v2.js';
 import { getDeck, isEdition } from '../public/edition-format.js';
 import { makeLedger } from '../lib/track-record.js';
 import { selectStocks } from '../lib/stock-selection.js';
@@ -269,3 +269,7 @@ const stiff = text => stiffWords.filter(([pattern]) => pattern.test(text)).lengt
 assert.equal(stiff('Its prepared five-year history shows verified growth of 22% and 27% respectively.'), 3, 'report-speak is caught');
 assert.equal(stiff('Sales grew about 22% a year. The plan was prepared by the ministry.'), 0, 'plain words pass');
 console.log('Validated the plain-words check.');
+const lessonCard = JSON.parse(await (await import('node:fs/promises')).readFile(new URL('../public/editions/2026-11-24.json', import.meta.url), 'utf8')).sections.psychology[0];
+assert.deepEqual(lessonProblems(lessonCard), [], 'a full psychology lesson passes');
+assert.ok(lessonProblems({...lessonCard, experiment:undefined, examples:['one']}).length >= 2, 'a lesson without the experiment or enough examples fails');
+console.log('Validated the psychology lesson format.');

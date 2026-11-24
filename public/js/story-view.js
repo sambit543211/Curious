@@ -353,6 +353,50 @@ function sources(card) {
   return disclosure('Sources (' + items.length + ')', list);
 }
 
+// A psychology story as a short lesson, built up from first principles.
+const isLessonCard = (topic, card) => topic === 'mind' && typeof card.experiment === 'string';
+function lessonView(card) {
+  const parts = [];
+  if (card.concept) {
+    const idea = node('p', 'lesson-idea');
+    idea.append(node('small', '', 'Today’s idea'), node('strong', '', card.concept));
+    parts.push(idea);
+  }
+  parts.push(paragraph(card.summary, 'lede'));
+  const steps = node('ol', 'lesson');
+  const step = (title, content, className = '') => {
+    if (!content || (Array.isArray(content) && !content.length)) return;
+    const item = node('li', 'lesson-step' + (className ? ' ' + className : ''));
+    item.append(node('h3', '', title));
+    if (Array.isArray(content)) {
+      const list = node('ul', 'lesson-examples');
+      list.append(...content.map(text => { const li = node('li'); li.append(richText(text)); return li; }));
+      item.append(list);
+    } else item.append(typeof content === 'string' ? paragraph(content) : content);
+    steps.append(item);
+  };
+  step('What we usually assume', card.belief);
+  const study = card.study;
+  const did = node('div');
+  did.append(paragraph(card.experiment));
+  if (study) did.append(node('p', 'lesson-study', [study.authors, study.year, Number.isInteger(study.sample) ? study.sample.toLocaleString('en-IN') + ' people' : null].filter(Boolean).join(' · ')));
+  step('What the researchers did', did);
+  step('The surprise', card.finding, 'is-surprise');
+  step('Why our minds do this', card.why);
+  step('Where you’ll see it', card.examples);
+  step('What it means for you', card.soWhat);
+  step('Try this', card.useThisWeek, 'is-try');
+  parts.push(steps);
+  if (Array.isArray(card.chart?.items) && card.chart.items.length > 1) parts.push(barChart(card.chart));
+  if (card.limits) parts.push(block('How sure are we?', card.limits, 'block lesson-limits'));
+  if (card.take) {
+    const remember = node('blockquote', 'lesson-remember');
+    remember.append(node('small', '', 'Remember'), richText(card.take));
+    parts.push(remember);
+  }
+  return parts;
+}
+
 export function renderArticle(story) {
   const {topic, card} = story;
   setGlossary(card.terms);
@@ -396,6 +440,19 @@ export function renderArticle(story) {
     article.append(key);
   }
 
+  if (isLessonCard(topic, card)) {
+    article.append(...lessonView(card));
+    const tail = node('div', 'tail');
+    if (card.terms?.length) {
+      const terms = node('dl', 'terms');
+      terms.append(...card.terms.flatMap(({term, meaning}) => [node('dt', '', term), node('dd', '', meaning)]));
+      tail.append(disclosure('Words used', block('Terms', terms)));
+    }
+    const links = sources(card);
+    if (links) tail.append(links);
+    if (tail.children.length) article.append(tail);
+    return article;
+  }
   const data = dataFor(topic, card);
   if (data.first) article.append(...data.lead);
   if (card.summary) article.append(paragraph(card.summary, 'lede'));
