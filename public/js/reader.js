@@ -3,7 +3,7 @@
 import { topicName } from '../topics.js';
 import { $, node, setIcon } from './dom.js';
 import { isRead, state } from './state.js';
-import { minutes } from './story.js';
+import { minutes, shareMessage } from './story.js';
 import { renderArticle } from './story-view.js';
 
 const dwell = 3000;
@@ -103,12 +103,13 @@ async function share() {
   const url = new URL(location.origin + '/');
   url.searchParams.set('edition', state.edition.date);
   url.searchParams.set('story', current.key);
-  const data = {title:current.card.headline, text:current.card.headline + ' — Morning Edition', url:url.href};
+  const message = shareMessage(current.topic, current.card);
+  const data = {title:current.card.headline, text:message + '\n\nRead it on Morning Edition:', url:url.href};
   try {
     if (navigator.share) await navigator.share(data);
     else {
-      await navigator.clipboard.writeText(url.href);
-      $('reader-announcement').textContent = 'Link copied';
+      await navigator.clipboard.writeText(data.text + '\n' + url.href);
+      $('reader-announcement').textContent = 'Story copied';
     }
   } catch { /* The share sheet was dismissed. */ }
 }

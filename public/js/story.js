@@ -59,3 +59,22 @@ export function topStories(issue, order) {
   })) ?? ['india','world','tech'].map(topic => ({story:order.find(entry => entry.topic === topic)}));
   return picks.filter(pick => pick.story);
 }
+
+// What gets sent when you share a story (WhatsApp, Messages, Mail…): a short, easy-to-read message, not a link alone.
+const firstSentences = (text, limit = 2) => String(text ?? '').trim().split(/(?<=[.!?])\s+(?=[A-Z0-9"‘“(₹])/)
+  .slice(0, limit).join(' ').trim();
+export function shareMessage(topic, card) {
+  const lines = [card.headline, ''];
+  if (card.kind === 'dashboard') lines.push(firstSentences(card.summary ?? card.soWhat, 2));
+  else if (card.symbol && card.verdict) {
+    lines.push(firstSentences(card.summary, 2));
+    const price = Number.isFinite(card.price) ? 'Price ₹' + Math.round(card.price).toLocaleString('en-IN') : null;
+    const below = Number.isFinite(card.buyBelow) ? 'buy below ₹' + Math.round(card.buyBelow).toLocaleString('en-IN') : null;
+    lines.push('', card.symbol + ': ' + [card.verdict, price, below].filter(Boolean).join(' · '));
+    lines.push('Research, not advice.');
+  } else {
+    lines.push(firstSentences(card.summary, 2));
+    if (card.soWhat) lines.push('', 'Why it matters: ' + firstSentences(card.soWhat, 1));
+  }
+  return lines.filter((line, index, all) => line || all[index - 1]).join('\n').trim();
+}

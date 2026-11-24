@@ -35,6 +35,22 @@ timer** (it can run hours late):
 - `selection.shortfall`: if fewer stocks qualified, fill only those slots with
   `{"slot": "unavailable", "unavailableReason": "<the shortfall reason>"}` and no symbol, price or verdict.
 - `recentConcepts`: psychology topics used in the last 60 days. Do not repeat them.
+- `trending.items`: **the big-story checklist**, the top headlines on Google News (India edition: Top stories,
+  India, World, Business, Technology) when GitHub prepared the file. See Step 1b.
+
+## Step 1b · Don't miss a big story
+
+Readers compare us with what Google shows for "top news India / world / tech". Before choosing stories:
+
+1. Read `trending.items` in `prepared.json`. Each has an `id` (e.g. `world1`), `feed`, `rank` and `title`.
+2. Also open news.google.com (India edition) yourself: Top stories, India, World, Business and Technology, plus
+   Google's "Top stories" for World in English. Anything big that appeared since GitHub's check belongs in the edition too.
+3. Build your 35 cards so the big stories are in them. A tech story (e.g. a famous CEO's return) goes in AI & Tech,
+   a business story in India or Markets, and so on.
+4. In the draft, add `coverage`: an object that maps **every** `trending` id to the `id` of the card that covers it,
+   or to `"skip: <reason>"`. Several ids can map to the same card. Skip only gossip, sports scores, shopping deals,
+   film releases or a repeat, and **never skip more than one of each feed's top three**: those are the stories
+   people will ask about. GitHub refuses to publish if an id is missing or mapped to a card that doesn't exist.
 
 Never add, drop, swap or reorder stocks. Never invent a number: every figure must come from `prepared.json` or a
 page you opened, and you must list that page in the card's `sources`.
@@ -42,13 +58,17 @@ page you opened, and you must list that page in the card's `sources`.
 ## Step 2 · Research and write `draft.json`
 
 Write in the voice of `docs/writing-guide.md`: plain words, start from the ground, explain every hard term, and tell
-each story in order (what happened, why, why it matters, what next). Copy the exact structure of the latest edition
+each story in order (what happened, why, why it matters, what next). Write as if texting a friend, not filing a
+report. GitHub refuses report-speak: "prepared data/history", "verified", "respectively", "attribution",
+"statistical", "commence", "trajectory", "is not automatic", "does not eliminate", "utilise" and similar. Just give
+the figure ("sales grew about 22% a year") and say things the way you would out loud. Copy the exact structure of the latest edition
 in `public/editions/`. The draft has:
 
 ```json
 {
   "date": "<date>",
   "top3": [{"cardId": "<id of a card>", "line": "One plain sentence"}, {...}, {...}],
+  "coverage": {"top1": "<card id>", "world1": "<card id>", "tech1": "skip: shopping deals, not news", ...},
   "sections": {
     "india": [5 cards], "world": [5 cards],
     "markets": {"dashboard": <card>, "cards": [4 cards]},
@@ -126,7 +146,14 @@ Then look for `drafts/<date>/errors.txt`. If it appears, read it, fix exactly wh
 `drafts/<date>/`. If `public/editions/<date>.json` has appeared, you are done. After 10:00 the edition is labelled
 late automatically; still publish.
 
-Finish with a two-line summary: published or not (and why), the Top 3 headlines, and the five stocks.
+Finish with a short message that's easy to read on a phone, like this:
+
+```
+✅ Published 24 Nov (or ❌ Not published: <one-line reason>)
+Top 3: <headline> · <headline> · <headline>
+Stocks: <SYMBOL> Buy · <SYMBOL> Wait · …
+Big stories skipped: <none, or which and why>
+```
 
 ## Explicit current-day refresh
 

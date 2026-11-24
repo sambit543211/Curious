@@ -4,6 +4,7 @@ import { selectStocks } from '../lib/stock-selection.js';
 import { buildStockInput } from '../lib/stock-input.js';
 import { getDeck, indianDay, isDay, isSunday, sourceLink } from '../public/edition-format.js';
 import { makeLedger, readCloses } from '../lib/track-record.js';
+import { fetchTrending } from '../lib/trending.js';
 
 export async function fetchInput(entry, date, key) {
   if (!entry) throw new Error('Missing ' + key + ' input');
@@ -86,5 +87,8 @@ if (process.argv[1]?.endsWith('prepare-v2.mjs')) {
   const [date = indianDay(),fundamentals,market] = process.argv.slice(2);
   const options = {fundamentals:fundamentals || undefined,market:market || undefined,
     stage:process.env.MORNING_PREPARE_STAGE ?? 'all'};
-  console.log(JSON.stringify(await prepareInputs(date,options,await readHistory()),null,2));
+  const prepared = await prepareInputs(date,options,await readHistory());
+  // The morning checklist of big stories (Google News top headlines) the writer must cover or explain.
+  if (options.stage === 'draft' && process.env.MORNING_TRENDING !== 'off') prepared.trending = await fetchTrending();
+  console.log(JSON.stringify(prepared,null,2));
 }

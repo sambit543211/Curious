@@ -11,7 +11,7 @@ still follows. Every story answers four questions in order: **What happened? Why
 should I care? What happens next?** The reader should finish a card and be able to explain it to
 someone else.
 
-## Ten rules
+## Eleven rules
 
 1. **Open with the plain fact, not the jargon.** "A cyclone is heading for Odisha." Not "IMD's
    02:35 IST bulletin forecasts…". Put the source and time in the sources list, not the first line.
@@ -33,7 +33,10 @@ someone else.
    Not "attribution remains provisional".
 9. **Say what it means for the reader**, concretely: their money, their commute, their job, their
    health, their decisions.
-10. **No filler.** Avoid "amid", "in a significant move", "it remains to be seen", "watch whether",
+10. **No report-speak.** Don't write "prepared five-year history", "verified close", "respectively",
+    "attribution", "statistical", "commence", "is not automatic" or "does not eliminate". Say it the way you'd
+    say it out loud: "Over five years, sales grew about 22% a year." The publishing check rejects these words.
+11. **No filler.** Avoid "amid", "in a significant move", "it remains to be seen", "watch whether",
     "could disrupt", "landscape", "robust", "leverage" (as a verb), "going forward".
 
 ## What each field is for

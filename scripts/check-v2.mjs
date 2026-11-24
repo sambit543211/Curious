@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { figuresStated, roughly, assembleEdition, eligibleStocks, marketDashboard, publicationErrors, snapshotNames } from '../lib/edition-v2.js';
+import { figuresStated, stiffWords, roughly, assembleEdition, eligibleStocks, marketDashboard, publicationErrors, snapshotNames } from '../lib/edition-v2.js';
 import { getDeck, isEdition } from '../public/edition-format.js';
 import { makeLedger } from '../lib/track-record.js';
 import { selectStocks } from '../lib/stock-selection.js';
@@ -7,6 +7,7 @@ import { dipCheck } from '../public/investment-rules.js';
 import { mergeStockInput, parseBhavcopy, parseRange } from '../lib/stock-input.js';
 import { parseCompany } from '../lib/screener.js';
 import { evaluatePick } from '../public/investment-rules.js';
+import { coverageProblems, parseFeed } from '../lib/trending.js';
 
 const source = {label:'Sandbox source fixture',url:'https://example.org/fixture'};
 const date = '2026-11-18';
@@ -252,3 +253,19 @@ assert.ok(roughly(27, 26.86) && roughly(35, 34.87) && roughly(7600, 7599.48) && 
 assert.ok(!roughly(222, 25.04) && !roughly(40, 34.87), 'unsourced or wrong figures fail');
 assert.ok(figuresStated('7.6%', {summary:'Economists expect 7.6% growth.'}) && figuresStated('90–100 km/h', {summary:'Winds of 90–100 km/h.'}), 'stated figures pass');
 assert.ok(!figuresStated('9%', {summary:'Economists expect 7.6% growth.'}), 'a key number the story never states fails');
+
+// The big-story checklist: every trending headline is covered by a card or skipped for a reason.
+const feedXml = '<rss><channel><item><title>Jensen Huang Is Back At Nvidia - NDTV</title><link>https://news.google.com/a</link><source url="https://ndtv.com">NDTV</source><description>&lt;ol&gt;&lt;li&gt;x&lt;/li&gt;&lt;li&gt;y&lt;/li&gt;&lt;/ol&gt;</description></item></channel></rss>';
+assert.deepEqual(parseFeed(feedXml).map(item => [item.title, item.source, item.related]), [['Jensen Huang Is Back At Nvidia', 'NDTV', 2]], 'Google News items parse');
+const trend = {items:[{id:'world1', feed:'World', rank:1, title:'A'}, {id:'world2', feed:'World', rank:2, title:'B'}, {id:'world3', feed:'World', rank:3, title:'C'}, {id:'world4', feed:'World', rank:4, title:'D'}]};
+const ids = new Set(['c1', 'c2']);
+assert.deepEqual(coverageProblems(trend, {world1:'c1', world2:'c2', world3:'skip: a celebrity rumour only', world4:'skip: minor local sports score'}, ids), [], 'covered or reasoned skips pass');
+assert.equal(coverageProblems(trend, {world1:'c1', world2:'c2', world3:'skip: a celebrity rumour only'}, ids).length, 1, 'a missing headline fails');
+assert.equal(coverageProblems(trend, {world1:'skip: not important really', world2:'skip: not important either', world3:'c1', world4:'c2'}, ids).length, 1, 'skipping two of a feed\'s top three fails');
+assert.equal(coverageProblems(trend, {world1:'c9', world2:'c2', world3:'c1', world4:'skip: no'}, ids).length, 2, 'unknown card ids and empty reasons fail');
+assert.deepEqual(coverageProblems(null, {}, ids), [], 'no checklist, no check');
+console.log('Validated the big-story checklist.');
+const stiff = text => stiffWords.filter(([pattern]) => pattern.test(text)).length;
+assert.equal(stiff('Its prepared five-year history shows verified growth of 22% and 27% respectively.'), 3, 'report-speak is caught');
+assert.equal(stiff('Sales grew about 22% a year. The plan was prepared by the ministry.'), 0, 'plain words pass');
+console.log('Validated the plain-words check.');
