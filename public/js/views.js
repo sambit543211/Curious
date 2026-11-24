@@ -1,4 +1,4 @@
-// Tab switching, the top bar that condenses on scroll, and the section chips.
+// Tab switching (tabs at the top) and the section shortcuts in the bottom bar, which follow your scroll.
 import { $ } from './dom.js';
 
 const tabs = ['today', 'editions', 'stocks', 'settings'];
@@ -19,6 +19,7 @@ export function showTab(tab, {scroll = true} = {}) {
     else link.removeAttribute('aria-current');
   }
   $('resume').hidden = active !== 'today';
+  $('sectionbar').hidden = active !== 'today';
   $('topbar-title').textContent = active === 'today' ? todayTitle : titles[active];
   $('topbar-meta').hidden = active !== 'today';
   if (scroll) window.scrollTo({top:0});
@@ -28,20 +29,18 @@ export function showTab(tab, {scroll = true} = {}) {
 
 function update() {
   ticking = false;
-  const bar = $('topbar');
-  const barBottom = bar.getBoundingClientRect().bottom;
-  const title = $('view-' + active).querySelector('.large-title');
-  bar.classList.toggle('is-condensed', !!title && title.getBoundingClientRect().bottom < barBottom - 4);
+  if (active !== 'today') return;
+  const barBottom = $('topbar').getBoundingClientRect().bottom;
   let current = null;
-  if (active === 'today') {
-    for (const section of document.querySelectorAll('#sections .topic')) {
-      if (section.getBoundingClientRect().top <= barBottom + 64) current = section.dataset.topic;
-    }
+  for (const section of document.querySelectorAll('#sections .topic')) {
+    if (section.getBoundingClientRect().top <= barBottom + 64) current = section.dataset.topic;
   }
-  bar.classList.toggle('has-chips', !!current);
   for (const chip of $('chips').children) {
     const on = chip.dataset.topic === current;
-    if (on && chip.getAttribute('aria-current') !== 'true') chip.scrollIntoView({block:'nearest', inline:'center'});
+    if (on && chip.getAttribute('aria-current') !== 'true') {
+      const strip = $('chips');
+      strip.scrollTo({left:chip.offsetLeft - (strip.clientWidth - chip.offsetWidth) / 2, behavior:'smooth'});
+    }
     chip.setAttribute('aria-current', String(on));
   }
 }

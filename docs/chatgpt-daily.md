@@ -60,7 +60,7 @@ in `public/editions/`. The draft has:
 
 Every card: `id` (unique, e.g. `"<date>-akvan"`), `rank` (1–5 within its section), `label`, `headline` (12 words or
 fewer), `summary`, `why`, `soWhat`, `take`, `watch` (together 80–170 words), `terms` (array, may be empty), `image`
-(`null` unless you have a licensed photo, see below), and `sources` (`[{label, url}]`, pages you actually opened).
+(`null`; GitHub adds the photo, see below), `photo`, and `sources` (`[{label, url}]`, pages you actually opened).
 Optional: `keyNumber` and `chart` (see the writing guide).
 
 Section extras, as in the latest edition:
@@ -78,8 +78,15 @@ Section extras, as in the latest edition:
 - **marketing**: three India campaigns then two Global; `region`, `brand`, `agency`, `objective`, `insight`,
   `channels`, `results` (only published results; otherwise say none were published).
 
-Images (optional): `{"url", "credit", "alt", "sourceUrl"}`, only for a photo you may reuse (an official handout or
-Wikimedia Commons with its licence). `sourceUrl` must also be in the card's `sources`. Otherwise `"image": null`.
+Photos: every news card should show a real photo, and GitHub adds them for you after publishing. It takes the
+lead photo of the first news article in the card's `sources` and credits that publisher. So:
+- In every India, World, Tech and Marketing card, list **at least one news article** (not only a government
+  press release or PDF) among the first three `sources`.
+- Add `"photo": "<exact English Wikipedia article title>"` to every card as a fallback picture of the place, person,
+  company or thing the story is about (e.g. `"Odisha"`, `"Reserve Bank of India"`, `"Solomon Asch"`). GitHub uses that
+  article's main image from Wikimedia Commons when the news site has none.
+- Leave `"image": null`. If you supply a photo yourself, use `{"url", "credit", "alt", "sourceUrl"}`, with
+  `sourceUrl` also in the card's `sources`.
 
 ## Step 3 · Write `market.json` (after 09:45 IST; skip on Sundays)
 

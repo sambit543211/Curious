@@ -43,7 +43,13 @@
         "take": "Consultation earns credibility through published commitments and meaningful local participation.",
         "watch": "Look for a dated consultation timetable and detailed rehabilitation terms.",
         "terms": [],
-        "image": null,
+        "image": {
+          "url": "https://www.deccanchronicle.com/h-upload/2026/11/21/2116364-untitled-design-72.jpg",
+          "credit": "Photo: Deccan Chronicle",
+          "alt": "Amit Shah Assures",
+          "sourceUrl": "https://www.deccanchronicle.com/news/current-affairs/arunachal-pradesh-amit-shah-assures-dialogue-to-address-concerns-on-siang-dam-project-2006600",
+          "auto": true
+        },
         "sources": [
           {
             "label": "Deccan Chronicle · 21 Nov",
@@ -238,7 +244,13 @@
         "take": "A precise schedule remains a prediction until the spacecraft confirms it.",
         "watch": "Check JAXA or ESA for a confirmed orbital-capture status report.",
         "terms": [],
-        "image": null,
+        "image": {
+          "url": "https://jspacenews.com/og/missions-bepicolombo-mercury-orbit-capture-schedule-jaxa-fact-sheet-november-2026.jpg",
+          "credit": "Photo: Jspace News",
+          "alt": "BepiColombo set to enter Mercury orbit on November 21",
+          "sourceUrl": "https://jspacenews.com/missions/bepicolombo-mercury-orbit-capture-schedule-jaxa-fact-sheet-november-2026/",
+          "auto": true
+        },
         "sources": [
           {
             "label": "Jspace · 21 Nov; links JAXA fact sheet and mission status",
@@ -1212,7 +1224,13 @@
         "take": "A reproducible test is more informative than a spectacular single demonstration.",
         "watch": "Check independent task results and the platform’s current availability conditions.",
         "terms": [],
-        "image": null,
+        "image": {
+          "url": "https://cdn.prod.website-files.com/69654e88dce9154b5f12070c/6b01fce39084a4a443ffe779_2026-11-19-qwen4-max-og-image.png",
+          "credit": "Photo: together.ai",
+          "alt": "Qwen4 Max is live on Together AI",
+          "sourceUrl": "https://www.together.ai/blog/qwen4-max",
+          "auto": true
+        },
         "sources": [
           {
             "label": "Together AI · 21 Nov platform launch",
@@ -1234,7 +1252,13 @@
         "take": "Local control is useful when you also control what the model can do.",
         "watch": "Check the model card’s hardware requirements and independent reliability tests.",
         "terms": [],
-        "image": null,
+        "image": {
+          "url": "https://thinkingmachines.ai/news/inkling-2-mini/images/cover-social.png",
+          "credit": "Photo: Thinking Machines Lab",
+          "alt": "Introducing Inkling 2 Mini",
+          "sourceUrl": "https://thinkingmachines.ai/news/inkling-2-mini/",
+          "auto": true
+        },
         "sources": [
           {
             "label": "Thinking Machines · launch dated 20 Nov; weekend review",
@@ -1278,7 +1302,13 @@
         "take": "Judge the learning opportunity by its working facilities and teaching.",
         "watch": "Check official admissions notices and which laboratories are operational.",
         "terms": [],
-        "image": null,
+        "image": {
+          "url": "https://static.pib.gov.in/WriteReadData/userfiles/image/image001LYJP.jpg",
+          "credit": "Photo: pib.gov.in",
+          "alt": "NIELIT to Establish India’s First Dedicated Quantum & AI University Campus in Amaravati",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2231125&lang=1&reg=6",
+          "auto": true
+        },
         "sources": [
           {
             "label": "NIELIT/MeitY original university agreement · February background",
@@ -1481,7 +1511,13 @@
         "take": "An experience works best when the brand naturally enables participation.",
         "watch": "Check booking-request availability tomorrow and later published attendance or response.",
         "terms": [],
-        "image": null,
+        "image": {
+          "url": "https://news-assets.withairbnb.com/wp-content/uploads/sites/21/2026/11/image_5b9ee6.png?quality=75&w=1200",
+          "credit": "Photo: Airbnb Newsroom",
+          "alt": "The Raichand House, now on Airbnb",
+          "sourceUrl": "https://news.airbnb.com/en-in/the-raichand-house-now-on-airbnb",
+          "auto": true
+        },
         "sources": [
           {
             "label": "Airbnb · 18 Nov announcement; bookings open 23 Nov",
@@ -1508,7 +1544,13 @@
         "take": "Good placement can do part of the storytelling for you.",
         "watch": "Look for published brand-recall or retail-conversion evidence from the airport activity.",
         "terms": [],
-        "image": null,
+        "image": {
+          "url": "https://www.media4growth.com/wp-content/uploads/2026/11/M4G_Thumbnail_1000x600_Tilda-1.jpg",
+          "credit": "Photo: Media4Growth",
+          "alt": "Delhi",
+          "sourceUrl": "https://www.media4growth.com/showcase/campaigns/tilda-takes-feel-home-campaign-to-airports-in-delhi-and-toronto-87520",
+          "auto": true
+        },
         "sources": [
           {
             "label": "Media4Growth · 20 Nov campaign report",
@@ -1535,7 +1577,13 @@
         "take": "A cultural statement needs a believable role for the brand.",
         "watch": "Look for substantive audience response and any published behaviour-change measurement.",
         "terms": [],
-        "image": null,
+        "image": {
+          "url": "https://www.medianews4u.com/wp-content/uploads/2026/11/Frido-launches-%E2%80%98Mard-Ko-Bhi-Dard-Hota-Hai-campaign.png",
+          "credit": "Photo: MediaNews4U",
+          "alt": "Frido",
+          "sourceUrl": "https://www.medianews4u.com/frido-launches-mard-ko-bhi-dard-hota-hai-campaign-for-international-mens-day/",
+          "auto": true
+        },
         "sources": [
           {
             "label": "MediaNews4U · 18 Nov campaign",
@@ -1562,7 +1610,13 @@
         "take": "Thoughtfulness is persuasive when the product choice makes it visible.",
         "watch": "Check published brand-lift results and the stated charity contribution after sales.",
         "terms": [],
-        "image": null,
+        "image": {
+          "url": "https://www.johnlewispartnership.co.uk/~/media/Images/J/john-lewis/corp/latest-news/2026/23969.jpg",
+          "credit": "Photo: John Lewis Partnership",
+          "alt": "‘Don’t give up on giving’: John Lewis unveils its 2026 Christmas advert",
+          "sourceUrl": "https://www.johnlewispartnership.co.uk/media-centre/latest-news/2026/23969",
+          "auto": true
+        },
         "sources": [
           {
             "label": "John Lewis · 3 Nov launch",
@@ -1589,7 +1643,13 @@
         "take": "Continuity pays off when the product still matters to the story.",
         "watch": "Look for completed-view rates and attributable product sales, if published.",
         "terms": [],
-        "image": null,
+        "image": {
+          "url": "https://www.johnlewispartnership.co.uk/~/media/Images/J/john-lewis/corp/latest-news/2026/23972.jpg",
+          "credit": "Photo: John Lewis Partnership",
+          "alt": "The sequel is served: Waitrose serves up another festive helping",
+          "sourceUrl": "https://www.johnlewispartnership.co.uk/media-centre/latest-news/2026/23972",
+          "auto": true
+        },
         "sources": [
           {
             "label": "Waitrose · 10 Nov launch",

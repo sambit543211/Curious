@@ -70,7 +70,8 @@ export function cover(story, className = 'cover') {
     img.loading = 'lazy';
     img.decoding = 'async';
     img.referrerPolicy = 'no-referrer';
-    img.addEventListener('error', () => img.remove());
+    // A photo that fails to load falls back to the section artwork.
+    img.addEventListener('error', () => { img.remove(); art.querySelector('.cover-credit')?.remove(); art.append(icon(story.topic, 'cover-mark')); });
     art.append(img);
     if (story.card.image.credit) art.append(node('small', 'cover-credit', story.card.image.credit));
   } else art.append(icon(story.topic, 'cover-mark'));
@@ -131,7 +132,9 @@ function storyRow(story, featured = false) {
       row.append(art);
     }
     row.append(text);
-    if (card.keyNumber?.value && !featured) row.append(keyBadge(card.keyNumber));
+    const photo = !featured && card.image?.url;
+    if (photo) row.append(cover(story, 'cover cover-thumb'));
+    else if (card.keyNumber?.value && !featured) row.append(keyBadge(card.keyNumber));
     row.append(icon('done', 'check'));
   }
   row.addEventListener('click', () => handlers.onOpen(row, story.key));
@@ -185,7 +188,9 @@ export function renderHome() {
     return bar;
   }));
   $('chips').replaceChildren(...topics.map(topic => {
-    const chip = node('button', 'chip', topicName(topic).replace('Stock Investing', 'Stocks').replace('Indian Markets', 'Markets'));
+    const chip = node('button', 'chip');
+    chip.append(icon(topic), node('span', '', topicName(topic).replace('Stock Investing', 'Stocks').replace('Indian Markets', 'Markets')));
+    chip.style.setProperty('--topic', topicById[topic]?.color ?? 'var(--accent)');
     chip.type = 'button';
     chip.dataset.topic = topic;
     chip.addEventListener('click', () => {

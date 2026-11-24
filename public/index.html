@@ -36,7 +36,6 @@
     <p class="topbar-title" id="topbar-title" aria-hidden="true"></p>
     <span class="topbar-meta" id="topbar-meta" aria-hidden="true"></span>
   </div>
-  <nav class="chips" id="chips" aria-label="Jump to a section"></nav>
 </header>
 
 <main id="app">
@@ -102,6 +101,11 @@
         <h1 class="large-title" id="stocks-title">Stocks</h1>
         <p>Screened research on Indian listed companies, and how earlier picks have done since.</p>
       </div>
+      <div class="filters" id="stock-filters" role="group" aria-label="Filter stocks">
+        <div class="filter-row" id="filter-verdict"><span class="filter-label">Verdict</span></div>
+        <div class="filter-row" id="filter-size"><span class="filter-label">Size</span></div>
+        <div class="filter-row"><span class="filter-label">Sector</span><select id="filter-sector" aria-label="Sector"><option value="">All sectors</option></select><span class="filter-count" id="filter-count"></span></div>
+      </div>
       <section aria-labelledby="picks-title">
         <h2 class="section-title" id="picks-title">In this edition</h2>
         <ul class="pick-list" id="stock-picks"></ul>
@@ -109,8 +113,8 @@
       </section>
       <section aria-labelledby="track-title">
         <div class="track-bar">
-          <h2 class="section-title" id="track-title">Track record</h2>
-          <label>Sort <select id="sort"><option value="date">Newest</option><option value="best">Best return</option><option value="worst">Worst return</option><option value="symbol">A–Z</option></select></label>
+          <h2 class="section-title" id="track-title">All stocks so far</h2>
+          <label>Sort <select id="sort"><option value="date">Newest</option><option value="best">Best return</option><option value="worst">Worst return</option><option value="symbol">A–Z</option><option value="sector">Sector</option><option value="cheap">Cheapest vs usual</option></select></label>
         </div>
         <div class="stats" id="stats" hidden></div>
         <p class="empty" id="track-status" role="status">Loading pick history…</p>
@@ -155,12 +159,7 @@
   <span class="fab-go"><span data-icon="arrow"></span></span>
 </button>
 
-<nav class="tabbar" aria-label="Main">
-  <a class="tab" href="#today" data-tab="today"><span data-icon="sunrise"></span>Today</a>
-  <a class="tab" href="#editions" data-tab="editions"><span data-icon="calendar"></span>Editions</a>
-  <a class="tab" href="#stocks" data-tab="stocks"><span data-icon="chart"></span>Stocks</a>
-  <a class="tab" href="#settings" data-tab="settings"><span data-icon="sliders"></span>Settings</a>
-</nav>
+<nav class="sectionbar" id="sectionbar" aria-label="Jump to a section"><div class="chips" id="chips"></div></nav>
 
 <dialog class="reader" id="reader" aria-labelledby="reader-title">
   <header class="reader-bar" id="reader-bar">

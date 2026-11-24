@@ -36,7 +36,7 @@ jobs:
           fi
           MARKET="$DIR/market.json"
           if [ "$(TZ=Asia/Kolkata date -d "$DATE" +%u)" = 7 ]; then MARKET=""; elif [ ! -f "$MARKET" ]; then echo "Waiting for market.json"; echo "RESULT=skip" >> "$GITHUB_ENV"; exit 0; fi
-          if { node scripts/publish-v2.mjs "$DIR/draft.json" "" "$MARKET" $REPLACE && npm run -s build && npm run -s check; } > "$DIR/publish.log" 2>&1; then
+          if { node scripts/publish-v2.mjs "$DIR/draft.json" "" "$MARKET" $REPLACE && { node scripts/add-photos.mjs "public/editions/$DATE.json" || true; } && npm run -s build && npm run -s check; } > "$DIR/publish.log" 2>&1; then
             rm -f "$DIR/errors.txt" "$DIR/publish.log"
             echo "RESULT=published" >> "$GITHUB_ENV"
           else

@@ -1,5 +1,5 @@
 // Builds the article for one story in the reader.
-import { dipCheck, dipLabels, isPosition, metricLabels, researchFooter, screenLabels } from '../investment-rules.js';
+import { dipCheck, dipLabels, isPosition, metricLabels, researchFooter, scorecard, screenLabels } from '../investment-rules.js';
 import { sourceLink } from '../edition-format.js';
 import { icon, node } from './dom.js';
 import { dayAndMonth, formatNumber, percent, rupees, trend } from './format.js';
@@ -203,9 +203,24 @@ function dashboard(card) {
   return {lead, later};
 }
 
-const keyMetrics = {financial:['roa', 'grossNpa', 'car', 'pb'], other:['roce5y', 'de', 'salesCagr5y', 'profitCagr5y']};
-const shortMetric = {roa:'Return on assets', grossNpa:'Bad loans', car:'Capital buffer', pb:'Price to book', roce5y:'Return on capital', de:'Debt to equity', salesCagr5y:'Sales growth/yr', profitCagr5y:'Profit growth/yr'};
-const percentMetric = new Set(['roa', 'grossNpa', 'car', 'roce5y', 'salesCagr5y', 'profitCagr5y']);
+// The fundamentals scorecard: every metric with a plain benchmark and a good / okay / weak mark.
+const marks = {good:'Good', ok:'Okay', weak:'Weak'};
+function scoreBlock(rows) {
+  const graded = rows.filter(row => row.status);
+  const good = graded.filter(row => row.status === 'good').length;
+  const list = node('ul', 'scores');
+  list.append(...rows.map(row => {
+    const item = node('li', 'score' + (row.status ? ' is-' + row.status : ''));
+    const text = node('span', 'score-text');
+    text.append(node('span', 'score-name', row.name), node('small', '', row.hint));
+    const side = node('span', 'score-side');
+    side.append(node('strong', '', row.value));
+    if (row.status) side.append(node('span', 'score-mark', marks[row.status]));
+    item.append(text, side);
+    return item;
+  }));
+  return block('The fundamentals · ' + good + ' of ' + graded.length + ' look good', list, 'block scorecard');
+}
 
 function priceScale(card) {
   const {price, buyBelow, fairValue} = card;
@@ -280,12 +295,8 @@ function stockPick(card) {
   if (card.repeat) lead.push(node('p', 'fine', 'Repeat from ' + dayAndMonth(card.repeat.lastDate) + ': ' + card.repeat.reason + '.'));
   if (card.thesis?.length) lead.push(block('Good signs', checklist(card.thesis)));
   const kind = card.kind === 'bank' || card.kind === 'nbfc' ? 'financial' : 'other';
-  const metrics = keyMetrics[kind].filter(key => Number.isFinite(card.metrics?.[key]));
-  if (metrics.length) {
-    const grid = node('div', 'grid-4');
-    grid.append(...metrics.map(key => stat(shortMetric[key], formatNumber(card.metrics[key]) + (percentMetric.has(key) ? '%' : ''))));
-    lead.push(grid);
-  }
+  const scores = scorecard(card);
+  if (scores.length) lead.push(scoreBlock(scores));
   const [today, usual, name] = kind === 'financial' ? [card.metrics?.pb, card.metrics?.pbMedian5y, 'book value'] : [card.metrics?.pe, card.metrics?.peMedian5y, 'yearly profit'];
   if ([today, usual].every(Number.isFinite)) {
     lead.push(barChart({title:'Price tag: today vs its usual', unit:'×', items:[{label:'Today', value:today}, {label:'5-year usual', value:usual}],

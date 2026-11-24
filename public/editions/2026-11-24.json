@@ -48,7 +48,13 @@
             "meaning": "Taxes charged on goods brought into a country"
           }
         ],
-        "image": null,
+        "image": {
+          "url": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-01/28/thumb/fitandfill/1200X628/1769624564-9844.jpg",
+          "credit": "Photo: business-standard.com",
+          "alt": "India-EU trade deal may come into force by mid-2027, says EU Ambassador",
+          "sourceUrl": "https://www.business-standard.com/economy/news/india-eu-trade-deal-may-come-into-force-by-mid-2027-says-eu-ambassador-126112400064_1.html",
+          "auto": true
+        },
         "sources": [
           {
             "label": "Business Standard · EU ambassador",
@@ -82,7 +88,8 @@
             "accessedOn": "2026-11-24"
           }
         ],
-        "beat": "policy"
+        "beat": "policy",
+        "photo": "Coal mining in India"
       },
       {
         "id": "2026-11-24-nsel-settlement",
@@ -108,7 +115,8 @@
             "accessedOn": "2026-11-24"
           }
         ],
-        "beat": "business"
+        "beat": "business",
+        "photo": "National Spot Exchange"
       },
       {
         "id": "2026-11-24-anaemia-survey",
@@ -126,19 +134,30 @@
             "meaning": "The protein in blood that carries oxygen"
           }
         ],
-        "image": null,
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Iron_deficiency_anemia_blood_film.jpg/960px-Iron_deficiency_anemia_blood_film.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "credit": "Photo: Wikimedia Commons",
+          "alt": "Anemia",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Anemia",
+          "auto": true
+        },
         "sources": [
           {
             "label": "Official release / research",
             "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2340476&reg=48&lang=2",
             "accessedOn": "2026-11-24"
+          },
+          {
+            "label": "Wikipedia · Anemia",
+            "url": "https://en.wikipedia.org/wiki/Anemia"
           }
         ],
         "beat": "society",
         "keyNumber": {
           "value": "56%",
           "label": "Women of reproductive age affected"
-        }
+        },
+        "photo": "Anaemia"
       },
       {
         "id": "2026-11-24-sebi-chat-impersonation",
@@ -156,15 +175,26 @@
             "meaning": "Registered firms connecting investors with financial-market services"
           }
         ],
-        "image": null,
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Securities_Exchange_Board_of_India.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "credit": "Photo: Wikimedia Commons",
+          "alt": "Securities and Exchange Board of India",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Securities_and_Exchange_Board_of_India",
+          "auto": true
+        },
         "sources": [
           {
             "label": "Official release / research",
             "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/caution-to-investors-regarding-impersonation-of-sebi-registered-intermediaries-on-closed-user-groups-of-social-media-platforms_105944.html",
             "accessedOn": "2026-11-24"
+          },
+          {
+            "label": "Wikipedia · Securities and Exchange Board of India",
+            "url": "https://en.wikipedia.org/wiki/Securities_and_Exchange_Board_of_India"
           }
         ],
-        "beat": "wildcard"
+        "beat": "wildcard",
+        "photo": "Securities and Exchange Board of India"
       }
     ],
     "world": [
@@ -184,16 +214,27 @@
             "meaning": "A defence alliance of European and North American countries"
           }
         ],
-        "image": null,
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/E-3_Sentry_Airborne_Warning_and_Control_System_%28AWACS%29_conducts_a_mission.jpg/960px-E-3_Sentry_Airborne_Warning_and_Control_System_%28AWACS%29_conducts_a_mission.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "credit": "Photo: Wikimedia Commons",
+          "alt": "Boeing E-3 Sentry",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Boeing_E-3_Sentry",
+          "auto": true
+        },
         "sources": [
           {
             "label": "Reuters · NATO deployment",
             "url": "https://www.investing.com/news/world-news/nato-to-send-earlywarning-system-aircraft-to-poland-after-missiles-incident-5046190",
             "accessedOn": "2026-11-24"
+          },
+          {
+            "label": "Wikipedia · Boeing E-3 Sentry",
+            "url": "https://en.wikipedia.org/wiki/Boeing_E-3_Sentry"
           }
         ],
         "beat": "geopolitics",
-        "indiaLink": "European escalation matters for Indian exporters, travellers and energy-risk assumptions."
+        "indiaLink": "European escalation matters for Indian exporters, travellers and energy-risk assumptions.",
+        "photo": "Boeing E-3 Sentry"
       },
       {
         "id": "2026-11-24-gaza-water-worker",
@@ -211,16 +252,27 @@
             "meaning": "United Nations, the international organisation of member countries"
           }
         ],
-        "image": null,
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Images_of_war_23-25_from_Gaza%2C_by_Jaber_Badwen%2C_IMG_6315.jpg/960px-Images_of_war_23-25_from_Gaza%2C_by_Jaber_Badwen%2C_IMG_6315.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "credit": "Photo: Wikimedia Commons",
+          "alt": "Gaza City",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Gaza_City",
+          "auto": true
+        },
         "sources": [
           {
             "label": "Reuters · agency and medics",
             "url": "https://www.channelnewsasia.com/world/israeli-strikes-kill-least-three-in-gaza-including-worker-un-palestinian-agency-6575821",
             "accessedOn": "2026-11-24"
+          },
+          {
+            "label": "Wikipedia · Gaza City",
+            "url": "https://en.wikipedia.org/wiki/Gaza_City"
           }
         ],
         "beat": "geopolitics",
-        "indiaLink": "India’s humanitarian diplomacy is better assessed through civilian access and service continuity."
+        "indiaLink": "India’s humanitarian diplomacy is better assessed through civilian access and service continuity.",
+        "photo": "Gaza City"
       },
       {
         "id": "2026-11-24-singapore-growth",
@@ -238,16 +290,27 @@
             "meaning": "Goods and services produced by an economy"
           }
         ],
-        "image": null,
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Port_of_Singapore.jpg/960px-Port_of_Singapore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "credit": "Photo: Wikimedia Commons",
+          "alt": "Port of Singapore",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Port_of_Singapore",
+          "auto": true
+        },
         "sources": [
           {
             "label": "Reuters · government growth data",
             "url": "https://www.reuters.com/markets/asia/singapore-third-quarter-gdp-grows-61-2026-11-24/",
             "accessedOn": "2026-11-24"
+          },
+          {
+            "label": "Wikipedia · Port of Singapore",
+            "url": "https://en.wikipedia.org/wiki/Port_of_Singapore"
           }
         ],
         "beat": "economy",
-        "indiaLink": "Singapore is a regional commercial hub for Indian technology, finance and trade."
+        "indiaLink": "Singapore is a regional commercial hub for Indian technology, finance and trade.",
+        "photo": "Port of Singapore"
       },
       {
         "id": "2026-11-24-malaysia-chip-policy",
@@ -265,7 +328,13 @@
             "meaning": "The organisation or person ultimately using a product"
           }
         ],
-        "image": null,
+        "image": {
+          "url": "https://www.devdiscourse.com/img?imageUrl=https://devdiscourse.blob.core.windows.net/imagegallery/11_03_2020_13_37_11_6036339.jpg&width=920&format=jpeg",
+          "credit": "Photo: Devdiscourse",
+          "alt": "US chip curbs won&#x27;t impact Malaysia&#x27;s China ties, PM says | International",
+          "sourceUrl": "https://www.devdiscourse.com/article/international/4011080-us-chip-curbs-wont-impact-malaysias-china-ties-pm-says",
+          "auto": true
+        },
         "sources": [
           {
             "label": "Reuters · Anwar interview",
@@ -292,16 +361,27 @@
             "meaning": "An area where aircraft are monitored before approaching airspace"
           }
         ],
-        "image": null,
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Ulleung_island_from_above.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "credit": "Photo: Wikimedia Commons",
+          "alt": "Ulleungdo",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ulleungdo",
+          "auto": true
+        },
         "sources": [
           {
             "label": "Yonhap · military clarification",
             "url": "https://en.yna.co.kr/view/AEN20261124002200315",
             "accessedOn": "2026-11-24"
+          },
+          {
+            "label": "Wikipedia · Ulleungdo",
+            "url": "https://en.wikipedia.org/wiki/Ulleungdo"
           }
         ],
         "beat": "wildcard",
-        "indiaLink": "Indian travellers and businesses in East Asia need corrected safety information, not alarming stale alerts."
+        "indiaLink": "Indian travellers and businesses in East Asia need corrected safety information, not alarming stale alerts.",
+        "photo": "Ulleungdo"
       }
     ],
     "markets": {
@@ -1749,7 +1829,13 @@
             "meaning": "An early release still being tested and refined"
           }
         ],
-        "image": null,
+        "image": {
+          "url": "https://claude.com/resources/articles/introducing-claude-ship/opengraph-image/og",
+          "credit": "Photo: Claude",
+          "alt": "Introducing Claude Ship",
+          "sourceUrl": "https://claude.com/resources/articles/introducing-claude-ship",
+          "auto": true
+        },
         "sources": [
           {
             "label": "Anthropic · launch, 23 November",
@@ -1789,7 +1875,8 @@
           }
         ],
         "beat": "launch",
-        "tryThis": "Compare model documentation against a small set of public health questions with known authoritative answers."
+        "tryThis": "Compare model documentation against a small set of public health questions with known authoritative answers.",
+        "photo": "Ant Group"
       },
       {
         "id": "2026-11-24-australia-online-duty",
@@ -1811,7 +1898,13 @@
             "meaning": "A company’s total sales across all countries"
           }
         ],
-        "image": null,
+        "image": {
+          "url": "https://www.devdiscourse.com/img?imageUrl=https://devdiscourse.blob.core.windows.net/imagegallery/25_06_2019_19_11_55_1876187.jpg&width=920&format=jpeg",
+          "credit": "Photo: Devdiscourse",
+          "alt": "Tech giants to face billions of dollars in fines under Australian internet safety bill | International",
+          "sourceUrl": "https://www.devdiscourse.com/article/international/4011076-tech-giants-to-face-billions-of-dollars-in-fines-under-australian-internet-safety-bill",
+          "auto": true
+        },
         "sources": [
           {
             "label": "Australian government · bill background",
@@ -1852,7 +1945,8 @@
           }
         ],
         "beat": "india",
-        "tryThis": "Write a pilot plan naming the clinical decision, comparison standard and failure threshold before choosing a model."
+        "tryThis": "Write a pilot plan naming the clinical decision, comparison standard and failure threshold before choosing a model.",
+        "photo": "Tata Memorial Hospital"
       },
       {
         "id": "2026-11-24-crowdstrike-zscaler",
@@ -1870,16 +1964,27 @@
             "meaning": "A transaction paid using shares rather than cash"
           }
         ],
-        "image": null,
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/150_Mathilda_Place.jpg/960px-150_Mathilda_Place.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "credit": "Photo: Wikimedia Commons",
+          "alt": "CrowdStrike",
+          "sourceUrl": "https://en.wikipedia.org/wiki/CrowdStrike",
+          "auto": true
+        },
         "sources": [
           {
             "label": "CrowdStrike · merger announcement, 23 November",
             "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-zscaler-bringing-network-security-and-zero/",
             "accessedOn": "2026-11-24"
+          },
+          {
+            "label": "Wikipedia · CrowdStrike",
+            "url": "https://en.wikipedia.org/wiki/CrowdStrike"
           }
         ],
         "beat": "deal",
-        "tryThis": "Ask your security team to map where device protection ends and application-access controls begin."
+        "tryThis": "Ask your security team to map where device protection ends and application-access controls begin.",
+        "photo": "CrowdStrike"
       }
     ],
     "psychology": [
@@ -1904,14 +2009,25 @@
         "example": "A founder values a feature highly because the team struggled to build it.",
         "useThisWeek": "Run a blind preference test before mentioning which version your team made.",
         "terms": [],
-        "image": null,
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Assembling_an_Ikea_po%C3%A4ng_chair_%289055631329%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "credit": "Photo: Wikimedia Commons",
+          "alt": "IKEA effect",
+          "sourceUrl": "https://en.wikipedia.org/wiki/IKEA_effect",
+          "auto": true
+        },
         "sources": [
           {
             "label": "Primary research · 2012",
             "url": "https://www.hbs.edu/ris/Publication%20Files/norton%20mochon%20ariely_6f7b1134-06ef-4940-a2a5-ba1b3be7e47e.pdf",
             "accessedOn": "2026-11-24"
+          },
+          {
+            "label": "Wikipedia · IKEA effect",
+            "url": "https://en.wikipedia.org/wiki/IKEA_effect"
           }
-        ]
+        ],
+        "photo": "IKEA effect"
       },
       {
         "id": "2026-11-24-planning-outside-view",
@@ -1941,7 +2057,8 @@
             "url": "https://web.mit.edu/curhan/www/docs/Articles/biases/67_J_Personality_and_Social_Psychology_366%2C_1994.pdf",
             "accessedOn": "2026-11-24"
           }
-        ]
+        ],
+        "photo": "Planning fallacy"
       },
       {
         "id": "2026-11-24-emotion-readability",
@@ -1964,14 +2081,25 @@
         "example": "A colleague mistakes your quiet concentration for disapproval.",
         "useThisWeek": "State your intention at the start of one difficult conversation and check understanding.",
         "terms": [],
-        "image": null,
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Reijiro_Wakatsuki_giving_a_speech_at_the_London_Naval_Conference.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "credit": "Photo: Wikimedia Commons",
+          "alt": "Public speaking",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Public_speaking",
+          "auto": true
+        },
         "sources": [
           {
             "label": "Primary research · 1998",
             "url": "https://www.communicationcache.com/uploads/1/0/8/8/10887248/the_illusion_of_transparency-_biased_assessments_of_others_ability_to_read_ones_emotional_states.pdf",
             "accessedOn": "2026-11-24"
+          },
+          {
+            "label": "Wikipedia · Public speaking",
+            "url": "https://en.wikipedia.org/wiki/Public_speaking"
           }
-        ]
+        ],
+        "photo": "Public speaking"
       },
       {
         "id": "2026-11-24-self-compassion-format",
@@ -2001,7 +2129,8 @@
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12926457/",
             "accessedOn": "2026-11-24"
           }
-        ]
+        ],
+        "photo": "Self-compassion"
       },
       {
         "id": "2026-11-24-wellness-subgroup-results",
@@ -2031,7 +2160,8 @@
             "url": "https://mhealth.jmir.org/2025/1/e53850/",
             "accessedOn": "2026-11-24"
           }
-        ]
+        ],
+        "photo": "Meditation"
       }
     ],
     "marketing": [
@@ -2053,14 +2183,25 @@
         "channels": "Women’s groups, community institutions, videos and inter-ministerial coordination.",
         "results": "No results for the new edition yet; launch is scheduled for 25 November.",
         "terms": [],
-        "image": null,
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/SHG_Credit_Link_Durgaganj_Branch_July_08_%285%29.JPG/960px-SHG_Credit_Link_Durgaganj_Branch_July_08_%285%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "credit": "Photo: Wikimedia Commons",
+          "alt": "Self-help group (finance)",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Self-help_group_(finance)",
+          "auto": true
+        },
         "sources": [
           {
             "label": "Rural development ministry · campaign announcement, 23 November",
             "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2340195&lang=1&reg=3",
             "accessedOn": "2026-11-24"
+          },
+          {
+            "label": "Wikipedia · Self-help group (finance)",
+            "url": "https://en.wikipedia.org/wiki/Self-help_group_(finance)"
           }
-        ]
+        ],
+        "photo": "Self-help group (finance)"
       },
       {
         "id": "2026-11-24-golden-goose-dyavol",
@@ -2080,14 +2221,25 @@
         "channels": "Campaign film, social content, Indian Golden Goose stores and planned film placement.",
         "results": "No campaign sales or independently measured lift published in the cited announcement.",
         "terms": [],
-        "image": null,
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Golden_Goose_Walton_Street_London_April_2022.jpg/960px-Golden_Goose_Walton_Street_London_April_2022.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "credit": "Photo: Wikimedia Commons",
+          "alt": "Golden Goose (company)",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Golden_Goose_(company)",
+          "auto": true
+        },
         "sources": [
           {
             "label": "ET BrandEquity · brand collaboration, 20 November",
             "url": "https://brandequity.economictimes.indiatimes.com/news/research/advertising/golden-goose-partners-with-dyavol-x-launches-campaign-film/136022017",
             "accessedOn": "2026-11-24"
+          },
+          {
+            "label": "Wikipedia · Golden Goose (company)",
+            "url": "https://en.wikipedia.org/wiki/Golden_Goose_(company)"
           }
-        ]
+        ],
+        "photo": "Golden Goose (company)"
       },
       {
         "id": "2026-11-24-raffaello-first-hello",
@@ -2107,7 +2259,13 @@
         "channels": "Digital campaign film and a wider consumer-touchpoint rollout.",
         "results": "No measured campaign performance published in the cited launch coverage.",
         "terms": [],
-        "image": null,
+        "image": {
+          "url": "https://img-cdn.publive.online/fit-in/1200x675/afaqs/media/media_files/2026/11/19/kirti-2026-11-19-18-00-15.jpg",
+          "credit": "Photo: afaqs!",
+          "alt": "Ferrero India names Kriti Sanon as brand endorser for Raffaello",
+          "sourceUrl": "https://www.afaqs.com/news/advertising/ferrero-india-names-kriti-sanon-as-brand-endorser-for-raffaello-12823822",
+          "auto": true
+        },
         "sources": [
           {
             "label": "afaqs! · campaign announcement, 19 November",
@@ -2141,7 +2299,8 @@
             "url": "https://www.mcdonalds.com/gb/en-gb/newsroom/article/home-alone-meal.html",
             "accessedOn": "2026-11-24"
           }
-        ]
+        ],
+        "photo": "Home Alone"
       },
       {
         "id": "2026-11-24-tesco-wrong-address",
@@ -2168,7 +2327,8 @@
             "url": "https://www.tescoplc.com/tesco-delivers-a-festive-surprise-in-2026-christmas-ad-starring-roisin-conaty-and-anna-maxwell-martin",
             "accessedOn": "2026-11-24"
           }
-        ]
+        ],
+        "photo": "Tesco"
       }
     ]
   }
