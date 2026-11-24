@@ -1,0 +1,1404 @@
+{
+  "date": "2026-11-24",
+  "top3": [
+    {
+      "cardId": "2026-11-24-eu-trade-timetable",
+      "line": "India–EU trade benefits still depend on signing and legal approvals."
+    },
+    {
+      "cardId": "2026-11-24-nato-poland-radar",
+      "line": "NATO authorises radar-aircraft deployment after missiles land in Poland."
+    },
+    {
+      "cardId": "2026-11-24-anaemia-survey",
+      "line": "A new national survey sharpens India’s anaemia challenge and the need for targeted care."
+    }
+  ],
+  "sections": {
+    "india": [
+      {
+        "id": "2026-11-24-eu-trade-timetable",
+        "rank": 1,
+        "label": "24 Nov 2026",
+        "headline": "India’s EU trade deal still needs legal approvals",
+        "summary": "The India–European Union trade agreement has another hurdle after negotiations: legal approval. The EU ambassador said on Monday that signing is expected in December, with entry into force possible by mid-2027. That is his expected timetable, not an enacted commencement date. Exporters cannot yet assume the promised trading terms apply to their next shipment.",
+        "why": "Lower import duties matter only after the agreement’s legal procedures and product rules are settled. Manufacturers also need time to document where components come from and adapt contracts to the final schedules.",
+        "soWhat": "If your business exports to Europe, prepare compliance documents but keep pricing current orders under existing duties.",
+        "take": "The approval calendar matters more than celebrating another negotiating milestone.",
+        "watch": "Check the signing text, parliamentary assent and notified implementation date.",
+        "terms": [
+          {
+            "term": "import duties",
+            "meaning": "Taxes charged on goods brought into a country"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Business Standard · EU ambassador",
+            "url": "https://www.business-standard.com/economy/news/india-eu-trade-deal-may-come-into-force-by-mid-2027-says-eu-ambassador-126112400064_1.html",
+            "accessedOn": "2026-11-24"
+          }
+        ],
+        "beat": "policy"
+      },
+      {
+        "id": "2026-11-24-coal-closure-rules",
+        "rank": 2,
+        "label": "24 Nov 2026",
+        "headline": "New coal rules speed approvals and mine-closure reimbursements",
+        "summary": "India’s coal ministry announced revised mining and closure guidelines on Monday. Issued on 20 November, they take effect thirty days later. Operators get defined approval timelines and a shorter, one-month process for claiming closure-work reimbursements. The rules also recognise underground coal gasification, which converts coal into gas without conventional extraction. These are procedural changes, not evidence that mines have already become safer.",
+        "why": "Money held separately for restoration can sit unused when verification is slow. Faster payments can help contractors complete work, but checks must still establish that land, water and community obligations were actually met.",
+        "soWhat": "Coal India and private operators need to align project schedules, restoration budgets and contractor documentation with the new requirements.",
+        "take": "Faster approvals should be judged alongside independently verified restoration quality.",
+        "watch": "Check the commencement date and the first verified reimbursement outcomes.",
+        "terms": [
+          {
+            "term": "gasification",
+            "meaning": "Converting coal into usable gas"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Official release / research",
+            "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2340492&reg=48&lang=2",
+            "accessedOn": "2026-11-24"
+          }
+        ],
+        "beat": "policy"
+      },
+      {
+        "id": "2026-11-24-nsel-settlement",
+        "rank": 3,
+        "label": "24 Nov 2026",
+        "headline": "NSEL begins payouts under its long-running settlement",
+        "summary": "People waiting for money after the National Spot Exchange default have a new development. NSEL announced on Monday that payouts had begun under a ₹1,950 crore settlement covering 5,682 claimants. ANI reported the company’s announcement and its parent’s filing. The Mumbai company-law tribunal approved the scheme. This does not mean every original claim has been repaid in full.",
+        "why": "The payment dispute began in July 2013. A negotiated settlement trades the uncertainty of prolonged recovery proceedings for defined payments and legal conditions, so the documents matter as much as the headline amount.",
+        "soWhat": "Affected claimants should verify eligibility, deductions and payment status through the appointed settlement channel before accepting unsolicited assistance.",
+        "take": "Starting payments is meaningful; claimant-level completion is the stronger milestone.",
+        "watch": "Check escrow disbursement confirmations and the scheme’s remaining legal conditions.",
+        "terms": [
+          {
+            "term": "escrow",
+            "meaning": "Money held separately until agreed conditions are met"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "ANI · company settlement announcement",
+            "url": "https://legal.economictimes.indiatimes.com/news/regulators/nsel-releases-rs-1950-crore-one-time-settlement-payout-to-claimants-after-nearly-14-year-dispute/136112055",
+            "accessedOn": "2026-11-24"
+          }
+        ],
+        "beat": "business"
+      },
+      {
+        "id": "2026-11-24-anaemia-survey",
+        "rank": 4,
+        "label": "24 Nov 2026",
+        "headline": "Better blood testing reveals India’s anaemia challenge",
+        "summary": "Anaemia means blood cannot carry oxygen as well as it should. Findings released on Monday from ICMR’s SAMPADA survey put prevalence at 56% among women of reproductive age and 42% among young children. Researchers used venous blood and automated analysers. The survey covered more than two lakh people. Its lower estimates than older surveys should not automatically be read as a like-for-like improvement.",
+        "why": "Different collection methods can change measured haemoglobin. Iron deficiency also does not explain every case: vitamin deficiencies, inflammation and other conditions can matter. National averages conceal differences between locations and life stages.",
+        "soWhat": "Persistent fatigue deserves proper assessment; a population estimate cannot tell an individual why their haemoglobin is low.",
+        "take": "Better measurement should improve treatment targeting, rather than encourage blanket reassurance.",
+        "watch": "Look for age-specific findings and how the national programme adapts.",
+        "terms": [
+          {
+            "term": "haemoglobin",
+            "meaning": "The protein in blood that carries oxygen"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Official release / research",
+            "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2340476&reg=48&lang=2",
+            "accessedOn": "2026-11-24"
+          }
+        ],
+        "beat": "society",
+        "keyNumber": {
+          "value": "56%",
+          "label": "Women of reproductive age affected"
+        }
+      },
+      {
+        "id": "2026-11-24-sebi-chat-impersonation",
+        "rank": 5,
+        "label": "24 Nov 2026",
+        "headline": "SEBI warns that trusted-looking investment groups can be fake",
+        "summary": "An investment group can borrow a real broker’s name without belonging to that broker. SEBI warned on Monday about impersonation of registered intermediaries in closed social-media groups. A familiar logo, convincing administrator and apparent member success stories do not establish authorisation. The regulator’s warning concerns identity and solicitation, rather than proving every investment discussion group is fraudulent.",
+        "why": "Private groups let organisers control the conversation and display selective testimonials. That can manufacture trust before directing people to an unfamiliar app or payment account. Checking the intermediary independently interrupts that pressure.",
+        "soWhat": "Before transferring money, contact the registered firm using details obtained independently from its official website and regulatory records.",
+        "take": "Verify the payment destination before believing the group’s apparent popularity.",
+        "watch": "Check the firm’s confirmation of the group and complaint channels.",
+        "terms": [
+          {
+            "term": "intermediaries",
+            "meaning": "Registered firms connecting investors with financial-market services"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Official release / research",
+            "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/caution-to-investors-regarding-impersonation-of-sebi-registered-intermediaries-on-closed-user-groups-of-social-media-platforms_105944.html",
+            "accessedOn": "2026-11-24"
+          }
+        ],
+        "beat": "wildcard"
+      }
+    ],
+    "world": [
+      {
+        "id": "2026-11-24-nato-poland-radar",
+        "rank": 1,
+        "label": "24 Nov 2026",
+        "headline": "NATO sends radar aircraft after missiles land in Poland",
+        "summary": "NATO has authorised an early-warning aircraft deployment to Poland after Russian missiles landed there on Friday. Polish officials described the decision on Monday, and NATO confirmed it. Prosecutors identified debris from three Russian cruise missiles. The aircraft improves surveillance and coordination; the announcement is not a declaration of a new war or proof of an agreed retaliatory strike.",
+        "why": "Poland borders Ukraine, so an attack near the frontier can create dangerous uncertainty for neighbouring countries. Shared radar information gives commanders more time to identify threats and avoid mistaken responses during a fast-moving incident.",
+        "soWhat": "For India, escalation could affect European orders, energy sentiment and travel risk; none of those effects is automatic.",
+        "take": "Better detection reduces uncertainty, but cannot remove the risk of miscalculation.",
+        "watch": "Check NATO’s deployment details and the prosecutors’ final missile assessment.",
+        "terms": [
+          {
+            "term": "NATO",
+            "meaning": "A collective-defence alliance of European and North American countries"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Reuters · NATO deployment",
+            "url": "https://www.investing.com/news/world-news/nato-to-send-earlywarning-system-aircraft-to-poland-after-missiles-incident-5046190",
+            "accessedOn": "2026-11-24"
+          }
+        ],
+        "beat": "geopolitics",
+        "indiaLink": "European escalation matters for Indian exporters, travellers and energy-risk assumptions."
+      },
+      {
+        "id": "2026-11-24-gaza-water-worker",
+        "rank": 2,
+        "label": "24 Nov 2026",
+        "headline": "A Gaza strike kills a worker maintaining water access",
+        "summary": "A man working for the UN Palestinian refugee agency was killed near a water well in Jabalia on Monday. The agency and medics described the incident to Reuters; medics named him Adel Al-Helo. At least three people were killed in separate strikes across Gaza that day. The agency said its staff were carrying out regular water-well duties near the strike.",
+        "why": "Repairing humanitarian infrastructure depends on people being able to reach and operate it safely. A ceasefire can reduce large-scale fighting without ensuring daily civilian protection. Attribution of the immediate strike does not by itself establish its intended target.",
+        "soWhat": "The practical humanitarian consequence extends beyond the casualties if households lose reliable access to drinking water.",
+        "take": "Protecting water operations is a basic test of civilian protection.",
+        "watch": "Check an independent incident account and whether well operations resume.",
+        "terms": [
+          {
+            "term": "UN",
+            "meaning": "United Nations, the international organisation of member countries"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Reuters · agency and medics",
+            "url": "https://www.channelnewsasia.com/world/israeli-strikes-kill-least-three-in-gaza-including-worker-un-palestinian-agency-6575821",
+            "accessedOn": "2026-11-24"
+          }
+        ],
+        "beat": "geopolitics",
+        "indiaLink": "India’s humanitarian diplomacy is better assessed through civilian access and service continuity."
+      },
+      {
+        "id": "2026-11-24-singapore-growth",
+        "rank": 3,
+        "label": "24 Nov 2026",
+        "headline": "Singapore raises its growth forecast as AI demand supports exports",
+        "summary": "Singapore raised its 2026 growth forecast to around 6% on Tuesday, from 4.5–5.5%. Its economy grew 6.1% from a year earlier in the third quarter, above the earlier 5.4% estimate. Government data and Reuters reporting connect the stronger outlook to AI-related demand. The revised figure measures output across the economy, not just sales of computer chips.",
+        "why": "Singapore is exposed to international trade, manufacturing and investment cycles. Strong demand for computing equipment can support activity even when other exporters face pressure. Concentration in that cycle also makes a reversal important.",
+        "soWhat": "Indian technology suppliers and regional businesses can use this as a demand signal, rather than assuming every Asian market benefits equally.",
+        "take": "Strong headline growth still needs a check on what is driving it.",
+        "watch": "Compare the next electronics export release with the revised growth outlook.",
+        "terms": [
+          {
+            "term": "output",
+            "meaning": "Goods and services produced by an economy"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Reuters · government growth data",
+            "url": "https://www.reuters.com/markets/asia/singapore-third-quarter-gdp-grows-61-2026-11-24/",
+            "accessedOn": "2026-11-24"
+          }
+        ],
+        "beat": "economy",
+        "indiaLink": "Singapore is a regional commercial hub for Indian technology, finance and trade."
+      },
+      {
+        "id": "2026-11-24-malaysia-chip-policy",
+        "rank": 4,
+        "label": "24 Nov 2026",
+        "headline": "Malaysia says US chip rules will not end China ties",
+        "summary": "Malaysia will continue working with Chinese companies despite US restrictions on advanced AI-chip shipments, Prime Minister Anwar Ibrahim said in an interview published Tuesday. He also said Malaysia would observe restrictions applying to US companies. The statement describes an attempt to maintain both relationships. It is not an exemption from American export rules or evidence that restricted chips can legally be rerouted.",
+        "why": "Computing facilities in Southeast Asia have become important to the competition over access to advanced chips. Host countries want investment, while suppliers must account for who ultimately controls and uses the equipment.",
+        "soWhat": "Indian cloud buyers and exporters should check supplier permissions and end-user rules rather than treating the hosting country as sufficient assurance.",
+        "take": "Commercial neutrality is a diplomatic goal, not a compliance shortcut.",
+        "watch": "Check the US rule’s implementation and Malaysia’s published licensing guidance.",
+        "terms": [
+          {
+            "term": "end-user",
+            "meaning": "The organisation or person ultimately using a product"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Reuters · Anwar interview",
+            "url": "https://www.devdiscourse.com/article/international/4011080-us-chip-curbs-wont-impact-malaysias-china-ties-pm-says",
+            "accessedOn": "2026-11-24"
+          }
+        ],
+        "beat": "us-china",
+        "indiaLink": "Indian firms using regional cloud infrastructure face the same supplier and end-user questions."
+      },
+      {
+        "id": "2026-11-24-ulleung-alert",
+        "rank": 5,
+        "label": "24 Nov 2026",
+        "headline": "Russian aircraft trigger a brief warning on a Korean island",
+        "summary": "Residents of South Korea’s Ulleung Island received an emergency warning on Tuesday after Russian military aircraft approached. Later military reporting clarified that the aircraft entered an air-defence identification zone, rather than violating sovereign airspace. Conflicting messages also referred to North Korea. Those distinctions matter: an identification zone is wider than national airspace and does not carry identical legal meaning.",
+        "why": "Authorities must warn quickly when a threat is uncertain, but an early message can spread after the assessment changes. Correcting the aircraft identity and location is part of the safety response, not a trivial detail.",
+        "soWhat": "Travellers and families should follow the latest official alert status rather than circulating an earlier screenshot without its correction.",
+        "take": "Fast warnings need equally visible corrections when the facts change.",
+        "watch": "Check the Joint Chiefs’ final account and the local alert review.",
+        "terms": [
+          {
+            "term": "identification zone",
+            "meaning": "An area where aircraft are monitored before approaching airspace"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Yonhap · military clarification",
+            "url": "https://en.yna.co.kr/view/AEN20261124002200315",
+            "accessedOn": "2026-11-24"
+          }
+        ],
+        "beat": "wildcard",
+        "indiaLink": "Indian travellers and businesses in East Asia need corrected safety information, not alarming stale alerts."
+      }
+    ],
+    "markets": {
+      "dashboard": {
+        "id": "2026-11-24-holiday-market-dashboard",
+        "rank": 1,
+        "label": "Markets closed · 24 Nov 2026",
+        "headline": "Markets pause after Monday’s broad sell-off",
+        "summary": "Indian equity exchanges are closed for Guru Nanak Jayanti, so today’s dashboard carries Monday’s verified close rather than a live session. Nifty ended at 25,349.65 and Sensex at 82,435.99, down 1.75% and 1.77% respectively. Reporting attributed the retreat to profit-taking after a strong run, with banks doing much of the damage; Tata Steel and APL Apollo also faced transaction-funding concerns.",
+        "why": "A holiday separates domestic trading from news that continues overseas. Quotes for imported fuel, bullion and currencies can have different observation times. The dashboard retains those labels instead of pretending everything was observed together.",
+        "soWhat": "Use Monday’s close for context, then reassess overseas developments before the next Indian opening rather than treating stale quotes as current.",
+        "take": "A closed exchange is a useful moment to review assumptions calmly.",
+        "watch": "Check Wednesday’s opening breadth and the next verified exchange close.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "NSE · official 2026 capital-market holiday calendar",
+            "url": "https://archives.nseindia.com/content/circulars/CMTR71775.pdf"
+          },
+          {
+            "label": "NSE official index close · 23112026",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv"
+          },
+          {
+            "label": "Moneycontrol · closing report, 23 November",
+            "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-snap-2-day-gains-sensex-sheds-1-484-pts-nifty-below-25-350-14087155.html"
+          },
+          {
+            "label": "Reuters · Indian close, 23 November",
+            "url": "https://www.reuters.com/world/india/indian-shares-set-open-higher-foreign-inflows-ai-selloff-persists-2026-11-23/"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 25349.65,
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv",
+            "asOf": "2026-11-23"
+          },
+          {
+            "value": 82435.99,
+            "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-snap-2-day-gains-sensex-sheds-1-484-pts-nifty-below-25-350-14087155.html",
+            "asOf": "2026-11-23"
+          },
+          {
+            "value": 1.75,
+            "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-snap-2-day-gains-sensex-sheds-1-484-pts-nifty-below-25-350-14087155.html",
+            "asOf": "2026-11-23"
+          },
+          {
+            "value": 1.77,
+            "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-snap-2-day-gains-sensex-sheds-1-484-pts-nifty-below-25-350-14087155.html",
+            "asOf": "2026-11-23"
+          }
+        ]
+      },
+      "cards": [
+        {
+          "id": "2026-11-24-banks-and-exporters",
+          "rank": 2,
+          "label": "Markets closed · 24 Nov 2026",
+          "headline": "Banks led Monday’s fall while IT held up better",
+          "summary": "Bank Nifty fell 3.17% in the last verified session, a steeper decline than the broader benchmark. HDFC Bank, ICICI Bank, Axis Bank and State Bank of India were among the major laggards in market reporting. IT shares were relatively stronger. Those observations describe Monday’s sector split, not activity on today’s equity-market holiday or an established change in bank earnings.",
+          "why": "Recent winners often attract selling when investors reduce exposure before a break. Explaining a price move as profit-taking is market commentary; balance-sheet deterioration would require separate evidence from results, loan quality and funding costs.",
+          "soWhat": "For an investor holding several bank-heavy funds, sector overlap can matter more than the number of funds owned.",
+          "take": "Do not confuse a large index weight with genuine portfolio diversification.",
+          "watch": "Compare the next session’s banking breadth with fresh company disclosures.",
+          "terms": [],
+          "image": null,
+          "sources": [
+            {
+              "label": "NSE official index close · 23112026",
+              "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv"
+            },
+            {
+              "label": "Moneycontrol · closing report, 23 November",
+              "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-snap-2-day-gains-sensex-sheds-1-484-pts-nifty-below-25-350-14087155.html"
+            },
+            {
+              "label": "Reuters · Indian close, 23 November",
+              "url": "https://www.reuters.com/world/india/indian-shares-set-open-higher-foreign-inflows-ai-selloff-persists-2026-11-23/"
+            }
+          ],
+          "evidence": [
+            {
+              "value": 3.17,
+              "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-snap-2-day-gains-sensex-sheds-1-484-pts-nifty-below-25-350-14087155.html",
+              "asOf": "2026-11-23"
+            }
+          ],
+          "beat": "sectors"
+        },
+        {
+          "id": "2026-11-24-survey-pricing-pressure",
+          "rank": 3,
+          "label": "Markets closed · 24 Nov 2026",
+          "headline": "Strong business activity still leaves a pricing question",
+          "summary": "Monday’s preliminary business survey put India’s composite activity reading at 56.3, compared with 56.2 in October. A reading above fifty means more firms reported expansion than contraction. This is yesterday’s survey result, retained for a holiday review, not a fresh release today. It helps explain the operating backdrop for listed lenders such as ICICI Bank and industrial suppliers such as Larsen & Toubro.",
+          "why": "Survey growth and shareholder returns measure different things. Businesses can win more orders while paying more for wages or materials. The important earnings question is whether selling prices and productivity keep pace with those costs.",
+          "soWhat": "For household budgets and company analysis, track pricing power and costs together instead of equating faster activity with better margins.",
+          "take": "Healthy demand is encouraging; cash profitability still needs its own evidence.",
+          "watch": "Compare the final survey release with reported order books and margins.",
+          "terms": [
+            {
+              "term": "composite activity",
+              "meaning": "A combined survey measure of manufacturing and services"
+            }
+          ],
+          "image": null,
+          "sources": [
+            {
+              "label": "S&P Global survey reported by Business Standard · 23 November",
+              "url": "https://www.business-standard.com/economy/news/india-private-sector-activity-five-month-high-november-2026-flash-pmi-126112300435_1.html"
+            }
+          ],
+          "evidence": [
+            {
+              "value": 56.3,
+              "url": "https://www.business-standard.com/economy/news/india-private-sector-activity-five-month-high-november-2026-flash-pmi-126112300435_1.html",
+              "asOf": "2026-11-23"
+            },
+            {
+              "value": 56.2,
+              "url": "https://www.business-standard.com/economy/news/india-private-sector-activity-five-month-high-november-2026-flash-pmi-126112300435_1.html",
+              "asOf": "2026-11-23"
+            }
+          ],
+          "beat": "result"
+        },
+        {
+          "id": "2026-11-24-ipo-premium-warning",
+          "rank": 4,
+          "label": "Markets closed · 24 Nov 2026",
+          "headline": "SEBI warns against treating unofficial IPO premiums as reliable",
+          "summary": "SEBI issued an advisory on Monday about unregulated pre-listing premiums for initial public offers. These unofficial prices do not provide the protections of an exchange trade. Crystal Crop Protection’s bidding has already closed; applicants should check the registrar’s allotment and refund notices, not mistake today’s exchange holiday for a new bidding opportunity. Listing dates should come from formal exchange or issue notices.",
+          "why": "An IPO (a company’s initial public share offer) can generate excitement before financial statements receive enough attention. Informal premiums are not a promise of the eventual market price and may amplify pressure to act quickly.",
+          "soWhat": "Use the official offer documents, application status and exchange notices before making a decision about an allotted share.",
+          "take": "A popular unofficial quote is poor evidence of business value.",
+          "watch": "Check Crystal Crop’s registrar status and the formal listing notice.",
+          "terms": [
+            {
+              "term": "IPO",
+              "meaning": "A company’s initial public share offer"
+            }
+          ],
+          "image": null,
+          "sources": [
+            {
+              "label": "SEBI · pre-listing premium advisory, 23 November",
+              "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/advisory-regarding-unregulated-pre-listing-premium-often-called-as-grey-market-premium-gmp-for-upcoming-initial-public-offers-ipos-_105942.html"
+            },
+            {
+              "label": "Moneycontrol · IPO allotment timetable, 23 November",
+              "url": "https://www.moneycontrol.com/news/business/ipo/crystal-crop-protection-ipo-allotment-today-check-status-on-bse-nse-and-registrar-14086865.html"
+            },
+            {
+              "label": "NSE · official 2026 capital-market holiday calendar",
+              "url": "https://archives.nseindia.com/content/circulars/CMTR71775.pdf"
+            }
+          ],
+          "evidence": [],
+          "beat": "ipo"
+        },
+        {
+          "id": "2026-11-24-flows-and-gold",
+          "rank": 5,
+          "label": "Markets closed · 24 Nov 2026",
+          "headline": "Foreign buying did not prevent Monday’s market decline",
+          "summary": "Monday’s NSE cash-market report showed foreign institutions buying a net ₹5,672.99 crore while domestic institutions sold a net ₹2,760.12 crore. Yet the benchmark fell. Separately, IBJA’s Monday evening gold benchmark was ₹124,945 per ten grams before tax and making charges. Brent was $90.78 at the separately labelled Monday evening observation; it is an intraday quote, not a settlement.",
+          "why": "Large investors can trade different shares and segments, so net buying cannot explain every index move. Gold, oil and the rupee also affect different businesses: Titan faces jewellery-demand sensitivity, while IndiGo is exposed to fuel costs.",
+          "soWhat": "Read flows alongside breadth and earnings; use the stated bullion and oil timestamps when comparing household purchases or business costs.",
+          "take": "A single flow total is context, not a market-direction guarantee.",
+          "watch": "Check the next NSE flow report and updated bullion and fuel benchmarks.",
+          "terms": [],
+          "image": null,
+          "sources": [
+            {
+              "label": "NSE · institutional net cash flows, 23 November",
+              "url": "https://www.nseindia.com/api/fiidiiTradeReact"
+            },
+            {
+              "label": "IBJA · dated Gold 999 AM/PM report, 23 November",
+              "url": "https://ibjarates.com/UploadedFiles/30DaysPdf/Pdf_3463_20261123130226146_Daily%20Opening%20and%20Closing%20Market%20Rate.pdf"
+            },
+            {
+              "label": "Reuters · Brent observation at 19:34 IST, 23 November",
+              "url": "https://new.streetinsider.com/Commodities/Oil%2Bprices%2Bfall%2Bon%2Bincreased%2Bflows%2Bfrom%2BMiddle%2BEast,%2BLibyan%2Boil%2Bpipeline%2Brestart/27383120.html"
+            },
+            {
+              "label": "NSE official index close · 23112026",
+              "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv"
+            }
+          ],
+          "evidence": [
+            {
+              "value": 5672.99,
+              "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+              "asOf": "2026-11-23"
+            },
+            {
+              "value": -2760.12,
+              "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+              "asOf": "2026-11-23"
+            },
+            {
+              "value": 124945,
+              "url": "https://ibjarates.com/UploadedFiles/30DaysPdf/Pdf_3463_20261123130226146_Daily%20Opening%20and%20Closing%20Market%20Rate.pdf",
+              "asOf": "2026-11-23"
+            },
+            {
+              "value": 90.78,
+              "url": "https://new.streetinsider.com/Commodities/Oil%2Bprices%2Bfall%2Bon%2Bincreased%2Bflows%2Bfrom%2BMiddle%2BEast,%2BLibyan%2Boil%2Bpipeline%2Brestart/27383120.html",
+              "asOf": "2026-11-23"
+            }
+          ],
+          "beat": "flows"
+        }
+      ]
+    },
+    "investing": [
+      {
+        "id": "2026-11-24-stock-aplapollo",
+        "rank": 1,
+        "label": "Dip research · 24 Nov 2026 · financial history 21 Nov; quote 23 Nov",
+        "slot": "dip",
+        "symbol": "APLAPOLLO",
+        "headline": "APL Apollo’s scale faces a new funding test",
+        "summary": "APL Apollo makes steel tubes used in buildings, factories and infrastructure. Its prepared five-year history shows sales growing about 22% annually and profit about 27%. Average return on capital was 27.6%, meaning about twenty-eight rupees earned per hundred invested. These are historical averages, not forecasts. Monday’s sharp fall followed concerns about financing its linked transaction with Tata Steel.",
+        "why": "Standardised production and a wide distribution network can spread factory costs across large volumes. An acquisition changes that equation if borrowing or integration absorbs the cash the existing business generates.",
+        "soWhat": "The prepared earnings multiple is 35.4 against a five-year median of 54.7; cheaper than usual does not eliminate deal risk.",
+        "take": "The industrial franchise is attractive; the financing deserves equal scrutiny.",
+        "watch": "Read the next transaction filing for funding and debt commitments.",
+        "thesis": [
+          "Sales draw on structural-tube demand across construction and industry.",
+          "Manufacturing scale and distribution support a potential cost advantage.",
+          "The prepared history records positive operating cash generation throughout the measured period."
+        ],
+        "breakers": [
+          "Acquisition funding leaves debt persistently higher than the existing business can support.",
+          "Integration weakens cash generation despite reported profit growth."
+        ],
+        "moat": "Cost leadership",
+        "moatWhy": "Large-scale specialised tube production and distribution can lower unit costs; it does not make the company a monopoly.",
+        "whyFell": "Reuters linked Monday’s fall to investor concern about financing the Tata Steel-related transactions. The screen’s sector-wide classification is a statistical comparison, not proof that the deal caused no additional pressure.",
+        "terms": [
+          {
+            "term": "return on capital",
+            "meaning": "Annual operating earnings relative to money invested"
+          },
+          {
+            "term": "earnings multiple",
+            "meaning": "Share price divided by yearly profit per share"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Screener.in company pages, 2026-11-21",
+            "url": "https://www.screener.in/"
+          },
+          {
+            "label": "NSE Nifty 500 constituents",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          },
+          {
+            "label": "Screener.in: APL Apollo Tubes Ltd.",
+            "url": "https://www.screener.in/company/APLAPOLLO/consolidated/"
+          },
+          {
+            "label": "NSE bhavcopy (10-session average traded value)",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE bhavcopy, 2026-11-23",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE adjusted 52-week high/low, 2026-11-23",
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_23112026.csv"
+          },
+          {
+            "label": "Reuters · transaction financing concerns, 23 November",
+            "url": "https://www.reuters.com/world/india/indian-shares-set-open-higher-foreign-inflows-ai-selloff-persists-2026-11-23/"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 22,
+            "url": "https://www.screener.in/company/APLAPOLLO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 27,
+            "url": "https://www.screener.in/company/APLAPOLLO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 27.6,
+            "url": "https://www.screener.in/company/APLAPOLLO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 35.4,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip",
+            "asOf": "2026-11-23"
+          },
+          {
+            "value": 54.7,
+            "url": "https://www.screener.in/company/APLAPOLLO/consolidated/",
+            "asOf": "2026-11-21"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-24-stock-dmart",
+        "rank": 2,
+        "label": "Dip research · 24 Nov 2026 · financial history 21 Nov; quote 23 Nov",
+        "slot": "dip",
+        "symbol": "DMART",
+        "headline": "DMart is cheaper than usual, but costs still matter",
+        "summary": "DMart sells groceries and everyday household goods through Avenue Supermarts. The prepared history shows sales growing about 23% annually over five years and profit about 22%. Average return on capital was 18%, or eighteen rupees earned per hundred invested. Borrowing is modest relative to equity in the supplied data. Strong sales history does not mean each new store will be equally profitable.",
+        "why": "October reporting linked the share-price weakness to wages, expansion costs and pressure from quick-commerce competitors. That is dated background, not a new earnings announcement today. Discounts attract shoppers only if procurement and operating discipline protect the business.",
+        "soWhat": "The prepared earnings multiple is 71.21, below its five-year median of 102.4 but still demanding sustained growth.",
+        "take": "A cheaper quality retailer can still be an expensive investment.",
+        "watch": "Check the next results for store productivity and operating margins.",
+        "thesis": [
+          "Everyday grocery demand brings customers back repeatedly.",
+          "Scale and disciplined procurement support its low-price proposition.",
+          "The prepared cash-flow history supports the quality screen."
+        ],
+        "breakers": [
+          "Store additions consume capital without improving sales productivity.",
+          "Delivery competition and wages keep eroding operating profitability."
+        ],
+        "moat": "Cost leadership",
+        "moatWhy": "Procurement scale and operating discipline support low prices; local competition can still narrow that advantage.",
+        "whyFell": "Moneycontrol’s October earnings review attributed weakness to profitability pressure despite improving demand, including wages, retailing costs and quick-commerce competition. That helps explain the longer drawdown; it does not establish the cause of every later trading move.",
+        "terms": [
+          {
+            "term": "return on capital",
+            "meaning": "Annual operating earnings relative to money invested"
+          },
+          {
+            "term": "earnings multiple",
+            "meaning": "Share price divided by yearly profit per share"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Screener.in company pages, 2026-11-21",
+            "url": "https://www.screener.in/"
+          },
+          {
+            "label": "NSE Nifty 500 constituents",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          },
+          {
+            "label": "Screener.in: Avenue Supermarts Ltd.",
+            "url": "https://www.screener.in/company/DMART/consolidated/"
+          },
+          {
+            "label": "NSE bhavcopy (10-session average traded value)",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE bhavcopy, 2026-11-23",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE adjusted 52-week high/low, 2026-11-23",
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_23112026.csv"
+          },
+          {
+            "label": "Moneycontrol · historical earnings review, 12 October",
+            "url": "https://www.moneycontrol.com/news/business/markets/dmart-stock-slides-3-after-q2-results-as-margin-pressure-overshadows-demand-recovery-brokerages-divided-14049785.html"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 23,
+            "url": "https://www.screener.in/company/DMART/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 22,
+            "url": "https://www.screener.in/company/DMART/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 18,
+            "url": "https://www.screener.in/company/DMART/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 71.21,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip",
+            "asOf": "2026-11-23"
+          },
+          {
+            "value": 102.4,
+            "url": "https://www.screener.in/company/DMART/consolidated/",
+            "asOf": "2026-11-21"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-24-stock-crisil",
+        "rank": 3,
+        "label": "Quality research · 24 Nov 2026 · financial history 21 Nov; quote 23 Nov",
+        "slot": "pick",
+        "symbol": "CRISIL",
+        "headline": "CRISIL sells trust and analysis to financial markets",
+        "summary": "CRISIL provides credit ratings, research and analytical services used by lenders and investors. Its prepared five-year record shows sales growing about 13% annually and profit about 16%. Average return on capital was 37.4%, or roughly thirty-seven rupees earned per hundred invested. The supplied debt-to-equity ratio is low. These numbers describe past performance, not an assured earnings path.",
+        "why": "Customers need credible, consistent analysis, and experienced teams take time to build. Reputation supports repeat business, although an error that damages trust can weaken the same advantage that makes the franchise appealing.",
+        "soWhat": "The prepared earnings multiple is 32.94 against its five-year median of 47.6; the discount needs durable earnings to justify it.",
+        "take": "Trust is valuable here, provided independent judgement survives commercial pressure.",
+        "watch": "Check the next filing for segment growth and cash conversion.",
+        "thesis": [
+          "Established ratings and research relationships support repeat demand.",
+          "An asset-light model has historically earned high capital returns.",
+          "Its analytical services diversify the business beyond individual bond issues."
+        ],
+        "breakers": [
+          "A major credibility failure weakens customer trust and regulatory standing.",
+          "Weak debt issuance or research demand slows growth without matching cost reductions."
+        ],
+        "moat": "Brand",
+        "moatWhy": "A recognised reputation for credit analysis and research supports customer trust; it is neither an exclusive licence nor a guaranteed advantage.",
+        "terms": [
+          {
+            "term": "return on capital",
+            "meaning": "Annual operating earnings relative to money invested"
+          },
+          {
+            "term": "earnings multiple",
+            "meaning": "Share price divided by yearly profit per share"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Screener.in company pages, 2026-11-21",
+            "url": "https://www.screener.in/"
+          },
+          {
+            "label": "NSE Nifty 500 constituents",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          },
+          {
+            "label": "Screener.in: CRISIL Ltd.",
+            "url": "https://www.screener.in/company/CRISIL/consolidated/"
+          },
+          {
+            "label": "NSE bhavcopy (10-session average traded value)",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE bhavcopy, 2026-11-23",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE adjusted 52-week high/low, 2026-11-23",
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_23112026.csv"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 13,
+            "url": "https://www.screener.in/company/CRISIL/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 16,
+            "url": "https://www.screener.in/company/CRISIL/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 37.4,
+            "url": "https://www.screener.in/company/CRISIL/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 32.94,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip",
+            "asOf": "2026-11-23"
+          },
+          {
+            "value": 47.6,
+            "url": "https://www.screener.in/company/CRISIL/consolidated/",
+            "asOf": "2026-11-21"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-24-stock-vbl",
+        "rank": 4,
+        "label": "Quality research · 24 Nov 2026 · financial history 21 Nov; quote 23 Nov",
+        "slot": "pick",
+        "symbol": "VBL",
+        "headline": "Varun Beverages turns distribution reach into repeat demand",
+        "summary": "Varun Beverages bottles and distributes beverages under arrangements with PepsiCo. The prepared five-year history shows sales growing about 27% annually and profit about 51%. Average return on capital was 23.6%, or around twenty-four rupees earned per hundred invested. That unusually fast profit growth is a historical record; it should not be extended mechanically into a future valuation.",
+        "why": "Refrigerators, delivery routes and retailer relationships make it easier to reach shoppers when demand arrives. Bottling is still a physical business: weather, packaging costs, factory utilisation and expansion spending can change the economics quickly.",
+        "soWhat": "The prepared earnings multiple is 41.8 versus its five-year median of 58.9; past growth is doing substantial valuation work.",
+        "take": "Distribution is the attraction; realistic growth assumptions are the discipline.",
+        "watch": "Check the next operating update for volumes and expansion economics.",
+        "thesis": [
+          "Established bottling arrangements connect it to widely recognised products.",
+          "Distribution reach makes retail availability difficult to reproduce quickly.",
+          "The prepared record combines growth with positive operating cash generation."
+        ],
+        "breakers": [
+          "Territory expansion ties up capital without acceptable operating returns.",
+          "Weaker volumes or higher input costs compress cash profitability."
+        ],
+        "moat": "Cost leadership",
+        "moatWhy": "A dense bottling and distribution network can spread logistics costs; the consumer brands themselves belong to its brand partners.",
+        "terms": [
+          {
+            "term": "return on capital",
+            "meaning": "Annual operating earnings relative to money invested"
+          },
+          {
+            "term": "earnings multiple",
+            "meaning": "Share price divided by yearly profit per share"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Screener.in company pages, 2026-11-21",
+            "url": "https://www.screener.in/"
+          },
+          {
+            "label": "NSE Nifty 500 constituents",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          },
+          {
+            "label": "Screener.in: Varun Beverages Ltd.",
+            "url": "https://www.screener.in/company/VBL/consolidated/"
+          },
+          {
+            "label": "NSE bhavcopy (10-session average traded value)",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE bhavcopy, 2026-11-23",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE adjusted 52-week high/low, 2026-11-23",
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_23112026.csv"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 27,
+            "url": "https://www.screener.in/company/VBL/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 51,
+            "url": "https://www.screener.in/company/VBL/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 23.6,
+            "url": "https://www.screener.in/company/VBL/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 41.8,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip",
+            "asOf": "2026-11-23"
+          },
+          {
+            "value": 58.9,
+            "url": "https://www.screener.in/company/VBL/consolidated/",
+            "asOf": "2026-11-21"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-24-stock-nationalum",
+        "rank": 5,
+        "label": "Quality research · 24 Nov 2026 · financial history 21 Nov; quote 23 Nov",
+        "slot": "pick",
+        "symbol": "NATIONALUM",
+        "headline": "NALCO’s low multiple comes with aluminium-cycle risk",
+        "summary": "NALCO mines bauxite and makes alumina and aluminium. Its prepared five-year record shows sales growing about 15% annually and profit about 35%. Average return on capital was 29.8%, or roughly thirty rupees earned per hundred invested. The supplied debt-to-equity ratio is zero. A strong balance sheet helps, but does not protect selling prices from a global commodity downturn.",
+        "why": "Access to raw material and integrated operations can support costs. Earnings also depend on aluminium prices, energy and production reliability. A low valuation near strong profits can look safer than it proves across an entire cycle.",
+        "soWhat": "The prepared earnings multiple is 7.67 against its five-year median of 9.5; compare normalised earnings before calling it undervalued.",
+        "take": "The cost base matters more than a superficially cheap multiple.",
+        "watch": "Check the next results for production, realisations and energy costs.",
+        "thesis": [
+          "Integrated raw-material access supports a potential cost advantage.",
+          "The supplied balance sheet carries no debt-to-equity burden.",
+          "The prepared history shows operating cash generation across the measured years."
+        ],
+        "breakers": [
+          "A prolonged aluminium downturn overwhelms the cost advantage.",
+          "Energy constraints or operating disruptions persistently reduce productive output."
+        ],
+        "moat": "Cost leadership",
+        "moatWhy": "Captive bauxite and integrated production support relative costs, subject to mining, energy and operating conditions.",
+        "terms": [
+          {
+            "term": "return on capital",
+            "meaning": "Annual operating earnings relative to money invested"
+          },
+          {
+            "term": "earnings multiple",
+            "meaning": "Share price divided by yearly profit per share"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Screener.in company pages, 2026-11-21",
+            "url": "https://www.screener.in/"
+          },
+          {
+            "label": "NSE Nifty 500 constituents",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          },
+          {
+            "label": "Screener.in: National Aluminium Co. Ltd.",
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/"
+          },
+          {
+            "label": "NSE bhavcopy (10-session average traded value)",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE bhavcopy, 2026-11-23",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE adjusted 52-week high/low, 2026-11-23",
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_23112026.csv"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 15,
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 35,
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 29.8,
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 7.67,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip",
+            "asOf": "2026-11-23"
+          },
+          {
+            "value": 9.5,
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          }
+        ]
+      }
+    ],
+    "tech": [
+      {
+        "id": "2026-11-24-claude-ship",
+        "rank": 1,
+        "label": "AI & Tech · 24 Nov 2026",
+        "headline": "Claude Ship adds automated fixes and policy-based code approvals",
+        "summary": "Getting software written is only part of shipping it: someone must review changes and resolve failed checks. Anthropic launched Claude Ship in beta on Monday to handle more of that process. Its new agents can work on pull requests, meaning proposed code changes. Teams set policies for what may be approved automatically and what still needs a person.",
+        "why": "Faster code generation can move the bottleneck into review. Automating that stage increases the importance of permission boundaries, reliable tests and a clear record of changes. The vendor explicitly warns that its review can miss bugs or vulnerabilities.",
+        "soWhat": "For a small app team, begin with low-risk maintenance work and measure escaped defects alongside any time saved.",
+        "take": "Approval rules should reflect the damage a mistaken change can cause.",
+        "watch": "Check beta availability, audit records and defects reaching real users.",
+        "terms": [
+          {
+            "term": "pull requests",
+            "meaning": "Proposed code changes submitted for review"
+          },
+          {
+            "term": "beta",
+            "meaning": "An early release still being tested and refined"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Anthropic · launch, 23 November",
+            "url": "https://claude.com/resources/articles/introducing-claude-ship",
+            "accessedOn": "2026-11-24"
+          }
+        ],
+        "beat": "launch",
+        "tryThis": "Write a sample approval policy for documentation-only changes before enabling automated approvals."
+      },
+      {
+        "id": "2026-11-24-ant-health-models",
+        "rank": 2,
+        "label": "AI & Tech · 24 Nov 2026",
+        "headline": "Ant releases models built for health-related AI tasks",
+        "summary": "Ant Group’s Afu health service announced the LingSante model family on Monday, beginning phased open-weight releases with LingSante-3.1-air-VL and LingSante-3.1-flash. These are AI models aimed at tasks including health information and medical reasoning. Open weights let developers inspect and run a model subject to its licence. They do not establish that its answers are clinically reliable.",
+        "why": "Health applications need more than fluent explanations. Developers must test wrong answers, performance across patient groups, privacy and escalation to qualified professionals. A model used by a large service can still fail on a specific local task.",
+        "soWhat": "Indian developers should evaluate these tools on public, de-identified examples before considering any workflow involving patient information.",
+        "take": "Access to a model is a starting point for validation.",
+        "watch": "Check the released model cards, licence and independent clinical evaluations.",
+        "terms": [
+          {
+            "term": "Open weights",
+            "meaning": "Model parameters available to download under stated licence terms"
+          },
+          {
+            "term": "model cards",
+            "meaning": "Documents describing intended use, testing and limitations"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Ant Group · launch, 23 November",
+            "url": "https://www.antgroup.com/en/news-media/press-releases/1795402800000",
+            "accessedOn": "2026-11-24"
+          }
+        ],
+        "beat": "launch",
+        "tryThis": "Compare model documentation against a small set of public health questions with known authoritative answers."
+      },
+      {
+        "id": "2026-11-24-australia-online-duty",
+        "rank": 3,
+        "label": "AI & Tech · 24 Nov 2026",
+        "headline": "Australia’s online-safety bill puts prevention duties on platforms",
+        "summary": "Australia’s proposed digital duty of care would require major online services to address foreseeable harms. On Tuesday, the communications minister announced a deal with the Greens to support the bill, including proposed fines of up to 5% of global revenue and a right for users to sue over breaches. These are proposed legislative changes, not rules already fully in force.",
+        "why": "Platforms design recommendations, defaults and reporting systems that shape exposure to harmful material. A prevention duty shifts scrutiny towards those choices. It also raises difficult questions about proportional safeguards, evidence and effects on legitimate expression.",
+        "soWhat": "Indian product teams serving Australian users should map risks and complaints now, while checking the final scope before assuming obligations.",
+        "take": "Safety promises are stronger when backed by documented product-design decisions.",
+        "watch": "Check the bill’s parliamentary passage and the regulator’s implementation guidance.",
+        "terms": [
+          {
+            "term": "duty of care",
+            "meaning": "An obligation to take reasonable steps against foreseeable harm"
+          },
+          {
+            "term": "global revenue",
+            "meaning": "A company’s total sales across all countries"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "Australian government · bill background",
+            "url": "https://www.infrastructure.gov.au/department/media/publications/exposure-draft-online-safety-amendment-digital-duty-care-bill-2026",
+            "accessedOn": "2026-11-24"
+          },
+          {
+            "label": "Reuters · current bill developments, 24 November",
+            "url": "https://www.devdiscourse.com/article/international/4011076-tech-giants-to-face-billions-of-dollars-in-fines-under-australian-internet-safety-bill",
+            "accessedOn": "2026-11-24"
+          }
+        ],
+        "beat": "policy",
+        "tryThis": "List the highest-risk user journeys in your product and the safeguards already visible to users."
+      },
+      {
+        "id": "2026-11-24-india-cancer-ai",
+        "rank": 4,
+        "label": "AI & Tech · 24 Nov 2026",
+        "headline": "India’s cancer-AI programme puts validation before wider deployment",
+        "summary": "IndiaAI and the National Cancer Grid’s next CATCH challenge focuses on cancer-care problems that earlier AI programmes did not adequately cover. The Koita Centre’s programme page describes CATCH 2.0 as a route from development to clinical evidence and adoption. Its November launch programme is an initiative to identify and test tools, not proof that new systems already improve patient outcomes.",
+        "why": "Models trained on disconnected hospital data can struggle when moved elsewhere. Shared evaluation and institution-led data governance help identify those failures before expansion. The programme also emphasises capabilities that can be reused across cancers and levels of care.",
+        "soWhat": "For Indian health-tech builders, a credible hospital validation partner can matter more than a polished demonstration or an impressive benchmark.",
+        "take": "Clinical evidence should earn deployment, rather than follow it reluctantly.",
+        "watch": "Check the published challenge notice, application window and hospital pilot endpoints.",
+        "terms": [
+          {
+            "term": "clinical evidence",
+            "meaning": "Evidence from testing in relevant patient-care settings"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "NCG–Koita Centre · programme details",
+            "url": "https://www.kcdo.in/ai-innovation",
+            "accessedOn": "2026-11-24"
+          }
+        ],
+        "beat": "india",
+        "tryThis": "Write a pilot plan naming the clinical decision, comparison standard and failure threshold before choosing a model."
+      },
+      {
+        "id": "2026-11-24-crowdstrike-zscaler",
+        "rank": 5,
+        "label": "AI & Tech · 24 Nov 2026",
+        "headline": "CrowdStrike agrees to combine with Zscaler",
+        "summary": "CrowdStrike announced an agreement on Monday to acquire Zscaler in an all-stock transaction valued at approximately $43.9 billion. The companies aim to combine protection for devices with controls over access to applications and networks. This is an agreed transaction, not a completed acquisition. Approvals and closing conditions still matter, and customers should not assume immediate product integration.",
+        "why": "Businesses increasingly need to control software agents as well as employees. Bringing security tools together may reduce gaps between systems, but integration can also complicate pricing, support and migration. Those benefits remain a management case to test.",
+        "soWhat": "Indian security buyers should preserve renewal flexibility and ask suppliers which promised integrations are actually available under existing contracts.",
+        "take": "A bigger security vendor is useful only if protection becomes simpler.",
+        "watch": "Check regulatory approvals, closing conditions and the first documented integration milestones.",
+        "terms": [
+          {
+            "term": "all-stock",
+            "meaning": "A transaction paid using shares rather than cash"
+          }
+        ],
+        "image": null,
+        "sources": [
+          {
+            "label": "CrowdStrike · merger announcement, 23 November",
+            "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-zscaler-bringing-network-security-and-zero/",
+            "accessedOn": "2026-11-24"
+          }
+        ],
+        "beat": "deal",
+        "tryThis": "Ask your security team to map where device protection ends and application-access controls begin."
+      }
+    ],
+    "psychology": [
+      {
+        "id": "2026-11-24-ikea-effort-value",
+        "rank": 1,
+        "label": "Psychology · 24 Nov · classic",
+        "headline": "Building something can make us overrate what we made",
+        "summary": "Think of a shelf you assembled yourself. Norton, Mochon and Ariely found that people valued their own completed creations more highly than comparable items made by someone else. Their 2012 paper tested boxes, folded paper and construction toys. The box experiment involved 52 university participants. The effect weakened when people failed to finish or had to dismantle what they made.",
+        "why": "Successful effort can make an object feel like evidence of competence. That personal meaning is real, but it does not establish what an outside customer would pay. Small laboratory tasks also differ from months spent building a business.",
+        "soWhat": "When assessing your own campaign or product, ask outsiders to compare it anonymously with alternatives before discussing the effort involved.",
+        "take": "Effort can create attachment without creating equivalent value for a customer.",
+        "watch": "Compare your predicted customer preference with an anonymous test this week.",
+        "concept": "IKEA effect after successful completion",
+        "study": {
+          "authors": "Michael I. Norton, Daniel Mochon and Dan Ariely",
+          "year": 2012,
+          "published": "2012-07-01",
+          "sample": 52,
+          "era": "classic"
+        },
+        "example": "A founder values a feature highly because the team struggled to build it.",
+        "useThisWeek": "Run a blind preference test before mentioning which version your team made.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Primary research · 2012",
+            "url": "https://www.hbs.edu/ris/Publication%20Files/norton%20mochon%20ariely_6f7b1134-06ef-4940-a2a5-ba1b3be7e47e.pdf",
+            "accessedOn": "2026-11-24"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-24-planning-outside-view",
+        "rank": 2,
+        "label": "Psychology · 24 Nov · classic",
+        "headline": "Your best-case project plan probably needs an outside view",
+        "summary": "You promise a report by Friday because the steps look straightforward. Buehler, Griffin and Ross studied that optimism in 1994. In one study, 37 psychology students predicted when they would finish their theses; their best estimates were earlier than actual completion. Across experiments, people concentrated on how the current task should unfold rather than the delays in comparable past work.",
+        "why": "A coherent plan omits interruptions, coordination and rework. We also explain away previous delays as exceptions, making the next project feel different. Student projects are not every workplace, but the proposed error is recognisable and testable.",
+        "soWhat": "Before agreeing to a deadline, compare several similar completed assignments and count the coordination time as well as writing time.",
+        "take": "A credible estimate begins with past completion times, then adjusts carefully.",
+        "watch": "Record the actual finishing date beside the original estimate this week.",
+        "concept": "Planning fallacy and reference-class completion times",
+        "study": {
+          "authors": "Roger Buehler, Dale Griffin and Michael Ross",
+          "year": 1994,
+          "published": "1994-09-01",
+          "sample": 37,
+          "era": "classic"
+        },
+        "example": "A presentation takes longer because review rounds were absent from the original plan.",
+        "useThisWeek": "Use recent comparable projects as the starting estimate, then list concrete differences.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Primary research · 1994",
+            "url": "https://web.mit.edu/curhan/www/docs/Articles/biases/67_J_Personality_and_Social_Psychology_366%2C_1994.pdf",
+            "accessedOn": "2026-11-24"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-24-emotion-readability",
+        "rank": 3,
+        "label": "Psychology · 24 Nov · classic",
+        "headline": "Other people may notice less of your nerves than you think",
+        "summary": "You give a presentation and feel sure everyone can hear your anxiety. Gilovich, Savitsky and Medvec’s 1998 research explored a related mistake: people overestimated how easily others could read their internal states. In one experiment, 40 Cornell students played truth-and-lie games in small groups. People expected their hidden information to be more detectable than observers actually demonstrated.",
+        "why": "We experience our own feelings directly, while other people see only outward clues. Adjusting from that vivid private experience can be difficult. A student deception task does not prove that every nervous speaker appears calm or that important feelings should remain unspoken.",
+        "soWhat": "In a difficult conversation, name the concern plainly instead of expecting your expression to communicate the whole message.",
+        "take": "What feels obvious inside your head may be missing outside it.",
+        "watch": "Ask a trusted listener what message they actually took away.",
+        "concept": "Illusion of transparency in communicating internal states",
+        "study": {
+          "authors": "Thomas Gilovich, Kenneth Savitsky and Victoria Husted Medvec",
+          "year": 1998,
+          "published": "1998-08-01",
+          "sample": 40,
+          "era": "classic"
+        },
+        "example": "A colleague mistakes your quiet concentration for disapproval.",
+        "useThisWeek": "State your intention at the start of one difficult conversation and check understanding.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Primary research · 1998",
+            "url": "https://www.communicationcache.com/uploads/1/0/8/8/10887248/the_illusion_of_transparency-_biased_assessments_of_others_ability_to_read_ones_emotional_states.pdf",
+            "accessedOn": "2026-11-24"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-24-self-compassion-format",
+        "rank": 4,
+        "label": "Psychology · 24 Nov · recent",
+        "headline": "A stress workbook matched a digital programme in this trial",
+        "summary": "After a difficult day, speaking to yourself harshly can become another burden. Kalon and colleagues compared a digital self-compassion programme with a printed workbook in a trial published in February 2026. They randomised 200 adults; one later requested data deletion. Both groups reported improvements, but the digital programme was not significantly better after eight weeks or at the six-month follow-up.",
+        "why": "Self-compassion means responding to difficulty with kindness and realistic perspective, rather than abandoning standards. Because both groups received an active programme, improvements within each group cannot establish how much either treatment beat receiving no intervention.",
+        "soWhat": "If you try structured self-help, choose a format you can sustain; an app is not automatically more effective than paper.",
+        "take": "The delivery format matters less than claims of superiority suggest here.",
+        "watch": "Track your own stress and completion, rather than counting app sessions.",
+        "concept": "Self-compassion delivery format and active-comparator evidence",
+        "study": {
+          "authors": "Lina S. Kalon, Leif Boß, Carmen Wiencke, Anna-Carlotta Zarski and Dirk Lehr",
+          "year": 2026,
+          "published": "2026-02-09",
+          "sample": 200,
+          "era": "recent"
+        },
+        "example": "After an error, replace a global self-insult with a specific lesson and repair step.",
+        "useThisWeek": "Write a kind but honest response to one setback; seek support if distress persists.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Primary research · 2026",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12926457/",
+            "accessedOn": "2026-11-24"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-24-wellness-subgroup-results",
+        "rank": 5,
+        "label": "Psychology · 24 Nov · recent",
+        "headline": "A promising subgroup result is not a universal wellness benefit",
+        "summary": "A wellness app advertises a study, but who actually benefited? Fuller and colleagues’ 2025 gratitude-app trial enrolled 120 university students. The full sample did not show a significant benefit on depression, anxiety and stress symptoms. A subgroup starting with at least moderate symptoms did. Twenty-seven participants were lost to follow-up, adding uncertainty to a result that should not become a promise for everyone.",
+        "why": "A study’s overall comparison and its subgroup comparisons answer different questions. Smaller groups can produce less stable estimates, especially when several outcomes are examined. This Canadian student sample also cannot establish results for every age or clinical setting.",
+        "soWhat": "When evaluating a wellness claim, ask which participants improved, against what comparison, and how many remained at the end.",
+        "take": "A narrower, qualified finding is more useful than an inflated headline.",
+        "watch": "Check the primary outcome and follow-up losses in the next study you read.",
+        "concept": "Interpreting subgroup effects in psychological interventions",
+        "study": {
+          "authors": "Chloë Fuller, Silvia Marin-Dragu, Ravishankar Subramani Iyer and Sandra Melanie Meier",
+          "year": 2025,
+          "published": "2025-01-14",
+          "sample": 120,
+          "era": "recent"
+        },
+        "example": "An app advert uses its most favourable subgroup while omitting the overall result.",
+        "useThisWeek": "Before sharing a study-based wellness claim, read its full-sample result and attrition.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Primary research · 2025",
+            "url": "https://mhealth.jmir.org/2025/1/e53850/",
+            "accessedOn": "2026-11-24"
+          }
+        ]
+      }
+    ],
+    "marketing": [
+      {
+        "id": "2026-11-24-nayi-chetna-marketing",
+        "rank": 1,
+        "label": "India · Marketing · 24 Nov 2026",
+        "headline": "Nayi Chetna makes women’s economic agency the campaign message",
+        "summary": "A government campaign can market a change in everyday behaviour. Announced on Monday, Nayi Chetna 5.0 is scheduled to begin tomorrow and run until 23 December. The rural development ministry puts women’s control over assets, safe mobility and unpaid care at its centre. Community women’s groups, local institutions and campaign videos will carry the message across India. This is a planned launch, not a completed campaign.",
+        "why": "An awareness message is easier to act on when trusted local people can connect it with services and collective support. The creative shift is from simply giving access to enabling decisions about work, money and movement.",
+        "soWhat": "For marketers, build the distribution network and the requested behaviour together instead of relying on a launch event alone.",
+        "take": "Community messengers can make an abstract equality message concrete and actionable.",
+        "watch": "Check tomorrow’s launch materials and the published assessment of the previous edition.",
+        "region": "India",
+        "brand": "Ministry of Rural Development · DAY-NRLM",
+        "agency": "Ministry-led programme; no external advertising agency named in the release.",
+        "objective": "Strengthen women’s agency and challenge restrictive social norms.",
+        "insight": "Trusted community networks can connect awareness with practical support.",
+        "channels": "Women’s groups, community institutions, videos and inter-ministerial coordination.",
+        "results": "No results for the new edition yet; launch is scheduled for 25 November.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Rural development ministry · campaign announcement, 23 November",
+            "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2340195&lang=1&reg=3",
+            "accessedOn": "2026-11-24"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-24-golden-goose-dyavol",
+        "rank": 2,
+        "label": "India · Marketing · 24 Nov 2026",
+        "headline": "Golden Goose links a streetwear launch to film and stores",
+        "summary": "Golden Goose and D’Yavol X announced a footwear and apparel collaboration on 20 November, with the first drop scheduled for today. The rollout brings D’Yavol X into physical retail through Golden Goose stores in India. A campaign film and social announcement support the launch, and selected pieces are planned to appear in Shah Rukh Khan’s film King. Availability and sell-through still need confirmation.",
+        "why": "Celebrity association can generate recognition, but the interesting distribution choice is giving an online-led label a place to be tried. Film placement can extend the product’s visibility beyond the initial launch, without proving an eventual sales lift.",
+        "soWhat": "For an Indian lifestyle brand, coordinate content, a recognisable cultural partner and a clear place to experience the product.",
+        "take": "The partnership works best if attention leads somewhere tangible for customers.",
+        "watch": "Check store availability today and any subsequently published sell-through evidence.",
+        "region": "India",
+        "brand": "Golden Goose × D’Yavol X",
+        "agency": "Not identified in the published campaign announcement.",
+        "objective": "Introduce the collaboration and expand D’Yavol X into Indian physical retail.",
+        "insight": "A cultural association becomes more useful when shoppers can experience the product.",
+        "channels": "Campaign film, social content, Indian Golden Goose stores and planned film placement.",
+        "results": "No campaign sales or independently measured lift published in the cited announcement.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "ET BrandEquity · brand collaboration, 20 November",
+            "url": "https://brandequity.economictimes.indiatimes.com/news/research/advertising/golden-goose-partners-with-dyavol-x-launches-campaign-film/136022017",
+            "accessedOn": "2026-11-24"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-24-raffaello-first-hello",
+        "rank": 3,
+        "label": "India · Marketing · 24 Nov 2026",
+        "headline": "Raffaello gives its sweet a role in starting a conversation",
+        "summary": "Ferrero India’s Say Hello with Raffaello campaign, announced on 19 November, casts Kriti Sanon in a pottery-class encounter. A young man leaves his Raffaello behind; she follows with it and gains a reason to say hello. The film runs on digital platforms, with a broader rollout across consumer touchpoints. It sells a social occasion for the sweet, rather than just describing ingredients.",
+        "why": "Starting a conversation can feel awkward. Giving the product a small, believable role lowers that imagined barrier. That is an interpretation of the creative, not evidence that the film changed social behaviour or increased purchases.",
+        "soWhat": "For marketers, identify a real moment of hesitation where your product can plausibly help, then make that moment easy to recognise.",
+        "take": "A modest human situation can be stronger than an oversized product promise.",
+        "watch": "Check published campaign recall or incremental sales before claiming effectiveness.",
+        "region": "India",
+        "brand": "Ferrero India · Raffaello",
+        "agency": "Not named in the cited campaign coverage.",
+        "objective": "Make the confectionery relevant to spontaneous personal connections.",
+        "insight": "A shared treat supplies a low-pressure reason to begin a conversation.",
+        "channels": "Digital campaign film and a wider consumer-touchpoint rollout.",
+        "results": "No measured campaign performance published in the cited launch coverage.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "afaqs! · campaign announcement, 19 November",
+            "url": "https://www.afaqs.com/news/advertising/ferrero-india-names-kriti-sanon-as-brand-endorser-for-raffaello-12823822",
+            "accessedOn": "2026-11-24"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-24-mcd-home-alone",
+        "rank": 4,
+        "label": "Global · Marketing · 24 Nov 2026",
+        "headline": "McDonald’s turns Home Alone nostalgia into a meal experience",
+        "summary": "McDonald’s launched its Home Alone Meal in the UK and Ireland on 17 November. Macaulay Culkin returns as Kevin in the campaign, while film-inspired menu items and collectible festive socks bring the story into restaurants. The limited-time offer makes familiar entertainment something customers can taste and take home. The brand’s announcement reports the activation, not a measured sales outcome.",
+        "why": "Nostalgia gives the campaign an existing emotional reference. The commercial idea goes further than borrowing a famous face: the product, packaging-linked keepsake and seasonal menu provide concrete ways to participate in the same story.",
+        "soWhat": "For Indian marketers, a cultural partnership is stronger when the customer experience carries the idea beyond the advertisement.",
+        "take": "Borrow the audience’s affection, then give it a coherent product experience.",
+        "watch": "Check repeat visits and incremental basket value if results are released.",
+        "region": "Global",
+        "brand": "McDonald’s UK & Ireland · Home Alone",
+        "agency": "Not identified in the cited brand announcement.",
+        "objective": "Make the festive menu a participatory, nostalgic occasion.",
+        "insight": "Familiar characters and keepsakes turn recognition into a tangible ritual.",
+        "channels": "Campaign creative, participating restaurants, themed meals and collectible socks.",
+        "results": "No measured campaign lift or sales results in the launch announcement.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "McDonald’s · official launch, 17 November",
+            "url": "https://www.mcdonalds.com/gb/en-gb/newsroom/article/home-alone-meal.html",
+            "accessedOn": "2026-11-24"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-24-tesco-wrong-address",
+        "rank": 5,
+        "label": "Global · Marketing · 24 Nov 2026",
+        "headline": "Tesco makes a delivery mistake the start of a friendship",
+        "summary": "Tesco’s UK Christmas film The Wrong Address launched on 1 November, making this a recent case study rather than today’s launch. BBH London builds the story around groceries sent to an old address. A delivery driver and her former school friend reconnect while getting Christmas back on track. The television edit and longer film tie emotional storytelling to Tesco’s established promise of practical help.",
+        "why": "The brand earns a role because a recognisable customer problem drives the plot. Friendship supplies the emotional payoff, while the delivery service keeps the story connected to the retailer rather than floating free as a generic festive film.",
+        "soWhat": "For marketers, start with a problem your service genuinely solves, then let the emotional story emerge from that role.",
+        "take": "Useful brand behaviour makes an emotional advertisement easier to remember correctly.",
+        "watch": "Look for brand attribution and incremental consideration in any published evaluation.",
+        "region": "Global",
+        "brand": "Tesco UK",
+        "agency": "BBH London; directed by Steve Rogers.",
+        "objective": "Reinforce Tesco’s practical-help promise during Christmas shopping.",
+        "insight": "A relatable service mistake creates room for helpfulness and reconnection.",
+        "channels": "Television, longer-form film and wider festive retail activity.",
+        "results": "No measured advertising effectiveness or incremental sales published in the cited release.",
+        "terms": [],
+        "image": null,
+        "sources": [
+          {
+            "label": "Tesco · official launch, 1 November",
+            "url": "https://www.tescoplc.com/tesco-delivers-a-festive-surprise-in-2026-christmas-ad-starring-roisin-conaty-and-anna-maxwell-martin",
+            "accessedOn": "2026-11-24"
+          }
+        ]
+      }
+    ]
+  }
+}
