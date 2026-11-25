@@ -1,0 +1,327 @@
+{
+  "date": "2026-11-25",
+  "timestamp": "2026-11-25T04:17:48.379Z",
+  "mode": "latest",
+  "session": "open",
+  "sources": [
+    {
+      "label": "nse",
+      "url": "https://www.nseindia.com/api/allIndices"
+    },
+    {
+      "label": "sensex",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?interval=1m&range=1d"
+    },
+    {
+      "label": "close",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv"
+    },
+    {
+      "label": "ytd",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+    },
+    {
+      "label": "flows",
+      "url": "https://www.nseindia.com/api/fiidiiTradeReact"
+    },
+    {
+      "label": "oil",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-tata-steel-hindalco-share-price-25-november-2026/liveblog/136145716.cms"
+    },
+    {
+      "label": "gold",
+      "url": "https://ibjarates.com"
+    },
+    {
+      "label": "rbi",
+      "url": "https://www.rbi.org.in/scripts/BS_NSDPDisplay.aspx?param=4"
+    },
+    {
+      "label": "fx",
+      "url": "https://www.fbil.org.in/"
+    },
+    {
+      "label": "calendar",
+      "url": "https://archives.nseindia.com/content/circulars/CMTR71775.pdf"
+    },
+    {
+      "label": "Moneycontrol · previous Sensex close, 23 November",
+      "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-snap-2-day-gains-sensex-sheds-1-484-pts-nifty-below-25-350-14087155.html"
+    },
+    {
+      "label": "auto",
+      "url": "https://www.reuters.com/world/india/hyundai-motor-india-tata-motors-passenger-vehicles-raise-prices-december-1-2026-11-24/"
+    },
+    {
+      "label": "bisleri",
+      "url": "https://www.moneycontrol.com/news/business/companies/bisleri-says-will-continue-to-cooperate-with-fssai-defend-its-position-in-any-proceedings-14088194.html"
+    },
+    {
+      "label": "sfc",
+      "url": "https://nsearchives.nseindia.com/corporate/COMPLIANCE_SFC_23112026234018_sfcoutcom.pdf"
+    },
+    {
+      "label": "sfcnews",
+      "url": "https://www.screener.in/company/SFCTECH/consolidated/"
+    },
+    {
+      "label": "ipo",
+      "url": "https://upstox.com/news/market-news/ipo/ipo-watch-two-mainboard-ip-os-to-open-next-week-mahanadi-coalfields-crystal-crop-listing-ahead/article-203777/"
+    }
+  ],
+  "series": {
+    "Nifty 50": {
+      "level": 25726.55,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "history": [
+        {
+          "date": "2026-11-23",
+          "level": 25349.65,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv"
+        },
+        {
+          "date": "2026-11-18",
+          "level": 25227.95,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2026-10-23",
+          "level": 22600,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2025-12-31",
+          "level": 26129.6,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+        }
+      ],
+      "note": "NSE observation 25 November 09:47 IST. Previous session 23 November; 24 November was an exchange holiday."
+    },
+    "Bank Nifty": {
+      "level": 63525.2,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "history": [
+        {
+          "date": "2026-11-23",
+          "level": 62585.35,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv"
+        },
+        {
+          "date": "2026-11-18",
+          "level": 62038.65,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2026-10-23",
+          "level": 54287.35,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2025-12-31",
+          "level": 59581.85,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+        }
+      ],
+      "note": "NSE observation 25 November 09:47 IST. Previous session 23 November; 24 November was an exchange holiday."
+    },
+    "Nifty Midcap 150": {
+      "level": 22650.5,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "history": [
+        {
+          "date": "2026-11-23",
+          "level": 22542.45,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv"
+        },
+        {
+          "date": "2026-11-18",
+          "level": 22389.9,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2026-10-23",
+          "level": 20592.75,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2025-12-31",
+          "level": 22276.9,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+        }
+      ],
+      "note": "NSE observation 25 November 09:47 IST. Previous session 23 November; 24 November was an exchange holiday."
+    },
+    "Nifty Smallcap 250": {
+      "level": 17658.15,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "history": [
+        {
+          "date": "2026-11-23",
+          "level": 17662.6,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv"
+        },
+        {
+          "date": "2026-11-18",
+          "level": 17667.5,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2026-10-23",
+          "level": 16385.15,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2025-12-31",
+          "level": 16684.75,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+        }
+      ],
+      "note": "NSE observation 25 November 09:47 IST. Previous session 23 November; 24 November was an exchange holiday."
+    },
+    "India VIX": {
+      "level": 17.08,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "history": [
+        {
+          "date": "2026-11-23",
+          "level": 17.7,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv"
+        }
+      ],
+      "note": "NSE observation 25 November 09:47 IST. Previous session 23 November; 24 November was an exchange holiday."
+    },
+    "Sensex": {
+      "level": 83928.3,
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?interval=1m&range=1d",
+      "history": [
+        {
+          "date": "2026-11-23",
+          "level": 82435.99,
+          "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-snap-2-day-gains-sensex-sheds-1-484-pts-nifty-below-25-350-14087155.html"
+        }
+      ],
+      "note": "Yahoo-distributed BSE quote timestamp 25 November 09:35:43 IST; retrieved with the morning snapshot. Delayed compared with the NSE 09:47 observation. Previous close is 23 November."
+    },
+    "₹/US$": {
+      "url": "https://www.fbil.org.in/",
+      "unavailableReason": "No same-day INR/USD observation collected from FBIL; no stale fixing shown as current."
+    },
+    "Gold (₹/10 g)": {
+      "url": "https://ibjarates.com",
+      "unavailableReason": "No dated 25 November INR-per-ten-grams benchmark available in this collection; international spot gold is a different unit."
+    },
+    "India 10-year G-sec yield": {
+      "url": "https://www.rbi.org.in/scripts/BS_NSDPDisplay.aspx?param=4",
+      "unavailableReason": "The RBI page supplied older weekly observations, not a current-session benchmark yield."
+    },
+    "Brent": {
+      "level": 90.1,
+      "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-tata-steel-hindalco-share-price-25-november-2026/liveblog/136145716.cms",
+      "history": [],
+      "note": "USD per barrel, Economic Times live report at 09:47:37 IST on 25 November. Intraday futures quote; not a settlement. No matched prior settlement is supplied."
+    }
+  },
+  "facts": [
+    {
+      "value": 25726.55,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": 1.49,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": 63525.2,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": 1.5,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": 22650.5,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": 0.48,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": 17658.15,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": -0.03,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": 17.08,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": -3.5,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": 83928.3,
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?interval=1m&range=1d",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": 82435.99,
+      "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-snap-2-day-gains-sensex-sheds-1-484-pts-nifty-below-25-350-14087155.html",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 90.1,
+      "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-tata-steel-hindalco-share-price-25-november-2026/liveblog/136145716.cms",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": 5672.99,
+      "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": -2760.12,
+      "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 99.851,
+      "url": "https://nsearchives.nseindia.com/corporate/COMPLIANCE_SFC_23112026234018_sfcoutcom.pdf",
+      "asOf": "2026-09-30"
+    },
+    {
+      "value": 52.788,
+      "url": "https://nsearchives.nseindia.com/corporate/COMPLIANCE_SFC_23112026234018_sfcoutcom.pdf",
+      "asOf": "2025-09-30"
+    }
+  ],
+  "flows": {
+    "fii": 5672.99,
+    "dii": -2760.12,
+    "fiiMtd": null,
+    "diiMtd": null,
+    "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+    "asOf": "2026-11-23",
+    "unavailableReason": "Latest completed cash-session flows are from 23 November. Month-to-date totals were not collected as a dated exchange series."
+  },
+  "niftyPE": {
+    "now": 20.65,
+    "median5y": null,
+    "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv",
+    "asOf": "2026-11-23",
+    "unavailableReason": "Last-session Nifty P/E is available; a comparable five-year median and a refreshed intraday ratio are unavailable."
+  }
+}
