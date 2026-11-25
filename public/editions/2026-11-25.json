@@ -1,0 +1,2307 @@
+{
+  "version": 2,
+  "stockLayout": "dip-quality",
+  "date": "2026-11-25",
+  "publishedAt": "2026-11-25T04:37:28.779Z",
+  "publicationMode": "late",
+  "top3": [
+    {
+      "cardId": "2026-11-25-us-tariff-risk",
+      "line": "A fresh US tariff threat puts exporters back on alert."
+    },
+    {
+      "cardId": "2026-11-25-shipping-war-food-aid",
+      "line": "Attacks on shipping add another risk to food aid and trade."
+    },
+    {
+      "cardId": "2026-11-25-market-rebound",
+      "line": "Indian shares rebound after the holiday, led by banks."
+    }
+  ],
+  "stockSelection": {
+    "session": "2026-11-23",
+    "fundamentalsDate": "2026-11-21",
+    "counts": {
+      "universe": 493,
+      "verified": 493,
+      "passed": 69,
+      "buyOrWait": 61,
+      "heldBack": 26,
+      "dipEligible": 1
+    }
+  },
+  "sections": {
+    "india": [
+      {
+        "id": "2026-11-25-us-tariff-risk",
+        "rank": 1,
+        "label": "25 Nov 2026",
+        "headline": "India faces another US tariff threat, with rates still unclear",
+        "summary": "Indian exporters face a fresh source of uncertainty. Reports published overnight say Washington is preparing tariffs after investigating industrial subsidies and excess factory capacity across India and other trading partners. The final rates, products and start dates have not been announced. A report about plans is not a new customs charge, so existing rules still govern shipments until an official notice changes them.",
+        "why": "America’s earlier sweeping tariffs ran into a court challenge. The administration is now using other trade-law routes. For suppliers, the hard part is not just a higher duty: changing rules make quotations, delivery schedules and contracts harder to settle.",
+        "soWhat": "Exporters should separate today’s legal costs from a higher-duty scenario, and agree with customers who would pay any new charge.",
+        "take": "Price the uncertainty, but don’t turn an unnamed source into enacted policy.",
+        "watch": "Check the US trade office’s findings, product list and start date.",
+        "terms": [
+          {
+            "term": "tariffs",
+            "meaning": "Taxes charged on goods entering a country"
+          },
+          {
+            "term": "industrial subsidies",
+            "meaning": "Government support that lowers a producer’s costs"
+          }
+        ],
+        "image": {
+          "url": "https://hermes.media.static.aol.com/media/2026/11/25/439c7e21-f11e-3a52-b6a0-9f3ddadd5e1c/17eee6fd-7556-4d37-9aed-8a962ea78918.jpg",
+          "credit": "Photo: AOL.com",
+          "alt": "US ready to slap tariffs on China, EU and others over subsidized production, AP sources say - AOL",
+          "sourceUrl": "https://www.aol.com/articles/us-ready-slap-tariffs-china-005200000.html",
+          "auto": true
+        },
+        "photo": "Office of the United States Trade Representative",
+        "sources": [
+          {
+            "label": "tariffAP",
+            "url": "https://www.aol.com/articles/us-ready-slap-tariffs-china-005200000.html",
+            "accessedOn": "2026-11-25"
+          },
+          {
+            "label": "tariff",
+            "url": "https://www.reuters.com/world/us/trump-administration-set-unveil-new-tariffs-after-probe-on-excess-factory-2026-11-24/",
+            "accessedOn": "2026-11-25"
+          }
+        ],
+        "beat": "policy"
+      },
+      {
+        "id": "2026-11-25-state-election-alliances",
+        "rank": 2,
+        "label": "25 Nov 2026",
+        "headline": "Parties redraw alliances before the UP and Punjab elections",
+        "summary": "Seat-sharing talks are changing the next state-election contests. The Samajwadi Party has offered Congress 26 seats in Uttar Pradesh, but talks are unfinished. In Punjab, the BJP and Shiromani Akali Dal announced their reunion after six years apart. The developments are separate: one is a negotiating offer, while the other is an announced alliance. Neither establishes who will win.",
+        "why": "Alliances try to combine support without losing voters who dislike the partner. Negotiating strength comes from local organisation and past results, not just national visibility. Campaign promises, candidate selection and whether supporters transfer their votes will test the arithmetic.",
+        "soWhat": "For voters and local businesses, compare the eventual candidates and policy commitments rather than assuming a combined vote share delivers power.",
+        "take": "A seat pact matters only if voters accept the partnership.",
+        "watch": "Look for signed seat-sharing terms and the next candidate lists.",
+        "terms": [
+          {
+            "term": "seat-sharing",
+            "meaning": "An agreement on which party contests each constituency"
+          }
+        ],
+        "image": null,
+        "photo": "Uttar Pradesh Legislative Assembly",
+        "sources": [
+          {
+            "label": "elections",
+            "url": "https://indianexpress.com/article/cities/lucknow/samajwadi-party-offers-26-seats-after-congress-asks-for-131-in-up-seat-share-talks-10976060/",
+            "accessedOn": "2026-11-25"
+          },
+          {
+            "label": "punjab",
+            "url": "https://indianexpress.com/article/cities/chandigarh/bjp-sad-alliance-revival-punjab-guru-nanak-jayanti-seat-sharing-punjab-polls-2027-10976147/",
+            "accessedOn": "2026-11-25"
+          }
+        ],
+        "beat": "policy"
+      },
+      {
+        "id": "2026-11-25-foxconn-vendor-petition",
+        "rank": 3,
+        "label": "25 Nov 2026",
+        "headline": "A Foxconn vendor takes unpaid housing dues to court",
+        "summary": "A housing supplier has filed an insolvency petition against a Foxconn unit in India over alleged unpaid dues. Bloomberg reported the filing on Wednesday, describing a dispute over accommodation for employees at the Bengaluru facility. Foxconn did not respond to its request for comment. A creditor’s petition is an allegation seeking payment; it does not mean a court has declared the business bankrupt.",
+        "why": "Large factories rely on smaller contractors for construction, housing and daily services. Payment delays can squeeze those suppliers long before a manufacturer’s output changes. The tribunal must consider the contract, whether a debt is due and whether the claim is disputed.",
+        "soWhat": "Suppliers should monitor receivables and contract protections alongside the size of the customer; a famous name does not guarantee prompt payment.",
+        "take": "India’s manufacturing expansion also needs dependable payment to its supporting businesses.",
+        "watch": "Check the tribunal’s admission decision and the company’s formal response.",
+        "terms": [
+          {
+            "term": "insolvency petition",
+            "meaning": "A court request to start a debt-resolution process"
+          },
+          {
+            "term": "receivables",
+            "meaning": "Money customers owe for goods or services supplied"
+          }
+        ],
+        "image": {
+          "url": "https://images.moneycontrol.com/static-mcnews/2025/01/20250123063937_Foxconn.jpg",
+          "credit": "Photo: Moneycontrol",
+          "alt": "Foxconn faces India insolvency lawsuit over unpaid vendor dues- Moneycontrol.com",
+          "sourceUrl": "https://www.moneycontrol.com/news/business/companies/foxconn-faces-india-insolvency-lawsuit-over-unpaid-vendor-dues-14088297.html",
+          "auto": true
+        },
+        "photo": "Foxconn",
+        "sources": [
+          {
+            "label": "foxconn",
+            "url": "https://www.moneycontrol.com/news/business/companies/foxconn-faces-india-insolvency-lawsuit-over-unpaid-vendor-dues-14088297.html",
+            "accessedOn": "2026-11-25"
+          }
+        ],
+        "beat": "business"
+      },
+      {
+        "id": "2026-11-25-delhi-workplace-assault",
+        "rank": 4,
+        "label": "25 Nov 2026",
+        "headline": "Delhi police arrest three after a café worker alleges assault",
+        "summary": "Delhi police have arrested three people after a young woman alleged sexual assault by colleagues following a late-night staff gathering at a café in Preet Vihar. The account reported by PTI remains under investigation. Arrests are not convictions. The case deserves attention without sharing the survivor’s identity, graphic details or claims that investigators and a court have not established.",
+        "why": "A workplace includes the relationships and power around after-hours events, not just scheduled shifts. Employers need safe reporting routes and a response that protects the complainant without substituting an internal judgement for the criminal investigation.",
+        "soWhat": "For workers and managers, make reporting contacts and safe departure arrangements easy to find before a late shift or staff event.",
+        "take": "Safety procedures are useful only when staff can use them without fear.",
+        "watch": "Check police updates and the employer’s response through reliable reporting.",
+        "terms": [],
+        "image": {
+          "url": "https://images.moneycontrol.com/static-mcnews/2026/08/20260831045102_rapeh.jpeg",
+          "credit": "Photo: Moneycontrol",
+          "alt": "Delhi woman alleges gang rape at cafe after late-night staff party; 3, including a woman, arrested- Moneycontrol.com",
+          "sourceUrl": "https://www.moneycontrol.com/city/delhi-woman-alleges-gang-rape-at-cafe-after-late-night-staff-party-3-including-a-woman-arrested-article-14088286.html",
+          "auto": true
+        },
+        "photo": "Delhi",
+        "sources": [
+          {
+            "label": "delhi",
+            "url": "https://www.moneycontrol.com/city/delhi-woman-alleges-gang-rape-at-cafe-after-late-night-staff-party-3-including-a-woman-arrested-article-14088286.html",
+            "accessedOn": "2026-11-25"
+          }
+        ],
+        "beat": "society"
+      },
+      {
+        "id": "2026-11-25-court-compliance-leadership",
+        "rank": 5,
+        "label": "25 Nov 2026",
+        "headline": "Courts face a compliance test as chief-justice changes are proposed",
+        "summary": "The Madras High Court told officials on Tuesday to follow the Supreme Court’s temporary lamp-lighting directions at Thirupparankundram in Tamil Nadu. Later reporting described a dispute over where the ceremony occurred. Separately, the Supreme Court’s Collegium recommended chief-justice changes for Jharkhand, Karnataka and Tripura. These are recommendations, not appointments already completed. The ritual dispute also remains subject to further court decisions.",
+        "why": "Judicial authority depends both on clear orders being followed and on courts having stable leadership. A review application does not by itself cancel an existing direction. Appointment recommendations still require the remaining constitutional process.",
+        "soWhat": "Residents should follow written local safety directions; litigants should distinguish a proposed transfer from a government appointment notification.",
+        "take": "Read the written directions before treating a political account as the ruling.",
+        "watch": "Check the compliance hearing and the government’s appointment notifications.",
+        "terms": [
+          {
+            "term": "Collegium",
+            "meaning": "Senior judges who recommend judicial appointments and transfers"
+          }
+        ],
+        "image": {
+          "url": "https://images.moneycontrol.com/static-mcnews/2024/02/Chennai-High-Court-George-Town-the-first-settlement-in-Madras.-e1707649655190.jpg",
+          "credit": "Photo: Moneycontrol",
+          "alt": "Thirupparankundram Deepam row: Lamp lit at Uchipillayar mandapam after Madras HC directs SC order compliance- Moneycontrol.com",
+          "sourceUrl": "https://www.moneycontrol.com/news/india/thirupparankundram-deepam-row-madras-hc-directs-officials-to-comply-with-supreme-court-order-release-detained-persons-14088090.html",
+          "auto": true
+        },
+        "photo": "Supreme Court of India",
+        "sources": [
+          {
+            "label": "deepam",
+            "url": "https://www.moneycontrol.com/news/india/thirupparankundram-deepam-row-madras-hc-directs-officials-to-comply-with-supreme-court-order-release-detained-persons-14088090.html",
+            "accessedOn": "2026-11-25"
+          },
+          {
+            "label": "collegium",
+            "url": "https://www.livelaw.in/top-stories/supreme-court-collegium-recommends-justice-vibhu-bakhru-as-jharkhand-hc-chief-justice-justice-ramachandra-rao-for-karnataka-hc-559829",
+            "accessedOn": "2026-11-25"
+          }
+        ],
+        "beat": "wildcard"
+      }
+    ],
+    "world": [
+      {
+        "id": "2026-11-25-shipping-war-food-aid",
+        "rank": 1,
+        "label": "25 Nov 2026",
+        "headline": "Attacks on ships put trade and food aid at risk",
+        "summary": "Ukraine confirmed on Tuesday that it struck a Russian cargo ship in the Gulf of Finland. Norway, an ally, urged caution. The admission adds to concern about attacks spreading across shipping routes. Separately, the World Food Programme has warned that disruption around the Black Sea and Middle East could raise its costs and put aid for millions at risk. Those are projected losses, not aid already cancelled.",
+        "why": "Ships connect distant producers, customers and relief operations. A dangerous route can require longer journeys, extra insurance or delayed delivery. The same humanitarian budget then buys less transport and food, even in countries far from the fighting.",
+        "soWhat": "Indian importers and exporters need route-specific freight quotes; a broad oil-price fall does not mean every shipping risk has eased.",
+        "take": "The economic reach of a maritime attack extends well beyond its target.",
+        "watch": "Check shipping advisories, insurance costs and the food agency’s delivery updates.",
+        "terms": [
+          {
+            "term": "World Food Programme",
+            "meaning": "The United Nations agency providing food assistance"
+          }
+        ],
+        "image": {
+          "url": "https://www.wfp.org/modules/custom/wfp_metatag/images/metatag-news-fallback.jpg",
+          "credit": "Photo: wfp.org",
+          "alt": "WFP Executive Director&#039;s briefing to the UN Security Council on Ukraine - Remarks as Delivered | World Food Programme",
+          "sourceUrl": "https://www.wfp.org/news/wfp-executive-directors-briefing-un-security-council-ukraine-remarks-delivered",
+          "auto": true
+        },
+        "photo": "Gulf of Finland",
+        "sources": [
+          {
+            "label": "wfp",
+            "url": "https://www.wfp.org/news/wfp-executive-directors-briefing-un-security-council-ukraine-remarks-delivered",
+            "accessedOn": "2026-11-25"
+          },
+          {
+            "label": "finland",
+            "url": "https://www.investing.com/news/world-news/zelenskiy-confirms-ukraine-hit-russian-ship-in-gulf-of-finland-ally-norway-urges-caution-5048384",
+            "accessedOn": "2026-11-25"
+          },
+          {
+            "label": "blacksea",
+            "url": "https://tribune.com.pk/story/2642033/un-food-agency-chief-warns-wars-jeopardise-food-aid-for-73m-more-people?amp=1",
+            "accessedOn": "2026-11-25"
+          }
+        ],
+        "beat": "geopolitics",
+        "indiaLink": "Longer routes and higher freight costs can reach Indian fuel, fertiliser and food supply chains."
+      },
+      {
+        "id": "2026-11-25-gaza-wastewater-repairs",
+        "rank": 2,
+        "label": "25 Nov 2026",
+        "headline": "Gaza’s promised sewage repairs still need to reach the ground",
+        "summary": "Israel says it will advance partial repairs to Gaza’s two main wastewater plants after months of delay. Reporting published Tuesday cites the military agency coordinating civilian matters, which described equipment and work for the Sheikh Ajlin and Sheikh Radwan facilities. The announcement follows international pressure over winter conditions. Permission and equipment promises do not establish that treatment capacity has been restored.",
+        "why": "Rainwater and sewage become a much larger health problem when pumps, power and treatment systems fail together. Repairs need functioning access routes, fuel, spare parts and workers who can reach the site safely. A partial fix also leaves the wider network vulnerable.",
+        "soWhat": "Judge humanitarian progress through services households can actually use, including drainage and clean water, rather than the number of announced packages.",
+        "take": "A repair promise becomes meaningful when the equipment works through bad weather.",
+        "watch": "Look for access confirmations and measured treatment capacity after repairs.",
+        "terms": [],
+        "image": null,
+        "photo": "Gaza Strip",
+        "sources": [
+          {
+            "label": "gaza",
+            "url": "https://www.timesofisrael.com/facing-international-pressure-israel-vows-to-advance-delayed-gaza-sewage-repairs/",
+            "accessedOn": "2026-11-25"
+          }
+        ],
+        "beat": "geopolitics",
+        "indiaLink": "For India’s humanitarian engagement, operating water and sanitation systems are concrete measures of civilian relief."
+      },
+      {
+        "id": "2026-11-25-bangladesh-wage-unrest",
+        "rank": 3,
+        "label": "25 Nov 2026",
+        "headline": "Bangladesh’s wage dispute shuts garment factories",
+        "summary": "Garment workers blocked roads in Bangladesh’s Gazipur industrial belt on Tuesday, and police used tear gas and sound grenades, Reuters reported. Dozens of factories suspended operations as workers pressed for better minimum pay. Negotiations are continuing. Disrupted production is an observed effect; a lasting shift of international orders to another country has not been established.",
+        "why": "Workers face living costs that wages may struggle to cover, while manufacturers compete for price-sensitive overseas orders. A settlement has to address both purchasing power and factory economics. Rumours spreading through a tense industrial area can also deepen disruption.",
+        "soWhat": "Indian clothing suppliers should check their own delivery commitments and labour practices instead of assuming a neighbour’s disruption guarantees new orders.",
+        "take": "Reliable production depends on a workable wage settlement, not simply cheaper labour.",
+        "watch": "Check the wage board’s final rate and factory reopening reports.",
+        "terms": [
+          {
+            "term": "purchasing power",
+            "meaning": "What a wage can actually buy"
+          }
+        ],
+        "image": {
+          "url": "https://media.internazionale.it/images/2026/11/24/364663-hd.jpeg",
+          "credit": "Photo: Internazionale",
+          "alt": "Bangladesh garment workers clash with police as pay protests shut factories",
+          "sourceUrl": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/24/bangladesh-garment-workers-clash-with-police-as-pay-protests-shut-factories",
+          "auto": true
+        },
+        "photo": "Gazipur",
+        "sources": [
+          {
+            "label": "bangladesh",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/24/bangladesh-garment-workers-clash-with-police-as-pay-protests-shut-factories",
+            "accessedOn": "2026-11-25"
+          }
+        ],
+        "beat": "economy",
+        "indiaLink": "Bangladesh competes with Indian apparel exporters and is part of the region’s textile supply network."
+      },
+      {
+        "id": "2026-11-25-us-intelligence-breach",
+        "rank": 4,
+        "label": "25 Nov 2026",
+        "headline": "US intelligence agencies report a breach of unclassified systems",
+        "summary": "The CIA and the Office of the Director of National Intelligence have suffered a breach affecting some unclassified information, Reuters reported overnight, citing a source. An intelligence official said critical capabilities and classified systems were not disrupted. The attacker and full extent remain unclear. Unclassified does not mean harmless, but there is no basis here to claim secret intelligence was exposed.",
+        "why": "Analysts working with public information still need internet-connected systems. That creates a different risk from isolated secret networks. The incident shows why organisations must protect accounts and sensitive working material even when a document carries no formal security label.",
+        "soWhat": "Indian employers can use the case to review access permissions and incident reporting without assuming the same attacker targeted their systems.",
+        "take": "Protect sensitive work according to its consequences, not just its label.",
+        "watch": "Check official findings on access, affected records and corrective controls.",
+        "terms": [
+          {
+            "term": "classified",
+            "meaning": "Officially restricted because disclosure could harm national security"
+          }
+        ],
+        "image": null,
+        "photo": "Central Intelligence Agency",
+        "sources": [
+          {
+            "label": "cia",
+            "url": "https://www.reuters.com/world/us-cia-odni-suffer-cybersecurity-breach-some-unclassified-information-nyt-2026-11-24/",
+            "accessedOn": "2026-11-25"
+          }
+        ],
+        "beat": "us-china",
+        "indiaLink": "Indian organisations handling sensitive public-source research face similar access and account-security questions."
+      },
+      {
+        "id": "2026-11-25-pakistan-china-spaceflight",
+        "rank": 5,
+        "label": "25 Nov 2026",
+        "headline": "Pakistan’s first astronaut launches aboard China’s Shenzhou mission",
+        "summary": "China launched Shenzhou-24 on Wednesday with Pakistani astronaut Muhammad Zeeshan Ali alongside Chinese crew members. Pakistan’s government hailed the flight, and launch reporting identifies it as the first foreign crew participation in China’s space-station programme. The mission is a scientific milestone and a visible partnership. Launch success should be distinguished from later docking, work in orbit and a safe return.",
+        "why": "Training, launch access and shared experiments turn space cooperation into a relationship built over years. China gains a platform for international participation, while Pakistan gets experience it could not obtain from an isolated domestic launch programme alone.",
+        "soWhat": "For Indian readers, separate scientific collaboration from claims about military capability; the flight by itself does not prove a new operational threat.",
+        "take": "Judge space partnerships by completed work and sustained capability, not symbolism alone.",
+        "watch": "Check docking confirmation, experiment updates and the crew’s return milestones.",
+        "terms": [],
+        "image": null,
+        "photo": "Shenzhou 24",
+        "sources": [
+          {
+            "label": "spacegov",
+            "url": "https://pid.gov.pk/site/press_detail/34964",
+            "accessedOn": "2026-11-25"
+          },
+          {
+            "label": "space",
+            "url": "https://indianexpress.com/article/world/china-shenzhou-24-pakistani-astronaut-muhammad-zeeshan-tiangong-video-10977380/",
+            "accessedOn": "2026-11-25"
+          }
+        ],
+        "beat": "wildcard",
+        "indiaLink": "The mission adds context to India’s own human-spaceflight programme and regional scientific partnerships."
+      }
+    ],
+    "markets": {
+      "dashboard": {
+        "id": "2026-11-25-market-rebound",
+        "rank": 1,
+        "label": "Morning market snapshot · 25 Nov 2026",
+        "headline": "Banks help Indian shares rebound after the holiday",
+        "summary": "Nifty was up 1.49% at 25,726.55 in NSE’s morning observation after yesterday’s exchange holiday. The earlier, delayed Sensex quote showed 83,928.30, also above Monday’s close; its separate time is shown in the dashboard. Live reporting points to continued foreign buying and softer oil supporting sentiment, with banks recovering, even as the new US tariff threat complicates the outlook.",
+        "why": "A rebound can restore part of a previous fall without changing the longer-term risks. Heavyweight lenders influence the benchmark more than many smaller shares combined. Overseas news keeps moving during an Indian holiday, so reopening prices can adjust quickly.",
+        "soWhat": "Check what you actually own: a bank-led index rise may say less about a portfolio concentrated in small companies.",
+        "take": "The recovery is real; broad participation will make it more convincing.",
+        "watch": "Compare closing breadth and bank performance with the morning recovery.",
+        "terms": [],
+        "photo": "Bombay Stock Exchange",
+        "image": null,
+        "sources": [
+          {
+            "label": "nse",
+            "url": "https://www.nseindia.com/api/allIndices"
+          },
+          {
+            "label": "sensex",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?interval=1m&range=1d"
+          },
+          {
+            "label": "close",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv"
+          },
+          {
+            "label": "ytd",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+          },
+          {
+            "label": "flows",
+            "url": "https://www.nseindia.com/api/fiidiiTradeReact"
+          },
+          {
+            "label": "oil",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-tata-steel-hindalco-share-price-25-november-2026/liveblog/136145716.cms"
+          },
+          {
+            "label": "gold",
+            "url": "https://ibjarates.com"
+          },
+          {
+            "label": "rbi",
+            "url": "https://www.rbi.org.in/scripts/BS_NSDPDisplay.aspx?param=4"
+          },
+          {
+            "label": "fx",
+            "url": "https://www.fbil.org.in/"
+          },
+          {
+            "label": "calendar",
+            "url": "https://archives.nseindia.com/content/circulars/CMTR71775.pdf"
+          },
+          {
+            "label": "Moneycontrol · previous Sensex close, 23 November",
+            "url": "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-snap-2-day-gains-sensex-sheds-1-484-pts-nifty-below-25-350-14087155.html"
+          },
+          {
+            "label": "auto",
+            "url": "https://www.reuters.com/world/india/hyundai-motor-india-tata-motors-passenger-vehicles-raise-prices-december-1-2026-11-24/"
+          },
+          {
+            "label": "bisleri",
+            "url": "https://www.moneycontrol.com/news/business/companies/bisleri-says-will-continue-to-cooperate-with-fssai-defend-its-position-in-any-proceedings-14088194.html"
+          },
+          {
+            "label": "sfc",
+            "url": "https://nsearchives.nseindia.com/corporate/COMPLIANCE_SFC_23112026234018_sfcoutcom.pdf"
+          },
+          {
+            "label": "sfcnews",
+            "url": "https://www.screener.in/company/SFCTECH/consolidated/"
+          },
+          {
+            "label": "ipo",
+            "url": "https://upstox.com/news/market-news/ipo/ipo-watch-two-mainboard-ip-os-to-open-next-week-mahanadi-coalfields-crystal-crop-listing-ahead/article-203777/"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 1.49,
+            "url": "https://www.nseindia.com/api/allIndices",
+            "asOf": "2026-11-25"
+          },
+          {
+            "value": 25726.55,
+            "url": "https://www.nseindia.com/api/allIndices",
+            "asOf": "2026-11-25"
+          },
+          {
+            "value": 83928.3,
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?interval=1m&range=1d",
+            "asOf": "2026-11-25"
+          }
+        ],
+        "asOf": "09:47 IST",
+        "timestamp": "2026-11-25T04:17:48.379Z",
+        "mode": "latest",
+        "session": "open",
+        "rows": [
+          {
+            "name": "Nifty 50",
+            "level": 25726.55,
+            "previousClose": 25349.65,
+            "d1": 1.49,
+            "source": {
+              "url": "https://www.nseindia.com/api/allIndices",
+              "asOf": "2026-11-25"
+            },
+            "note": "NSE observation 25 November 09:47 IST. Previous session 23 November; 24 November was an exchange holiday.",
+            "w1": 1.98,
+            "m1": 13.83,
+            "ytd": -1.54
+          },
+          {
+            "name": "Sensex",
+            "level": 83928.3,
+            "previousClose": 82435.99,
+            "d1": 1.81,
+            "source": {
+              "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?interval=1m&range=1d",
+              "asOf": "2026-11-25"
+            },
+            "note": "Yahoo-distributed BSE quote timestamp 25 November 09:35:43 IST; retrieved with the morning snapshot. Delayed compared with the NSE 09:47 observation. Previous close is 23 November.",
+            "w1": null,
+            "m1": null,
+            "ytd": null
+          },
+          {
+            "name": "Bank Nifty",
+            "level": 63525.2,
+            "previousClose": 62585.35,
+            "d1": 1.5,
+            "source": {
+              "url": "https://www.nseindia.com/api/allIndices",
+              "asOf": "2026-11-25"
+            },
+            "note": "NSE observation 25 November 09:47 IST. Previous session 23 November; 24 November was an exchange holiday.",
+            "w1": 2.4,
+            "m1": 17.02,
+            "ytd": 6.62
+          },
+          {
+            "name": "Nifty Midcap 150",
+            "level": 22650.5,
+            "previousClose": 22542.45,
+            "d1": 0.48,
+            "source": {
+              "url": "https://www.nseindia.com/api/allIndices",
+              "asOf": "2026-11-25"
+            },
+            "note": "NSE observation 25 November 09:47 IST. Previous session 23 November; 24 November was an exchange holiday.",
+            "w1": 1.16,
+            "m1": 9.99,
+            "ytd": 1.68
+          },
+          {
+            "name": "Nifty Smallcap 250",
+            "level": 17658.15,
+            "previousClose": 17662.6,
+            "d1": -0.03,
+            "source": {
+              "url": "https://www.nseindia.com/api/allIndices",
+              "asOf": "2026-11-25"
+            },
+            "note": "NSE observation 25 November 09:47 IST. Previous session 23 November; 24 November was an exchange holiday.",
+            "w1": -0.05,
+            "m1": 7.77,
+            "ytd": 5.83
+          },
+          {
+            "name": "₹/US$",
+            "level": null,
+            "previousClose": null,
+            "d1": null,
+            "unavailableReason": "No same-day INR/USD observation collected from FBIL; no stale fixing shown as current.",
+            "source": {
+              "url": "https://www.fbil.org.in/",
+              "asOf": "2026-11-25"
+            }
+          },
+          {
+            "name": "Brent",
+            "level": 90.1,
+            "previousClose": null,
+            "d1": null,
+            "source": {
+              "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-tata-steel-hindalco-share-price-25-november-2026/liveblog/136145716.cms",
+              "asOf": "2026-11-25"
+            },
+            "note": "USD per barrel, Economic Times live report at 09:47:37 IST on 25 November. Intraday futures quote; not a settlement. No matched prior settlement is supplied."
+          },
+          {
+            "name": "Gold (₹/10 g)",
+            "level": null,
+            "previousClose": null,
+            "d1": null,
+            "unavailableReason": "No dated 25 November INR-per-ten-grams benchmark available in this collection; international spot gold is a different unit.",
+            "source": {
+              "url": "https://ibjarates.com",
+              "asOf": "2026-11-25"
+            }
+          },
+          {
+            "name": "India 10-year G-sec yield",
+            "level": null,
+            "previousClose": null,
+            "d1": null,
+            "unavailableReason": "The RBI page supplied older weekly observations, not a current-session benchmark yield.",
+            "source": {
+              "url": "https://www.rbi.org.in/scripts/BS_NSDPDisplay.aspx?param=4",
+              "asOf": "2026-11-25"
+            }
+          },
+          {
+            "name": "India VIX",
+            "level": 17.08,
+            "previousClose": 17.7,
+            "d1": -3.5,
+            "source": {
+              "url": "https://www.nseindia.com/api/allIndices",
+              "asOf": "2026-11-25"
+            },
+            "note": "NSE observation 25 November 09:47 IST. Previous session 23 November; 24 November was an exchange holiday."
+          }
+        ],
+        "flows": {
+          "fii": 5672.99,
+          "dii": -2760.12,
+          "fiiMtd": null,
+          "diiMtd": null,
+          "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+          "asOf": "2026-11-23",
+          "unavailableReason": "Latest completed cash-session flows are from 23 November. Month-to-date totals were not collected as a dated exchange series."
+        },
+        "niftyPE": {
+          "now": 20.65,
+          "median5y": null,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv",
+          "asOf": "2026-11-23",
+          "unavailableReason": "Last-session Nifty P/E is available; a comparable five-year median and a refreshed intraday ratio are unavailable."
+        },
+        "dataQualityNotes": [
+          "Sensex: unverified historical comparisons are omitted.",
+          "₹/US$: No same-day INR/USD observation collected from FBIL; no stale fixing shown as current.",
+          "Brent: unverified historical comparisons are omitted.",
+          "Gold (₹/10 g): No dated 25 November INR-per-ten-grams benchmark available in this collection; international spot gold is a different unit.",
+          "India 10-year G-sec yield: The RBI page supplied older weekly observations, not a current-session benchmark yield.",
+          "Flows: Latest completed cash-session flows are from 23 November. Month-to-date totals were not collected as a dated exchange series.",
+          "Nifty valuation: Last-session Nifty P/E is available; a comparable five-year median and a refreshed intraday ratio are unavailable."
+        ]
+      },
+      "cards": [
+        {
+          "id": "2026-11-25-consumer-prices-safety",
+          "rank": 2,
+          "label": "Morning market snapshot · 25 Nov 2026",
+          "headline": "Car prices rise while a water-quality case draws scrutiny",
+          "summary": "Hyundai Motor India and Tata Motors Passenger Vehicles plan higher prices from December, citing input costs. Separately, Bisleri said it will cooperate with food-safety authorities over a disputed Goa batch while defending its position. The company says a referral test found bromate within the limit; reporting also describes a different contaminant concern. That dispute is not evidence that every bottle currently on sale is unsafe.",
+          "why": "Consumer businesses face different tests: recovering costs without losing buyers, and maintaining trust through quality controls. Hyundai and Tata’s pricing matters directly to car budgets. For listed beverage producers such as Varun Beverages, industry scrutiny makes their own testing and disclosures worth reading.",
+          "soWhat": "Ask a dealer for a written delivered-price quote, and follow batch-specific official food-safety notices rather than sweeping social-media claims.",
+          "take": "Passing costs through and earning consumer trust are separate business challenges.",
+          "watch": "Check final model-wise prices and the food regulator’s batch-specific findings.",
+          "terms": [
+            {
+              "term": "bromate",
+              "meaning": "A chemical contaminant subject to drinking-water safety limits"
+            }
+          ],
+          "photo": "Bombay Stock Exchange",
+          "image": null,
+          "sources": [
+            {
+              "label": "auto",
+              "url": "https://www.reuters.com/world/india/hyundai-motor-india-tata-motors-passenger-vehicles-raise-prices-december-1-2026-11-24/"
+            },
+            {
+              "label": "bisleri",
+              "url": "https://www.moneycontrol.com/news/business/companies/bisleri-says-will-continue-to-cooperate-with-fssai-defend-its-position-in-any-proceedings-14088194.html"
+            }
+          ],
+          "evidence": [],
+          "beat": "sectors"
+        },
+        {
+          "id": "2026-11-25-sfc-results",
+          "rank": 3,
+          "label": "Morning market snapshot · 25 Nov 2026",
+          "headline": "SFC’s sales rise, with cash collection the next test",
+          "summary": "SFC Environmental Technologies, which supplies wastewater and waste-treatment systems, has filed its September-quarter results. Standalone revenue was about ₹99.85 crore, compared with ₹52.79 crore in the same quarter last year. Standalone means the parent company alone, not the whole group. Today’s scheduled earnings call gives investors a chance to ask how project delivery and customer payments support those reported sales.",
+          "why": "Engineering businesses often recognise revenue in stages, while cash arrives on a different schedule. Seasonal orders and the mix of subsidiaries can also make a quarter look unlike the full year. Compare matching periods and the same set of companies.",
+          "soWhat": "For a newly listed business such as SFCTECH, read receivables and cash flow alongside revenue before extending a growth rate.",
+          "take": "More sales are useful only when delivery and collection keep pace.",
+          "watch": "Listen for payment timelines and seasonal order commentary at today’s call.",
+          "terms": [
+            {
+              "term": "Standalone",
+              "meaning": "Results for the parent company without its subsidiaries"
+            },
+            {
+              "term": "receivables",
+              "meaning": "Amounts customers still owe the business"
+            }
+          ],
+          "photo": "Bombay Stock Exchange",
+          "image": null,
+          "sources": [
+            {
+              "label": "sfc",
+              "url": "https://nsearchives.nseindia.com/corporate/COMPLIANCE_SFC_23112026234018_sfcoutcom.pdf"
+            },
+            {
+              "label": "sfcnews",
+              "url": "https://www.screener.in/company/SFCTECH/consolidated/"
+            }
+          ],
+          "evidence": [
+            {
+              "value": 99.851,
+              "url": "https://nsearchives.nseindia.com/corporate/COMPLIANCE_SFC_23112026234018_sfcoutcom.pdf",
+              "asOf": "2026-09-30"
+            },
+            {
+              "value": 52.788,
+              "url": "https://nsearchives.nseindia.com/corporate/COMPLIANCE_SFC_23112026234018_sfcoutcom.pdf",
+              "asOf": "2025-09-30"
+            }
+          ],
+          "beat": "result"
+        },
+        {
+          "id": "2026-11-25-ipo-calendar",
+          "rank": 4,
+          "label": "Morning market snapshot · 25 Nov 2026",
+          "headline": "IPO applicants face allotments, a new issue and upcoming listings",
+          "summary": "Shree Siddhivinayak Greentech Industries is scheduled to open its small-company share offer today. Foodlink’s institutional anchor round is also scheduled today, ahead of its public issue. Crystal Crop Protection applicants should check today’s planned refunds and share credits before tomorrow’s scheduled listing. Mahanadi Coalfields is at the allotment stage. These are different steps, not several opportunities already trading on the exchange.",
+          "why": "An IPO (a first public share offer) moves from bidding to allotment, credits and then listing. Institutional anchor participation is not an open retail window. Smaller-company issues can also have larger application sizes and thinner trading after listing.",
+          "soWhat": "Use the registrar and exchange notices to confirm your own application stage; demand and unofficial premiums cannot guarantee returns.",
+          "take": "The right date matters, but the business and offer terms matter more.",
+          "watch": "Check registrar confirmations and final exchange listing notices before acting.",
+          "terms": [
+            {
+              "term": "IPO",
+              "meaning": "A company’s first public share offer"
+            },
+            {
+              "term": "anchor",
+              "meaning": "An institutional allocation made before public bidding opens"
+            }
+          ],
+          "photo": "Bombay Stock Exchange",
+          "image": null,
+          "sources": [
+            {
+              "label": "ipo",
+              "url": "https://upstox.com/news/market-news/ipo/ipo-watch-two-mainboard-ip-os-to-open-next-week-mahanadi-coalfields-crystal-crop-listing-ahead/article-203777/"
+            }
+          ],
+          "evidence": [],
+          "beat": "ipo"
+        },
+        {
+          "id": "2026-11-25-flows-oil-dates",
+          "rank": 5,
+          "label": "Morning market snapshot · 25 Nov 2026",
+          "headline": "Foreign buying and softer oil support the morning rebound",
+          "summary": "The latest completed NSE cash-session report shows foreign institutions buying a net ₹5,672.99 crore and domestic institutions selling a net ₹2,760.12 crore. Those flows are from Monday, not money already counted today. Brent futures were reported at $90.1 per barrel in the separately timed morning update. This collection has no fresh domestic gold benchmark, rupee fixing or government-bond yield to present as current.",
+          "why": "Lower crude can help an oil-importing economy, but businesses feel it differently. IndiGo’s fuel costs, Asian Paints’ raw materials and ONGC’s selling prices do not respond in the same direction. Freight disruption can also offset part of a cheaper oil bill.",
+          "soWhat": "Use dated flows and input costs to test company assumptions; do not turn foreign buying into a guaranteed market forecast.",
+          "take": "The useful question is who benefits from a change, and when.",
+          "watch": "Check the next session-flow release and company comments on input costs.",
+          "terms": [
+            {
+              "term": "Brent",
+              "meaning": "A widely used international crude-oil price benchmark"
+            }
+          ],
+          "photo": "Bombay Stock Exchange",
+          "image": null,
+          "sources": [
+            {
+              "label": "flows",
+              "url": "https://www.nseindia.com/api/fiidiiTradeReact"
+            },
+            {
+              "label": "oil",
+              "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-tata-steel-hindalco-share-price-25-november-2026/liveblog/136145716.cms"
+            }
+          ],
+          "evidence": [
+            {
+              "value": 5672.99,
+              "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+              "asOf": "2026-11-23"
+            },
+            {
+              "value": -2760.12,
+              "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+              "asOf": "2026-11-23"
+            },
+            {
+              "value": 90.1,
+              "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-tata-steel-hindalco-share-price-25-november-2026/liveblog/136145716.cms",
+              "asOf": "2026-11-25"
+            }
+          ],
+          "beat": "flows"
+        }
+      ]
+    },
+    "investing": [
+      {
+        "id": "2026-11-25-stock-sardaen",
+        "rank": 1,
+        "label": "Stock research · 25 Nov · history 21 Nov; quote 23 Nov",
+        "slot": "dip",
+        "symbol": "SARDAEN",
+        "headline": "Sarda’s integrated business offers value, with commodity-cycle risks",
+        "summary": "Sarda Energy makes steel and ferroalloys, with mining and power operations supporting the business. Over five years, sales grew about 21% a year and profit about 23%. Average return on capital was 19%, or nineteen rupees earned per hundred invested. Debt is modest against equity. Its latest annual profit comparison is weaker, so the long-term growth figures should not hide a softer recent period.",
+        "why": "Making inputs and power within the group can help control costs, but selling prices still depend on the metals cycle. The drawdown sits within a wider sector retreat. Operating results, borrowing and expansion spending matter more than distance from an old high.",
+        "soWhat": "You pay about 14.5 times yearly earnings, against a five-year median of 15.5. That discount is modest, not a free safety cushion.",
+        "take": "The attraction is integration; the test is earning cash through weaker prices.",
+        "watch": "Check the next results for selling prices, debt and cash generation.",
+        "thesis": [
+          "Integrated mining and power can support production costs.",
+          "The business has grown sales and profit over the longer period.",
+          "Operating cash generation has been positive across the measured annual history."
+        ],
+        "breakers": [
+          "Lower metal prices squeeze earnings despite integrated operations.",
+          "Expansion consumes cash and borrowing rises without adequate returns."
+        ],
+        "moat": "Cost leadership",
+        "moatWhy": "Owning parts of the raw-material and power chain can support costs, although commodity competitors can narrow that advantage.",
+        "whyFell": "The screen identifies a sector-wide retreat around Sarda’s fall. Company filings also show the need to track prices, costs and expansion. No source established a single event explaining the entire drawdown, so this is sector and operating context, not a claimed company-specific cause.",
+        "terms": [
+          {
+            "term": "return on capital",
+            "meaning": "Yearly operating earnings relative to money invested"
+          },
+          {
+            "term": "earnings multiple",
+            "meaning": "Share price divided by yearly profit per share"
+          }
+        ],
+        "image": null,
+        "photo": "Ferroalloy",
+        "sources": [
+          {
+            "label": "Screener.in company pages, 2026-11-21",
+            "url": "https://www.screener.in/"
+          },
+          {
+            "label": "NSE Nifty 500 constituents",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          },
+          {
+            "label": "Screener.in: Sarda Energy and Minerals Ltd.",
+            "url": "https://www.screener.in/company/SARDAEN/consolidated/"
+          },
+          {
+            "label": "NSE bhavcopy (10-session average traded value)",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE bhavcopy, 2026-11-23",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE adjusted 52-week high/low, 2026-11-23",
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_23112026.csv"
+          },
+          {
+            "label": "Sarda · earnings-call transcript",
+            "url": "https://nsearchives.nseindia.com/corporate/SARDAEN_07112026140945_SEML.pdf"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 21,
+            "url": "https://www.screener.in/company/SARDAEN/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 23,
+            "url": "https://www.screener.in/company/SARDAEN/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 19,
+            "url": "https://www.screener.in/company/SARDAEN/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 14.53,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip",
+            "asOf": "2026-11-23"
+          },
+          {
+            "value": 15.5,
+            "url": "https://www.screener.in/company/SARDAEN/consolidated/",
+            "asOf": "2026-11-21"
+          }
+        ],
+        "sector": "Metals & Mining",
+        "kind": "non-financial",
+        "price": 455.75,
+        "quoteDate": "2026-11-23",
+        "dataDate": "2026-09-30",
+        "metrics": {
+          "marketCap": 16520,
+          "divYield": 0.43,
+          "roce5y": 19,
+          "de": 0.3,
+          "salesCagr5y": 21,
+          "profitCagr5y": 23,
+          "ocfPositiveYears": 5,
+          "profitYoY": -2.44,
+          "promoterHolding": 73.16,
+          "promoterChange": 0,
+          "eps": 31.36,
+          "peMedian5y": 15.5,
+          "avgDailyValue": 9.8,
+          "high52": 624,
+          "low52": 424.05,
+          "pe": 14.53
+        },
+        "metricSources": {
+          "marketCap": {
+            "url": "https://www.screener.in/company/SARDAEN/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "divYield": {
+            "url": "https://www.screener.in/company/SARDAEN/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "roce5y": {
+            "url": "https://www.screener.in/company/SARDAEN/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "de": {
+            "url": "https://www.screener.in/company/SARDAEN/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "salesCagr5y": {
+            "url": "https://www.screener.in/company/SARDAEN/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "profitCagr5y": {
+            "url": "https://www.screener.in/company/SARDAEN/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "ocfPositiveYears": {
+            "url": "https://www.screener.in/company/SARDAEN/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "profitYoY": {
+            "url": "https://www.screener.in/company/SARDAEN/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "promoterHolding": {
+            "url": "https://www.screener.in/company/SARDAEN/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "promoterChange": {
+            "url": "https://www.screener.in/company/SARDAEN/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "eps": {
+            "url": "https://www.screener.in/company/SARDAEN/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "peMedian5y": {
+            "url": "https://www.screener.in/company/SARDAEN/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "avgDailyValue": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+            "asOf": "2026-11-20"
+          },
+          "pe": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip",
+            "asOf": "2026-11-23"
+          },
+          "price": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip",
+            "asOf": "2026-11-23"
+          },
+          "high52": {
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_23112026.csv",
+            "asOf": "2026-11-23"
+          },
+          "low52": {
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_23112026.csv",
+            "asOf": "2026-11-23"
+          }
+        },
+        "screen": {
+          "roce": true,
+          "debt": true,
+          "sales": true,
+          "profit": true,
+          "cash": true,
+          "valuation": true,
+          "pledge": null,
+          "liquidity": true
+        },
+        "fairValue": 486.08,
+        "buyBelow": 388.86,
+        "verdict": "Wait",
+        "dip": {
+          "fromHigh": -27,
+          "fromLow": 7.5,
+          "peers": 19,
+          "sectorFromHigh": -27.8,
+          "fall": "sector-wide"
+        }
+      },
+      {
+        "id": "2026-11-25-dip-shortfall",
+        "rank": 2,
+        "label": "Dip research unavailable · 25 Nov",
+        "slot": "unavailable",
+        "unavailableReason": "Only 1 of 493 verified stocks met the quality screen and the 52-week-low rules on the latest session.",
+        "headline": "No second stock cleared the dip rules today",
+        "summary": "Only one company cleared both the quality checks and the near-low rules in today’s stock selection. This slot is deliberately left without a stock. A falling share is not enough: the business also has to meet the earnings, borrowing, cash and trading requirements. Adding another name merely to complete the display would change what the screen means.",
+        "why": "A narrow selection can be useful information. Market prices move faster than annual company accounts, and the intersection of business quality with a specific price position can be small. Requiring both conditions reduces the temptation to turn every decline into an opportunity.",
+        "soWhat": "Treat the empty slot as a limit of today’s research set, rather than a reason to relax the rules.",
+        "take": "An honest gap is better than a convincing but unqualified stock.",
+        "watch": "Check tomorrow’s selection after the next completed trading session.",
+        "terms": [],
+        "photo": "Value investing",
+        "image": null,
+        "sources": [
+          {
+            "label": "NSE · constituents used by the screen",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-25-stock-taril",
+        "rank": 3,
+        "label": "Stock research · 25 Nov · history 21 Nov; quote 23 Nov",
+        "slot": "pick",
+        "symbol": "TARIL",
+        "headline": "Transformer demand helps TARIL, but cash collection is crucial",
+        "summary": "Transformers & Rectifiers makes equipment that changes electricity voltage for power networks and industrial users. Over five years, sales grew about 28% annually and profit about 106%. Average return on capital was 18.2%. That huge profit-growth rate starts from a much smaller base; it is not a sensible rate to carry straight into future forecasts. Borrowing remains a cost to monitor.",
+        "why": "Grid expansion creates opportunities, but large electrical orders require materials, production slots and customer acceptance. Reported earnings can arrive before the final payment. A growing order book is useful only if delivery and collection keep up.",
+        "soWhat": "You pay about 28.6 times yearly earnings, below the five-year median of 38.6; slower growth would still change the value case.",
+        "take": "Strong demand needs reliable execution and cash, not just impressive order announcements.",
+        "watch": "Check the next filing for receivables, deliveries and operating cash.",
+        "thesis": [
+          "Electricity investment creates demand for the company’s core products.",
+          "Customer qualification and engineering experience can support repeat work.",
+          "The longer record shows strong sales and profit growth."
+        ],
+        "breakers": [
+          "Customer payments slow while working capital and debt rise.",
+          "Delivery delays or quality failures weaken repeat orders."
+        ],
+        "moat": "Switching cost",
+        "moatWhy": "Qualification and reliability requirements can discourage customers from changing a proven equipment supplier; that does not guarantee pricing power.",
+        "terms": [
+          {
+            "term": "return on capital",
+            "meaning": "Yearly operating earnings relative to money invested"
+          },
+          {
+            "term": "earnings multiple",
+            "meaning": "Share price divided by yearly profit per share"
+          }
+        ],
+        "image": null,
+        "photo": "Transformer",
+        "sources": [
+          {
+            "label": "Screener.in company pages, 2026-11-21",
+            "url": "https://www.screener.in/"
+          },
+          {
+            "label": "NSE Nifty 500 constituents",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          },
+          {
+            "label": "Screener.in: Transformers And Rectifiers (India) Ltd.",
+            "url": "https://www.screener.in/company/TARIL/consolidated/"
+          },
+          {
+            "label": "NSE bhavcopy (10-session average traded value)",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE bhavcopy, 2026-11-23",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE adjusted 52-week high/low, 2026-11-23",
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_23112026.csv"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 28,
+            "url": "https://www.screener.in/company/TARIL/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 106,
+            "url": "https://www.screener.in/company/TARIL/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 18.2,
+            "url": "https://www.screener.in/company/TARIL/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 28.55,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip",
+            "asOf": "2026-11-23"
+          },
+          {
+            "value": 38.6,
+            "url": "https://www.screener.in/company/TARIL/consolidated/",
+            "asOf": "2026-11-21"
+          }
+        ],
+        "sector": "Capital Goods",
+        "kind": "non-financial",
+        "price": 289.45,
+        "quoteDate": "2026-11-23",
+        "dataDate": "2026-09-30",
+        "metrics": {
+          "marketCap": 8918,
+          "divYield": 0.08,
+          "roce5y": 18.2,
+          "de": 0.35,
+          "salesCagr5y": 28,
+          "profitCagr5y": 106,
+          "ocfPositiveYears": 4,
+          "profitYoY": 118.92,
+          "promoterHolding": 64.36,
+          "promoterChange": 0,
+          "eps": 10.14,
+          "peMedian5y": 38.6,
+          "avgDailyValue": 31.3,
+          "high52": 372,
+          "low52": 224.05,
+          "pe": 28.55
+        },
+        "metricSources": {
+          "marketCap": {
+            "url": "https://www.screener.in/company/TARIL/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "divYield": {
+            "url": "https://www.screener.in/company/TARIL/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "roce5y": {
+            "url": "https://www.screener.in/company/TARIL/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "de": {
+            "url": "https://www.screener.in/company/TARIL/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "salesCagr5y": {
+            "url": "https://www.screener.in/company/TARIL/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "profitCagr5y": {
+            "url": "https://www.screener.in/company/TARIL/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "ocfPositiveYears": {
+            "url": "https://www.screener.in/company/TARIL/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "profitYoY": {
+            "url": "https://www.screener.in/company/TARIL/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "promoterHolding": {
+            "url": "https://www.screener.in/company/TARIL/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "promoterChange": {
+            "url": "https://www.screener.in/company/TARIL/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "eps": {
+            "url": "https://www.screener.in/company/TARIL/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "peMedian5y": {
+            "url": "https://www.screener.in/company/TARIL/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "avgDailyValue": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+            "asOf": "2026-11-20"
+          },
+          "pe": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip",
+            "asOf": "2026-11-23"
+          },
+          "price": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip",
+            "asOf": "2026-11-23"
+          },
+          "high52": {
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_23112026.csv",
+            "asOf": "2026-11-23"
+          },
+          "low52": {
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_23112026.csv",
+            "asOf": "2026-11-23"
+          }
+        },
+        "screen": {
+          "roce": true,
+          "debt": true,
+          "sales": true,
+          "profit": true,
+          "cash": true,
+          "valuation": true,
+          "pledge": null,
+          "liquidity": true
+        },
+        "fairValue": 391.4,
+        "buyBelow": 313.12,
+        "verdict": "Buy",
+        "score": 0.697
+      },
+      {
+        "id": "2026-11-25-stock-pidilitind",
+        "rank": 4,
+        "label": "Stock research · 25 Nov · history 21 Nov; quote 23 Nov",
+        "slot": "pick",
+        "symbol": "PIDILITIND",
+        "headline": "Pidilite’s familiar brands still need a sensible entry valuation",
+        "summary": "Pidilite makes adhesives, sealants and construction chemicals, including Fevicol. Over five years, sales grew about 15% a year and profit about 17%. Average return on capital was 28%, or twenty-eight rupees earned per hundred invested. Debt is very low against equity. These are the economics of a well-established business, not a promise that every product category will grow equally quickly.",
+        "why": "Carpenters, dealers and homeowners often prefer products they know will work. That trust supports distribution and repeat demand. Raw-material costs and building activity still matter, and a good brand can be a disappointing investment when expectations are too high.",
+        "soWhat": "The earnings multiple is about 60.5, below a five-year median of 84.9 but still a price that requires durable growth.",
+        "take": "The franchise is strong; patience over valuation remains part of the case.",
+        "watch": "Check the next results for volumes, margins and construction-product demand.",
+        "thesis": [
+          "Recognisable adhesive brands support repeat purchases and dealer relationships.",
+          "The company has historically earned strong returns with little debt.",
+          "Its products serve repairs and everyday projects as well as new construction."
+        ],
+        "breakers": [
+          "Customers switch to lower-priced rivals as brand trust weakens.",
+          "Costs rise faster than selling prices and volumes can absorb."
+        ],
+        "moat": "Brand",
+        "moatWhy": "Well-known adhesive brands and user familiarity support trust; the company must keep earning it through product performance.",
+        "terms": [
+          {
+            "term": "return on capital",
+            "meaning": "Yearly operating earnings relative to money invested"
+          },
+          {
+            "term": "earnings multiple",
+            "meaning": "Share price divided by yearly profit per share"
+          }
+        ],
+        "image": null,
+        "photo": "Pidilite Industries",
+        "sources": [
+          {
+            "label": "Screener.in company pages, 2026-11-21",
+            "url": "https://www.screener.in/"
+          },
+          {
+            "label": "NSE Nifty 500 constituents",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          },
+          {
+            "label": "Screener.in: Pidilite Industries Ltd.",
+            "url": "https://www.screener.in/company/PIDILITIND/consolidated/"
+          },
+          {
+            "label": "NSE bhavcopy (10-session average traded value)",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE bhavcopy, 2026-11-23",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE adjusted 52-week high/low, 2026-11-23",
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_23112026.csv"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 15,
+            "url": "https://www.screener.in/company/PIDILITIND/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 17,
+            "url": "https://www.screener.in/company/PIDILITIND/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 28,
+            "url": "https://www.screener.in/company/PIDILITIND/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 60.46,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip",
+            "asOf": "2026-11-23"
+          },
+          {
+            "value": 84.9,
+            "url": "https://www.screener.in/company/PIDILITIND/consolidated/",
+            "asOf": "2026-11-21"
+          }
+        ],
+        "sector": "Chemicals",
+        "kind": "non-financial",
+        "price": 1594.2,
+        "quoteDate": "2026-11-23",
+        "dataDate": "2026-09-30",
+        "metrics": {
+          "marketCap": 165004,
+          "divYield": 0.71,
+          "roce5y": 28,
+          "de": 0.03,
+          "salesCagr5y": 15,
+          "profitCagr5y": 17,
+          "ocfPositiveYears": 5,
+          "profitYoY": 7.01,
+          "promoterHolding": 69.19,
+          "promoterChange": -0.05,
+          "eps": 26.37,
+          "peMedian5y": 84.9,
+          "avgDailyValue": 119.1,
+          "high52": 1707.5,
+          "low52": 1259,
+          "pe": 60.46
+        },
+        "metricSources": {
+          "marketCap": {
+            "url": "https://www.screener.in/company/PIDILITIND/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "divYield": {
+            "url": "https://www.screener.in/company/PIDILITIND/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "roce5y": {
+            "url": "https://www.screener.in/company/PIDILITIND/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "de": {
+            "url": "https://www.screener.in/company/PIDILITIND/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "salesCagr5y": {
+            "url": "https://www.screener.in/company/PIDILITIND/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "profitCagr5y": {
+            "url": "https://www.screener.in/company/PIDILITIND/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "ocfPositiveYears": {
+            "url": "https://www.screener.in/company/PIDILITIND/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "profitYoY": {
+            "url": "https://www.screener.in/company/PIDILITIND/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "promoterHolding": {
+            "url": "https://www.screener.in/company/PIDILITIND/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "promoterChange": {
+            "url": "https://www.screener.in/company/PIDILITIND/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "eps": {
+            "url": "https://www.screener.in/company/PIDILITIND/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "peMedian5y": {
+            "url": "https://www.screener.in/company/PIDILITIND/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "avgDailyValue": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+            "asOf": "2026-11-20"
+          },
+          "pe": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip",
+            "asOf": "2026-11-23"
+          },
+          "price": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip",
+            "asOf": "2026-11-23"
+          },
+          "high52": {
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_23112026.csv",
+            "asOf": "2026-11-23"
+          },
+          "low52": {
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_23112026.csv",
+            "asOf": "2026-11-23"
+          }
+        },
+        "screen": {
+          "roce": true,
+          "debt": true,
+          "sales": true,
+          "profit": true,
+          "cash": true,
+          "valuation": true,
+          "pledge": null,
+          "liquidity": true
+        },
+        "fairValue": 2238.81,
+        "buyBelow": 1791.05,
+        "verdict": "Buy",
+        "score": 0.687
+      },
+      {
+        "id": "2026-11-25-stock-chennpetro",
+        "rank": 5,
+        "label": "Stock research · 25 Nov · history 21 Nov; quote 23 Nov",
+        "slot": "pick",
+        "symbol": "CHENNPETRO",
+        "headline": "Chennai Petroleum looks cheap, but refining profits move sharply",
+        "summary": "Chennai Petroleum turns crude oil into fuels and other petroleum products. Over five years, sales grew about 23% annually and profit about 64%. Average return on capital was 27.8%, or roughly twenty-eight rupees earned per hundred invested. Debt is low against equity. Refining profits swing with the gap between crude costs and product prices, so recent earnings need a cycle check.",
+        "why": "A refinery can run well and still earn less when fuel margins weaken. Inventory price changes, maintenance and environmental spending also affect cash. Being part of an established supply network helps operations but does not remove competition or commodity risk.",
+        "soWhat": "You pay about 3.8 times yearly earnings, compared with a five-year median of 4.5; unusually strong profits can make that look deceptively cheap.",
+        "take": "The balance sheet helps, but normal earnings matter more than the multiple.",
+        "watch": "Check refining margins, maintenance plans and cash generation in the next results.",
+        "thesis": [
+          "Established refining assets serve demand for petroleum products.",
+          "The supplied financial history shows low debt and positive operating cash.",
+          "The valuation is below the company’s own longer-term earnings multiple."
+        ],
+        "breakers": [
+          "Refining margins fall and current earnings prove unusually high.",
+          "Major shutdowns or capital spending keep cash returns below expectations."
+        ],
+        "moat": "None",
+        "moatWhy": "Refining assets and supply relationships help operations, but the evidence here does not establish durable pricing power over commodity competitors.",
+        "terms": [
+          {
+            "term": "return on capital",
+            "meaning": "Yearly operating earnings relative to money invested"
+          },
+          {
+            "term": "earnings multiple",
+            "meaning": "Share price divided by yearly profit per share"
+          }
+        ],
+        "image": null,
+        "photo": "Chennai Petroleum Corporation",
+        "sources": [
+          {
+            "label": "Screener.in company pages, 2026-11-21",
+            "url": "https://www.screener.in/"
+          },
+          {
+            "label": "NSE Nifty 500 constituents",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          },
+          {
+            "label": "Screener.in: Chennai Petroleum Corporation Ltd.",
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/"
+          },
+          {
+            "label": "NSE bhavcopy (10-session average traded value)",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE bhavcopy, 2026-11-23",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE adjusted 52-week high/low, 2026-11-23",
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_23112026.csv"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 23,
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 64,
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 27.8,
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 3.77,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip",
+            "asOf": "2026-11-23"
+          },
+          {
+            "value": 4.5,
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          }
+        ],
+        "sector": "Oil Gas & Consumable Fuels",
+        "kind": "non-financial",
+        "price": 1443.8,
+        "quoteDate": "2026-11-23",
+        "dataDate": "2026-09-30",
+        "metrics": {
+          "marketCap": 21236,
+          "divYield": 4.35,
+          "roce5y": 27.8,
+          "de": 0.16,
+          "salesCagr5y": 23,
+          "profitCagr5y": 64,
+          "ocfPositiveYears": 5,
+          "profitYoY": 212.52,
+          "promoterHolding": 67.29,
+          "promoterChange": 0,
+          "eps": 382.9,
+          "peMedian5y": 4.5,
+          "avgDailyValue": 119.41,
+          "high52": 1677.5,
+          "low52": 765.5,
+          "pe": 3.77
+        },
+        "metricSources": {
+          "marketCap": {
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "divYield": {
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "roce5y": {
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "de": {
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "salesCagr5y": {
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "profitCagr5y": {
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "ocfPositiveYears": {
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "profitYoY": {
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "promoterHolding": {
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "promoterChange": {
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "eps": {
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "peMedian5y": {
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "avgDailyValue": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+            "asOf": "2026-11-20"
+          },
+          "pe": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip",
+            "asOf": "2026-11-23"
+          },
+          "price": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261123_F_0000.csv.zip",
+            "asOf": "2026-11-23"
+          },
+          "high52": {
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_23112026.csv",
+            "asOf": "2026-11-23"
+          },
+          "low52": {
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_23112026.csv",
+            "asOf": "2026-11-23"
+          }
+        },
+        "screen": {
+          "roce": true,
+          "debt": true,
+          "sales": true,
+          "profit": true,
+          "cash": true,
+          "valuation": true,
+          "pledge": null,
+          "liquidity": true
+        },
+        "fairValue": 1723.05,
+        "buyBelow": 1378.44,
+        "verdict": "Wait",
+        "score": 0.687
+      }
+    ],
+    "tech": [
+      {
+        "id": "2026-11-25-gta-launch-pc-warning",
+        "rank": 1,
+        "label": "25 Nov 2026",
+        "headline": "GTA’s huge launch brings a warning about unofficial PC copies",
+        "summary": "Take-Two is moving against an unofficial GTA VI PC project, VGC reported on Tuesday. That is separate from an official PC release. The company’s earlier, November 20 announcement put first-day retail sales at $3.79 billion; that is its launch estimate, not a newly measured Tuesday total.",
+        "why": "A blockbuster launch attracts people outside the supported platforms. Unofficial download claims feed on that demand, while a familiar game name makes a dubious link look more convincing.",
+        "soWhat": "Indian players should check platform availability directly with Rockstar before paying for, or installing, a claimed PC edition.",
+        "take": "A convincing trailer does not establish that a download is genuine.",
+        "watch": "Look for an official PC release announcement and the outcome of the reported takedowns.",
+        "terms": [],
+        "image": {
+          "url": "https://www.videogameschronicle.com/files/2026/11/gta-6-chapter-4-mission-list-3.jpg",
+          "credit": "Photo: VGC",
+          "alt": "Unofficial GTA 6 PC ports are already getting shut down | VGC",
+          "sourceUrl": "https://www.videogameschronicle.com/news/unofficial-gta-6-pc-ports-are-already-getting-shut-down/",
+          "auto": true
+        },
+        "photo": "Grand Theft Auto VI",
+        "sources": [
+          {
+            "label": "gtanews",
+            "url": "https://www.videogameschronicle.com/news/unofficial-gta-6-pc-ports-are-already-getting-shut-down/",
+            "accessedOn": "2026-11-25"
+          },
+          {
+            "label": "gta",
+            "url": "https://www.take2games.com/ir/news/grand-theft-auto-vi-shatters-entertainment-box-office-records",
+            "accessedOn": "2026-11-25"
+          }
+        ],
+        "beat": "launch",
+        "tryThis": "Compare a seller’s platform claim with Rockstar’s official product page."
+      },
+      {
+        "id": "2026-11-25-signature-germany-launch",
+        "rank": 2,
+        "label": "25 Nov 2026",
+        "headline": "Motorola’s German launch exposes a battery-specification question",
+        "summary": "German retailers have started selling Motorola’s Signature 27, Notebookcheck reported on Tuesday. Their launch price is below the earlier announced price. But the report also flags conflicting battery capacities between listings and Motorola’s own material, so buyers should not assume every regional version is identical.",
+        "why": "Phone makers can sell different hardware under similar product names across countries. A promotional headline often travels farther than the small print explaining the regional model.",
+        "soWhat": "For an Indian reader considering an import, warranty coverage and the exact model matter more than converting a European launch offer into rupees.",
+        "take": "An unresolved specification deserves a question, not a confident comparison chart.",
+        "watch": "Check whether Motorola reconciles the German battery specification with retailer listings.",
+        "terms": [],
+        "image": {
+          "url": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Motorola-Signature-27.jpg.jpg",
+          "credit": "Photo: Notebookcheck",
+          "alt": "Motorola Signature 27 launches in Germany cheaper than expected",
+          "sourceUrl": "https://www.notebookcheck.net/Motorola-Signature-27-launches-in-Germany-cheaper-than-expected.1459101.0.html",
+          "auto": true
+        },
+        "photo": "Motorola",
+        "sources": [
+          {
+            "label": "motonews",
+            "url": "https://www.notebookcheck.net/Motorola-Signature-27-launches-in-Germany-cheaper-than-expected.1459101.0.html",
+            "accessedOn": "2026-11-25"
+          },
+          {
+            "label": "moto",
+            "url": "https://www.motorola.com/de/de/p/phones/motorola-signature/motorola-signature-27/pmipmka46mm?pn=PBEB0003SE",
+            "accessedOn": "2026-11-25"
+          }
+        ],
+        "beat": "launch",
+        "tryThis": "Match the regional model number, battery capacity and warranty before comparing phones."
+      },
+      {
+        "id": "2026-11-25-microsoft-reliability-reset",
+        "rank": 3,
+        "label": "25 Nov 2026",
+        "headline": "Microsoft puts cloud reliability ahead of its usual priorities",
+        "summary": "Microsoft has ordered a Code Red reliability drive, Reuters reported on Tuesday after reviewing internal memos. The trigger was the November email outage, which also affected other Microsoft services and disrupted government and business communications. Microsoft blamed a Windows scaling defect and said the incident was unrelated to cyberattacks or AI agents.",
+        "why": "Cloud tools concentrate work in one place. When email and collaboration fail together, teams can lose both their normal workflow and the channel they need to organise recovery.",
+        "soWhat": "Indian businesses using Microsoft services need an outage plan that works outside those same services.",
+        "take": "A backup plan stored inside the failed platform is barely a plan.",
+        "watch": "Track Microsoft's recovery changes and its reported goal of restoring service within one hour.",
+        "terms": [],
+        "image": {
+          "url": "https://images.moneycontrol.com/static-mcnews/2026/10/20261027105456_MixCollage-27-Oct-2026-04-20-PM-8921.jpg",
+          "credit": "Photo: Moneycontrol",
+          "alt": "Microsoft declares &#039;Code Red&#039; after historic outage, internal memos show- Moneycontrol.com",
+          "sourceUrl": "https://www.moneycontrol.com/news/business/companies/microsoft-declares-code-red-after-historic-outage-internal-memos-show-14088239.html",
+          "auto": true
+        },
+        "photo": "Microsoft",
+        "sources": [
+          {
+            "label": "microsoft",
+            "url": "https://www.moneycontrol.com/news/business/companies/microsoft-declares-code-red-after-historic-outage-internal-memos-show-14088239.html",
+            "accessedOn": "2026-11-25"
+          }
+        ],
+        "beat": "policy",
+        "tryThis": "Save an offline contact list and rehearse a short email-outage drill."
+      },
+      {
+        "id": "2026-11-25-edge-neo-india",
+        "rank": 4,
+        "label": "25 Nov 2026",
+        "headline": "Motorola’s new India phone puts battery capacity at the centre",
+        "summary": "Motorola launched the Edge 70 Neo in India on Tuesday with a 7,000 mAh battery. Moneycontrol lists a ₹40,999 price and a ₹34,999 effective price after offers. The lower figure depends on eligibility; it is not the unconditional sticker price for every buyer.",
+        "why": "Phone advertising often compresses a bank discount, exchange benefit or other condition into one large price. Battery capacity also describes stored charge, rather than proving how long a particular person’s daily use will last.",
+        "soWhat": "A buyer should compare the amount actually payable and independent battery tests, alongside software support and service access.",
+        "take": "Compare the bill you qualify for, not the largest discount in the ad.",
+        "watch": "Check offer conditions, the first independent endurance tests and the published update commitment.",
+        "terms": [],
+        "image": {
+          "url": "https://images.moneycontrol.com/static-mcnews/2026/11/20261124085329_edge-70-neo.png",
+          "credit": "Photo: Moneycontrol",
+          "alt": "Motorola Edge 70 Neo with 7000mAh battery, Snapdragon 7s Gen 3 chip launched in India at Rs 34,999 effective price- Moneycontrol.com",
+          "sourceUrl": "https://www.moneycontrol.com/technology/motorola-edge-70-neo-with-7000mah-battery-snapdragon-7s-gen-3-chip-launched-in-india-at-rs-34-999-effective-price-article-14087883.html",
+          "auto": true
+        },
+        "photo": "Motorola",
+        "sources": [
+          {
+            "label": "motoindia",
+            "url": "https://www.moneycontrol.com/technology/motorola-edge-70-neo-with-7000mah-battery-snapdragon-7s-gen-3-chip-launched-in-india-at-rs-34-999-effective-price-article-14087883.html",
+            "accessedOn": "2026-11-25"
+          }
+        ],
+        "beat": "india",
+        "tryThis": "Write down the checkout price without exchange, then add only benefits you qualify for."
+      },
+      {
+        "id": "2026-11-25-amazon-decart-technology",
+        "rank": 5,
+        "label": "25 Nov 2026",
+        "headline": "Amazon signs for Decart technology and brings its team aboard",
+        "summary": "Amazon says it has signed an agreement to buy the technology behind Decart’s optimisation software and bring its founders and engineering team into Amazon. The announcement was published on November 23 and featured in Amazon’s Tuesday news roundup. It is a technology-and-talent agreement, not evidence that every part of Decart has been acquired.",
+        "why": "Running an AI answer repeatedly costs money. Better software can get more work from the same chips, which helps explain why cloud companies want engineers who understand both hardware and models.",
+        "soWhat": "Indian developers using cloud AI should compare real task costs and response times when new services become available.",
+        "take": "The useful breakthrough is a lower bill for the same reliable result.",
+        "watch": "Look for customer-facing benchmarks, pricing and availability on Amazon’s chips.",
+        "terms": [
+          {
+            "term": "inference",
+            "meaning": "Running a trained model to produce an answer"
+          }
+        ],
+        "image": null,
+        "photo": "Amazon Web Services",
+        "sources": [
+          {
+            "label": "decartnews",
+            "url": "https://www.reuters.com/business/retail-consumer/amazon-buy-decarts-ai-chip-optimization-tech-latest-ai-talent-grab-2026-11-23/",
+            "accessedOn": "2026-11-25"
+          },
+          {
+            "label": "decart",
+            "url": "https://www.aboutamazon.com/news/company-news/amazon-decart-ai-optimization",
+            "accessedOn": "2026-11-25"
+          }
+        ],
+        "beat": "deal",
+        "tryThis": "Measure cost and response time on the same small task before changing cloud services."
+      }
+    ],
+    "psychology": [
+      {
+        "id": "2026-11-25-familiarity-liking",
+        "rank": 1,
+        "label": "25 Nov 2026 · Psychology",
+        "headline": "Why the song you disliked starts growing on you",
+        "concept": "Mere exposure",
+        "study": {
+          "authors": "Robert B. Zajonc",
+          "year": 1968,
+          "published": "1968-06-01",
+          "sample": 72,
+          "era": "classic"
+        },
+        "summary": "A new song sounds irritating. After hearing it on your commute for a week, you start humming along. Nothing about the recording changed. Did your judgement improve, or did repeated contact change how the song felt?",
+        "belief": "We usually assume that liking comes after understanding something or discovering a good reason to prefer it. Mere repetition should not count as a reason.",
+        "experiment": "Robert Zajonc tested 72 people using unfamiliar, invented Turkish-looking words. Different words appeared zero, one, two, five, ten or twenty-five times. Participants then rated how positive or negative each word seemed, without knowing its supposed meaning.",
+        "finding": "Words shown more often generally received more favourable ratings. The manipulation changed exposure, rather than supplying better information about what the words meant.",
+        "why": "Your mind must make quick judgements with incomplete information. Something encountered before is easier to recognise and may feel less uncertain. That feeling can spill into liking. It is a useful explanation of the pattern, not proof that everything familiar deserves trust.",
+        "examples": [
+          "A local shop feels comfortable because you pass it every morning, even before buying anything.",
+          "A repeated brand jingle comes to mind faster than a competitor’s better product details."
+        ],
+        "soWhat": "Separate the ease of recognising a name from evidence that its product or advice is good.",
+        "useThisWeek": "When choosing between brands, list your reasons before looking at the logos. Notice which reasons are simply familiarity.",
+        "limits": "This classic experiment used unfamiliar words. Repetition can also annoy people, and a bad experience can outweigh familiarity.",
+        "take": "Familiar can feel good without becoming better.",
+        "terms": [],
+        "image": null,
+        "photo": "Mere-exposure effect",
+        "sources": [
+          {
+            "label": "mere",
+            "url": "https://web.mit.edu/curhan/www/docs/Articles/biases/9_J_Personality_Social_Psychology_1_%28Zajonc%29.pdf",
+            "accessedOn": "2026-11-25"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-25-reward-changes-reason",
+        "rank": 2,
+        "label": "25 Nov 2026 · Psychology",
+        "headline": "When a prize makes a favourite activity less appealing",
+        "concept": "Overjustification",
+        "study": {
+          "authors": "Mark R. Lepper, David Greene and Richard E. Nisbett",
+          "year": 1973,
+          "published": "1973-10-01",
+          "sample": 51,
+          "era": "classic"
+        },
+        "summary": "A child happily draws until an adult starts offering a prize for every picture. Later, without a prize, the crayons sit untouched. The adult added an incentive, so why might the child now want to draw less?",
+        "belief": "If someone already enjoys an activity, paying or rewarding them should add another reason to do it. More reasons should mean more lasting interest.",
+        "experiment": "Lepper, Greene and Nisbett studied 51 preschool children who already liked drawing. Some expected an award before drawing; others received a surprise award or none. Researchers later observed the children’s freely chosen drawing time when no award was offered.",
+        "finding": "The expected-award group spent 8.59% of observed free time drawing, compared with 18.09% after a surprise award and 16.73% with no award.",
+        "why": "People interpret their own behaviour partly through its circumstances. An expected prize can make an activity feel like something performed to earn approval. Once that external reason disappears, the original enjoyment may receive less attention. The study tests that possibility, not a rule against paying people.",
+        "examples": [
+          "A parent turns a child’s voluntary reading into a bargain for treats.",
+          "A weekend photographer starts choosing every picture mainly for competition points."
+        ],
+        "soWhat": "When protecting an enjoyable hobby, give attention to choice and progress instead of making every session a transaction.",
+        "useThisWeek": "Try one session of an existing hobby without a reward target. Afterwards, note what was enjoyable about the activity itself.",
+        "limits": "These were young children who already liked drawing. The result does not justify cutting wages or claiming all rewards reduce motivation.",
+        "take": "Protect the reason someone wanted to begin.",
+        "terms": [],
+        "image": null,
+        "photo": "Overjustification effect",
+        "sources": [
+          {
+            "label": "rewards",
+            "url": "https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Motivation/Lepper_et_al_Undermining_Childrens_Intrinsic_Interest.pdf",
+            "accessedOn": "2026-11-25"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-25-repetition-truth",
+        "rank": 3,
+        "label": "25 Nov 2026 · Psychology",
+        "headline": "Why hearing a claim again can make it feel true",
+        "concept": "The illusory truth effect",
+        "study": {
+          "authors": "Lynn Hasher, David Goldstein and Thomas Toppino",
+          "year": 1977,
+          "published": "1977-02-01",
+          "sample": 40,
+          "era": "classic"
+        },
+        "summary": "A claim arrives in your family group, then a colleague repeats it, then you see it in a short video. By evening it feels established. But all three versions may have come from the same unsupported post.",
+        "belief": "We like to think confidence rises because we have gathered more evidence. Hearing a sentence repeatedly should not change its truth if nobody supplies a new source.",
+        "experiment": "Hasher, Goldstein and Toppino analysed 40 participants who completed three sessions, two weeks apart. Each session contained 60 plausible claims. Twenty claims repeated across sessions, while the others changed. People rated how likely each statement was to be true.",
+        "finding": "Repeated false statements rose from an average truth rating of 4.18 to 4.67 on a seven-point scale. Their truth had not changed; their familiarity had.",
+        "why": "Checking every claim from scratch takes effort. Repetition makes a sentence easier to process, and that ease can be mistaken for a memory of supporting evidence. Several familiar appearances can therefore feel like several independent confirmations, even when there is only one original source.",
+        "examples": [
+          "A dubious tax rule circulates through several office groups, all copying the same screenshot.",
+          "Repeated packaging language makes a product claim sound established before you check the evidence."
+        ],
+        "soWhat": "Count independent sources, not the number of times a sentence has reached you.",
+        "useThisWeek": "Choose one widely forwarded claim and trace its earliest linked source. Ask what new evidence each later version adds.",
+        "limits": "This was a small laboratory study of plausible statements. Repetition is one influence on belief, alongside knowledge, trust and the claim itself.",
+        "take": "Repeated is not the same as independently confirmed.",
+        "terms": [],
+        "image": null,
+        "photo": "Illusory truth effect",
+        "sources": [
+          {
+            "label": "truth",
+            "url": "https://www.academia.edu/87289312/Frequency_and_the_conference_of_referential_validity",
+            "accessedOn": "2026-11-25"
+          },
+          {
+            "label": "truthdoi",
+            "url": "https://doi.org/10.1016/S0022-5371%2877%2980012-1",
+            "accessedOn": "2026-11-25"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-25-assistance-learning-gap",
+        "rank": 4,
+        "label": "25 Nov 2026 · Psychology",
+        "headline": "Finishing the homework is different from learning the method",
+        "concept": "Assisted performance versus independent learning",
+        "study": {
+          "authors": "Hamsa Bastani, Osbert Bastani, Alp Sungu, Haosen Ge, Özge Kabakcı and Rei Mariman",
+          "year": 2025,
+          "published": "2025-06-25",
+          "sample": 1000,
+          "sampleNote": "Approximate: the paper describes nearly 1,000 students, not an exact 1,000.",
+          "era": "recent"
+        },
+        "summary": "An AI tool helps you finish a difficult worksheet. Every answer looks clear while the chat is open. The next morning, with a blank page and no tool, you cannot reproduce the method. What exactly did yesterday’s success measure?",
+        "belief": "A smoother practice session can feel like better learning. We often judge understanding by whether we reached the answer, rather than whether we can produce the reasoning alone.",
+        "experiment": "Bastani and colleagues worked with nearly 1,000 high-school mathematics students in Turkey. Classes used an ordinary GPT-based helper, a teacher-designed hint-focused tutor, or no AI. Students practised with their assigned resources and then took an exam without help.",
+        "finding": "The ordinary helper improved practice grades by 48%, yet its group scored 17% below the no-AI group afterwards. The hint-focused tutor avoided that exam penalty, without showing a clear exam advantage over the control group.",
+        "why": "An answer can remove the very steps you need to practise: deciding where to begin, choosing a rule and checking a mistake. Good help leaves some of that work with you. Performance while supported and the ability to perform alone are therefore different outcomes.",
+        "examples": [
+          "An MBA student copies a forecasting solution but cannot choose the formula in an exam.",
+          "A colleague follows a generated spreadsheet formula without understanding its references."
+        ],
+        "soWhat": "Judge a learning tool by what remains after you close it, rather than the polish of the assisted answer.",
+        "useThisWeek": "Ask for one hint, finish the problem, then solve a similar question without the chat.",
+        "limits": "The sample size is approximate in the paper’s description. This was one school and a specific tutoring design, not a verdict on every AI tool.",
+        "take": "Let help remove confusion, not all the thinking.",
+        "terms": [],
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Interactive_whiteboard_at_CeBIT_2007.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "credit": "Photo: Wikimedia Commons",
+          "alt": "Educational technology",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Educational_technology",
+          "auto": true
+        },
+        "photo": "Educational technology",
+        "sources": [
+          {
+            "label": "math",
+            "url": "https://www.pnas.org/doi/10.1073/pnas.2422633122",
+            "accessedOn": "2026-11-25"
+          },
+          {
+            "label": "Wikipedia · Educational technology",
+            "url": "https://en.wikipedia.org/wiki/Educational_technology"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-25-learning-to-supervise-code",
+        "rank": 5,
+        "label": "25 Nov 2026 · Psychology",
+        "headline": "You cannot supervise code you never learned to understand",
+        "concept": "Learning to supervise AI-written code",
+        "study": {
+          "authors": "Judy Hanwen Shen and Alex Tamkin",
+          "year": 2026,
+          "published": "2026-01-28",
+          "sample": 52,
+          "era": "recent"
+        },
+        "summary": "A tool writes a working program, and you feel productive. Then somebody asks why one line is there, or how to fix an error. Delivering an output and understanding the system can turn out to be separate achievements.",
+        "belief": "If you can obtain correct code quickly, it is tempting to assume that reviewing the finished answer teaches you enough to supervise similar work later.",
+        "experiment": "Shen and Tamkin compared 52 Python users learning the unfamiliar Trio programming library. Half had an AI assistant and half did not. After the task, participants completed a quiz testing concepts, code reading and debugging. The authors corrected numerical details in a November 23 revision.",
+        "finding": "The current paper reports a 4.15-point gap on a 27-point quiz, favouring the group without AI. It did not establish an overall speed improvement from AI assistance.",
+        "why": "Struggling with an error forces you to build a model of what the program is doing. Delegating every difficult step can bypass that practice. Among AI users, more engaged questioning went with better learning, but those interaction styles were not separately assigned at random.",
+        "examples": [
+          "A new analyst accepts a generated script but cannot explain why it drops certain rows.",
+          "A developer asks for an explanation, predicts the output and then tests the prediction."
+        ],
+        "soWhat": "For work you must later review, reserve time to explain and test the parts the tool produced.",
+        "useThisWeek": "Choose one generated function. Close the chat, explain each step aloud, and write a test for a likely failure.",
+        "limits": "This was a small, immediate learning task, not a long-term test of every developer or newer coding agent.",
+        "take": "A working output is not proof of working knowledge.",
+        "terms": [],
+        "image": null,
+        "photo": "Computer programming",
+        "sources": [
+          {
+            "label": "Current research paper, corrected November 2026",
+            "url": "https://arxiv.org/html/2601.20245v3",
+            "accessedOn": "2026-11-25"
+          },
+          {
+            "label": "Original paper record",
+            "url": "https://arxiv.org/abs/2601.20245",
+            "accessedOn": "2026-11-25"
+          }
+        ]
+      }
+    ],
+    "marketing": [
+      {
+        "id": "2026-11-25-myntra-real-sneakers",
+        "rank": 1,
+        "label": "25 Nov 2026 · India",
+        "headline": "Myntra makes an artificial world sell a promise of authenticity",
+        "summary": "Myntra’s new sneaker film puts real performers inside AI-created surroundings. Tuesday’s launch coverage credits Tilt Brand Solutions and Jouska AI. The visual joke is that a strange, artificial world surrounds a promise of genuine sneakers. The coverage does not publish campaign sales, reach or a measured lift in trust.",
+        "why": "Online sneaker shoppers cannot inspect a shoe before buying it. The film turns that uncertainty into the central creative idea, instead of showing another ordinary product montage. Its authenticity promise still needs support from the shopping experience.",
+        "soWhat": "A marketer can use contrast to make one product benefit memorable, provided the claim is backed beyond the advertisement.",
+        "take": "The surprise earns attention; the proof has to earn the purchase.",
+        "watch": "Look for published campaign results and how the authenticity promise appears on product pages.",
+        "terms": [],
+        "image": null,
+        "photo": "Myntra",
+        "sources": [
+          {
+            "label": "myntra",
+            "url": "https://www.impactonnet.com/more-from-impact/myntra-launches-ai-led-campaign-highlighting-sneaker-authenticity-17774.html",
+            "accessedOn": "2026-11-25"
+          }
+        ],
+        "region": "India",
+        "brand": "Myntra",
+        "agency": "Tilt Brand Solutions and Jouska AI",
+        "objective": "Make the sneaker platform’s authenticity promise stand out.",
+        "insight": "An obviously artificial setting makes the claim of genuine products more noticeable.",
+        "channels": "Digital campaign film and social distribution.",
+        "results": "No campaign performance figures were published in the cited launch coverage."
+      },
+      {
+        "id": "2026-11-25-tata-capital-questions",
+        "rank": 2,
+        "label": "25 Nov 2026 · India",
+        "headline": "Tata Capital casts Shubman Gill as the inspector of loans",
+        "summary": "Tata Capital’s campaign, reported on November 23, has Shubman Gill playing an inspector who gets people to ask questions before borrowing. Two films carry the Sawaal Karo, Phir Loan Lo message: ask first, then take the loan. The cited coverage names no creative agency and publishes no campaign results.",
+        "why": "Borrowing often begins with the thing someone wants: a home, an expense covered, a problem solved. A familiar celebrity interrupts that rush and makes checking terms part of the story rather than a footnote.",
+        "soWhat": "The useful creative lesson is to dramatise the pause a customer needs. For a borrower, the practical step is checking total cost and conditions.",
+        "take": "A responsible message becomes useful when the product journey makes questions easy to answer.",
+        "watch": "Check whether subsequent reporting measures understanding, rather than counting only video views.",
+        "terms": [],
+        "image": {
+          "url": "https://img-cdn.publive.online/fit-in/1200x675/afaqs/media/media_files/2026/11/23/tata_capital-2026-11-23-13-58-01.jpg",
+          "credit": "Photo: afaqs!",
+          "alt": "Shubman Gill fronts Tata Capital",
+          "sourceUrl": "https://www.afaqs.com/news/advertising/shubman-gill-fronts-tata-capitals-latest-loan-awareness-campaign-12833779",
+          "auto": true
+        },
+        "photo": "Tata Capital",
+        "sources": [
+          {
+            "label": "tata",
+            "url": "https://www.afaqs.com/news/advertising/shubman-gill-fronts-tata-capitals-latest-loan-awareness-campaign-12833779",
+            "accessedOn": "2026-11-25"
+          }
+        ],
+        "region": "India",
+        "brand": "Tata Capital",
+        "agency": "Not named in the cited launch coverage.",
+        "objective": "Encourage people to ask questions before taking a loan.",
+        "insight": "An inspector character gives a familiar face permission to interrupt a rushed decision.",
+        "channels": "Two online campaign films, including YouTube distribution.",
+        "results": "No measured campaign results were published in the cited coverage."
+      },
+      {
+        "id": "2026-11-25-blissclub-wrong-outfit",
+        "rank": 3,
+        "label": "25 Nov 2026 · India",
+        "headline": "Blissclub gives comfortable clothes permission to leave the gym",
+        "summary": "Blissclub’s The Wrong Outfit campaign, announced on November 23 and covered Tuesday, stars Sobhita Dhulipala wearing comfortable clothing in supposedly unsuitable settings. Its films include activewear in a boardroom and other relaxed looks at social occasions. The coverage does not name an external agency or report performance results.",
+        "why": "Clothes carry social rules as well as practical functions. Showing a confident person breaking a rule can make the viewer reconsider whether the rule serves them. That is the campaign’s creative argument, not a measured change in what audiences wear.",
+        "soWhat": "Brands entering a new occasion can show the moment of social friction, rather than simply listing a fabric feature.",
+        "take": "Sell the permission to use a product, while proving it works in that setting.",
+        "watch": "Look for customer research or sales evidence showing use beyond the usual activewear occasion.",
+        "terms": [],
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Sobhita_Dhulipala_at_Kaalakaandi_press_conference_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "credit": "Photo: Wikimedia Commons",
+          "alt": "Sobhita Dhulipala",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sobhita_Dhulipala",
+          "auto": true
+        },
+        "photo": "Sobhita Dhulipala",
+        "sources": [
+          {
+            "label": "bliss",
+            "url": "https://manifest-media.in/video/campaigns/241126/blissclub-and-sobhita-dhulipala-make-a-case-for-the-wrong-outfit.html",
+            "accessedOn": "2026-11-25"
+          },
+          {
+            "label": "Wikipedia · Sobhita Dhulipala",
+            "url": "https://en.wikipedia.org/wiki/Sobhita_Dhulipala"
+          }
+        ],
+        "region": "India",
+        "brand": "Blissclub",
+        "agency": "No external creative agency was named in the cited coverage.",
+        "objective": "Expand comfortable apparel into work and social occasions.",
+        "insight": "The perceived wrongness of an outfit can come from convention rather than comfort or suitability.",
+        "channels": "A series of digital campaign films featuring Sobhita Dhulipala.",
+        "results": "No campaign reach, brand-lift or sales results were published."
+      },
+      {
+        "id": "2026-11-25-wise-australia-arrivals",
+        "rank": 4,
+        "label": "25 Nov 2026 · Global",
+        "headline": "Wise turns unfamiliar Australian customs into a money message",
+        "summary": "Wise’s Australian Everyday Account campaign uses awkward arrival experiences, including a barbecue misunderstanding and a hot seatbelt, to make money feel like the easier part of moving countries. Tuesday’s coverage credits in-house creative and media partner Advertising Advantage. The Melbourne arrival pop-up ran earlier, November 9–22; it is not still open.",
+        "why": "A newcomer has many small things to learn at once. Humour recognises that experience without requiring a long explanation of the product. Airport placement reaches people close to the moment when a local account becomes relevant.",
+        "soWhat": "For Indian brands serving migrants or students, match the distribution point to a real transition, then explain fees and eligibility plainly.",
+        "take": "An empathetic joke works best beside a genuinely simpler service.",
+        "watch": "Look for published account-adoption or brand-lift results; the launch coverage supplies neither.",
+        "terms": [],
+        "image": {
+          "url": "https://images-r2.thebrag.com/mw/uploads/2026/11/wise-melbourne-31.jpg?v=1795495206145",
+          "credit": "Photo: mediaweek.com.au",
+          "alt": "Wise launches Everyday Account with in-house creative",
+          "sourceUrl": "https://www.mediaweek.com.au/wise-launches-everyday-account-with-in-house-creative",
+          "auto": true
+        },
+        "photo": "Wise (company)",
+        "sources": [
+          {
+            "label": "wise",
+            "url": "https://www.mediaweek.com.au/wise-launches-everyday-account-with-in-house-creative",
+            "accessedOn": "2026-11-25"
+          },
+          {
+            "label": "wisegov",
+            "url": "https://newsroom.wise.com/en-PAC/274336-wise-launches-everyday-account-as-more-australians-use-its-features-at-home-and-abroad/",
+            "accessedOn": "2026-11-25"
+          }
+        ],
+        "region": "Global",
+        "brand": "Wise Australia",
+        "agency": "In-house creative; Advertising Advantage for media.",
+        "objective": "Introduce the Everyday Account to people arriving in Australia.",
+        "insight": "Learning local habits is difficult; everyday money should be easier.",
+        "channels": "Television, outdoor, streaming, airport placements and an earlier Melbourne pop-up.",
+        "results": "No quantified campaign results were published in the cited coverage."
+      },
+      {
+        "id": "2026-11-25-crunchmaster-seed-characters",
+        "rank": 5,
+        "label": "25 Nov 2026 · Global",
+        "headline": "Crunchmaster gives seeds a rescue appeal to explain its difference",
+        "summary": "Crunchmaster and Humanaut launched Save a Seed, Eat a Cracker in the US, with coverage published November 23. A mock rescue appeal gives felt seed characters a starring role, turning the brand’s seed-oil-free positioning into a visual joke. The launch report gives no measured results.",
+        "why": "A package claim can be easy to overlook. Characters and a familiar public-service format turn it into a small story people can remember. That explains the creative tactic; the ad itself does not establish that avoiding seed oils improves health.",
+        "soWhat": "A marketer can give an abstract product difference a recognisable character, while keeping the underlying claim narrow and supportable.",
+        "take": "Make the difference memorable without smuggling in a bigger health promise.",
+        "watch": "Look for published campaign lift or retail results after the planned holiday distribution.",
+        "terms": [],
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Crackers_with_herring_and_garlic_sauce.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "credit": "Photo: Wikimedia Commons",
+          "alt": "Cracker (food)",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Cracker_(food)",
+          "auto": true
+        },
+        "photo": "Cracker (food)",
+        "sources": [
+          {
+            "label": "crunch",
+            "url": "https://marcommnews.com/humanaut-launches-psa-spoof-campaign-to-promote-crunchmaster-crackers-brand/",
+            "accessedOn": "2026-11-25"
+          },
+          {
+            "label": "Wikipedia · Cracker (food)",
+            "url": "https://en.wikipedia.org/wiki/Cracker_(food)"
+          }
+        ],
+        "region": "Global",
+        "brand": "Crunchmaster",
+        "agency": "Humanaut",
+        "objective": "Make the brand’s seed-oil-free positioning memorable.",
+        "insight": "A human-like character makes an otherwise technical ingredient distinction easier to picture.",
+        "channels": "YouTube, Meta, TikTok, retail media and planned influencer gift boxes.",
+        "results": "No measured campaign performance was published in the launch report."
+      }
+    ]
+  },
+  "coverage": {
+    "checkedAt": "2026-11-25T04:17:20.110Z",
+    "items": [
+      {
+        "title": "US planning to hike tariffs against India, China and 14 other countries: Report",
+        "feed": "Top stories",
+        "rank": 1,
+        "answer": "2026-11-25-us-tariff-risk"
+      },
+      {
+        "title": "Woman Gang-Raped By Colleagues In Delhi Cafe, 2 Women Among 3 Arrested",
+        "feed": "Top stories",
+        "rank": 2,
+        "answer": "2026-11-25-delhi-workplace-assault"
+      },
+      {
+        "title": "Uttar Pradesh Assembly elections: SP offers Congress 26 seats in U.P. polls, talks continue",
+        "feed": "Top stories",
+        "rank": 3,
+        "answer": "2026-11-25-state-election-alliances"
+      },
+      {
+        "title": "Shenzhou 24: Pakistan's first astronaut goes to space aboard Chinese rocket",
+        "feed": "Top stories",
+        "rank": 4,
+        "answer": "2026-11-25-pakistan-china-spaceflight"
+      },
+      {
+        "title": "U.S. CIA, ODNI suffer cybersecurity breach of some unclassified information, NYT reports",
+        "feed": "Top stories",
+        "rank": 5,
+        "answer": "2026-11-25-us-intelligence-breach"
+      },
+      {
+        "title": "India seizes Nepal flood crisis to rebuild influence as China gains ground",
+        "feed": "India",
+        "rank": 1,
+        "answer": "skip: repeat; the Nepal flood and influence story was covered in the November 23 edition."
+      },
+      {
+        "title": "Thirupparankundram 'deepathoon' row highlights: Karthigai Deepam lit at traditional spot despite Supreme Court order",
+        "feed": "India",
+        "rank": 2,
+        "answer": "2026-11-25-court-compliance-leadership"
+      },
+      {
+        "title": "Supreme Court Collegium Recommends Justice Vibhu Bakhru As Jharkhand HC Chief Justice, Justice...",
+        "feed": "India",
+        "rank": 3,
+        "answer": "2026-11-25-court-compliance-leadership"
+      },
+      {
+        "title": "After six years apart, BJP and Akali Dal announce alliance for Punjab Assembly election",
+        "feed": "India",
+        "rank": 4,
+        "answer": "2026-11-25-state-election-alliances"
+      },
+      {
+        "title": "Bisleri controversy puts industry in hot water",
+        "feed": "India",
+        "rank": 5,
+        "answer": "2026-11-25-consumer-prices-safety"
+      },
+      {
+        "title": "Protesting Bangladesh garment workers reject pay offer",
+        "feed": "World",
+        "rank": 1,
+        "answer": "2026-11-25-bangladesh-wage-unrest"
+      },
+      {
+        "title": "Cop31: Why the UN climate summit ended in victory for fossil fuel producing nations",
+        "feed": "World",
+        "rank": 2,
+        "answer": "skip: repeat; the COP31 outcome was covered in the November 23 edition."
+      },
+      {
+        "title": "UN warns Black Sea drone attacks threaten food exports as Russia-Ukraine war widens",
+        "feed": "World",
+        "rank": 3,
+        "answer": "2026-11-25-shipping-war-food-aid"
+      },
+      {
+        "title": "Trump-Putin-Xi Jinping meeting: China pushes Shenzhen system to co-direct global order",
+        "feed": "World",
+        "rank": 4,
+        "answer": "skip: repeat; this concerns the older November 19 summit rather than a new November 24–25 development."
+      },
+      {
+        "title": "Facing international pressure, Israel vows to advance delayed Gaza sewage repairs",
+        "feed": "World",
+        "rank": 5,
+        "answer": "2026-11-25-gaza-wastewater-repairs"
+      },
+      {
+        "title": "Nvidia's Jensen Huang says he is in therapy as comeback rally fades",
+        "feed": "Business",
+        "rank": 1,
+        "answer": "skip: gossip; personal therapy remarks add no established business development beyond the earlier comeback coverage."
+      },
+      {
+        "title": "D-Street poised for a gap-up start as GIFT Nifty trades firmly higher",
+        "feed": "Business",
+        "rank": 2,
+        "answer": "2026-11-25-market-rebound"
+      },
+      {
+        "title": "Microsoft declares ‘Code Red’ after historic outage, internal memos show",
+        "feed": "Business",
+        "rank": 3,
+        "answer": "2026-11-25-microsoft-reliability-reset"
+      },
+      {
+        "title": "Hyundai Motor India, Tata Motors Passenger Vehicles to raise prices from December 1",
+        "feed": "Business",
+        "rank": 4,
+        "answer": "2026-11-25-consumer-prices-safety"
+      },
+      {
+        "title": "Foxconn faces India insolvency lawsuit over unpaid vendor dues",
+        "feed": "Business",
+        "rank": 5,
+        "answer": "2026-11-25-foxconn-vendor-petition"
+      },
+      {
+        "title": "GTA 6 Rakes In approximately $3.7 Billion on Launch Day; Hacked Leak Raises Specter of Unofficial PC Version",
+        "feed": "Technology",
+        "rank": 1,
+        "answer": "2026-11-25-gta-launch-pc-warning"
+      },
+      {
+        "title": "Galaxy S27 Pro’s Geekbench listing reveals its chipset, RAM well before launch",
+        "feed": "Technology",
+        "rank": 2,
+        "answer": "skip: repeat; an older November 20 pre-launch benchmark preview, with no new November 24–25 development."
+      },
+      {
+        "title": "Motorola Signature 27 launches in Germany cheaper than expected",
+        "feed": "Technology",
+        "rank": 3,
+        "answer": "2026-11-25-signature-germany-launch"
+      },
+      {
+        "title": "Motorola launches Edge 70 Neo for premium segment buyers in India",
+        "feed": "Technology",
+        "rank": 4,
+        "answer": "2026-11-25-edge-neo-india"
+      },
+      {
+        "title": "Unauthorized 'GTA 6' PC port shut down by Rockstar Games' parent company",
+        "feed": "Technology",
+        "rank": 5,
+        "answer": "2026-11-25-gta-launch-pc-warning"
+      }
+    ]
+  }
+}
