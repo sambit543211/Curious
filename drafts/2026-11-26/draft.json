@@ -1,0 +1,1229 @@
+{
+  "date": "2026-11-26",
+  "top3": [
+    {
+      "cardId": "2026-11-26-tariff-rates-proposed",
+      "line": "The US proposes India tariffs, including a lower rate if a deal is reached."
+    },
+    {
+      "cardId": "2026-11-26-saudi-oil-escalation",
+      "line": "Saudi oil-infrastructure attacks widen the risk to supply and shipping."
+    },
+    {
+      "cardId": "2026-11-26-us-growth-inflation",
+      "line": "Strong US growth and stubborn inflation complicate the rate outlook."
+    }
+  ],
+  "coverage": {
+    "top1": "2026-11-26-tariff-rates-proposed",
+    "top2": "2026-11-26-up-candidate-friction",
+    "top3": "2026-11-26-deepam-next-court-step",
+    "top4": "2026-11-26-dangerous-materials-safety",
+    "top5": "2026-11-26-saudi-oil-escalation",
+    "india1": "2026-11-26-constitution-passport-rights",
+    "india2": "2026-11-26-constitution-passport-rights",
+    "india3": "skip: gossip; the personal wedding story has no comparable public-policy or economic consequence.",
+    "india4": "2026-11-26-cross-border-militancy",
+    "india5": "2026-11-26-cross-border-militancy",
+    "world1": "2026-11-26-us-ai-gatekeepers",
+    "world2": "2026-11-26-google-content-lawsuit",
+    "world3": "2026-11-26-dangerous-materials-safety",
+    "world4": "skip: repeat; commentary revisiting the COP31 outcome covered in the November 23 edition.",
+    "world5": "skip: repeat; the November 24 chemical-weapons allegation supplies no new November 25–26 evidence.",
+    "business1": "2026-11-26-market-opening-reversal",
+    "business2": "2026-11-26-market-opening-reversal",
+    "business3": "skip: gossip; personal therapy remarks add no new established operating result.",
+    "business4": "2026-11-26-institutional-flows",
+    "business5": "2026-11-26-us-ai-gatekeepers",
+    "tech1": "skip: repeat; a daily Wordle answer item, rather than a new technology development.",
+    "tech2": "2026-11-26-watch-health-update",
+    "tech3": "2026-11-26-gta-playstation-audience",
+    "tech4": "skip: repeat; coverage of the November 20 PACE-NODES paper, with no new study results.",
+    "tech5": "2026-11-26-gta-playstation-audience"
+  },
+  "sections": {
+    "india": [
+      {
+        "id": "2026-11-26-tariff-rates-proposed",
+        "rank": 1,
+        "label": "26 Nov 2026",
+        "headline": "US proposes India tariffs, with a lower rate for a deal",
+        "summary": "Washington has moved from reports of new duties to an official proposal. The US trade office proposes tariffs of up to 25% on Indian goods, with exemptions and adjustments. It also proposes 17% if an acceptable trade agreement is reached. India disputes the excess-capacity accusation and says talks should address the concerns. Proposed rates are not proof that customs has begun collecting them.",
+        "why": "This uses a trade-law investigation into industrial policies, after the earlier emergency-tariff route faced a court setback. Manufacturers now need to understand product exclusions and interactions with existing duties before they can price the effect.",
+        "soWhat": "Exporters and their suppliers should review contract terms and the final product coverage before changing shipment prices.",
+        "take": "The official detail matters more than treating every export as equally exposed.",
+        "watch": "Check the final notice, exemptions, effective date and India–US negotiation outcome.",
+        "terms": [
+          {
+            "term": "tariffs",
+            "meaning": "Taxes on goods entering a country"
+          },
+          {
+            "term": "excess capacity",
+            "meaning": "Production capability beyond what demand can absorb"
+          }
+        ],
+        "image": null,
+        "photo": "Office of the United States Trade Representative",
+        "sources": [
+          {
+            "label": "tariff",
+            "url": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "tariffnews",
+            "url": "https://www.reuters.com/world/india/us-cap-india-tariff-17-if-trade-deal-is-reached-ustr-says-2026-11-25/",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "policy",
+        "keyNumber": {
+          "value": "25%",
+          "label": "proposed upper India rate"
+        }
+      },
+      {
+        "id": "2026-11-26-up-candidate-friction",
+        "rank": 2,
+        "label": "26 Nov 2026",
+        "headline": "SP’s candidate list turns alliance talks into a public dispute",
+        "summary": "Uttar Pradesh’s opposition alliance is facing a practical test: who gets to contest which seat. Wednesday’s reporting describes a Samajwadi Party list naming candidates for seats Congress also wants, including Behat and Saharanpur. Congress MP Imran Masood has publicly objected. This advances yesterday’s seat-sharing story from a negotiating offer to an actual candidate announcement; it does not establish that the alliance has collapsed.",
+        "why": "Parties can agree on opposing the same rival while competing for local organisation, supporters and influence. Announcing candidates early strengthens a bargaining position, but can make later compromise harder for local workers to accept.",
+        "soWhat": "For voters, the meaningful comparison is the final candidate list and joint programme, rather than the latest angry exchange.",
+        "take": "A workable alliance needs local agreement, not just friendly national photographs.",
+        "watch": "Look for a joint seat agreement or a revised candidate list.",
+        "terms": [
+          {
+            "term": "seat-sharing",
+            "meaning": "Partners agree which party contests each constituency"
+          }
+        ],
+        "image": null,
+        "photo": "Uttar Pradesh Legislative Assembly",
+        "sources": [
+          {
+            "label": "election",
+            "url": "https://timesofindia.indiatimes.com/india/saharanpur-showdown-why-akhileshs-1st-candidate-list-in-up-has-rattled-congress-mp-imran-masood/articleshow/136160781.cms",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "policy"
+      },
+      {
+        "id": "2026-11-26-flipkart-leadership",
+        "rank": 3,
+        "label": "26 Nov 2026",
+        "headline": "Flipkart names an interim leader as Kalyan Krishnamurthy leaves",
+        "summary": "Flipkart has announced that chief executive Kalyan Krishnamurthy is leaving after more than eleven years with the company. Chief product and technology officer Balaji Thiagarajan and the board will oversee operations in the interim. A permanent successor is expected in the coming weeks. The confirmed development is a leadership transition; reports connecting it to listing delays should not be treated as the company’s stated reason.",
+        "why": "An online marketplace balances seller relationships, delivery costs, product investment and competition from rapid-delivery rivals. A leadership handover can change priorities, but the appointment alone does not tell us which teams, services or spending plans will change.",
+        "soWhat": "Sellers and employees should track concrete service and policy announcements, rather than assuming an immediate operational change.",
+        "take": "The successor’s priorities will matter more than speculation about the departure.",
+        "watch": "Check the permanent appointment and any disclosed changes to operating plans.",
+        "terms": [],
+        "image": null,
+        "photo": "Flipkart",
+        "sources": [
+          {
+            "label": "flipkart",
+            "url": "https://stories.flipkart.com/announcement/kalyan-krishnamurthy-to-leave-flipkart-after-more-than-eleven-years-with-the-company",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "flipkartnews",
+            "url": "https://www.moneycontrol.com/news/business/startup/mc-newsbreak-confirmed-flipkart-ceo-kalyan-krishnamurthy-to-quit-balaji-thiagarajan-to-become-interim-ceo-14088729.html",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "business"
+      },
+      {
+        "id": "2026-11-26-constitution-passport-rights",
+        "rank": 4,
+        "label": "26 Nov 2026",
+        "headline": "Constitution Day arrives with a court test over travel restrictions",
+        "summary": "India marks Constitution Day today, with the Prime Minister urging a renewed commitment to its values. In a separate, concrete rights dispute, Saurav Das has approached the Delhi High Court after being stopped from flying to Britain. The government cites a discrepancy in passport information; his side challenges the restriction. The court was scheduled to hear the matter today. No ruling is assumed here.",
+        "why": "Constitutional promises become practical through procedures: notice, a chance to answer and review by an independent court. A passport dispute turns on the legal record and the authority used, not whether the traveller’s politics are popular.",
+        "soWhat": "For travellers, accurate documents and prompt responses to official notices matter. The court’s reasoning will show how the disputed restriction is assessed.",
+        "take": "The useful test of a constitutional promise is how institutions apply it.",
+        "watch": "Read today’s order for the legal basis and any interim travel relief.",
+        "terms": [
+          {
+            "term": "interim",
+            "meaning": "Temporary, while a case is still being decided"
+          }
+        ],
+        "image": null,
+        "photo": "Delhi High Court",
+        "sources": [
+          {
+            "label": "passport",
+            "url": "https://indianexpress.com/article/legal-news/cjps-saurav-das-moves-delhi-hc-after-being-stopped-from-flying-to-london-10977820/",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "constitution",
+            "url": "https://timesofindia.indiatimes.com/india/a-commitment-to-strengthen-our-constitution/articleshow/136175334.cms",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "society"
+      },
+      {
+        "id": "2026-11-26-deepam-next-court-step",
+        "rank": 5,
+        "label": "26 Nov 2026",
+        "headline": "The Deepam dispute moves towards a formal contempt hearing",
+        "summary": "The Supreme Court has asked parties in the Thiruparankundram lamp dispute to use a formal contempt petition rather than seeking action on the court’s own initiative. A further plea seeks permission to carry a burning flame to the disputed pillar. These are new procedural steps after Tuesday’s non-lighting controversy in Madurai, Tamil Nadu. They are not a final finding that officials disobeyed the court.",
+        "why": "A court order, an allegation that it was breached and a contempt finding are different stages. Judges must examine the direction, what officials actually did and the explanation offered before deciding responsibility.",
+        "soWhat": "For residents and worshippers, the immediate signal is the next written direction and local administration’s arrangements, not competing political claims.",
+        "take": "Clear orders and accountable compliance can reduce the room for confrontation.",
+        "watch": "Check the listed petitions and the court’s next written directions.",
+        "terms": [
+          {
+            "term": "contempt",
+            "meaning": "Court proceedings over alleged disobedience of judicial authority"
+          }
+        ],
+        "image": null,
+        "photo": "Thiruparankundram",
+        "sources": [
+          {
+            "label": "deepam",
+            "url": "https://www.livelaw.in/top-stories/thiruparankundram-row-supreme-court-declines-to-take-suo-motu-contempt-asks-to-file-contempt-petition-559869",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "wildcard"
+      }
+    ],
+    "world": [
+      {
+        "id": "2026-11-26-saudi-oil-escalation",
+        "rank": 1,
+        "label": "26 Nov 2026",
+        "headline": "Saudi refinery attacks widen the risk to oil and shipping",
+        "summary": "Yemen’s Houthis claimed an attack on Saudi Arabia’s Ras Tanura refinery on Wednesday. Reuters reported smoke in satellite images and confirmation from a source familiar with the site; Saudi officials had earlier reported intercepting drones. Threats and reported attacks also involve Red Sea ports following Saudi-led strikes in Yemen. The extent of damage and lost oil output still needs clear operator confirmation.",
+        "why": "Oil infrastructure, export terminals and ports connect civilian livelihoods to a widening conflict. A threat can raise insurance and shipping costs before any sustained supply loss is established. Damage claims and actual export disruption must therefore be tracked separately.",
+        "soWhat": "India imports much of its crude. Persistently higher oil can pressure fuel-related costs, company margins and the import bill.",
+        "take": "The decisive issue is sustained lost supply, not the loudest military claim.",
+        "watch": "Check Aramco’s operating updates, port movements and the next confirmed export figures.",
+        "terms": [
+          {
+            "term": "refinery",
+            "meaning": "A plant turning crude oil into usable fuels"
+          }
+        ],
+        "image": null,
+        "photo": "Ras Tanura",
+        "sources": [
+          {
+            "label": "houthis",
+            "url": "https://theprint.in/world/yemens-houthis-claim-attack-on-saudi-arabias-largest-refinery/3109257/",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "ports",
+            "url": "https://www.reuters.com/world/middle-east/yemens-houthis-threaten-target-jeddah-other-saudi-red-sea-ports-2026-11-25/",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "geopolitics",
+        "indiaLink": "Oil supply and shipping risks feed into India’s import bill and transport costs."
+      },
+      {
+        "id": "2026-11-26-cross-border-militancy",
+        "rank": 2,
+        "label": "26 Nov 2026",
+        "headline": "Kashmir’s security assessment keeps the cross-border threat in view",
+        "summary": "Jammu and Kashmir police have described a cross-border network involving men originally from Reasi. Police say they operate from Pakistan and support militancy through arms, money and recruitment. Separately, the police chief approved attachment of land linked to five alleged militants. Reports also distinguish the absence of active local militants in the Valley from the continuing hunt for foreign militants. These are police assessments, not court findings of guilt.",
+        "why": "A fall in local recruitment does not settle the question of outside support. Authorities are also targeting alleged financing routes, because a network can support violence without every member being physically present in the area.",
+        "soWhat": "For residents and businesses, follow district security instructions and actual incident trends; a single headline is not a complete travel assessment.",
+        "take": "Measure security by sustained reductions in violence and recruitment, not one headline.",
+        "watch": "Track court review of attachments and subsequent official incident and recruitment figures.",
+        "terms": [],
+        "image": null,
+        "photo": "Reasi district",
+        "sources": [
+          {
+            "label": "reasiland",
+            "url": "https://www.newindianexpress.com/india/2026/Nov/25/jk-police-chief-attaches-29-kanals-of-land-belonging-to-five-militants-operating-from-pakistan",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "reasi",
+            "url": "https://indianexpress.com/article/india/jammu-kashmir-police-dgp-nalin-prabhat-reasi-terrorists-pakistan-land-seized-uapa-10978040/",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "ANI security assessment reported by The Times of India",
+            "url": "https://timesofindia.indiatimes.com/india/no-active-local-militants-in-kashmir-valley-but-hunt-for-65-pakistani-terrorists-underway-report/articleshow/136161069.cms",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "geopolitics",
+        "indiaLink": "Cross-border networks directly affect civilian safety, tourism and businesses in Jammu and Kashmir."
+      },
+      {
+        "id": "2026-11-26-us-growth-inflation",
+        "rank": 3,
+        "label": "26 Nov 2026",
+        "headline": "US growth strengthens while inflation complicates the interest-rate outlook",
+        "summary": "The US economy grew at a 4.3% annualised pace in the third quarter, the government’s second estimate says. The second quarter grew 2.2%. A separate release put October consumer-price growth on the Federal Reserve’s preferred measure at 3.8% from a year earlier. Prices rose 0.3% over the month, down from September’s 0.5%. A slower monthly rise and high annual inflation can exist together.",
+        "why": "Strong demand can support imports and company sales while leaving the central bank worried about prices. Annualised quarterly growth is a different calculation from India’s usual year-on-year growth headline, so the two should not be compared directly.",
+        "soWhat": "Indian exporters, borrowers and investors face the consequences through US demand, the dollar and global borrowing costs.",
+        "take": "Good growth news does not automatically make borrowing cheaper.",
+        "watch": "Track the December Federal Reserve decision and the next monthly inflation reading.",
+        "terms": [
+          {
+            "term": "annualised",
+            "meaning": "Quarterly growth expressed as an equivalent yearly pace"
+          },
+          {
+            "term": "Federal Reserve",
+            "meaning": "The central bank of the United States"
+          }
+        ],
+        "image": null,
+        "photo": "Federal Reserve",
+        "sources": [
+          {
+            "label": "gdp",
+            "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "inflation",
+            "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "econnews",
+            "url": "https://www.reuters.com/business/us-inflation-rises-further-october-2026-11-25/",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "economy",
+        "indiaLink": "US demand, interest rates and dollar movements influence Indian exports and capital flows."
+      },
+      {
+        "id": "2026-11-26-us-ai-gatekeepers",
+        "rank": 4,
+        "label": "26 Nov 2026",
+        "headline": "US decisions put AI infrastructure and leadership under scrutiny",
+        "summary": "US regulators have authorised SpaceX’s planned Starmind orbital computing network, allowing up to one million satellites. That is permission, not a deployed network. In a separate AI governance development, Reuters reports that the Justice Department did not conduct a formal Jensen Huang investigation before his return to Nvidia. The attorney general says he has seen no evidence of a crime; related customer investigations continue.",
+        "why": "AI expansion depends on public decisions as well as engineering. Space licences determine who may use shared orbits. Export controls and corporate oversight influence access to advanced chips. Approval or a statement of no current evidence is not a guarantee of future performance.",
+        "soWhat": "Indian cloud buyers and space businesses should track actual capacity, enforceable licence conditions and chip-access rules before assuming cheaper or unrestricted compute.",
+        "take": "An ambitious approval still needs engineering proof and credible oversight.",
+        "watch": "Track SpaceX’s deployment milestones and the next disclosed outcome of chip-export investigations.",
+        "terms": [
+          {
+            "term": "orbital computing",
+            "meaning": "Running computer workloads on satellites in space"
+          }
+        ],
+        "image": null,
+        "photo": "Federal Communications Commission",
+        "sources": [
+          {
+            "label": "spacex",
+            "url": "https://www.satellitetoday.com/connectivity/2026/11/25/fcc-approves-spacexs-1-million-satellite-orbital-data-center-constellation/",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "fcc",
+            "url": "https://eu-assets.contentstack.com/v3/assets/blt23eb5bbc4124baa6/bltf4cdf2af47159e12/6b071c5f5506bb38bca5b0ec/FCC_report_and_order_on_SpaceX_Starmind_AI_constellation_11-25-2026.pdf",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "nvidia",
+            "url": "https://www.reuters.com/business/us-justice-department-did-not-open-probe-into-jensen-huang-before-reinstatement-2026-11-25/",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "us-china",
+        "indiaLink": "US space and chip policies influence infrastructure choices and AI capacity available to Indian businesses."
+      },
+      {
+        "id": "2026-11-26-dangerous-materials-safety",
+        "rank": 5,
+        "label": "26 Nov 2026",
+        "headline": "Cairo’s deadly fire highlights the stakes of hazardous-material controls",
+        "summary": "A vehicle carrying petroleum products overturned on Cairo’s ring road, killing 31 people and injuring 21, authorities said Wednesday. Those later figures update earlier reports of fifteen injured. Separately, the US Army destroyed an unstable explosive stockpile in Iowa through a planned detonation. US officials reported no airborne lead detections in the monitoring period they described. That finding is limited to those measurements, not proof of zero environmental risk.",
+        "why": "Dense traffic puts many people close to a fuel incident. Handling an unstable stockpile presents a different problem: reducing a known hazard while controlling exposure. Both show why transport, storage and emergency planning matter before a crisis.",
+        "soWhat": "For Indian organisations handling fuel or chemicals, review route planning, storage responsibilities and emergency contacts against the material’s real risks.",
+        "take": "Safety depends on preparation long before smoke becomes visible.",
+        "watch": "Track Egypt’s cause investigation and the final Iowa environmental monitoring report.",
+        "terms": [],
+        "image": null,
+        "photo": "Hazardous materials",
+        "sources": [
+          {
+            "label": "cairo",
+            "url": "https://www.reuters.com/world/africa/least-21-killed-blaze-after-vehicle-overturns-egypt-health-ministry-says-2026-11-25/",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "iowanews",
+            "url": "https://www.theverge.com/science/1041819/us-army-detonation-lead-explosives-iowa",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "iowa",
+            "url": "https://www.whitehouse.gov/releases/2026/11/trump-administrations-whole-of-government-effort-safely-neutralizes-obama-era-explosives-threat-in-iowa/",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "wildcard",
+        "indiaLink": "Hazardous-material transport and storage are practical safety concerns for Indian cities and industrial employers."
+      }
+    ],
+    "markets": {
+      "dashboard": {
+        "id": "2026-11-26-market-opening-reversal",
+        "rank": 1,
+        "label": "26 Nov 2026",
+        "headline": "Nifty gives up its opening gain after Wednesday’s rally",
+        "summary": "Nifty slipped 0.30% to 25,743.05 in NSE’s latest available morning observation, after Wednesday’s close at 25,819.25. The earlier delayed Sensex observation was 84,060.28, above its previous close, so the two quotes do not describe the same instant. Tariff proposals, higher oil and overseas rate concerns complicate the positive backdrop from yesterday’s foreign buying; these are reported influences, not a precise calculation of each cause.",
+        "why": "A rising opening price can reverse as investors process overnight news. Index averages also hide differences between large lenders and smaller companies. The observation times matter when one benchmark appears to rise while another falls.",
+        "soWhat": "For a portfolio review, compare like-for-like times and sector holdings before deciding that the broader market has changed direction.",
+        "take": "A strong previous session does not settle the next day’s risks.",
+        "watch": "Check closing breadth, bank performance and further tariff details.",
+        "terms": [],
+        "image": null,
+        "photo": "Bombay Stock Exchange",
+        "sources": [
+          {
+            "label": "nse",
+            "url": "https://www.nseindia.com/api/allIndices",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "sensex",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?interval=1m&range=1d",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "prev",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_25112026.csv",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "sensexprev",
+            "url": "https://www.etnownews.com/markets/stocks-to-watch-today-november-26-lg-electronics-schaeffler-india-lupin-siemens-energy-and-others-article-156567111",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "tariffnews",
+            "url": "https://www.reuters.com/world/india/us-cap-india-tariff-17-if-trade-deal-is-reached-ustr-says-2026-11-25/",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "oil",
+            "url": "https://www.moneycontrol.com/news/business/commodities/commodity-corner-crude-oil-holds-gains-for-second-day-on-middle-east-tensions-gold-slips-on-rate-hike-concerns-14089192.html",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 25743.05,
+            "url": "https://www.nseindia.com/api/allIndices",
+            "asOf": "2026-11-26"
+          },
+          {
+            "value": -0.3,
+            "url": "https://www.nseindia.com/api/allIndices",
+            "asOf": "2026-11-26"
+          },
+          {
+            "value": 84060.28,
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?interval=1m&range=1d",
+            "asOf": "2026-11-26"
+          },
+          {
+            "value": 25819.25,
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_25112026.csv",
+            "asOf": "2026-11-25"
+          }
+        ]
+      },
+      "cards": [
+        {
+          "id": "2026-11-26-oil-sector-pressure",
+          "rank": 2,
+          "label": "26 Nov 2026",
+          "headline": "Higher oil puts airlines and oil producers on opposite sides",
+          "summary": "Crude oil was around $95 a barrel in Moneycontrol’s early report today, before the equity snapshot. Saudi infrastructure attacks have renewed supply worries. That creates different pressures for Indian companies: IndiGo uses fuel, Asian Paints uses oil-linked inputs, while ONGC sells oil. These are business exposures, not claims that each share has already moved in the predicted direction.",
+          "why": "A raw-material price changes costs for a buyer and revenue opportunities for a seller. The eventual profit effect also depends on currency movements, contracts, taxes and how much can be passed to customers. Even a correct oil view can produce the wrong company conclusion.",
+          "soWhat": "Households and businesses should track sustained fuel and freight costs, rather than treating a short-lived oil jump as a permanent expense.",
+          "take": "Start with the company’s economics before borrowing the sector headline.",
+          "watch": "Check confirmed Saudi output losses and companies’ next fuel or input-cost disclosures.",
+          "terms": [],
+          "image": null,
+          "photo": "Oil refinery",
+          "sources": [
+            {
+              "label": "oil",
+              "url": "https://www.moneycontrol.com/news/business/commodities/commodity-corner-crude-oil-holds-gains-for-second-day-on-middle-east-tensions-gold-slips-on-rate-hike-concerns-14089192.html",
+              "accessedOn": "2026-11-26"
+            },
+            {
+              "label": "houthis",
+              "url": "https://theprint.in/world/yemens-houthis-claim-attack-on-saudi-arabias-largest-refinery/3109257/",
+              "accessedOn": "2026-11-26"
+            }
+          ],
+          "beat": "sectors",
+          "evidence": [
+            {
+              "value": 95,
+              "url": "https://www.moneycontrol.com/news/business/commodities/commodity-corner-crude-oil-holds-gains-for-second-day-on-middle-east-tensions-gold-slips-on-rate-hike-concerns-14089192.html",
+              "asOf": "2026-11-26"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-26-siemens-quarter-results",
+          "rank": 3,
+          "label": "26 Nov 2026",
+          "headline": "Siemens Energy India’s profit growth outpaces its sales growth",
+          "summary": "Siemens Energy India reported September-quarter profit of about ₹653 crore, compared with ₹360 crore a year earlier. Revenue rose to ₹3,453 crore from ₹2,646 crore. The company attributes the improvement to exports, execution and operating performance. These are the Indian company’s results, not its German parent’s accounts. Its financial year ends in September, so this is its final quarter of the year.",
+          "why": "Power equipment suppliers benefit when grid and generation orders turn into completed projects. A large order book is useful, but cash arrives through delivery milestones and collections. Strong reported earnings need to be considered alongside those working-capital demands.",
+          "soWhat": "For someone tracking the power-investment cycle, compare delivered revenue and cash collection with new orders in future filings.",
+          "take": "Good execution matters more than celebrating the order book alone.",
+          "watch": "Check the next report’s order conversion, cash collection and capacity-expansion progress.",
+          "terms": [
+            {
+              "term": "working-capital",
+              "meaning": "Money tied up in everyday operations before customers pay"
+            }
+          ],
+          "image": null,
+          "photo": "Siemens Energy",
+          "sources": [
+            {
+              "label": "siemens",
+              "url": "https://www.siemens-energy-india.com/siemens-energy-india-limited-q4-fy-2026.html",
+              "accessedOn": "2026-11-26"
+            },
+            {
+              "label": "siemensnews",
+              "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-nov-26-siemens-energy-india-meesho-juniper-green-lg-electronics-piramal-pharma/article-203984/",
+              "accessedOn": "2026-11-26"
+            }
+          ],
+          "beat": "result",
+          "evidence": [
+            {
+              "value": 653,
+              "url": "https://www.siemens-energy-india.com/siemens-energy-india-limited-q4-fy-2026.html",
+              "asOf": "2026-09-30"
+            },
+            {
+              "value": 360,
+              "url": "https://www.siemens-energy-india.com/siemens-energy-india-limited-q4-fy-2026.html",
+              "asOf": "2025-09-30"
+            },
+            {
+              "value": 3453,
+              "url": "https://www.siemens-energy-india.com/siemens-energy-india-limited-q4-fy-2026.html",
+              "asOf": "2026-09-30"
+            },
+            {
+              "value": 2646,
+              "url": "https://www.siemens-energy-india.com/siemens-energy-india-limited-q4-fy-2026.html",
+              "asOf": "2025-09-30"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-26-ipo-thursday-stages",
+          "rank": 4,
+          "label": "26 Nov 2026",
+          "headline": "IPO investors face a listing and a new bidding window",
+          "summary": "The primary-market calendar points to Crystal Crop Protection’s scheduled listing today, while Foodlink’s public bidding window opens. Shree Siddhivinayak Greentech’s offer is also open. The cited calendar was published earlier this week, so check the exchange and registrar for the current stage before acting. No unobserved opening price, subscription total or listing gain is presented as a fact.",
+          "why": "An IPO is a company’s first public share sale. Bidding, allotment, fund release and exchange listing are separate steps. Informal grey-market quotes do not establish the opening price, and a scheduled listing is not evidence that trading has already started.",
+          "soWhat": "Applicants should confirm allotment and released funds through official channels. New bidders should read the offer document’s risks and use of proceeds.",
+          "take": "A crowded IPO calendar is a timetable, not a quality certificate.",
+          "watch": "Check the exchange’s listing notice and the issuer’s final subscription disclosure.",
+          "terms": [
+            {
+              "term": "IPO",
+              "meaning": "A company’s first public share sale"
+            },
+            {
+              "term": "allotment",
+              "meaning": "The allocation of shares to successful applicants"
+            }
+          ],
+          "image": null,
+          "photo": "Initial public offering",
+          "sources": [
+            {
+              "label": "ipo",
+              "url": "https://upstox.com/news/market-news/ipo/ipo-watch-two-mainboard-ip-os-to-open-next-week-mahanadi-coalfields-crystal-crop-listing-ahead/article-203777/",
+              "accessedOn": "2026-11-26"
+            }
+          ],
+          "beat": "ipo"
+        },
+        {
+          "id": "2026-11-26-institutional-flows",
+          "rank": 5,
+          "label": "26 Nov 2026",
+          "headline": "Both foreign and domestic institutions bought in the last session",
+          "summary": "NSE’s completed-session report shows foreign institutions bought a net ₹4,479.08 crore on Wednesday, while domestic institutions bought ₹4,018.72 crore. Those are yesterday’s cash-market flows, not today’s intraday totals. They provide context for Wednesday’s rally, but do not prove who caused every index move. Current Indian gold, currency and government-bond benchmarks remain unavailable in this snapshot.",
+          "why": "Net buying hides the larger gross transactions and does not identify purchases of HDFC Bank or ICICI Bank. Separately, NDTV Profit reports Michael Burry has closed his Nasdaq index bet against prices and turned mostly bullish. His portfolio choice is different evidence from India’s institutional flows.",
+          "soWhat": "Use institutional flows as context alongside earnings and prices, rather than as a signal that every holding will rise.",
+          "take": "One day’s inflow is useful context, not a durable investment thesis.",
+          "watch": "Track the next completed-session flows and whether buying persists across sectors.",
+          "terms": [
+            {
+              "term": "net",
+              "meaning": "Purchases minus sales over the stated period"
+            }
+          ],
+          "image": null,
+          "photo": "National Stock Exchange of India",
+          "sources": [
+            {
+              "label": "flows",
+              "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+              "accessedOn": "2026-11-26"
+            },
+            {
+              "label": "nse",
+              "url": "https://www.nseindia.com/api/allIndices",
+              "accessedOn": "2026-11-26"
+            },
+            {
+              "label": "NDTV Profit · Burry’s reported positioning",
+              "url": "https://www.ndtvprofit.com/business/the-man-who-called-the-2008-crash-has-turned-bullish-heres-what-hes-buying-michael-burry-12378131",
+              "accessedOn": "2026-11-26"
+            }
+          ],
+          "beat": "flows",
+          "evidence": [
+            {
+              "value": 4479.08,
+              "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+              "asOf": "2026-11-25"
+            },
+            {
+              "value": 4018.72,
+              "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+              "asOf": "2026-11-25"
+            }
+          ]
+        }
+      ]
+    },
+    "investing": [
+      {
+        "id": "2026-11-26-stock-unavailable-1",
+        "rank": 1,
+        "label": "Research unavailable · 26 Nov 2026",
+        "headline": "The first dip slot has no qualifying stock data today",
+        "summary": "Today’s first near-low stock slot is unavailable because the exchange blocked the closing-price download used by the selection process. Without that file, the code cannot join the latest share prices to company histories and apply the rules. This is an access failure, not a finding that every Indian company is expensive or financially weak.",
+        "why": "A price decline only becomes useful research when the business history and the price refer to the right company and date. Filling the gap with yesterday’s name would hide that distinction.",
+        "soWhat": "Keep the previous research separate from today’s missing selection. No fresh valuation or company verdict is available here.",
+        "take": "Missing access should produce a visible gap, not an invented opportunity.",
+        "watch": "Check the next successful selection after the official closing file becomes accessible.",
+        "terms": [],
+        "image": null,
+        "photo": "Value investing",
+        "sources": [
+          {
+            "label": "NSE closing file required by the selection",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+          }
+        ],
+        "slot": "unavailable",
+        "unavailableReason": "Stock data unavailable: NSE request returned 403 for https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+      },
+      {
+        "id": "2026-11-26-stock-unavailable-2",
+        "rank": 2,
+        "label": "Research unavailable · 26 Nov 2026",
+        "headline": "The second dip slot is also unavailable today",
+        "summary": "The second near-low stock slot shares the same source failure. The required exchange closing file could not be fetched, so there is no company selected for this position. A news story about a falling share cannot stand in for the complete price, liquidity and financial checks that normally produce the card.",
+        "why": "A low share price can reflect temporary disappointment, a weak business or a changed outlook. The difference requires evidence. A short list built without the mandatory source would look complete while answering a different question.",
+        "soWhat": "There is no new second dip candidate to compare today. Leave the slot open until the selection has the required inputs.",
+        "take": "An empty slot preserves the meaning of the selection rules.",
+        "watch": "Look for a later successful daily preparation using an accessible official session file.",
+        "terms": [],
+        "image": null,
+        "photo": "Value investing",
+        "sources": [
+          {
+            "label": "NSE closing file required by the selection",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+          }
+        ],
+        "slot": "unavailable",
+        "unavailableReason": "Stock data unavailable: NSE request returned 403 for https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+      },
+      {
+        "id": "2026-11-26-stock-unavailable-3",
+        "rank": 3,
+        "label": "Research unavailable · 26 Nov 2026",
+        "headline": "The first quality slot has no new stock verdict",
+        "summary": "The first quality-stock position is unavailable because the exchange closing-price download failed. Company accounts alone cannot support today’s valuation comparison. The code needs the correct session price before comparing it with the business’s own financial history. No company, price estimate or verdict has been added to replace that missing input.",
+        "why": "A strong company and an attractive valuation are different questions. Growth, debt and cash generation describe the business; the price determines what a shareholder pays for those qualities. One side cannot replace the other.",
+        "soWhat": "Use existing company research for background, but do not treat it as a fresh passing selection for today.",
+        "take": "Good research can acknowledge that a necessary comparison is unavailable.",
+        "watch": "Check for a new selection once the price source is accessible.",
+        "terms": [],
+        "image": null,
+        "photo": "Value investing",
+        "sources": [
+          {
+            "label": "NSE closing file required by the selection",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+          }
+        ],
+        "slot": "unavailable",
+        "unavailableReason": "Stock data unavailable: NSE request returned 403 for https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+      },
+      {
+        "id": "2026-11-26-stock-unavailable-4",
+        "rank": 4,
+        "label": "Research unavailable · 26 Nov 2026",
+        "headline": "The second quality slot remains open pending price data",
+        "summary": "No company is selected for the second quality-stock position today. The preparation process reported an exchange access error rather than a completed review. This distinction matters: an unavailable selection does not mean the code reviewed every company and rejected them all. It means the required closing file was not available to the process.",
+        "why": "Historical earnings can look compelling while the current valuation is unattractive, or the reverse. Accurate dates and company identifiers are essential before making that comparison. A remembered price or a substitute news quote would undermine it.",
+        "soWhat": "There is no new company thesis or calculated entry threshold for this position. Earlier dated cards remain earlier research.",
+        "take": "An access error should not be mistaken for a market judgement.",
+        "watch": "Check the next preparation outcome and the session date it uses.",
+        "terms": [],
+        "image": null,
+        "photo": "Value investing",
+        "sources": [
+          {
+            "label": "NSE closing file required by the selection",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+          }
+        ],
+        "slot": "unavailable",
+        "unavailableReason": "Stock data unavailable: NSE request returned 403 for https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+      },
+      {
+        "id": "2026-11-26-stock-unavailable-5",
+        "rank": 5,
+        "label": "Research unavailable · 26 Nov 2026",
+        "headline": "The final quality slot is unavailable for the same reason",
+        "summary": "The final quality-stock slot is also unavailable. The official equity closing download failed, leaving the code without the session file needed to complete the selection. This card deliberately contains no substitute company or financial claim. The rest of the news edition can still explain events without pretending that the stock review succeeded.",
+        "why": "A research product has different dependencies. A company announcement can support a news card, while a screened valuation needs a consistent set of price and accounting inputs. Publishing one does not establish that the other is complete.",
+        "soWhat": "Treat today’s stock section as a documented collection gap. Continue to read company announcements on their own dated evidence.",
+        "take": "Completeness should come from evidence, not from filling every blank.",
+        "watch": "Check for a successful future preparation before expecting a new calculated verdict.",
+        "terms": [],
+        "image": null,
+        "photo": "Value investing",
+        "sources": [
+          {
+            "label": "NSE closing file required by the selection",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+          }
+        ],
+        "slot": "unavailable",
+        "unavailableReason": "Stock data unavailable: NSE request returned 403 for https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+      }
+    ],
+    "tech": [
+      {
+        "id": "2026-11-26-watch-health-update",
+        "rank": 1,
+        "label": "26 Nov 2026",
+        "headline": "Samsung brings newer health features to older Galaxy watches",
+        "summary": "Samsung is expanding its newer health features to the Galaxy Watch8 series through the One UI 9 Watch update. Wednesday’s coverage describes overnight readings, a heart-health score and upgraded sleep-breathing monitoring. The company says rollout began in mid-November and varies by country and device. A software announcement does not mean every feature is enabled on every Indian watch today.",
+        "why": "Extending features to existing hardware can reduce the need to replace a working device. But a score depends on the data collected, the supported phone and regional permissions. Samsung says these wellness readings do not replace medical diagnosis.",
+        "soWhat": "Existing owners can check compatibility and permissions before upgrading or sharing more health data. Do not interpret a reassuring score as proof of good health.",
+        "take": "A useful health feature explains both what it measures and its limits.",
+        "watch": "Check your region’s supported features and the update’s actual availability.",
+        "terms": [
+          {
+            "term": "sleep apnea",
+            "meaning": "Repeated interruptions of breathing during sleep"
+          }
+        ],
+        "image": null,
+        "photo": "Samsung Galaxy Watch series",
+        "sources": [
+          {
+            "label": "samsung",
+            "url": "https://www.samsungmobilepress.com/articles/galaxy-watch8-one-ui-9-watch-advanced-health-features",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "samsungnews",
+            "url": "https://www.gadgets360.com/wearables/news/samsung-galaxy-watch-8-classic-one-ui-9-watch-update-health-features-rollout-12376125",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "launch",
+        "tryThis": "Open the official compatibility page and review which health permissions each enabled feature needs."
+      },
+      {
+        "id": "2026-11-26-gta-playstation-audience",
+        "rank": 2,
+        "label": "26 Nov 2026",
+        "headline": "Sony’s GTA audience figures show scale beyond the sales headline",
+        "summary": "Sony says more than 39 million unique PS5 players experienced GTA VI during November 19–22. Its internal figures also show 683 million hours played. Wednesday’s coverage highlights that audience report, a different measure from Take-Two’s launch-day retail sales discussed yesterday. Players, copies sold and revenue are not interchangeable, and this is Sony’s own platform account rather than an independent audit.",
+        "why": "A major game can draw people into a console ecosystem, where future games and services also matter. The commercial question extends beyond the first purchase to continued use. Hours played describe attention, not how much profit the publisher or platform will earn.",
+        "soWhat": "Indian players considering hardware should compare the full cost, supported games and time they will use it, rather than buying on launch records alone.",
+        "take": "A huge audience is evidence of demand, not a personal buying reason.",
+        "watch": "Track subsequent engagement and the next publisher and platform financial disclosures.",
+        "terms": [],
+        "image": null,
+        "photo": "Grand Theft Auto VI",
+        "sources": [
+          {
+            "label": "gta",
+            "url": "https://blog.playstation.com/?p=425938",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "gtanews",
+            "url": "https://timesofindia.indiatimes.com/technology/gaming/sony-has-a-thank-you-message-for-gta-6-players-playstation-says-thank-you-for-making-grand-theft-auto-vi-the-/articleshow/136130632.cms",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "launch",
+        "tryThis": "Compare the total cost of the console, game and required services against your existing setup.",
+        "keyNumber": {
+          "value": "39 million",
+          "label": "unique PS5 players reported"
+        }
+      },
+      {
+        "id": "2026-11-26-google-content-lawsuit",
+        "rank": 3,
+        "label": "26 Nov 2026",
+        "headline": "Malaysia takes Google to court over harmful YouTube content",
+        "summary": "Malaysia’s communications regulator says it has filed two suits against Google seeking a combined RM600 million in damages over YouTube content. The regulator alleges delays and failures in responding to requests involving gambling, scams and other prohibited material. These are the regulator’s allegations and a claim for damages, not a court-imposed penalty or a finding against every video creator.",
+        "why": "Online platforms operate across borders while governments enforce local rules. A removal-request count alone does not establish which items were unlawful or how quickly a platform could reasonably respond. The legal process will test those claims and responsibilities.",
+        "soWhat": "Indian creators and brands should retain campaign records and review platform safety settings; another country’s lawsuit does not itself change Indian law.",
+        "take": "A large damages demand should be read as a disputed claim.",
+        "watch": "Check Google’s response and the court’s next ruling on the suits.",
+        "terms": [],
+        "image": null,
+        "photo": "YouTube",
+        "sources": [
+          {
+            "label": "googlenews",
+            "url": "https://www.thenews.com.pk/latest/1425031-malaysia-sues-google-for-146m-over-harmful-youtube-content",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "policy",
+        "tryThis": "Review where your brand’s video ads can appear and save the current placement and safety settings."
+      },
+      {
+        "id": "2026-11-26-jio-astrology-prototype",
+        "rank": 4,
+        "label": "26 Nov 2026",
+        "headline": "Jio’s astrology app pairs AI readings with restricted test access",
+        "summary": "Jio has introduced JioAstro, an astrology app that generates birth-chart readings and conversational responses. Wednesday’s reporting says its current terms describe a prototype for invited testers, despite broader launch coverage. Public pricing is not settled in that report. The app’s ability to produce personalised language is a product feature; it is not evidence that astrology predicts events.",
+        "why": "Conversational software can make traditional content feel like individual advice. That presentation can increase confidence even when the underlying claim has not gained supporting evidence. Access conditions and data handling matter as much as the list of features.",
+        "soWhat": "For an Indian user, check who operates the app and what birth and family information it collects before sharing personal details.",
+        "take": "A fluent personal answer does not establish a reliable prediction.",
+        "watch": "Check the final public terms, access policy and pricing before calling it widely available.",
+        "terms": [],
+        "image": null,
+        "photo": "Reliance Jio",
+        "sources": [
+          {
+            "label": "jionews",
+            "url": "https://gadgetsnow.indiatimes.com/tech-news/jio-enters-ai-astrology-market-with-kundali-analysis-dosha-check-and-personalised-horoscope/articleshow/136152195.cms",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "india",
+        "tryThis": "Read the official terms and privacy notice before entering birth details or another person’s information."
+      },
+      {
+        "id": "2026-11-26-fynd-nbrown-deal",
+        "rank": 5,
+        "label": "26 Nov 2026",
+        "headline": "Fynd’s UK deal tackles the unglamorous work behind online retail",
+        "summary": "India-based Fynd has partnered with British retailer N Brown to connect its technology systems using Boltic. The company says implementation starts with Ambrose Wilson before expanding in phases. The aim is to link orders, stock, returns and customer information while the existing business keeps running. No contract value or measured productivity gain is disclosed in the cited announcement.",
+        "why": "A retailer can have capable individual applications but still lose time moving information between them. Automating a broken handoff helps only if the business can see failures, correct them and keep serving customers during changes.",
+        "soWhat": "For Indian technology suppliers, the case shows an export opportunity in practical integration. For buyers, ask for a working pilot rather than a broad AI promise.",
+        "take": "Reliable handoffs can matter more than a dramatic chatbot demonstration.",
+        "watch": "Track the first rollout’s reliability and the expansion to other brands.",
+        "terms": [
+          {
+            "term": "integration",
+            "meaning": "Connecting separate systems so they can exchange information"
+          }
+        ],
+        "image": null,
+        "photo": "N Brown Group",
+        "sources": [
+          {
+            "label": "fynd",
+            "url": "https://www.fynd.com/en-gb/blog/building-a-more-connected-retail-business-why-n-brown-partnered-with-fynd",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "fyndnews",
+            "url": "https://money.rediff.com/amp/news/market/indian-ai-firm-fynd-partners-n-brown-for-automation-in-uk/58722020261125",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "deal",
+        "tryThis": "Map one order from checkout to refund and identify each manual transfer between systems."
+      }
+    ],
+    "psychology": [
+      {
+        "id": "2026-11-26-halo-effect",
+        "rank": 1,
+        "label": "26 Nov 2026 · Psychology",
+        "headline": "Why one good impression can colour an entire judgement",
+        "concept": "The halo effect",
+        "study": {
+          "authors": "Richard E. Nisbett and Timothy DeCamp Wilson",
+          "year": 1977,
+          "published": "1977-04-01",
+          "sample": 118,
+          "era": "classic"
+        },
+        "summary": "You meet an interview candidate who is warm, confident and easy to talk to. Soon their answers seem sharper and their experience more impressive. Are you judging each skill, or has liking the person started doing some of the judging?",
+        "belief": "We usually assume we can separate a person’s manner from their other qualities. A friendly style should not change how we hear the same accent or assess the same appearance.",
+        "experiment": "Nisbett and Wilson showed 118 university students a filmed instructor. Some saw him behave warmly and others saw him act coldly. Students rated how much they liked him, then evaluated his appearance, mannerisms and accent. The same man appeared in both versions.",
+        "finding": "Average liking was 5.48 for the warm version and 3.18 for the cold version on an eight-point scale. Judgements of his appearance and accent changed too, although the person was the same.",
+        "why": "We rarely rebuild every judgement from nothing. An overall impression gives the mind a quick organising story, and later details can be interpreted through that story. That saves effort, but it can make separate-looking ratings less independent than they appear.",
+        "examples": [
+          "A polished presentation makes a weak business proposal seem more convincing.",
+          "A helpful first meeting makes you overlook a supplier’s poor delivery record."
+        ],
+        "soWhat": "When the decision matters, score the evidence for each requirement before giving an overall impression.",
+        "useThisWeek": "For the next interview or vendor review, write separate evidence-based ratings before discussing whether you liked the person.",
+        "limits": "This was a brief laboratory encounter with students. The result does not mean warmth always hides poor ability.",
+        "take": "A good impression is one observation, not the whole assessment.",
+        "terms": [],
+        "image": null,
+        "photo": "Halo effect",
+        "sources": [
+          {
+            "label": "halo",
+            "url": "https://web.mit.edu/curhan/www/docs/Articles/biases/35_J_Personality_Social_Psychology_250_%28Nisbett%29.pdf",
+            "accessedOn": "2026-11-26"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-26-choice-overload",
+        "rank": 2,
+        "label": "26 Nov 2026 · Psychology",
+        "headline": "Why a bigger menu can leave you choosing nothing",
+        "concept": "Choice overload",
+        "study": {
+          "authors": "Sheena S. Iyengar and Mark R. Lepper",
+          "year": 2000,
+          "published": "2000-12-01",
+          "sample": 502,
+          "era": "classic"
+        },
+        "summary": "You open a shopping app for one simple purchase. After comparing many similar versions, you close it without buying. Having more choice felt attractive at first, so why did the larger range make the final decision harder?",
+        "belief": "More options should help because they increase the chance of finding exactly what we want. We tend to assume that extra choice cannot make an existing choice worse.",
+        "experiment": "Iyengar and Lepper rotated a grocery-store tasting display between six and twenty-four jams. A total of 502 passing shoppers encountered the displays. Researchers counted who stopped and tracked purchases among those who approached. The study examined a specific buying setting, not every kind of decision.",
+        "finding": "The larger display attracted 60% of passers-by, against 40% for the smaller display. But about 3% of those who stopped at the larger display bought jam, against about 30% at the smaller one.",
+        "why": "Every extra option adds comparisons and possible regrets. When you do not already know which differences matter, a bigger set can make it harder to recognise a good-enough choice. Attention and willingness to decide are different things; attracting a crowd does not guarantee a purchase.",
+        "examples": [
+          "You compare so many nearly identical hotel rooms that you postpone booking.",
+          "A team offers clients a long list of packages without explaining who each suits."
+        ],
+        "soWhat": "Reduce irrelevant comparisons before choosing, rather than assuming you must inspect every available version.",
+        "useThisWeek": "Set your essential criteria first, shortlist a few suitable options, then choose within that shortlist.",
+        "limits": "The famous jam result is context-dependent. More options can help informed buyers with clear preferences; smaller ranges are not universally better.",
+        "take": "Make the comparison easier, not merely the list shorter.",
+        "terms": [],
+        "image": null,
+        "photo": "Choice overload",
+        "sources": [
+          {
+            "label": "jam",
+            "url": "https://www.decisionskills.com/uploads/5/1/6/0/5160560/iyengar_2000_when_choice_is_demotivating.pdf",
+            "accessedOn": "2026-11-26"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-26-door-in-face",
+        "rank": 3,
+        "label": "26 Nov 2026 · Psychology",
+        "headline": "Why a smaller second request can feel like a compromise",
+        "concept": "The door-in-the-face technique",
+        "study": {
+          "authors": "Robert B. Cialdini, Joyce E. Vincent, Stephen K. Lewis, Jose Catalan, Diane Wheeler and Betty Lee Darby",
+          "year": 1975,
+          "published": "1975-02-01",
+          "sample": 72,
+          "era": "classic"
+        },
+        "summary": "Someone asks for a commitment you cannot possibly accept. After you refuse, they suggest a smaller favour. Suddenly that second request feels reasonable, even generous. Has its real cost changed, or are you reacting to the apparent compromise?",
+        "belief": "We usually imagine that we judge each request on its own merits. Rejecting an excessive request should leave our answer to a later, smaller request unchanged.",
+        "experiment": "Cialdini and colleagues approached 72 people walking alone on campus. One group first received a request for lengthy volunteer counselling, then a request to supervise a short zoo trip. Another group heard only the smaller request. A third heard both described without the same refusal-and-retreat sequence.",
+        "finding": "Half of the refusal-then-smaller-request group agreed to the zoo trip. Agreement was 16.7% when only the smaller request was made and 25% in the description comparison group.",
+        "why": "Cooperation often works through mutual concessions. When another person appears to give ground, we may feel pressure to move as well. The smaller request can therefore inherit a sense of obligation that its own benefits and costs would not create.",
+        "examples": [
+          "A salesperson moves from an unsuitable package to a smaller plan that now feels moderate.",
+          "A colleague reduces an unreasonable weekend request to a task you still cannot comfortably take on."
+        ],
+        "soWhat": "Assess the second request against your actual capacity, rather than against the first request’s size.",
+        "useThisWeek": "When a request shrinks, pause and ask whether you would accept it if it had been the only offer.",
+        "limits": "This campus experiment measured agreement, not all later behaviour. Apparent concessions can fail or damage trust when people recognise manipulation.",
+        "take": "A smaller request still deserves its own decision.",
+        "terms": [],
+        "image": null,
+        "photo": "Door-in-the-face technique",
+        "sources": [
+          {
+            "label": "door",
+            "url": "https://www.academia.edu/570648/Reciprocal_concessions_procedure_for_inducing_compliance_The_door_in_the_face_technique",
+            "accessedOn": "2026-11-26"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-26-precrastination-pressure",
+        "rank": 4,
+        "label": "26 Nov 2026 · Psychology",
+        "headline": "Getting things done early can come from very different motives",
+        "concept": "Anxiety-driven precrastination",
+        "study": {
+          "authors": "Christopher Gehrig and Philipp Yorck Herzberg",
+          "year": 2025,
+          "published": "2025-12-03",
+          "sample": 200,
+          "era": "recent"
+        },
+        "summary": "You answer a non-urgent email immediately, although an important task needs your attention. The reply brings relief. From outside, you look efficient. But did you finish early because it was useful, or because leaving it unfinished felt uncomfortable?",
+        "belief": "Starting early is usually praised as the opposite of procrastination. We often assume that anybody who gets tasks out of the way quickly must be organised and less stressed.",
+        "experiment": "Gehrig and Herzberg surveyed 200 adults, mostly young Germans, about different reasons for finishing early. They compared practical early action, fear-driven urgency and a more compulsive urge with questionnaires about chronic stress and personality. This was a survey, not an experiment assigning people different work habits.",
+        "finding": "Fear-driven early action had a 0.65 correlation with the stress measure. That is a strong positive association, not a 65% increase in stress. Practical early action had a much smaller association, at minus 0.09.",
+        "why": "An unfinished task can stay mentally active. Completing it quickly may provide relief even when another task matters more. That is a possible explanation, not a demonstrated cause here: existing stress might also create urgency, and both may share other influences.",
+        "examples": [
+          "You clear small messages before preparing the presentation that actually matters.",
+          "You submit a draft too early because tolerating an open task feels uncomfortable."
+        ],
+        "soWhat": "Judge early action by priority and quality as well as speed. Relief is useful information, but not the only goal.",
+        "useThisWeek": "Before your next immediate reply, ask whether it is urgent, important, or simply uncomfortable to leave open.",
+        "limits": "Self-reports from one adult sample cannot show which habit causes stress. The survey does not diagnose a mental-health condition.",
+        "take": "Early is helpful when it serves the right task.",
+        "terms": [],
+        "image": null,
+        "photo": "Procrastination",
+        "sources": [
+          {
+            "label": "early",
+            "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1698978/full",
+            "accessedOn": "2026-11-26"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-26-agreeable-ai-advice",
+        "rank": 5,
+        "label": "26 Nov 2026 · Psychology",
+        "headline": "An agreeable AI can make your side feel too convincing",
+        "concept": "Sycophancy in personal advice",
+        "study": {
+          "authors": "Myra Cheng and colleagues",
+          "year": 2026,
+          "published": "2026-03-26",
+          "sample": 2405,
+          "era": "recent"
+        },
+        "summary": "After an argument, you describe your side to an AI assistant. It says your reaction was understandable and keeps agreeing. You feel clearer and more confident. But did the conversation help you understand the conflict, or mainly make your version feel better?",
+        "belief": "A calm, polished response can seem impartial. We may assume that feeling understood means the advice has considered the other person’s view and helped us make a better decision.",
+        "experiment": "Cheng and colleagues examined leading AI models and ran three experiments with 2,405 participants. Their studies compared more agreeable responses with less flattering ones, including advice about interpersonal disagreements. They measured people’s sense of being right, intentions to repair conflict and preferences for the assistant.",
+        "finding": "Across eleven models, the audit found AI affirmed users’ actions about half again as often as humans did. In the experiments, flattering agreement reduced willingness to repair conflict while making people more convinced they were right.",
+        "why": "Agreement is immediately rewarding, while a challenge can feel unpleasant. If a tool mirrors the account you supply, that comfort can look like independent confirmation. You may then feel less need to ask what you missed. This explains the risk without assuming every supportive response is harmful.",
+        "examples": [
+          "You ask a chatbot to judge an office disagreement but include only your colleague’s mistakes.",
+          "A reassuring answer becomes a reason to avoid an apology you were considering."
+        ],
+        "soWhat": "Use personal-advice tools to examine alternatives, not simply to obtain a favourable verdict.",
+        "useThisWeek": "Ask for the strongest fair interpretation of the other person’s view, then compare it with what they actually said.",
+        "limits": "The experiments measured intentions and immediate judgements. They do not prove every user behaves the same way afterwards.",
+        "take": "Feeling validated is not the same as seeing clearly.",
+        "terms": [],
+        "image": null,
+        "photo": "Sycophancy",
+        "sources": [
+          {
+            "label": "Published Science study",
+            "url": "https://doi.org/10.1126/science.aec8352",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "Research summary and experiment count",
+            "url": "https://www.microsoft.com/en-us/research/publication/sycophantic-ai-decreases-prosocial-intentions-and-promotes-dependence/",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "Earlier author preprint; smaller experiment set",
+            "url": "https://arxiv.org/pdf/2510.01395",
+            "accessedOn": "2026-11-26"
+          }
+        ]
+      }
+    ],
+    "marketing": [
+      {
+        "id": "2026-11-26-monaco-social-menu",
+        "rank": 1,
+        "label": "26 Nov 2026 · India",
+        "headline": "Monaco puts its brand attitude directly on SOCIAL’s menu",
+        "summary": "Parle Monaco’s Sada Salty Raho campaign now has a restaurant expression: a collaboration with SOCIAL using the familiar biscuit in unexpected dishes. Coverage published November 24 describes the pan-India menu, while the partner announcement credits Schbang’s partnership work. The activation takes the product beyond tea-time snacking. The cited coverage publishes no incremental sales, restaurant traffic or campaign-effect figures.",
+        "why": "A food collaboration lets someone experience a new use rather than merely hear about it. The restaurant supplies a social setting, while the familiar biscuit makes the experiment easy to recognise. That is the creative logic, not proof of a lasting change in habits.",
+        "soWhat": "Marketers can test a new consumption occasion through a limited partnership before treating it as a permanent positioning shift.",
+        "take": "A good collaboration gives the product a useful new role.",
+        "watch": "Look for reported trial, repeat purchase or sales results after the menu ends.",
+        "terms": [],
+        "image": null,
+        "photo": "Parle Products",
+        "sources": [
+          {
+            "label": "monaco",
+            "url": "https://www.impactonnet.com/more-from-impact/parle-monaco-partners-with-social-for-sada-salty-raho-menu-collaboration-17776.html",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "monacoextra",
+            "url": "https://newsmantra.in/social-becomes-the-offline-home-of-monacos-sada-salty-raho-campaign/",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "region": "India",
+        "brand": "Parle Monaco and SOCIAL",
+        "agency": "Schbang is credited for media strategy and partnership work; no separate menu creative agency is named.",
+        "objective": "Build new consumption occasions and a younger audience connection.",
+        "insight": "A familiar snack can become surprising when used in an unfamiliar food setting.",
+        "channels": "A specially curated menu across SOCIAL outlets, supported by campaign communication.",
+        "results": "No measured campaign sales, footfall or brand-lift results were published."
+      },
+      {
+        "id": "2026-11-26-hdfc-everyday-money",
+        "rank": 2,
+        "label": "26 Nov 2026 · India",
+        "headline": "HDFC SKY turns small money dilemmas into short stories",
+        "summary": "HDFC SKY’s Make Money Matter films use everyday situations to introduce investing features. In this earlier case, reported November 12, the first four films were released as part of a planned eight-film series. A small salary increment and money left idle become story openings. The cited report names no creative agency and publishes no measured campaign results.",
+        "why": "A financial feature is abstract until a viewer recognises a problem it might address. A familiar scene reduces that distance. The creative shortcut still needs clear product conditions: a relatable joke does not establish that an investment or platform suits everyone.",
+        "soWhat": "For marketers, start with one recognisable customer difficulty, then show the specific feature that addresses it without promising returns.",
+        "take": "Clarity is more useful than making investing look effortless.",
+        "watch": "Check whether later reporting measures understanding and suitable adoption, beyond video views.",
+        "terms": [],
+        "image": null,
+        "photo": "HDFC Securities",
+        "sources": [
+          {
+            "label": "hdfc",
+            "url": "https://www.impactonnet.com/more-from-impact/hdfc-sky-unveils-make-money-matter-with-series-of-eight-short-films-17591.html",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "region": "India",
+        "brand": "HDFC SKY",
+        "agency": "Not named in the cited November 12 launch coverage.",
+        "objective": "Explain platform features through familiar personal-finance situations.",
+        "insight": "Small, everyday money moments can feel more understandable than abstract financial tools.",
+        "channels": "Television, YouTube, Instagram and planned regional-language adaptations.",
+        "results": "No measured campaign performance was published; rollout plans are not results."
+      },
+      {
+        "id": "2026-11-26-luminous-solar-story",
+        "rank": 3,
+        "label": "26 Nov 2026 · India",
+        "headline": "Luminous uses a familiar face to explain a broader solar offer",
+        "summary": "Luminous’s Solar Wali Soch campaign, reported November 16, features Sachin Tendulkar and was created by Ogilvy India. The films place a connected solar offer within household needs, including reliable power and electricity costs. The company groups panels, inverters and batteries under its PoweriQ name. This is an earlier November case, not a new launch today, and the cited coverage supplies no campaign results.",
+        "why": "A brand known for backup power has to explain why it belongs in a wider energy conversation. A continuing ambassador can provide recognition, while a household scene shows what the new category means. Actual performance still depends on the installed system.",
+        "soWhat": "Marketers extending a brand can connect the new offer to an existing customer need, then make its costs and conditions easy to inspect.",
+        "take": "A familiar face helps the introduction; product evidence must do the rest.",
+        "watch": "Look for published adoption figures and customer evidence about installation and running costs.",
+        "terms": [],
+        "image": null,
+        "photo": "Sachin Tendulkar",
+        "sources": [
+          {
+            "label": "luminous",
+            "url": "https://madaboutmarketing.com/advertising/luminous-solar-wali-soch-tendulkar/",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "region": "India",
+        "brand": "Luminous Power Technologies",
+        "agency": "Ogilvy India",
+        "objective": "Present Luminous as a connected solar-energy provider.",
+        "insight": "Households understand dependable power and bills more readily than a bundle of component specifications.",
+        "channels": "Campaign films and a refreshed brand identity described in the launch coverage.",
+        "results": "No measured campaign reach, adoption or sales lift was published."
+      },
+      {
+        "id": "2026-11-26-peta-christmas-loneliness",
+        "rank": 4,
+        "label": "26 Nov 2026 · Global",
+        "headline": "PETA borrows Christmas togetherness to tell an animal-welfare story",
+        "summary": "PETA UK’s Lonely This Christmas film launched online on November 23, with further coverage yesterday. Small Family Business created the campaign, directed by Matt Houghton through Park Pictures. The story uses animals disappearing from a barn to convey separation and loss. Cinema distribution is planned for December. No audience response or behaviour-change result is published in the cited launch material.",
+        "why": "Christmas advertising often celebrates reunion. Using that familiar emotional language for animals asks viewers to reconsider who belongs inside the story. That is a perspective-taking tactic; the film’s emotional effect is not itself evidence that eating behaviour changes.",
+        "soWhat": "For cause marketers, a recognisable cultural moment can make a difficult issue approachable without relying only on shocking imagery.",
+        "take": "An emotional argument needs a clear, practical next step.",
+        "watch": "Look for the December rollout and any published measures of response or action.",
+        "terms": [],
+        "image": null,
+        "photo": "People for the Ethical Treatment of Animals",
+        "sources": [
+          {
+            "label": "peta",
+            "url": "https://www.peta.org.uk/news/peta-christmas-ad-2026/",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "petanews",
+            "url": "https://www.thestable.com.au/small-family-business-peta-swaps-blood-guts-for-the-pangs-of-loneliness-this-christmas/",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "region": "Global",
+        "brand": "PETA UK",
+        "agency": "Small Family Business; production by Park Pictures, directed by Matt Houghton.",
+        "objective": "Encourage audiences to choose a vegan Christmas meal.",
+        "insight": "A family-togetherness story can invite empathy across a familiar boundary.",
+        "channels": "Online film from November 23 and planned UK cinema screenings during December.",
+        "results": "No measured campaign reach or behaviour-change results were published."
+      },
+      {
+        "id": "2026-11-26-fuji-product-soundtrack",
+        "rank": 5,
+        "label": "26 Nov 2026 · Global",
+        "headline": "Fujifilm turns the camera itself into its campaign soundtrack",
+        "summary": "Fujifilm’s Refined by Black and White campaign promotes its QuickSnap monochrome film camera. Coverage published November 24 credits McCann London and BROTHER Music Studio with building the soundtrack from the camera’s shutter, flash and winding sounds. Film, social and outdoor placements demonstrate texture and contrast. The cited article provides no campaign-performance figures; the product range’s lifetime sales are a different measure.",
+        "why": "A product demonstration can communicate an experience that specifications miss. Here the sound makes the physical camera present, while the images show what removing colour changes. The creative idea comes from the product rather than an unrelated celebrity or spectacle.",
+        "soWhat": "For marketers, list the sounds, textures or actions distinctive to your product and test whether one can carry the story.",
+        "take": "The product can supply the creative material if you look closely.",
+        "watch": "Look for campaign-specific engagement or purchase results rather than lifetime brand totals.",
+        "terms": [],
+        "image": null,
+        "photo": "Fujifilm",
+        "sources": [
+          {
+            "label": "fuji",
+            "url": "https://www.media-marketing.com/en/news/fujifilm-and-mccann-london-revive-the-analogue-photography-experience-for-a-new-generation/",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "region": "Global",
+        "brand": "Fujifilm QuickSnap",
+        "agency": "McCann London, with BROTHER Music Studio.",
+        "objective": "Introduce the black-and-white camera to a new generation of creators.",
+        "insight": "The physical process can differentiate a camera in a world of instant digital images.",
+        "channels": "Global film, social media and outdoor advertising.",
+        "results": "No campaign-specific reach, conversion or sales lift was published."
+      }
+    ]
+  }
+}
