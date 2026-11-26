@@ -1,0 +1,376 @@
+{
+  "date": "2026-11-26",
+  "timestamp": "2026-11-26T04:15:30.137Z",
+  "mode": "latest",
+  "session": "open",
+  "sources": [
+    {
+      "label": "nse",
+      "url": "https://www.nseindia.com/api/allIndices"
+    },
+    {
+      "label": "sensex",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?interval=1m&range=1d"
+    },
+    {
+      "label": "prev",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_25112026.csv"
+    },
+    {
+      "label": "ytd",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+    },
+    {
+      "label": "flows",
+      "url": "https://www.nseindia.com/api/fiidiiTradeReact"
+    },
+    {
+      "label": "sensexprev",
+      "url": "https://www.etnownews.com/markets/stocks-to-watch-today-november-26-lg-electronics-schaeffler-india-lupin-siemens-energy-and-others-article-156567111"
+    },
+    {
+      "label": "oil",
+      "url": "https://www.moneycontrol.com/news/business/commodities/commodity-corner-crude-oil-holds-gains-for-second-day-on-middle-east-tensions-gold-slips-on-rate-hike-concerns-14089192.html"
+    },
+    {
+      "label": "gold",
+      "url": "https://ibjarates.com"
+    },
+    {
+      "label": "fx",
+      "url": "https://www.fbil.org.in/"
+    },
+    {
+      "label": "yield",
+      "url": "https://www.rbi.org.in/scripts/BS_NSDPDisplay.aspx?param=4"
+    },
+    {
+      "label": "siemens",
+      "url": "https://www.siemens-energy-india.com/siemens-energy-india-limited-q4-fy-2026.html"
+    },
+    {
+      "label": "siemensnews",
+      "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-nov-26-siemens-energy-india-meesho-juniper-green-lg-electronics-piramal-pharma/article-203984/"
+    },
+    {
+      "label": "ipo",
+      "url": "https://upstox.com/news/market-news/ipo/ipo-watch-two-mainboard-ip-os-to-open-next-week-mahanadi-coalfields-crystal-crop-listing-ahead/article-203777/"
+    },
+    {
+      "label": "tariff",
+      "url": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural"
+    },
+    {
+      "label": "tariffnews",
+      "url": "https://www.reuters.com/world/india/us-cap-india-tariff-17-if-trade-deal-is-reached-ustr-says-2026-11-25/"
+    },
+    {
+      "label": "houthis",
+      "url": "https://theprint.in/world/yemens-houthis-claim-attack-on-saudi-arabias-largest-refinery/3109257/"
+    },
+    {
+      "label": "ports",
+      "url": "https://www.reuters.com/world/middle-east/yemens-houthis-threaten-target-jeddah-other-saudi-red-sea-ports-2026-11-25/"
+    },
+    {
+      "label": "NDTV Profit · Burry’s reported positioning",
+      "url": "https://www.ndtvprofit.com/business/the-man-who-called-the-2008-crash-has-turned-bullish-heres-what-hes-buying-michael-burry-12378131",
+      "accessedOn": "2026-11-26"
+    }
+  ],
+  "series": {
+    "Nifty 50": {
+      "level": 25743.05,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "history": [
+        {
+          "date": "2026-11-25",
+          "level": 25819.25,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_25112026.csv"
+        },
+        {
+          "date": "2026-11-19",
+          "level": 25514.3,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2026-10-26",
+          "level": 22753.2,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2025-12-31",
+          "level": 26129.6,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+        }
+      ],
+      "note": "NSE observation 26 November 09:43 IST; retrieved at 09:45:30 IST. Latest available quote, not a quote captured at exactly 09:45."
+    },
+    "Bank Nifty": {
+      "level": 63593.85,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "history": [
+        {
+          "date": "2026-11-25",
+          "level": 63703.25,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_25112026.csv"
+        },
+        {
+          "date": "2026-11-19",
+          "level": 63063,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2026-10-26",
+          "level": 54366.7,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2025-12-31",
+          "level": 59581.85,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+        }
+      ],
+      "note": "NSE observation 26 November 09:43 IST; retrieved at 09:45:30 IST. Latest available quote, not a quote captured at exactly 09:45."
+    },
+    "Nifty Midcap 150": {
+      "level": 22668.65,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "history": [
+        {
+          "date": "2026-11-25",
+          "level": 22591.4,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_25112026.csv"
+        },
+        {
+          "date": "2026-11-19",
+          "level": 22613.85,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2026-10-26",
+          "level": 20812.25,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2025-12-31",
+          "level": 22276.9,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+        }
+      ],
+      "note": "NSE observation 26 November 09:43 IST; retrieved at 09:45:30 IST. Latest available quote, not a quote captured at exactly 09:45."
+    },
+    "Nifty Smallcap 250": {
+      "level": 17726.2,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "history": [
+        {
+          "date": "2026-11-25",
+          "level": 17630.6,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_25112026.csv"
+        },
+        {
+          "date": "2026-11-19",
+          "level": 17802.9,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2026-10-26",
+          "level": 16570.5,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2025-12-31",
+          "level": 16684.75,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+        }
+      ],
+      "note": "NSE observation 26 November 09:43 IST; retrieved at 09:45:30 IST. Latest available quote, not a quote captured at exactly 09:45."
+    },
+    "India VIX": {
+      "level": 17.54,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "history": [
+        {
+          "date": "2026-11-25",
+          "level": 17.67,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_25112026.csv"
+        },
+        {
+          "date": "2026-11-19",
+          "level": 16.11,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2026-10-26",
+          "level": 17.16,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2025-12-31",
+          "level": 9.48,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+        }
+      ],
+      "note": "NSE observation 26 November 09:43 IST; retrieved at 09:45:30 IST. Latest available quote, not a quote captured at exactly 09:45."
+    },
+    "Sensex": {
+      "level": 84060.28,
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?interval=1m&range=1d",
+      "history": [
+        {
+          "date": "2026-11-25",
+          "level": 83938.28,
+          "url": "https://www.etnownews.com/markets/stocks-to-watch-today-november-26-lg-electronics-schaeffler-india-lupin-siemens-energy-and-others-article-156567111"
+        }
+      ],
+      "note": "Delayed Yahoo-distributed BSE observation 26 November 09:30:28 IST, retrieved 09:45:29 IST. Not synchronous with the NSE quote."
+    },
+    "Brent": {
+      "level": 95,
+      "url": "https://www.moneycontrol.com/news/business/commodities/commodity-corner-crude-oil-holds-gains-for-second-day-on-middle-east-tensions-gold-slips-on-rate-hike-concerns-14089192.html",
+      "history": [],
+      "note": "Approximate USD-per-barrel quote: Moneycontrol commodity report published 26 November 07:38 IST says around $95. Earlier than the equity snapshot; intraday, not settlement."
+    },
+    "Gold (₹/10 g)": {
+      "url": "https://ibjarates.com",
+      "unavailableReason": "The morning Indian benchmark was not available in this collection. No international USD quote is substituted for INR per ten grams."
+    },
+    "₹/US$": {
+      "url": "https://www.fbil.org.in/",
+      "unavailableReason": "A same-day FBIL observation was not obtained; no earlier fixing is shown as current."
+    },
+    "India 10-year G-sec yield": {
+      "url": "https://www.rbi.org.in/scripts/BS_NSDPDisplay.aspx?param=4",
+      "unavailableReason": "No current-session benchmark yield was obtained from the RBI page; older weekly figures are not presented as today’s quote."
+    }
+  },
+  "facts": [
+    {
+      "value": 25743.05,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-26"
+    },
+    {
+      "value": -0.3,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-26"
+    },
+    {
+      "value": 63593.85,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-26"
+    },
+    {
+      "value": -0.17,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-26"
+    },
+    {
+      "value": 22668.65,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-26"
+    },
+    {
+      "value": 0.34,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-26"
+    },
+    {
+      "value": 17726.2,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-26"
+    },
+    {
+      "value": 0.54,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-26"
+    },
+    {
+      "value": 17.54,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-26"
+    },
+    {
+      "value": -0.76,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-26"
+    },
+    {
+      "value": 84060.28,
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?interval=1m&range=1d",
+      "asOf": "2026-11-26"
+    },
+    {
+      "value": 83938.28,
+      "url": "https://www.etnownews.com/markets/stocks-to-watch-today-november-26-lg-electronics-schaeffler-india-lupin-siemens-energy-and-others-article-156567111",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": 95,
+      "url": "https://www.moneycontrol.com/news/business/commodities/commodity-corner-crude-oil-holds-gains-for-second-day-on-middle-east-tensions-gold-slips-on-rate-hike-concerns-14089192.html",
+      "asOf": "2026-11-26"
+    },
+    {
+      "value": 4479.08,
+      "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": 4018.72,
+      "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": 653,
+      "url": "https://www.siemens-energy-india.com/siemens-energy-india-limited-q4-fy-2026.html",
+      "asOf": "2026-09-30"
+    },
+    {
+      "value": 360,
+      "url": "https://www.siemens-energy-india.com/siemens-energy-india-limited-q4-fy-2026.html",
+      "asOf": "2025-09-30"
+    },
+    {
+      "value": 3453,
+      "url": "https://www.siemens-energy-india.com/siemens-energy-india-limited-q4-fy-2026.html",
+      "asOf": "2026-09-30"
+    },
+    {
+      "value": 2646,
+      "url": "https://www.siemens-energy-india.com/siemens-energy-india-limited-q4-fy-2026.html",
+      "asOf": "2025-09-30"
+    },
+    {
+      "value": 81.5,
+      "url": "https://www.siemens-energy-india.com/siemens-energy-india-limited-q4-fy-2026.html",
+      "asOf": "2026-09-30"
+    },
+    {
+      "value": 30.4,
+      "url": "https://www.siemens-energy-india.com/siemens-energy-india-limited-q4-fy-2026.html",
+      "asOf": "2026-09-30"
+    },
+    {
+      "value": 25819.25,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_25112026.csv",
+      "asOf": "2026-11-25"
+    }
+  ],
+  "flows": {
+    "fii": 4479.08,
+    "dii": 4018.72,
+    "fiiMtd": null,
+    "diiMtd": null,
+    "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+    "asOf": "2026-11-25",
+    "unavailableReason": "Latest completed-session cash flows are from 25 November. Comparable dated month-to-date totals were not collected."
+  },
+  "niftyPE": {
+    "now": 21.03,
+    "median5y": null,
+    "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_25112026.csv",
+    "asOf": "2026-11-25",
+    "unavailableReason": "Last-session Nifty P/E is available. A comparable five-year median and a refreshed intraday ratio were not obtained."
+  }
+}
