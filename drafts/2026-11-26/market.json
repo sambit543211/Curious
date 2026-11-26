@@ -76,6 +76,10 @@
       "label": "NDTV Profit · Burry’s reported positioning",
       "url": "https://www.ndtvprofit.com/business/the-man-who-called-the-2008-crash-has-turned-bullish-heres-what-hes-buying-michael-burry-12378131",
       "accessedOn": "2026-11-26"
+    },
+    {
+      "label": "Reuters · US AI-stock decline",
+      "url": "https://www.reuters.com/business/ai-stocks-slide-fears-over-infrastructure-buildout-costs-2026-11-25/"
     }
   ],
   "series": {
@@ -354,6 +358,11 @@
     {
       "value": 25819.25,
       "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_25112026.csv",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": -3.9,
+      "url": "https://www.reuters.com/business/ai-stocks-slide-fears-over-infrastructure-buildout-costs-2026-11-25/",
       "asOf": "2026-11-25"
     }
   ],
