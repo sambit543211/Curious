@@ -1,8 +1,686 @@
 {
   "date": "2026-11-26",
   "dashboard": null,
-  "picks": [],
+  "picks": [
+    {
+      "symbol": "NATIONALUM",
+      "sector": "Metals & Mining",
+      "kind": "non-financial",
+      "price": 287.8,
+      "quoteDate": "2026-11-25",
+      "dataDate": "2026-09-30",
+      "metrics": {
+        "marketCap": 55687,
+        "divYield": 3.79,
+        "roce5y": 29.8,
+        "de": 0,
+        "salesCagr5y": 15,
+        "profitCagr5y": 35,
+        "ocfPositiveYears": 5,
+        "profitYoY": 28.32,
+        "promoterHolding": 51.28,
+        "promoterChange": 0,
+        "eps": 38.96,
+        "peMedian5y": 9.5,
+        "avgDailyValue": 191.43,
+        "high52": 445.15,
+        "low52": 249.4,
+        "pe": 7.39
+      },
+      "metricSources": {
+        "marketCap": {
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "divYield": {
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "roce5y": {
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "de": {
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "salesCagr5y": {
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "profitCagr5y": {
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "ocfPositiveYears": {
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "profitYoY": {
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "promoterHolding": {
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "promoterChange": {
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "eps": {
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "peMedian5y": {
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "avgDailyValue": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+          "asOf": "2026-11-20"
+        },
+        "pe": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+          "asOf": "2026-11-25"
+        },
+        "price": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+          "asOf": "2026-11-25"
+        },
+        "high52": {
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv",
+          "asOf": "2026-11-25"
+        },
+        "low52": {
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv",
+          "asOf": "2026-11-25"
+        }
+      },
+      "sources": [
+        {
+          "label": "Screener.in company pages, 2026-11-21",
+          "url": "https://www.screener.in/"
+        },
+        {
+          "label": "NSE Nifty 500 constituents",
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+        },
+        {
+          "label": "Screener.in: National Aluminium Co. Ltd.",
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/"
+        },
+        {
+          "label": "NSE bhavcopy (10-session average traded value)",
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+        },
+        {
+          "label": "NSE bhavcopy, 2026-11-25",
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+        },
+        {
+          "label": "NSE adjusted 52-week high/low, 2026-11-25",
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv"
+        }
+      ],
+      "screen": {
+        "roce": true,
+        "debt": true,
+        "sales": true,
+        "profit": true,
+        "cash": true,
+        "valuation": true,
+        "pledge": null,
+        "liquidity": true
+      },
+      "pass": true,
+      "fairValue": 370.12,
+      "buyBelow": 296.1,
+      "verdict": "Buy",
+      "repeat": {
+        "lastDate": "2026-11-24",
+        "reason": "Verdict changed from Wait to Buy"
+      },
+      "score": 0.737,
+      "group": "pick"
+    },
+    {
+      "symbol": "CHENNPETRO",
+      "sector": "Oil Gas & Consumable Fuels",
+      "kind": "non-financial",
+      "price": 1366.6,
+      "quoteDate": "2026-11-25",
+      "dataDate": "2026-09-30",
+      "metrics": {
+        "marketCap": 21236,
+        "divYield": 4.35,
+        "roce5y": 27.8,
+        "de": 0.16,
+        "salesCagr5y": 23,
+        "profitCagr5y": 64,
+        "ocfPositiveYears": 5,
+        "profitYoY": 212.52,
+        "promoterHolding": 67.29,
+        "promoterChange": 0,
+        "eps": 382.9,
+        "peMedian5y": 4.5,
+        "avgDailyValue": 119.41,
+        "high52": 1677.5,
+        "low52": 765.5,
+        "pe": 3.57
+      },
+      "metricSources": {
+        "marketCap": {
+          "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "divYield": {
+          "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "roce5y": {
+          "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "de": {
+          "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "salesCagr5y": {
+          "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "profitCagr5y": {
+          "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "ocfPositiveYears": {
+          "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "profitYoY": {
+          "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "promoterHolding": {
+          "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "promoterChange": {
+          "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "eps": {
+          "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "peMedian5y": {
+          "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "avgDailyValue": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+          "asOf": "2026-11-20"
+        },
+        "pe": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+          "asOf": "2026-11-25"
+        },
+        "price": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+          "asOf": "2026-11-25"
+        },
+        "high52": {
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv",
+          "asOf": "2026-11-25"
+        },
+        "low52": {
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv",
+          "asOf": "2026-11-25"
+        }
+      },
+      "sources": [
+        {
+          "label": "Screener.in company pages, 2026-11-21",
+          "url": "https://www.screener.in/"
+        },
+        {
+          "label": "NSE Nifty 500 constituents",
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+        },
+        {
+          "label": "Screener.in: Chennai Petroleum Corporation Ltd.",
+          "url": "https://www.screener.in/company/CHENNPETRO/consolidated/"
+        },
+        {
+          "label": "NSE bhavcopy (10-session average traded value)",
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+        },
+        {
+          "label": "NSE bhavcopy, 2026-11-25",
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+        },
+        {
+          "label": "NSE adjusted 52-week high/low, 2026-11-25",
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv"
+        }
+      ],
+      "screen": {
+        "roce": true,
+        "debt": true,
+        "sales": true,
+        "profit": true,
+        "cash": true,
+        "valuation": true,
+        "pledge": null,
+        "liquidity": true
+      },
+      "pass": true,
+      "fairValue": 1723.05,
+      "buyBelow": 1378.44,
+      "verdict": "Buy",
+      "repeat": {
+        "lastDate": "2026-11-25",
+        "reason": "Verdict changed from Wait to Buy"
+      },
+      "score": 0.731,
+      "group": "pick"
+    },
+    {
+      "symbol": "OLECTRA",
+      "sector": "Automobile and Auto Components",
+      "kind": "non-financial",
+      "price": 976.6,
+      "quoteDate": "2026-11-25",
+      "dataDate": "2026-09-30",
+      "metrics": {
+        "marketCap": 8192,
+        "divYield": 0.06,
+        "roce5y": 15.6,
+        "de": 0.21,
+        "salesCagr5y": 52,
+        "profitCagr5y": 85,
+        "ocfPositiveYears": 4,
+        "profitYoY": 6.12,
+        "promoterHolding": 50.02,
+        "promoterChange": 0,
+        "eps": 22.03,
+        "peMedian5y": 96.3,
+        "avgDailyValue": 43.37,
+        "high52": 1556,
+        "low52": 866.6,
+        "pe": 44.33
+      },
+      "metricSources": {
+        "marketCap": {
+          "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "divYield": {
+          "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "roce5y": {
+          "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "de": {
+          "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "salesCagr5y": {
+          "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "profitCagr5y": {
+          "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "ocfPositiveYears": {
+          "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "profitYoY": {
+          "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "promoterHolding": {
+          "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "promoterChange": {
+          "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "eps": {
+          "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "peMedian5y": {
+          "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "avgDailyValue": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+          "asOf": "2026-11-20"
+        },
+        "pe": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+          "asOf": "2026-11-25"
+        },
+        "price": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+          "asOf": "2026-11-25"
+        },
+        "high52": {
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv",
+          "asOf": "2026-11-25"
+        },
+        "low52": {
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv",
+          "asOf": "2026-11-25"
+        }
+      },
+      "sources": [
+        {
+          "label": "Screener.in company pages, 2026-11-21",
+          "url": "https://www.screener.in/"
+        },
+        {
+          "label": "NSE Nifty 500 constituents",
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+        },
+        {
+          "label": "Screener.in: Olectra Greentech Ltd.",
+          "url": "https://www.screener.in/company/OLECTRA/consolidated/"
+        },
+        {
+          "label": "NSE bhavcopy (10-session average traded value)",
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+        },
+        {
+          "label": "NSE bhavcopy, 2026-11-25",
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+        },
+        {
+          "label": "NSE adjusted 52-week high/low, 2026-11-25",
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv"
+        }
+      ],
+      "screen": {
+        "roce": true,
+        "debt": true,
+        "sales": true,
+        "profit": true,
+        "cash": true,
+        "valuation": true,
+        "pledge": null,
+        "liquidity": true
+      },
+      "pass": true,
+      "fairValue": 2121.49,
+      "buyBelow": 1697.19,
+      "verdict": "Buy",
+      "score": 0.688,
+      "group": "pick"
+    }
+  ],
   "facts": [
+    {
+      "value": 287.8,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": 55687,
+      "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 3.79,
+      "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 29.8,
+      "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0,
+      "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 15,
+      "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 35,
+      "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 5,
+      "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 28.32,
+      "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 51.28,
+      "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0,
+      "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 38.96,
+      "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 9.5,
+      "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 191.43,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 445.15,
+      "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": 249.4,
+      "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": 7.39,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": 1366.6,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": 21236,
+      "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 4.35,
+      "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 27.8,
+      "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0.16,
+      "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 23,
+      "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 64,
+      "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 5,
+      "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 212.52,
+      "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 67.29,
+      "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0,
+      "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 382.9,
+      "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 4.5,
+      "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 119.41,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 1677.5,
+      "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": 765.5,
+      "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": 3.57,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": 976.6,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": 8192,
+      "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0.06,
+      "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 15.6,
+      "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0.21,
+      "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 52,
+      "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 85,
+      "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 4,
+      "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 6.12,
+      "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 50.02,
+      "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0,
+      "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 22.03,
+      "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 96.3,
+      "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 43.37,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 1556,
+      "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": 866.6,
+      "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": 44.33,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+      "asOf": "2026-11-25"
+    },
     {
       "value": 7570,
       "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
@@ -66,24 +744,27 @@
   ],
   "selection": {
     "dips": [],
-    "picks": [],
+    "picks": [
+      "NATIONALUM",
+      "CHENNPETRO",
+      "OLECTRA"
+    ],
     "counts": {
-      "universe": 0,
-      "verified": 0,
-      "passed": 0,
-      "buyOrWait": 0,
-      "heldBack": 0,
+      "universe": 493,
+      "verified": 493,
+      "passed": 69,
+      "buyOrWait": 59,
+      "heldBack": 27,
       "dipEligible": 0
     },
     "shortfall": {
-      "dip": "Stock data unavailable: NSE request returned 403 for https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
-      "pick": "Stock data unavailable: NSE request returned 403 for https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+      "dip": "Only 0 of 493 verified stocks met the quality screen and the 52-week-low rules on the latest session.",
+      "pick": null
     },
-    "session": null,
-    "fundamentalsDate": null,
+    "session": "2026-11-25",
+    "fundamentalsDate": "2026-11-21",
     "missingFromNse": []
   },
-  "fundamentalsUnavailable": "Stock data unavailable: NSE request returned 403 for https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
   "watchlist": {
     "dataDate": "2026-11-20",
     "entries": [
@@ -415,7 +1096,7 @@
     "Natural selection"
   ],
   "trending": {
-    "checkedAt": "2026-11-26T04:15:06.607Z",
+    "checkedAt": "2026-11-26T04:35:13.283Z",
     "source": "Google News (India edition) top headlines",
     "items": [
       {
@@ -435,6 +1116,16 @@
         "id": "top2",
         "feed": "Top stories",
         "rank": 2,
+        "title": "Ukraine attacks Russian military base, says five planes struck",
+        "source": "Al Jazeera",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcnZLbDdzMzg2dFlMM0c3d2FkbHpsRTB5Uk1QampGSXI4Sk9lZDRxZDA1LWFBVDVtaGlFS0k0ajljeVBDbEhlS0YwZUQ3bkVDalhCREV3RkhoZEcxamNwMTI1c0E0RUhhdzhhX0h3cnFqOXp1UTNYemRUZ1RwUGFYelBnSlZhekZaeXU2WF9oNU1ja0kxV2hXOGd3V3FwN1dleGg5eGZR0gGrAUFVX3lxTE4xZ05BNnZGZ3J0QWtNeFJ0b0hOSXRkZEJDX2RhR3hNRjluNHFRNTQ2YmhaSFFPR3hCd1luNE1WYUhJaE5YWmFZX3hIcEJXQlJJc1JjdjJKTjYzdVdiUWJ1anBpVF9QaTZBNndlRDlNX0hWWDZaLUVuU2phSm9maVFST3lUNUxtTWJ0MTY1SV9fU0pVVVhYYW1UcU01bEd4WEhteURlMXVMQWxwNA?oc=5",
+        "published": "Thu, 26 Nov 2026 01:41:15 GMT",
+        "related": 5
+      },
+      {
+        "id": "top3",
+        "feed": "Top stories",
+        "rank": 3,
         "title": "Saharanpur showdown: Why Akhilesh's 1st candidate list in UP has rattled Congress MP Imran Masood",
         "source": "The Times of India",
         "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPQ0c3azVGT1hFdXpyWG1Ea1dNbm5uS3ZGS25UNXVjdkpuekFadVRlcjBOaW1QcDBUY2xFak9nYUNIZ0lQTTFUYnJTTlZ0SEZUZURZajd0UHNoSDV0RFM4ei1BMzEzWFc1X1lKYzBsZVF3VGczR3AtbnJkc0kwMDFIb2FWZEdCanpWamVic1RGa01TZndXRVlWcWw2SDU2ejRSVW0yWGZibE15ekU0SzNjTm1CWkxhYTM4aVZVRS1COW5paGhaU2dQVmNvMy1TVERfOGpsdzAzaUVFVjluWC1pajdaSHFsd0pvLWFxOHBBb3VlQVpjWkE?oc=5",
@@ -442,9 +1133,9 @@
         "related": 5
       },
       {
-        "id": "top3",
+        "id": "top4",
         "feed": "Top stories",
-        "rank": 3,
+        "rank": 4,
         "title": "Thiruparankundram | Plea In Supreme Court Seeks Direction To Light Deepathoon Lamp Using Flame From...",
         "source": "Live Law",
         "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNbEUxekRfZnBjZ0NXYzhVUXJGcDY5UVlLdi1HOU15WG9SZUNDZ0hRQ251WUE5MGZFb1BQeUR4SG1MQWtHTXBfWXZvUWZwN255OVZoci1uVDh1N1QwWnpCTmcyZW5lV0kwYUtiSmpnd2ZSZGV0UEYxMXpvcFBPWER5QnlLR2wzRUtVV1ViNGhVSmtleVQ2UW13TkROa2ZjcmZfY2JMa1QyNDlBWEsxWU1YQ0tYZHZabzFxM0JGeGpfVHJ2QkVWVXBpWkx2d1pUOUtRb1hremdaNmpQdUQtMlNsRkpVd3NCcDBiWlkzMWdFbll6VTBJR2tqSkJRUkdEcXRU0gGGAkFVX3lxTE1nYlJZSjdGWmRkVmYzaHBHblIzUFFIN0dkeU9GQ3JpQmpNUWw0RG1LRGVOZE55TVJ3N3FVNkJ0VndYU3dreVlkY3R5RjFTQzJ3MnJvRTBpVlZnTVdBUHVCTnFTdEJUbEJCX1g1MkJTM3ZXcUdEemZvVllNVGg3YnVrOFFYekFTd3Z5RmI5RWRPblZEM2ROMnJfT3kyZ0lyVnJSbjEzYVc1R2dGLWRzMmlVMGxKSVNqN2R2Qk4xNGE0SXl6TURrX1VNMkEzeGR2V1JNTHJORnh0YWc2ZmVXYjlnN2RDT3dNa1FjaktYTjRqR3VoOHQ5NDE2R0daTVVYN3gwVFhaanc?oc=5",
@@ -452,27 +1143,14 @@
         "related": 5
       },
       {
-        "id": "top4",
+        "id": "top5",
         "feed": "Top stories",
-        "rank": 4,
+        "rank": 5,
         "title": "31 Killed, 15 Injured In Fire In Cairo's Densely Populated Area",
         "source": "NDTV",
         "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQVZJSnJTeXFqMWREUWJGNE13bHZJR1dILUZRRVNybXZ0UzVzQXM0VXJwYWNzbGkzOHlOMjQwemRSTFZvNmZ1LTA0OUxXZU14QTFlblhHTkZjbm45enNDajZSallMRUZpbUpRS1hiZV9zQThVYjhqMmRyS0llVVdTZm9EbF8yN0VtLUNFaHVadzVCZFlMOGc?oc=5",
         "published": "Wed, 25 Nov 2026 19:15:00 GMT",
         "related": 5
-      },
-      {
-        "id": "top5",
-        "feed": "Top stories",
-        "rank": 5,
-        "title": "Houthis target Saudi Arabia’s Red Sea ports as strikes escalate",
-        "source": "Al Jazeera",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdGxhOFVRbGV4VWljWVZrRGUzSlRFN2dkQVc3dkVHWHZQdUlOYmVpbEpKdVdtYkdXRFVQVG11QlJleUZOeXZyVUdCRVg0UWw1YmVNUS02WlREdUJnVnBnRlF2TUJJM2hrUlNUSHUxRmF0YzRqM2QtR01kUUhvSHZHX25XeWRNZjdrMFF0VkRlVnMxbjNQOU1YcTl0cjJCNlZueGlOeXZIONIBrAFBVV95cUxPdEhLc01XWU5iX2xIa2VMdlBiZG1icV9TR1JsTGJJTl85Vkg2N25sY2JQYTJpb0tqYnhVRENFSUN5NkQxM3NBbG45WUQwdzk5UFB1LUFLRGUyeEExUkxlcW9UdUVBU2pteWVwdV9LMDhxbWZsb2lEVExfS0JmU0s5MVVrMVFaSHpoVnpSQTlTN0lSeEROZzFQMl9DemV6MFgxRkp0V1M2M0NoQm5J?oc=5",
-        "published": "Wed, 25 Nov 2026 23:37:44 GMT",
-        "related": 5,
-        "alsoIn": [
-          "World"
-        ]
       },
       {
         "id": "india1",
@@ -488,6 +1166,16 @@
         "id": "india2",
         "feed": "India",
         "rank": 2,
+        "title": "30 J&K Men Who Fled In Last 2 Decades Running Terror Ops From Pak Now",
+        "source": "NDTV",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZWg5eVVsdnliVXY0ZmhQNVcxZ01FV0hYTzdMaTlOQnhYQlpjQWdmdDl6VkVQelhXbFJJdnBrZnJRYnlmeXFOSEVBMVdhVzdVeVZ0anBNT2NraUNOVW40ZlpuQ0JhYVQyUzd5X0JXRkxHRHNReERGY3c5NGwwTkl3UUVKMmVtX2dzMW53bUs5bzdBN3h4TFFNWVoyaHhHYXpKTWwwaU5MVEZXRkpkZGZNdVlpcWt2SUNUNGN2Wm9rVlJXTWMyWnhVeA?oc=5",
+        "published": "Thu, 26 Nov 2026 03:53:17 GMT",
+        "related": 5
+      },
+      {
+        "id": "india3",
+        "feed": "India",
+        "rank": 3,
         "title": "CJP's Saurav Das Moves Delhi High Court After Being Stopped From Travelling To UK, Hearing Tomorrow",
         "source": "Live Law",
         "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxObkdNV0FMNTRaVHVRT0J1RVl1LTkweEVOUEpQeWNLcUpDVEgxa00zWnJ1YTJFR1c1dGpOQVdjQWg1RlpFb1FFYk0xekRpb1lGR3hOZnBUVXV2OEpQUzdzQ2ZKUTd5aWZxS2R2aXBoQWppeGxFMGx0bnVIVnJWS2tEZkJDZzk2Q3RRWmp2blB6Q0o5S1NQLTRVUVFOQmxNY18yT2F1cmxBbnhUZmNsMjJWTVZXamxsWTJHQ1kwbTk4eGYwVzV2a0NKbDRBNkkxUVM0ZEZNeEJjWE9GS3FlcHZuSF9mdEpFZ0lta1Mw0gHwAUFVX3lxTFBON0VhdVBqcmZVcGxNWC1IdEhXVDFJSjA4WTY2bzVVRU4tZGVoMFowdjJBeE9oamQ1bUd2R0RDN3VoNExhcW1iRE96a0J1N3U2NDEteDliS2pTT2h6azBrYWQtZk5mUEZzcElNZ0pBM3JXQUJBbXRnR2tpVWVDNkFzOG5tVUstWk5PM2hvbW5wcWUwLTY3SXBadXJ6WU5nVXE2ZFFtNmRkeHhjV05EU1hWZ2s4ZEZ3dU1CdFpIWWpaaVBsRWhHTVJ4VnFBRW9HLUljRG1wckZxNU1zTThkN3VlUHdPR0JzbHlmLTYtcTd5Rg?oc=5",
@@ -495,33 +1183,23 @@
         "related": 5
       },
       {
-        "id": "india3",
-        "feed": "India",
-        "rank": 3,
-        "title": "Himachal man, 75, marries 63-year-old woman at old-age home where they found love",
-        "source": "India Today",
-        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOYkNydmtKTDRlelFvcmwxSUxmY3NqdUZ6NHVPRkJMaWx2SlV2aVU0SkhhN01zRFluT2ZHemNxUXRqZDRXM2htNVJXTDF1anBON21GRlJwWGxFZTZreGs1M0xBd0ZwclRMRkI5cjl0MnpRV3V1eXBwdnBQTWVfLU1iNXhqZHhGN3ktclZyUkN2R0xCSzhfLW1rUWtWS2ZYS1BwLXM4X0NvazFLR1FWYXM4cmVpN0pXRnV0VnNZTUxkTnQ4ZEd6dEFHYkJoYkxoRkdKUTdiekRLQ1hyTVQ20gHiAUFVX3lxTFBtRUxNQThTa1BTN2lVbEFPNHE2a21tZ1lPQjF2Qm1iVFZUcUZRV1o2b0E2dkpXUUd4OVN1X0RPdUtncFdmcDJ1b1FISDl5UnVVeUxkVjQtSHV5Q2lpeFg5S2VSdjVncDVlaGZOV0l4QWtMQWdxXzlpZXRpd011U01MRE1kbGhSdXBsQzBYWktQajAtVVRtNER2M0ZndERob1B2M2M0T184WTd1cE9FZ2RWZjl1ay0xUHhFNk82b01Md2d2bFFTLXlvV21WbTZFZjBRS2JCN1hqNGZzd3ZWaTZONkE?oc=5",
-        "published": "Thu, 26 Nov 2026 02:42:32 GMT",
-        "related": 5
-      },
-      {
         "id": "india4",
         "feed": "India",
         "rank": 4,
-        "title": "30 missing terrorists from Reasi exfiltrated to Pak for arms training, disturb peace in India: DGP",
-        "source": "Greater Kashmir",
-        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZmU2c2lQQ1V3ZllPYzVZUDZsWjA4X1NSZ3dfQnJ0OGlzNU9SMFBSQWVKbGVJQ0xzTU5aeWp1X3ZUazdnRGUzVXdIS1lleDRfM2NpbjlNX245VlRLamZldi0xQ05EY1M3OFBNTHljVHU2M0s2V29rNFRtb2l0X2JVSFNNNU4zNnZGTV9WbmktcDBvWXhFR0ltRUU2ekQtQzhUcjVuQ2c1MC1BUjFKSVZJTjFHQlpSejluU3AxMGxQTHFDWWdwU2ROSHZ1N2FWTnpVSHNSWHF4ZWE2UdIB3wFBVV95cUxNbmN1aEoyYTMxcko5YVhTcVREV2NsbFRieEUwWTFmVkRRTnJzdU40MkZZbWJFNnphc0NPeGRKLVNpLW1kTTNwWFlUOUdteHpwaU5TRkc1ZWFCYmZyY0RNMjdWZ2FpY2x2M3ZmQkQxY3JLbFp3bE1zenR5eWNzNXRYNGhvMk8tUVJfMUc5V1phYUZTdmI1QzJwX3cyeXVvejJpaU9rTEhTMTM4eGJndkVidkViMjRzNS0xTVhZQWdNZVBXSXBmNVl2TnBnaUJycEZfeWt6aGUxNGN4endxYl9Z?oc=5",
-        "published": "Wed, 25 Nov 2026 11:42:25 GMT",
+        "title": "Woman gang-raped by colleagues at east Delhi cafe; three arrested",
+        "source": "The Hindu",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcVJ6MEg2SWpFaU1Rc2ZhcFIwazBDTXYycVJjandhSDhha3VOSTBQNnhZdFA0RzdWUUNzc1R0alJtWi1jYWQxTkVDTXJkLUR6RHNLMmtWcHhJbno0cUdvUmtnWGNMalF4OEZxQTh6SUo4M1hoeHh5dzdwVWMxZjFOWGJuTWRVdkJ5RTM4elNSUUxCel9WX1BUTnJuRkUyM2hKTlB1TnZ1ajJtTFI2VVo5clpwZlZ3TTRWTU96S2xkdXhaUEhnaFHSAcwBQVVfeXFMTllkSzNqVVBUOExobk9ydDhJd1IwQVBGMXUteF9jWWdodHZGVS1HdGozQmFIY193dWNZTmpnemo3eDRLak5vVnlvUEJKQ0hWbHRSdVdNZ3Zya2Nyb3lZZHQtalA5OEJSbDdvYkpTSzBRM3BsQ3hkU2tSUTN6ME1maHo1WjBkeTlSeTNqcmN2a014MkRjOTR4Qk95MkFXb3RfczFZZGxwQ1hERElkMDM4N0tfeHc5ak1WeVpaS3FNZ0k5X2F1N0IzOEJQNy1v?oc=5",
+        "published": "Wed, 25 Nov 2026 03:37:46 GMT",
         "related": 5
       },
       {
         "id": "india5",
         "feed": "India",
         "rank": 5,
-        "title": "No active local militants in Kashmir Valley, but hunt for 65 Pakistani terrorists underway: Report",
-        "source": "The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPeGZDWmhCTnlxd3pZSG1acFNyUUtFNC1hSm5qRnVGTFJ6OVJLSkQzOU52LTNZUDI3THNrdWlZU2xQVGFxemx3bWt0R0U3aVZaYjd4bGZIWjlWdk42S3VIRTRWeTVOaVdCeVMwUlNqLVg5djNEZmhjLWwydDVhV0lUeGVXZ1FsSXBXQUVFQ1pPU1l6dFluQl9mTGcwNDQxRFpzRzNGQ3p0ZWFyOFZKSWhnbmd2WGVaYzk0c0lZX21TcFF6Z2dIVXc4ZFlXdHdxZE8zZjVUei1jVHVoTU1qVmdBLUV2UVFPMTcxQzI1dmNfTk11Wk4ybWhj?oc=5",
-        "published": "Wed, 25 Nov 2026 12:19:00 GMT",
+        "title": "26/11 Was Not Just an Attack on India",
+        "source": "DefenceXP",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5OdlY5ZWJ3dF82VEtjLWppbUZtM3lwdHZXdTVZRFJ0YVp5NVlHX2hIZU5kaW1aWFpBSGFrOHFBSkhnLXdNY20zMHo0LXA0OFppQWg2c0JvanVXSW0tOUhTNXZJR25SVkZuWUJkQThaMlFfUQ?oc=5",
+        "published": "Wed, 25 Nov 2026 22:56:06 GMT",
         "related": 5
       },
       {
@@ -538,16 +1216,26 @@
         "id": "world2",
         "feed": "World",
         "rank": 2,
-        "title": "Malaysia regulator seeks $146 million damages from Google over 'harmful' content",
-        "source": "Reuters",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTE14N1VWUVJlZHQ1QW1ZcDlhOF8ybW5qTlg3VFUyN2x3NkNrdng0SlZaR2kzLVlMT08wN3ZxdWZhTW1Sako5LUE2ZFhxZzdrNllScjdfazh6eFIzN3NmYU9RTmQxTXlpTUNXblQtTjM3eXhNV2FJcWQ5VFpCUHpvUWdNWEsxaVBhVlZVZHVaMGYxb0pFOWVNZGg1cG16MWE5Z2RjanljM2MyTWw3YVNTMmZFZ3hET2E0UW1XVjh3OTdpUnpK?oc=5",
-        "published": "Wed, 25 Nov 2026 05:44:00 GMT",
+        "title": "Houthis target Saudi Arabia’s Red Sea ports as strikes escalate",
+        "source": "Al Jazeera",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdGxhOFVRbGV4VWljWVZrRGUzSlRFN2dkQVc3dkVHWHZQdUlOYmVpbEpKdVdtYkdXRFVQVG11QlJleUZOeXZyVUdCRVg0UWw1YmVNUS02WlREdUJnVnBnRlF2TUJJM2hrUlNUSHUxRmF0YzRqM2QtR01kUUhvSHZHX25XeWRNZjdrMFF0VkRlVnMxbjNQOU1YcTl0cjJCNlZueGlOeXZIONIBrAFBVV95cUxPdEhLc01XWU5iX2xIa2VMdlBiZG1icV9TR1JsTGJJTl85Vkg2N25sY2JQYTJpb0tqYnhVRENFSUN5NkQxM3NBbG45WUQwdzk5UFB1LUFLRGUyeEExUkxlcW9UdUVBU2pteWVwdV9LMDhxbWZsb2lEVExfS0JmU0s5MVVrMVFaSHpoVnpSQTlTN0lSeEROZzFQMl9DemV6MFgxRkp0V1M2M0NoQm5J?oc=5",
+        "published": "Wed, 25 Nov 2026 23:37:44 GMT",
         "related": 5
       },
       {
         "id": "world3",
         "feed": "World",
         "rank": 3,
+        "title": "Trump's newest order curtailing birthright citizenship is blocked by second judge",
+        "source": "Reuters",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUVNKamgtYTNRNHFWRVliOUF5X3pqbzBEdzBWZmRKUUZDX3FoaDhaNFB2Z3pza2dSS2NHOUtzYW9jblRqSnY2Q0VESXJYSTlnbVRibzZ4c1I2eWZrMEVkTUNOTGI4VlFRc1dLdGUyNFZPTGZlX0pGMkpkTTVBWGoyNi1RUWZ2cjBDcGdtTGpBeWJBTTJFbldlVFZ0OW93N1NPVW8zN1JfTHlxdWRVZDZ6YVRqMmtFZjE1UzBPRzVfNURCMUtGSi1vTVhyZXN6UQ?oc=5",
+        "published": "Wed, 25 Nov 2026 21:35:04 GMT",
+        "related": 5
+      },
+      {
+        "id": "world4",
+        "feed": "World",
+        "rank": 4,
         "title": "US Army blows up tons of bomb-making chemicals in Iowa, plumes of smoke seen in sky",
         "source": "India Today",
         "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQ1gxZFBJbHlITER1WktOdHpGbW13eUVSRk9VWVBNdU1vT1dwTENKS3JzMjR3d2E3Yi10eThmNlNWWHhGbmMxRGphMEJ3eHU4SG9pRDlSdmhmZ2JhN21TRGEwelJyTUNpa0p4MXFabmE2aHQ1YkozZGxNTk1lWkc4ZW5DTlIyeGI0RnpXbjhSRkE2YWU4Sjd6NzdRSGhlZU9yR2RRWTkzZjRWMUszOVhLNGp5STZYcGRRNDZhLWk2R1dKUld1SkFBZ3NqaUg5U2otNkNVSGZhR1U3dlNu?oc=5",
@@ -555,23 +1243,13 @@
         "related": 5
       },
       {
-        "id": "world4",
-        "feed": "World",
-        "rank": 4,
-        "title": "Climate summits need radical reform – here’s how to transform global negotiations",
-        "source": "The Conversation",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa25MSnd6N3Z4bnZURkJ1UnRacm9xcndVNUhkMUExdl9LY04wU1M4cUJWRDh4blhKeE81Z1pGVXpDT0Zyak1oZWt6S2xJeHhtWWdfRGxlTDVieVBORXlhSEFCRkxfb21lQmdLUFozbkk3ampucUFXZlU4VXJVZi1xNzNqS204TDY4Zy1EeWpGWnE1NzhSUzN1WkNZMV9oaW5ULXMyV2paQ0JobjVNRmJXSEJMQQ?oc=5",
-        "published": "Tue, 24 Nov 2026 15:59:50 GMT",
-        "related": 5
-      },
-      {
         "id": "world5",
         "feed": "World",
         "rank": 5,
-        "title": "Amid politicized debate in US and Israel, Katz warns Iran developing chemical weapons",
-        "source": "The Times of Israel",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNa0lITlFRa1hhYzBfVHFLZTljR1ZKZ1N4eHRXbm05V3Q3b0VVTWtBcXBKZnEzcDJqckJyVG9LdVJrQmxVVVVudERwYk9kamotMUJqTklsSEstWHBTUHRYWVc4R2xoMWhSNWJEQnRvMm1QOV9zd25JWWtPRGlOeWFmQkR4X19OcUJLcno2MENscUtxcUJiMXFKM0ltdHAxV1NwQnpEV1NNSFFqMVVRc1ZXR2E2bjdLUdIBuwFBVV95cUxPT1NHSUdwTDZ0NFVpZHZha2gyalU0dGk0aEotSWNNcDRfMW41QWkwQ2pHX2NxeGt4dllyX2JJRXMyY21RMDdLRHZIZlZaUFBYT004ek14T1Fib2RsUDR4Y2oxYmppdm9GeS1lSDUxcWlYeXFza21VbldjbXJEOGh0UWx4eUJDYlVIVmtpUW9KV285emdFRm9SalRBX0tvZHoyTXdUMEpHMGx0WEZ2czhUMzZHRm51M21qTHQ0?oc=5",
-        "published": "Tue, 24 Nov 2026 17:05:00 GMT",
+        "title": "Putin says retaliation ‘inevitable’ after Ukraine hit Russian oil plants",
+        "source": "Al Jazeera",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbVlLVzNGdDA4X0FlQVJiZDFvR2RncEpnbThvT3ZhSTVrUzlwaXh6aWtreGRaaV82T1B3WjA5dmpkNldEUHUzRFZaUndnMXQyeF9jTnI3LVZ3NTRSWTBaNkpBT05IVEJDMlFyWVN5eTlHTjRPYmZlWm1JS2VNMGNjb09Da1BieC1WdldIQW5IZzFFUkE1MzRRdFFqWjB5STNFdC1zT1k2ZVRvMFlmRDJYZDhjNC0tZlHSAbwBQVVfeXFMTzlnSnlkOTlWUC1oeEdrU3MybWZuN2g2bmlVcFcwY29mZzRtb3IwamlBMEdjSlp3aEpJaTBiUzB0NXA1NElrWmtwMnZSZWdJWWE4dW9Wb3IyNnFqRU5KODh0eVpyLUZxQXBZSUQzTTQ5RWd5Tlp3UXowMnNBQmxRRW9UVkVad3RFZjRiTDVKYWJ1cGwyM1lubHlBNXI3OG9WaWM2SjhEZHlsNWxEdTF2LURHejZlWE52d3F6dlY?oc=5",
+        "published": "Wed, 25 Nov 2026 05:05:46 GMT",
         "related": 5
       },
       {
@@ -588,6 +1266,16 @@
         "id": "business2",
         "feed": "Business",
         "rank": 2,
+        "title": "Jensen Huang, Nvidia and the risks that come with ‘boomerang bosses’",
+        "source": "The News Minute",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZkNOZkZkV196X0RhNzlXQjZEVHFJVlExVHRyNGtkbnRCQ29jN1NpNzNrWTMxQldIVmJoOXFxU2hhR0lNWDRfQkZpZm04bTdGOXgxYU84VmJaV2RRZkgtcHNuaEl6UWRfbVFlMlM0aVpRSVhHMjJteFRadTlKR2xabF83VXZTZmlHbW91aHZyUkp0eG5SY0pybEY2ZlpIcnBhZFE?oc=5",
+        "published": "Wed, 25 Nov 2026 07:01:25 GMT",
+        "related": 5
+      },
+      {
+        "id": "business3",
+        "feed": "Business",
+        "rank": 3,
         "title": "Stock market outlook today,26 Nov:Sensex, Nifty prediction-DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
         "source": "Livemint",
         "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNYmNwMTNDSm1icWFya1loeFM5eXZLZ0t3V2FyWEkxRzBEc0xPbGdjZ1VxR3UyMjkxUUxtX3NvR05OU0ZNc205VXNGZ2ozOHA0X2RCUkh5QndRRVhFRVNVdHRHaEpGQ3NYbWU0emNScDFWOUlwem1Wd0FvbUhhU0wwOFU4QjNyTGxMXzRwLUVVNlJGenA3akhxT2dkZ1UtMU16RFhYMUVqaEhtM3oyS2NkV2NKMGJYc1FJUVREWTNpOVo0aUhPYUdNOXN3TTlqZXBHVUtITFh2Q3dndVROcFRNSGhKNnE1bC01bTFMYXpTMFNEaHpHWWRwcTRmaGl3emlzalc5UkM1bjZJbUnSAZACQVVfeXFMUG53Z2JheTNrY05QWUZYY2Y5bEdoN2hWcjJ3ZFNHX09GYmRfZE1ma09QYmhNdTdzaHdXcUMwU0IzNHNtLVNaYTBKX1R3djFsamxFUUhiVzY5S3dtV1RrdDMtb2ZUcV9KYWQtbmVIMmwtbjJwT3F6WDVBTVc5d2Z2UTJ4T1lVSnVzakRQbFBpeEJwT1NoQUNreXI0RzI4dktjRDdmUlZUaFZoSTdDOU5ac25zSXlSOGtvVVFnZWx5ZjMzS0xGaW9iZDBJZ0R6djNudG5wWlNJbUl3c3kwWVc3WVhMTHFzZ1BNSmdxeGthUjlXNklKWGxObk5WV3VuWk44X0szeXkwUDN4NF9lUTJ1bmg?oc=5",
@@ -595,33 +1283,23 @@
         "related": 5
       },
       {
-        "id": "business3",
-        "feed": "Business",
-        "rank": 3,
-        "title": "Nvidia's Jensen Huang says he is in therapy as comeback rally fades",
-        "source": "The Hindu",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRUVDaGNpcDdfWkJ0ZEpvTXRkSmNxVm5Ha1hZbjZSRnRvOWRRaFB6cWNxNU5odTl5dl9lT19LenRFaVA2ZUFpR1RsZjBqdTVjcTJOTFp0ck9HU3BVb3loUVVmczhLN253WkhNRUlfUjdxelJYNnk5dW1QQTFndkJhem1hb2VJb1JFSGstVUxXLVNodlVfUEZtWnlYa1FaZVE5YzFMZHlfazl2MGNSZGdMcHFtUGNXbG1BYWs3UTBiMnhmakJodURoRzN3?oc=5",
-        "published": "Wed, 25 Nov 2026 01:37:07 GMT",
-        "related": 5
-      },
-      {
         "id": "business4",
         "feed": "Business",
         "rank": 4,
-        "title": "The Man Who Called the 2008 Crash Has Turned Bullish. Here's What He's Buying",
-        "source": "NDTV Profit",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQeE8zYzRTNHBNSlhqMHB5ZzJWNV85MF80WDNkR0N5SWlLVE13YWQwVXpHT1c1cW9xMGhqNmMtaVk0OFpjNlRvWkt3YlMyYk1lMWZvSUpna1pTX3VCUTVCZ3dwOHFzRmQ0THBUY2hodFZpNGY2SjNhNnBvbXpSSmZyRkZvalJxSi1QcURrN3NXcXpDN3EyemM5WFhDQ2pYTkJiaVNxVmpjV3hSSi1IVHdaaTZzOWpodm5Ld1RXQklGUW5lRDhSX2V3V0gzSTJLUdIB1gFBVV95cUxNUWoweEh3MHFVUGxlN29CLVBKdnFsQUg3VHhhMldmV0VXX0hvUnVwVjFvRDZBcWJIVlRkbVRtZkhJSDU4WkV1VlM5eENsLTZjazZ6WUpEbHJLRTJJZXNkRGd4eXNwWHJBMGVLaC1xU1BEaGxDSnpvWUNVVmVkZDJ1LTVTS3UyN1ZtTXhsdmZJc1otRE5aRTUwQlFqVnkxTU1VZkllemVkOGhWVk5RblNJdndQc3FxdUhuWWtaT1RWYWRmdEstVWo3XzgwRmVwRXh5SnRpbnln?oc=5",
-        "published": "Thu, 26 Nov 2026 01:35:50 GMT",
+        "title": "Markets News, Nov. 25, 2026: Nasdaq, S&P 500 Close Lower as AI Trade Remains Under Pressure; Nvidia Falls 4%",
+        "source": "Investopedia",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSjhSdzBFWmRZeGtpYnpQT1cteVNuVG5BUzhGd282NWNydGgtZmIxZkhJbmhJVWZJVk5rd1JGTHBXN2xQY21RWkJobDVPeXdjQ20tQzRxaE5wUmQxOU9Cc0pUOUV0QzdTMFdTSmZ2SG5oaVJGZ3RFMWZSSE9ZSzdfUVNkdTZyZHg4S3JRNXRnZm1mVHM0dGVmN2NR?oc=5",
+        "published": "Wed, 25 Nov 2026 21:21:33 GMT",
         "related": 5
       },
       {
         "id": "business5",
         "feed": "Business",
         "rank": 5,
-        "title": "US approves Musk's SpaceX plan to deploy 1 million satellites for AI data centres in space",
-        "source": "The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOZGNpSHM4clNhWklaR2wyNjZQZVN0dnNQVjllZ25oNUJvTHhWblFDS29iazNLS2VQUHFsZ3BOWWI0Q3NwTXdrbGNpV19RbGo5QzVTZm1oUldKbnJSTm1VR1dWQ05ubzFuSElrY3hpX1l2WjM5cGo0aHZ3cWNoTS11d1VjazNTUGh4UFRTRnhOQXRpODJmRUVSR20wQTlPRDkyOUJqRTlxS2FUU2w5NDk1djBnWmdkampGM3FIcnh5cE1NbENZRjBCdnhzY05jaFB1cWhkN2I2U1RwWS1zTlRiY01qVmEtbHR3bzRXQy1kbjNWTmJvTmQ4eXh3eFJnemk5T29YVzlTejU4aXZ2RHdJaA?oc=5",
-        "published": "Thu, 26 Nov 2026 01:59:00 GMT",
+        "title": "The Man Who Called the 2008 Crash Has Turned Bullish. Here's What He's Buying",
+        "source": "NDTV Profit",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQeE8zYzRTNHBNSlhqMHB5ZzJWNV85MF80WDNkR0N5SWlLVE13YWQwVXpHT1c1cW9xMGhqNmMtaVk0OFpjNlRvWkt3YlMyYk1lMWZvSUpna1pTX3VCUTVCZ3dwOHFzRmQ0THBUY2hodFZpNGY2SjNhNnBvbXpSSmZyRkZvalJxSi1QcURrN3NXcXpDN3EyemM5WFhDQ2pYTkJiaVNxVmpjV3hSSi1IVHdaaTZzOWpodm5Ld1RXQklGUW5lRDhSX2V3V0gzSTJLUdIB1gFBVV95cUxNUWoweEh3MHFVUGxlN29CLVBKdnFsQUg3VHhhMldmV0VXX0hvUnVwVjFvRDZBcWJIVlRkbVRtZkhJSDU4WkV1VlM5eENsLTZjazZ6WUpEbHJLRTJJZXNkRGd4eXNwWHJBMGVLaC1xU1BEaGxDSnpvWUNVVmVkZDJ1LTVTS3UyN1ZtTXhsdmZJc1otRE5aRTUwQlFqVnkxTU1VZkllemVkOGhWVk5RblNJdndQc3FxdUhuWWtaT1RWYWRmdEstVWo3XzgwRmVwRXh5SnRpbnln?oc=5",
+        "published": "Thu, 26 Nov 2026 01:35:50 GMT",
         "related": 5
       },
       {
@@ -638,10 +1316,10 @@
         "id": "tech2",
         "feed": "Technology",
         "rank": 2,
-        "title": "Samsung gives Galaxy Watch 8 new features including Heart Health Score and Sleep Apnea monitoring",
-        "source": "India Today",
-        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNeHFPQWlzNjZfWUNIakFWaVZ0Q3JGclRjUFVOZnc1MUl5Z3BzdGg5bEIwMFVuanBTV096UF8wcl94MHpNandEZWJwMk5kODRqNGhVVm4yX1dUUWU2UGplV2RHTG93SnV3YUZ3ZjZlUHJySHRHd3lKNzdTcmR4RlZTYnlvTDZEb0JIdGhyZTAwSXV3SmJaM2d4QWZzTkxKNzNFazIxYzNCXzB5WnZPa1I4dG5mRXhuUUhIU2dBMldsLVpZNXZtTHM5VDRVRzVncnhrbThNMDFFRjJ3c1VROG83SlpaaEJub2J6WkFHcWJhWG4ydTBZS2Rv0gH8AUFVX3lxTE1YRFBIVHZtRzdoeGNwSGhRX2JBOUltWHhIQzd4aU9sTkpMNGYtLVV6MFpvb0dBaFdZLXlNZnpPUEN0X0duellKdHhtYVJ1d2xZelcycTN3aDVhNjIxYlEzQ2RUQVZjekNWRnp1RWczd2VTLTdWWXlqMUhoUlFwcERlWWR1cThNaDJEd29DY0NFaTlKaUpMWjladFBKbzFlcFZFQ2ZSRzhtMTNLbUpyRndEYmI0S21zYVhGTXZjMmVCYVhqVE84V1N1TFAyTi1LeDlMWGhkbllrUzc1d3pXSWJuaGFnR0FCY2tubF9MZ09HUlRWd0E2bnJUWG9HVg?oc=5",
-        "published": "Wed, 25 Nov 2026 14:22:30 GMT",
+        "title": "Samsung One UI 9 Watch update brings advanced heart health tracking features to Galaxy Watch8 series",
+        "source": "Deccan Herald",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPNUJNUHZ6NzRDczNKNFg1MUtHdmpUTUxOLUlnQkV0TzQ1SWJWdEp3aGhWUXVmTm9UODloWF9lSjlIejhLZHVIZ1poZmVSZG0yMnNBamk4YWFNZHA4TW9tR1pjLXNYdFpLRV9oWF81dUdjV1lUUE93TlJhcFRCWVFWMWRkNjloY1g4a0gzam9wT2d5b1hWV0JEclJtQ3p1SUdRdTF6cGJHMExPMDV4TXN6YkRlZUg2V2JjWFBHVFYxTkgzQ1VQTldlQ1dHX01ZQ2taQnZ3akkyeElKZmlUVnBlc2h3?oc=5",
+        "published": "Wed, 25 Nov 2026 15:31:12 GMT",
         "related": 5
       },
       {
