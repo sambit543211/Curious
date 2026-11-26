@@ -16,25 +16,25 @@
   ],
   "coverage": {
     "top1": "2026-11-26-tariff-rates-proposed",
-    "top2": "2026-11-26-up-candidate-friction",
-    "top3": "2026-11-26-deepam-next-court-step",
-    "top4": "2026-11-26-dangerous-materials-safety",
-    "top5": "2026-11-26-saudi-oil-escalation",
+    "top2": "2026-11-26-ukraine-airbase-grid",
+    "top3": "2026-11-26-up-candidate-friction",
+    "top4": "2026-11-26-constitution-passport-rights",
+    "top5": "2026-11-26-dangerous-materials-safety",
     "india1": "2026-11-26-constitution-passport-rights",
-    "india2": "2026-11-26-constitution-passport-rights",
-    "india3": "skip: gossip; the personal wedding story has no comparable public-policy or economic consequence.",
-    "india4": "2026-11-26-cross-border-militancy",
-    "india5": "2026-11-26-cross-border-militancy",
-    "world1": "2026-11-26-us-ai-gatekeepers",
-    "world2": "2026-11-26-google-content-lawsuit",
-    "world3": "2026-11-26-dangerous-materials-safety",
-    "world4": "skip: repeat; commentary revisiting the COP31 outcome covered in the November 23 edition.",
-    "world5": "skip: repeat; the November 24 chemical-weapons allegation supplies no new November 25–26 evidence.",
+    "india2": "2026-11-26-cross-border-militancy",
+    "india3": "2026-11-26-constitution-passport-rights",
+    "india4": "skip: repeat; the Delhi café assault and arrests were covered in the November 25 edition.",
+    "india5": "skip: repeat; anniversary commentary revisiting the 2008 Mumbai attack, rather than a new event.",
+    "world1": "skip: repeat; the attorney general’s Tuesday remarks revisit the earlier Nvidia leadership controversy.",
+    "world2": "2026-11-26-saudi-oil-escalation",
+    "world3": "2026-11-26-birthright-court-block",
+    "world4": "2026-11-26-dangerous-materials-safety",
+    "world5": "2026-11-26-ukraine-airbase-grid",
     "business1": "2026-11-26-market-opening-reversal",
-    "business2": "2026-11-26-market-opening-reversal",
-    "business3": "skip: gossip; personal therapy remarks add no new established operating result.",
-    "business4": "2026-11-26-institutional-flows",
-    "business5": "2026-11-26-us-ai-gatekeepers",
+    "business2": "skip: repeat; commentary on the Nvidia leadership return already covered in earlier editions.",
+    "business3": "2026-11-26-market-opening-reversal",
+    "business4": "2026-11-26-market-opening-reversal",
+    "business5": "2026-11-26-institutional-flows",
     "tech1": "skip: repeat; a daily Wordle answer item, rather than a new technology development.",
     "tech2": "2026-11-26-watch-health-update",
     "tech3": "2026-11-26-gta-playstation-audience",
@@ -141,16 +141,16 @@
         "id": "2026-11-26-constitution-passport-rights",
         "rank": 4,
         "label": "26 Nov 2026",
-        "headline": "Constitution Day arrives with a court test over travel restrictions",
-        "summary": "India marks Constitution Day today, with the Prime Minister urging a renewed commitment to its values. In a separate, concrete rights dispute, Saurav Das has approached the Delhi High Court after being stopped from flying to Britain. The government cites a discrepancy in passport information; his side challenges the restriction. The court was scheduled to hear the matter today. No ruling is assumed here.",
-        "why": "Constitutional promises become practical through procedures: notice, a chance to answer and review by an independent court. A passport dispute turns on the legal record and the authority used, not whether the traveller’s politics are popular.",
-        "soWhat": "For travellers, accurate documents and prompt responses to official notices matter. The court’s reasoning will show how the disputed restriction is assessed.",
-        "take": "The useful test of a constitutional promise is how institutions apply it.",
-        "watch": "Read today’s order for the legal basis and any interim travel relief.",
+        "headline": "Constitution Day puts travel rights and court compliance in focus",
+        "summary": "India marks Constitution Day as two live disputes test legal procedures. Saurav Das has challenged a restriction on his UK travel; the government cites a passport discrepancy. Separately, the Supreme Court has asked parties in the Thiruparankundram lamp dispute to file formal contempt petitions. That means allegations must be examined through proceedings, rather than treated as established disobedience. The cases have different facts and should not be conflated.",
+        "why": "A constitutional promise becomes practical through notice, a chance to answer and independent review. The Prime Minister’s Constitution Day message calls for commitment to those values. The useful question for readers is how the institutions apply them in concrete cases.",
+        "soWhat": "Travellers need accurate documents and timely responses to notices; residents need clear, lawful directions from authorities.",
+        "take": "The value of a legal promise lies in its fair application.",
+        "watch": "Check today’s travel-case order and the next written Deepam directions.",
         "terms": [
           {
-            "term": "interim",
-            "meaning": "Temporary, while a case is still being decided"
+            "term": "contempt",
+            "meaning": "Court proceedings over alleged disobedience of judicial authority"
           }
         ],
         "image": null,
@@ -165,32 +165,42 @@
             "label": "constitution",
             "url": "https://timesofindia.indiatimes.com/india/a-commitment-to-strengthen-our-constitution/articleshow/136175334.cms",
             "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "LiveLaw · Deepam procedural direction",
+            "url": "https://www.livelaw.in/top-stories/thiruparankundram-row-supreme-court-declines-to-take-suo-motu-contempt-asks-to-file-contempt-petition-559869",
+            "accessedOn": "2026-11-26"
           }
         ],
         "beat": "society"
       },
       {
-        "id": "2026-11-26-deepam-next-court-step",
+        "id": "2026-11-26-cross-border-militancy",
         "rank": 5,
         "label": "26 Nov 2026",
-        "headline": "The Deepam dispute moves towards a formal contempt hearing",
-        "summary": "The Supreme Court has asked parties in the Thiruparankundram lamp dispute to use a formal contempt petition rather than seeking action on the court’s own initiative. A further plea seeks permission to carry a burning flame to the disputed pillar. These are new procedural steps after Tuesday’s non-lighting controversy in Madurai, Tamil Nadu. They are not a final finding that officials disobeyed the court.",
-        "why": "A court order, an allegation that it was breached and a contempt finding are different stages. Judges must examine the direction, what officials actually did and the explanation offered before deciding responsibility.",
-        "soWhat": "For residents and worshippers, the immediate signal is the next written direction and local administration’s arrangements, not competing political claims.",
-        "take": "Clear orders and accountable compliance can reduce the room for confrontation.",
-        "watch": "Check the listed petitions and the court’s next written directions.",
-        "terms": [
-          {
-            "term": "contempt",
-            "meaning": "Court proceedings over alleged disobedience of judicial authority"
-          }
-        ],
+        "headline": "Kashmir’s security assessment keeps the cross-border threat in view",
+        "summary": "Jammu and Kashmir police have described a cross-border network involving men originally from Reasi. Police say they operate from Pakistan and support militancy through arms, money and recruitment. Separately, the police chief approved attachment of land linked to five alleged militants. Reports also distinguish the absence of active local militants in the Valley from the continuing hunt for foreign militants. These are police assessments, not court findings of guilt.",
+        "why": "A fall in local recruitment does not settle the question of outside support. Authorities are also targeting alleged financing routes, because a network can support violence without every member being physically present in the area.",
+        "soWhat": "For residents and businesses, follow district security instructions and actual incident trends; a single headline is not a complete travel assessment.",
+        "take": "Measure security by sustained reductions in violence and recruitment, not one headline.",
+        "watch": "Track court review of attachments and subsequent official incident and recruitment figures.",
+        "terms": [],
         "image": null,
-        "photo": "Thiruparankundram",
+        "photo": "Reasi district",
         "sources": [
           {
-            "label": "deepam",
-            "url": "https://www.livelaw.in/top-stories/thiruparankundram-row-supreme-court-declines-to-take-suo-motu-contempt-asks-to-file-contempt-petition-559869",
+            "label": "reasiland",
+            "url": "https://www.newindianexpress.com/india/2026/Nov/25/jk-police-chief-attaches-29-kanals-of-land-belonging-to-five-militants-operating-from-pakistan",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "reasi",
+            "url": "https://indianexpress.com/article/india/jammu-kashmir-police-dgp-nalin-prabhat-reasi-terrorists-pakistan-land-seized-uapa-10978040/",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "ANI security assessment reported by The Times of India",
+            "url": "https://timesofindia.indiatimes.com/india/no-active-local-militants-in-kashmir-valley-but-hunt-for-65-pakistani-terrorists-underway-report/articleshow/136161069.cms",
             "accessedOn": "2026-11-26"
           }
         ],
@@ -232,37 +242,37 @@
         "indiaLink": "Oil supply and shipping risks feed into India’s import bill and transport costs."
       },
       {
-        "id": "2026-11-26-cross-border-militancy",
+        "id": "2026-11-26-ukraine-airbase-grid",
         "rank": 2,
         "label": "26 Nov 2026",
-        "headline": "Kashmir’s security assessment keeps the cross-border threat in view",
-        "summary": "Jammu and Kashmir police have described a cross-border network involving men originally from Reasi. Police say they operate from Pakistan and support militancy through arms, money and recruitment. Separately, the police chief approved attachment of land linked to five alleged militants. Reports also distinguish the absence of active local militants in the Valley from the continuing hunt for foreign militants. These are police assessments, not court findings of guilt.",
-        "why": "A fall in local recruitment does not settle the question of outside support. Authorities are also targeting alleged financing routes, because a network can support violence without every member being physically present in the area.",
-        "soWhat": "For residents and businesses, follow district security instructions and actual incident trends; a single headline is not a complete travel assessment.",
-        "take": "Measure security by sustained reductions in violence and recruitment, not one headline.",
-        "watch": "Track court review of attachments and subsequent official incident and recruitment figures.",
+        "headline": "Ukraine claims an airbase strike as civilians face power outages",
+        "summary": "Ukraine says it struck Russia’s Savasleyka airbase and damaged five aircraft. That aircraft count is a Ukrainian military claim, not an independently established loss total. Separately, Russian attacks caused power outages across five Ukrainian regions, local authorities said. Putin has threatened retaliation after strikes on Russian oil facilities. The immediate human consequence is the pressure on electricity and civilian life as the conflict widens.",
+        "why": "An airbase attack aims to reduce an opponent’s ability to launch missiles and bombs. Attacks on energy systems also affect homes and essential services. Military claims need checking; the danger to civilians should not disappear behind arguments about equipment counts.",
+        "soWhat": "For India, an extended conflict adds risks to energy, shipping and overseas economic conditions, even without a direct military role.",
+        "take": "Civilian electricity and safety matter more than a running tally of claimed losses.",
+        "watch": "Track damage confirmation, electricity restoration and the next announced diplomatic talks.",
         "terms": [],
         "image": null,
-        "photo": "Reasi district",
+        "photo": "Savasleyka",
         "sources": [
           {
-            "label": "reasiland",
-            "url": "https://www.newindianexpress.com/india/2026/Nov/25/jk-police-chief-attaches-29-kanals-of-land-belonging-to-five-militants-operating-from-pakistan",
+            "label": "Reuters · Ukrainian airbase claim",
+            "url": "https://www.aljazeera.com/news/2026/11/26/ukraine-attacks-russian-military-base-says-five-planes-struck",
             "accessedOn": "2026-11-26"
           },
           {
-            "label": "reasi",
-            "url": "https://indianexpress.com/article/india/jammu-kashmir-police-dgp-nalin-prabhat-reasi-terrorists-pakistan-land-seized-uapa-10978040/",
+            "label": "Reuters and Al Jazeera · power outages",
+            "url": "https://www.aljazeera.com/news/2026/11/25/russian-strikes-on-ukraine-cause-power-outages-in-five-regions",
             "accessedOn": "2026-11-26"
           },
           {
-            "label": "ANI security assessment reported by The Times of India",
-            "url": "https://timesofindia.indiatimes.com/india/no-active-local-militants-in-kashmir-valley-but-hunt-for-65-pakistani-terrorists-underway-report/articleshow/136161069.cms",
+            "label": "Putin’s retaliation statement, earlier November 24 report",
+            "url": "https://www.aljazeera.com/news/2026/11/24/putin-says-kyiv-hit-russian-oil-plants-despite-trump-plea-vows-retaliation",
             "accessedOn": "2026-11-26"
           }
         ],
         "beat": "geopolitics",
-        "indiaLink": "Cross-border networks directly affect civilian safety, tourism and businesses in Jammu and Kashmir."
+        "indiaLink": "Energy and trade disruptions from the war can affect Indian import costs and global demand."
       },
       {
         "id": "2026-11-26-us-growth-inflation",
@@ -307,42 +317,36 @@
         "indiaLink": "US demand, interest rates and dollar movements influence Indian exports and capital flows."
       },
       {
-        "id": "2026-11-26-us-ai-gatekeepers",
+        "id": "2026-11-26-birthright-court-block",
         "rank": 4,
         "label": "26 Nov 2026",
-        "headline": "US decisions put AI infrastructure and leadership under scrutiny",
-        "summary": "US regulators have authorised SpaceX’s planned Starmind orbital computing network, allowing up to one million satellites. That is permission, not a deployed network. In a separate AI governance development, Reuters reports that the Justice Department did not conduct a formal Jensen Huang investigation before his return to Nvidia. The attorney general says he has seen no evidence of a crime; related customer investigations continue.",
-        "why": "AI expansion depends on public decisions as well as engineering. Space licences determine who may use shared orbits. Export controls and corporate oversight influence access to advanced chips. Approval or a statement of no current evidence is not a guarantee of future performance.",
-        "soWhat": "Indian cloud buyers and space businesses should track actual capacity, enforceable licence conditions and chip-access rules before assuming cheaper or unrestricted compute.",
-        "take": "An ambitious approval still needs engineering proof and credible oversight.",
-        "watch": "Track SpaceX’s deployment milestones and the next disclosed outcome of chip-export investigations.",
+        "headline": "Another US judge blocks the revised birthright-citizenship order",
+        "summary": "A second federal judge has blocked enforcement of President Trump’s revised birthright-citizenship order. Wednesday’s ruling concerns the newer August order, following the Supreme Court’s rejection of the earlier attempt. The administration disagrees and would need to overcome both existing injunctions before enforcing this version. A blocked order is different from a change that has already taken effect for every family.",
+        "why": "Citizenship at birth is rooted in the US Constitution, so an executive order cannot settle the dispute on its own. The latest case shows how court review can limit a president’s ability to implement an immigration policy.",
+        "soWhat": "Indian families in the US should track the written orders and their scope, rather than assume an announcement has changed a child’s status.",
+        "take": "A political announcement is not a substitute for the law in force.",
+        "watch": "Check the government’s appeal and any ruling that changes enforcement.",
         "terms": [
           {
-            "term": "orbital computing",
-            "meaning": "Running computer workloads on satellites in space"
+            "term": "injunctions",
+            "meaning": "Court orders stopping an action while litigation continues"
+          },
+          {
+            "term": "birthright-citizenship",
+            "meaning": "Citizenship acquired because of the place of birth"
           }
         ],
         "image": null,
-        "photo": "Federal Communications Commission",
+        "photo": "United States District Court for the District of Columbia",
         "sources": [
           {
-            "label": "spacex",
-            "url": "https://www.satellitetoday.com/connectivity/2026/11/25/fcc-approves-spacexs-1-million-satellite-orbital-data-center-constellation/",
-            "accessedOn": "2026-11-26"
-          },
-          {
-            "label": "fcc",
-            "url": "https://eu-assets.contentstack.com/v3/assets/blt23eb5bbc4124baa6/bltf4cdf2af47159e12/6b071c5f5506bb38bca5b0ec/FCC_report_and_order_on_SpaceX_Starmind_AI_constellation_11-25-2026.pdf",
-            "accessedOn": "2026-11-26"
-          },
-          {
-            "label": "nvidia",
-            "url": "https://www.reuters.com/business/us-justice-department-did-not-open-probe-into-jensen-huang-before-reinstatement-2026-11-25/",
+            "label": "Reuters · citizenship injunction",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/25/trump-s-newest-order-curtailing-birthright-citizenship-is-blocked-by-second-judge",
             "accessedOn": "2026-11-26"
           }
         ],
         "beat": "us-china",
-        "indiaLink": "US space and chip policies influence infrastructure choices and AI capacity available to Indian businesses."
+        "indiaLink": "The litigation matters to Indian-origin families planning lives and travel in the United States."
       },
       {
         "id": "2026-11-26-dangerous-materials-safety",
@@ -384,7 +388,7 @@
         "rank": 1,
         "label": "26 Nov 2026",
         "headline": "Nifty gives up its opening gain after Wednesday’s rally",
-        "summary": "Nifty slipped 0.30% to 25,743.05 in NSE’s latest available morning observation, after Wednesday’s close at 25,819.25. The earlier delayed Sensex observation was 84,060.28, above its previous close, so the two quotes do not describe the same instant. Tariff proposals, higher oil and overseas rate concerns complicate the positive backdrop from yesterday’s foreign buying; these are reported influences, not a precise calculation of each cause.",
+        "summary": "Nifty slipped 0.30% to 25,743.05 in NSE’s morning observation, after Wednesday’s close at 25,819.25. The earlier delayed Sensex quote was 84,060.28, above its previous close, so the benchmarks do not describe the same instant. Wednesday’s Indian rally and foreign buying contrast with overnight US technology losses, including Nvidia’s 3.9% fall; new tariff proposals, oil and interest-rate concerns remain in focus.",
         "why": "A rising opening price can reverse as investors process overnight news. Index averages also hide differences between large lenders and smaller companies. The observation times matter when one benchmark appears to rise while another falls.",
         "soWhat": "For a portfolio review, compare like-for-like times and sector holdings before deciding that the broader market has changed direction.",
         "take": "A strong previous session does not settle the next day’s risks.",
@@ -422,6 +426,11 @@
             "label": "oil",
             "url": "https://www.moneycontrol.com/news/business/commodities/commodity-corner-crude-oil-holds-gains-for-second-day-on-middle-east-tensions-gold-slips-on-rate-hike-concerns-14089192.html",
             "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "Reuters · Nvidia close",
+            "url": "https://www.reuters.com/business/ai-stocks-slide-fears-over-infrastructure-buildout-costs-2026-11-25/",
+            "accessedOn": "2026-11-26"
           }
         ],
         "evidence": [
@@ -443,6 +452,11 @@
           {
             "value": 25819.25,
             "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_25112026.csv",
+            "asOf": "2026-11-25"
+          },
+          {
+            "value": -3.9,
+            "url": "https://www.reuters.com/business/ai-stocks-slide-fears-over-infrastructure-buildout-costs-2026-11-25/",
             "asOf": "2026-11-25"
           }
         ]
@@ -622,112 +636,322 @@
       {
         "id": "2026-11-26-stock-unavailable-1",
         "rank": 1,
-        "label": "Research unavailable · 26 Nov 2026",
-        "headline": "The first dip slot has no qualifying stock data today",
-        "summary": "Today’s first near-low stock slot is unavailable because the exchange blocked the closing-price download used by the selection process. Without that file, the code cannot join the latest share prices to company histories and apply the rules. This is an access failure, not a finding that every Indian company is expensive or financially weak.",
-        "why": "A price decline only becomes useful research when the business history and the price refer to the right company and date. Filling the gap with yesterday’s name would hide that distinction.",
-        "soWhat": "Keep the previous research separate from today’s missing selection. No fresh valuation or company verdict is available here.",
-        "take": "Missing access should produce a visible gap, not an invented opportunity.",
-        "watch": "Check the next successful selection after the official closing file becomes accessible.",
+        "label": "Dip research unavailable · 26 Nov 2026",
+        "headline": "No stock met today’s near-low and quality rules",
+        "summary": "The stock review completed, but no company met both the quality checks and the near-low rules for this slot. A falling share alone is not enough. The business also needs to meet the earnings, debt, cash and trading requirements. This is a completed selection with no qualifying dip candidate, rather than the earlier exchange download error.",
+        "why": "A narrow intersection can be useful information. Strong businesses are not always near their lows, and shares near their lows are not always strong businesses. Adding an unqualified company would change the question the selection answers.",
+        "soWhat": "Treat this as an empty research slot, not a judgement that every Indian company is expensive or weak.",
+        "take": "A completed review can produce a useful empty result.",
+        "watch": "Check the next completed-session selection without relaxing the published rules.",
         "terms": [],
         "image": null,
         "photo": "Value investing",
         "sources": [
           {
-            "label": "NSE closing file required by the selection",
+            "label": "NSE session closing file used by GitHub",
             "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
           }
         ],
         "slot": "unavailable",
-        "unavailableReason": "Stock data unavailable: NSE request returned 403 for https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+        "unavailableReason": "Only 0 of 493 verified stocks met the quality screen and the 52-week-low rules on the latest session."
       },
       {
         "id": "2026-11-26-stock-unavailable-2",
         "rank": 2,
-        "label": "Research unavailable · 26 Nov 2026",
-        "headline": "The second dip slot is also unavailable today",
-        "summary": "The second near-low stock slot shares the same source failure. The required exchange closing file could not be fetched, so there is no company selected for this position. A news story about a falling share cannot stand in for the complete price, liquidity and financial checks that normally produce the card.",
-        "why": "A low share price can reflect temporary disappointment, a weak business or a changed outlook. The difference requires evidence. A short list built without the mandatory source would look complete while answering a different question.",
-        "soWhat": "There is no new second dip candidate to compare today. Leave the slot open until the selection has the required inputs.",
-        "take": "An empty slot preserves the meaning of the selection rules.",
-        "watch": "Look for a later successful daily preparation using an accessible official session file.",
+        "label": "Dip research unavailable · 26 Nov 2026",
+        "headline": "No second dip candidate met both sets of rules",
+        "summary": "The stock review completed, but no company met both the quality checks and the near-low rules for this slot. A falling share alone is not enough. The business also needs to meet the earnings, debt, cash and trading requirements. This is a completed selection with no qualifying dip candidate, rather than the earlier exchange download error.",
+        "why": "The same quality company can move into or out of a near-low range as its price changes. Keeping that price condition separate from business quality preserves what the dip category is meant to show.",
+        "soWhat": "Treat this as an empty research slot, not a judgement that every Indian company is expensive or weak.",
+        "take": "A completed review can produce a useful empty result.",
+        "watch": "Check the next completed-session selection without relaxing the published rules.",
         "terms": [],
         "image": null,
         "photo": "Value investing",
         "sources": [
           {
-            "label": "NSE closing file required by the selection",
+            "label": "NSE session closing file used by GitHub",
             "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
           }
         ],
         "slot": "unavailable",
-        "unavailableReason": "Stock data unavailable: NSE request returned 403 for https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+        "unavailableReason": "Only 0 of 493 verified stocks met the quality screen and the 52-week-low rules on the latest session."
       },
       {
-        "id": "2026-11-26-stock-unavailable-3",
+        "id": "2026-11-26-stock-nationalum",
         "rank": 3,
-        "label": "Research unavailable · 26 Nov 2026",
-        "headline": "The first quality slot has no new stock verdict",
-        "summary": "The first quality-stock position is unavailable because the exchange closing-price download failed. Company accounts alone cannot support today’s valuation comparison. The code needs the correct session price before comparing it with the business’s own financial history. No company, price estimate or verdict has been added to replace that missing input.",
-        "why": "A strong company and an attractive valuation are different questions. Growth, debt and cash generation describe the business; the price determines what a shareholder pays for those qualities. One side cannot replace the other.",
-        "soWhat": "Use existing company research for background, but do not treat it as a fresh passing selection for today.",
-        "take": "Good research can acknowledge that a necessary comparison is unavailable.",
-        "watch": "Check for a new selection once the price source is accessible.",
-        "terms": [],
-        "image": null,
-        "photo": "Value investing",
-        "sources": [
+        "label": "Stock research · history 21 Nov; quote 25 Nov",
+        "headline": "NALCO’s integrated metals business trades below its usual earnings multiple",
+        "summary": "National Aluminium, or NALCO, mines bauxite and makes alumina and aluminium. Over five years, sales grew about 15% a year and profit about 35%. Average return on capital was about 30%, or thirty rupees of operating earnings per hundred invested. Debt is zero in the supplied accounts. Commodity prices still matter, so recent strong profitability should not be projected unchanged into the future.",
+        "why": "Owning several stages of production can support costs and supply reliability. But aluminium and alumina are traded internationally. Higher production helps only if selling prices, energy costs and expansion spending leave enough cash for shareholders.",
+        "soWhat": "The earnings multiple is about 7.4, below its five-year median of 9.5. Cyclical earnings can still make a low multiple misleading.",
+        "take": "The case combines integration and a discount; the metal-price cycle remains decisive.",
+        "watch": "Track expansion progress, realised metal prices and cash generation in the next results.",
+        "slot": "pick",
+        "symbol": "NATIONALUM",
+        "thesis": [
+          "Integrated mining and processing can support production costs.",
+          "The longer sales and profit history shows business expansion.",
+          "The supplied annual history shows positive operating cash generation throughout."
+        ],
+        "breakers": [
+          "Weaker aluminium or alumina prices reduce earnings.",
+          "Expansion costs rise while new capacity fails to earn adequate returns."
+        ],
+        "moat": "Cost leadership",
+        "moatWhy": "Integrated raw-material and processing operations can support costs, although global commodity competitors limit pricing power.",
+        "terms": [
           {
-            "label": "NSE closing file required by the selection",
-            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+            "term": "return on capital",
+            "meaning": "Operating earnings relative to money invested in the business"
+          },
+          {
+            "term": "earnings multiple",
+            "meaning": "Share price divided by yearly profit per share"
           }
         ],
-        "slot": "unavailable",
-        "unavailableReason": "Stock data unavailable: NSE request returned 403 for https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+        "image": null,
+        "photo": "National Aluminium Company",
+        "sources": [
+          {
+            "label": "Screener.in company pages, 2026-11-21",
+            "url": "https://www.screener.in/"
+          },
+          {
+            "label": "NSE Nifty 500 constituents",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          },
+          {
+            "label": "Screener.in: National Aluminium Co. Ltd.",
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/"
+          },
+          {
+            "label": "NSE bhavcopy (10-session average traded value)",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE bhavcopy, 2026-11-25",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE adjusted 52-week high/low, 2026-11-25",
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 15,
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 35,
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 29.8,
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 0,
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 7.39,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+            "asOf": "2026-11-25"
+          },
+          {
+            "value": 9.5,
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          }
+        ]
       },
       {
-        "id": "2026-11-26-stock-unavailable-4",
+        "id": "2026-11-26-stock-chennpetro",
         "rank": 4,
-        "label": "Research unavailable · 26 Nov 2026",
-        "headline": "The second quality slot remains open pending price data",
-        "summary": "No company is selected for the second quality-stock position today. The preparation process reported an exchange access error rather than a completed review. This distinction matters: an unavailable selection does not mean the code reviewed every company and rejected them all. It means the required closing file was not available to the process.",
-        "why": "Historical earnings can look compelling while the current valuation is unattractive, or the reverse. Accurate dates and company identifiers are essential before making that comparison. A remembered price or a substitute news quote would undermine it.",
-        "soWhat": "There is no new company thesis or calculated entry threshold for this position. Earlier dated cards remain earlier research.",
-        "take": "An access error should not be mistaken for a market judgement.",
-        "watch": "Check the next preparation outcome and the session date it uses.",
-        "terms": [],
-        "image": null,
-        "photo": "Value investing",
-        "sources": [
+        "label": "Stock research · history 21 Nov; quote 25 Nov",
+        "headline": "Chennai Petroleum’s lower multiple comes with sharply cyclical earnings",
+        "summary": "Chennai Petroleum turns crude oil into transport fuels and other refinery products. Over five years, sales grew about 23% a year and profit about 64%. Average return on capital was about 28%. Debt is modest against equity. These figures describe a period with large swings in refining conditions, so the profit growth rate is not a steady annual promise.",
+        "why": "A refinery earns the difference between the value of products sold and the cost of crude and processing. More expensive crude does not by itself mean higher profit. Product prices, inventory changes and plant utilisation all affect the outcome.",
+        "soWhat": "You pay about 3.6 times yearly earnings, against a five-year median of 4.5. The apparent discount depends on how sustainable those earnings are.",
+        "take": "The low multiple deserves attention, but normal earnings matter more than peak earnings.",
+        "watch": "Check refining margins, plant utilisation and debt in the next filing.",
+        "slot": "pick",
+        "symbol": "CHENNPETRO",
+        "thesis": [
+          "The longer operating history shows substantial sales growth.",
+          "The supplied annual records show positive operating cash generation throughout.",
+          "Debt remains modest relative to the equity base."
+        ],
+        "breakers": [
+          "Refining margins contract as product prices lag crude costs.",
+          "Shutdowns or project spending reduce cash and increase borrowing."
+        ],
+        "moat": "None",
+        "moatWhy": "An established refinery is hard to build, but the supplied evidence does not establish protected pricing power.",
+        "terms": [
           {
-            "label": "NSE closing file required by the selection",
-            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+            "term": "return on capital",
+            "meaning": "Operating earnings relative to money invested in the business"
+          },
+          {
+            "term": "earnings multiple",
+            "meaning": "Share price divided by yearly profit per share"
           }
         ],
-        "slot": "unavailable",
-        "unavailableReason": "Stock data unavailable: NSE request returned 403 for https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+        "image": null,
+        "photo": "Chennai Petroleum Corporation",
+        "sources": [
+          {
+            "label": "Screener.in company pages, 2026-11-21",
+            "url": "https://www.screener.in/"
+          },
+          {
+            "label": "NSE Nifty 500 constituents",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          },
+          {
+            "label": "Screener.in: Chennai Petroleum Corporation Ltd.",
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/"
+          },
+          {
+            "label": "NSE bhavcopy (10-session average traded value)",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE bhavcopy, 2026-11-25",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE adjusted 52-week high/low, 2026-11-25",
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 23,
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 64,
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 27.8,
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 3.57,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+            "asOf": "2026-11-25"
+          },
+          {
+            "value": 4.5,
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          }
+        ]
       },
       {
-        "id": "2026-11-26-stock-unavailable-5",
+        "id": "2026-11-26-stock-olectra",
         "rank": 5,
-        "label": "Research unavailable · 26 Nov 2026",
-        "headline": "The final quality slot is unavailable for the same reason",
-        "summary": "The final quality-stock slot is also unavailable. The official equity closing download failed, leaving the code without the session file needed to complete the selection. This card deliberately contains no substitute company or financial claim. The rest of the news edition can still explain events without pretending that the stock review succeeded.",
-        "why": "A research product has different dependencies. A company announcement can support a news card, while a screened valuation needs a consistent set of price and accounting inputs. Publishing one does not establish that the other is complete.",
-        "soWhat": "Treat today’s stock section as a documented collection gap. Continue to read company announcements on their own dated evidence.",
-        "take": "Completeness should come from evidence, not from filling every blank.",
-        "watch": "Check for a successful future preparation before expecting a new calculated verdict.",
-        "terms": [],
-        "image": null,
-        "photo": "Value investing",
-        "sources": [
+        "label": "Stock research · history 21 Nov; quote 25 Nov",
+        "headline": "Olectra’s electric-bus growth needs to turn into reliable cash",
+        "summary": "Olectra Greentech makes electric buses and electrical insulators. Over five years, sales grew about 52% a year and profit about 85%. Average return on capital was about 16%, with modest debt against equity. The latest annual profit comparison is much slower than that longer growth rate. Fast expansion from a smaller base needs to be judged alongside delivery performance and cash collection.",
+        "why": "Bus orders become revenue only after vehicles are produced and accepted. Batteries, plant capacity and customer payment schedules can tie up money before it returns as cash. Winning a tender is therefore different from earning an attractive return on it.",
+        "soWhat": "Its earnings multiple is about 44, against a five-year median near 96. A large relative discount still leaves demanding growth expectations.",
+        "take": "The opportunity is fleet electrification; the test is profitable delivery and collection.",
+        "watch": "Track bus deliveries, customer dues and factory ramp-up in the next results.",
+        "slot": "pick",
+        "symbol": "OLECTRA",
+        "thesis": [
+          "Electric-bus replacement provides a substantial addressable customer need.",
+          "The longer sales history shows meaningful expansion.",
+          "The company has an existing delivery base and announced product-development plans."
+        ],
+        "breakers": [
+          "Order execution slows or customer payments arrive late.",
+          "Competition or battery and production costs squeeze project returns."
+        ],
+        "moat": "None",
+        "moatWhy": "Operating experience is useful, but the cited material does not establish a durable monopoly or customer lock-in.",
+        "terms": [
           {
-            "label": "NSE closing file required by the selection",
-            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+            "term": "return on capital",
+            "meaning": "Operating earnings relative to money invested in the business"
+          },
+          {
+            "term": "earnings multiple",
+            "meaning": "Share price divided by yearly profit per share"
           }
         ],
-        "slot": "unavailable",
-        "unavailableReason": "Stock data unavailable: NSE request returned 403 for https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+        "image": null,
+        "photo": "Olectra Greentech",
+        "sources": [
+          {
+            "label": "Screener.in company pages, 2026-11-21",
+            "url": "https://www.screener.in/"
+          },
+          {
+            "label": "NSE Nifty 500 constituents",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          },
+          {
+            "label": "Screener.in: Olectra Greentech Ltd.",
+            "url": "https://www.screener.in/company/OLECTRA/consolidated/"
+          },
+          {
+            "label": "NSE bhavcopy (10-session average traded value)",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE bhavcopy, 2026-11-25",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE adjusted 52-week high/low, 2026-11-25",
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv"
+          },
+          {
+            "label": "Olectra · November earnings-call transcript",
+            "url": "https://olectra-uploads-573539704518-ap-south-1-an.s3.ap-south-1.amazonaws.com/Transcript_of_Conference_Call_12_11_2026_424322e979.pdf"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 52,
+            "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 85,
+            "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 15.6,
+            "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 44.33,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+            "asOf": "2026-11-25"
+          },
+          {
+            "value": 96.3,
+            "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+            "asOf": "2026-11-21"
+          }
+        ]
       }
     ],
     "tech": [
