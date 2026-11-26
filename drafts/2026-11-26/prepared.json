@@ -1,0 +1,679 @@
+{
+  "date": "2026-11-26",
+  "dashboard": null,
+  "picks": [],
+  "facts": [
+    {
+      "value": 7570,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 7570,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 1538.1,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 31020,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 519,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 36.96,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 13120,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 222.78,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 3828.1,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 7090.5,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 113.15,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 419.05,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    }
+  ],
+  "selection": {
+    "dips": [],
+    "picks": [],
+    "counts": {
+      "universe": 0,
+      "verified": 0,
+      "passed": 0,
+      "buyOrWait": 0,
+      "heldBack": 0,
+      "dipEligible": 0
+    },
+    "shortfall": {
+      "dip": "Stock data unavailable: NSE request returned 403 for https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+      "pick": "Stock data unavailable: NSE request returned 403 for https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+    },
+    "session": null,
+    "fundamentalsDate": null,
+    "missingFromNse": []
+  },
+  "fundamentalsUnavailable": "Stock data unavailable: NSE request returned 403 for https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+  "watchlist": {
+    "dataDate": "2026-11-20",
+    "entries": [
+      {
+        "symbol": "POLYCAB",
+        "pickDate": "2026-11-18",
+        "status": "Active",
+        "price": 7570,
+        "weekly": null,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "POLYCAB",
+        "pickDate": "2026-11-19",
+        "status": "Active",
+        "price": 7570,
+        "weekly": null,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "INDIAMART",
+        "pickDate": "2026-11-20",
+        "status": "Active",
+        "price": 1538.1,
+        "weekly": null,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "PAGEIND",
+        "pickDate": "2026-11-20",
+        "status": "Active",
+        "price": 31020,
+        "weekly": null,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "KPITTECH",
+        "pickDate": "2026-11-20",
+        "status": "Active",
+        "price": 519,
+        "weekly": null,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "SUZLON",
+        "pickDate": "2026-11-20",
+        "status": "Active",
+        "price": 36.96,
+        "weekly": null,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "DIXON",
+        "pickDate": "2026-11-20",
+        "status": "Active",
+        "price": 13120,
+        "weekly": null,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "BLS",
+        "pickDate": "2026-11-21",
+        "status": "Active",
+        "price": 222.78,
+        "weekly": null,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "KEI",
+        "pickDate": "2026-11-21",
+        "status": "Active",
+        "price": 3828.1,
+        "weekly": null,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "GILLETTE",
+        "pickDate": "2026-11-21",
+        "status": "Active",
+        "price": 7090.5,
+        "weekly": null,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "IEX",
+        "pickDate": "2026-11-21",
+        "status": "Active",
+        "price": 113.15,
+        "weekly": null,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "HINDCOPPER",
+        "pickDate": "2026-11-21",
+        "status": "Active",
+        "price": 419.05,
+        "weekly": null,
+        "reason": "NSE close at or below buy-below price"
+      }
+    ],
+    "picks": [
+      {
+        "date": "2026-11-18",
+        "symbol": "POLYCAB",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-18",
+        "symbol": "CAMS",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-18",
+        "symbol": "ECLERX",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-19",
+        "symbol": "POLYCAB",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-19",
+        "symbol": "CAMS",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-19",
+        "symbol": "ECLERX",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-20",
+        "symbol": "INDIAMART",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-20",
+        "symbol": "PAGEIND",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-20",
+        "symbol": "KPITTECH",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-20",
+        "symbol": "SUZLON",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-20",
+        "symbol": "DIXON",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-21",
+        "symbol": "BLS",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-21",
+        "symbol": "KEI",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-21",
+        "symbol": "GILLETTE",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-21",
+        "symbol": "IEX",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-21",
+        "symbol": "HINDCOPPER",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-22",
+        "symbol": "JUBLINGREA",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-22",
+        "symbol": "KSB",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-22",
+        "symbol": "LTM",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-22",
+        "symbol": "TRENT",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-22",
+        "symbol": "HINDZINC",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-23",
+        "symbol": "BSE",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-23",
+        "symbol": "POWERINDIA",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-23",
+        "symbol": "ABBOTINDIA",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-24",
+        "symbol": "APLAPOLLO",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-24",
+        "symbol": "DMART",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-24",
+        "symbol": "CRISIL",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-24",
+        "symbol": "VBL",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-24",
+        "symbol": "NATIONALUM",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-25",
+        "symbol": "SARDAEN",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-25",
+        "symbol": "TARIL",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-25",
+        "symbol": "PIDILITIND",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-25",
+        "symbol": "CHENNPETRO",
+        "status": "Active"
+      }
+    ]
+  },
+  "recentConcepts": [
+    "Learning science",
+    "Choice psychology",
+    "Habits",
+    "Evolutionary biology",
+    "Evolutionary genetics",
+    "Decision psychology · 2015",
+    "Group behaviour · 2010",
+    "Work psychology · 2026",
+    "Evolution · 2022",
+    "Evolution · 2018",
+    "Human behaviour · 2026",
+    "Memory · 2015",
+    "Judgment · 1994",
+    "Human evolution · 2022",
+    "Evolution · 2021",
+    "Diffusion of responsibility",
+    "Endowment effect",
+    "Cognitive dissonance",
+    "Mobile internet restriction and attention",
+    "Chatbot attachment and voluntary use",
+    "Conformity under unanimous pressure",
+    "Obedience and delegated responsibility",
+    "Leading questions and reconstructive memory",
+    "Conversational persuasion and personalisation evidence",
+    "Universal human identity and cross-group cooperation",
+    "Peak-end rule",
+    "Foot-in-the-door technique",
+    "Intrinsic respect for rules",
+    "Pratfall effect",
+    "High-quality listening through follow-up questions",
+    "Implementation intentions",
+    "Sunk-cost effect",
+    "False-consensus effect",
+    "Immersive nature relaxation and subjective versus objective sleep",
+    "Relationship-focused gratitude content",
+    "Barnum or Forer personal-validation effect",
+    "Time pressure and helping behaviour",
+    "Spotlight effect",
+    "Boredom and social behaviour: registered-report null effects",
+    "Personalised social-media nudges and mixed well-being outcomes",
+    "Automatic reading and Stroop interference",
+    "Gain-loss framing in risky choice",
+    "Misattribution of physiological arousal",
+    "Sleep retention versus subsequent encoding",
+    "Smartphone time caps and post-intervention rebound",
+    "The IKEA effect",
+    "The planning fallacy",
+    "The illusion of transparency",
+    "Self-compassion",
+    "Reading subgroup results",
+    "Mere exposure",
+    "Overjustification",
+    "The illusory truth effect",
+    "Assisted performance versus independent learning",
+    "Learning to supervise AI-written code",
+    "Learning science",
+    "Metacognition",
+    "Social behaviour",
+    "Evolutionary biology",
+    "Natural selection"
+  ],
+  "trending": {
+    "checkedAt": "2026-11-26T04:15:06.607Z",
+    "source": "Google News (India edition) top headlines",
+    "items": [
+      {
+        "id": "top1",
+        "feed": "Top stories",
+        "rank": 1,
+        "title": "U.S. announces new 25% tariffs on India, second-highest in the 14 countries against which action has been taken",
+        "source": "The Hindu",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQWFOY0thSEtyVEZhM0ZieEd1SllxLVBNVzVMdW1HTF9Zdjc5Sm5jcFBHU3Z6NWx1RlVjN0xZWWZqWjNJa1QwenVCTmFuOHRkN1hBYXlIRXpmalFKNERZYTdDLWl4ZmU0THBvTWRSdmNVQ3Z4Mjh0cFJTR19iYVdCRVROVmxObDdnbmpBdW9OOVVlNnpvRlA2S193QkZ3cHhwV1lIbnpUd3nSAa8BQVVfeXFMTTNEaFZldldFYTVqS21rYVBEUnVqa2pEWTZ6LUwwQm5YZnRvSHhRUFczSWp3WWx6SGxyajViWjRpYjdjdVNCM1hWQmxrWXk0cnpySUJFTVR5TDdkWEVadlUwZmZKZWJyVmFld0hVd0pLZ2RGUWx2S0U1MHI0ZVVjUE1DczRmOE50V3NYNWNBZWFtS3c5SEZaYW80WU4tOWxSZUp3T3lLZlBLbkFmbHQ3NA?oc=5",
+        "published": "Thu, 26 Nov 2026 02:54:47 GMT",
+        "related": 5,
+        "alsoIn": [
+          "World"
+        ]
+      },
+      {
+        "id": "top2",
+        "feed": "Top stories",
+        "rank": 2,
+        "title": "Saharanpur showdown: Why Akhilesh's 1st candidate list in UP has rattled Congress MP Imran Masood",
+        "source": "The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPQ0c3azVGT1hFdXpyWG1Ea1dNbm5uS3ZGS25UNXVjdkpuekFadVRlcjBOaW1QcDBUY2xFak9nYUNIZ0lQTTFUYnJTTlZ0SEZUZURZajd0UHNoSDV0RFM4ei1BMzEzWFc1X1lKYzBsZVF3VGczR3AtbnJkc0kwMDFIb2FWZEdCanpWamVic1RGa01TZndXRVlWcWw2SDU2ejRSVW0yWGZibE15ekU0SzNjTm1CWkxhYTM4aVZVRS1COW5paGhaU2dQVmNvMy1TVERfOGpsdzAzaUVFVjluWC1pajdaSHFsd0pvLWFxOHBBb3VlQVpjWkE?oc=5",
+        "published": "Wed, 25 Nov 2026 12:15:00 GMT",
+        "related": 5
+      },
+      {
+        "id": "top3",
+        "feed": "Top stories",
+        "rank": 3,
+        "title": "Thiruparankundram | Plea In Supreme Court Seeks Direction To Light Deepathoon Lamp Using Flame From...",
+        "source": "Live Law",
+        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNbEUxekRfZnBjZ0NXYzhVUXJGcDY5UVlLdi1HOU15WG9SZUNDZ0hRQ251WUE5MGZFb1BQeUR4SG1MQWtHTXBfWXZvUWZwN255OVZoci1uVDh1N1QwWnpCTmcyZW5lV0kwYUtiSmpnd2ZSZGV0UEYxMXpvcFBPWER5QnlLR2wzRUtVV1ViNGhVSmtleVQ2UW13TkROa2ZjcmZfY2JMa1QyNDlBWEsxWU1YQ0tYZHZabzFxM0JGeGpfVHJ2QkVWVXBpWkx2d1pUOUtRb1hremdaNmpQdUQtMlNsRkpVd3NCcDBiWlkzMWdFbll6VTBJR2tqSkJRUkdEcXRU0gGGAkFVX3lxTE1nYlJZSjdGWmRkVmYzaHBHblIzUFFIN0dkeU9GQ3JpQmpNUWw0RG1LRGVOZE55TVJ3N3FVNkJ0VndYU3dreVlkY3R5RjFTQzJ3MnJvRTBpVlZnTVdBUHVCTnFTdEJUbEJCX1g1MkJTM3ZXcUdEemZvVllNVGg3YnVrOFFYekFTd3Z5RmI5RWRPblZEM2ROMnJfT3kyZ0lyVnJSbjEzYVc1R2dGLWRzMmlVMGxKSVNqN2R2Qk4xNGE0SXl6TURrX1VNMkEzeGR2V1JNTHJORnh0YWc2ZmVXYjlnN2RDT3dNa1FjaktYTjRqR3VoOHQ5NDE2R0daTVVYN3gwVFhaanc?oc=5",
+        "published": "Wed, 25 Nov 2026 10:52:50 GMT",
+        "related": 5
+      },
+      {
+        "id": "top4",
+        "feed": "Top stories",
+        "rank": 4,
+        "title": "31 Killed, 15 Injured In Fire In Cairo's Densely Populated Area",
+        "source": "NDTV",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQVZJSnJTeXFqMWREUWJGNE13bHZJR1dILUZRRVNybXZ0UzVzQXM0VXJwYWNzbGkzOHlOMjQwemRSTFZvNmZ1LTA0OUxXZU14QTFlblhHTkZjbm45enNDajZSallMRUZpbUpRS1hiZV9zQThVYjhqMmRyS0llVVdTZm9EbF8yN0VtLUNFaHVadzVCZFlMOGc?oc=5",
+        "published": "Wed, 25 Nov 2026 19:15:00 GMT",
+        "related": 5
+      },
+      {
+        "id": "top5",
+        "feed": "Top stories",
+        "rank": 5,
+        "title": "Houthis target Saudi Arabia’s Red Sea ports as strikes escalate",
+        "source": "Al Jazeera",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdGxhOFVRbGV4VWljWVZrRGUzSlRFN2dkQVc3dkVHWHZQdUlOYmVpbEpKdVdtYkdXRFVQVG11QlJleUZOeXZyVUdCRVg0UWw1YmVNUS02WlREdUJnVnBnRlF2TUJJM2hrUlNUSHUxRmF0YzRqM2QtR01kUUhvSHZHX25XeWRNZjdrMFF0VkRlVnMxbjNQOU1YcTl0cjJCNlZueGlOeXZIONIBrAFBVV95cUxPdEhLc01XWU5iX2xIa2VMdlBiZG1icV9TR1JsTGJJTl85Vkg2N25sY2JQYTJpb0tqYnhVRENFSUN5NkQxM3NBbG45WUQwdzk5UFB1LUFLRGUyeEExUkxlcW9UdUVBU2pteWVwdV9LMDhxbWZsb2lEVExfS0JmU0s5MVVrMVFaSHpoVnpSQTlTN0lSeEROZzFQMl9DemV6MFgxRkp0V1M2M0NoQm5J?oc=5",
+        "published": "Wed, 25 Nov 2026 23:37:44 GMT",
+        "related": 5,
+        "alsoIn": [
+          "World"
+        ]
+      },
+      {
+        "id": "india1",
+        "feed": "India",
+        "rank": 1,
+        "title": "A commitment to strengthen our Constitution",
+        "source": "The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVUk2Z1JmNUdUMEk1X0szQjBIb2xDeUtLZmJ4UU9NVkZNcmZra1dqZEhmM3ZLUkROSnVKV0JCVWFPOGdoYndKU1BYY2xrd2h6Y1NEUHVxSjJOZVB4Zzd3U29UakpIdEdkZW5iYUVwZTlJdHlOOEIwTUZGUE5uZWIxOWJPYll3dXo0dWtvTWhaLW8xdURNbFFrQUlOamR6NlVVWTlmNnhZRGg2Z094TkRLbg?oc=5",
+        "published": "Thu, 26 Nov 2026 00:18:00 GMT",
+        "related": 5
+      },
+      {
+        "id": "india2",
+        "feed": "India",
+        "rank": 2,
+        "title": "CJP's Saurav Das Moves Delhi High Court After Being Stopped From Travelling To UK, Hearing Tomorrow",
+        "source": "Live Law",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxObkdNV0FMNTRaVHVRT0J1RVl1LTkweEVOUEpQeWNLcUpDVEgxa00zWnJ1YTJFR1c1dGpOQVdjQWg1RlpFb1FFYk0xekRpb1lGR3hOZnBUVXV2OEpQUzdzQ2ZKUTd5aWZxS2R2aXBoQWppeGxFMGx0bnVIVnJWS2tEZkJDZzk2Q3RRWmp2blB6Q0o5S1NQLTRVUVFOQmxNY18yT2F1cmxBbnhUZmNsMjJWTVZXamxsWTJHQ1kwbTk4eGYwVzV2a0NKbDRBNkkxUVM0ZEZNeEJjWE9GS3FlcHZuSF9mdEpFZ0lta1Mw0gHwAUFVX3lxTFBON0VhdVBqcmZVcGxNWC1IdEhXVDFJSjA4WTY2bzVVRU4tZGVoMFowdjJBeE9oamQ1bUd2R0RDN3VoNExhcW1iRE96a0J1N3U2NDEteDliS2pTT2h6azBrYWQtZk5mUEZzcElNZ0pBM3JXQUJBbXRnR2tpVWVDNkFzOG5tVUstWk5PM2hvbW5wcWUwLTY3SXBadXJ6WU5nVXE2ZFFtNmRkeHhjV05EU1hWZ2s4ZEZ3dU1CdFpIWWpaaVBsRWhHTVJ4VnFBRW9HLUljRG1wckZxNU1zTThkN3VlUHdPR0JzbHlmLTYtcTd5Rg?oc=5",
+        "published": "Wed, 25 Nov 2026 06:06:36 GMT",
+        "related": 5
+      },
+      {
+        "id": "india3",
+        "feed": "India",
+        "rank": 3,
+        "title": "Himachal man, 75, marries 63-year-old woman at old-age home where they found love",
+        "source": "India Today",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOYkNydmtKTDRlelFvcmwxSUxmY3NqdUZ6NHVPRkJMaWx2SlV2aVU0SkhhN01zRFluT2ZHemNxUXRqZDRXM2htNVJXTDF1anBON21GRlJwWGxFZTZreGs1M0xBd0ZwclRMRkI5cjl0MnpRV3V1eXBwdnBQTWVfLU1iNXhqZHhGN3ktclZyUkN2R0xCSzhfLW1rUWtWS2ZYS1BwLXM4X0NvazFLR1FWYXM4cmVpN0pXRnV0VnNZTUxkTnQ4ZEd6dEFHYkJoYkxoRkdKUTdiekRLQ1hyTVQ20gHiAUFVX3lxTFBtRUxNQThTa1BTN2lVbEFPNHE2a21tZ1lPQjF2Qm1iVFZUcUZRV1o2b0E2dkpXUUd4OVN1X0RPdUtncFdmcDJ1b1FISDl5UnVVeUxkVjQtSHV5Q2lpeFg5S2VSdjVncDVlaGZOV0l4QWtMQWdxXzlpZXRpd011U01MRE1kbGhSdXBsQzBYWktQajAtVVRtNER2M0ZndERob1B2M2M0T184WTd1cE9FZ2RWZjl1ay0xUHhFNk82b01Md2d2bFFTLXlvV21WbTZFZjBRS2JCN1hqNGZzd3ZWaTZONkE?oc=5",
+        "published": "Thu, 26 Nov 2026 02:42:32 GMT",
+        "related": 5
+      },
+      {
+        "id": "india4",
+        "feed": "India",
+        "rank": 4,
+        "title": "30 missing terrorists from Reasi exfiltrated to Pak for arms training, disturb peace in India: DGP",
+        "source": "Greater Kashmir",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZmU2c2lQQ1V3ZllPYzVZUDZsWjA4X1NSZ3dfQnJ0OGlzNU9SMFBSQWVKbGVJQ0xzTU5aeWp1X3ZUazdnRGUzVXdIS1lleDRfM2NpbjlNX245VlRLamZldi0xQ05EY1M3OFBNTHljVHU2M0s2V29rNFRtb2l0X2JVSFNNNU4zNnZGTV9WbmktcDBvWXhFR0ltRUU2ekQtQzhUcjVuQ2c1MC1BUjFKSVZJTjFHQlpSejluU3AxMGxQTHFDWWdwU2ROSHZ1N2FWTnpVSHNSWHF4ZWE2UdIB3wFBVV95cUxNbmN1aEoyYTMxcko5YVhTcVREV2NsbFRieEUwWTFmVkRRTnJzdU40MkZZbWJFNnphc0NPeGRKLVNpLW1kTTNwWFlUOUdteHpwaU5TRkc1ZWFCYmZyY0RNMjdWZ2FpY2x2M3ZmQkQxY3JLbFp3bE1zenR5eWNzNXRYNGhvMk8tUVJfMUc5V1phYUZTdmI1QzJwX3cyeXVvejJpaU9rTEhTMTM4eGJndkVidkViMjRzNS0xTVhZQWdNZVBXSXBmNVl2TnBnaUJycEZfeWt6aGUxNGN4endxYl9Z?oc=5",
+        "published": "Wed, 25 Nov 2026 11:42:25 GMT",
+        "related": 5
+      },
+      {
+        "id": "india5",
+        "feed": "India",
+        "rank": 5,
+        "title": "No active local militants in Kashmir Valley, but hunt for 65 Pakistani terrorists underway: Report",
+        "source": "The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPeGZDWmhCTnlxd3pZSG1acFNyUUtFNC1hSm5qRnVGTFJ6OVJLSkQzOU52LTNZUDI3THNrdWlZU2xQVGFxemx3bWt0R0U3aVZaYjd4bGZIWjlWdk42S3VIRTRWeTVOaVdCeVMwUlNqLVg5djNEZmhjLWwydDVhV0lUeGVXZ1FsSXBXQUVFQ1pPU1l6dFluQl9mTGcwNDQxRFpzRzNGQ3p0ZWFyOFZKSWhnbmd2WGVaYzk0c0lZX21TcFF6Z2dIVXc4ZFlXdHdxZE8zZjVUei1jVHVoTU1qVmdBLUV2UVFPMTcxQzI1dmNfTk11Wk4ybWhj?oc=5",
+        "published": "Wed, 25 Nov 2026 12:19:00 GMT",
+        "related": 5
+      },
+      {
+        "id": "world1",
+        "feed": "World",
+        "rank": 1,
+        "title": "Todd Blanche declines to confirm if Nvidia’s Jensen Huang was investigated",
+        "source": "Al Jazeera",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVDIxbzNxWUNGNnJadWZraU55OTBYTFcybDFUWXFsaWZTNmE3b2laOHRxVTRVRjU3S1BqV2phdVFrQ0lOSTNaNmRpeFQwOXlicjZXa19WNjNkaFl6dWRPc09seHE5ZFNHdVVpeFdaSnJUZ29mSmM3T3V2bGxrTmRGb1J0YTFsdUJzd3hnSTBSUTgwQl9qLVU2NGt5MnB6N2FhTXJmYUpLcnVZcVRWOG9ybnJfejhDQdIBuwFBVV95cUxNNTFPMjhmbk5DNkEyWV9HZVpSQ0VVak5QbUVhelBwWEJQWk00Vzlvc1NsQk5kWEY1b2U3UG5MVjBIR2pWRjZreUxHdjVhd1FTMlhxU0M4dFpJbUVWb3BHRHJRMkpjajFLWXJVbTVIMnlYQmk4eV9QSG9YR0VaNXNhM3p5OGlrbGo4Uk5XY3RjQ3pTVXdTQ3IzNTZrUWhfaDE5NE1BVVBNRWdJTjlVa2tJcWNoTWcyRlRIMGFV?oc=5",
+        "published": "Wed, 25 Nov 2026 01:34:17 GMT",
+        "related": 5
+      },
+      {
+        "id": "world2",
+        "feed": "World",
+        "rank": 2,
+        "title": "Malaysia regulator seeks $146 million damages from Google over 'harmful' content",
+        "source": "Reuters",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTE14N1VWUVJlZHQ1QW1ZcDlhOF8ybW5qTlg3VFUyN2x3NkNrdng0SlZaR2kzLVlMT08wN3ZxdWZhTW1Sako5LUE2ZFhxZzdrNllScjdfazh6eFIzN3NmYU9RTmQxTXlpTUNXblQtTjM3eXhNV2FJcWQ5VFpCUHpvUWdNWEsxaVBhVlZVZHVaMGYxb0pFOWVNZGg1cG16MWE5Z2RjanljM2MyTWw3YVNTMmZFZ3hET2E0UW1XVjh3OTdpUnpK?oc=5",
+        "published": "Wed, 25 Nov 2026 05:44:00 GMT",
+        "related": 5
+      },
+      {
+        "id": "world3",
+        "feed": "World",
+        "rank": 3,
+        "title": "US Army blows up tons of bomb-making chemicals in Iowa, plumes of smoke seen in sky",
+        "source": "India Today",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQ1gxZFBJbHlITER1WktOdHpGbW13eUVSRk9VWVBNdU1vT1dwTENKS3JzMjR3d2E3Yi10eThmNlNWWHhGbmMxRGphMEJ3eHU4SG9pRDlSdmhmZ2JhN21TRGEwelJyTUNpa0p4MXFabmE2aHQ1YkozZGxNTk1lWkc4ZW5DTlIyeGI0RnpXbjhSRkE2YWU4Sjd6NzdRSGhlZU9yR2RRWTkzZjRWMUszOVhLNGp5STZYcGRRNDZhLWk2R1dKUld1SkFBZ3NqaUg5U2otNkNVSGZhR1U3dlNu?oc=5",
+        "published": "Wed, 25 Nov 2026 15:06:11 GMT",
+        "related": 5
+      },
+      {
+        "id": "world4",
+        "feed": "World",
+        "rank": 4,
+        "title": "Climate summits need radical reform – here’s how to transform global negotiations",
+        "source": "The Conversation",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa25MSnd6N3Z4bnZURkJ1UnRacm9xcndVNUhkMUExdl9LY04wU1M4cUJWRDh4blhKeE81Z1pGVXpDT0Zyak1oZWt6S2xJeHhtWWdfRGxlTDVieVBORXlhSEFCRkxfb21lQmdLUFozbkk3ampucUFXZlU4VXJVZi1xNzNqS204TDY4Zy1EeWpGWnE1NzhSUzN1WkNZMV9oaW5ULXMyV2paQ0JobjVNRmJXSEJMQQ?oc=5",
+        "published": "Tue, 24 Nov 2026 15:59:50 GMT",
+        "related": 5
+      },
+      {
+        "id": "world5",
+        "feed": "World",
+        "rank": 5,
+        "title": "Amid politicized debate in US and Israel, Katz warns Iran developing chemical weapons",
+        "source": "The Times of Israel",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNa0lITlFRa1hhYzBfVHFLZTljR1ZKZ1N4eHRXbm05V3Q3b0VVTWtBcXBKZnEzcDJqckJyVG9LdVJrQmxVVVVudERwYk9kamotMUJqTklsSEstWHBTUHRYWVc4R2xoMWhSNWJEQnRvMm1QOV9zd25JWWtPRGlOeWFmQkR4X19OcUJLcno2MENscUtxcUJiMXFKM0ltdHAxV1NwQnpEV1NNSFFqMVVRc1ZXR2E2bjdLUdIBuwFBVV95cUxPT1NHSUdwTDZ0NFVpZHZha2gyalU0dGk0aEotSWNNcDRfMW41QWkwQ2pHX2NxeGt4dllyX2JJRXMyY21RMDdLRHZIZlZaUFBYT004ek14T1Fib2RsUDR4Y2oxYmppdm9GeS1lSDUxcWlYeXFza21VbldjbXJEOGh0UWx4eUJDYlVIVmtpUW9KV285emdFRm9SalRBX0tvZHoyTXdUMEpHMGx0WEZ2czhUMzZHRm51M21qTHQ0?oc=5",
+        "published": "Tue, 24 Nov 2026 17:05:00 GMT",
+        "related": 5
+      },
+      {
+        "id": "business1",
+        "feed": "Business",
+        "rank": 1,
+        "title": "Stock Market Highlights, November 25: Sensex surges 1,502 points, Nifty reclaims 25,800 as rupee hits eight-month high",
+        "source": "BusinessLine",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeVRqeE9tV1V3RE9xTm5TRnZnd2hNUkRleld1VjRsTEpFN25zTWhOUDcxNU95OWVqUFU0OU54bEdYNmNTZ1N1eU5veTVTbEU2RGhYUU1BZGJiRVA5Q2xBOWlBamZMRXlncHhScmFrNnNlemNwV3AxYWhhRHVnazhiTmhUYXFPdE1CN296NzdFLXhBbkZjTmRKOG9oYjlja2ozWC04UjNSQ1d6QnBTUkxxSUdEQWYtSVVKblI1ZXBNVjlWNFdobWF30gHOAUFVX3lxTE8wU25yb0dlNmhNbXUtRE5fX0xvNGNOWlh0RkZMYU8yd2tIOF9vN0V0U0pjTnVWWVVETF9yQkNnXzB5YkFTcG0wTkVHNElWMU1Sak4xQzZseC1DUEZ6SFdxRzhrSDlDYkl4OUprQnhVN01oQ3drU2JVMkNzSTA5YjRzZzZJWGdtUXpRb0cxUExZVjlDVHpULWE2blV5b0ZoenBSQ3U3U3FOZHRweWFzQTZ1ZTBZYkdCV3U4WDJrS2Vpd1lvbmJlemxPMTJ1VkNB?oc=5",
+        "published": "Wed, 25 Nov 2026 10:45:47 GMT",
+        "related": 5
+      },
+      {
+        "id": "business2",
+        "feed": "Business",
+        "rank": 2,
+        "title": "Stock market outlook today,26 Nov:Sensex, Nifty prediction-DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
+        "source": "Livemint",
+        "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNYmNwMTNDSm1icWFya1loeFM5eXZLZ0t3V2FyWEkxRzBEc0xPbGdjZ1VxR3UyMjkxUUxtX3NvR05OU0ZNc205VXNGZ2ozOHA0X2RCUkh5QndRRVhFRVNVdHRHaEpGQ3NYbWU0emNScDFWOUlwem1Wd0FvbUhhU0wwOFU4QjNyTGxMXzRwLUVVNlJGenA3akhxT2dkZ1UtMU16RFhYMUVqaEhtM3oyS2NkV2NKMGJYc1FJUVREWTNpOVo0aUhPYUdNOXN3TTlqZXBHVUtITFh2Q3dndVROcFRNSGhKNnE1bC01bTFMYXpTMFNEaHpHWWRwcTRmaGl3emlzalc5UkM1bjZJbUnSAZACQVVfeXFMUG53Z2JheTNrY05QWUZYY2Y5bEdoN2hWcjJ3ZFNHX09GYmRfZE1ma09QYmhNdTdzaHdXcUMwU0IzNHNtLVNaYTBKX1R3djFsamxFUUhiVzY5S3dtV1RrdDMtb2ZUcV9KYWQtbmVIMmwtbjJwT3F6WDVBTVc5d2Z2UTJ4T1lVSnVzakRQbFBpeEJwT1NoQUNreXI0RzI4dktjRDdmUlZUaFZoSTdDOU5ac25zSXlSOGtvVVFnZWx5ZjMzS0xGaW9iZDBJZ0R6djNudG5wWlNJbUl3c3kwWVc3WVhMTHFzZ1BNSmdxeGthUjlXNklKWGxObk5WV3VuWk44X0szeXkwUDN4NF9lUTJ1bmg?oc=5",
+        "published": "Thu, 26 Nov 2026 01:08:13 GMT",
+        "related": 5
+      },
+      {
+        "id": "business3",
+        "feed": "Business",
+        "rank": 3,
+        "title": "Nvidia's Jensen Huang says he is in therapy as comeback rally fades",
+        "source": "The Hindu",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRUVDaGNpcDdfWkJ0ZEpvTXRkSmNxVm5Ha1hZbjZSRnRvOWRRaFB6cWNxNU5odTl5dl9lT19LenRFaVA2ZUFpR1RsZjBqdTVjcTJOTFp0ck9HU3BVb3loUVVmczhLN253WkhNRUlfUjdxelJYNnk5dW1QQTFndkJhem1hb2VJb1JFSGstVUxXLVNodlVfUEZtWnlYa1FaZVE5YzFMZHlfazl2MGNSZGdMcHFtUGNXbG1BYWs3UTBiMnhmakJodURoRzN3?oc=5",
+        "published": "Wed, 25 Nov 2026 01:37:07 GMT",
+        "related": 5
+      },
+      {
+        "id": "business4",
+        "feed": "Business",
+        "rank": 4,
+        "title": "The Man Who Called the 2008 Crash Has Turned Bullish. Here's What He's Buying",
+        "source": "NDTV Profit",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQeE8zYzRTNHBNSlhqMHB5ZzJWNV85MF80WDNkR0N5SWlLVE13YWQwVXpHT1c1cW9xMGhqNmMtaVk0OFpjNlRvWkt3YlMyYk1lMWZvSUpna1pTX3VCUTVCZ3dwOHFzRmQ0THBUY2hodFZpNGY2SjNhNnBvbXpSSmZyRkZvalJxSi1QcURrN3NXcXpDN3EyemM5WFhDQ2pYTkJiaVNxVmpjV3hSSi1IVHdaaTZzOWpodm5Ld1RXQklGUW5lRDhSX2V3V0gzSTJLUdIB1gFBVV95cUxNUWoweEh3MHFVUGxlN29CLVBKdnFsQUg3VHhhMldmV0VXX0hvUnVwVjFvRDZBcWJIVlRkbVRtZkhJSDU4WkV1VlM5eENsLTZjazZ6WUpEbHJLRTJJZXNkRGd4eXNwWHJBMGVLaC1xU1BEaGxDSnpvWUNVVmVkZDJ1LTVTS3UyN1ZtTXhsdmZJc1otRE5aRTUwQlFqVnkxTU1VZkllemVkOGhWVk5RblNJdndQc3FxdUhuWWtaT1RWYWRmdEstVWo3XzgwRmVwRXh5SnRpbnln?oc=5",
+        "published": "Thu, 26 Nov 2026 01:35:50 GMT",
+        "related": 5
+      },
+      {
+        "id": "business5",
+        "feed": "Business",
+        "rank": 5,
+        "title": "US approves Musk's SpaceX plan to deploy 1 million satellites for AI data centres in space",
+        "source": "The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOZGNpSHM4clNhWklaR2wyNjZQZVN0dnNQVjllZ25oNUJvTHhWblFDS29iazNLS2VQUHFsZ3BOWWI0Q3NwTXdrbGNpV19RbGo5QzVTZm1oUldKbnJSTm1VR1dWQ05ubzFuSElrY3hpX1l2WjM5cGo0aHZ3cWNoTS11d1VjazNTUGh4UFRTRnhOQXRpODJmRUVSR20wQTlPRDkyOUJqRTlxS2FUU2w5NDk1djBnWmdkampGM3FIcnh5cE1NbENZRjBCdnhzY05jaFB1cWhkN2I2U1RwWS1zTlRiY01qVmEtbHR3bzRXQy1kbjNWTmJvTmQ4eXh3eFJnemk5T29YVzlTejU4aXZ2RHdJaA?oc=5",
+        "published": "Thu, 26 Nov 2026 01:59:00 GMT",
+        "related": 5
+      },
+      {
+        "id": "tech1",
+        "feed": "Technology",
+        "rank": 1,
+        "title": "Wordle today: The answer and hints for November 25, 2026",
+        "source": "Mashable",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBPZ1pqQUhTM2Roby1sSkhIM2RaWW9yWjROVl91TjdycDI4cEFlUnVISF9udlJPMTB5ancyaFlsMmlUNlJVdXcxNnd2VWZGeXA1WDY4UGdzMEFDMGhxbTFjRHRqSXBaRjFObW15X21LTDNsM1VVVGRlYTh3aw?oc=5",
+        "published": "Thu, 26 Nov 2026 03:30:30 GMT",
+        "related": 5
+      },
+      {
+        "id": "tech2",
+        "feed": "Technology",
+        "rank": 2,
+        "title": "Samsung gives Galaxy Watch 8 new features including Heart Health Score and Sleep Apnea monitoring",
+        "source": "India Today",
+        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNeHFPQWlzNjZfWUNIakFWaVZ0Q3JGclRjUFVOZnc1MUl5Z3BzdGg5bEIwMFVuanBTV096UF8wcl94MHpNandEZWJwMk5kODRqNGhVVm4yX1dUUWU2UGplV2RHTG93SnV3YUZ3ZjZlUHJySHRHd3lKNzdTcmR4RlZTYnlvTDZEb0JIdGhyZTAwSXV3SmJaM2d4QWZzTkxKNzNFazIxYzNCXzB5WnZPa1I4dG5mRXhuUUhIU2dBMldsLVpZNXZtTHM5VDRVRzVncnhrbThNMDFFRjJ3c1VROG83SlpaaEJub2J6WkFHcWJhWG4ydTBZS2Rv0gH8AUFVX3lxTE1YRFBIVHZtRzdoeGNwSGhRX2JBOUltWHhIQzd4aU9sTkpMNGYtLVV6MFpvb0dBaFdZLXlNZnpPUEN0X0duellKdHhtYVJ1d2xZelcycTN3aDVhNjIxYlEzQ2RUQVZjekNWRnp1RWczd2VTLTdWWXlqMUhoUlFwcERlWWR1cThNaDJEd29DY0NFaTlKaUpMWjladFBKbzFlcFZFQ2ZSRzhtMTNLbUpyRndEYmI0S21zYVhGTXZjMmVCYVhqVE84V1N1TFAyTi1LeDlMWGhkbllrUzc1d3pXSWJuaGFnR0FCY2tubF9MZ09HUlRWd0E2bnJUWG9HVg?oc=5",
+        "published": "Wed, 25 Nov 2026 14:22:30 GMT",
+        "related": 5
+      },
+      {
+        "id": "tech3",
+        "feed": "Technology",
+        "rank": 3,
+        "title": "'Grand Theft Auto VI' lives up to the hype as a global phenomenon",
+        "source": "Yahoo",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTU13OFprUDRyZ25YdzlWeDJzWWYzemJBVWV1OGtXSk1DRl9aTS1EdWlfSGNqRlNuR0ZyU3hYVzdlcVlnTzBidkowa05KNHZ4NDc1UE9LR2FUQWtJTGRNTGFkSFRhS1ktQk1Kcmhva2NFY05fT1REVHM5MEZyTll0Y1Fjalk5dzd5VXR2R2NKMENFMjZQQnQw?oc=5",
+        "published": "Tue, 24 Nov 2026 15:59:23 GMT",
+        "related": 5
+      },
+      {
+        "id": "tech4",
+        "feed": "Technology",
+        "rank": 4,
+        "title": "Pelvic Radiotherapy Linked to More Early Bowel Side Effects",
+        "source": "EMJ",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeUZBN1BKNkNvd2lKblhnLU5NVDFYTktCWWlyekV0Sl83OTFHazJBeWJnUmxmVDJkSHg1NC1xMUFvclQzVDFwczZaV1ZwNHdZOVFOVmhKR3QxQUFTdTZqalNqYW0zSXVQanljWTZUalVCY0l0M2M4bkhTNW81a095UzJXRVRoVG9xOUlIWC1HYkc3Z0pZb2dmVEpNdVpIUUtHQnFv?oc=5",
+        "published": "Wed, 25 Nov 2026 12:01:41 GMT",
+        "related": 2
+      },
+      {
+        "id": "tech5",
+        "feed": "Technology",
+        "rank": 5,
+        "title": "GTA 6 Draws 39 Million PS5 Players in Four Days, Sony's Biggest Launch in 30 Years",
+        "source": "BigGo Finance",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5KUnFiM3BCaXplSklfZ2JIOGtYX2JINWJXTFI5NGJFXzk0X2tLM0ZEdjBGUjNsYmNqUUxYbkt2aEtqa240bG5CVjNGa2U2Um45RmktNzlheWxPSWFtS1FLWVQ2MlBlcDhndEtnV09ObDZVSWdxWmc?oc=5",
+        "published": "Wed, 25 Nov 2026 01:45:00 GMT",
+        "related": 0
+      }
+    ]
+  }
+}
