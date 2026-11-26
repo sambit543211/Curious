@@ -1,0 +1,2247 @@
+{
+  "version": 2,
+  "stockLayout": "dip-quality",
+  "date": "2026-11-26",
+  "publishedAt": "2026-11-26T04:43:28.203Z",
+  "publicationMode": "late",
+  "top3": [
+    {
+      "cardId": "2026-11-26-tariff-rates-proposed",
+      "line": "The US proposes India tariffs, including a lower rate if a deal is reached."
+    },
+    {
+      "cardId": "2026-11-26-saudi-oil-escalation",
+      "line": "Saudi oil-infrastructure attacks widen the risk to supply and shipping."
+    },
+    {
+      "cardId": "2026-11-26-us-growth-inflation",
+      "line": "Strong US growth and stubborn inflation complicate the rate outlook."
+    }
+  ],
+  "stockSelection": {
+    "session": "2026-11-25",
+    "fundamentalsDate": "2026-11-21",
+    "counts": {
+      "universe": 493,
+      "verified": 493,
+      "passed": 69,
+      "buyOrWait": 59,
+      "heldBack": 27,
+      "dipEligible": 0
+    }
+  },
+  "sections": {
+    "india": [
+      {
+        "id": "2026-11-26-tariff-rates-proposed",
+        "rank": 1,
+        "label": "26 Nov 2026",
+        "headline": "US proposes India tariffs, with a lower rate for a deal",
+        "summary": "Washington has moved from reports of new duties to an official proposal. The US trade office proposes tariffs of up to 25% on Indian goods, with exemptions and adjustments. It also proposes 17% if an acceptable trade agreement is reached. India disputes the excess-capacity accusation and says talks should address the concerns. Proposed rates are not proof that customs has begun collecting them.",
+        "why": "This uses a trade-law investigation into industrial policies, after the earlier emergency-tariff route faced a court setback. Manufacturers now need to understand product exclusions and interactions with existing duties before they can price the effect.",
+        "soWhat": "Exporters and their suppliers should review contract terms and the final product coverage before changing shipment prices.",
+        "take": "The official detail matters more than treating every export as equally exposed.",
+        "watch": "Check the final notice, exemptions, effective date and India–US negotiation outcome.",
+        "terms": [
+          {
+            "term": "tariffs",
+            "meaning": "Taxes on goods entering a country"
+          },
+          {
+            "term": "excess capacity",
+            "meaning": "Production capability beyond what demand can absorb"
+          }
+        ],
+        "image": null,
+        "photo": "Office of the United States Trade Representative",
+        "sources": [
+          {
+            "label": "tariff",
+            "url": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "tariffnews",
+            "url": "https://www.reuters.com/world/india/us-cap-india-tariff-17-if-trade-deal-is-reached-ustr-says-2026-11-25/",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "policy",
+        "keyNumber": {
+          "value": "25%",
+          "label": "proposed upper India rate"
+        }
+      },
+      {
+        "id": "2026-11-26-up-candidate-friction",
+        "rank": 2,
+        "label": "26 Nov 2026",
+        "headline": "SP’s candidate list turns alliance talks into a public dispute",
+        "summary": "Uttar Pradesh’s opposition alliance is facing a practical test: who gets to contest which seat. Wednesday’s reporting describes a Samajwadi Party list naming candidates for seats Congress also wants, including Behat and Saharanpur. Congress MP Imran Masood has publicly objected. This advances yesterday’s seat-sharing story from a negotiating offer to an actual candidate announcement; it does not establish that the alliance has collapsed.",
+        "why": "Parties can agree on opposing the same rival while competing for local organisation, supporters and influence. Announcing candidates early strengthens a bargaining position, but can make later compromise harder for local workers to accept.",
+        "soWhat": "For voters, the meaningful comparison is the final candidate list and joint programme, rather than the latest angry exchange.",
+        "take": "A workable alliance needs local agreement, not just friendly national photographs.",
+        "watch": "Look for a joint seat agreement or a revised candidate list.",
+        "terms": [
+          {
+            "term": "seat-sharing",
+            "meaning": "Partners agree which party contests each constituency"
+          }
+        ],
+        "image": {
+          "url": "https://static.toiimg.com/thumb/msid-136161038,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+          "credit": "Photo: The Times of India",
+          "alt": "Saharanpur showdown: Why Akhilesh&#x27;s 1st candidate list in UP has rattled Congress MP Imran Masood",
+          "sourceUrl": "https://timesofindia.indiatimes.com/india/saharanpur-showdown-why-akhileshs-1st-candidate-list-in-up-has-rattled-congress-mp-imran-masood/articleshow/136160781.cms",
+          "auto": true
+        },
+        "photo": "Uttar Pradesh Legislative Assembly",
+        "sources": [
+          {
+            "label": "election",
+            "url": "https://timesofindia.indiatimes.com/india/saharanpur-showdown-why-akhileshs-1st-candidate-list-in-up-has-rattled-congress-mp-imran-masood/articleshow/136160781.cms",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "policy"
+      },
+      {
+        "id": "2026-11-26-flipkart-leadership",
+        "rank": 3,
+        "label": "26 Nov 2026",
+        "headline": "Flipkart names an interim leader as Kalyan Krishnamurthy leaves",
+        "summary": "Flipkart has announced that chief executive Kalyan Krishnamurthy is leaving after more than eleven years with the company. Chief product and technology officer Balaji Thiagarajan and the board will oversee operations in the interim. A permanent successor is expected in the coming weeks. The confirmed development is a leadership transition; reports connecting it to listing delays should not be treated as the company’s stated reason.",
+        "why": "An online marketplace balances seller relationships, delivery costs, product investment and competition from rapid-delivery rivals. A leadership handover can change priorities, but the appointment alone does not tell us which teams, services or spending plans will change.",
+        "soWhat": "Sellers and employees should track concrete service and policy announcements, rather than assuming an immediate operational change.",
+        "take": "The successor’s priorities will matter more than speculation about the departure.",
+        "watch": "Check the permanent appointment and any disclosed changes to operating plans.",
+        "terms": [],
+        "image": {
+          "url": "https://images.moneycontrol.com/static-mcnews/2022/09/Kalyan-Krishnamurthy.jpg",
+          "credit": "Photo: Moneycontrol",
+          "alt": "MC newsbreak confirmed: Flipkart CEO Kalyan Krishnamurthy to quit; Balaji Thiagarajan to become interim CEO- Moneycontrol.com",
+          "sourceUrl": "https://www.moneycontrol.com/news/business/startup/mc-newsbreak-confirmed-flipkart-ceo-kalyan-krishnamurthy-to-quit-balaji-thiagarajan-to-become-interim-ceo-14088729.html",
+          "auto": true
+        },
+        "photo": "Flipkart",
+        "sources": [
+          {
+            "label": "flipkart",
+            "url": "https://stories.flipkart.com/announcement/kalyan-krishnamurthy-to-leave-flipkart-after-more-than-eleven-years-with-the-company",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "flipkartnews",
+            "url": "https://www.moneycontrol.com/news/business/startup/mc-newsbreak-confirmed-flipkart-ceo-kalyan-krishnamurthy-to-quit-balaji-thiagarajan-to-become-interim-ceo-14088729.html",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "business"
+      },
+      {
+        "id": "2026-11-26-constitution-passport-rights",
+        "rank": 4,
+        "label": "26 Nov 2026",
+        "headline": "Constitution Day puts travel rights and court compliance in focus",
+        "summary": "India marks Constitution Day as two live disputes test legal procedures. Saurav Das has challenged a restriction on his UK travel; the government cites a passport discrepancy. Separately, the Supreme Court has asked parties in the Thiruparankundram lamp dispute to file formal contempt petitions. That means allegations must be examined through proceedings, rather than treated as established disobedience. The cases have different facts and should not be conflated.",
+        "why": "A constitutional promise becomes practical through notice, a chance to answer and independent review. The Prime Minister’s Constitution Day message calls for commitment to those values. The useful question for readers is how the institutions apply them in concrete cases.",
+        "soWhat": "Travellers need accurate documents and timely responses to notices; residents need clear, lawful directions from authorities.",
+        "take": "The value of a legal promise lies in its fair application.",
+        "watch": "Check today’s travel-case order and the next written Deepam directions.",
+        "terms": [
+          {
+            "term": "contempt",
+            "meaning": "Court proceedings over alleged disobedience of judicial authority"
+          }
+        ],
+        "image": {
+          "url": "https://static.toiimg.com/thumb/msid-136175347,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+          "credit": "Photo: The Times of India",
+          "alt": "A commitment to strengthen our Constitution",
+          "sourceUrl": "https://timesofindia.indiatimes.com/india/a-commitment-to-strengthen-our-constitution/articleshow/136175334.cms",
+          "auto": true
+        },
+        "photo": "Delhi High Court",
+        "sources": [
+          {
+            "label": "passport",
+            "url": "https://indianexpress.com/article/legal-news/cjps-saurav-das-moves-delhi-hc-after-being-stopped-from-flying-to-london-10977820/",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "constitution",
+            "url": "https://timesofindia.indiatimes.com/india/a-commitment-to-strengthen-our-constitution/articleshow/136175334.cms",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "LiveLaw · Deepam procedural direction",
+            "url": "https://www.livelaw.in/top-stories/thiruparankundram-row-supreme-court-declines-to-take-suo-motu-contempt-asks-to-file-contempt-petition-559869",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "society"
+      },
+      {
+        "id": "2026-11-26-cross-border-militancy",
+        "rank": 5,
+        "label": "26 Nov 2026",
+        "headline": "Kashmir’s security assessment keeps the cross-border threat in view",
+        "summary": "Jammu and Kashmir police have described a cross-border network involving men originally from Reasi. Police say they operate from Pakistan and support militancy through arms, money and recruitment. Separately, the police chief approved attachment of land linked to five alleged militants. Reports also distinguish the absence of active local militants in the Valley from the continuing hunt for foreign militants. These are police assessments, not court findings of guilt.",
+        "why": "A fall in local recruitment does not settle the question of outside support. Authorities are also targeting alleged financing routes, because a network can support violence without every member being physically present in the area.",
+        "soWhat": "For residents and businesses, follow district security instructions and actual incident trends; a single headline is not a complete travel assessment.",
+        "take": "Measure security by sustained reductions in violence and recruitment, not one headline.",
+        "watch": "Track court review of attachments and subsequent official incident and recruitment figures.",
+        "terms": [],
+        "image": {
+          "url": "https://cf-images.assettype.com/newindianexpress%2F2026-11-25%2Fguka1b8s%2F202610293995310.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+          "credit": "Photo: The New Indian Express",
+          "alt": "Photo | IANS",
+          "sourceUrl": "https://www.newindianexpress.com/india/2026/Nov/25/jk-police-chief-attaches-29-kanals-of-land-belonging-to-five-militants-operating-from-pakistan",
+          "auto": true
+        },
+        "photo": "Reasi district",
+        "sources": [
+          {
+            "label": "reasiland",
+            "url": "https://www.newindianexpress.com/india/2026/Nov/25/jk-police-chief-attaches-29-kanals-of-land-belonging-to-five-militants-operating-from-pakistan",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "reasi",
+            "url": "https://indianexpress.com/article/india/jammu-kashmir-police-dgp-nalin-prabhat-reasi-terrorists-pakistan-land-seized-uapa-10978040/",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "ANI security assessment reported by The Times of India",
+            "url": "https://timesofindia.indiatimes.com/india/no-active-local-militants-in-kashmir-valley-but-hunt-for-65-pakistani-terrorists-underway-report/articleshow/136161069.cms",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "wildcard"
+      }
+    ],
+    "world": [
+      {
+        "id": "2026-11-26-saudi-oil-escalation",
+        "rank": 1,
+        "label": "26 Nov 2026",
+        "headline": "Saudi refinery attacks widen the risk to oil and shipping",
+        "summary": "Yemen’s Houthis claimed an attack on Saudi Arabia’s Ras Tanura refinery on Wednesday. Reuters reported smoke in satellite images and confirmation from a source familiar with the site; Saudi officials had earlier reported intercepting drones. Threats and reported attacks also involve Red Sea ports following Saudi-led strikes in Yemen. The extent of damage and lost oil output still needs clear operator confirmation.",
+        "why": "Oil infrastructure, export terminals and ports connect civilian livelihoods to a widening conflict. A threat can raise insurance and shipping costs before any sustained supply loss is established. Damage claims and actual export disruption must therefore be tracked separately.",
+        "soWhat": "India imports much of its crude. Persistently higher oil can pressure fuel-related costs, company margins and the import bill.",
+        "take": "The decisive issue is sustained lost supply, not the loudest military claim.",
+        "watch": "Check Aramco’s operating updates, port movements and the next confirmed export figures.",
+        "terms": [
+          {
+            "term": "refinery",
+            "meaning": "A plant turning crude oil into usable fuels"
+          }
+        ],
+        "image": null,
+        "photo": "Ras Tanura",
+        "sources": [
+          {
+            "label": "houthis",
+            "url": "https://theprint.in/world/yemens-houthis-claim-attack-on-saudi-arabias-largest-refinery/3109257/",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "ports",
+            "url": "https://www.reuters.com/world/middle-east/yemens-houthis-threaten-target-jeddah-other-saudi-red-sea-ports-2026-11-25/",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "geopolitics",
+        "indiaLink": "Oil supply and shipping risks feed into India’s import bill and transport costs."
+      },
+      {
+        "id": "2026-11-26-ukraine-airbase-grid",
+        "rank": 2,
+        "label": "26 Nov 2026",
+        "headline": "Ukraine claims an airbase strike as civilians face power outages",
+        "summary": "Ukraine says it struck Russia’s Savasleyka airbase and damaged five aircraft. That aircraft count is a Ukrainian military claim, not an independently established loss total. Separately, Russian attacks caused power outages across five Ukrainian regions, local authorities said. Putin has threatened retaliation after strikes on Russian oil facilities. The immediate human consequence is the pressure on electricity and civilian life as the conflict widens.",
+        "why": "An airbase attack aims to reduce an opponent’s ability to launch missiles and bombs. Attacks on energy systems also affect homes and essential services. Military claims need checking; the danger to civilians should not disappear behind arguments about equipment counts.",
+        "soWhat": "For India, an extended conflict adds risks to energy, shipping and overseas economic conditions, even without a direct military role.",
+        "take": "Civilian electricity and safety matter more than a running tally of claimed losses.",
+        "watch": "Track damage confirmation, electricity restoration and the next announced diplomatic talks.",
+        "terms": [],
+        "image": {
+          "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-06-15T152617Z_1851412768_RC2CQ49SS6FD_RTRMADP_3_RUSSIA-AIRPLANE-CRASH-1795653630.jpg?resize=1920%2C1440",
+          "credit": "Photo: Al Jazeera",
+          "alt": "Ukraine attacks Russian military base, says five planes struck",
+          "sourceUrl": "https://www.aljazeera.com/news/2026/11/26/ukraine-attacks-russian-military-base-says-five-planes-struck",
+          "auto": true
+        },
+        "photo": "Savasleyka",
+        "sources": [
+          {
+            "label": "Reuters · Ukrainian airbase claim",
+            "url": "https://www.aljazeera.com/news/2026/11/26/ukraine-attacks-russian-military-base-says-five-planes-struck",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "Reuters and Al Jazeera · power outages",
+            "url": "https://www.aljazeera.com/news/2026/11/25/russian-strikes-on-ukraine-cause-power-outages-in-five-regions",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "Putin’s retaliation statement, earlier November 24 report",
+            "url": "https://www.aljazeera.com/news/2026/11/24/putin-says-kyiv-hit-russian-oil-plants-despite-trump-plea-vows-retaliation",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "geopolitics",
+        "indiaLink": "Energy and trade disruptions from the war can affect Indian import costs and global demand."
+      },
+      {
+        "id": "2026-11-26-us-growth-inflation",
+        "rank": 3,
+        "label": "26 Nov 2026",
+        "headline": "US growth strengthens while inflation complicates the interest-rate outlook",
+        "summary": "The US economy grew at a 4.3% annualised pace in the third quarter, the government’s second estimate says. The second quarter grew 2.2%. A separate release put October consumer-price growth on the Federal Reserve’s preferred measure at 3.8% from a year earlier. Prices rose 0.3% over the month, down from September’s 0.5%. A slower monthly rise and high annual inflation can exist together.",
+        "why": "Strong demand can support imports and company sales while leaving the central bank worried about prices. Annualised quarterly growth is a different calculation from India’s usual year-on-year growth headline, so the two should not be compared directly.",
+        "soWhat": "Indian exporters, borrowers and investors face the consequences through US demand, the dollar and global borrowing costs.",
+        "take": "Good growth news does not automatically make borrowing cheaper.",
+        "watch": "Track the December Federal Reserve decision and the next monthly inflation reading.",
+        "terms": [
+          {
+            "term": "annualised",
+            "meaning": "Quarterly growth expressed as an equivalent yearly pace"
+          },
+          {
+            "term": "Federal Reserve",
+            "meaning": "The central bank of the United States"
+          }
+        ],
+        "image": null,
+        "photo": "Federal Reserve",
+        "sources": [
+          {
+            "label": "gdp",
+            "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "inflation",
+            "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "econnews",
+            "url": "https://www.reuters.com/business/us-inflation-rises-further-october-2026-11-25/",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "economy",
+        "indiaLink": "US demand, interest rates and dollar movements influence Indian exports and capital flows."
+      },
+      {
+        "id": "2026-11-26-birthright-court-block",
+        "rank": 4,
+        "label": "26 Nov 2026",
+        "headline": "Another US judge blocks the revised birthright-citizenship order",
+        "summary": "A second federal judge has blocked enforcement of President Trump’s revised birthright-citizenship order. Wednesday’s ruling concerns the newer August order, following the Supreme Court’s rejection of the earlier attempt. The administration disagrees and would need to overcome both existing injunctions before enforcing this version. A blocked order is different from a change that has already taken effect for every family.",
+        "why": "Citizenship at birth is rooted in the US Constitution, so an executive order cannot settle the dispute on its own. The latest case shows how court review can limit a president’s ability to implement an immigration policy.",
+        "soWhat": "Indian families in the US should track the written orders and their scope, rather than assume an announcement has changed a child’s status.",
+        "take": "A political announcement is not a substitute for the law in force.",
+        "watch": "Check the government’s appeal and any ruling that changes enforcement.",
+        "terms": [
+          {
+            "term": "injunctions",
+            "meaning": "Court orders stopping an action while litigation continues"
+          },
+          {
+            "term": "birthright-citizenship",
+            "meaning": "Citizenship acquired because of the place of birth"
+          }
+        ],
+        "image": {
+          "url": "https://media.internazionale.it/images/2026/11/25/364782-hd.jpeg",
+          "credit": "Photo: Internazionale",
+          "alt": "Trump’s newest order curtailing birthright citizenship is blocked by second judge",
+          "sourceUrl": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/25/trump-s-newest-order-curtailing-birthright-citizenship-is-blocked-by-second-judge",
+          "auto": true
+        },
+        "photo": "United States District Court for the District of Columbia",
+        "sources": [
+          {
+            "label": "Reuters · citizenship injunction",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/25/trump-s-newest-order-curtailing-birthright-citizenship-is-blocked-by-second-judge",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "us-china",
+        "indiaLink": "The litigation matters to Indian-origin families planning lives and travel in the United States."
+      },
+      {
+        "id": "2026-11-26-dangerous-materials-safety",
+        "rank": 5,
+        "label": "26 Nov 2026",
+        "headline": "Cairo’s deadly fire highlights the stakes of hazardous-material controls",
+        "summary": "A vehicle carrying petroleum products overturned on Cairo’s ring road, killing 31 people and injuring 21, authorities said Wednesday. Those later figures update earlier reports of fifteen injured. Separately, the US Army destroyed an unstable explosive stockpile in Iowa through a planned detonation. US officials reported no airborne lead detections in the monitoring period they described. That finding is limited to those measurements, not proof of zero environmental risk.",
+        "why": "Dense traffic puts many people close to a fuel incident. Handling an unstable stockpile presents a different problem: reducing a known hazard while controlling exposure. Both show why transport, storage and emergency planning matter before a crisis.",
+        "soWhat": "For Indian organisations handling fuel or chemicals, review route planning, storage responsibilities and emergency contacts against the material’s real risks.",
+        "take": "Safety depends on preparation long before smoke becomes visible.",
+        "watch": "Track Egypt’s cause investigation and the final Iowa environmental monitoring report.",
+        "terms": [],
+        "image": {
+          "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305973751.jpg?quality=90&strip=all&crop=0%2C10.728900360203%2C100%2C78.542199279594&w=1200",
+          "credit": "Photo: The Verge",
+          "alt": "U.S. Army Warns Of Toxic Cloud After Planned Detonation Of Unstable Explosives In Iowa",
+          "sourceUrl": "https://www.theverge.com/science/1041819/us-army-detonation-lead-explosives-iowa",
+          "auto": true
+        },
+        "photo": "Hazardous materials",
+        "sources": [
+          {
+            "label": "cairo",
+            "url": "https://www.reuters.com/world/africa/least-21-killed-blaze-after-vehicle-overturns-egypt-health-ministry-says-2026-11-25/",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "iowanews",
+            "url": "https://www.theverge.com/science/1041819/us-army-detonation-lead-explosives-iowa",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "iowa",
+            "url": "https://www.whitehouse.gov/releases/2026/11/trump-administrations-whole-of-government-effort-safely-neutralizes-obama-era-explosives-threat-in-iowa/",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "wildcard",
+        "indiaLink": "Hazardous-material transport and storage are practical safety concerns for Indian cities and industrial employers."
+      }
+    ],
+    "markets": {
+      "dashboard": {
+        "id": "2026-11-26-market-opening-reversal",
+        "rank": 1,
+        "label": "26 Nov 2026",
+        "headline": "Nifty gives up its opening gain after Wednesday’s rally",
+        "summary": "Nifty slipped 0.30% to 25,743.05 in NSE’s morning observation, after Wednesday’s close at 25,819.25. The earlier delayed Sensex quote was 84,060.28, above its previous close, so the benchmarks do not describe the same instant. Wednesday’s Indian rally and foreign buying contrast with overnight US technology losses, including Nvidia’s 3.9% fall; new tariff proposals, oil and interest-rate concerns remain in focus.",
+        "why": "A rising opening price can reverse as investors process overnight news. Index averages also hide differences between large lenders and smaller companies. The observation times matter when one benchmark appears to rise while another falls.",
+        "soWhat": "For a portfolio review, compare like-for-like times and sector holdings before deciding that the broader market has changed direction.",
+        "take": "A strong previous session does not settle the next day’s risks.",
+        "watch": "Check closing breadth, bank performance and further tariff details.",
+        "terms": [],
+        "image": null,
+        "photo": "Bombay Stock Exchange",
+        "sources": [
+          {
+            "label": "nse",
+            "url": "https://www.nseindia.com/api/allIndices",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "sensex",
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?interval=1m&range=1d",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "prev",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_25112026.csv",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "ytd",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+          },
+          {
+            "label": "flows",
+            "url": "https://www.nseindia.com/api/fiidiiTradeReact"
+          },
+          {
+            "label": "sensexprev",
+            "url": "https://www.etnownews.com/markets/stocks-to-watch-today-november-26-lg-electronics-schaeffler-india-lupin-siemens-energy-and-others-article-156567111",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "oil",
+            "url": "https://www.moneycontrol.com/news/business/commodities/commodity-corner-crude-oil-holds-gains-for-second-day-on-middle-east-tensions-gold-slips-on-rate-hike-concerns-14089192.html",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "gold",
+            "url": "https://ibjarates.com"
+          },
+          {
+            "label": "fx",
+            "url": "https://www.fbil.org.in/"
+          },
+          {
+            "label": "yield",
+            "url": "https://www.rbi.org.in/scripts/BS_NSDPDisplay.aspx?param=4"
+          },
+          {
+            "label": "siemens",
+            "url": "https://www.siemens-energy-india.com/siemens-energy-india-limited-q4-fy-2026.html"
+          },
+          {
+            "label": "siemensnews",
+            "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-nov-26-siemens-energy-india-meesho-juniper-green-lg-electronics-piramal-pharma/article-203984/"
+          },
+          {
+            "label": "ipo",
+            "url": "https://upstox.com/news/market-news/ipo/ipo-watch-two-mainboard-ip-os-to-open-next-week-mahanadi-coalfields-crystal-crop-listing-ahead/article-203777/"
+          },
+          {
+            "label": "tariff",
+            "url": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural"
+          },
+          {
+            "label": "tariffnews",
+            "url": "https://www.reuters.com/world/india/us-cap-india-tariff-17-if-trade-deal-is-reached-ustr-says-2026-11-25/",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "houthis",
+            "url": "https://theprint.in/world/yemens-houthis-claim-attack-on-saudi-arabias-largest-refinery/3109257/"
+          },
+          {
+            "label": "ports",
+            "url": "https://www.reuters.com/world/middle-east/yemens-houthis-threaten-target-jeddah-other-saudi-red-sea-ports-2026-11-25/"
+          },
+          {
+            "label": "NDTV Profit · Burry’s reported positioning",
+            "url": "https://www.ndtvprofit.com/business/the-man-who-called-the-2008-crash-has-turned-bullish-heres-what-hes-buying-michael-burry-12378131",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "Reuters · Nvidia close",
+            "url": "https://www.reuters.com/business/ai-stocks-slide-fears-over-infrastructure-buildout-costs-2026-11-25/",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 25743.05,
+            "url": "https://www.nseindia.com/api/allIndices",
+            "asOf": "2026-11-26"
+          },
+          {
+            "value": -0.3,
+            "url": "https://www.nseindia.com/api/allIndices",
+            "asOf": "2026-11-26"
+          },
+          {
+            "value": 84060.28,
+            "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?interval=1m&range=1d",
+            "asOf": "2026-11-26"
+          },
+          {
+            "value": 25819.25,
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_25112026.csv",
+            "asOf": "2026-11-25"
+          },
+          {
+            "value": -3.9,
+            "url": "https://www.reuters.com/business/ai-stocks-slide-fears-over-infrastructure-buildout-costs-2026-11-25/",
+            "asOf": "2026-11-25"
+          }
+        ],
+        "asOf": "09:45 IST",
+        "timestamp": "2026-11-26T04:15:30.137Z",
+        "mode": "latest",
+        "session": "open",
+        "rows": [
+          {
+            "name": "Nifty 50",
+            "level": 25743.05,
+            "previousClose": 25819.25,
+            "d1": -0.3,
+            "source": {
+              "url": "https://www.nseindia.com/api/allIndices",
+              "asOf": "2026-11-26"
+            },
+            "note": "NSE observation 26 November 09:43 IST; retrieved at 09:45:30 IST. Latest available quote, not a quote captured at exactly 09:45.",
+            "w1": 0.9,
+            "m1": 13.14,
+            "ytd": -1.48
+          },
+          {
+            "name": "Sensex",
+            "level": 84060.28,
+            "previousClose": 83938.28,
+            "d1": 0.15,
+            "source": {
+              "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?interval=1m&range=1d",
+              "asOf": "2026-11-26"
+            },
+            "note": "Delayed Yahoo-distributed BSE observation 26 November 09:30:28 IST, retrieved 09:45:29 IST. Not synchronous with the NSE quote.",
+            "w1": null,
+            "m1": null,
+            "ytd": null
+          },
+          {
+            "name": "Bank Nifty",
+            "level": 63593.85,
+            "previousClose": 63703.25,
+            "d1": -0.17,
+            "source": {
+              "url": "https://www.nseindia.com/api/allIndices",
+              "asOf": "2026-11-26"
+            },
+            "note": "NSE observation 26 November 09:43 IST; retrieved at 09:45:30 IST. Latest available quote, not a quote captured at exactly 09:45.",
+            "w1": 0.84,
+            "m1": 16.97,
+            "ytd": 6.73
+          },
+          {
+            "name": "Nifty Midcap 150",
+            "level": 22668.65,
+            "previousClose": 22591.4,
+            "d1": 0.34,
+            "source": {
+              "url": "https://www.nseindia.com/api/allIndices",
+              "asOf": "2026-11-26"
+            },
+            "note": "NSE observation 26 November 09:43 IST; retrieved at 09:45:30 IST. Latest available quote, not a quote captured at exactly 09:45.",
+            "w1": 0.24,
+            "m1": 8.92,
+            "ytd": 1.76
+          },
+          {
+            "name": "Nifty Smallcap 250",
+            "level": 17726.2,
+            "previousClose": 17630.6,
+            "d1": 0.54,
+            "source": {
+              "url": "https://www.nseindia.com/api/allIndices",
+              "asOf": "2026-11-26"
+            },
+            "note": "NSE observation 26 November 09:43 IST; retrieved at 09:45:30 IST. Latest available quote, not a quote captured at exactly 09:45.",
+            "w1": -0.43,
+            "m1": 6.97,
+            "ytd": 6.24
+          },
+          {
+            "name": "₹/US$",
+            "level": null,
+            "previousClose": null,
+            "d1": null,
+            "unavailableReason": "A same-day FBIL observation was not obtained; no earlier fixing is shown as current.",
+            "source": {
+              "url": "https://www.fbil.org.in/",
+              "asOf": "2026-11-26"
+            }
+          },
+          {
+            "name": "Brent",
+            "level": 95,
+            "previousClose": null,
+            "d1": null,
+            "source": {
+              "url": "https://www.moneycontrol.com/news/business/commodities/commodity-corner-crude-oil-holds-gains-for-second-day-on-middle-east-tensions-gold-slips-on-rate-hike-concerns-14089192.html",
+              "asOf": "2026-11-26"
+            },
+            "note": "Approximate USD-per-barrel quote: Moneycontrol commodity report published 26 November 07:38 IST says around $95. Earlier than the equity snapshot; intraday, not settlement."
+          },
+          {
+            "name": "Gold (₹/10 g)",
+            "level": null,
+            "previousClose": null,
+            "d1": null,
+            "unavailableReason": "The morning Indian benchmark was not available in this collection. No international USD quote is substituted for INR per ten grams.",
+            "source": {
+              "url": "https://ibjarates.com",
+              "asOf": "2026-11-26"
+            }
+          },
+          {
+            "name": "India 10-year G-sec yield",
+            "level": null,
+            "previousClose": null,
+            "d1": null,
+            "unavailableReason": "No current-session benchmark yield was obtained from the RBI page; older weekly figures are not presented as today’s quote.",
+            "source": {
+              "url": "https://www.rbi.org.in/scripts/BS_NSDPDisplay.aspx?param=4",
+              "asOf": "2026-11-26"
+            }
+          },
+          {
+            "name": "India VIX",
+            "level": 17.54,
+            "previousClose": 17.67,
+            "d1": -0.74,
+            "source": {
+              "url": "https://www.nseindia.com/api/allIndices",
+              "asOf": "2026-11-26"
+            },
+            "note": "NSE observation 26 November 09:43 IST; retrieved at 09:45:30 IST. Latest available quote, not a quote captured at exactly 09:45."
+          }
+        ],
+        "flows": {
+          "fii": 4479.08,
+          "dii": 4018.72,
+          "fiiMtd": null,
+          "diiMtd": null,
+          "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+          "asOf": "2026-11-25",
+          "unavailableReason": "Latest completed-session cash flows are from 25 November. Comparable dated month-to-date totals were not collected."
+        },
+        "niftyPE": {
+          "now": 21.03,
+          "median5y": null,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_25112026.csv",
+          "asOf": "2026-11-25",
+          "unavailableReason": "Last-session Nifty P/E is available. A comparable five-year median and a refreshed intraday ratio were not obtained."
+        },
+        "dataQualityNotes": [
+          "Sensex: unverified historical comparisons are omitted.",
+          "₹/US$: A same-day FBIL observation was not obtained; no earlier fixing is shown as current.",
+          "Brent: unverified historical comparisons are omitted.",
+          "Gold (₹/10 g): The morning Indian benchmark was not available in this collection. No international USD quote is substituted for INR per ten grams.",
+          "India 10-year G-sec yield: No current-session benchmark yield was obtained from the RBI page; older weekly figures are not presented as today’s quote.",
+          "Flows: Latest completed-session cash flows are from 25 November. Comparable dated month-to-date totals were not collected.",
+          "Nifty valuation: Last-session Nifty P/E is available. A comparable five-year median and a refreshed intraday ratio were not obtained."
+        ]
+      },
+      "cards": [
+        {
+          "id": "2026-11-26-oil-sector-pressure",
+          "rank": 2,
+          "label": "26 Nov 2026",
+          "headline": "Higher oil puts airlines and oil producers on opposite sides",
+          "summary": "Crude oil was around $95 a barrel in Moneycontrol’s early report today, before the equity snapshot. Saudi infrastructure attacks have renewed supply worries. That creates different pressures for Indian companies: IndiGo uses fuel, Asian Paints uses oil-linked inputs, while ONGC sells oil. These are business exposures, not claims that each share has already moved in the predicted direction.",
+          "why": "A raw-material price changes costs for a buyer and revenue opportunities for a seller. The eventual profit effect also depends on currency movements, contracts, taxes and how much can be passed to customers. Even a correct oil view can produce the wrong company conclusion.",
+          "soWhat": "Households and businesses should track sustained fuel and freight costs, rather than treating a short-lived oil jump as a permanent expense.",
+          "take": "Start with the company’s economics before borrowing the sector headline.",
+          "watch": "Check confirmed Saudi output losses and companies’ next fuel or input-cost disclosures.",
+          "terms": [],
+          "image": null,
+          "photo": "Oil refinery",
+          "sources": [
+            {
+              "label": "oil",
+              "url": "https://www.moneycontrol.com/news/business/commodities/commodity-corner-crude-oil-holds-gains-for-second-day-on-middle-east-tensions-gold-slips-on-rate-hike-concerns-14089192.html",
+              "accessedOn": "2026-11-26"
+            },
+            {
+              "label": "houthis",
+              "url": "https://theprint.in/world/yemens-houthis-claim-attack-on-saudi-arabias-largest-refinery/3109257/",
+              "accessedOn": "2026-11-26"
+            }
+          ],
+          "beat": "sectors",
+          "evidence": [
+            {
+              "value": 95,
+              "url": "https://www.moneycontrol.com/news/business/commodities/commodity-corner-crude-oil-holds-gains-for-second-day-on-middle-east-tensions-gold-slips-on-rate-hike-concerns-14089192.html",
+              "asOf": "2026-11-26"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-26-siemens-quarter-results",
+          "rank": 3,
+          "label": "26 Nov 2026",
+          "headline": "Siemens Energy India’s profit growth outpaces its sales growth",
+          "summary": "Siemens Energy India reported September-quarter profit of about ₹653 crore, compared with ₹360 crore a year earlier. Revenue rose to ₹3,453 crore from ₹2,646 crore. The company attributes the improvement to exports, execution and operating performance. These are the Indian company’s results, not its German parent’s accounts. Its financial year ends in September, so this is its final quarter of the year.",
+          "why": "Power equipment suppliers benefit when grid and generation orders turn into completed projects. A large order book is useful, but cash arrives through delivery milestones and collections. Strong reported earnings need to be considered alongside those working-capital demands.",
+          "soWhat": "For someone tracking the power-investment cycle, compare delivered revenue and cash collection with new orders in future filings.",
+          "take": "Good execution matters more than celebrating the order book alone.",
+          "watch": "Check the next report’s order conversion, cash collection and capacity-expansion progress.",
+          "terms": [
+            {
+              "term": "working-capital",
+              "meaning": "Money tied up in everyday operations before customers pay"
+            }
+          ],
+          "image": null,
+          "photo": "Siemens Energy",
+          "sources": [
+            {
+              "label": "siemens",
+              "url": "https://www.siemens-energy-india.com/siemens-energy-india-limited-q4-fy-2026.html",
+              "accessedOn": "2026-11-26"
+            },
+            {
+              "label": "siemensnews",
+              "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-nov-26-siemens-energy-india-meesho-juniper-green-lg-electronics-piramal-pharma/article-203984/",
+              "accessedOn": "2026-11-26"
+            }
+          ],
+          "beat": "result",
+          "evidence": [
+            {
+              "value": 653,
+              "url": "https://www.siemens-energy-india.com/siemens-energy-india-limited-q4-fy-2026.html",
+              "asOf": "2026-09-30"
+            },
+            {
+              "value": 360,
+              "url": "https://www.siemens-energy-india.com/siemens-energy-india-limited-q4-fy-2026.html",
+              "asOf": "2025-09-30"
+            },
+            {
+              "value": 3453,
+              "url": "https://www.siemens-energy-india.com/siemens-energy-india-limited-q4-fy-2026.html",
+              "asOf": "2026-09-30"
+            },
+            {
+              "value": 2646,
+              "url": "https://www.siemens-energy-india.com/siemens-energy-india-limited-q4-fy-2026.html",
+              "asOf": "2025-09-30"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-26-ipo-thursday-stages",
+          "rank": 4,
+          "label": "26 Nov 2026",
+          "headline": "IPO investors face a listing and a new bidding window",
+          "summary": "The primary-market calendar points to Crystal Crop Protection’s scheduled listing today, while Foodlink’s public bidding window opens. Shree Siddhivinayak Greentech’s offer is also open. The cited calendar was published earlier this week, so check the exchange and registrar for the current stage before acting. No unobserved opening price, subscription total or listing gain is presented as a fact.",
+          "why": "An IPO is a company’s first public share sale. Bidding, allotment, fund release and exchange listing are separate steps. Informal grey-market quotes do not establish the opening price, and a scheduled listing is not evidence that trading has already started.",
+          "soWhat": "Applicants should confirm allotment and released funds through official channels. New bidders should read the offer document’s risks and use of proceeds.",
+          "take": "A crowded IPO calendar is a timetable, not a quality certificate.",
+          "watch": "Check the exchange’s listing notice and the issuer’s final subscription disclosure.",
+          "terms": [
+            {
+              "term": "IPO",
+              "meaning": "A company’s first public share sale"
+            },
+            {
+              "term": "allotment",
+              "meaning": "The allocation of shares to successful applicants"
+            }
+          ],
+          "image": null,
+          "photo": "Initial public offering",
+          "sources": [
+            {
+              "label": "ipo",
+              "url": "https://upstox.com/news/market-news/ipo/ipo-watch-two-mainboard-ip-os-to-open-next-week-mahanadi-coalfields-crystal-crop-listing-ahead/article-203777/",
+              "accessedOn": "2026-11-26"
+            }
+          ],
+          "beat": "ipo"
+        },
+        {
+          "id": "2026-11-26-institutional-flows",
+          "rank": 5,
+          "label": "26 Nov 2026",
+          "headline": "Both foreign and domestic institutions bought in the last session",
+          "summary": "NSE’s completed-session report shows foreign institutions bought a net ₹4,479.08 crore on Wednesday, while domestic institutions bought ₹4,018.72 crore. Those are yesterday’s cash-market flows, not today’s intraday totals. They provide context for Wednesday’s rally, but do not prove who caused every index move. Current Indian gold, currency and government-bond benchmarks remain unavailable in this snapshot.",
+          "why": "Net buying hides the larger gross transactions and does not identify purchases of HDFC Bank or ICICI Bank. Separately, NDTV Profit reports Michael Burry has closed his Nasdaq index bet against prices and turned mostly bullish. His portfolio choice is different evidence from India’s institutional flows.",
+          "soWhat": "Use institutional flows as context alongside earnings and prices, rather than as a signal that every holding will rise.",
+          "take": "One day’s inflow is useful context, not a durable investment thesis.",
+          "watch": "Track the next completed-session flows and whether buying persists across sectors.",
+          "terms": [
+            {
+              "term": "net",
+              "meaning": "Purchases minus sales over the stated period"
+            }
+          ],
+          "image": null,
+          "photo": "National Stock Exchange of India",
+          "sources": [
+            {
+              "label": "flows",
+              "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+              "accessedOn": "2026-11-26"
+            },
+            {
+              "label": "nse",
+              "url": "https://www.nseindia.com/api/allIndices",
+              "accessedOn": "2026-11-26"
+            },
+            {
+              "label": "NDTV Profit · Burry’s reported positioning",
+              "url": "https://www.ndtvprofit.com/business/the-man-who-called-the-2008-crash-has-turned-bullish-heres-what-hes-buying-michael-burry-12378131",
+              "accessedOn": "2026-11-26"
+            }
+          ],
+          "beat": "flows",
+          "evidence": [
+            {
+              "value": 4479.08,
+              "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+              "asOf": "2026-11-25"
+            },
+            {
+              "value": 4018.72,
+              "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+              "asOf": "2026-11-25"
+            }
+          ]
+        }
+      ]
+    },
+    "investing": [
+      {
+        "id": "2026-11-26-stock-unavailable-1",
+        "rank": 1,
+        "label": "Dip research unavailable · 26 Nov 2026",
+        "headline": "No stock met today’s near-low and quality rules",
+        "summary": "The stock review completed, but no company met both the quality checks and the near-low rules for this slot. A falling share alone is not enough. The business also needs to meet the earnings, debt, cash and trading requirements. This is a completed selection with no qualifying dip candidate, rather than the earlier exchange download error.",
+        "why": "A narrow intersection can be useful information. Strong businesses are not always near their lows, and shares near their lows are not always strong businesses. Adding an unqualified company would change the question the selection answers.",
+        "soWhat": "Treat this as an empty research slot, not a judgement that every Indian company is expensive or weak.",
+        "take": "A completed review can produce a useful empty result.",
+        "watch": "Check the next completed-session selection without relaxing the published rules.",
+        "terms": [],
+        "image": null,
+        "photo": "Value investing",
+        "sources": [
+          {
+            "label": "NSE session closing file used by GitHub",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+          }
+        ],
+        "slot": "unavailable",
+        "unavailableReason": "Only 0 of 493 verified stocks met the quality screen and the 52-week-low rules on the latest session."
+      },
+      {
+        "id": "2026-11-26-stock-unavailable-2",
+        "rank": 2,
+        "label": "Dip research unavailable · 26 Nov 2026",
+        "headline": "No second dip candidate met both sets of rules",
+        "summary": "The stock review completed, but no company met both the quality checks and the near-low rules for this slot. A falling share alone is not enough. The business also needs to meet the earnings, debt, cash and trading requirements. This is a completed selection with no qualifying dip candidate, rather than the earlier exchange download error.",
+        "why": "The same quality company can move into or out of a near-low range as its price changes. Keeping that price condition separate from business quality preserves what the dip category is meant to show.",
+        "soWhat": "Treat this as an empty research slot, not a judgement that every Indian company is expensive or weak.",
+        "take": "A completed review can produce a useful empty result.",
+        "watch": "Check the next completed-session selection without relaxing the published rules.",
+        "terms": [],
+        "image": null,
+        "photo": "Value investing",
+        "sources": [
+          {
+            "label": "NSE session closing file used by GitHub",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+          }
+        ],
+        "slot": "unavailable",
+        "unavailableReason": "Only 0 of 493 verified stocks met the quality screen and the 52-week-low rules on the latest session."
+      },
+      {
+        "id": "2026-11-26-stock-nationalum",
+        "rank": 3,
+        "label": "Stock research · history 21 Nov; quote 25 Nov",
+        "headline": "NALCO’s integrated metals business trades below its usual earnings multiple",
+        "summary": "National Aluminium, or NALCO, mines bauxite and makes alumina and aluminium. Over five years, sales grew about 15% a year and profit about 35%. Average return on capital was about 30%, or thirty rupees of operating earnings per hundred invested. Debt is zero in the supplied accounts. Commodity prices still matter, so recent strong profitability should not be projected unchanged into the future.",
+        "why": "Owning several stages of production can support costs and supply reliability. But aluminium and alumina are traded internationally. Higher production helps only if selling prices, energy costs and expansion spending leave enough cash for shareholders.",
+        "soWhat": "The earnings multiple is about 7.4, below its five-year median of 9.5. Cyclical earnings can still make a low multiple misleading.",
+        "take": "The case combines integration and a discount; the metal-price cycle remains decisive.",
+        "watch": "Track expansion progress, realised metal prices and cash generation in the next results.",
+        "slot": "pick",
+        "symbol": "NATIONALUM",
+        "thesis": [
+          "Integrated mining and processing can support production costs.",
+          "The longer sales and profit history shows business expansion.",
+          "The supplied annual history shows positive operating cash generation throughout."
+        ],
+        "breakers": [
+          "Weaker aluminium or alumina prices reduce earnings.",
+          "Expansion costs rise while new capacity fails to earn adequate returns."
+        ],
+        "moat": "Cost leadership",
+        "moatWhy": "Integrated raw-material and processing operations can support costs, although global commodity competitors limit pricing power.",
+        "terms": [
+          {
+            "term": "return on capital",
+            "meaning": "Operating earnings relative to money invested in the business"
+          },
+          {
+            "term": "earnings multiple",
+            "meaning": "Share price divided by yearly profit per share"
+          }
+        ],
+        "image": null,
+        "photo": "National Aluminium Company",
+        "sources": [
+          {
+            "label": "Screener.in company pages, 2026-11-21",
+            "url": "https://www.screener.in/"
+          },
+          {
+            "label": "NSE Nifty 500 constituents",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          },
+          {
+            "label": "Screener.in: National Aluminium Co. Ltd.",
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/"
+          },
+          {
+            "label": "NSE bhavcopy (10-session average traded value)",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE bhavcopy, 2026-11-25",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE adjusted 52-week high/low, 2026-11-25",
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 15,
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 35,
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 29.8,
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 0,
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 7.39,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+            "asOf": "2026-11-25"
+          },
+          {
+            "value": 9.5,
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          }
+        ],
+        "sector": "Metals & Mining",
+        "kind": "non-financial",
+        "price": 287.8,
+        "quoteDate": "2026-11-25",
+        "dataDate": "2026-09-30",
+        "metrics": {
+          "marketCap": 55687,
+          "divYield": 3.79,
+          "roce5y": 29.8,
+          "de": 0,
+          "salesCagr5y": 15,
+          "profitCagr5y": 35,
+          "ocfPositiveYears": 5,
+          "profitYoY": 28.32,
+          "promoterHolding": 51.28,
+          "promoterChange": 0,
+          "eps": 38.96,
+          "peMedian5y": 9.5,
+          "avgDailyValue": 191.43,
+          "high52": 445.15,
+          "low52": 249.4,
+          "pe": 7.39
+        },
+        "metricSources": {
+          "marketCap": {
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "divYield": {
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "roce5y": {
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "de": {
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "salesCagr5y": {
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "profitCagr5y": {
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "ocfPositiveYears": {
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "profitYoY": {
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "promoterHolding": {
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "promoterChange": {
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "eps": {
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "peMedian5y": {
+            "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "avgDailyValue": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+            "asOf": "2026-11-20"
+          },
+          "pe": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+            "asOf": "2026-11-25"
+          },
+          "price": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+            "asOf": "2026-11-25"
+          },
+          "high52": {
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv",
+            "asOf": "2026-11-25"
+          },
+          "low52": {
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv",
+            "asOf": "2026-11-25"
+          }
+        },
+        "screen": {
+          "roce": true,
+          "debt": true,
+          "sales": true,
+          "profit": true,
+          "cash": true,
+          "valuation": true,
+          "pledge": null,
+          "liquidity": true
+        },
+        "fairValue": 370.12,
+        "buyBelow": 296.1,
+        "verdict": "Buy",
+        "score": 0.737,
+        "repeat": {
+          "lastDate": "2026-11-24",
+          "reason": "Verdict changed from Wait to Buy"
+        }
+      },
+      {
+        "id": "2026-11-26-stock-chennpetro",
+        "rank": 4,
+        "label": "Stock research · history 21 Nov; quote 25 Nov",
+        "headline": "Chennai Petroleum’s lower multiple comes with sharply cyclical earnings",
+        "summary": "Chennai Petroleum turns crude oil into transport fuels and other refinery products. Over five years, sales grew about 23% a year and profit about 64%. Average return on capital was about 28%. Debt is modest against equity. These figures describe a period with large swings in refining conditions, so the profit growth rate is not a steady annual promise.",
+        "why": "A refinery earns the difference between the value of products sold and the cost of crude and processing. More expensive crude does not by itself mean higher profit. Product prices, inventory changes and how fully the plant runs all affect the outcome.",
+        "soWhat": "You pay about 3.6 times yearly earnings, against a five-year median of 4.5. The apparent discount depends on how sustainable those earnings are.",
+        "take": "The low multiple deserves attention, but normal earnings matter more than peak earnings.",
+        "watch": "Check refining margins, plant use and debt in the next filing.",
+        "slot": "pick",
+        "symbol": "CHENNPETRO",
+        "thesis": [
+          "The longer operating history shows substantial sales growth.",
+          "The supplied annual records show positive operating cash generation throughout.",
+          "Debt remains modest relative to the equity base."
+        ],
+        "breakers": [
+          "Refining margins contract as product prices lag crude costs.",
+          "Shutdowns or project spending reduce cash and increase borrowing."
+        ],
+        "moat": "None",
+        "moatWhy": "An established refinery is hard to build, but the supplied evidence does not establish protected pricing power.",
+        "terms": [
+          {
+            "term": "return on capital",
+            "meaning": "Operating earnings relative to money invested in the business"
+          },
+          {
+            "term": "earnings multiple",
+            "meaning": "Share price divided by yearly profit per share"
+          }
+        ],
+        "image": null,
+        "photo": "Chennai Petroleum Corporation",
+        "sources": [
+          {
+            "label": "Screener.in company pages, 2026-11-21",
+            "url": "https://www.screener.in/"
+          },
+          {
+            "label": "NSE Nifty 500 constituents",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          },
+          {
+            "label": "Screener.in: Chennai Petroleum Corporation Ltd.",
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/"
+          },
+          {
+            "label": "NSE bhavcopy (10-session average traded value)",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE bhavcopy, 2026-11-25",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE adjusted 52-week high/low, 2026-11-25",
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 23,
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 64,
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 27.8,
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 3.57,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+            "asOf": "2026-11-25"
+          },
+          {
+            "value": 4.5,
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          }
+        ],
+        "sector": "Oil Gas & Consumable Fuels",
+        "kind": "non-financial",
+        "price": 1366.6,
+        "quoteDate": "2026-11-25",
+        "dataDate": "2026-09-30",
+        "metrics": {
+          "marketCap": 21236,
+          "divYield": 4.35,
+          "roce5y": 27.8,
+          "de": 0.16,
+          "salesCagr5y": 23,
+          "profitCagr5y": 64,
+          "ocfPositiveYears": 5,
+          "profitYoY": 212.52,
+          "promoterHolding": 67.29,
+          "promoterChange": 0,
+          "eps": 382.9,
+          "peMedian5y": 4.5,
+          "avgDailyValue": 119.41,
+          "high52": 1677.5,
+          "low52": 765.5,
+          "pe": 3.57
+        },
+        "metricSources": {
+          "marketCap": {
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "divYield": {
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "roce5y": {
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "de": {
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "salesCagr5y": {
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "profitCagr5y": {
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "ocfPositiveYears": {
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "profitYoY": {
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "promoterHolding": {
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "promoterChange": {
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "eps": {
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "peMedian5y": {
+            "url": "https://www.screener.in/company/CHENNPETRO/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "avgDailyValue": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+            "asOf": "2026-11-20"
+          },
+          "pe": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+            "asOf": "2026-11-25"
+          },
+          "price": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+            "asOf": "2026-11-25"
+          },
+          "high52": {
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv",
+            "asOf": "2026-11-25"
+          },
+          "low52": {
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv",
+            "asOf": "2026-11-25"
+          }
+        },
+        "screen": {
+          "roce": true,
+          "debt": true,
+          "sales": true,
+          "profit": true,
+          "cash": true,
+          "valuation": true,
+          "pledge": null,
+          "liquidity": true
+        },
+        "fairValue": 1723.05,
+        "buyBelow": 1378.44,
+        "verdict": "Buy",
+        "score": 0.731,
+        "repeat": {
+          "lastDate": "2026-11-25",
+          "reason": "Verdict changed from Wait to Buy"
+        }
+      },
+      {
+        "id": "2026-11-26-stock-olectra",
+        "rank": 5,
+        "label": "Stock research · history 21 Nov; quote 25 Nov",
+        "headline": "Olectra’s electric-bus growth needs to turn into reliable cash",
+        "summary": "Olectra Greentech makes electric buses and electrical insulators. Over five years, sales grew about 52% a year and profit about 85%. Average return on capital was about 16%, with modest debt against equity. The latest annual profit comparison is much slower than that longer growth rate. Fast expansion from a smaller base needs to be judged alongside delivery performance and cash collection.",
+        "why": "Bus orders become revenue only after vehicles are produced and accepted. Batteries, plant capacity and customer payment schedules can tie up money before it returns as cash. Winning a tender is therefore different from earning an attractive return on it.",
+        "soWhat": "Its earnings multiple is about 44, against a five-year median near 96. A large relative discount still leaves demanding growth expectations.",
+        "take": "The opportunity is fleet electrification; the test is profitable delivery and collection.",
+        "watch": "Track bus deliveries, customer dues and factory ramp-up in the next results.",
+        "slot": "pick",
+        "symbol": "OLECTRA",
+        "thesis": [
+          "Electric-bus replacement provides a substantial addressable customer need.",
+          "The longer sales history shows meaningful expansion.",
+          "The company has an existing delivery base and announced product-development plans."
+        ],
+        "breakers": [
+          "Order execution slows or customer payments arrive late.",
+          "Competition or battery and production costs squeeze project returns."
+        ],
+        "moat": "None",
+        "moatWhy": "Operating experience is useful, but the cited material does not establish a durable monopoly or customer lock-in.",
+        "terms": [
+          {
+            "term": "return on capital",
+            "meaning": "Operating earnings relative to money invested in the business"
+          },
+          {
+            "term": "earnings multiple",
+            "meaning": "Share price divided by yearly profit per share"
+          }
+        ],
+        "image": null,
+        "photo": "Olectra Greentech",
+        "sources": [
+          {
+            "label": "Screener.in company pages, 2026-11-21",
+            "url": "https://www.screener.in/"
+          },
+          {
+            "label": "NSE Nifty 500 constituents",
+            "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+          },
+          {
+            "label": "Screener.in: Olectra Greentech Ltd.",
+            "url": "https://www.screener.in/company/OLECTRA/consolidated/"
+          },
+          {
+            "label": "NSE bhavcopy (10-session average traded value)",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE bhavcopy, 2026-11-25",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip"
+          },
+          {
+            "label": "NSE adjusted 52-week high/low, 2026-11-25",
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv"
+          },
+          {
+            "label": "Olectra · November earnings-call transcript",
+            "url": "https://olectra-uploads-573539704518-ap-south-1-an.s3.ap-south-1.amazonaws.com/Transcript_of_Conference_Call_12_11_2026_424322e979.pdf"
+          }
+        ],
+        "evidence": [
+          {
+            "value": 52,
+            "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 85,
+            "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 15.6,
+            "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          {
+            "value": 44.33,
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+            "asOf": "2026-11-25"
+          },
+          {
+            "value": 96.3,
+            "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+            "asOf": "2026-11-21"
+          }
+        ],
+        "sector": "Automobile and Auto Components",
+        "kind": "non-financial",
+        "price": 976.6,
+        "quoteDate": "2026-11-25",
+        "dataDate": "2026-09-30",
+        "metrics": {
+          "marketCap": 8192,
+          "divYield": 0.06,
+          "roce5y": 15.6,
+          "de": 0.21,
+          "salesCagr5y": 52,
+          "profitCagr5y": 85,
+          "ocfPositiveYears": 4,
+          "profitYoY": 6.12,
+          "promoterHolding": 50.02,
+          "promoterChange": 0,
+          "eps": 22.03,
+          "peMedian5y": 96.3,
+          "avgDailyValue": 43.37,
+          "high52": 1556,
+          "low52": 866.6,
+          "pe": 44.33
+        },
+        "metricSources": {
+          "marketCap": {
+            "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "divYield": {
+            "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "roce5y": {
+            "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "de": {
+            "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "salesCagr5y": {
+            "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "profitCagr5y": {
+            "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "ocfPositiveYears": {
+            "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "profitYoY": {
+            "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "promoterHolding": {
+            "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "promoterChange": {
+            "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "eps": {
+            "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "peMedian5y": {
+            "url": "https://www.screener.in/company/OLECTRA/consolidated/",
+            "asOf": "2026-11-21"
+          },
+          "avgDailyValue": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+            "asOf": "2026-11-20"
+          },
+          "pe": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+            "asOf": "2026-11-25"
+          },
+          "price": {
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261125_F_0000.csv.zip",
+            "asOf": "2026-11-25"
+          },
+          "high52": {
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv",
+            "asOf": "2026-11-25"
+          },
+          "low52": {
+            "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_25112026.csv",
+            "asOf": "2026-11-25"
+          }
+        },
+        "screen": {
+          "roce": true,
+          "debt": true,
+          "sales": true,
+          "profit": true,
+          "cash": true,
+          "valuation": true,
+          "pledge": null,
+          "liquidity": true
+        },
+        "fairValue": 2121.49,
+        "buyBelow": 1697.19,
+        "verdict": "Buy",
+        "score": 0.688
+      }
+    ],
+    "tech": [
+      {
+        "id": "2026-11-26-watch-health-update",
+        "rank": 1,
+        "label": "26 Nov 2026",
+        "headline": "Samsung brings newer health features to older Galaxy watches",
+        "summary": "Samsung is expanding its newer health features to the Galaxy Watch8 series through the One UI 9 Watch update. Wednesday’s coverage describes overnight readings, a heart-health score and upgraded sleep-breathing monitoring. The company says rollout began in mid-November and varies by country and device. A software announcement does not mean every feature is enabled on every Indian watch today.",
+        "why": "Extending features to existing hardware can reduce the need to replace a working device. But a score depends on the data collected, the supported phone and regional permissions. Samsung says these wellness readings do not replace medical diagnosis.",
+        "soWhat": "Existing owners can check compatibility and permissions before upgrading or sharing more health data. Do not interpret a reassuring score as proof of good health.",
+        "take": "A useful health feature explains both what it measures and its limits.",
+        "watch": "Check your region’s supported features and the update’s actual availability.",
+        "terms": [
+          {
+            "term": "sleep apnea",
+            "meaning": "Repeated interruptions of breathing during sleep"
+          }
+        ],
+        "image": {
+          "url": "https://api.samsungmobilepress.com/api/v1/file/7B3D870D3F9B66F0A1C15F61A3BBAEC39D4FFEC5AB1784ED2C6EE76322EC169B6EE9638178CCA4D5626283ECEBC56F9BD2A3411CB3F0F7AD594A55060DBDDC9AD09473E282C21B63A4FDE2E92F35E183B37866B381EB98715176E44DEDD13B1D2C990F1192B1110B6AFC36A1B39C74AC217488A44ACC37809B44F42BB313EC1B0233686441BAF647A0300F8CB379F66078B16B5F5EB84053AE29B1B5EE4B9B06F3304CA5FD3DC772C4A78EB1A9C6EB209345BA7F0253C5C9C3BA062436A5707B8DD1B42FC75C9D46C7EB1D9DD7B1F8B5",
+          "credit": "Photo: Samsung Mobile Press",
+          "alt": "Samsung Expands Advanced Health Features to Galaxy Watch8 Series With One UI 9 Watch",
+          "sourceUrl": "https://www.samsungmobilepress.com/articles/galaxy-watch8-one-ui-9-watch-advanced-health-features",
+          "auto": true
+        },
+        "photo": "Samsung Galaxy Watch series",
+        "sources": [
+          {
+            "label": "samsung",
+            "url": "https://www.samsungmobilepress.com/articles/galaxy-watch8-one-ui-9-watch-advanced-health-features",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "samsungnews",
+            "url": "https://www.gadgets360.com/wearables/news/samsung-galaxy-watch-8-classic-one-ui-9-watch-update-health-features-rollout-12376125",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "launch",
+        "tryThis": "Open the official compatibility page and review which health permissions each enabled feature needs."
+      },
+      {
+        "id": "2026-11-26-gta-playstation-audience",
+        "rank": 2,
+        "label": "26 Nov 2026",
+        "headline": "Sony’s GTA audience figures show scale beyond the sales headline",
+        "summary": "Sony says more than 39 million unique PS5 players experienced GTA VI during November 19–22. Its internal figures also show 683 million hours played. Wednesday’s coverage highlights that audience report, a different measure from Take-Two’s launch-day retail sales discussed yesterday. Players, copies sold and revenue are not interchangeable, and this is Sony’s own platform account rather than an independent audit.",
+        "why": "A major game can draw people into a console ecosystem, where future games and services also matter. The commercial question extends beyond the first purchase to continued use. Hours played describe attention, not how much profit the publisher or platform will earn.",
+        "soWhat": "Indian players considering hardware should compare the full cost, supported games and time they will use it, rather than buying on launch records alone.",
+        "take": "A huge audience is evidence of demand, not a personal buying reason.",
+        "watch": "Track subsequent engagement and the next publisher and platform financial disclosures.",
+        "terms": [],
+        "image": {
+          "url": "https://blog.playstation.com/tachyon/2026/11/fd8023623ccb61c2b195870ea714209ebf52e951.jpg",
+          "credit": "Photo: PlayStation.Blog",
+          "alt": "Thank you for making Grand Theft Auto VI the biggest launch in PlayStation history",
+          "sourceUrl": "https://blog.playstation.com/?p=425938",
+          "auto": true
+        },
+        "photo": "Grand Theft Auto VI",
+        "sources": [
+          {
+            "label": "gta",
+            "url": "https://blog.playstation.com/?p=425938",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "gtanews",
+            "url": "https://timesofindia.indiatimes.com/technology/gaming/sony-has-a-thank-you-message-for-gta-6-players-playstation-says-thank-you-for-making-grand-theft-auto-vi-the-/articleshow/136130632.cms",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "launch",
+        "tryThis": "Compare the total cost of the console, game and required services against your existing setup.",
+        "keyNumber": {
+          "value": "39 million",
+          "label": "unique PS5 players reported"
+        }
+      },
+      {
+        "id": "2026-11-26-google-content-lawsuit",
+        "rank": 3,
+        "label": "26 Nov 2026",
+        "headline": "Malaysia takes Google to court over harmful YouTube content",
+        "summary": "Malaysia’s communications regulator says it has filed two suits against Google seeking a combined RM600 million in damages over YouTube content. The regulator alleges delays and failures in responding to requests involving gambling, scams and other prohibited material. These are the regulator’s allegations and a claim for damages, not a court-imposed penalty or a finding against every video creator.",
+        "why": "Online platforms operate across borders while governments enforce local rules. A removal-request count alone does not establish which items were unlawful or how quickly a platform could reasonably respond. The legal process will test those claims and responsibilities.",
+        "soWhat": "Indian creators and brands should retain campaign records and review platform safety settings; another country’s lawsuit does not itself change Indian law.",
+        "take": "A large damages demand should be read as a disputed claim.",
+        "watch": "Check Google’s response and the court’s next ruling on the suits.",
+        "terms": [],
+        "image": {
+          "url": "https://www.thenews.com.pk/assets/uploads/2026-11-25/1425031_125202_updates.jpg",
+          "credit": "Photo: The News International",
+          "alt": "Malaysia sues Google for $146M over harmful YouTube content",
+          "sourceUrl": "https://www.thenews.com.pk/latest/1425031-malaysia-sues-google-for-146m-over-harmful-youtube-content",
+          "auto": true
+        },
+        "photo": "YouTube",
+        "sources": [
+          {
+            "label": "googlenews",
+            "url": "https://www.thenews.com.pk/latest/1425031-malaysia-sues-google-for-146m-over-harmful-youtube-content",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "policy",
+        "tryThis": "Review where your brand’s video ads can appear and save the current placement and safety settings."
+      },
+      {
+        "id": "2026-11-26-jio-astrology-prototype",
+        "rank": 4,
+        "label": "26 Nov 2026",
+        "headline": "Jio’s astrology app pairs AI readings with restricted test access",
+        "summary": "Jio has introduced JioAstro, an astrology app that generates birth-chart readings and conversational responses. Wednesday’s reporting says its current terms describe a prototype for invited testers, despite broader launch coverage. Public pricing is not settled in that report. The app’s ability to produce personalised language is a product feature; it is not evidence that astrology predicts events.",
+        "why": "Conversational software can make traditional content feel like individual advice. That presentation can increase confidence even when the underlying claim has not gained supporting evidence. Access conditions and data handling matter as much as the list of features.",
+        "soWhat": "For an Indian user, check who operates the app and what birth and family information it collects before sharing personal details.",
+        "take": "A fluent personal answer does not establish a reliable prediction.",
+        "watch": "Check the final public terms, access policy and pricing before calling it widely available.",
+        "terms": [],
+        "image": {
+          "url": "https://static.toiimg.com/thumb/resizemode-4,msid-136152195,imgsize-106594,width-800/136152195.jpg",
+          "credit": "Photo: Gadgets Now",
+          "alt": "Jio Enters AI Astrology Market With Kundali Analysis, Dosha Check And Personalised Horoscope",
+          "sourceUrl": "https://gadgetsnow.indiatimes.com/tech-news/jio-enters-ai-astrology-market-with-kundali-analysis-dosha-check-and-personalised-horoscope/articleshow/136152195.cms",
+          "auto": true
+        },
+        "photo": "Reliance Jio",
+        "sources": [
+          {
+            "label": "jionews",
+            "url": "https://gadgetsnow.indiatimes.com/tech-news/jio-enters-ai-astrology-market-with-kundali-analysis-dosha-check-and-personalised-horoscope/articleshow/136152195.cms",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "india",
+        "tryThis": "Read the official terms and privacy notice before entering birth details or another person’s information."
+      },
+      {
+        "id": "2026-11-26-fynd-nbrown-deal",
+        "rank": 5,
+        "label": "26 Nov 2026",
+        "headline": "Fynd’s UK deal tackles the unglamorous work behind online retail",
+        "summary": "India-based Fynd has partnered with British retailer N Brown to connect its technology systems using Boltic. The company says implementation starts with Ambrose Wilson before expanding in phases. The aim is to link orders, stock, returns and customer information while the existing business keeps running. No contract value or measured productivity gain is disclosed in the cited announcement.",
+        "why": "A retailer can have capable individual applications but still lose time moving information between them. Automating a broken handoff helps only if the business can see failures, correct them and keep serving customers during changes.",
+        "soWhat": "For Indian technology suppliers, the case shows an export opportunity in practical integration. For buyers, ask for a working pilot rather than a broad AI promise.",
+        "take": "Reliable handoffs can matter more than a dramatic chatbot demonstration.",
+        "watch": "Track the first rollout’s reliability and the expansion to other brands.",
+        "terms": [
+          {
+            "term": "integration",
+            "meaning": "Connecting separate systems so they can exchange information"
+          }
+        ],
+        "image": {
+          "url": "https://cdn.pixelbin.io/v2/nameless-waterfall-bf6e98/t.resize(w:1200)~t.compress(q:75)~t.toFormat(f:webp)/cms_uploads/N_Brown_x_Fynd_Mumbai_Manchester_HQ.jpg",
+          "credit": "Photo: fynd.com",
+          "alt": "Building a more connected retail business: why N Brown",
+          "sourceUrl": "https://www.fynd.com/en-gb/blog/building-a-more-connected-retail-business-why-n-brown-partnered-with-fynd",
+          "auto": true
+        },
+        "photo": "N Brown Group",
+        "sources": [
+          {
+            "label": "fynd",
+            "url": "https://www.fynd.com/en-gb/blog/building-a-more-connected-retail-business-why-n-brown-partnered-with-fynd",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "fyndnews",
+            "url": "https://money.rediff.com/amp/news/market/indian-ai-firm-fynd-partners-n-brown-for-automation-in-uk/58722020261125",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "beat": "deal",
+        "tryThis": "Map one order from checkout to refund and identify each manual transfer between systems."
+      }
+    ],
+    "psychology": [
+      {
+        "id": "2026-11-26-halo-effect",
+        "rank": 1,
+        "label": "26 Nov 2026 · Psychology",
+        "headline": "Why one good impression can colour an entire judgement",
+        "concept": "The halo effect",
+        "study": {
+          "authors": "Richard E. Nisbett and Timothy DeCamp Wilson",
+          "year": 1977,
+          "published": "1977-04-01",
+          "sample": 118,
+          "era": "classic"
+        },
+        "summary": "You meet an interview candidate who is warm, confident and easy to talk to. Soon their answers seem sharper and their experience more impressive. Are you judging each skill, or has liking the person started doing some of the judging?",
+        "belief": "We usually assume we can separate a person’s manner from their other qualities. A friendly style should not change how we hear the same accent or assess the same appearance.",
+        "experiment": "Nisbett and Wilson showed 118 university students a filmed instructor. Some saw him behave warmly and others saw him act coldly. Students rated how much they liked him, then evaluated his appearance, mannerisms and accent. The same man appeared in both versions.",
+        "finding": "Average liking was 5.48 for the warm version and 3.18 for the cold version on an eight-point scale. Judgements of his appearance and accent changed too, although the person was the same.",
+        "why": "We rarely rebuild every judgement from nothing. An overall impression gives the mind a quick organising story, and later details can be interpreted through that story. That saves effort, but it can make separate-looking ratings less independent than they appear.",
+        "examples": [
+          "A polished presentation makes a weak business proposal seem more convincing.",
+          "A helpful first meeting makes you overlook a supplier’s poor delivery record."
+        ],
+        "soWhat": "When the decision matters, score the evidence for each requirement before giving an overall impression.",
+        "useThisWeek": "For the next interview or vendor review, write separate evidence-based ratings before discussing whether you liked the person.",
+        "limits": "This was a brief laboratory encounter with students. The result does not mean warmth always hides poor ability.",
+        "take": "A good impression is one observation, not the whole assessment.",
+        "terms": [],
+        "image": null,
+        "photo": "Halo effect",
+        "sources": [
+          {
+            "label": "halo",
+            "url": "https://web.mit.edu/curhan/www/docs/Articles/biases/35_J_Personality_Social_Psychology_250_%28Nisbett%29.pdf",
+            "accessedOn": "2026-11-26"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-26-choice-overload",
+        "rank": 2,
+        "label": "26 Nov 2026 · Psychology",
+        "headline": "Why a bigger menu can leave you choosing nothing",
+        "concept": "Choice overload",
+        "study": {
+          "authors": "Sheena S. Iyengar and Mark R. Lepper",
+          "year": 2000,
+          "published": "2000-12-01",
+          "sample": 502,
+          "era": "classic"
+        },
+        "summary": "You open a shopping app for one simple purchase. After comparing many similar versions, you close it without buying. Having more choice felt attractive at first, so why did the larger range make the final decision harder?",
+        "belief": "More options should help because they increase the chance of finding exactly what we want. We tend to assume that extra choice cannot make an existing choice worse.",
+        "experiment": "Iyengar and Lepper rotated a grocery-store tasting display between six and twenty-four jams. A total of 502 passing shoppers encountered the displays. Researchers counted who stopped and tracked purchases among those who approached. The study examined a specific buying setting, not every kind of decision.",
+        "finding": "The larger display attracted 60% of passers-by, against 40% for the smaller display. But about 3% of those who stopped at the larger display bought jam, against about 30% at the smaller one.",
+        "why": "Every extra option adds comparisons and possible regrets. When you do not already know which differences matter, a bigger set can make it harder to recognise a good-enough choice. Attention and willingness to decide are different things; attracting a crowd does not guarantee a purchase.",
+        "examples": [
+          "You compare so many nearly identical hotel rooms that you postpone booking.",
+          "A team offers clients a long list of packages without explaining who each suits."
+        ],
+        "soWhat": "Reduce irrelevant comparisons before choosing, rather than assuming you must inspect every available version.",
+        "useThisWeek": "Set your essential criteria first, shortlist a few suitable options, then choose within that shortlist.",
+        "limits": "The famous jam result is context-dependent. More options can help informed buyers with clear preferences; smaller ranges are not universally better.",
+        "take": "Make the comparison easier, not merely the list shorter.",
+        "terms": [],
+        "image": null,
+        "photo": "Choice overload",
+        "sources": [
+          {
+            "label": "jam",
+            "url": "https://www.decisionskills.com/uploads/5/1/6/0/5160560/iyengar_2000_when_choice_is_demotivating.pdf",
+            "accessedOn": "2026-11-26"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-26-door-in-face",
+        "rank": 3,
+        "label": "26 Nov 2026 · Psychology",
+        "headline": "Why a smaller second request can feel like a compromise",
+        "concept": "The door-in-the-face technique",
+        "study": {
+          "authors": "Robert B. Cialdini, Joyce E. Vincent, Stephen K. Lewis, Jose Catalan, Diane Wheeler and Betty Lee Darby",
+          "year": 1975,
+          "published": "1975-02-01",
+          "sample": 72,
+          "era": "classic"
+        },
+        "summary": "Someone asks for a commitment you cannot possibly accept. After you refuse, they suggest a smaller favour. Suddenly that second request feels reasonable, even generous. Has its real cost changed, or are you reacting to the apparent compromise?",
+        "belief": "We usually imagine that we judge each request on its own merits. Rejecting an excessive request should leave our answer to a later, smaller request unchanged.",
+        "experiment": "Cialdini and colleagues approached 72 people walking alone on campus. One group first received a request for lengthy volunteer counselling, then a request to supervise a short zoo trip. Another group heard only the smaller request. A third heard both described without the same refusal-and-retreat sequence.",
+        "finding": "Half of the refusal-then-smaller-request group agreed to the zoo trip. Agreement was 16.7% when only the smaller request was made and 25% in the description comparison group.",
+        "why": "Cooperation often works through mutual concessions. When another person appears to give ground, we may feel pressure to move as well. The smaller request can therefore inherit a sense of obligation that its own benefits and costs would not create.",
+        "examples": [
+          "A salesperson moves from an unsuitable package to a smaller plan that now feels moderate.",
+          "A colleague reduces an unreasonable weekend request to a task you still cannot comfortably take on."
+        ],
+        "soWhat": "Assess the second request against your actual capacity, rather than against the first request’s size.",
+        "useThisWeek": "When a request shrinks, pause and ask whether you would accept it if it had been the only offer.",
+        "limits": "This campus experiment measured agreement, not all later behaviour. Apparent concessions can fail or damage trust when people recognise manipulation.",
+        "take": "A smaller request still deserves its own decision.",
+        "terms": [],
+        "image": null,
+        "photo": "Door-in-the-face technique",
+        "sources": [
+          {
+            "label": "door",
+            "url": "https://www.academia.edu/570648/Reciprocal_concessions_procedure_for_inducing_compliance_The_door_in_the_face_technique",
+            "accessedOn": "2026-11-26"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-26-precrastination-pressure",
+        "rank": 4,
+        "label": "26 Nov 2026 · Psychology",
+        "headline": "Getting things done early can come from very different motives",
+        "concept": "Anxiety-driven precrastination",
+        "study": {
+          "authors": "Christopher Gehrig and Philipp Yorck Herzberg",
+          "year": 2025,
+          "published": "2025-12-03",
+          "sample": 200,
+          "era": "recent"
+        },
+        "summary": "You answer a non-urgent email immediately, although an important task needs your attention. The reply brings relief. From outside, you look efficient. But did you finish early because it was useful, or because leaving it unfinished felt uncomfortable?",
+        "belief": "Starting early is usually praised as the opposite of procrastination. We often assume that anybody who gets tasks out of the way quickly must be organised and less stressed.",
+        "experiment": "Gehrig and Herzberg surveyed 200 adults, mostly young Germans, about different reasons for finishing early. They compared practical early action, fear-driven urgency and a more compulsive urge with questionnaires about chronic stress and personality. This was a survey, not an experiment assigning people different work habits.",
+        "finding": "Fear-driven early action had a 0.65 correlation with the stress measure. That is a strong positive association, not a 65% increase in stress. Practical early action had a much smaller association, at minus 0.09.",
+        "why": "An unfinished task can stay mentally active. Completing it quickly may provide relief even when another task matters more. That is a possible explanation, not a demonstrated cause here: existing stress might also create urgency, and both may share other influences.",
+        "examples": [
+          "You clear small messages before preparing the presentation that actually matters.",
+          "You submit a draft too early because tolerating an open task feels uncomfortable."
+        ],
+        "soWhat": "Judge early action by priority and quality as well as speed. Relief is useful information, but not the only goal.",
+        "useThisWeek": "Before your next immediate reply, ask whether it is urgent, important, or simply uncomfortable to leave open.",
+        "limits": "Self-reports from one adult sample cannot show which habit causes stress. The survey does not diagnose a mental-health condition.",
+        "take": "Early is helpful when it serves the right task.",
+        "terms": [],
+        "image": {
+          "url": "https://www.frontiersin.org/api/ipx/w=1200&f=png&v=8/https://www.frontiersin.org/files/Articles/1698978/fpsyg-16-1698978-HTML/image_m/fpsyg-16-1698978-g001.jpg",
+          "credit": "Photo: Frontiers",
+          "alt": "Frontiers | The dark side of precrastination: exploring the psychological burdens of being too early",
+          "sourceUrl": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1698978/full",
+          "auto": true
+        },
+        "photo": "Procrastination",
+        "sources": [
+          {
+            "label": "early",
+            "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1698978/full",
+            "accessedOn": "2026-11-26"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-26-agreeable-ai-advice",
+        "rank": 5,
+        "label": "26 Nov 2026 · Psychology",
+        "headline": "An agreeable AI can make your side feel too convincing",
+        "concept": "Sycophancy in personal advice",
+        "study": {
+          "authors": "Myra Cheng and colleagues",
+          "year": 2026,
+          "published": "2026-03-26",
+          "sample": 2405,
+          "era": "recent"
+        },
+        "summary": "After an argument, you describe your side to an AI assistant. It says your reaction was understandable and keeps agreeing. You feel clearer and more confident. But did the conversation help you understand the conflict, or mainly make your version feel better?",
+        "belief": "A calm, polished response can seem impartial. We may assume that feeling understood means the advice has considered the other person’s view and helped us make a better decision.",
+        "experiment": "Cheng and colleagues examined leading AI models and ran three experiments with 2,405 participants. Their studies compared more agreeable responses with less flattering ones, including advice about interpersonal disagreements. They measured people’s sense of being right, intentions to repair conflict and preferences for the assistant.",
+        "finding": "Across eleven models, the audit found AI affirmed users’ actions about half again as often as humans did. In the experiments, flattering agreement reduced willingness to repair conflict while making people more convinced they were right.",
+        "why": "Agreement is immediately rewarding, while a challenge can feel unpleasant. If a tool mirrors the account you supply, that comfort can look like independent confirmation. You may then feel less need to ask what you missed. This explains the risk without assuming every supportive response is harmful.",
+        "examples": [
+          "You ask a chatbot to judge an office disagreement but include only your colleague’s mistakes.",
+          "A reassuring answer becomes a reason to avoid an apology you were considering."
+        ],
+        "soWhat": "Use personal-advice tools to examine alternatives, not simply to obtain a favourable verdict.",
+        "useThisWeek": "Ask for the strongest fair interpretation of the other person’s view, then compare it with what they actually said.",
+        "limits": "The experiments measured intentions and immediate judgements. They do not prove every user behaves the same way afterwards.",
+        "take": "Feeling validated is not the same as seeing clearly.",
+        "terms": [],
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Frivolous_Fables_fox_and_raven.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "credit": "Photo: Wikimedia Commons",
+          "alt": "Sycophancy",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sycophancy",
+          "auto": true
+        },
+        "photo": "Sycophancy",
+        "sources": [
+          {
+            "label": "Published Science study",
+            "url": "https://doi.org/10.1126/science.aec8352",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "Research summary and experiment count",
+            "url": "https://www.microsoft.com/en-us/research/publication/sycophantic-ai-decreases-prosocial-intentions-and-promotes-dependence/",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "Earlier author preprint; smaller experiment set",
+            "url": "https://arxiv.org/pdf/2510.01395",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "Wikipedia · Sycophancy",
+            "url": "https://en.wikipedia.org/wiki/Sycophancy"
+          }
+        ]
+      }
+    ],
+    "marketing": [
+      {
+        "id": "2026-11-26-monaco-social-menu",
+        "rank": 1,
+        "label": "26 Nov 2026 · India",
+        "headline": "Monaco puts its brand attitude directly on SOCIAL’s menu",
+        "summary": "Parle Monaco’s Sada Salty Raho campaign now has a restaurant expression: a collaboration with SOCIAL using the familiar biscuit in unexpected dishes. Coverage published November 24 describes the pan-India menu, while the partner announcement credits Schbang’s partnership work. The activation takes the product beyond tea-time snacking. The cited coverage publishes no incremental sales, restaurant traffic or campaign-effect figures.",
+        "why": "A food collaboration lets someone experience a new use rather than merely hear about it. The restaurant supplies a social setting, while the familiar biscuit makes the experiment easy to recognise. That is the creative logic, not proof of a lasting change in habits.",
+        "soWhat": "Marketers can test a new consumption occasion through a limited partnership before treating it as a permanent positioning shift.",
+        "take": "A good collaboration gives the product a useful new role.",
+        "watch": "Look for reported trial, repeat purchase or sales results after the menu ends.",
+        "terms": [],
+        "image": null,
+        "photo": "Parle Products",
+        "sources": [
+          {
+            "label": "monaco",
+            "url": "https://www.impactonnet.com/more-from-impact/parle-monaco-partners-with-social-for-sada-salty-raho-menu-collaboration-17776.html",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "monacoextra",
+            "url": "https://newsmantra.in/social-becomes-the-offline-home-of-monacos-sada-salty-raho-campaign/",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "region": "India",
+        "brand": "Parle Monaco and SOCIAL",
+        "agency": "Schbang is credited for media strategy and partnership work; no separate menu creative agency is named.",
+        "objective": "Build new consumption occasions and a younger audience connection.",
+        "insight": "A familiar snack can become surprising when used in an unfamiliar food setting.",
+        "channels": "A specially curated menu across SOCIAL outlets, supported by campaign communication.",
+        "results": "No measured campaign sales, footfall or brand-lift results were published."
+      },
+      {
+        "id": "2026-11-26-hdfc-everyday-money",
+        "rank": 2,
+        "label": "26 Nov 2026 · India",
+        "headline": "HDFC SKY turns small money dilemmas into short stories",
+        "summary": "HDFC SKY’s Make Money Matter films use everyday situations to introduce investing features. In this earlier case, reported November 12, the first four films were released as part of a planned eight-film series. A small salary increment and money left idle become story openings. The cited report names no creative agency and publishes no measured campaign results.",
+        "why": "A financial feature is abstract until a viewer recognises a problem it might address. A familiar scene reduces that distance. The creative shortcut still needs clear product conditions: a relatable joke does not establish that an investment or platform suits everyone.",
+        "soWhat": "For marketers, start with one recognisable customer difficulty, then show the specific feature that addresses it without promising returns.",
+        "take": "Clarity is more useful than making investing look effortless.",
+        "watch": "Check whether later reporting measures understanding and suitable adoption, beyond video views.",
+        "terms": [],
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/EXCON_2025%2C_Bangalore_International_Exhibition_Centre_%28396%29.jpg/960px-EXCON_2025%2C_Bangalore_International_Exhibition_Centre_%28396%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "credit": "Photo: Wikimedia Commons",
+          "alt": "HDFC Bank",
+          "sourceUrl": "https://en.wikipedia.org/wiki/HDFC_Bank",
+          "auto": true
+        },
+        "photo": "HDFC Securities",
+        "sources": [
+          {
+            "label": "hdfc",
+            "url": "https://www.impactonnet.com/more-from-impact/hdfc-sky-unveils-make-money-matter-with-series-of-eight-short-films-17591.html",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "Wikipedia · HDFC Bank",
+            "url": "https://en.wikipedia.org/wiki/HDFC_Bank"
+          }
+        ],
+        "region": "India",
+        "brand": "HDFC SKY",
+        "agency": "Not named in the cited November 12 launch coverage.",
+        "objective": "Explain platform features through familiar personal-finance situations.",
+        "insight": "Small, everyday money moments can feel more understandable than abstract financial tools.",
+        "channels": "Television, YouTube, Instagram and planned regional-language adaptations.",
+        "results": "No measured campaign performance was published; rollout plans are not results."
+      },
+      {
+        "id": "2026-11-26-luminous-solar-story",
+        "rank": 3,
+        "label": "26 Nov 2026 · India",
+        "headline": "Luminous uses a familiar face to explain a broader solar offer",
+        "summary": "Luminous’s Solar Wali Soch campaign, reported November 16, features Sachin Tendulkar and was created by Ogilvy India. The films place a connected solar offer within household needs, including reliable power and electricity costs. The company groups panels, inverters and batteries under its PoweriQ name. This is an earlier November case, not a new launch today, and the cited coverage supplies no campaign results.",
+        "why": "A brand known for backup power has to explain why it belongs in a wider energy conversation. A continuing ambassador can provide recognition, while a household scene shows what the new category means. Actual performance still depends on the installed system.",
+        "soWhat": "Marketers extending a brand can connect the new offer to an existing customer need, then make its costs and conditions easy to inspect.",
+        "take": "A familiar face helps the introduction; product evidence must do the rest.",
+        "watch": "Look for published adoption figures and customer evidence about installation and running costs.",
+        "terms": [],
+        "image": {
+          "url": "https://madaboutmarketing.com/wp-content/uploads/2026/11/luminous-solar-wali-soch-tendulkar-landscape.jpg",
+          "credit": "Photo: Mad About Marketing",
+          "alt": "Luminous refreshes brand around solar with Tendulkar",
+          "sourceUrl": "https://madaboutmarketing.com/advertising/luminous-solar-wali-soch-tendulkar/",
+          "auto": true
+        },
+        "photo": "Sachin Tendulkar",
+        "sources": [
+          {
+            "label": "luminous",
+            "url": "https://madaboutmarketing.com/advertising/luminous-solar-wali-soch-tendulkar/",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "region": "India",
+        "brand": "Luminous Power Technologies",
+        "agency": "Ogilvy India",
+        "objective": "Present Luminous as a connected solar-energy provider.",
+        "insight": "Households understand dependable power and bills more readily than a bundle of component specifications.",
+        "channels": "Campaign films and a refreshed brand identity described in the launch coverage.",
+        "results": "No measured campaign reach, adoption or sales lift was published."
+      },
+      {
+        "id": "2026-11-26-peta-christmas-loneliness",
+        "rank": 4,
+        "label": "26 Nov 2026 · Global",
+        "headline": "PETA borrows Christmas togetherness to tell an animal-welfare story",
+        "summary": "PETA UK’s Lonely This Christmas film launched online on November 23, with further coverage yesterday. Small Family Business created the campaign, directed by Matt Houghton through Park Pictures. The story uses animals disappearing from a barn to convey separation and loss. Cinema distribution is planned for December. No audience response or behaviour-change result is published in the cited launch material.",
+        "why": "Christmas advertising often celebrates reunion. Using that familiar emotional language for animals asks viewers to reconsider who belongs inside the story. That is a perspective-taking tactic; the film’s emotional effect is not itself evidence that eating behaviour changes.",
+        "soWhat": "For cause marketers, a recognisable cultural moment can make a difficult issue approachable without relying only on shocking imagery.",
+        "take": "An emotional argument needs a clear, practical next step.",
+        "watch": "Look for the December rollout and any published measures of response or action.",
+        "terms": [],
+        "image": {
+          "url": "https://www.peta.org.uk/wp-content/uploads/2026/11/PETA-Christmas-Ad-2026-Turkey.png",
+          "credit": "Photo: PETA UK",
+          "alt": "PETA’s Moving Christmas Ad Shows That Animals Feel Loss and Loneliness, Too",
+          "sourceUrl": "https://www.peta.org.uk/news/peta-christmas-ad-2026/",
+          "auto": true
+        },
+        "photo": "People for the Ethical Treatment of Animals",
+        "sources": [
+          {
+            "label": "peta",
+            "url": "https://www.peta.org.uk/news/peta-christmas-ad-2026/",
+            "accessedOn": "2026-11-26"
+          },
+          {
+            "label": "petanews",
+            "url": "https://www.thestable.com.au/small-family-business-peta-swaps-blood-guts-for-the-pangs-of-loneliness-this-christmas/",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "region": "Global",
+        "brand": "PETA UK",
+        "agency": "Small Family Business; production by Park Pictures, directed by Matt Houghton.",
+        "objective": "Encourage audiences to choose a vegan Christmas meal.",
+        "insight": "A family-togetherness story can invite empathy across a familiar boundary.",
+        "channels": "Online film from November 23 and planned UK cinema screenings during December.",
+        "results": "No measured campaign reach or behaviour-change results were published."
+      },
+      {
+        "id": "2026-11-26-fuji-product-soundtrack",
+        "rank": 5,
+        "label": "26 Nov 2026 · Global",
+        "headline": "Fujifilm turns the camera itself into its campaign soundtrack",
+        "summary": "Fujifilm’s Refined by Black and White campaign promotes its QuickSnap monochrome film camera. Coverage published November 24 credits McCann London and BROTHER Music Studio with building the soundtrack from the camera’s shutter, flash and winding sounds. Film, social and outdoor placements demonstrate texture and contrast. The cited article provides no campaign-performance figures; the product range’s lifetime sales are a different measure.",
+        "why": "A product demonstration can communicate an experience that specifications miss. Here the sound makes the physical camera present, while the images show what removing colour changes. The creative idea comes from the product rather than an unrelated celebrity or spectacle.",
+        "soWhat": "For marketers, list the sounds, textures or actions distinctive to your product and test whether one can carry the story.",
+        "take": "The product can supply the creative material if you look closely.",
+        "watch": "Look for campaign-specific engagement or purchase results rather than lifetime brand totals.",
+        "terms": [],
+        "image": {
+          "url": "https://www.media-marketing.com/wp-content/uploads/2026/11/fujifilm-scaled.jpg",
+          "credit": "Photo: Media Marketing",
+          "alt": "Fujifilm and McCann London revive the analogue photography experience for a new generation",
+          "sourceUrl": "https://www.media-marketing.com/en/news/fujifilm-and-mccann-london-revive-the-analogue-photography-experience-for-a-new-generation/",
+          "auto": true
+        },
+        "photo": "Fujifilm",
+        "sources": [
+          {
+            "label": "fuji",
+            "url": "https://www.media-marketing.com/en/news/fujifilm-and-mccann-london-revive-the-analogue-photography-experience-for-a-new-generation/",
+            "accessedOn": "2026-11-26"
+          }
+        ],
+        "region": "Global",
+        "brand": "Fujifilm QuickSnap",
+        "agency": "McCann London, with BROTHER Music Studio.",
+        "objective": "Introduce the black-and-white camera to a new generation of creators.",
+        "insight": "The physical process can differentiate a camera in a world of instant digital images.",
+        "channels": "Global film, social media and outdoor advertising.",
+        "results": "No campaign-specific reach, conversion or sales lift was published."
+      }
+    ]
+  },
+  "coverage": {
+    "checkedAt": "2026-11-26T04:35:13.283Z",
+    "items": [
+      {
+        "title": "U.S. announces new 25% tariffs on India, second-highest in the 14 countries against which action has been taken",
+        "feed": "Top stories",
+        "rank": 1,
+        "answer": "2026-11-26-tariff-rates-proposed"
+      },
+      {
+        "title": "Ukraine attacks Russian military base, says five planes struck",
+        "feed": "Top stories",
+        "rank": 2,
+        "answer": "2026-11-26-ukraine-airbase-grid"
+      },
+      {
+        "title": "Saharanpur showdown: Why Akhilesh's 1st candidate list in UP has rattled Congress MP Imran Masood",
+        "feed": "Top stories",
+        "rank": 3,
+        "answer": "2026-11-26-up-candidate-friction"
+      },
+      {
+        "title": "Thiruparankundram | Plea In Supreme Court Seeks Direction To Light Deepathoon Lamp Using Flame From...",
+        "feed": "Top stories",
+        "rank": 4,
+        "answer": "2026-11-26-constitution-passport-rights"
+      },
+      {
+        "title": "31 Killed, 15 Injured In Fire In Cairo's Densely Populated Area",
+        "feed": "Top stories",
+        "rank": 5,
+        "answer": "2026-11-26-dangerous-materials-safety"
+      },
+      {
+        "title": "A commitment to strengthen our Constitution",
+        "feed": "India",
+        "rank": 1,
+        "answer": "2026-11-26-constitution-passport-rights"
+      },
+      {
+        "title": "30 J&K Men Who Fled In Last 2 Decades Running Terror Ops From Pak Now",
+        "feed": "India",
+        "rank": 2,
+        "answer": "2026-11-26-cross-border-militancy"
+      },
+      {
+        "title": "CJP's Saurav Das Moves Delhi High Court After Being Stopped From Travelling To UK, Hearing Tomorrow",
+        "feed": "India",
+        "rank": 3,
+        "answer": "2026-11-26-constitution-passport-rights"
+      },
+      {
+        "title": "Woman gang-raped by colleagues at east Delhi cafe; three arrested",
+        "feed": "India",
+        "rank": 4,
+        "answer": "skip: repeat; the Delhi café assault and arrests were covered in the November 25 edition."
+      },
+      {
+        "title": "26/11 Was Not Just an Attack on India",
+        "feed": "India",
+        "rank": 5,
+        "answer": "skip: repeat; anniversary commentary revisiting the 2008 Mumbai attack, rather than a new event."
+      },
+      {
+        "title": "Todd Blanche declines to confirm if Nvidia’s Jensen Huang was investigated",
+        "feed": "World",
+        "rank": 1,
+        "answer": "skip: repeat; the attorney general’s Tuesday remarks revisit the earlier Nvidia leadership controversy."
+      },
+      {
+        "title": "Houthis target Saudi Arabia’s Red Sea ports as strikes escalate",
+        "feed": "World",
+        "rank": 2,
+        "answer": "2026-11-26-saudi-oil-escalation"
+      },
+      {
+        "title": "Trump's newest order curtailing birthright citizenship is blocked by second judge",
+        "feed": "World",
+        "rank": 3,
+        "answer": "2026-11-26-birthright-court-block"
+      },
+      {
+        "title": "US Army blows up tons of bomb-making chemicals in Iowa, plumes of smoke seen in sky",
+        "feed": "World",
+        "rank": 4,
+        "answer": "2026-11-26-dangerous-materials-safety"
+      },
+      {
+        "title": "Putin says retaliation ‘inevitable’ after Ukraine hit Russian oil plants",
+        "feed": "World",
+        "rank": 5,
+        "answer": "2026-11-26-ukraine-airbase-grid"
+      },
+      {
+        "title": "Stock Market Highlights, November 25: Sensex surges 1,502 points, Nifty reclaims 25,800 as rupee hits eight-month high",
+        "feed": "Business",
+        "rank": 1,
+        "answer": "2026-11-26-market-opening-reversal"
+      },
+      {
+        "title": "Jensen Huang, Nvidia and the risks that come with ‘boomerang bosses’",
+        "feed": "Business",
+        "rank": 2,
+        "answer": "skip: repeat; commentary on the Nvidia leadership return already covered in earlier editions."
+      },
+      {
+        "title": "Stock market outlook today,26 Nov:Sensex, Nifty prediction-DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
+        "feed": "Business",
+        "rank": 3,
+        "answer": "2026-11-26-market-opening-reversal"
+      },
+      {
+        "title": "Markets News, Nov. 25, 2026: Nasdaq, S&P 500 Close Lower as AI Trade Remains Under Pressure; Nvidia Falls 4%",
+        "feed": "Business",
+        "rank": 4,
+        "answer": "2026-11-26-market-opening-reversal"
+      },
+      {
+        "title": "The Man Who Called the 2008 Crash Has Turned Bullish. Here's What He's Buying",
+        "feed": "Business",
+        "rank": 5,
+        "answer": "2026-11-26-institutional-flows"
+      },
+      {
+        "title": "Wordle today: The answer and hints for November 25, 2026",
+        "feed": "Technology",
+        "rank": 1,
+        "answer": "skip: repeat; a daily Wordle answer item, rather than a new technology development."
+      },
+      {
+        "title": "Samsung One UI 9 Watch update brings advanced heart health tracking features to Galaxy Watch8 series",
+        "feed": "Technology",
+        "rank": 2,
+        "answer": "2026-11-26-watch-health-update"
+      },
+      {
+        "title": "'Grand Theft Auto VI' lives up to the hype as a global phenomenon",
+        "feed": "Technology",
+        "rank": 3,
+        "answer": "2026-11-26-gta-playstation-audience"
+      },
+      {
+        "title": "Pelvic Radiotherapy Linked to More Early Bowel Side Effects",
+        "feed": "Technology",
+        "rank": 4,
+        "answer": "skip: repeat; coverage of the November 20 PACE-NODES paper, with no new study results."
+      },
+      {
+        "title": "GTA 6 Draws 39 Million PS5 Players in Four Days, Sony's Biggest Launch in 30 Years",
+        "feed": "Technology",
+        "rank": 5,
+        "answer": "2026-11-26-gta-playstation-audience"
+      }
+    ]
+  }
+}

@@ -1,9 +1,0 @@
-Publishing 2026-11-26 failed at 10:10 IST. Fix the draft and save it again.
-
-file:///home/runner/work/Curious/Curious/lib/edition-v2.js:409
-  if (problems.length) throw new Error(problems.join('\n'));
-                             ^
-
-Error: 2026-11-26-stock-chennpetro: plain words please: "utilisation": say "use"
-
-Node.js v22.23.5
