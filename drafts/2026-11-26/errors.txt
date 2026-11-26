@@ -1,9 +1,9 @@
-Publishing 2026-11-26 failed at 09:58 IST. Fix the draft and save it again.
+Publishing 2026-11-26 failed at 10:09 IST. Fix the draft and save it again.
 
-file:///home/runner/work/Curious/Curious/lib/edition-v2.js:366
-        throw new Error('Stock card ' + (index + 1) + ' is empty, but the selection code found enough ' + (group === 'dip' ? '52-week-low' : 'quality') + ' stocks');
-              ^
+file:///home/runner/work/Curious/Curious/lib/edition-v2.js:409
+  if (problems.length) throw new Error(problems.join('\n'));
+                             ^
 
-Error: Stock card 3 is empty, but the selection code found enough quality stocks
+Error: 2026-11-26-stock-chennpetro: plain words please: "utilisation": say "use"
 
 Node.js v22.23.5
