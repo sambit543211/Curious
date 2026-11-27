@@ -1,0 +1,398 @@
+{
+  "date": "2026-11-27",
+  "timestamp": "2026-11-27T09:45:51+05:30",
+  "mode": "latest",
+  "session": "open",
+  "sources": [
+    {
+      "label": "nse",
+      "url": "https://www.nseindia.com/api/allIndices"
+    },
+    {
+      "label": "bse",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?interval=1m&range=1d"
+    },
+    {
+      "label": "prev",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_26112026.csv"
+    },
+    {
+      "label": "ytd",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+    },
+    {
+      "label": "flows",
+      "url": "https://www.nseindia.com/api/fiidiiTradeReact"
+    },
+    {
+      "label": "bseprev",
+      "url": "https://www.ndtvprofit.com/markets/stock-market-today-all-you-need-to-know-going-into-trade-on-nov-27-12382262"
+    },
+    {
+      "label": "gold",
+      "url": "https://ibjarates.com"
+    },
+    {
+      "label": "fx",
+      "url": "https://in.marketscreener.com/news/rupee-rally-faces-oil-test-inflows-positive-sentiment-provide-cushion-ce7851d9db8bfe21"
+    },
+    {
+      "label": "oil",
+      "url": "https://www.ndtvprofit.com/markets/stock-market-today-all-you-need-to-know-going-into-trade-on-nov-27-12382262"
+    },
+    {
+      "label": "yield",
+      "url": "https://www.rbi.org.in/scripts/BS_NSDPDisplay.aspx?param=4"
+    },
+    {
+      "label": "Triveni results",
+      "url": "https://www.triveniturbines.com/wp-content/uploads/2026/11/TTL_Investor-Brief-Q2-H1-FY27.pdf",
+      "accessedOn": "2026-11-27"
+    },
+    {
+      "label": "Reuters opening",
+      "url": "https://in.marketscreener.com/news/indian-shares-set-to-open-higher-eye-fifth-weekly-gain-as-inflows-boost-momentum-ce7851d9db8bf12d",
+      "accessedOn": "2026-11-27"
+    },
+    {
+      "label": "NSE listing",
+      "url": "https://www.nseindia.in/get-quote/equity/MAHACOAL/Mahanadi-Coalfields-Limited",
+      "accessedOn": "2026-11-27"
+    },
+    {
+      "label": "Foodlink offer",
+      "url": "https://www.jmfl.com/Common/getFile/6193",
+      "accessedOn": "2026-11-27"
+    },
+    {
+      "label": "Mahanadi reporting",
+      "url": "https://www.financialexpress.com/market/ipo-news-mahanadi-coalfields-ipo-listing-live-updates-date-time-coal-india-listing-share-price-news-ipo-price-band-4394530/lite/",
+      "accessedOn": "2026-11-27"
+    }
+  ],
+  "series": {
+    "Nifty 50": {
+      "level": 25868.05,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "history": [
+        {
+          "date": "2026-11-26",
+          "level": 25884.5,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_26112026.csv"
+        },
+        {
+          "date": "2026-11-20",
+          "level": 25800.6,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2026-10-27",
+          "level": 22749.75,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2025-12-31",
+          "level": 26129.6,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+        }
+      ],
+      "note": "NSE observation 27 November 09:44 IST; retrieved 09:45:51 IST. Quote time differs from collection time. Historical baselines are dated closes."
+    },
+    "Bank Nifty": {
+      "level": 63848.05,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "history": [
+        {
+          "date": "2026-11-26",
+          "level": 63535.3,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_26112026.csv"
+        },
+        {
+          "date": "2026-11-20",
+          "level": 64635.2,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2026-10-27",
+          "level": 53974.9,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2025-12-31",
+          "level": 59581.85,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+        }
+      ],
+      "note": "NSE observation 27 November 09:44 IST; retrieved 09:45:51 IST. Quote time differs from collection time. Historical baselines are dated closes."
+    },
+    "Nifty Midcap 150": {
+      "level": 22819.25,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "history": [
+        {
+          "date": "2026-11-26",
+          "level": 22650,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_26112026.csv"
+        },
+        {
+          "date": "2026-11-20",
+          "level": 22750.8,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2026-10-27",
+          "level": 21003.15,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2025-12-31",
+          "level": 22276.9,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+        }
+      ],
+      "note": "NSE observation 27 November 09:44 IST; retrieved 09:45:51 IST. Quote time differs from collection time. Historical baselines are dated closes."
+    },
+    "Nifty Smallcap 250": {
+      "level": 17877.2,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "history": [
+        {
+          "date": "2026-11-26",
+          "level": 17735.3,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_26112026.csv"
+        },
+        {
+          "date": "2026-11-20",
+          "level": 17785.5,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2026-10-27",
+          "level": 16933.7,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2025-12-31",
+          "level": 16684.75,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+        }
+      ],
+      "note": "NSE observation 27 November 09:44 IST; retrieved 09:45:51 IST. Quote time differs from collection time. Historical baselines are dated closes."
+    },
+    "India VIX": {
+      "level": 16.74,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "history": [
+        {
+          "date": "2026-11-26",
+          "level": 16.84,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_26112026.csv"
+        },
+        {
+          "date": "2026-11-20",
+          "level": 17.32,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2026-10-27",
+          "level": 16.4,
+          "url": "https://www.nseindia.com/api/allIndices"
+        },
+        {
+          "date": "2025-12-31",
+          "level": 9.48,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+        }
+      ],
+      "note": "NSE observation 27 November 09:44 IST; retrieved 09:45:51 IST. Quote time differs from collection time. Historical baselines are dated closes."
+    },
+    "Sensex": {
+      "level": 83972.12,
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?interval=1m&range=1d",
+      "history": [
+        {
+          "date": "2026-11-26",
+          "level": 84328.59,
+          "url": "https://www.ndtvprofit.com/markets/stock-market-today-all-you-need-to-know-going-into-trade-on-nov-27-12382262"
+        }
+      ],
+      "note": "Delayed BSE quote distributed by Yahoo; observation 2026-11-27T09:30:47+05:30; retrieved 09:45:48 IST. Not synchronous with NSE. Older comparable closes were not collected."
+    },
+    "Brent": {
+      "level": 96.6,
+      "url": "https://www.ndtvprofit.com/markets/stock-market-today-all-you-need-to-know-going-into-trade-on-nov-27-12382262",
+      "history": [],
+      "note": "USD per barrel, intraday futures observation in NDTV Profit pre-market report published 27 November 07:14 IST; earlier than equity collection, not settlement."
+    },
+    "Gold (₹/10 g)": {
+      "level": 122641,
+      "url": "https://ibjarates.com",
+      "history": [
+        {
+          "date": "2026-11-25",
+          "level": 121038,
+          "url": "https://ibjarates.com"
+        }
+      ],
+      "note": "IBJA 999-purity PM benchmark for 26 November, INR per ten grams, excluding GST. Last published benchmark; 27 November AM/PM rates not posted when checked. Comparison is Thursday PM versus Wednesday PM, not a live Friday move."
+    },
+    "₹/US$": {
+      "level": 92.445,
+      "url": "https://in.marketscreener.com/news/rupee-rally-faces-oil-test-inflows-positive-sentiment-provide-cushion-ce7851d9db8bfe21",
+      "history": [],
+      "note": "Thursday 26 November close quoted by Reuters in its 27 November 08:18 IST report. Last completed-session spot rate, not a current Friday observation or FBIL fixing. Comparable previous close not collected."
+    },
+    "India 10-year G-sec yield": {
+      "url": "https://www.rbi.org.in/scripts/BS_NSDPDisplay.aspx?param=4",
+      "unavailableReason": "RBI page checked is dated 20 November and contains older weekly par yields, not the current-session benchmark. No current yield or matching comparison is supplied."
+    }
+  },
+  "facts": [
+    {
+      "value": 25868.05,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": -0.06,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 25884.5,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_26112026.csv",
+      "asOf": "2026-11-26"
+    },
+    {
+      "value": 63848.05,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 0.49,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 63535.3,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_26112026.csv",
+      "asOf": "2026-11-26"
+    },
+    {
+      "value": 22819.25,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 0.75,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 22650,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_26112026.csv",
+      "asOf": "2026-11-26"
+    },
+    {
+      "value": 17877.2,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 0.8,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 17735.3,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_26112026.csv",
+      "asOf": "2026-11-26"
+    },
+    {
+      "value": 16.74,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": -0.54,
+      "url": "https://www.nseindia.com/api/allIndices",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 16.84,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_26112026.csv",
+      "asOf": "2026-11-26"
+    },
+    {
+      "value": 83972.12,
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?interval=1m&range=1d",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 84328.59,
+      "url": "https://www.ndtvprofit.com/markets/stock-market-today-all-you-need-to-know-going-into-trade-on-nov-27-12382262",
+      "asOf": "2026-11-26"
+    },
+    {
+      "value": 5843.33,
+      "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+      "asOf": "2026-11-26"
+    },
+    {
+      "value": 5630.72,
+      "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+      "asOf": "2026-11-26"
+    },
+    {
+      "value": 96.6,
+      "url": "https://www.ndtvprofit.com/markets/stock-market-today-all-you-need-to-know-going-into-trade-on-nov-27-12382262",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 122641,
+      "url": "https://ibjarates.com",
+      "asOf": "2026-11-26"
+    },
+    {
+      "value": 121038,
+      "url": "https://ibjarates.com",
+      "asOf": "2026-11-25"
+    },
+    {
+      "value": 92.445,
+      "url": "https://in.marketscreener.com/news/rupee-rally-faces-oil-test-inflows-positive-sentiment-provide-cushion-ce7851d9db8bfe21",
+      "asOf": "2026-11-26"
+    },
+    {
+      "value": 53.3,
+      "url": "https://www.triveniturbines.com/wp-content/uploads/2026/11/TTL_Investor-Brief-Q2-H1-FY27.pdf",
+      "asOf": "2026-09-30"
+    },
+    {
+      "value": 91.4,
+      "url": "https://www.triveniturbines.com/wp-content/uploads/2026/11/TTL_Investor-Brief-Q2-H1-FY27.pdf",
+      "asOf": "2025-09-30"
+    },
+    {
+      "value": -3,
+      "url": "https://www.triveniturbines.com/wp-content/uploads/2026/11/TTL_Investor-Brief-Q2-H1-FY27.pdf",
+      "asOf": "2026-09-30"
+    }
+  ],
+  "flows": {
+    "fii": 5843.33,
+    "dii": 5630.72,
+    "fiiMtd": null,
+    "diiMtd": null,
+    "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+    "asOf": "2026-11-26",
+    "unavailableReason": "Completed-session NSE cash flows in INR crore for Thursday. Comparable dated month-to-date INR totals were not obtained; dollar estimates are not substituted."
+  },
+  "niftyPE": {
+    "now": 21.08,
+    "median5y": null,
+    "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_26112026.csv",
+    "asOf": "2026-11-26",
+    "unavailableReason": "Nifty trailing P/E is from Thursday close. A comparable five-year median and refreshed intraday ratio were not obtained."
+  }
+}
