@@ -1,0 +1,11 @@
+Publishing 2026-11-27 failed at 10:01 IST. Fix the draft and save it again.
+
+Validated and wrote 2026-11-27 · commit this dated file to publish
+public/editions/2026-11-27.json: added 15 photos for 25 cards without one
+file:///home/runner/work/Curious/Curious/scripts/build-editions.mjs:60
+  if (problems.length) throw new Error(issue.date + ': ' + problems.join('\n'));
+                             ^
+
+Error: 2026-11-27: Banned phrase
+
+Node.js v22.23.5
