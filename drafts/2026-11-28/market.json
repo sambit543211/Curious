@@ -1,0 +1,420 @@
+{
+  "date": "2026-11-28",
+  "timestamp": "2026-11-28T09:50:29+05:30",
+  "mode": "latest",
+  "session": "closed",
+  "lastSession": "2026-11-27",
+  "calendarUrl": "https://www.nseindia.com/resources/exchange-communication-holidays",
+  "sources": [
+    {
+      "label": "NSE · official Friday index close",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_27112026.csv",
+      "accessedOn": "2026-11-28"
+    },
+    {
+      "label": "NSE · Thursday comparison close",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_26112026.csv",
+      "accessedOn": "2026-11-28"
+    },
+    {
+      "label": "NSE · week-earlier close",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_20112026.csv",
+      "accessedOn": "2026-11-28"
+    },
+    {
+      "label": "NSE · month-earlier close",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_27102026.csv",
+      "accessedOn": "2026-11-28"
+    },
+    {
+      "label": "NSE · prior year-end close",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv",
+      "accessedOn": "2026-11-28"
+    },
+    {
+      "label": "BSE quotes distributed by Yahoo · dated daily closes",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?interval=1d&range=5d",
+      "accessedOn": "2026-11-28"
+    },
+    {
+      "label": "NSE · Friday institutional cash flows",
+      "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+      "accessedOn": "2026-11-28"
+    },
+    {
+      "label": "NSE · 2026 exchange holiday calendar",
+      "url": "https://www.nseindia.com/resources/exchange-communication-holidays",
+      "accessedOn": "2026-11-28"
+    },
+    {
+      "label": "IBJA · dated 999-purity PM gold benchmarks",
+      "url": "https://ibjarates.com",
+      "accessedOn": "2026-11-28"
+    },
+    {
+      "label": "RBI · weekly national summary data",
+      "url": "https://www.rbi.org.in/scripts/BS_NSDPDisplay.aspx?param=4",
+      "accessedOn": "2026-11-28"
+    },
+    {
+      "label": "Reuters / Economic Times · Friday rupee close",
+      "url": "https://economictimes.indiatimes.com/markets/forex/rupee-rally-takes-a-hit-as-ai-trade-revival-dents-shares-currency-sees-weekly-dip/articleshow/136218142.cms",
+      "accessedOn": "2026-11-28"
+    },
+    {
+      "label": "Reuters · Friday closing-market report",
+      "url": "https://www.reuters.com/world/india/indian-shares-set-open-higher-eye-fifth-weekly-gain-inflows-boost-momentum-2026-11-27/",
+      "accessedOn": "2026-11-28"
+    },
+    {
+      "label": "RBI · foreign-exchange reserves release",
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64057",
+      "accessedOn": "2026-11-28"
+    },
+    {
+      "label": "RBI · daily reserve-maintenance circular",
+      "url": "https://rbi.org.in/scripts/FS_Notification.aspx?Id=13759&Mode=0&fn=2",
+      "accessedOn": "2026-11-28"
+    },
+    {
+      "label": "Indian Express · CFO’s confirmation and permission request",
+      "url": "https://indianexpress.com/article/business/adani-group-cfo-jugeshinder-robbie-singh-confirms-government-request-invest-in-airlines-omda-cross-holding-rules-10981682/",
+      "accessedOn": "2026-11-28"
+    },
+    {
+      "label": "Reuters / MarketScreener · Mahanadi result and debut",
+      "url": "https://www.marketscreener.com/news/coal-india-unit-mahanadi-coalfields-falls-1-5-in-trading-debut-ce7851d9db8cf423",
+      "accessedOn": "2026-11-28"
+    },
+    {
+      "label": "NSE · Foodlink issue timetable",
+      "url": "https://www.nseindia.in/market-data/issue-information?series=EQ&symbol=FOODLINK&type=Active",
+      "accessedOn": "2026-11-28"
+    },
+    {
+      "label": "JM Financial · Foodlink offer document",
+      "url": "https://www.jmfl.com/Common/getFile/6193",
+      "accessedOn": "2026-11-28"
+    },
+    {
+      "label": "Moneycontrol · announced Foodlink price range",
+      "url": "https://www.moneycontrol.com/news/business/ipo/foodlink-f-b-holdings-fixes-price-band-at-rs-181-191-per-share-for-rs-361-crore-ipo-issue-opens-november-26-14087065.html",
+      "accessedOn": "2026-11-28"
+    }
+  ],
+  "series": {
+    "Nifty 50": {
+      "level": 25607.2,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_27112026.csv",
+      "history": [
+        {
+          "date": "2026-11-26",
+          "level": 25884.5,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_26112026.csv"
+        },
+        {
+          "date": "2026-11-20",
+          "level": 25800.6,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_20112026.csv"
+        },
+        {
+          "date": "2026-10-27",
+          "level": 22749.75,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_27102026.csv"
+        },
+        {
+          "date": "2025-12-31",
+          "level": 26129.6,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+        }
+      ],
+      "note": "Exchange closed Saturday. Level is the official 27 November trading close; day comparison uses 26 November. Collected 28 November 09:50 IST. Older comparisons use the dated NSE closing files."
+    },
+    "Bank Nifty": {
+      "level": 63040.9,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_27112026.csv",
+      "history": [
+        {
+          "date": "2026-11-26",
+          "level": 63535.3,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_26112026.csv"
+        },
+        {
+          "date": "2026-11-20",
+          "level": 64635.2,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_20112026.csv"
+        },
+        {
+          "date": "2026-10-27",
+          "level": 53974.9,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_27102026.csv"
+        },
+        {
+          "date": "2025-12-31",
+          "level": 59581.85,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+        }
+      ],
+      "note": "Exchange closed Saturday. Level is the official 27 November trading close; day comparison uses 26 November. Collected 28 November 09:50 IST. Older comparisons use the dated NSE closing files."
+    },
+    "Nifty Midcap 150": {
+      "level": 22652.7,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_27112026.csv",
+      "history": [
+        {
+          "date": "2026-11-26",
+          "level": 22650,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_26112026.csv"
+        },
+        {
+          "date": "2026-11-20",
+          "level": 22750.8,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_20112026.csv"
+        },
+        {
+          "date": "2026-10-27",
+          "level": 21003.15,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_27102026.csv"
+        },
+        {
+          "date": "2025-12-31",
+          "level": 22276.9,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+        }
+      ],
+      "note": "Exchange closed Saturday. Level is the official 27 November trading close; day comparison uses 26 November. Collected 28 November 09:50 IST. Older comparisons use the dated NSE closing files."
+    },
+    "Nifty Smallcap 250": {
+      "level": 17829.9,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_27112026.csv",
+      "history": [
+        {
+          "date": "2026-11-26",
+          "level": 17735.3,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_26112026.csv"
+        },
+        {
+          "date": "2026-11-20",
+          "level": 17785.5,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_20112026.csv"
+        },
+        {
+          "date": "2026-10-27",
+          "level": 16933.7,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_27102026.csv"
+        },
+        {
+          "date": "2025-12-31",
+          "level": 16684.75,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+        }
+      ],
+      "note": "Exchange closed Saturday. Level is the official 27 November trading close; day comparison uses 26 November. Collected 28 November 09:50 IST. Older comparisons use the dated NSE closing files."
+    },
+    "India VIX": {
+      "level": 16.55,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_27112026.csv",
+      "history": [
+        {
+          "date": "2026-11-26",
+          "level": 16.84,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_26112026.csv"
+        },
+        {
+          "date": "2026-11-20",
+          "level": 17.32,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_20112026.csv"
+        },
+        {
+          "date": "2026-10-27",
+          "level": 16.4,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_27102026.csv"
+        },
+        {
+          "date": "2025-12-31",
+          "level": 9.48,
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv"
+        }
+      ],
+      "note": "Exchange closed Saturday. Level is the official 27 November trading close; day comparison uses 26 November. Collected 28 November 09:50 IST. Older comparisons use the dated NSE closing files."
+    },
+    "Sensex": {
+      "level": 83339.26,
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?interval=1d&range=5d",
+      "history": [
+        {
+          "date": "2026-11-26",
+          "level": 84328.59,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?interval=1d&range=5d"
+        }
+      ],
+      "note": "Friday BSE close distributed by Yahoo, cross-checked against Reuters' Friday closing report. Retrieved Saturday 09:50 IST; no Saturday trading. Week/month/year-end closing series were not collected."
+    },
+    "₹/US$": {
+      "level": 92.99,
+      "url": "https://economictimes.indiatimes.com/markets/forex/rupee-rally-takes-a-hit-as-ai-trade-revival-dents-shares-currency-sees-weekly-dip/articleshow/136218142.cms",
+      "history": [],
+      "note": "Friday spot closing rate reported by Reuters through Economic Times, not an FBIL fixing. Collected Saturday. A matching prior closing baseline was not included."
+    },
+    "Brent": {
+      "level": 97,
+      "url": "https://www.reuters.com/world/india/indian-shares-set-open-higher-eye-fifth-weekly-gain-inflows-boost-momentum-2026-11-27/",
+      "history": [],
+      "note": "Approximately USD 97 per barrel in Reuters' Friday India closing-market report; an intraday futures indication, not a Friday oil settlement or a Saturday quote. Approximate level and mixed observation times are intentional. No comparable settlement baseline supplied."
+    },
+    "Gold (₹/10 g)": {
+      "level": 126299,
+      "url": "https://ibjarates.com",
+      "history": [
+        {
+          "date": "2026-11-26",
+          "level": 122641,
+          "url": "https://ibjarates.com"
+        }
+      ],
+      "note": "IBJA 999-purity PM benchmark for Friday 27 November, rupees per ten grams excluding GST; comparison is Thursday PM. Collected Saturday 09:50 IST, not a live Saturday dealer quote."
+    },
+    "India 10-year G-sec yield": {
+      "url": "https://www.rbi.org.in/scripts/BS_NSDPDisplay.aspx?param=4",
+      "unavailableReason": "RBI's page, updated 27 November, gives a weekly par yield dated 20 November, not the current benchmark yield. A matching Friday close and comparison were not obtained."
+    }
+  },
+  "flows": {
+    "fii": 1634.33,
+    "dii": -556.42,
+    "fiiMtd": null,
+    "diiMtd": null,
+    "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+    "asOf": "2026-11-27",
+    "unavailableReason": "Friday cash-market figures are INR crore. Dated month-to-date totals in the same units were not obtained; no dollar-flow estimate is substituted."
+  },
+  "niftyPE": {
+    "now": 20.86,
+    "median5y": null,
+    "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_27112026.csv",
+    "asOf": "2026-11-27",
+    "unavailableReason": "Friday trailing P/E comes from NSE's closing file. A comparable five-year median was not obtained; today's ratio is not a historical median."
+  },
+  "facts": [
+    {
+      "value": 25607.2,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_27112026.csv",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 25884.5,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_26112026.csv",
+      "asOf": "2026-11-26"
+    },
+    {
+      "value": 83339.26,
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?interval=1d&range=5d",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 84328.59,
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EBSESN?interval=1d&range=5d",
+      "asOf": "2026-11-26"
+    },
+    {
+      "value": -1.07,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_27112026.csv",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": -1.88,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_27112026.csv",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 1.4,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_27112026.csv",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 1634.33,
+      "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": -556.42,
+      "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 126299,
+      "url": "https://ibjarates.com",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 122641,
+      "url": "https://ibjarates.com",
+      "asOf": "2026-11-26"
+    },
+    {
+      "value": 97,
+      "url": "https://www.reuters.com/world/india/indian-shares-set-open-higher-eye-fifth-weekly-gain-inflows-boost-momentum-2026-11-27/",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 92.99,
+      "url": "https://economictimes.indiatimes.com/markets/forex/rupee-rally-takes-a-hit-as-ai-trade-revival-dents-shares-currency-sees-weekly-dip/articleshow/136218142.cms",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 20.86,
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_27112026.csv",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 134,
+      "url": "https://www.marketscreener.com/news/coal-india-unit-mahanadi-coalfields-falls-1-5-in-trading-debut-ce7851d9db8cf423",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 136,
+      "url": "https://www.marketscreener.com/news/coal-india-unit-mahanadi-coalfields-falls-1-5-in-trading-debut-ce7851d9db8cf423",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 48.81,
+      "url": "https://www.marketscreener.com/news/coal-india-unit-mahanadi-coalfields-falls-1-5-in-trading-debut-ce7851d9db8cf423",
+      "asOf": "2026-09-30"
+    },
+    {
+      "value": 6.7,
+      "url": "https://www.marketscreener.com/news/coal-india-unit-mahanadi-coalfields-falls-1-5-in-trading-debut-ce7851d9db8cf423",
+      "asOf": "2026-09-30"
+    },
+    {
+      "value": 181,
+      "url": "https://www.moneycontrol.com/news/business/ipo/foodlink-f-b-holdings-fixes-price-band-at-rs-181-191-per-share-for-rs-361-crore-ipo-issue-opens-november-26-14087065.html",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 191,
+      "url": "https://www.moneycontrol.com/news/business/ipo/foodlink-f-b-holdings-fixes-price-band-at-rs-181-191-per-share-for-rs-361-crore-ipo-issue-opens-november-26-14087065.html",
+      "asOf": "2026-11-23"
+    },
+    {
+      "value": 99,
+      "url": "https://rbi.org.in/scripts/FS_Notification.aspx?Id=13759&Mode=0&fn=2",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 90,
+      "url": "https://rbi.org.in/scripts/FS_Notification.aspx?Id=13759&Mode=0&fn=2",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 700898,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64057",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": -4443,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64057",
+      "asOf": "2026-11-20"
+    }
+  ]
+}
