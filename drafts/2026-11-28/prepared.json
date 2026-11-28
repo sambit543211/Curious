@@ -1,0 +1,1470 @@
+{
+  "date": "2026-11-28",
+  "dashboard": null,
+  "picks": [
+    {
+      "symbol": "NATIONALUM",
+      "sector": "Metals & Mining",
+      "kind": "non-financial",
+      "price": 304.55,
+      "quoteDate": "2026-11-27",
+      "dataDate": "2026-09-30",
+      "metrics": {
+        "marketCap": 55687,
+        "divYield": 3.79,
+        "roce5y": 29.8,
+        "de": 0,
+        "salesCagr5y": 15,
+        "profitCagr5y": 35,
+        "ocfPositiveYears": 5,
+        "profitYoY": 28.32,
+        "promoterHolding": 51.28,
+        "promoterChange": 0,
+        "eps": 38.96,
+        "peMedian5y": 9.5,
+        "avgDailyValue": 191.43,
+        "high52": 445.15,
+        "low52": 255.11,
+        "pe": 7.82
+      },
+      "metricSources": {
+        "marketCap": {
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "divYield": {
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "roce5y": {
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "de": {
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "salesCagr5y": {
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "profitCagr5y": {
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "ocfPositiveYears": {
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "profitYoY": {
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "promoterHolding": {
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "promoterChange": {
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "eps": {
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "peMedian5y": {
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "avgDailyValue": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+          "asOf": "2026-11-20"
+        },
+        "pe": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261127_F_0000.csv.zip",
+          "asOf": "2026-11-27"
+        },
+        "price": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261127_F_0000.csv.zip",
+          "asOf": "2026-11-27"
+        },
+        "high52": {
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_27112026.csv",
+          "asOf": "2026-11-27"
+        },
+        "low52": {
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_27112026.csv",
+          "asOf": "2026-11-27"
+        }
+      },
+      "sources": [
+        {
+          "label": "Screener.in company pages, 2026-11-21",
+          "url": "https://www.screener.in/"
+        },
+        {
+          "label": "NSE Nifty 500 constituents",
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+        },
+        {
+          "label": "Screener.in: National Aluminium Co. Ltd.",
+          "url": "https://www.screener.in/company/NATIONALUM/consolidated/"
+        },
+        {
+          "label": "NSE bhavcopy (10-session average traded value)",
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+        },
+        {
+          "label": "NSE bhavcopy, 2026-11-27",
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261127_F_0000.csv.zip"
+        },
+        {
+          "label": "NSE adjusted 52-week high/low, 2026-11-27",
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_27112026.csv"
+        }
+      ],
+      "screen": {
+        "roce": true,
+        "debt": true,
+        "sales": true,
+        "profit": true,
+        "cash": true,
+        "valuation": true,
+        "pledge": null,
+        "liquidity": true
+      },
+      "pass": true,
+      "fairValue": 370.12,
+      "buyBelow": 296.1,
+      "verdict": "Wait",
+      "repeat": {
+        "lastDate": "2026-11-26",
+        "reason": "Verdict changed from Buy to Wait"
+      },
+      "score": 0.747,
+      "group": "pick"
+    },
+    {
+      "symbol": "ELGIEQUIP",
+      "sector": "Capital Goods",
+      "kind": "non-financial",
+      "price": 558.4,
+      "quoteDate": "2026-11-27",
+      "dataDate": "2026-09-30",
+      "metrics": {
+        "marketCap": 17649,
+        "divYield": 0.48,
+        "roce5y": 21.8,
+        "de": 0.2,
+        "salesCagr5y": 15,
+        "profitCagr5y": 31,
+        "ocfPositiveYears": 5,
+        "profitYoY": 5.79,
+        "promoterHolding": 31.19,
+        "promoterChange": 0,
+        "eps": 14.95,
+        "peMedian5y": 49.5,
+        "avgDailyValue": 15.62,
+        "high52": 653.4,
+        "low52": 408.25,
+        "pe": 37.35
+      },
+      "metricSources": {
+        "marketCap": {
+          "url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "divYield": {
+          "url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "roce5y": {
+          "url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "de": {
+          "url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "salesCagr5y": {
+          "url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "profitCagr5y": {
+          "url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "ocfPositiveYears": {
+          "url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "profitYoY": {
+          "url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "promoterHolding": {
+          "url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "promoterChange": {
+          "url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "eps": {
+          "url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "peMedian5y": {
+          "url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "avgDailyValue": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+          "asOf": "2026-11-20"
+        },
+        "pe": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261127_F_0000.csv.zip",
+          "asOf": "2026-11-27"
+        },
+        "price": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261127_F_0000.csv.zip",
+          "asOf": "2026-11-27"
+        },
+        "high52": {
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_27112026.csv",
+          "asOf": "2026-11-27"
+        },
+        "low52": {
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_27112026.csv",
+          "asOf": "2026-11-27"
+        }
+      },
+      "sources": [
+        {
+          "label": "Screener.in company pages, 2026-11-21",
+          "url": "https://www.screener.in/"
+        },
+        {
+          "label": "NSE Nifty 500 constituents",
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+        },
+        {
+          "label": "Screener.in: Elgi Equipments Ltd.",
+          "url": "https://www.screener.in/company/ELGIEQUIP/consolidated/"
+        },
+        {
+          "label": "NSE bhavcopy (10-session average traded value)",
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+        },
+        {
+          "label": "NSE bhavcopy, 2026-11-27",
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261127_F_0000.csv.zip"
+        },
+        {
+          "label": "NSE adjusted 52-week high/low, 2026-11-27",
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_27112026.csv"
+        }
+      ],
+      "screen": {
+        "roce": true,
+        "debt": true,
+        "sales": true,
+        "profit": true,
+        "cash": true,
+        "valuation": true,
+        "pledge": null,
+        "liquidity": true
+      },
+      "pass": true,
+      "fairValue": 740.03,
+      "buyBelow": 592.02,
+      "verdict": "Buy",
+      "score": 0.673,
+      "group": "pick"
+    },
+    {
+      "symbol": "COFORGE",
+      "sector": "Information Technology",
+      "kind": "non-financial",
+      "price": 2071,
+      "quoteDate": "2026-11-27",
+      "dataDate": "2026-09-30",
+      "metrics": {
+        "marketCap": 92454,
+        "divYield": 0.58,
+        "roce5y": 27.2,
+        "de": 0.27,
+        "salesCagr5y": 29,
+        "profitCagr5y": 29,
+        "ocfPositiveYears": 5,
+        "profitYoY": 42.35,
+        "promoterHolding": 0,
+        "promoterChange": 0,
+        "pledge": 0,
+        "eps": 56.12,
+        "peMedian5y": 44.6,
+        "avgDailyValue": 526.29,
+        "high52": 2185.6,
+        "low52": 1008.1,
+        "pe": 36.9
+      },
+      "metricSources": {
+        "marketCap": {
+          "url": "https://www.screener.in/company/COFORGE/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "divYield": {
+          "url": "https://www.screener.in/company/COFORGE/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "roce5y": {
+          "url": "https://www.screener.in/company/COFORGE/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "de": {
+          "url": "https://www.screener.in/company/COFORGE/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "salesCagr5y": {
+          "url": "https://www.screener.in/company/COFORGE/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "profitCagr5y": {
+          "url": "https://www.screener.in/company/COFORGE/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "ocfPositiveYears": {
+          "url": "https://www.screener.in/company/COFORGE/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "profitYoY": {
+          "url": "https://www.screener.in/company/COFORGE/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "promoterHolding": {
+          "url": "https://www.screener.in/company/COFORGE/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "promoterChange": {
+          "url": "https://www.screener.in/company/COFORGE/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "pledge": {
+          "url": "https://www.screener.in/company/COFORGE/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "eps": {
+          "url": "https://www.screener.in/company/COFORGE/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "peMedian5y": {
+          "url": "https://www.screener.in/company/COFORGE/consolidated/",
+          "asOf": "2026-11-21"
+        },
+        "avgDailyValue": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+          "asOf": "2026-11-20"
+        },
+        "pe": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261127_F_0000.csv.zip",
+          "asOf": "2026-11-27"
+        },
+        "price": {
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261127_F_0000.csv.zip",
+          "asOf": "2026-11-27"
+        },
+        "high52": {
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_27112026.csv",
+          "asOf": "2026-11-27"
+        },
+        "low52": {
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_27112026.csv",
+          "asOf": "2026-11-27"
+        }
+      },
+      "sources": [
+        {
+          "label": "Screener.in company pages, 2026-11-21",
+          "url": "https://www.screener.in/"
+        },
+        {
+          "label": "NSE Nifty 500 constituents",
+          "url": "https://nsearchives.nseindia.com/content/indices/ind_nifty500list.csv"
+        },
+        {
+          "label": "Screener.in: Coforge Ltd.",
+          "url": "https://www.screener.in/company/COFORGE/consolidated/"
+        },
+        {
+          "label": "NSE bhavcopy (10-session average traded value)",
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip"
+        },
+        {
+          "label": "NSE bhavcopy, 2026-11-27",
+          "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261127_F_0000.csv.zip"
+        },
+        {
+          "label": "NSE adjusted 52-week high/low, 2026-11-27",
+          "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_27112026.csv"
+        }
+      ],
+      "screen": {
+        "roce": true,
+        "debt": true,
+        "sales": true,
+        "profit": true,
+        "cash": true,
+        "valuation": true,
+        "pledge": true,
+        "liquidity": true
+      },
+      "pass": true,
+      "fairValue": 2502.95,
+      "buyBelow": 2002.36,
+      "verdict": "Wait",
+      "repeat": {
+        "lastDate": "2026-11-27",
+        "reason": "Verdict changed from Buy to Wait"
+      },
+      "score": 0.642,
+      "group": "pick"
+    }
+  ],
+  "facts": [
+    {
+      "value": 304.55,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261127_F_0000.csv.zip",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 55687,
+      "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 3.79,
+      "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 29.8,
+      "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0,
+      "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 15,
+      "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 35,
+      "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 5,
+      "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 28.32,
+      "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 51.28,
+      "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0,
+      "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 38.96,
+      "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 9.5,
+      "url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 191.43,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 445.15,
+      "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_27112026.csv",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 255.11,
+      "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_27112026.csv",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 7.82,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261127_F_0000.csv.zip",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 558.4,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261127_F_0000.csv.zip",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 17649,
+      "url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0.48,
+      "url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 21.8,
+      "url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0.2,
+      "url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 15,
+      "url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 31,
+      "url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 5,
+      "url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 5.79,
+      "url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 31.19,
+      "url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0,
+      "url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 14.95,
+      "url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 49.5,
+      "url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 15.62,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 653.4,
+      "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_27112026.csv",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 408.25,
+      "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_27112026.csv",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 37.35,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261127_F_0000.csv.zip",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 2071,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261127_F_0000.csv.zip",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 92454,
+      "url": "https://www.screener.in/company/COFORGE/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0.58,
+      "url": "https://www.screener.in/company/COFORGE/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 27.2,
+      "url": "https://www.screener.in/company/COFORGE/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0.27,
+      "url": "https://www.screener.in/company/COFORGE/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 29,
+      "url": "https://www.screener.in/company/COFORGE/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 29,
+      "url": "https://www.screener.in/company/COFORGE/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 5,
+      "url": "https://www.screener.in/company/COFORGE/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 42.35,
+      "url": "https://www.screener.in/company/COFORGE/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0,
+      "url": "https://www.screener.in/company/COFORGE/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0,
+      "url": "https://www.screener.in/company/COFORGE/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 0,
+      "url": "https://www.screener.in/company/COFORGE/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 56.12,
+      "url": "https://www.screener.in/company/COFORGE/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 44.6,
+      "url": "https://www.screener.in/company/COFORGE/consolidated/",
+      "asOf": "2026-11-21"
+    },
+    {
+      "value": 526.29,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 2185.6,
+      "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_27112026.csv",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 1008.1,
+      "url": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_27112026.csv",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 36.9,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261127_F_0000.csv.zip",
+      "asOf": "2026-11-27"
+    },
+    {
+      "value": 7570,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 0,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 7570,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 0,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 1538.1,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 0,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 31020,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 0,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 519,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 0,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 36.96,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 0,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 13120,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 0,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 222.78,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 0,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 3828.1,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 0,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 7090.5,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 0,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 113.15,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 0,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 419.05,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    },
+    {
+      "value": 0,
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261120_F_0000.csv.zip",
+      "asOf": "2026-11-20"
+    }
+  ],
+  "selection": {
+    "dips": [],
+    "picks": [
+      "NATIONALUM",
+      "ELGIEQUIP",
+      "COFORGE"
+    ],
+    "counts": {
+      "universe": 493,
+      "verified": 493,
+      "passed": 66,
+      "buyOrWait": 59,
+      "heldBack": 31,
+      "dipEligible": 0
+    },
+    "shortfall": {
+      "dip": "Only 0 of 493 verified stocks met the quality screen and the 52-week-low rules on the latest session.",
+      "pick": null
+    },
+    "session": "2026-11-27",
+    "fundamentalsDate": "2026-11-21",
+    "missingFromNse": []
+  },
+  "watchlist": {
+    "dataDate": "2026-11-20",
+    "entries": [
+      {
+        "symbol": "POLYCAB",
+        "pickDate": "2026-11-18",
+        "status": "Active",
+        "price": 7570,
+        "weekly": 0,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "POLYCAB",
+        "pickDate": "2026-11-19",
+        "status": "Active",
+        "price": 7570,
+        "weekly": 0,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "INDIAMART",
+        "pickDate": "2026-11-20",
+        "status": "Active",
+        "price": 1538.1,
+        "weekly": 0,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "PAGEIND",
+        "pickDate": "2026-11-20",
+        "status": "Active",
+        "price": 31020,
+        "weekly": 0,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "KPITTECH",
+        "pickDate": "2026-11-20",
+        "status": "Active",
+        "price": 519,
+        "weekly": 0,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "SUZLON",
+        "pickDate": "2026-11-20",
+        "status": "Active",
+        "price": 36.96,
+        "weekly": 0,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "DIXON",
+        "pickDate": "2026-11-20",
+        "status": "Active",
+        "price": 13120,
+        "weekly": 0,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "BLS",
+        "pickDate": "2026-11-21",
+        "status": "Active",
+        "price": 222.78,
+        "weekly": 0,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "KEI",
+        "pickDate": "2026-11-21",
+        "status": "Active",
+        "price": 3828.1,
+        "weekly": 0,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "GILLETTE",
+        "pickDate": "2026-11-21",
+        "status": "Active",
+        "price": 7090.5,
+        "weekly": 0,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "IEX",
+        "pickDate": "2026-11-21",
+        "status": "Active",
+        "price": 113.15,
+        "weekly": 0,
+        "reason": "NSE close at or below buy-below price"
+      },
+      {
+        "symbol": "HINDCOPPER",
+        "pickDate": "2026-11-21",
+        "status": "Active",
+        "price": 419.05,
+        "weekly": 0,
+        "reason": "NSE close at or below buy-below price"
+      }
+    ],
+    "picks": [
+      {
+        "date": "2026-11-18",
+        "symbol": "POLYCAB",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-18",
+        "symbol": "CAMS",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-18",
+        "symbol": "ECLERX",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-19",
+        "symbol": "POLYCAB",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-19",
+        "symbol": "CAMS",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-19",
+        "symbol": "ECLERX",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-20",
+        "symbol": "INDIAMART",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-20",
+        "symbol": "PAGEIND",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-20",
+        "symbol": "KPITTECH",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-20",
+        "symbol": "SUZLON",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-20",
+        "symbol": "DIXON",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-21",
+        "symbol": "BLS",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-21",
+        "symbol": "KEI",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-21",
+        "symbol": "GILLETTE",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-21",
+        "symbol": "IEX",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-21",
+        "symbol": "HINDCOPPER",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-22",
+        "symbol": "JUBLINGREA",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-22",
+        "symbol": "KSB",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-22",
+        "symbol": "LTM",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-22",
+        "symbol": "TRENT",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-22",
+        "symbol": "HINDZINC",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-23",
+        "symbol": "BSE",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-23",
+        "symbol": "POWERINDIA",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-23",
+        "symbol": "ABBOTINDIA",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-24",
+        "symbol": "APLAPOLLO",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-24",
+        "symbol": "DMART",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-24",
+        "symbol": "CRISIL",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-24",
+        "symbol": "VBL",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-24",
+        "symbol": "NATIONALUM",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-25",
+        "symbol": "SARDAEN",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-25",
+        "symbol": "TARIL",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-25",
+        "symbol": "PIDILITIND",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-25",
+        "symbol": "CHENNPETRO",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-26",
+        "symbol": "NATIONALUM",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-26",
+        "symbol": "CHENNPETRO",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-26",
+        "symbol": "OLECTRA",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-27",
+        "symbol": "COFORGE",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-27",
+        "symbol": "SOLARINDS",
+        "status": "Active"
+      },
+      {
+        "date": "2026-11-27",
+        "symbol": "TRITURBINE",
+        "status": "Active"
+      }
+    ]
+  },
+  "recentConcepts": [
+    "Learning science",
+    "Choice psychology",
+    "Habits",
+    "Evolutionary biology",
+    "Evolutionary genetics",
+    "Decision psychology · 2015",
+    "Group behaviour · 2010",
+    "Work psychology · 2026",
+    "Evolution · 2022",
+    "Evolution · 2018",
+    "Human behaviour · 2026",
+    "Memory · 2015",
+    "Judgment · 1994",
+    "Human evolution · 2022",
+    "Evolution · 2021",
+    "Diffusion of responsibility",
+    "Endowment effect",
+    "Cognitive dissonance",
+    "Mobile internet restriction and attention",
+    "Chatbot attachment and voluntary use",
+    "Conformity under unanimous pressure",
+    "Obedience and delegated responsibility",
+    "Leading questions and reconstructive memory",
+    "Conversational persuasion and personalisation evidence",
+    "Universal human identity and cross-group cooperation",
+    "Peak-end rule",
+    "Foot-in-the-door technique",
+    "Intrinsic respect for rules",
+    "Pratfall effect",
+    "High-quality listening through follow-up questions",
+    "Implementation intentions",
+    "Sunk-cost effect",
+    "False-consensus effect",
+    "Immersive nature relaxation and subjective versus objective sleep",
+    "Relationship-focused gratitude content",
+    "Barnum or Forer personal-validation effect",
+    "Time pressure and helping behaviour",
+    "Spotlight effect",
+    "Boredom and social behaviour: registered-report null effects",
+    "Personalised social-media nudges and mixed well-being outcomes",
+    "Automatic reading and Stroop interference",
+    "Gain-loss framing in risky choice",
+    "Misattribution of physiological arousal",
+    "Sleep retention versus subsequent encoding",
+    "Smartphone time caps and post-intervention rebound",
+    "The IKEA effect",
+    "The planning fallacy",
+    "The illusion of transparency",
+    "Self-compassion",
+    "Reading subgroup results",
+    "Mere exposure",
+    "Overjustification",
+    "The illusory truth effect",
+    "Assisted performance versus independent learning",
+    "Learning to supervise AI-written code",
+    "The halo effect",
+    "Choice overload",
+    "The door-in-the-face technique",
+    "Anxiety-driven precrastination",
+    "Sycophancy in personal advice",
+    "Anchoring from arbitrary numbers",
+    "Change blindness across an interruption",
+    "Skill and self-assessment calibration",
+    "Music before learning and memory specificity",
+    "Peer experiences and the liking gap",
+    "Learning science",
+    "Metacognition",
+    "Social behaviour",
+    "Evolutionary biology",
+    "Natural selection"
+  ],
+  "trending": {
+    "checkedAt": "2026-11-28T04:19:29.196Z",
+    "source": "Google News (India edition) top headlines",
+    "items": [
+      {
+        "id": "top1",
+        "feed": "Top stories",
+        "rank": 1,
+        "title": "Thirupparankundram row: Supreme Court finds wilful disobedience of Deepam order, directs lighting of pillar today",
+        "source": "The Hindu",
+        "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQTmNfSUVyV2FOX1JTQnVWR1pLSDJZUW1DVW00QTZlVTZmUEVMS0RzaWVQR2tYTzdFWGJ0NFdiR1NhSlJQRHJQT0ZKTGlsY1RxYkI1Qm9kRmJwb2hKcjl6VE1ZVXI2X3FKRzc3RWgteEZURGxjVURLV3NJVEx0T0xkY2k0YXN4TENid2d0d21TLUpNOGxQbTRPZ1N5T2VxU0dZQy16emhBRzdGZ0ItRXFiYXBmTDM3VlVxSHVXVnREVkdlMTJ3Yk9VOW1tNG5LbE10S29iaG9CQTE0WG5fdmhKX0ZHYzJGb3R4WTFmSGhDR19fR194MThicUtoN0pPWG5WVXlsNDladjM3WExoWFNISDFfSXhHTVpVOWNBZXU2UnB2UQ?oc=5",
+        "published": "Sat, 28 Nov 2026 01:19:53 GMT",
+        "related": 5,
+        "alsoIn": [
+          "India"
+        ]
+      },
+      {
+        "id": "top2",
+        "feed": "Top stories",
+        "rank": 2,
+        "title": "India's Modi to revive parliament expansion bill tied to women's quota, sources say",
+        "source": "Reuters",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaGVmSDBaZjd6MF8xcFA3WEZUTEItZ2sxLXVDaDVCbS03YUtRM2NWWGJkMnlLS2dJak11aGRucTJZREc2dE9heUt2bnV5NENmeS11SWRRbUtQaWdUeUpKV2V5VXZRdFRaUlJNUU9VZXpORmZVbGZjeWVKZXlEa3gzOU5Ha09lTERuMU5OSG56c1ljNXpPb0NkeG1Rbnd5aVR2eHFWZUxQU3l5N0lkdGFmb2o4aVlSRXB1dDlGdS1SRQ?oc=5",
+        "published": "Fri, 27 Nov 2026 12:00:50 GMT",
+        "related": 5
+      },
+      {
+        "id": "top3",
+        "feed": "Top stories",
+        "rank": 3,
+        "title": "Pakistan's space capability improving with China's help, we need to enhance our capabilities: CDS Gen Sub",
+        "source": "The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPNmYxamYzWlRYWVc1VGVHczMwQkV3RjNheWc1bUxCZ0NwNnVhaTg1SnJMdm9YZzVwTk9fdkNVZldUYVpOQW04U3VNZ1Y1RkxaN1p5OTVVUDg1MjBMblpZbHFzaFFmSnJvbE0xVGw4cWJHZnp4WXloeEMyZElLeXExMmVUWFhBS3ZOWDNsaTJqUHlfRlUxNmJLNDRuTlg0RWZEWWhEOTJGSmM5LXhNRGgzSEhJaGJPWHFfVm1iQnBoVXVvRjMwVU50SXJERWNHNkxxWEZHUW9EWjllWGZGNDhsVXpza01UdmhQcFpRSkhndmVYam01djlWSzBnOHZrVU5wMWZzNDByeUs?oc=5",
+        "published": "Fri, 27 Nov 2026 17:47:00 GMT",
+        "related": 5
+      },
+      {
+        "id": "top4",
+        "feed": "Top stories",
+        "rank": 4,
+        "title": "Kallakurichi TVK MLA Arul Vignesh arrested on charges of harassing IAS officer",
+        "source": "The Hindu",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOU3lVSDRva2dnOXpxX3BranNjVnA1SHR2OVJQUFhITllET29LSzZoeFdsUVNiVTFBRE5YMGNWbUxhdEFDeVNITmJyYjF3S0JRTDFZLVprZEx6VVZzVHdTR0JmSlN0T0VIdlV1eUd6Wm1wVDhwRzlVaGVBcWhoaXRKdTFkV0RRVDZ4VDc5T3F3NGM4ckpnQUh5RVh3UFZUYXRnX3VoRk1iRjkwRkFpcVo5NElBeTYxd2JEakhna1JJb3pHd3o5UGNHZDl5U2h1VUVRd185MGFBRWlEMW45RUUzc09n0gHoAUFVX3lxTE9tZHV0TmliSjNuMzZWT3ZaNEtjTnhUaHdDS3NPMHlQaXVMQktvUGZHYmpOVkNmMnFvS2RDUVJraXJWNTdSQjc4TkUwcGtpM240dDFsTzg4dWw2UzUxQWhOdWRyLXgwVmM3ZWtUcUo5ZGd1SEh2MW9Mb2MtUzF0Y2lpSGFNYklUUl9DdHVGSzQ1XzFzY3J3OHVXY2N5QzBvN2FDbjJ0TlZ2RnFueTUxTnpNT1ZsamFnN0lTOVMzazJGa3liZ0hJNzZvNDJkb1hDeGNEMUpyc3Y3UnV3RWMzT291SmU0R3hpbW8?oc=5",
+        "published": "Fri, 27 Nov 2026 13:54:57 GMT",
+        "related": 5,
+        "alsoIn": [
+          "India"
+        ]
+      },
+      {
+        "id": "top5",
+        "feed": "Top stories",
+        "rank": 5,
+        "title": "Is stubble burning in Punjab affecting Sri Lanka’s air quality?",
+        "source": "The Hindu",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZG9pQnFpQ1U4RDZ1cF9YVEpPQVloM09YVmpjSGJwVGpiSjY5Zkw4LVpuc3dZMXpSQ3lBQ1RqbldQd2c3OG1UeV9wTW43Y1JOODZfWWM2b2hnMWlXTVpJUHNvRGN1bTkxSHFld2c3akwtN3BxQTlJWmxpTXpLZWhGODl3aGN1dHI3MGxEYnMwOHp0ZC1mcU83MTdrTkNzTzlzZld3a1RYMGZIZXRKOTZOSUdpNFItTk13enZqT2Z6M3HSAccBQVVfeXFMUDFiT0pDbFprbHdYdHNMMnB6dS1UN3M5VkZCYl9zTmR6Mm5KMVFWcEJUbEZvaUdUZlNKSXd2cFNRTEI2Q1k3c3NEajhIdjBkLW9hNGIxYXJxOC1UZWl3bTdmMGZzTzVMOG9JY1ZUSW1QSm1wMzE5TGF1d2dxRUYtN3lyWGVyVDhzWkZMVnpiNEVUNzg2MWdzVGN3WTVoYmV5M0poSGtiaHRFMDAzUDJ3MHU5TGNVbHdibGhtY2o3ckktazBQaE9Daw?oc=5",
+        "published": "Fri, 27 Nov 2026 13:34:59 GMT",
+        "related": 5
+      },
+      {
+        "id": "india1",
+        "feed": "India",
+        "rank": 1,
+        "title": "Draft delimitation Bill released: 50% increase in seats, 850-seat Lok Sabha, freeze till 2051",
+        "source": "The News Minute",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVXl2UVJyWjlFU045VEtEOUZydEVnRU9jT3UtQ3gtN3V5ejdFWWtHeUxyXy1YYTI2dVJqTFlENFFlblhmbGVJM3VrQlhjY0s2aklBdVNwZGh5TVFKUXpBMVJteE9Eemtja01laEpVOFEyOEJ1SjdXTFBQay1VSENKbGZQN05Kb2hNNEhfdEtzVGQ1MzFvTmt6Uk9CQUdEcW8zdThSZ2F0VEFHbHlMZExIcHZlSkxCcWlDbzRIS05TOGZodw?oc=5",
+        "published": "Fri, 27 Nov 2026 17:23:23 GMT",
+        "related": 5
+      },
+      {
+        "id": "india2",
+        "feed": "India",
+        "rank": 2,
+        "title": "'Mischievous PM-HM jodi is lying': Special session aimed at delimitation, not women's quota, says Congress",
+        "source": "The New Indian Express",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPNVcxc2NrM2UtOE5iRDRnY3JEa1Ywc3JzMVJLN1ZqMEEzQTZJd0RtT3h3eHZLQy0xcURNWE9xWC1mYndpZ1BCSnBKVGhUWHlZRVEwTTVtbDFKN3J1b3pYekRKQmJKY01VUm94eEJzV0F6dHlNVjl0VGdCdXZMcXlyRUpjTW5fUzcxVkEtaUI4Yk92dWJZcVVlMUVRWVlpeEM0YVhfZThwLUc1M21TUVBvb0ptWHZZZDZtcFgyVkgwem81d2hPQ1huTGFwNFMwdG4xa0FUaEtRNUtzd2twTjV1aVo0amI3UdIB8wFBVV95cUxONHBKQVM0X1ZoZmx0VjZvNWg5NWd3ZXkyN0FpUHVHektZSnNzNTl1UGxYb1JNOEtOTG9jcmpvcmwxX0ZzV2RQT2FORjdTbnNDSEo2eEc4em5qdXZNTTQ1dkJudjVsSklaWGctLXhTdkhSeUpzTDVlX1JpbGdYbEFHSEZRYnA4UklFaUtVeHlOSEwzYjRNNXYxWmVEaVBncTQ4TEs1VEt0cXZaUUFKZ1d6SzhiV0hvMHJiRFFTM0lEM3lkdFctbElIcENtdFZsdzB2ZTRYdW9yXzFINlBGWFZqYlhndXR3V191YVhrTnB5eFowTjA?oc=5",
+        "published": "Fri, 27 Nov 2026 04:50:55 GMT",
+        "related": 5
+      },
+      {
+        "id": "india3",
+        "feed": "India",
+        "rank": 3,
+        "title": "South's share won't shrink: Naidu urges Opposition to back 50% Lok Sabha seat hike",
+        "source": "India Today",
+        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQMk8ydXd5a210YmhWdzBMSHIyRW9KeXJ2Z1AxZnhfQXRzejdieDdfYTI2cE5tZzlVTzZxckhmTXZ2ek5sYXVyclh0ckY3bnlGMFNOYVlYRHM2WnpXWjl0ci0ycUVCc1Z2TmtsekFzYy1VZEJLeFVEQVNuWUxndkwxWWVoVGtNMWR4V0tsNXFnNkRteFpVQkhOZFpzQjF0VWJ5X0lXWjFZV2lDemlWYXA3clA4WS1oblhRRFhFZnYxUTdPcllLamh5R1hHeUM0Zk1kMDNfZEIyYnREdjdtaDFDckgtcHR4U3lRVmZ4RmgxZEJZenItM01OMkpmYmpRZG9S0gGGAkFVX3lxTE5md2l4YzM3XzF2ZVZicktfOUVTUVRUNjFxX1FjM2tZMjAwSEpYMTBkWkIydEU5NklsY19La0hYWlJndDVPWXFJQmFMT2xPZUpQcHhTeTJ6ZXdtTU9nMTlhNFFGZU5GRDJKSE5PRy1GVG1IbVczbmctOFRBQzVFRzZmMVFoaklfVnA1bnRxblEyMFM5TElDM21QNTJ3UDI5allWNE51RXhENEVmYzAtaDRxZHd0UUtLT2NBNktmY0hZdXpBdjV5V0x2T0J6QUF4X0V6RWU1TmxGWHY0aEJZZkNRUzB5TG5uay1MTzRYbFpSX3lUcW5CNW1YVTVxZWVwSjNESVFrMEE?oc=5",
+        "published": "Fri, 27 Nov 2026 15:29:31 GMT",
+        "related": 5
+      },
+      {
+        "id": "india4",
+        "feed": "India",
+        "rank": 4,
+        "title": "UP govt transfers 28 IPS officers; four Police Commissioners shifted",
+        "source": "Legend Officers",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPS2Z0R3hqLTVvLUdQdEdDd3FOcl9PTWlqTDJNaGNyVmN0U2FqMDVpdGNYNC0ydS1jUWFVTGpLdFlxcTBZSXZmRTFEVk9yLUk1YTBJaXlRLWhZaVg5SXl2ZlRFR2ZvWVlFZHA3b01NSW94R3IwVDgwazBzV3Fob2lLNmQ3c2lJcExIR3VVODAwRFJyZTZwcTlmYUlMWQ?oc=5",
+        "published": "Fri, 27 Nov 2026 09:41:42 GMT",
+        "related": 5
+      },
+      {
+        "id": "india5",
+        "feed": "India",
+        "rank": 5,
+        "title": "School dropout posed as doctor at Delhi's Safdarjung Hospital; nabbed as fake degree racket busted | Latest News Delhi",
+        "source": "Hindustan Times",
+        "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOR2dFdXRkeXdUZGllblAwNHJGV0F4VTNwQWFLdEFxOEUzUGVNREF1VnFSMHdtSk1BTVhzWlJZODN0Z0RZRVptZ0U5UlFITVY1WnB0SjBfMFdteXRncW1odExzR1JtSUp2bGNjeUR0WEI1YXZBVnhEVktVQnRuMnNEdF9OT1NjSW1XdmJtakRySEJmcm9MYUEyUmJwNWdyMmsybVVuR21nU0dVRHR0VkxiZ1lCRFZzcXVfQllfZS1KQUNsdjdiZm54cmp1SnhjcmNIaGdOMFdpR2RVTS1qVnJ6TWttcVVrVlpMWGFFSGJDS094X2stOHVMOUJB0gH_AUFVX3lxTE9uU3ppS1J3NktUNFo3Ul9kdThUUC1JSWFHSEZPV09kRTZCQVpDRTNjcC1PUDNUc0x4ZmU4MlN4Y25WbjdOR19aTmtUbDJhLVJlS3NsOTRXR0pmNzBORkRMUzM0S0NkWDVlQmRMQ3JKWmVtUEtsbERlSmpaWFVaR1FMUW15TzlBb0JPTWR6UGNfN0xVSWFZb3ZCZzFnOHZiczRzeTVGV3lBX1B1V0J6WkRQTFdqU2NVVGpfbmtQY2lIRmtNMzcxTnFNU0lVTzVNR3A1bzVHTXdXYWlXbkpsSVJpV1cwM1pNd1NwNF8tMG5lVDRoNHlVaWxOeG5nVUxvUQ?oc=5",
+        "published": "Thu, 26 Nov 2026 18:12:36 GMT",
+        "related": 5
+      },
+      {
+        "id": "world1",
+        "feed": "World",
+        "rank": 1,
+        "title": "Iranian Girl, 14, Beaten To Death By Husband Days After Giving Birth For Asking To Visit Family",
+        "source": "NDTV",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPaG5EbEN5SEVYSWRkSjBNNndzT2lfaTVTZFIxQTMyQTE3UUJYXzMxRGxQRXE3WEFxOE5vc3JDSy03eDEzRmpadzJXTlhwSFpMYWVrYW9FeGd5ZThoS0FXUkd3Mk00QlFidnd6a1pRYXFKaG5CeVo4Zk9YcjdaSGgxb1FGZVFHbGJMMEhXYThzZXAtSVhvM09NaGxleHczSElBWWVHTTBMNF9SUTlWUjUtQkF1MkZsQVAzR3JseVZBTlJLcmVLSDczbFJwbFdIazTSAdcBQVVfeXFMT3BwWU13N0E0cVpfRHRMeEc2WmVnNXlNSkNlSzNRd2d5bk5XQ1dWNnNqbFp6akZxYzRIM29oYWkxUXdoTWpwS2J6Wmh2cXV1Tl83RlBjTC16TlBNRk9KVUxHU3E1enNraTBJdldxRU9tVEZYV0o5STB1c3JwRnh4MU5yS25qSThwelN2c3hwbW51M254M0ZqNHJRaGFhT2VMSXZKX2tUaUJzcjJCXzZVNGdXODlTMXR2b0cxOU5yMHFXYXoxNURuZ05oLXlUMGtnS1NuZk5nVmc?oc=5",
+        "published": "Sat, 28 Nov 2026 02:16:04 GMT",
+        "related": 5
+      },
+      {
+        "id": "world2",
+        "feed": "World",
+        "rank": 2,
+        "title": "With options limited, PM said readying to offer Eisenkot top spot in rotational gov’t",
+        "source": "The Times of Israel",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQY3k4dk1ZZzQ2Q2VsTHRMVldmbGNUQzFyNUxPeW54VDBLNS1YemhnOUxFdEVxRTZabXJUbUt2UnlkXy1KS21oNWtpcEhtWDdoeDlTcnZuMUR6cnBvSkY2cGV1amhNd0tUZFNTNTVaeWtpaFVaYm96X3hWbjdhelBRVU5MOENPQkxLcmpPSTFjcmFIeF96VjlHeTBNb3JaeUU3cHFpS0Y2ajlTcjVqQnV4SktwVHfSAboBQVVfeXFMT2IwT2RzZnlfYjhhbHhXXzk2NEpPLU5GNERaUy1qeXFZNkhzbjEwYWlnYmRSX0xMNWVYQThjdnlFaGpFRG83akJ2dnVhV2puSWN1aElzQVF3VmNMNU9Hc2ZoVUlYbjRlblRfQ2JIU3JmdVlvRGctbnpxVWVQa3hXQ0xDWWREaWw5MS16ZFF3WWpsejAwR0pWRm5NSFV1WkdmdF9OTmRPX3lzcGRISWFiZkpzWU9DaXk3WU9B?oc=5",
+        "published": "Sat, 28 Nov 2026 00:34:46 GMT",
+        "related": 5
+      },
+      {
+        "id": "world3",
+        "feed": "World",
+        "rank": 3,
+        "title": "Russia-Ukraine War Live Updates: Zelenskyy urges US pressure on Putin, questions Trump’s ‘my friend’ remark",
+        "source": "The Indian Express",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbEg3TThQT1VmUENIWHJSMTZkbUYxZk9vMjdVc3I4UWVIdDJmWndERmJJQlJNTnhzaGg0T2V6VUpJNVgtVnRUMUFOVmJnOVJBajF0ak1yekFmOVVKWVdQc1U0WEtlRnVpSjh1dWhlLV9oMmc1WmZIenVuc2JmSjhmQXBka0p2LXhQWXh2b3dEclo3SUFjLTF2a3Bhd3dta2Z6a1RQcUdFMElOejJZOEM2UjM4dk8wYlpSLTJjNTFRaWVaYzZWc2V5Y3NmamcwRmJvUFk0MtIB2wFBVV95cUxPSkRPcDIydmdZZWJ3OEs3THZnSUwtWkZqaEpyWnY0TGJXTy1Ib0VOcDF5RHQxTlluQ2s5MkVZUU9OeUNuRDBMRkpjdmw3Y0Y0a3Zidkc0MzN6S3lzdGRhd21xS0dfNTVwWURiNENicnowWllCME9CRXlleDJQUHVqZGU4Uy11Y0c1ajJFOUtaeFljMmFsSEZibUdJLVItUC1NWHk0M0hXNWxlTnpaQ3dWQ3BmQm5XQnVHT3VEdEJNSW83Y2l1WnVmVE05QWNGZVBwVnR4WFo3QmpCcXc?oc=5",
+        "published": "Fri, 27 Nov 2026 16:10:45 GMT",
+        "related": 5
+      },
+      {
+        "id": "world4",
+        "feed": "World",
+        "rank": 4,
+        "title": "Bangladesh labour unrest: Zara, H&M among brands shifting orders to India, other Asian hubs",
+        "source": "The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPcl9Sa1RnUmllOHM5RTZEMVJMYlBGaE1CNmdENDAyRVVFNFB4OVRMZVZRSDNvejlVU3NxYnFqMm9SUWdGSVNSQmpWc0NTR2xJalNiSTZFdE9ibFVXYmpOQmZ5WVBMdk00aVp5VlNaWncwNkJIdmIzYzUwU3k0d25qbWhPbmJKcjYxOVRyWnR2WG9oa3pzaVlMcUNrUzEwOTBtblAzUDZyZTFtbFlacGs4dkM4UDBaV281eFgwQ0l5ZkxUcXAtWVRtYXRDclFzWFRab21NMjg2Nmx2YWZOYmxmYnQ0a2JwTnBqMEFPWVY5MDZTUFI0VnhQaGhB?oc=5",
+        "published": "Fri, 27 Nov 2026 14:19:00 GMT",
+        "related": 5
+      },
+      {
+        "id": "world5",
+        "feed": "World",
+        "rank": 5,
+        "title": "In Canada, Quebec’s religious symbols ban faces a Supreme Court test",
+        "source": "Al Jazeera",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWDFMVWpnWktYeHdzOTJrNnI1amdScjN1cFY5Vi1tVk9FZ0VKNzd1RnRHVmFsLVZ2S3FUS1hPczFZYVo0RXBqQ0ppUkR4Mnh1Z0pTR084VlUtUThub0k1S2NHREJMWEE2X2MzU2pmVXpjeUppajloQS1BM0VkNk5VdUdiLTZOYmpiNXVsTEVGSmZiX0lpTjNnSkZHYVhrY29zQkV6aExuMGlIM3RienVWUEt30gG3AUFVX3lxTE1ya2Uzc2x5WHdUbzdYbEZvaTI5TnF3eTJ6WVViaFBxVzA1UHJsbi1zU0VKSmF2QTVQQUN3QnBpNFZydkx5anBPSERGUTg3X2kzV1pPMk41dnpfWmRTcDNZSGFIUHRpbXNHZXVDZFotRkxDMDhBNC1nVVdDYUd1X2FfNFF4ZFV2VjlPbThJRks0QjB4NG10MHQtQTZnU3pvVW1VVWlHNUtYYUFhQTRUOFNfYjhDaEJxVQ?oc=5",
+        "published": "Thu, 26 Nov 2026 22:53:28 GMT",
+        "related": 5
+      },
+      {
+        "id": "business1",
+        "feed": "Business",
+        "rank": 1,
+        "title": "No relief for Tata Trusts as Bombay High Court refuses to halt Tata Sons' November 30 board meeting",
+        "source": "Bar and Bench",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaDFvMEE3NEJBVkhrdmNkbXhhU0FDOExxRm5QU0UzTHpLRXBrTDJ3cldubHppaDFQcWlyMzR1YXNaUjNLODQ4dmdTeTA4NXVESGdSdzVQMERmeFJ3bjJIZmxWV1NNZDdTRk9sUGhhM2lLV25oMjVvWWV1RXJvNE0tbFlYZWZpMzhXeEo1Z2RXLVhud3U0VGJ0RGdfMTRpaUJoU1NTZ0tvNllxLU9LaF9vQlZSejhncU9TOFlBeThEcTJ6QlZGRmUtMTF2ONIB2AFBVV95cUxNeHdjUzlzU3luZGlHcmlYY2xTWlJMc1ljXzZjV0RpTUhLY0phb2lFaFdxYjRRMDBoRlVIalFpMkE3amgtcHA0UU1aNUoyS0pzMXpJdlA5TDI1OFVsZFdzYjdqd1NzNXhEMm5OQUdUeGlZMVVRNktBdXhrOF90S0pONHpHOVhiVHNQcnlLVThlbWhKb0ZOT0IydUY1dmhEYmc0WGZ5QUstbDBQZW1ZTXVTa2lhRlJNNEdkaTV5NXNMaFFmZE92aWpubDk5NEkxRkZvclNPaUVPUjg?oc=5",
+        "published": "Fri, 27 Nov 2026 13:14:07 GMT",
+        "related": 5
+      },
+      {
+        "id": "business2",
+        "feed": "Business",
+        "rank": 2,
+        "title": "Stock Market Highlights, Nov 27: Sensex tumbles 989 points, Nifty slips below 25,650 as IT stocks, HDFC Bank drag",
+        "source": "BusinessLine",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZTY4S3doT0FqNUxnb2RCMlpwY1RrVmZWTm5JdkxtOHhOQkRPMHdmLUpNRHl4ZzNrN3hEMTVSQ0pnQl9kMzlVc05uQ0dIeDZ3THY0VVRMMnpzaDVRU3NBeTVXV3dMOFJWTWYwSjdzZml3M2pxWTF1TDJ2cmRtQzZUOVRzaHlGV3FDc2JfaWdYZTN6QUIwSHdwUmdGTlI4Q0s5NS1pZW9xdVZfRzZHUXVWaVpMZTQwMkFlbDNkSlRtMF9xc3Q10gHLAUFVX3lxTE4tNF92b0x6UjRXV21CVzlJSVM0UUtURW1Ibm5NLS1DWlNGY2d1RkNVYTBfQW1relR2YVgxWUphQ3dSTnVCWGVTZVFsR2xhQk1pRFlPdDl6elNBVXc5ZmxHQ0tGUDJUbkVhMVJwSG1fRnpJQ3B3b0hwT05xNG9hVm5TekZJOGxDT0hYZkpRbDllb05fSlk1MDB0YWtyQWxiRHFyXzRhWHp2M0JpSm05Y1pHaW1tSUVwYmh0MHJXTHIySElYZ2xwdmtqZi1Z?oc=5",
+        "published": "Fri, 27 Nov 2026 10:54:58 GMT",
+        "related": 5
+      },
+      {
+        "id": "business3",
+        "feed": "Business",
+        "rank": 3,
+        "title": "Adani Group seeks government nod to invest in airline sector: CFO",
+        "source": "Moneycontrol.com",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbFNxMTJzLVZqUHlMZGRLQ0tLOFJTNG5rZWZ0UW02WVpKMmtsekMweERvNVVmOGxKLVl5c3d5QXl3M0lLcHczNV9ULU5mRXFYTkEybW5fWTA2MDB3b0ZZcjZfOEZoMmoxQWY2UVQtMlZURlBoVGtIblZ1ZWFVamMtQTlJbTVGU29XTENtVFBocVM2Z3Y4UnBLLVR1c3EzUjJ4SklXbHQ5ODJXOV9yNUZIZ0RHQlEzWnIzWDI3M3RSOTZTRGZjMGJIanRzdw?oc=5",
+        "published": "Fri, 27 Nov 2026 15:38:34 GMT",
+        "related": 5
+      },
+      {
+        "id": "business4",
+        "feed": "Business",
+        "rank": 4,
+        "title": "India's forex reserves fall $4.44 billion to $700.90 billion as gold holdings decline",
+        "source": "TradingView",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNNVc2MjBmdU9lWEI1VjMzMzdTcVZOQnFVYW1wYUFBWnJmX09oV1QwOEZGUVFCRTl0MDU4elk3bEN3UnVsdXRXVXFmS2RfbndJQUhYTjNnMjZpT1hQbDdPZ3RkLUl4cHJ4eENOaFgyNzFZUkppZVctbHBKTVhnckpnSTRwWll1b3pmYVNCWWV3OHVnSm1LZnRHRklpWDhmME5TYWMxY1Zpc3JqZ3c4M2ZLU2JUNUNIQkZVaFI3V3JtRk1GYTVXWWZsLUQzYW1jdnFqNm10WHZjZEtXbnBId3ZJ?oc=5",
+        "published": "Fri, 27 Nov 2026 12:56:06 GMT",
+        "related": 5
+      },
+      {
+        "id": "business5",
+        "feed": "Business",
+        "rank": 5,
+        "title": "Sebi may scrutinise Tata Steel-APL Apollo deal over RPT, shareholder worry",
+        "source": "Business Standard",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWWZyX3B6NWhxQ3hoQ1hGSXBDSDdvSmRpNHZEdnYyRGFRcnlQdEZMOVBRVnpMZGt0TlBPMVZfN3RIM0syVGpNVzY1YzRyUnlnTmJwbHlLUllvUGVnOHF1U3lvNlh4NmVub1BBQ0pKZjFsQzhrekFIQ0RmMFdjenkwWjVfdFVGcXVBVFZMNG9DNmdIYXQxS3hsQmhpcFV6UWVWYVBnWlVTbnBQZzUxeUptbGpWa1FvVDdWNVVkeGt3MWJ1N2ViQlJEcjhEakpRN2lNQmdhbkx5czExZ9IB3wFBVV95cUxQSjUyMUNIcDdRNkI1NDF3TWJ1ejk4ZTk3MkpGaExWbVNNRTVBZG94SnlqM0hMQ3dKTDhkaVJQR1hWWWVFQVBpdVBSaHNIRlBYazRtQ2hoeXUtcTVtS1huZVVwbURFZTZRSEZHYzBMQ243X00xTzUwdUJjcHQ4czl1SnNjTWZPSU1rUU43YTYwWDdmcEhMVGthZF9jNnhlU3BYa09ZWjV3NFU0VG5rMzRmUkxWcm1IT3EzM2RCREhyMktuVnhCTERnclI0eEtlQy0wdXM5Z2pPWjFINEF4Y0Mw?oc=5",
+        "published": "Thu, 26 Nov 2026 14:13:20 GMT",
+        "related": 5
+      },
+      {
+        "id": "tech1",
+        "feed": "Technology",
+        "rank": 1,
+        "title": "Dell's Black Friday Deals Are Here, Including $1,000 Off the XPS 16 We Loved",
+        "source": "PCMag",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5hWldBLTR4N3U0ZHFRLUlKdnljM0hKTVFJSjEteHBVc0o5QWw0eEJNU0p0bDUzdGpEYlVJdDgza1hVM1BvaGFqNFJJMFdUZGJpTHpuSkVLTVdlLU0tWkc3V2R4U3dqS01yeE1LSVJ0YXRMVWN4T0V5WGRob3Y?oc=5",
+        "published": "Fri, 27 Nov 2026 16:00:55 GMT",
+        "related": 5
+      },
+      {
+        "id": "tech2",
+        "feed": "Technology",
+        "rank": 2,
+        "title": "Wordle today: The answer and hints for November 27, 2026",
+        "source": "Mashable",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYVHB3Z2dZYVBBakxZS1ZHZndjYjk2b3RXQ09IcVkxUmFhZVNCZXpFdzByZjNtUU5ha0lkTjJaLUZFSU1XT1RySmlvUDRwUUxMakc1dEpvYXFDUl9aWUhTOFFyRW81QllBN0pzeDdqM0VsZGxMZG93YmNSRQ?oc=5",
+        "published": "Sat, 28 Nov 2026 03:06:24 GMT",
+        "related": 5
+      },
+      {
+        "id": "tech3",
+        "feed": "Technology",
+        "rank": 3,
+        "title": "Reliance Digitals Black Friday Sale: Enjoy Up to 50% Off on Smartphones, Laptops, TVs, Home Appliances and More",
+        "source": "TheWire.in",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTmFYbEpSb1hqNDBNYUVGRWlZWVBYaFRHZGx2UFkzTWdoOTZpY2cxdHJzdnE4UE5mX0d4NUpIUDNsLUhhdGtveldldU9qZmZoMlY2M1hSLXJJZUZDSnNYMVIwZ0I1WWxmdUVsWE1BY0R6TnNDNHotSDdxZjh3ZzFxeDZIaXRmRDVsZENUUkNxaTBHdXM1S0dRSGRPaktRMTJsSjhWWEVzZmF6dGY5U184c19DeVUzamoxSEdCeHlaOGV5dTFWQzFETUYyLWZjNnMteE5KVE56LV9kWUVRT3fSAeMBQVVfeXFMTnRGdlVia0t3aXNLX0l4Zm5kTXBJc2pqOGNUTzhrQ29saGNlbk9GNVVGOU15NzI4V3pXYTZxRkd1QTRFTHVGSDEtcG5kX2hIeHZVb0NELTBHeE4tLWFWcXkwdmNnNFhxVGlFN0ZTQ1pneEdUSHNSQnU0MlVJQ3ZiRDg2eFh4MGluNVRZVVBSOEtTSG4zb0xfNkdxY2szMEZJNm5yUDYwSHBZRGlMYWdTNkpLb0VvQjZwU1BXWXVrSGhUS1pUaEZtMWp0Y3pWZjZCcE40VFhjZTVqbnN6NnZpYTJLNnc?oc=5",
+        "published": "Fri, 27 Nov 2026 05:37:55 GMT",
+        "related": 5
+      },
+      {
+        "id": "tech4",
+        "feed": "Technology",
+        "rank": 4,
+        "title": "Radiomics Shows Promise in Distinguishing Bone Tumours",
+        "source": "EMJ",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOamVmZzdUY3RkNTcxbTYwWUlaa3lUN2xCN3podDgtYkxZbWdPWHhVcXJVYVRpcjZ3cFR6bGkzTndOVzRyenFUbkJockEzT3hnLXFWVVNYNWRia09ickN3SkxoazltUzJBY182QlZNam5jSklVQUJjeS1SeEd4Vk1BRGNVSG5ycFdxc3RnQV9XQTc4Nnd1VWNoVXJsWEVlZw?oc=5",
+        "published": "Fri, 27 Nov 2026 10:27:01 GMT",
+        "related": 0
+      },
+      {
+        "id": "tech5",
+        "feed": "Technology",
+        "rank": 5,
+        "title": "Motorola pivots to premiumisation, aims for third spot in India",
+        "source": "The Hindu",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaTJYR2tPREpIeUFhMTZ4MFlOajRlSlI0TV9pQnliWnJjLU1qVGdwU1hzOHItRlhNMU9Yb0F4cFZDczZ4STZaWklfM0t6b0RfVno1R05NR1ZYNDc3c1l5X3VBSmk4ckoxS2lVck1MMkwxRE1UakhOb0dVaDRvVi1BTFZkd01BNFVMcDgyUkppMGRaMm10YlRZeHpBWjQ0a2J6OHNGRFd1enhoYWRCaEluLUxZSnFrQVhnM1B1UTZETWF0V3RHM0HSAcwBQVVfeXFMTUJVUnhFMjZFcG85cXhxLWdtZnQ4U1E0cnBkdHUwa0U3NXNULVJXcmZZYVI0LUQ3MlVxa29fTUQxbk4yN0lScDNKQ3pMUXNfbllHWm5ZRUY3d0ZWQzlFemxTQTN2Tjh1dzQtUmRSOElYOTZHSU4zRE83bEo2ZGg5dXNkcjlCN1VSbWtqTHlURFZfcC1scFRjTkVWLU9ZOGE1QkgtaXFSS21xMjF0cHFuRm1OcWVLaTVVTXhQVk1zYVFyTnRaRVQwMjlHTldw?oc=5",
+        "published": "Fri, 27 Nov 2026 06:27:52 GMT",
+        "related": 5
+      }
+    ]
+  }
+}
